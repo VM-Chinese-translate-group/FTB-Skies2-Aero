@@ -1,0 +1,1035 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "pina_colada"
+	group: "4E06BB3DD10B837B"
+	icon: {
+		components: {
+			"tropicraft:cocktail": {
+				drink: "tropicraft:pina_colada"
+			}
+		}
+		id: "tropicraft:cocktail"
+	}
+	id: "0DCFFC4FFBC3B1E5"
+	order_index: 1
+	quest_links: [
+		{
+			id: "24D838D2C8435AB3"
+			linked_quest: "70A384F1352EE154"
+			shape: "diamond"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "4BE629905699476B"
+			linked_quest: "487A0367385B68BC"
+			shape: "square"
+			x: 4.5d
+			y: 0.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"0900DBFB006F8F85"
+				"20C1D77571C98669"
+				"6D53F52F41452E09"
+				"7D1FBA05137C755E"
+				"00EF44F8FEB82203"
+				"28583E75F9E834F6"
+			]
+			icon_scale: 1.25d
+			id: "2D0F5BF08D40618C"
+			min_width: 350
+			rewards: [{
+				amount: 5000
+				id: "6A835167AFE90535"
+				type: "currency"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "3451E16E0A4E988D"
+				item: { components: { "tropicraft:cocktail": { drink: "tropicraft:pina_colada" } }, count: 1, id: "tropicraft:cocktail" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C8E9EA5AAA70DE2"
+				"546A582A0084C982"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:block/generated/pineapple_juice_flow"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "00EF44F8FEB82203"
+			rewards: [{
+				amount: 50
+				id: "0B50CAD20EF3BE69"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "09D9342C4CD8FD2A"
+					item: { count: 1, id: "ftb:pineapple_juice_bucket" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "ftb:pineapple_juice"
+					}
+					id: "2CA9A97D227B014E"
+					type: "fluid"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"33349009FDC3501E"
+				"50FEA4A0E4E1EABD"
+				"77C20F4D048CD9BF"
+			]
+			icon: {
+				id: "ftb:cream_of_coconut_bucket"
+			}
+			id: "7D1FBA05137C755E"
+			rewards: [{
+				amount: 100
+				id: "303927F7D26A8EE9"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "016425C50AA247C7"
+					item: { count: 1, id: "ftb:cream_of_coconut_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "ftb:cream_of_coconut"
+					}
+					id: "1F70EA7534AB1659"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4E42C01668EF1E6F"
+				"5844023E5D3A5FC6"
+				"382E047665CBD83B"
+				"487A0367385B68BC"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "ftb:white_rum_bucket"
+			}
+			id: "6D53F52F41452E09"
+			rewards: [{
+				amount: 75
+				id: "13CE542A4045BC7A"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "71F307655C6203BE"
+					item: { count: 1, id: "ftb:white_rum_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "ftb:white_rum"
+					}
+					id: "3D616232F61F8767"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["283EA4E7BA93DA11"]
+			icon: {
+				id: "ftb:coconut_milk_bucket"
+			}
+			id: "50FEA4A0E4E1EABD"
+			rewards: [{
+				amount: 35
+				id: "64F903A837E36658"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "3AAC218B3DB44F1B"
+					item: { count: 1, id: "tropicraft:coconut" }
+					type: "item"
+				}
+				{
+					id: "4C427FEBB5537F77"
+					item: { count: 1, id: "tropicraft:coconut_chunk" }
+					type: "item"
+				}
+				{
+					id: "549540AC4DD771AD"
+					item: { count: 1, id: "ftb:coconut_milk_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "ftb:coconut_milk"
+					}
+					id: "2FD914E0B2CDBF1E"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["616E3CE38F1D73AE"]
+			icon: {
+				id: "ftb:emulsifier"
+			}
+			id: "33349009FDC3501E"
+			rewards: [{
+				amount: 25
+				id: "720EC7E398A7F1E2"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 32L
+				id: "14FD6112C8C00CA1"
+				item: { count: 1, id: "ftb:emulsifier" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "ftb:citric_acid_crystal"
+			}
+			id: "77C20F4D048CD9BF"
+			rewards: [{
+				amount: 50
+				id: "11AEF812501A7C51"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "37DF7844A26FE750"
+					item: { count: 1, id: "tropicraft:orange" }
+					type: "item"
+				}
+				{
+					id: "72ACDBE68D7841EB"
+					item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+					type: "item"
+				}
+				{
+					id: "44C41215431A8BC1"
+					item: { count: 1, id: "mekanism:chemical_washer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4BF9C70822843E98"
+					item: { count: 1, id: "ftb:citric_acid_crystal" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2CC49B7C1ADB01A2"]
+			id: "2C8E9EA5AAA70DE2"
+			rewards: [{
+				amount: 30
+				id: "65803669E366F477"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "4F7100A5257ACD6F"
+				item: { count: 1, id: "ftb:temporal_pineapple_juice_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7569178CFA3533D7"]
+			icon: {
+				id: "auroral:shimmering_ice"
+			}
+			id: "2CC49B7C1ADB01A2"
+			rewards: [{
+				amount: 25
+				id: "17385BD1BDB7A953"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "086BF50086EA87F2"
+					item: { count: 1, id: "auroral:shimmering_ice" }
+					type: "item"
+				}
+				{
+					id: "46935A830892E57B"
+					item: { count: 1, id: "justdirethings:time_crystal_block" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B986C3D7E212B33"]
+			id: "7569178CFA3533D7"
+			rewards: [{
+				amount: 75
+				id: "14566D461092EFED"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2F25259F6B2D7D96"
+				item: { count: 1, id: "tropicraft:pineapple" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"2A140788CF103FFB"
+				"19AD731AAB341F7A"
+				"59CC8388935D98A2"
+				"5317AEA8F2339F72"
+				"70A384F1352EE154"
+			]
+			id: "546A582A0084C982"
+			rewards: [{
+				amount: 100
+				id: "3C2A1AF48C179296"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "77BE02920B89D95F"
+				item: { count: 1, id: "ars_elemental:flashpine_pod" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "neovitae:reagent_growth"
+			}
+			id: "2A140788CF103FFB"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6A6D4EEEF3C87CF8"
+					item: { count: 1, id: "neovitae:tabula_vitae" }
+					type: "item"
+				}
+				{
+					id: "7F057AD8C176DF01"
+					item: { count: 1, id: "neovitae:reagent_growth" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7569178CFA3533D7"]
+			icon: {
+				id: "tropicraft:pineapple_cubes"
+			}
+			id: "19AD731AAB341F7A"
+			rewards: [{
+				amount: 25
+				id: "50F6C9C0B8DA1536"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "517404DADE9FF4B7"
+					item: { count: 1, id: "pneumaticcraft:assembly_controller" }
+					type: "item"
+				}
+				{
+					id: "6CDBDC88370FBC4B"
+					item: { count: 1, id: "tropicraft:pineapple_cubes" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "382E047665CBD83B"
+			rewards: [{
+				amount: 50
+				id: "1FF3A52752140953"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7CBE83105A142D2B"
+				item: { count: 1, id: "modern_industrialization:ethanol_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5E5A46EAEC68E4FD"]
+			icon: {
+				id: "ftb:enchanted_sugar"
+			}
+			id: "4E42C01668EF1E6F"
+			rewards: [{
+				amount: 40
+				id: "0068B7C4A87DBCCA"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "13EF844D2E9C406E"
+				item: { count: 1, id: "ftb:enchanted_sugar" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48CFC042AE951056"]
+			icon: {
+				id: "ftb:sculk_powder"
+			}
+			id: "5844023E5D3A5FC6"
+			rewards: [{
+				amount: 25
+				id: "72103BCAFB784DF9"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "380D17A5D608654B"
+					item: { count: 1, id: "apothic_enchanting:warden_tendril" }
+					type: "item"
+				}
+				{
+					id: "43865029062F6283"
+					item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+					type: "item"
+				}
+				{
+					id: "5568FEBA2E60962A"
+					item: { count: 1, id: "ftb:sculk_powder" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "ftb:molten_hellfire_bucket"
+			}
+			id: "48CFC042AE951056"
+			rewards: [{
+				amount: 25
+				id: "18FF6BAA17F40140"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0DD4C85FEFBDF7BE"
+					item: { count: 1, id: "neovitae:ingot_hellforged" }
+					type: "item"
+				}
+				{
+					id: "2D5396E0D8AF4FD4"
+					item: { count: 1, id: "ftb:molten_hellfire_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "ftb:molten_hellfire"
+					}
+					id: "205683FE3373B2AF"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "ftb:compressed_sugar"
+			}
+			id: "5E5A46EAEC68E4FD"
+			rewards: [{
+				amount: 25
+				id: "4AE1D2D1806EE529"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0127E6052B1817C5"
+					item: { count: 1, id: "ftb:compressed_sugar" }
+					type: "item"
+				}
+				{
+					id: "6F25EA9A5E06524F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(pneumaticcraft:pressure_chamber_valve)item(modern_industrialization:implosion_compressor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:unholy_intelligence"
+			}
+			id: "5317AEA8F2339F72"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4E59C83B0F1D8554"
+					item: { count: 1, id: "oritech:refinery_block" }
+					type: "item"
+				}
+				{
+					id: "26426635DE1B4755"
+					item: { count: 1, id: "oritech:still_strange_matter_bucket" }
+					type: "item"
+				}
+				{
+					id: "6CB775D755F5DAB6"
+					item: { count: 1, id: "oritech:unholy_intelligence" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"305D6DE67EF4ECA9"
+				"0F2DCE3085A31789"
+				"14EFD20C0400F2CF"
+			]
+			id: "0900DBFB006F8F85"
+			rewards: [{
+				amount: 125
+				id: "4B10B999306F96D1"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5CB45EDD2274E1C3"
+				item: { count: 1, id: "ftb:ice_cubes" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["283EA4E7BA93DA11"]
+			id: "305D6DE67EF4ECA9"
+			rewards: [{
+				amount: 50
+				id: "4876D8B8C8A8EB01"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7F367BF65F7708A6"
+				item: { count: 1, id: "ftb:empowered_ice" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "modern_industrialization:helium_3_bucket"
+			}
+			id: "0F2DCE3085A31789"
+			rewards: [{
+				amount: 100
+				id: "7E5346E702BF4243"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6D6A7E1878BF048C"
+					item: { count: 1, id: "modern_industrialization:helium_3_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "modern_industrialization:helium_3"
+					}
+					id: "3E06CBD6261D39A6"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "modern_industrialization:cryofluid_bucket"
+			}
+			id: "14EFD20C0400F2CF"
+			rewards: [{
+				amount: 50
+				id: "07710AF7FDF22D34"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "49E68F7AB8F8AC82"
+					item: { count: 1, id: "modern_industrialization:cryofluid_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "modern_industrialization:cryofluid"
+					}
+					id: "044F1628F8194B72"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"302868ED0A86B151"
+				"60BE013CD997EA21"
+				"6BBB23F6E03B3523"
+			]
+			icon: {
+				id: "ftb:bedrockium_mug"
+			}
+			id: "20C1D77571C98669"
+			rewards: [{
+				amount: 250
+				id: "15BFC6AC09B705C2"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5BFED9B7FACD6305"
+				item: { count: 1, id: "ftb:bedrockium_mug" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "excessive_utilities:bedrockium_drum"
+			}
+			id: "60BE013CD997EA21"
+			rewards: [{
+				amount: 45
+				id: "742D63DB7BD31990"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "10BCE39406442B3D"
+					item: { count: 1, id: "ftb:molten_impure_bedrockium_bucket" }
+					type: "item"
+				}
+				{
+					id: "4D865F09561392CD"
+					item: { count: 1, id: "excessive_utilities:demonically_gargantuan_drum" }
+					type: "item"
+				}
+				{
+					id: "15FCCD97EB9C9806"
+					item: { count: 1, id: "excessive_utilities:bedrockium_drum" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2C5BB08BA01C2F8C"
+				"4D4907AE087DB72A"
+				"6B86574E77643F07"
+			]
+			icon: {
+				id: "ftb:polonium_quantized_bamboo_plating"
+			}
+			id: "6BBB23F6E03B3523"
+			rewards: [{
+				amount: 50
+				id: "74D798EFA4324516"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "763CD6BB1F0DA390"
+				item: { count: 1, id: "ftb:polonium_quantized_bamboo_plating" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "mekanism:pellet_polonium"
+			}
+			id: "2C5BB08BA01C2F8C"
+			rewards: [{
+				amount: 35
+				id: "7E3CD9F86131D659"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4FA5CA3A4969771D"
+				item: { count: 1, id: "mekanism:pellet_polonium" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "advanced_ae:quantum_alloy_plate"
+			}
+			id: "4D4907AE087DB72A"
+			rewards: [{
+				amount: 25
+				id: "2997135442EC9F2D"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "16BA1B8A5616C5B7"
+					item: { count: 1, id: "advanced_ae:reaction_chamber" }
+					type: "item"
+				}
+				{
+					id: "493A522B2373CFD8"
+					item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "ftb:realized_transcendence"
+			}
+			id: "59CC8388935D98A2"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "29373A2D179E3520"
+					item: { count: 1, id: "malum:fused_consciousness" }
+					type: "item"
+				}
+				{
+					id: "30E280BCFA786932"
+					item: { count: 1, id: "ftb:realized_transcendence" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0982AECAA96C6DA5"
+				"740706F63579237D"
+				"65549EC5F1FAB671"
+				"570BDF1FA230FF2A"
+				"24FF4F633F92B480"
+			]
+			id: "28583E75F9E834F6"
+			optional: true
+			rewards: [{
+				amount: 500
+				id: "292CB0EEE974D408"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "44568D18A429D286"
+				item: { count: 1, id: "ftbskies2aerocompanion:quantum_energiser" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "0982AECAA96C6DA5"
+			rewards: [{
+				amount: 50
+				id: "1D49719F7DA53F7A"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "39E829066E33A740"
+				item: { count: 1, id: "advanced_ae:quantum_accelerator" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "570BDF1FA230FF2A"
+			rewards: [{
+				amount: 150
+				id: "6E1017C4A743F65A"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0425197F5A96CBAF"
+				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "740706F63579237D"
+			rewards: [{
+				amount: 150
+				id: "4A24FA93EC389710"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E54C6D9C742AD18"
+				item: { count: 1, id: "draconicevolution:chaotic_core" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "65549EC5F1FAB671"
+			rewards: [{
+				amount: 75
+				id: "0AAAB04540F5BFB9"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B2F1685F62AF4EF"
+				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0E5E76F892EC6ECF"
+				"467CF111A0FF327A"
+			]
+			id: "24FF4F633F92B480"
+			rewards: [{
+				amount: 150
+				id: "238F3ADCAB4B54BB"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "43DF026BFA3AF4ED"
+					item: { count: 1, id: "ftb:quantum_shaft" }
+					type: "item"
+				}
+				{
+					id: "3CF06177028C6049"
+					item: { count: 1, id: "ftb:quantum_rod" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "302868ED0A86B151"
+			rewards: [{
+				amount: 15
+				id: "65405279B881B83B"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7DD20A5272A3C32C"
+				item: { count: 1, id: "modern_industrialization:industrial_tnt" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "ftb:mob_tears_bucket"
+			}
+			id: "6B86574E77643F07"
+			rewards: [{
+				amount: 25
+				id: "5531701CCF9D8128"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2F44C41B3DA6021E"
+					item: { count: 1, id: "ftb:mob_tears_bucket" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "ftb:mob_tears"
+					}
+					id: "5DDDC9A11A42A2B1"
+					optional_task: true
+					type: "fluid"
+				}
+			]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "oritech:black_hole_block"
+			}
+			id: "1B986C3D7E212B33"
+			rewards: [{
+				amount: 50
+				id: "1338F07C39D3E6AE"
+				type: "currency"
+			}]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					id: "073C1E8DD3907940"
+					item: { count: 1, id: "xycraft_machines:extractor" }
+					type: "item"
+				}
+				{
+					id: "6E9D19EB17C5A60A"
+					item: { count: 1, id: "oritech:black_hole_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "467CF111A0FF327A"
+			rewards: [{
+				amount: 100
+				id: "34477C44A74E5F9C"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6058821A7AEE7A98"
+				item: { count: 1, id: "ftb:infinitely_compressed_circuit_board" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "0E5E76F892EC6ECF"
+			rewards: [{
+				amount: 75
+				id: "1AC1F4E10E8786E2"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "542E4C69C455BE66"
+				item: { count: 1, id: "ftb:bio_neural_circuit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+	]
+}

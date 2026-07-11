@@ -1,0 +1,1283 @@
+{
+	autofocus_id: "12468F8BF7B80737"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "hexagon"
+	filename: "the_travelers_quest"
+	group: "293B0513F4340751"
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/nether_portal"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "24B8C5083DAC9280"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/lava_still"
+			rotation: 45.0d
+			width: 1.0d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			height: 4.0d
+			image: "ftb:textures/quests/titles_and_logos/travelers_quest_logo.png"
+			order: -1
+			rotation: 0.0d
+			width: 9.422222222222222d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			alpha: 100
+			height: 4.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			alpha: 100
+			height: 1.6d
+			image: "irons_spellbooks:textures/entity/acid_orb/acid_orb.png"
+			rotation: 45.0d
+			width: 1.6d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			alpha: 100
+			height: 2.5d
+			image: "irons_spellbooks:block/cinderous_soul_rune"
+			order: -9
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			alpha: 100
+			height: 5.0d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle1.png"
+			order: -9
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			alpha: 100
+			color: 5636095
+			height: 6.0d
+			image: "malum:item/geas/pact_of_the_berserker"
+			order: -10
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.4d
+			image: "malum:textures/mob_effect/rejected.png"
+			rotation: 0.0d
+			width: 1.4d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			alpha: 191
+			height: 12.5d
+			image: "ftb:textures/quests/titles_and_logos/tempad_bg.png"
+			order: -10
+			rotation: 0.0d
+			width: 18.0d
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/app/tp_to/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/app/timeline/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/app/knowledge_repository/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/button/teleport/normal.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			alpha: 127
+			height: 1.0d
+			image: "tempad:textures/gui/sprites/guide/images/tva.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	order_index: 4
+	quest_links: [{
+		id: "71A1B77A36280588"
+		linked_quest: "781D7DA09E444B95"
+		x: 0.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			id: "12468F8BF7B80737"
+			min_width: 250
+			rewards: [{
+				amount: 1
+				id: "5C4ADDC7F82B8A3E"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7EAA8ABB633CEEE1"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2B4392602E94D3D8"
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "71199E855CB820FE"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A201DC82D5E095B"
+					table_id: 9029519111662458436L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "fargostalismans:item/master_ninja_gear"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6F50B64460D2EC3D"
+				structure: "ftb:fargo"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:cherry_sapling"
+			}
+			id: "2444739C768D6C1A"
+			rewards: [
+				{
+					amount: 10
+					id: "6E6FEC69740098C1"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "4712B166F8C20033"
+					item: {
+						components: {
+							"minecraft:entity_data": {
+								id: "minecraft:painting"
+								variant: "ftb:skies2"
+							}
+						}
+						count: 1
+						id: "minecraft:painting"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				icon: {
+					id: "minecraft:cherry_log"
+				}
+				id: "4FC3BC8A7A312F41"
+				structure: "ftb:skyvillage"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:crimson_fungus"
+			}
+			id: "43332C74EA1B94AB"
+			rewards: [
+				{
+					amount: 10
+					id: "577F532F44624765"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "4C6FB27591D2A59F"
+					item: {
+						components: {
+							"minecraft:entity_data": {
+								id: "minecraft:painting"
+								variant: "ftb:skies2_night"
+							}
+						}
+						count: 1
+						id: "minecraft:painting"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:crimson_stem"
+					}
+					id: "0290B3120DAD48ED"
+					optional_task: true
+					structure: "ftb:crimson_sky_village"
+					type: "structure"
+				}
+				{
+					icon: {
+						id: "minecraft:warped_stem"
+					}
+					id: "176957689D9994FC"
+					optional_task: true
+					structure: "ftb:warped_sky_village"
+					type: "structure"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:abyssal_sacrifice"
+			}
+			id: "67E9EE3BEDB801B5"
+			rewards: [{
+				amount: 50
+				id: "6EB65D27D13824F3"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "0EA4EE2B266C809D"
+					structure: "ftb:water_orb"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:coralssus"
+					id: "6D2BF51317854A51"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					id: "56F4B59903257C92"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "37613B8FF7323E8D"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "6A55C4C9CFCFC5A1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "ars_additions:ancient_codex_entry"
+			}
+			id: "2EA531C50FE17444"
+			rewards: [
+				{
+					amount: 10
+					id: "07BB12FCBBB16765"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "79203403B5E861A4"
+					item: {
+						count: 1
+						id: "ars_additions:lost_codex_entry"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A10DD6AAF05B8DC"
+				structure: "ftb:arcane_library"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "3A084B83B8CFAACD"
+			rewards: [{
+				amount: 50
+				id: "206611DC929A9370"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "1129E77967D0783F"
+					structure: "ftb:burning_arena"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ignited_berserker"
+					id: "590BA3A3FF454C9F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignited_revenant"
+					id: "7EA00D7548DFAE17"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ignis"
+					id: "19AAFC3C9FA8644D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:chiseled_polished_blackstone"
+			}
+			id: "74647E2214729AD6"
+			rewards: [
+				{
+					amount: 30
+					id: "7F6E3F8494AD2D0C"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "7669B5E8EFA5F56E"
+					item: {
+						count: 1
+						id: "minecraft:raw_gold_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "752B0F75C9739446"
+					structure: "ftb:bastion"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "1B57887DBB51CBFC"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:permafrost_shard"
+			}
+			id: "5003396EDC1C994E"
+			rewards: [{
+				amount: 4
+				id: "4E83431EE92163D9"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [{
+				id: "1F637306293D20C8"
+				structure: "ftb:cryomancer_tower"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:fire_ale"
+			}
+			id: "1B8F8FB85E523670"
+			rewards: [{
+				amount: 2
+				id: "66C7792E17A252B3"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [{
+				id: "1E8A40FC83FDC270"
+				structure: "ftb:pyromancer"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "irons_spellbooks:netherward_tincture"
+			}
+			id: "21A521011401074F"
+			rewards: [{
+				amount: 2
+				id: "5B9FA04B7FC49065"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [{
+				id: "1B8D2EA3B6BC97C1"
+				structure: "ftb:apothecary_hut"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:necklace_of_the_desert"
+			}
+			id: "3CCE39C0957034B3"
+			rewards: [{
+				amount: 10
+				id: "53403C7210F89933"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "69DB26B69DC04127"
+					structure: "ftb:blazing_desert"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:koboleton"
+					id: "74534CC66FBC3BD3"
+					optional_task: true
+					type: "kill"
+					value: 2L
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:magma_block"
+			}
+			id: "45C187DEF7B60C05"
+			rewards: [
+				{
+					amount: 10
+					id: "44398FCF71CD0363"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 32
+					id: "435A5B6523C12DE7"
+					item: {
+						count: 1
+						id: "ae2:sky_stone_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03CB37E752FE1DD1"
+				structure: "ftb:volcano"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "659F9057A150189E"
+			rewards: [{
+				amount: 50
+				id: "3686A492484E13B1"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "6B908D9445BA99AD"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ender_golem"
+					id: "709D22141E914EBE"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "6671FEB950BFFF31"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:cursed_tombstone"
+			}
+			id: "4F8C7DC594972DE4"
+			rewards: [{
+				amount: 50
+				id: "75612FEA8A5007C3"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "2E4D00ED273B0E08"
+					structure: "ftb:ice_castle"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:aptrgangr"
+					id: "179DE9F43A4001F3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:maledictus"
+					id: "4415E9DB78B55B97"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "minecraft:nether_bricks"
+			}
+			id: "12498DE8D427D40E"
+			rewards: [
+				{
+					amount: 10
+					id: "0DF33C4BCFCFA7C1"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 8
+					id: "5311D641691B566E"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "554CEA60D1280A89"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "cataclysm:blessed_amethyst_crab_meat"
+			}
+			id: "7D22824ADC29DA26"
+			rewards: [{
+				amount: 3
+				id: "0D6EE3D98BB05B95"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "022935E19BC9A7EF"
+					structure: "ftb:cherry"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:amethyst_crab"
+					id: "01A8B6D685C1FB27"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/archevoker_logbook"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4BB5ADD98F958712"
+			rewards: [{
+				amount: 20
+				id: "30602B40042B91AA"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [{
+				id: "61EB975FAD009EF7"
+				structure: "ftb:magical_dungeon"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:witherite_ingot"
+			}
+			id: "5CE773814750FE5C"
+			rewards: [{
+				amount: 50
+				id: "594EF92C2D9918B8"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "0452998EA074A157"
+					structure: "ftb:nether_castle"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:the_watcher"
+					id: "349CB5A281EE3E5B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_prowler"
+					id: "73E22145698B74EB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "52F0EDA1127A9D44"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:remnant_skull"
+			}
+			id: "0F9701557D63D898"
+			rewards: [{
+				amount: 50
+				id: "5469F44C663ED77E"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "43335047972E4FA8"
+					structure: "ftb:end_castle"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "1CE45CD8AD3D29F1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:lacrima"
+			}
+			id: "000F1E507ACDFAAE"
+			rewards: [{
+				amount: 50
+				id: "243AEFD55DE5D256"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "446DBFCB73EC10E7"
+					structure: "cataclysm:acropolis"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:clawdian"
+					id: "0E7BA466F8A98A9F"
+					optional_task: true
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:scylla"
+					id: "41F820C3A757072B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["408AB6B9AEFBC23D"]
+			id: "1ADE323F448DCF12"
+			optional: true
+			rewards: [
+				{
+					amount: 2
+					id: "15B3EE029C83D29C"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 8
+					id: "7B6F75ABE8279E5F"
+					item: {
+						count: 1
+						id: "tempad:location_card"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1160D43AF702BD7B"
+				item: { count: 1, id: "tempad:card_wallet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"59968CB3EFFC440D"
+				"3A43CCB33A024711"
+			]
+			id: "7F2A004DF03F6BEC"
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "5826F9948162E9F9"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "5CA2571FFF674963"
+					item: {
+						count: 1
+						id: "tempad:location_broadcaster"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C9D5FEB492AC602"
+				item: { count: 1, id: "tempad:player_teleport_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3A43CCB33A024711"]
+			id: "007707B4F0DAD692"
+			optional: true
+			rewards: [
+				{
+					amount: 3
+					id: "452ECF2034A20F64"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "07683D451F18ACDB"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 0.75d
+			tasks: [{
+				id: "47080D09C0D57D84"
+				item: { count: 1, id: "tempad:knowledge_repository_upgrade" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0F7F7C7ABF851D84"]
+			id: "0219C9D8447C8936"
+			optional: true
+			rewards: [
+				{
+					amount: 3
+					id: "61AC1E72AE02141F"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "676722973021E26F"
+					item: {
+						components: {
+							"tempad:chronon_content": 2000
+						}
+						count: 1
+						id: "tempad:chronon_cell"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3D2D458043B75906"
+				item: { count: 1, id: "tempad:timedoor_projector" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			hide_dependency_lines: true
+			icon: {
+				id: "tempad:timedoor_marker"
+			}
+			id: "408AB6B9AEFBC23D"
+			rewards: [
+				{
+					amount: 2
+					id: "17D3375DD2CFE445"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "6815B04C3C4E9F7C"
+					item: {
+						count: 1
+						id: "tempad:timedoor_marker"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44DE193241E5F100"
+					item: { count: 1, id: "tempad:timedoor_marker" }
+					type: "item"
+				}
+				{
+					id: "6BB266317B26CB61"
+					item: { count: 1, id: "tempad:location_card" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			icon: {
+				id: "tempad:chronon_cell"
+			}
+			id: "0566053CCA772771"
+			rewards: [
+				{
+					amount: 1
+					id: "61D597B9B945C369"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "3C2AD7D46A39DEB8"
+					item: {
+						count: 1
+						id: "tempad:knowledge_projector"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "0A6FFAE93401D919"
+				item: { count: 1, id: "tempad:chronon_cell" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			id: "0F7F7C7ABF851D84"
+			rewards: [
+				{
+					amount: 2
+					id: "0EB8DC30739AF3C2"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "7BB2C6969C5EA6E1"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "32BBF64ABFE71BDF"
+				item: { count: 1, id: "tempad:chronon_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			hide_dependency_lines: true
+			id: "59968CB3EFFC440D"
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "1E6B3C3610171F00"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "1E8DD31790A9BF92"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B552557B658ACD7"
+				item: { count: 1, id: "tempad:location_broadcaster" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["53FBBFC675F1FE7F"]
+			id: "7DE9A4C7979AC1FA"
+			rewards: [
+				{
+					amount: 10
+					id: "4D637521E280E83C"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "0432010453988287"
+					item: {
+						components: {
+							"tempad:chronon_content": 2000
+						}
+						count: 1
+						id: "tempad:chronon_battery"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2F44186A4DA8CB3C"
+				item: { count: 1, id: "tempad:tempad" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["408AB6B9AEFBC23D"]
+			id: "669DCBD04E5C4D5E"
+			optional: true
+			rewards: [
+				{
+					amount: 3
+					id: "0CF4760A6C40DFD8"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "61EAC69FF7B8A144"
+					item: {
+						count: 1
+						id: "tempad:chronomark"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "221C02CB865B35FC"
+				item: { count: 1, id: "tempad:chronomark" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6D28E1AFBB33C43E"]
+			id: "53FBBFC675F1FE7F"
+			rewards: [{
+				amount: 4
+				id: "35D95F087E92B598"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [{
+				id: "6BDF16773361ABBB"
+				item: { count: 1, id: "tempad:chronon_battery" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["53FBBFC675F1FE7F"]
+			id: "214D210F200CD11F"
+			optional: true
+			rewards: [{
+				amount: 10
+				id: "580D4B389D5C2F7F"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [{
+				id: "6F40388CBA960719"
+				item: { count: 1, id: "tempad:time_twister" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"53FBBFC675F1FE7F"
+				"0F7F7C7ABF851D84"
+			]
+			dependency_requirement: "one_completed"
+			id: "54B7D149B45635F4"
+			rewards: [{
+				amount: 3
+				id: "005FAA3F386BF75E"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "55C720CD3637149B"
+				item: { count: 1, id: "tempad:chronometer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7DE9A4C7979AC1FA"]
+			id: "3A43CCB33A024711"
+			rewards: [{
+				amount: 50
+				id: "2D39EE756037A114"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "01DFA0CD379F7EB2"
+				item: { count: 1, id: "tempad:workstation" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["54B7D149B45635F4"]
+			id: "575A111D4418BFB6"
+			rewards: [
+				{
+					amount: 10
+					id: "56DC22833A5266EF"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 6
+					id: "4431EDA9F717BA78"
+					item: {
+						count: 1
+						id: "tempad:time_steel"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				id: "087FB63FB0661AED"
+				item: { count: 1, id: "tempad:metronome" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["59968CB3EFFC440D"]
+			id: "31FBB4478F32B054"
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "2CB859EBF633C44D"
+				team_reward: false
+				type: "currency"
+			}]
+			tasks: [{
+				id: "0E59EAE103B456D2"
+				item: { count: 1, id: "tempad:screening_device" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0566053CCA772771"]
+			id: "6D28E1AFBB33C43E"
+			rewards: [
+				{
+					amount: 3
+					id: "021FFB6829EE0351"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "7B804FEC14D74103"
+					item: {
+						count: 1
+						id: "tempad:time_steel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75DBA364117DAF1C"
+				item: { count: 1, id: "tempad:time_steel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
+}
