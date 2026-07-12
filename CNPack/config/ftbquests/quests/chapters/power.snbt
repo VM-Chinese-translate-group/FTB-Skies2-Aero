@@ -201,7 +201,7 @@
 		}
 		{
 			height: 1.75d
-			hover: ["Induction Matrix"]
+			hover: ["感应矩阵"]
 			image: "ftb:textures/quests/mekanism/induction.png"
 			rotation: 0.0d
 			width: 1.75d
