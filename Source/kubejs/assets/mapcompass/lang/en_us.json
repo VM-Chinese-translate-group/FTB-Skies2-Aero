@@ -1,0 +1,10 @@
+{
+  "mapcompass.action.set_compass": "Set Compass",
+  "mapcompass.action.apply": "Apply",
+  "mapcompass.message.compass_set": "Compass set to X: %d, Z: %d",
+  "mapcompass.message.no_compass": "You must hold a compass in your hand!",
+  "mapcompass.item.compass_name": "Compass [X: %d, Z: %d]",
+  "mapcompass.label.name": "Name:",
+  "block.mapcompass.navigator_table": "Navigator's Table",
+  "mapcompass.lore.reset_hint": "Craft alone to reset"
+}
