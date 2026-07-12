@@ -1,10 +1,10 @@
 {
   //这是一条为避免忘记修改而写的注释，如何修改请查看Readme文件。
-  "packId": 130,
-  "packName": "FTB StoneBlock 4",
-  "versionPattern": "FTB StoneBlock 4 {version}",
-  "mcVersion": "1.20.1", 
-  "loader": "forge",
+  "packId": 128,
+  "packName": "FTB Skies 2 Aero",
+  "versionPattern": "FTB Skies 2 Aero {version}",
+  "mcVersion": "1.21.1", 
+  "loader": "neoforge",
   "updateMethod": "cursethebeast",
   "infoFilePath": "CNPack/modpackinfo.json",
   "sourceDir": "Source",
