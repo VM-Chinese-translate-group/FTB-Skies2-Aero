@@ -366,7 +366,7 @@
 	]
 	quest.05CEF45909A11F60.title: "&eSophisticated Backpacks"
 	quest.0603F40C8DB12868.quest_desc: [
-		"&3Diesel Generators&r can provide on-demand power by burning different fuels, most notably &eDiesel&r."
+		"&3柴油发电机&r可通过燃烧&e柴油&r等燃料即时发电。"
 		""
 		"不像&2蒸汽锅炉&r，柴油发电机只有发电时才会消耗燃料。"
 		""
@@ -7358,11 +7358,11 @@
 	]
 	quest.6B6C60BFE1D378D0.title: "&6Max Size Assembler Matrix"
 	quest.6B971FA156A96BD5.quest_desc: [
-		"A &aSpirit Catalyzer&r consumes inserted furnace fuels to accelerate the processing speed of a nearby &eCrucible&r, up to eight are able to function on a single Crucible."
+		"&a精魂催化器&r会消耗熔炉可用的燃料来给附近的&e坩埚&r加速。1个坩埚最多可以被8个催化器加速。"
 		""
-		"This speed can sometimes cause more damage to the focal &eImpetus&r than usual, decreasing the total amount of material it can create before needing to be fixed or replaced."
+		"这种加速可能会导致作为核心材料的&e促符&r损坏得更快，从而减少它能够合成的物品数量，而后你就必须修复或替换它了。"
 	]
-	quest.6B971FA156A96BD5.title: "&aSpirit Catalyzer"
+	quest.6B971FA156A96BD5.title: "&a精魄催化器"
 	quest.6BB9FD515DFD8FF1.quest_desc: [
 		"&bAE2&r comes with a built-in guide that you can access at any time within JEI."
 		""
@@ -7375,13 +7375,13 @@
 	quest.6BC7C49D7F7D5AAF.quest_desc: ["By combining our &eSulfuric Naphtha&r with &bHydrogen&r in a &3Chemical Reactor&r, we can separate the liquid into &aNaphtha&r and &eSulfuric Acid&r."]
 	quest.6BC7C49D7F7D5AAF.title: "&eSulfuric Naphtha Processing"
 	quest.6BCA2ED05C7D9D4E.quest_desc: [
-		"The rejection of magic, when properly isolated from the mage wearing it, provides a powerful defense."
+		"只要靠这套盔甲来隔开朝你进攻的施法者，它那对魔法的排斥能力就会给予你强大的防御。"
 		""
-		"Magic attacks and boons alike are partially absorbed by the &5Malignant Stronghold&r, used to further fuel the armor's integrity and warding capabilities."
+		"&5恶念要塞&r会吸收你的一部分法术强度及其他属性，用作这套盔甲的食粮，从而进一步将其补完，并增强其防御能力。"
 		""
-		"&7The more they fight, the closer their end approaches."
+		"&7他们越是挣扎，死亡越是逼近。"
 	]
-	quest.6BCA2ED05C7D9D4E.title: "&6Malignant Armor"
+	quest.6BCA2ED05C7D9D4E.title: "&6恶念要塞盔甲"
 	quest.6BD4E9B7B2C99C27.quest_desc: [
 		"To make a &6Nuclear Reactor&r, you'll need &6Nuclear Alloy Plates&r. These are crafted using &bBlastproof Ingots&r, &2Beryllium Ingots&r, and &eCadmium Ingots&r."
 		""
@@ -7436,8 +7436,8 @@
 		"&d蚀空合金锄&r可开垦出顶级耕地：&d暗影脉壤&r。这种耕地的作物生长速度最快，且保留了先前层级的所有功能。"
 	]
 	quest.6C7F31673B12795D.title: "&5蚀空合金工具"
-	quest.6CA9ED28F944DECC.quest_desc: ["&aSoulstained Armor&r provides more than just adequate physical protection, having a second property of &babsorbing&r a large portion of magic-based damage. This property needs to recover over time, but does so at no other noticeable cost to the wearer."]
-	quest.6CA9ED28F944DECC.title: "&dSoulstained Armor"
+	quest.6CA9ED28F944DECC.quest_desc: ["&a魂染盔甲&r不仅有着强大的物理防御能力，还有着第二种能力——&b吸收&r大量的魔法伤害。这种能力需要花费时间才能恢复，除此之外不会有任何消耗。"]
+	quest.6CA9ED28F944DECC.title: "&d魂染盔甲"
 	quest.6CADA41796D0F7F9.quest_desc: ["After progressing through whichever path you pick, iron should come easily enough, allowing for further progression through vanilla and, more notably, all manner of mods."]
 	quest.6CADA41796D0F7F9.title: "&fProper Materials"
 	quest.6CD6367FB419EA35.quest_desc: [
@@ -7544,8 +7544,8 @@
 		"只要&a物质网络管道&r中有一处在接受能量，那么它就会自动将能量传输给网络中的机器，管道也会自动将物质传输到&a物质储罐&r里。"
 	]
 	quest.705E4FFB4FCADFD1.title: "&f物质网络"
-	quest.7061D35A3E480891.quest_desc: ["These are powerful &2Runes&r that can provide powerful and unique effects to enhance your effects."]
-	quest.7061D35A3E480891.title: "&5Umbral Runes"
+	quest.7061D35A3E480891.quest_desc: ["这有多种强大的&2符文&r，能够提供独特而有力的增益效果，以此强化你的各项能力。"]
+	quest.7061D35A3E480891.title: "&5幽影符文"
 	quest.7067E5B47D381423.quest_desc: [
 		"If you want to transfer Source around your world, you'll need to make &bSource Relays&r."
 		""
@@ -7558,12 +7558,12 @@
 	quest.7067E5B47D381423.title: "&fTransferring &dSource"
 	quest.706E469302F9F383.title: "Sourcefied Liquid"
 	quest.70753CD7045AE9E1.quest_desc: [
-		"&5Malignant Pewter&r is a material made of magic that is inherently counter to the world of magic and creation."
-		"Weapons and armor made from the stuff seem to seek to undo, to end, if not outright destroy."
+		"&5恶念白镴&r是一种魔法材料，这种材料天生就对这充满了魔法和创造的世界抱有恶意。"
+		"这种材料制成的武器和盔甲不是为了彻底的毁灭，就是为了打破禁忌和寻求终结。"
 		""
-		"&7The greatest tales all told, end with silence."
+		"&7一切伟大传说，终将归于死寂。"
 	]
-	quest.70753CD7045AE9E1.title: "&5Malignant Pewter"
+	quest.70753CD7045AE9E1.title: "&5恶念白镴"
 	quest.708C19120EB4F31F.title: "钻石时代"
 	quest.708DD6CD3AE7F0FE.quest_desc: ["Decayed guardians of the nether fortresses"]
 	quest.708DD6CD3AE7F0FE.title: "&fKill 10 &cWither Skeletons"
@@ -7639,11 +7639,11 @@
 		"It is the substrate for almost every sigil you will ever scribe."
 	]
 	quest.7169587C7DC4C8C0.quest_desc: [
-		"&5Umbral Spirits&r can be acquired from sacrificing souls of the living."
+		"若想获得&5幽影精魄&r，需以生命的灵魂作为祭品。"
 		""
-		"This may be done by throwing yourself into the &5Weeping Well&r. It can also be dropped rarely by slaying villagers with the &6Veil's Edge&r."
+		"你可以将自己投入&5哭泣之井&r来完成献祭；此外，在使用&6帷幔之锋&r杀死村民时，也有小概率获得此物。"
 	]
-	quest.7169587C7DC4C8C0.title: "&5Spirit of Sacrifice"
+	quest.7169587C7DC4C8C0.title: "&5献祭精魄"
 	quest.71806E77AEE9E050.quest_desc: [
 		"一旦你获得了一些&a锇&r，就可使用&e热力发电机&r开始生成基础电力。"
 		""
@@ -7943,11 +7943,11 @@
 	]
 	quest.74E9A69F9F8CDA3D.title: "&a铁傀儡符石"
 	quest.74EA351011AA309F.quest_desc: [
-		"This mysterious &6precious substance&r cannot be created through any crude means, and must be found scattered on various landmasses and structures throughout the void to obtain it, barring a deep dive into technological or arcane resource generation."
+		"这种神秘的&6珍贵物质&r无法用任何原始手段创造出来，只有游历在虚空中的各个岛屿和结构之间才能找到它，除非你深入地研究了依赖于科技或奥术的资源再生手段。"
 		""
-		"&eSmall deposits&r can be regularly seen scattered throughout floating villages, especially in their &7work centers&r."
+		"&e深岩珍金簇&r通常会散布在浮空村庄里，尤其是在村民们的&7工作中心&r里。"
 	]
-	quest.74EA351011AA309F.title: "&fCthonic Gold"
+	quest.74EA351011AA309F.title: "&f深岩珍金"
 	quest.7517BE86F55F739A.quest_desc: [
 		"If you've been exploring the world, you may have noticed the distinct lack of &dEnd Portals&f, and that's because you'll have to make your own!"
 		""
@@ -8022,11 +8022,11 @@
 	]
 	quest.7695C03E7A574D93.title: "&b活化水晶碎片"
 	quest.76A73B12FC436D0C.quest_desc: [
-		"You have opened your eyes to all knowledge known to "
+		"你已窥见所有已知的知识。"
 		""
-		"It's recommended to craft yourself the &6Encyclopedia Unveiled&r to unlock all available content for &eMalum&r and &eGaze&r."
+		"现在，推荐你合成一本&6越幔全典&r，来解锁&e灵灾&r和&eGaze&r的全部可用内容。"
 	]
-	quest.76A73B12FC436D0C.title: "&6Encyclopedia Unveiled"
+	quest.76A73B12FC436D0C.title: "&6越幔全典"
 	quest.76CE17956D6DA7A1.quest_desc: [
 		"Brew an &cArcane Scribe Tool&r in the Tabula Vitae."
 		""
@@ -8048,11 +8048,11 @@
 	]
 	quest.76F225C6B9A79620.title: "&fAwkward Potion"
 	quest.77074CE5719763BB.quest_desc: [
-		"This &aHex Staff&r holds formidable power in melee combat and is capable of collecting Spirit, but what makes it stand out is its ability to fire off potent charges of &bspirit energy&r from your soul."
+		"这把&a忆念咒术法杖&r有着强劲的近战能力，并且可以收集精魂。不过它真正优秀的点在于它能利用你的灵魂来充能，并释放出&b精魂能量&r攻击。"
 		""
-		"These charges replenish over time (seen on the hotbar), and can be increased or regained through various enchantments or trinkets."
+		"充能会随时间自动恢复（详见饱食度上的状态条），还可以被附魔和饰品强化充能上限或加快恢复速度。"
 	]
-	quest.77074CE5719763BB.title: "&dMnemonic Hex Staff"
+	quest.77074CE5719763BB.title: "&d忆念咒术法杖"
 	quest.77372AD6C4049263.quest_desc: [
 		"For modded veterans, &eEnderIO&r held great memories due to its amazing pipes, called &dConduits&r."
 		""
@@ -8180,13 +8180,13 @@
 	]
 	quest.7819C1805C7E5BCD.title: "&aFarmer"
 	quest.781D7DA09E444B95.quest_desc: [
-		"This &5structure&r out in the void leaks whispers and heartbeats and weeping and tugs on certain items with its dark pull. It ... wants something. Try offering it your &earcane knowledge&r, or raw resources, see what you might get in return."
+		"这个来自虚空的&5结构&r散发着低语、心跳和哭泣的声音，它那黑暗的引力正向外界索取着某些物品。它…有想要的东西。试着把你的&e奥术全典&r交给它，或者给它一些粗矿，看看你会得到什么回报。"
 		""
-		"What is spat back out resembles the original, but is altered in some way that cannot be undone. Perhaps what this place wants is simply to change things, as we often do."
+		"被送回来的物品仍与它们原本的模样有些相似，但它们的改变却是不可逆转的。也许这个地方想要的仅仅是把事物改变而已，就像我们常做的那样。"
 		""
-		"That said, while any item that does not show signs of a dark pull is simply rejected, living offerings do not give &7&oanything&r back at all after they fall silent. Surely they were just weak..."
+		"也就是说，没有受到这股黑暗引力索取的物品只会被简单的扔出井外。然而，向井献上的活物却不会换回来&7&o任何东西&r。显然，它们太弱了…"
 	]
-	quest.781D7DA09E444B95.title: "&fThe &5Weeping Well"
+	quest.781D7DA09E444B95.title: "&5哭泣之井"
 	quest.782CCA40CEBC135A.quest_desc: ["Create a spawner with minimal delays that has redstone control, no AI, ignores spawn conditions, and ignores players."]
 	quest.782CCA40CEBC135A.title: "The Ultimate Spawner"
 	quest.789BE725F2F89196.quest_desc: ["The &aEntity Reader&r gives you information about an entity such as its name, type, or &3NBT Tags&r."]
@@ -8297,13 +8297,13 @@
 	quest.7A26B0FFC0BCA275.quest_desc: ["Applicable to &aEnderic Lasers&r. Targets living entities."]
 	quest.7A26B0FFC0BCA275.title: "&fMachine Hunter Addon"
 	quest.7A62B07AD0BCCCEA.quest_desc: [
-		"While at first it seems that collecting &bSpirit&r can only be done manually, a closer inspection into &5Wicked-aligned&r runewood &espirit rites&r shows a special synergy."
+		"虽然一开始玩家只能手动收集&b精魂&r，但只要仔细观察这些&5被邪恶浸染的&r符文木，就会发现它们的&e精魂仪式&r与精魂之间有着一种奇特的共鸣。"
 		""
-		"The lesser rite will &dslowly damage&r nearby hostile mobs down to low health, and the greater rite will &dcull mobs&r in both body and soul when they are at low health, generating &bSpirit&r alongside their standard drops!"
+		"衰朽仪式会&d缓慢地伤害&r附近的敌对生物，直到它们生命值见底，而它的升级版则会在它们生命值较低时&d收割它们&r的躯体和灵魂，并在产出普通掉落物时附上它们的&b精魂&r。"
 		""
-		"&7A similar synergy exists for passive animals among the various rites..."
+		"&7这种共鸣同样存在于友好生物与某些仪式之间……"
 	]
-	quest.7A62B07AD0BCCCEA.title: "&fAutomating Spirits?"
+	quest.7A62B07AD0BCCCEA.title: "&f自动化精魄？"
 	quest.7A82CC64D8966010.quest_desc: ["Dropping &aCrystallized Canola Seeds&r into &aRefined Oil&r will turn it into &3Crystallized Oil&r, which still has one last upgrade."]
 	quest.7A82CC64D8966010.title: "&3Crystallized Canola Seeds"
 	quest.7A8669713BE28E8F.quest_desc: [
@@ -8367,13 +8367,13 @@
 	]
 	quest.7B954D1F7620FA41.title: "&b全能工具"
 	quest.7BA228FC749BF70A.quest_desc: [
-		"Although the &eCatalyzer&r can increase the speed of the &eSpirit Crucible&r, many more aspects of its function can be tweaked with various &aAugments&r. Some of these affect different Crucible stats, while others will add entirely new mechanics to the system. Consult the &eMalum book&r for details!"
+		"&e精魂坩埚&r的合成速度可以被&e催化器&r提高，但其他的功能需要用到各种不同的&a增强件&r才能调整。其中一些增强件可以为坩埚属性带来不同的影响，另一些则会为坩埚的合成系统添加全新的机制。具体信息请看&e奥术全典&r！"
 		""
-		"A &aTuning Fork&r will show these stats and features above the Crucible when held, and can tweak some minor aspects when used on it."
+		"手持&a调谐音叉&r时，你可以看见坩埚的属性等信息，还可以选择优先属性。"
 		""
-		"Up to four can be applied to the Crucible itself, and linked Catalyzers can accept one augment each to apply to their Crucible."
+		"坩埚本体最多可以安置四个增强件，而附近的催化器则每个都可以安置一个增强件，从而给坩埚带来增益。"
 	]
-	quest.7BA228FC749BF70A.title: "&aCrucible Augments"
+	quest.7BA228FC749BF70A.title: "&a坩埚增强"
 	quest.7BA817A69CE39AF0.quest_subtitle: "+10% 召唤伤害"
 	quest.7BA817A69CE39AF0.title: "&a召唤师护符"
 	quest.7BCC2E37198682F8.quest_desc: ["Acquire an item with level X enchantment"]
@@ -8781,7 +8781,7 @@
 	task.1114E07F8446FAA0.title: "Block Management"
 	task.1129E77967D0783F.title: "&e找到建筑&f：&c烈焰竞技场"
 	task.115CB2D5036912BA.title: "Any #minecraft:leaves"
-	task.11B86810F19A15B9.title: "Any &5Umbral Rune"
+	task.11B86810F19A15B9.title: "任意&5幽影符文"
 	task.11F49F841465DAAD.title: "任意#jdt:ferricore_tools"
 	task.1211B7B1BC40225B.title: "Storage Controllers"
 	task.121417E43B67D623.title: "任意蜡烛"
@@ -8846,7 +8846,7 @@
 	task.2CA99A333EDFB6FC.title: "&a精华耕地&r"
 	task.2CC8184A4A0C3AED.title: "In World Upgrading"
 	task.2CD07B6CF24F7460.title: "&bUpgraded Addons"
-	task.2D6AEF337BEAFA58.title: "Any Spirit Crucible Augment"
+	task.2D6AEF337BEAFA58.title: "任意精魂坩埚增强"
 	task.2D717F3B3573B504.title: "&bUpgraded Addons"
 	task.2DCE94139CB2078D.title: "&aUtility Upgrades"
 	task.2E2AAC08F926D8EE.title: "&fPower \\&\\ You"
@@ -8870,7 +8870,7 @@
 	task.354FABEDA5A08474.title: "&6四阶"
 	task.36C5D1EED2022E8D.title: "&a一阶"
 	task.36D4CF12BC70DBDD.title: "&fAll About Networks!"
-	task.3772CB9C1C8A3D66.title: "Automating Spirits?"
+	task.3772CB9C1C8A3D66.title: "自动化精魂？"
 	task.382B98E0543527AB.title: "Oh boy what flavor?"
 	task.3839665C66B55FA1.title: "对"
 	task.386D9AA214E6D415.title: "Useful Upgrades"
@@ -8960,7 +8960,7 @@
 	task.575F4232C0E9D957.title: "Magical Equipment"
 	task.579A856376CC3518.title: "任意灵灾饰品"
 	task.58687506041183E7.title: "&eKill&f: &cSlimes"
-	task.58BEE5F1435F017A.title: "&eObserve&f: &5Weeping Well's &fcontents"
+	task.58BEE5F1435F017A.title: "&e观察&f：&5哭泣之井&f里的东西"
 	task.58DC7CD2A4F595DD.title: "&eKill&f: &dArchevoker"
 	task.590BA3A3FF454C9F.title: "&e击杀&f：&c炽燃狂魂"
 	task.591E2F53EFC69C37.title: "&9二阶"
