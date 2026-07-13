@@ -1,10 +1,10 @@
 {
-  "mapcompass.action.set_compass": "Set Compass",
-  "mapcompass.action.apply": "Apply",
-  "mapcompass.message.compass_set": "Compass set to X: %d, Z: %d",
-  "mapcompass.message.no_compass": "You must hold a compass in your hand!",
-  "mapcompass.item.compass_name": "Compass [X: %d, Z: %d]",
-  "mapcompass.label.name": "Name:",
-  "block.mapcompass.navigator_table": "Navigator's Table",
-  "mapcompass.lore.reset_hint": "Craft alone to reset"
+  "mapcompass.action.set_compass": "设置指南针",
+  "mapcompass.action.apply": "应用",
+  "mapcompass.message.compass_set": "指南针已设置至坐标X：%d，Z：%d",
+  "mapcompass.message.no_compass": "你必须手持指南针！",
+  "mapcompass.item.compass_name": "指南针[X：%d，Z：%d]",
+  "mapcompass.label.name": "名称：",
+  "block.mapcompass.navigator_table": "导向台",
+  "mapcompass.lore.reset_hint": "单独合成以重置"
 }
