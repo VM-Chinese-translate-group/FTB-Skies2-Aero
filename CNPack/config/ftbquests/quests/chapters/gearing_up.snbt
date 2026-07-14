@@ -1568,7 +1568,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cognition:cognitive_helmet)item(cognition:cognitive_chestplate)item(cognition:cognitive_leggings)item(cognition:cognitive_boots))"
-							"minecraft:custom_name": "\"Cognitive Armor\""
+							"minecraft:custom_name": "“认知盔甲”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1584,7 +1584,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cognition:cognitive_sword)item(cognition:cognitive_shovel)item(cognition:cognitive_pickaxe)item(cognition:cognitive_axe)item(cognition:cognitive_hoe))"
-							"minecraft:custom_name": "\"Standard Cognitive Tools\""
+							"minecraft:custom_name": "“认知五件套”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -1600,7 +1600,7 @@
 					item: {
 						components: {
 							"ftbfiltersystem:filter": "or(item(cognition:cognitive_bow)item(cognition:flint_and_cognitive_alloy)item(cognition:cognitive_shears)item(cognition:cognitive_rod))"
-							"minecraft:custom_name": "\"NicheCognitiveTools\""
+							"minecraft:custom_name": "“小众认知工具”"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -3678,7 +3678,7 @@
 			id: "35CCB0359596DE32"
 			rewards: [{
 				command: "/puffish_skills skills reset @s puffish_skills:melee"
-				feedback_message: "Melee Skills Have Been Reset"
+				feedback_message: "近战技能树已被重置"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_melee"
@@ -3774,7 +3774,7 @@
 			id: "0E19151FCABF4759"
 			rewards: [{
 				command: "/puffish_skills skills reset @s puffish_skills:athletics"
-				feedback_message: "Athletic Skills Have Been Reset"
+				feedback_message: "运动技能树已被重置"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_athletics"

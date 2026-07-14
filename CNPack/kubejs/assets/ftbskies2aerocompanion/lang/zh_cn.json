@@ -1,10 +1,10 @@
 {
   "itemGroup.ftbskies2aerocompanion": "FTB Skies 2 Aero",
-  "item.ftbskies2aerocompanion.void_fishing_rod": "Void Fishing Rod",
+  "item.ftbskies2aerocompanion.void_fishing_rod": "虚无钓竿",
   "block.ftbskies2aerocompanion.air_filter": "AeroScoop",
   "item.ftbskies2aerocompanion.air_filter": "AeroScoop",
-  "block.ftbskies2aerocompanion.skybound_anchor": "Skybound Anchor",
-  "item.ftbskies2aerocompanion.skybound_anchor": "Skybound Anchor",
+  "block.ftbskies2aerocompanion.skybound_anchor": "天际锚",
+  "item.ftbskies2aerocompanion.skybound_anchor": "天际锚",
   "tooltip.ftbskies2aerocompanion.skybound_anchor.line1": "Place on a Sable airship to keep it level.",
   "tooltip.ftbskies2aerocompanion.skybound_anchor.line2": "Counteracts pitch and roll; does not affect yaw.",
   "tooltip.ftbskies2aerocompanion.skybound_anchor.line3": "No Stress Units required.",

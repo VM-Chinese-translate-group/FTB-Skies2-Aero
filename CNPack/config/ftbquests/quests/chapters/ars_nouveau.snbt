@@ -968,7 +968,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1213,7 +1213,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1322,7 +1322,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1371,7 +1371,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1418,7 +1418,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1457,7 +1457,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1497,7 +1497,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1558,7 +1558,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -1868,7 +1868,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 3"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
@@ -2038,7 +2038,7 @@
 				}
 				{
 					command: "/puffish_skills points add @s puffish_skills:magic 1"
-					feedback_message: "Magic Skills Levelled Up"
+					feedback_message: "魔法技能已升级"
 					icon: {
 						components: {
 							"ftbquests:icon": "irons_spellbooks:textures/mob_effect/charged.png"
