@@ -1,0 +1,13 @@
+{
+  "name": "气动发电机",
+  "icon": "pneumaticcraft:air_compressor",
+  "category": "pneumaticcraft:machines",
+  "flag": "pneumaticcraft:pneumaticGeneratorEnabled",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "气动发电机在此版本中已被移除。"
+    }
+  ]
+}

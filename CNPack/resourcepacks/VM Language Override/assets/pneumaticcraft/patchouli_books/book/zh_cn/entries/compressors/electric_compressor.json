@@ -1,0 +1,12 @@
+{
+  "name": "电力压缩机",
+  "icon": "pneumaticcraft:air_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "电力压缩机在此版本中已被移除。"
+    }
+  ]
+}
