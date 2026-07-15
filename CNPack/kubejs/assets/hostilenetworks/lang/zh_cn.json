@@ -1,6 +1,6 @@
 {
-  "hostilenetworks.trivia.xychorium_ore_stone_dark": "Dark xychorium hums with a quiet, starless energy prized by XyCraft engineers.",
-  "hostilenetworks.trivia.xychorium_ore_stone_light": "Light xychorium glows faintly even in total darkness, a hallmark of refined XyCraft crystal.",
+  "hostilenetworks.trivia.xychorium_ore_stone_dark": "暗色Xy晶弥散着安静无星的能量，这种能量深受XyCraft工程师喜爱。",
+  "hostilenetworks.trivia.xychorium_ore_stone_light": "即使置于完全黑暗的环境中，亮色Xy晶也能发出微弱光芒，这是Xy晶的典型特征。",
   "hostilenetworks.trivia.tin_stone_ore": "Tin alloys readily with copper to make bronze, one of the oldest worked metals.",
   "hostilenetworks.trivia.lead_stone_ore": "Dense and soft, lead shields against radiation and weighs down the heaviest machines.",
   "hostilenetworks.trivia.osmium_stone_ore": "Osmium is the densest natural element, the backbone of Mekanism's earliest tools.",
@@ -12,8 +12,8 @@
   "hostilenetworks.trivia.black_quartz_ore": "Black quartz carries a charge of its own, useful in Actually Additions circuitry.",
   "hostilenetworks.trivia.fluorite_stone_ore": "Fluorite fluoresces under strange light and fluxes stubborn smelts into flowing metal.",
   "hostilenetworks.trivia.monazite_stone_ore": "Monazite is a rare-earth ore, a quiet source of the elements that make magnets sing.",
-  "hostilenetworks.trivia.zinc_stone_ore": "Zinc galvanizes iron against rust and gives brass its bright golden sheen.",
-  "hostilenetworks.trivia.antimony_stone_ore": "Antimony hardens soft alloys and was once mistaken for lead by early miners.",
+  "hostilenetworks.trivia.zinc_stone_ore": "锌能使铁不生锈，并使黄铜具有明亮的金色光泽。",
+  "hostilenetworks.trivia.antimony_stone_ore": "锑能使软合金变硬，曾有矿工误把它当成铅。",
   "hostilenetworks.trivia.inferium_ore": "Inferium essence is the first spark of Mystical Agriculture, the seed of all growth magic.",
   "hostilenetworks.trivia.prosperity_ore": "Prosperity shards bind essence into seeds, turning soil into a forge for any resource.",
   "hostilenetworks.trivia.dimensional_shard_stone_ore": "Dimensional shards shimmer with borrowed space, powering doorways between worlds.",
@@ -32,9 +32,9 @@
   "hostilenetworks.trivia.copper_ore": "Copper conducts and corrodes in equal measure, greening as it ages.",
   "hostilenetworks.trivia.iron_ore": "Iron is the spine of every civilization, plentiful and endlessly useful.",
   "hostilenetworks.trivia.redstone_ore": "Redstone glows and carries signals, the nervous system of every machine.",
-  "hostilenetworks.trivia.lapis_ore": "Lapis lazuli's deep blue powered the first enchanting tables and the finest dyes.",
+  "hostilenetworks.trivia.lapis_ore": "深蓝色的青金石带动了最初的附魔台和最美的染料。",
   "hostilenetworks.trivia.nether_quartz_ore": "Nether quartz grows in the underworld's heat, sharp and bright against the soulsand.",
   "hostilenetworks.trivia.gold_ore": "Soft and incorruptible, gold conducts perfectly and tempts endlessly.",
-  "hostilenetworks.trivia.emerald_ore": "Emeralds are the currency of villagers, rarer in the hills than diamond itself.",
+  "hostilenetworks.trivia.emerald_ore": "绿宝石是村民用来交易的货币，它只在山地分布，比钻石还稀有。",
   "hostilenetworks.trivia.diamond_ore": "Forged under crushing pressure, diamond is the hardest treasure the deep stone hides."
 }

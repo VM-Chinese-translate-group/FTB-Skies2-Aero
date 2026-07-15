@@ -3742,7 +3742,7 @@
 			id: "6A22434958A72911"
 			rewards: [{
 				command: "/puffish_skills skills reset @s puffish_skills:mining"
-				feedback_message: "Mining Skills Have Been Reset"
+				feedback_message: "挖掘技能树已被重置"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_mining"
@@ -3838,7 +3838,7 @@
 			id: "4BF0B397B0B9EE8C"
 			rewards: [{
 				command: "/puffish_skills skills reset @p puffish_skills:defense"
-				feedback_message: "Defense Skills Have Been Reset"
+				feedback_message: "防御技能树已被重置"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_defense"
