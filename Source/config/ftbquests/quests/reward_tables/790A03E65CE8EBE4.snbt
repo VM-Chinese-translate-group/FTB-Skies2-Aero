@@ -1,25 +1,22 @@
 {
 	hide_tooltip: true
 	icon: {
-		components: {
-			"ftbquests:icon": "minecraft:textures/gui/sprites/hud/heart/full.png"
-		}
-		id: "ftbquests:custom_icon"
+		id: "sushigocrafting:cooler_box"
 	}
 	id: "790A03E65CE8EBE4"
 	loot_crate: {
-		color: 16755200
+		color: 43520
 		drops: {
 			boss: 0
 			monster: 0
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Grandma's Treat"
-		string_id: "grandmas_treat"
+		item_name: "loot_crate.ftb.bounty_of_the_sea"
+		string_id: "bounty_of_the_sea"
 	}
 	loot_size: 1
-	order_index: 4
+	order_index: 2
 	rewards: [
 		{
 			count: 4
@@ -32,28 +29,10 @@
 		}
 		{
 			count: 4
-			id: "780C3AAE8EACF1EF"
-			item: {
-				count: 1
-				id: "farmersdelight:honey_glazed_ham"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
 			id: "1E3E915C067B13AF"
 			item: {
 				count: 1
 				id: "farmersdelight:grilled_salmon"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "529A0F4546AA3F18"
-			item: {
-				count: 1
-				id: "farmersdelight:dumplings"
 			}
 			random_bonus: 12
 		}
@@ -77,118 +56,10 @@
 		}
 		{
 			count: 4
-			id: "139FC5CBABBD4E7D"
-			item: {
-				count: 1
-				id: "farmersdelight:chocolate_pie"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "1DB0878B1AF366F2"
-			item: {
-				count: 1
-				id: "farmersdelight:roast_chicken"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "07E285E9D3A55648"
-			item: {
-				count: 1
-				id: "farmersdelight:bacon_sandwich"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "6AF44773828065AC"
-			item: {
-				count: 1
-				id: "farmersdelight:roasted_mutton_chops"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "6A280BAB1C41C0C1"
-			item: {
-				count: 1
-				id: "farmersdelight:chicken_sandwich"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "2B8F0DFBCBAE64FF"
-			item: {
-				count: 1
-				id: "farmersdelight:mutton_wrap"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "06B9263104523C59"
-			item: {
-				count: 1
-				id: "farmersdelight:hamburger"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "1AC1B9B501CCF8FB"
-			item: {
-				count: 1
-				id: "farmersdelight:noodle_soup"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "09F9D79DD6867EAE"
-			item: {
-				count: 1
-				id: "farmersdelight:pasta_with_mutton_chop"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "724AD320C4BACD7C"
-			item: {
-				count: 1
-				id: "farmersdelight:fruit_salad"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
 			id: "16351CA0A7A9A4A8"
 			item: {
 				count: 1
 				id: "farmersdelight:vegetable_noodles"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "63DC51E6095DCEF4"
-			item: {
-				count: 1
-				id: "farmersdelight:stuffed_potato"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
-			id: "209E03A2989FC307"
-			item: {
-				count: 1
-				id: "farmersdelight:beef_stew"
 			}
 			random_bonus: 12
 		}
@@ -203,15 +74,6 @@
 		}
 		{
 			count: 4
-			id: "0815DC1BA1461C17"
-			item: {
-				count: 1
-				id: "farmersdelight:glow_berry_custard"
-			}
-			random_bonus: 12
-		}
-		{
-			count: 4
 			id: "761D22562C1FE10A"
 			item: {
 				count: 1
@@ -221,46 +83,217 @@
 		}
 		{
 			count: 4
-			id: "7ADD3D753BBD4FDE"
+			id: "379533637026ACA5"
 			item: {
 				count: 1
-				id: "farmersdelight:honey_cookie"
+				id: "sushigocrafting:salmon_temaki"
 			}
 			random_bonus: 12
 		}
 		{
 			count: 4
-			id: "4E63D672B2259DBE"
+			id: "35E3717C94878F52"
 			item: {
 				count: 1
-				id: "farmersdelight:egg_sandwich"
+				id: "sushigocrafting:tuna_temaki"
 			}
 			random_bonus: 12
 		}
 		{
 			count: 4
-			id: "4908FF750A6D1AAE"
+			id: "7E294C910FA980D6"
 			item: {
 				count: 1
-				id: "farmersdelight:chicken_soup"
+				id: "sushigocrafting:shrimp_temaki"
 			}
 			random_bonus: 12
 		}
 		{
 			count: 4
-			id: "3D4D30DD96C225DD"
+			id: "3011A74B214A4AE4"
 			item: {
 				count: 1
-				id: "farmersdelight:pasta_with_meatballs"
+				id: "sushigocrafting:chicken_temaki"
 			}
 			random_bonus: 12
 		}
 		{
 			count: 4
-			id: "438E50D08E23AC5B"
+			id: "12C136E5C20D5610"
 			item: {
 				count: 1
-				id: "farmersdelight:apple_pie"
+				id: "sushigocrafting:onigiri"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "55856A3E923F6C4D"
+			item: {
+				count: 1
+				id: "sushigocrafting:shrimp_nigiri"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "32E7321F77866768"
+			item: {
+				count: 1
+				id: "sushigocrafting:tuna_nigiri"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "181AAF4573C29CFD"
+			item: {
+				count: 1
+				id: "sushigocrafting:salmon_nigiri"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "24E22C3A2911EB66"
+			item: {
+				count: 1
+				id: "oceansdelight:baked_tentacle_on_a_stick"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "2E8DC6189BDFCFB4"
+			item: {
+				count: 1
+				id: "oceansdelight:cooked_elder_guardian_slice"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "3A84EFC5B6378382"
+			item: {
+				count: 1
+				id: "oceansdelight:cooked_guardian_tail"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "7935F07F7FF277F4"
+			item: {
+				count: 1
+				id: "oceansdelight:bowl_of_guardian_soup"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "7FD215A2E3F0E576"
+			item: {
+				count: 1
+				id: "sushigocrafting:salmon_gunkan"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "511F8D20C087EC86"
+			item: {
+				count: 1
+				id: "sushigocrafting:tuna_gunkan"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "2564CBFAC88BEE93"
+			item: {
+				count: 1
+				id: "sushigocrafting:wakame_gunkan"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "2B66B633BC07AB16"
+			item: {
+				count: 1
+				id: "sushigocrafting:tobiko_tuna_california"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "53C3C1E5C3264138"
+			item: {
+				count: 1
+				id: "oceansdelight:fugu_roll"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "4F1C59EED7894426"
+			item: {
+				count: 1
+				id: "oceansdelight:elder_guardian_roll"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "69AC12A19305F4E0"
+			item: {
+				count: 1
+				id: "oceansdelight:cabbage_wrapped_elder_guardian"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "4D4018D1293BB451"
+			item: {
+				count: 1
+				id: "oceansdelight:braised_sea_pickle"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "1FC981013AF75794"
+			item: {
+				count: 1
+				id: "sushigocrafting:salmon_maki"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "1F6C13951EE2AEDE"
+			item: {
+				count: 1
+				id: "sushigocrafting:tuna_maki"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "4C99D06F8E844551"
+			item: {
+				count: 1
+				id: "sushigocrafting:crab_maki"
+			}
+			random_bonus: 12
+		}
+		{
+			count: 4
+			id: "74AF36EF4828ADA9"
+			item: {
+				count: 1
+				id: "oceansdelight:cooked_stuffed_cod"
 			}
 			random_bonus: 12
 		}

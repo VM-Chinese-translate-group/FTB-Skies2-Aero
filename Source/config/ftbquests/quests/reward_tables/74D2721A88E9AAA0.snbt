@@ -4,28 +4,27 @@
 	}
 	id: "74D2721A88E9AAA0"
 	loot_crate: {
-		color: 43520
+		color: 16777215
 		drops: {
 			boss: 0
 			monster: 0
 			passive: 0
 		}
-		glow: 1b
-		item_name: "Essence Goodie Bag"
+		item_name: "loot_crate.ftb.essence_goodie_bag"
 		string_id: "essence_goodie_bag"
 	}
 	loot_size: 1
 	order_index: 1
 	rewards: [
 		{
-			count: 8
+			count: 4
 			id: "7DEFFEF58AE5F00F"
 			item: {
 				count: 1
 				id: "mysticalagriculture:inferium_essence"
 			}
-			random_bonus: 8
-			weight: 500.0f
+			random_bonus: 12
+			weight: 1000.0f
 		}
 		{
 			count: 4
@@ -35,7 +34,7 @@
 				id: "mysticalagriculture:prudentium_essence"
 			}
 			random_bonus: 4
-			weight: 500.0f
+			weight: 1000.0f
 		}
 		{
 			count: 2
@@ -45,17 +44,16 @@
 				id: "mysticalagriculture:tertium_essence"
 			}
 			random_bonus: 6
-			weight: 500.0f
+			weight: 1000.0f
 		}
 		{
-			count: 2
 			id: "756D0AC559F47E5A"
 			item: {
 				count: 1
 				id: "mysticalagriculture:imperium_essence"
 			}
-			random_bonus: 2
-			weight: 500.0f
+			random_bonus: 4
+			weight: 1000.0f
 		}
 		{
 			id: "0238425366596413"
@@ -64,7 +62,7 @@
 				id: "mysticalagriculture:supremium_essence"
 			}
 			random_bonus: 1
-			weight: 200.0f
+			weight: 100.0f
 		}
 		{
 			id: "6957B73D8AD2ABDE"
@@ -72,7 +70,8 @@
 				count: 1
 				id: "mysticalagriculture:awakened_supremium_essence"
 			}
-			weight: 50.0f
+			random_bonus: 3
+			weight: 10.0f
 		}
 	]
 	use_title: true

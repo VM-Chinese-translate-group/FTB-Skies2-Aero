@@ -8,12 +8,7 @@
 	}
 	id: "40521CF80673B184"
 	loot_size: 1
-	order_index: 11
-	rewards: [
-		{ id: "78E81A2852382318", item: { components: { "ftbquests:loot_crate": "technology_bundle" }, count: 1, id: "ftbquests:lootcrate" } }
-		{ id: "7C6765119EE86E22", item: { components: { "ftbquests:loot_crate": "magic_bundle" }, count: 1, id: "ftbquests:lootcrate" } }
-		{ id: "62B9AE2FB3229CCB", item: { components: { "ftbquests:loot_crate": "storage_box" }, count: 1, id: "ftbquests:lootcrate" } }
-		{ id: "2E5D2597EAA14018", item: { components: { "ftbquests:loot_crate": "random_tool_chest" }, count: 1, id: "ftbquests:lootcrate" } }
-	]
+	order_index: 7
+	rewards: [{ id: "608E262DE58B8DE6", item: { components: { "ftbquests:loot_crate": "chaos_bundle" }, count: 1, id: "ftbquests:lootcrate" } }]
 	use_title: true
 }

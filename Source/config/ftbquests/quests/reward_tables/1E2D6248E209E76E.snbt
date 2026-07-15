@@ -4,25 +4,24 @@
 	}
 	id: "1E2D6248E209E76E"
 	loot_crate: {
-		color: 5635925
+		color: 16777215
 		drops: {
 			boss: 0
 			monster: 0
 			passive: 0
 		}
-		glow: 1b
-		item_name: "Box of RS2 Goodies"
+		item_name: "&aBox of RS2 Goodies"
 		string_id: "box_of_rs2_goodies"
 	}
 	loot_size: 1
-	order_index: 20
+	order_index: 16
 	rewards: [
 		{
 			count: 8
 			id: "17A575C553BB1BAD"
 			item: {
 				count: 1
-				id: "ftbmaterials:silicon_gem"
+				id: "ae2:silicon"
 			}
 			random_bonus: 8
 			weight: 500.0f
