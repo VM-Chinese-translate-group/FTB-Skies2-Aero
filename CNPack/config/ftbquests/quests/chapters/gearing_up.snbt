@@ -3710,7 +3710,7 @@
 			id: "794C1EAA6252BC44"
 			rewards: [{
 				command: "/puffish_skills skills reset @s puffish_skills:ranged"
-				feedback_message: "Ranged Skills Have Been Reset"
+				feedback_message: "远程技能树已被重置"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_ranged"
@@ -3806,7 +3806,7 @@
 			id: "7C8E0FEEEF80F70B"
 			rewards: [{
 				command: "/puffish_skills skills reset @s puffish_skills:magic"
-				feedback_message: "Magic Skills Have Been Reset"
+				feedback_message: "魔法技能树已被重置"
 				icon: {
 					components: {
 						"ftbquests:icon": "ftb:item/skill_reset_magic"
