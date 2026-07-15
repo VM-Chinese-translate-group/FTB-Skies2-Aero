@@ -4,16 +4,16 @@ navigation:
   position: 8
   icon: "irons_spellbooks:ice_rune"
   parent: irons_jewelry:runes.md
-item_ids:
-  - irons_spellbooks:ice_rune
 ---
-# 冰霜符文
+# <Color id="aqua">冰霜符文</Color>
 
 <ItemImage id="irons_spellbooks:ice_rune" scale="3" />
 
 此物品可作为Iron珠宝的<Color id="aqua">符文</Color>。
 
 - <Color id="gray">品质效果加成：</Color>1.5
+
+<ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">属性</Color>
 - 增加冰霜法术强度（百分比）

@@ -13,6 +13,8 @@ navigation:
 
 - <Color id="gray">品质效果加成：</Color>1
 
+<ItemImage id="minecraft:air" scale="0.25"/>
+
 ### <Color id="aqua">属性</Color>
 - 增加寒冷伤害
 

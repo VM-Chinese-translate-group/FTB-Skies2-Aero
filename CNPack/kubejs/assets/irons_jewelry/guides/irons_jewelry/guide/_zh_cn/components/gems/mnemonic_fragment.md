@@ -4,10 +4,8 @@ navigation:
   position: 11
   icon: "malum:mnemonic_fragment"
   parent: irons_jewelry:gems.md
-item_ids:
-  - malum:mnemonic_fragment
 ---
-# 忆念残片
+# <Color id="light_purple">忆念残片</Color>
 
 <ItemImage id="malum:mnemonic_fragment" scale="3" />
 
@@ -15,8 +13,12 @@ item_ids:
 
 - <Color id="gray">品质效果加成：</Color>2.5
 
+<ItemImage id="minecraft:air" scale="0.25"/>
+
 ### <Color id="aqua">属性</Color>
 - 增加经验获取（百分比）
+
+<ItemImage id="minecraft:air" scale="0.25"/>
 
 ### <Color id="aqua">免疫效果</Color>
 - 免疫中毒
