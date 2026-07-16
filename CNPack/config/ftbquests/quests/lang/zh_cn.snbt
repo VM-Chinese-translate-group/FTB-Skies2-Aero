@@ -98,7 +98,7 @@
 		""
 		"将其投入水中，即可转化为&6多态流体&r。"
 	]
-	quest.00EF44F8FEB82203.quest_desc: ["[ \"Use a \", { \"text\": \"Paradox Mixer\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"774D3A6FFDD295D4\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Quest\"} }, \" to combine the Flashpine and the Temporal Pineapple Juice.\" ]"]
+	quest.00EF44F8FEB82203.quest_desc: ["[ \"使用\", { \"text\": \"悖论混合器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"774D3A6FFDD295D4\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"} }, \"混合闪电菠萝和时间菠萝汁。\" ]"]
 	quest.00EF44F8FEB82203.title: "Paradoxical Mixing"
 	quest.01177027CE208375.quest_desc: ["当你获得了一些&d不锈钢粉&r，你就可以将其放入&3电力高炉&r中，烧制出&b热不锈钢锭&r。"]
 	quest.01177027CE208375.title: "&d不锈钢锭"
@@ -134,7 +134,7 @@
 		""
 		"如果你出生在一艘船上，其本身已经是胶合后的结构，你只需要打开&a物理组装器&f即可开始飞行。"
 		""
-		"Otherwise, you can build your contraptions using &#eda73bHoney Glue&f."
+		"此为，你也可以使用&#eda73b蜂蜜胶&f胶合结构。"
 	]
 	quest.0128A3EC005A8AE5.title: "物理组装器"
 	quest.012AEBFDB1F1512E.title: "核源铁盔甲"
@@ -598,7 +598,7 @@
 	]
 	quest.087D1FBAE8A425C0.title: "&f搭建&d传送门&r！"
 	quest.08D03AA0E1D218F7.title: "&7瘟疫术士套装"
-	quest.0900DBFB006F8F85.quest_desc: ["Once you've acquired your ingredients, simply mix them together and a simple chemical reaction will fuse them together into freshly frozen &bIce Cubes&f."]
+	quest.0900DBFB006F8F85.quest_desc: ["一旦准备好所有材料，只需将它们混合在一起，简单的化学反应便会将它们融合成新鲜冷冻的&b小冰块&f。"]
 	quest.09012B945D3AC7AE.quest_desc: [
 		"&a软管滑轮&r可以用于填充或排空大量液体。"
 		""
@@ -1954,7 +1954,7 @@
 		""
 		"[ \"Check the \", { \"text\": \"Particle Accelerator\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C0C63951FDED180\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Quest\"} }, \" quest if you need guidance on how to set it up. Alternatively, you can hold down \", {\"keybind\": \"key.guideme.guide\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: G\"}}, \" on any Particle Accelerator item to open its GuideMe page.\" ]"
 	]
-	quest.1B986C3D7E212B33.title: "Black Hole Juicing"
+	quest.1B986C3D7E212B33.title: "黑洞榨汁"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
 	quest.1BC994881BC225ED.quest_desc: [
 		"你可以在&a织物工作台&r上把隐秘线轴与不同材料结合在一起，并把它们安置在奥术盔甲上。盔甲的外观会发生变化，但防御力和其他增益都会保留。"
@@ -2176,9 +2176,9 @@
 	quest.1EE339A0DCABD78E.quest_subtitle: "并不会让猪灵对你保持中立"
 	quest.1EE339A0DCABD78E.title: "&6光明使者胸甲"
 	quest.1F03F231AA612128.quest_desc: [
-		"&eNeoVitae's &dTau Fruit&f is the perfect mix of magical and natural that allows you to turn it into a coconut."
+		"&eNeoVitae&r的&dTau Fruit&f是魔力的绝佳调和，可以用来造出椰子。"
 		""
-		"[ \"You'll then want to slice it up into chunks using an \", { \"text\": \"Athenor\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"263045D3780542C0\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \", or an Electric Cutting Machine.\" ]"
+		"[ \"你接下来应该需要使用\", { \"text\": \"Athenor\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"263045D3780542C0\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"}}, \"或电动切割机把它切成块。\" ]"
 	]
 	quest.1F0ADF87B63B50AC.quest_subtitle: "雷霆套装"
 	quest.1F0ADF87B63B50AC.title: "&3雷霆术士套装"
@@ -2789,7 +2789,7 @@
 	quest.27C4D7CA8A7E4054.quest_desc: [
 		"你对你拳头的开发已经很深入了，是时候更上一层楼了。"
 		""
-		"Use your &2Wooden Shears&r to gather some &2Leaves&r from the trees. This can be done in the world, or by placing the Shears into the Bonsai Pot for &eAeronautic&r ship islands."
+		"在空岛上，你可以使用你的&2木剪刀&r从树上收集一些&2树叶&r；若是你出生在&e航空学&r飞船岛屿上，也可以将剪刀放在盆栽盆中获取树叶。"
 		""
 		"接着，将&a盆&r放下来，再将&2树叶&r放在盆上，然后踩在上面跳，直到把它彻底榨干为止。"
 		""
@@ -3089,8 +3089,8 @@
 	quest.2C55C6EBABA86BA8.quest_desc: ["&a初级方块破坏器&r会使用内部的工具破坏前方的方块；就算你给他的工具是一根木棍或一块黑曜石，它也会完成任务的。"]
 	quest.2C55C6EBABA86BA8.title: "&a初级方块破坏器"
 	quest.2C5BB08BA01C2F8C.quest_desc: ["This usually-radioactive chemical will need to be combined with extremely strong plating before it can be used to make a cup that will not taint the perfect flavour of the &zPiña Colada&f."]
-	quest.2C8E9EA5AAA70DE2.quest_desc: ["&7&o Not W.H.O approved"]
-	quest.2C8E9EA5AAA70DE2.title: "Time-Iced Juice"
+	quest.2C8E9EA5AAA70DE2.quest_desc: ["&7&o未获世界卫生组织批准"]
+	quest.2C8E9EA5AAA70DE2.title: "冻结了时间的果汁"
 	quest.2C9A224C8B8436BB.quest_desc: [
 		"Past a Spatial Distortion lies the entrance to the &cMines&r. &cMine Dungeon Keys&r open the way inward, toward the veins of Demonite."
 		""
@@ -3108,7 +3108,7 @@
 		""
 		"Place and grow a Pineapple as you would any other crop, then place a &bShimmering Ice&f and &2Time Crystal Block&f on either side of the Pineapple with an extractor above it to extract &dTemporal Pineapple Juice&f."
 	]
-	quest.2CC49B7C1ADB01A2.title: "Weird-tasting Fruit Juice"
+	quest.2CC49B7C1ADB01A2.title: "有着奇怪味道的果汁"
 	quest.2D09494ED3235CC8.quest_desc: [
 		"&3动力泵&r是使流体管道能够实际输送流体的核心装置。"
 		""
@@ -3650,7 +3650,7 @@
 	quest.330F69D2F2626B50.quest_desc: ["&a斑斓透镜&r射出的激光会穿透物品，然后改变它们本身的颜色，比如染色玻璃或玻璃板、地毯、染料、羊毛以及带釉陶瓦。"]
 	quest.330F69D2F2626B50.title: "&a斑斓透镜"
 	quest.33349009FDC3501E.quest_desc: ["You'll need to create a more powerful fertilizer using biomass chemical and sunflowers."]
-	quest.33349009FDC3501E.title: "Emulsifier"
+	quest.33349009FDC3501E.title: "乳化剂"
 	quest.3334E05101A7297F.quest_desc: [
 		"&a反应仓&r是个处理速度非常快的机器，可以产生大部分&eAE2&r的材料，只不过耗能可能大了一点。"
 		""
@@ -5424,7 +5424,7 @@
 	quest.4A07DF8EB4A0C40A.quest_desc: [
 		"虚空之水中蕴含大量精华，或许你可以用合适的工具将其钓出？"
 		""
-		"This path allows you to fish up &2Essence&r for resource generation. If you don't have any water nearby, you can create a &3Void Fishing Rod&r to fish directly from the &3Void&r!"
+		"这条道路需要你钓鱼收获&2精华&r才能生产资源。如果身边没有水来钓鱼，你可以制作一把&3虚空钓鱼竿&r进行&3虚空&r垂钓！"
 		""
 		"将普通的钓鱼竿扔进虚空后，一个&3虚空钓鱼竿&r会缓慢地飘回你的身边。当然，你也可以跳下去拿回它。:)"
 		"{@pagebreak}"
@@ -5671,7 +5671,7 @@
 		""
 		"要开始本整合包的游玩之旅，你需要从木桶中找到&2布筛网&f，这个木桶通常出现在&a空气动力筛子&f附近。"
 		""
-		"Once you place the &2Mesh&f inside the &aScoop&f, activating the contraption it is attached to will also activate the &aScoop&r as well. If it's on your ship, the &aPhysics Assemble&r will activate it!"
+		"当你将&2筛网&f放进&a筛子&f后，转化为动态结构的同时&a筛子&r也会正常工作。如果是在飞船上，使用&a物理组装器&r即可。"
 		""
 		"&a注意&r：如果&a气体动力筛子&r放在飞船上，筛子工作前请确保你的飞船处于可以立即起飞的状态！"
 	]
@@ -5742,7 +5742,7 @@
 	quest.4DE483256F9E1D4F.quest_desc: ["&a摘除符石&r可以将物品上镶嵌的&b宝石&r全部移除，且不会对物品造成任何损害。"]
 	quest.4DE483256F9E1D4F.title: "&a摘除符石"
 	quest.4DE6BB4B5C894AF6.quest_desc: [
-		"The first resource you want to create will be &aIron&r. This can be done by using &bWhite Dye&r on the Void Crystal Catalyst."
+		"你需要生产的第一种资源是&a铁&r。你可以手持&b白色染料&r右击虚无晶体催化剂进行转化。"
 		""
 		"催化剂转化完成后，小型铁矿晶芽将从方块上长出。"
 		""
@@ -6586,7 +6586,7 @@
 		""
 		"You may choose to manually farm &dSpirits&f, but Malum has a ritual that automatically harvests low-health nearby mobs."
 	]
-	quest.59CC8388935D98A2.title: "Realized Transcendence"
+	quest.59CC8388935D98A2.title: "超脱证悟"
 	quest.5A3AA3939DA8F851.quest_desc: [
 		"&5末影人之门&f是前期获取末影珍珠的好方法；与此同时，你还能拿到对推进本整合包十分重要的&d紫颂果&f。"
 		""
@@ -7682,7 +7682,7 @@
 		"&7&o成品为7x7x7的多方块结构"
 	]
 	quest.6B6C60BFE1D378D0.title: "&6完全体装配矩阵"
-	quest.6B86574E77643F07.quest_desc: ["By continuosuly killing beings from all three dimensions, you can harness their tears to use as a lubricant for the reaction chamber."]
+	quest.6B86574E77643F07.quest_desc: ["通过持续杀死来自三个维度的生物，你可以收集它们的泪水作为反应仓的润滑剂。"]
 	quest.6B971FA156A96BD5.quest_desc: [
 		"&a精魂催化器&r会消耗熔炉可用的燃料来给附近的&e坩埚&r加速。1个坩埚最多可以被8个催化器加速。"
 		""
@@ -8244,9 +8244,9 @@
 	quest.73F82078E2BC4DA5.title: "&e升级：&f产量γ"
 	quest.73FD015A3696ABFB.quest_desc: ["在将&a龙之心&r注入到&d龙块&r后，你就能得到&6觉醒龙块&r了，这是将你已有&e龙之进化&r装置升级到下一阶段的必需材料。"]
 	quest.740706F63579237D.quest_desc: [
-		"Quantum technology sure is a chaotic thing. But, a certain &dEnd Guardian&r, the embodiment of Chaos itself, protects a crystal that can control this chaotic energy, allowing us to harness a portion of its powers."
+		"量子技术确实是一件混乱的事。但就有这样一个&d居住在末地的守卫&r，它同时也是混沌的造物和化身，它守护着的那块晶体能够帮助我们掌控并汲取这种混沌能量。"
 		""
-		"Go forth, to the End, slay this End Guardian, and destroy its Chaos crystal."
+		"去吧，深入末地腹地，杀死这只末地的守卫，然后摧毁它的混沌水晶。"
 	]
 	quest.740A857076EAC1BC.quest_desc: ["现在，我们能够生产&d不锈钢&r和&e聚乙烯&r了，也就可以制作&d数字电路板&r来让我们的电路更进一步了！"]
 	quest.740A857076EAC1BC.title: "&d数字电路板"
@@ -8859,7 +8859,7 @@
 	quest.7D11FCF02C35213F.quest_subtitle: "钻吧宝贝钻吧"
 	quest.7D11FCF02C35213F.title: "&a动力钻头"
 	quest.7D1FBA05137C755E.quest_desc: [
-		"To combine so many varied ingredients with ease, you'll need to use &eModern Industrialization's &aMixer Machine&f."
+		"要更轻松地混合各种原料，你需要使用来自&e现代化工业&r模组的&a电动搅拌机&f"
 		""
 		"&7&oWe have made the MI Mixer recipe easier so you can use other mods to craft the machine"
 	]
