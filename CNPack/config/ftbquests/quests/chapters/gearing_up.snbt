@@ -40,7 +40,7 @@
 			rotation: 0.0d
 			width: 1.75d
 			x: -13.0d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			height: 2.0d

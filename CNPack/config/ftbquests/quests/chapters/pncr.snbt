@@ -204,11 +204,8 @@
 				{
 					id: "07CD5267730566F9"
 					item: {
-						components: {
-							"ftbquests:missing_item": "industrialforegoing:plastic"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "pneumaticcraft:plastic"
 					}
 					type: "item"
 				}
@@ -247,11 +244,8 @@
 					count: 4
 					id: "3F569A54F2D19689"
 					item: {
-						components: {
-							"ftbquests:missing_item": "industrialforegoing:plastic"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "pneumaticcraft:plastic"
 					}
 					type: "item"
 				}

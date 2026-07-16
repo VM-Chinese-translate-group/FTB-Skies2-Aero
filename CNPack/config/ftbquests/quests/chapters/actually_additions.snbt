@@ -112,8 +112,8 @@
 			image: "ftb:textures/quests/titles_and_logos/actually_additions_title.png"
 			rotation: 0.0d
 			width: 7.5d
-			x: 0.125d
-			y: -3.4750000000000014d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			height: 2.0d
@@ -128,8 +128,8 @@
 			image: "actuallyadditions:item/laser_wrench"
 			rotation: 0.0d
 			width: 1.5d
-			x: 3.625d
-			y: -2.3750000000000018d
+			x: 3.4119047619047578d
+			y: -2.43214285714285d
 		}
 		{
 			height: 1.5d
@@ -364,7 +364,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [{
 				id: "70BF877E4692047E"
 				item: {
@@ -373,7 +373,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 6.5d
 		}
 		{
@@ -400,7 +400,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [{
 				id: "5A3B73B1FA36574B"
 				item: {
@@ -410,7 +410,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["206987FC6B1524F8"]
@@ -746,7 +746,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [{
 				id: "2958BFEE47C5388F"
 				item: {
@@ -756,7 +756,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["206987FC6B1524F8"]
@@ -1262,7 +1262,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "diamond"
 			tasks: [{
 				id: "00D779DEB559B81B"
 				item: {
@@ -1271,7 +1271,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 7.5d
 		}
 		{
@@ -1488,6 +1488,7 @@
 				id: "aatiers:diamond_display_stand"
 			}
 			id: "62BC01D7050D366E"
+			min_width: 350
 			rewards: [{
 				amount: 15
 				id: "2196D57EFEFB1EB1"

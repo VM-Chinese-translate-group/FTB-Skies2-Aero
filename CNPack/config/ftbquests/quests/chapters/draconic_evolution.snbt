@@ -366,6 +366,7 @@
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
 					}
+					optional_task: true
 					type: "item"
 				}
 				{

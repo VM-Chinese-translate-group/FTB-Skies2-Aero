@@ -736,7 +736,7 @@
 					id: "1A4A5A59FFF815E2"
 					item: {
 						components: {
-							"ftbfiltersystem:filter": "or(item(mekanism:fuelwood_heater)item(mekanism:resistive_heater))"
+							"ftbfiltersystem:filter": "or(item(mekanism:fuelwood_heater)item(mekanism:resistive_heater)item(mekanismgenerators:advanced_solar_generator))"
 						}
 						count: 1
 						id: "ftbfiltersystem:smart_filter"
@@ -2043,58 +2043,6 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 16.0d
-		}
-		{
-			dependencies: ["38FAD316AB487AD1"]
-			icon: {
-				components: {
-					"ftbquests:missing_item": "mekanism_lasers:ore_generator"
-				}
-				id: "ftbquests:missing_item"
-			}
-			id: "449E702C9B877CD3"
-			min_width: 300
-			rewards: [
-				{
-					amount: 20
-					id: "4D875818A8227635"
-					team_reward: false
-					type: "currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5BEF24A4588E716B"
-					table_id: 7697346895244018932L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "68D6B50E15C82A25"
-					item: {
-						components: {
-							"ftbquests:missing_item": "mekanism_lasers:ore_generator"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "28D1CB9AB56D79F2"
-					item: {
-						components: {
-							"ftbfiltersystem:filter": "or(item(mekanism_lasers:basic_laser)item(mekanism_lasers:advanced_laser)item(mekanism_lasers:elite_laser)item(mekanism_lasers:ultimate_laser)item(mekanism_lasers:basic_toggleable_laser)item(mekanism_lasers:advanced_toggleable_laser)item(mekanism_lasers:elite_toggleable_laser)item(mekanism_lasers:ultimate_toggleable_laser))"
-						}
-						count: 1
-						id: "ftbfiltersystem:smart_filter"
-					}
-					type: "item"
-				}
-			]
-			x: -5.5d
 			y: 16.0d
 		}
 		{

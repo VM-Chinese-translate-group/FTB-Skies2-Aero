@@ -574,6 +574,7 @@
 						count: 1
 						id: "modern_industrialization:iron_hammer"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -610,6 +611,7 @@
 						count: 1
 						id: "ftbmaterials:copper_gear"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -680,6 +682,7 @@
 						count: 1
 						id: "minecraft:water_bucket"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -690,6 +693,7 @@
 						id: "minecraft:coal"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -722,6 +726,7 @@
 					count: 1
 					id: "modern_industrialization:guidebook"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -758,6 +763,7 @@
 						id: "ftbmaterials:steel_ingot"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -805,6 +811,7 @@
 						id: "ftbmaterials:antimony_stone_ore"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -815,6 +822,7 @@
 						id: "modern_industrialization:rubber_sheet"
 					}
 					random_bonus: 6
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -854,6 +862,7 @@
 						id: "modern_industrialization:analog_circuit"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -888,6 +897,7 @@
 						id: "ftbmaterials:bronze_ingot"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -896,6 +906,7 @@
 						count: 1
 						id: "modern_industrialization:wrench"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -948,6 +959,7 @@
 						id: "modern_industrialization:fluid_pipe"
 					}
 					random_bonus: 3
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -958,6 +970,7 @@
 						id: "modern_industrialization:item_pipe"
 					}
 					random_bonus: 3
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -968,6 +981,7 @@
 						id: "modern_industrialization:tin_cable"
 					}
 					random_bonus: 3
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -976,6 +990,7 @@
 						count: 1
 						id: "modern_industrialization:config_card"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1007,6 +1022,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1016,6 +1032,7 @@
 						id: "farmersdelight:steak_and_potatoes"
 					}
 					random_bonus: 1
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1055,6 +1072,7 @@
 						id: "minecraft:gunpowder"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1100,6 +1118,7 @@
 						id: "modern_industrialization:bronze_machine_casing"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1109,6 +1128,7 @@
 						id: "farmersdelight:mixed_salad"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1118,6 +1138,7 @@
 						id: "modern_industrialization:rubber_sheet"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1150,6 +1171,7 @@
 						count: 1
 						id: "modern_industrialization:lubricant_bucket"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1184,6 +1206,7 @@
 						id: "minecraft:gunpowder"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1221,6 +1244,7 @@
 						id: "ftbmaterials:steel_dust"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1230,6 +1254,7 @@
 						count: 1
 						id: "modern_industrialization:fire_clay_bricks"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1300,6 +1325,7 @@
 						id: "modern_industrialization:steel_upgrade"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1310,6 +1336,7 @@
 						id: "ftbmaterials:steel_plate"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1345,6 +1372,7 @@
 						count: 1
 						id: "modern_industrialization:steel_item_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1353,6 +1381,7 @@
 						count: 1
 						id: "modern_industrialization:steel_item_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1361,6 +1390,7 @@
 						count: 1
 						id: "modern_industrialization:bronze_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1370,6 +1400,7 @@
 						count: 1
 						id: "modern_industrialization:steel_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1379,6 +1410,7 @@
 						count: 1
 						id: "minecraft:chain"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1432,6 +1464,7 @@
 						id: "ftbmaterials:copper_wire"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1440,6 +1473,7 @@
 						count: 1
 						id: "farmersdelight:noodle_soup"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1477,6 +1511,7 @@
 						id: "modern_industrialization:copper_cable"
 					}
 					random_bonus: 3
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1487,6 +1522,7 @@
 						id: "modern_industrialization:silver_cable"
 					}
 					random_bonus: 3
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1525,6 +1561,7 @@
 						id: "ftbmaterials:steel_rod"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1535,6 +1572,7 @@
 						id: "modern_industrialization:tin_rotor"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1595,6 +1633,7 @@
 						id: "modern_industrialization:rubber_sheet"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1605,6 +1644,7 @@
 						id: "ftbmaterials:copper_plate"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1642,6 +1682,7 @@
 						count: 1
 						id: "modern_industrialization:bronze_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1650,6 +1691,7 @@
 						count: 1
 						id: "modern_industrialization:bronze_fluid_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1712,6 +1754,7 @@
 						id: "modern_industrialization:redstone_battery"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1722,6 +1765,7 @@
 						id: "modern_industrialization:motor"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1755,6 +1799,7 @@
 						id: "modern_industrialization:analog_circuit"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1765,6 +1810,7 @@
 						id: "modern_industrialization:robot_arm"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1798,6 +1844,7 @@
 						id: "modern_industrialization:basic_upgrade"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1831,6 +1878,7 @@
 						id: "modern_industrialization:motor"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1862,6 +1910,7 @@
 						count: 1
 						id: "modern_industrialization:basic_machine_hull"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1872,6 +1921,7 @@
 						id: "modern_industrialization:basic_upgrade"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1902,6 +1952,7 @@
 						count: 1
 						id: "modern_industrialization:lv_storage_unit"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1941,6 +1992,7 @@
 						count: 1
 						id: "modern_industrialization:cupronickel_coil"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1950,6 +2002,7 @@
 						count: 1
 						id: "modern_industrialization:heatproof_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2028,6 +2081,7 @@
 						id: "modern_industrialization:heatproof_machine_casing"
 					}
 					random_bonus: 3
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2064,6 +2118,7 @@
 						count: 1
 						id: "modern_industrialization:bronze_plated_bricks"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2153,6 +2208,7 @@
 						id: "modern_industrialization:aluminum_ingot"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2185,6 +2241,7 @@
 						id: "modern_industrialization:electronic_circuit_board"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2222,6 +2279,7 @@
 						id: "modern_industrialization:electronic_circuit"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2262,6 +2320,7 @@
 						id: "ftbmaterials:aluminum_plate"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2300,6 +2359,7 @@
 						count: 1
 						id: "modern_industrialization:aluminum_drill"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2309,6 +2369,7 @@
 						count: 1
 						id: "modern_industrialization:steel_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2317,6 +2378,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_item_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2325,6 +2387,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_fluid_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2333,6 +2396,7 @@
 						count: 1
 						id: "modern_industrialization:mv_energy_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2387,6 +2451,7 @@
 						id: "modern_industrialization:large_pump"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2422,6 +2487,7 @@
 						id: "modern_industrialization:large_motor"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2456,6 +2522,7 @@
 						id: "modern_industrialization:electrum_cable"
 					}
 					random_bonus: 6
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2465,6 +2532,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_machine_hull"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2497,6 +2565,7 @@
 						count: 1
 						id: "modern_industrialization:steel_drill"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2533,6 +2602,7 @@
 						count: 1
 						id: "actuallyadditions:laser_relay_fluids"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2566,6 +2636,7 @@
 						id: "ftbmaterials:salt_dust"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2598,6 +2669,7 @@
 						id: "modern_industrialization:electronic_circuit"
 					}
 					random_bonus: 3
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2633,6 +2705,7 @@
 						count: 1
 						id: "modern_industrialization:diesel_chainsaw"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2676,6 +2749,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2711,6 +2785,7 @@
 						id: "modern_industrialization:basic_upgrade"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2756,6 +2831,7 @@
 						id: "modern_industrialization:advanced_machine_hull"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2766,6 +2842,7 @@
 						id: "minecraft:raw_iron"
 					}
 					random_bonus: 32
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2799,6 +2876,7 @@
 						id: "modern_industrialization:basic_upgrade"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2809,6 +2887,7 @@
 						id: "modern_industrialization:pump"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2841,6 +2920,7 @@
 						count: 1
 						id: "ftbmaterials:chromium_dust"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2873,6 +2953,7 @@
 						id: "ftbmaterials:ruby_dust"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2905,6 +2986,7 @@
 						id: "modern_industrialization:manganese_crushed_dust"
 					}
 					random_bonus: 16
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2939,6 +3021,7 @@
 						id: "modern_industrialization:manganese_dust"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -2974,6 +3057,7 @@
 						id: "ftbmaterials:stainless_steel_dust"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3009,6 +3093,7 @@
 						id: "ftbmaterials:stainless_steel_ingot"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3045,6 +3130,7 @@
 						count: 1
 						id: "modern_industrialization:steel_item_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3053,6 +3139,7 @@
 						count: 1
 						id: "modern_industrialization:steel_fluid_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3061,6 +3148,7 @@
 						count: 1
 						id: "modern_industrialization:steel_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3069,6 +3157,7 @@
 						count: 1
 						id: "modern_industrialization:mv_energy_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3078,6 +3167,7 @@
 						count: 1
 						id: "modern_industrialization:frostproof_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3123,6 +3213,7 @@
 						id: "modern_industrialization:large_pump"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3133,6 +3224,7 @@
 						id: "modern_industrialization:large_motor"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3172,6 +3264,7 @@
 						id: "modern_industrialization:kanthal_coil"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3218,6 +3311,7 @@
 						id: "modern_industrialization:silicon_p_doped_plate"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3228,6 +3322,7 @@
 						id: "modern_industrialization:silicon_n_doped_plate"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3291,6 +3386,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3345,6 +3441,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3399,6 +3496,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3445,6 +3543,7 @@
 						id: "modern_industrialization:basic_upgrade"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3482,6 +3581,7 @@
 						id: "modern_industrialization:advanced_upgrade"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3518,6 +3618,7 @@
 						id: "modern_industrialization:aluminum_cable"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3528,6 +3629,7 @@
 						id: "modern_industrialization:silicon_battery"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3561,6 +3663,7 @@
 						id: "modern_industrialization:diode"
 					}
 					random_bonus: 16
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3571,6 +3674,7 @@
 						id: "modern_industrialization:op_amp"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3581,6 +3685,7 @@
 						id: "modern_industrialization:electronic_circuit"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3615,6 +3720,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_machine_hull"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3649,6 +3755,7 @@
 						id: "modern_industrialization:annealed_copper_wire"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3685,6 +3792,7 @@
 						id: "modern_industrialization:advanced_pump"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3695,6 +3803,7 @@
 						id: "modern_industrialization:advanced_motor"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3742,6 +3851,7 @@
 						count: 1
 						id: "modern_industrialization:stainless_steel_machine_casing_pipe"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3751,6 +3861,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_fluid_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3760,6 +3871,7 @@
 						count: 1
 						id: "modern_industrialization:clean_stainless_steel_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3835,6 +3947,7 @@
 						id: "ftbmaterials:stainless_steel_ingot"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3869,6 +3982,7 @@
 						id: "ftbmaterials:tungsten_ingot"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3904,6 +4018,7 @@
 						id: "modern_industrialization:blastproof_alloy_plate"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -3939,6 +4054,7 @@
 						count: 1
 						id: "modern_industrialization:blastproof_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3947,6 +4063,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_item_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3955,6 +4072,7 @@
 						count: 1
 						id: "modern_industrialization:hv_energy_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3963,6 +4081,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_item_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3972,6 +4091,7 @@
 						count: 1
 						id: "modern_industrialization:solid_titanium_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4024,6 +4144,7 @@
 						id: "ftbmaterials:titanium_plate"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4034,6 +4155,7 @@
 						id: "modern_industrialization:titanium_curved_plate"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4069,6 +4191,7 @@
 						count: 1
 						id: "modern_industrialization:turbo_fluid_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4077,6 +4200,7 @@
 						count: 1
 						id: "modern_industrialization:turbo_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4086,6 +4210,7 @@
 						count: 1
 						id: "modern_industrialization:solid_titanium_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4133,6 +4258,7 @@
 						count: 1
 						id: "modern_industrialization:turbo_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4141,6 +4267,7 @@
 						count: 1
 						id: "modern_industrialization:highly_advanced_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4150,6 +4277,7 @@
 						count: 1
 						id: "modern_industrialization:clean_stainless_steel_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4214,6 +4342,7 @@
 						count: 1
 						id: "modern_industrialization:ev_energy_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4222,6 +4351,7 @@
 						count: 1
 						id: "modern_industrialization:highly_advanced_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4231,6 +4361,7 @@
 						count: 1
 						id: "modern_industrialization:stainless_steel_machine_casing_pipe"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4287,6 +4418,7 @@
 						count: 1
 						id: "modern_industrialization:advanced_fluid_input_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4296,6 +4428,7 @@
 						count: 1
 						id: "modern_industrialization:highly_advanced_fluid_output_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4305,6 +4438,7 @@
 						count: 1
 						id: "modern_industrialization:stainless_steel_machine_casing_pipe"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4370,6 +4504,7 @@
 						id: "modern_industrialization:cadmium_dust"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4380,6 +4515,7 @@
 						id: "modern_industrialization:neodymium_dust"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -4390,6 +4526,7 @@
 						id: "modern_industrialization:yttrium_dust"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4425,6 +4562,7 @@
 						id: "ftbmaterials:platinum_stone_ore"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4466,6 +4604,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4511,6 +4650,7 @@
 						id: "ftbmaterials:iridium_ingot"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4544,6 +4684,7 @@
 						id: "ftbmaterials:platinum_ingot"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4580,6 +4721,7 @@
 						id: "modern_industrialization:processing_unit_board"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4621,6 +4763,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4676,6 +4819,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4730,6 +4874,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4827,6 +4972,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4884,6 +5030,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4934,6 +5081,7 @@
 						id: "modern_industrialization:basic_upgrade"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -4992,6 +5140,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5046,6 +5195,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5101,6 +5251,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5157,6 +5308,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5211,6 +5363,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5268,6 +5421,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5316,6 +5470,7 @@
 						id: "modern_industrialization:large_pump"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -5326,6 +5481,7 @@
 						id: "modern_industrialization:fluid_pipe"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5375,6 +5531,7 @@
 						id: "modern_industrialization:processing_unit"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5418,6 +5575,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5472,6 +5630,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5526,6 +5685,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5583,6 +5743,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5637,6 +5798,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5682,6 +5844,7 @@
 						id: "modern_industrialization:industrial_tnt"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5723,6 +5886,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5768,6 +5932,7 @@
 						id: "modern_industrialization:random_access_memory"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5801,6 +5966,7 @@
 						id: "modern_industrialization:monocrystalline_silicon"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5837,6 +6003,7 @@
 						id: "modern_industrialization:turbo_upgrade"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5870,6 +6037,7 @@
 						id: "modern_industrialization:highly_advanced_machine_casing"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5906,6 +6074,7 @@
 						id: "modern_industrialization:mixed_plate_nuclear"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -5942,6 +6111,7 @@
 						count: 1
 						id: "modern_industrialization:nuclear_item_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -5951,6 +6121,7 @@
 						count: 1
 						id: "modern_industrialization:nuclear_fluid_hatch"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -5960,6 +6131,7 @@
 						count: 1
 						id: "modern_industrialization:nuclear_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -5969,6 +6141,7 @@
 						count: 1
 						id: "modern_industrialization:nuclear_alloy_machine_casing_pipe"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6041,6 +6214,7 @@
 						count: 1
 						id: "modern_industrialization:carbon_large_plate"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -6050,6 +6224,7 @@
 						count: 1
 						id: "modern_industrialization:large_heat_exchanger"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6084,6 +6259,7 @@
 						count: 1
 						id: "modern_industrialization:nuclear_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6121,6 +6297,7 @@
 						id: "modern_industrialization:uranium_fuel_rod"
 					}
 					random_bonus: 1
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6162,6 +6339,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6216,6 +6394,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6261,6 +6440,7 @@
 						id: "modern_industrialization:large_advanced_motor"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6294,6 +6474,7 @@
 						id: "ftbmaterials:titanium_plate"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6327,6 +6508,7 @@
 						id: "modern_industrialization:large_advanced_pump"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6363,6 +6545,7 @@
 						id: "modern_industrialization:highly_advanced_upgrade"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6395,6 +6578,7 @@
 						id: "ftbmaterials:iridium_raw_ore"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6428,6 +6612,7 @@
 						id: "modern_industrialization:superconductor_hot_ingot"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -6438,6 +6623,7 @@
 						id: "modern_industrialization:superconductor_cable"
 					}
 					random_bonus: 6
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6482,6 +6668,7 @@
 						id: "modern_industrialization:superconductor_ingot"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6516,6 +6703,7 @@
 						id: "modern_industrialization:uranium_235_dust"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6547,6 +6735,7 @@
 						id: "modern_industrialization:he_uranium_fuel_rod"
 					}
 					random_bonus: 1
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6580,6 +6769,7 @@
 						id: "ftbmaterials:plutonium_dust"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6614,6 +6804,7 @@
 						id: "modern_industrialization:processing_unit"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -6623,6 +6814,7 @@
 						id: "modern_industrialization:nuke"
 					}
 					random_bonus: 1
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6655,6 +6847,7 @@
 						id: "modern_industrialization:he_mox_fuel_rod"
 					}
 					random_bonus: 1
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6670,7 +6863,10 @@
 			y: -22.0d
 		}
 		{
-			dependencies: ["3D4A837CF7C2C173"]
+			dependencies: [
+				"3D4A837CF7C2C173"
+				"29A42AFE639AA7DB"
+			]
 			icon_scale: 2.0d
 			id: "7D49D69623266062"
 			rewards: [
@@ -6688,6 +6884,7 @@
 						id: "modern_industrialization:quantum_circuit"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6721,6 +6918,7 @@
 						count: 1
 						id: "modern_industrialization:quantum_circuit"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6754,6 +6952,7 @@
 						id: "modern_industrialization:nuke"
 					}
 					random_bonus: 8
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6785,6 +6984,7 @@
 						count: 1
 						id: "modern_industrialization:quantum_machine_hull"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -6794,6 +6994,7 @@
 						count: 1
 						id: "modern_industrialization:fusion_chamber"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -6803,6 +7004,7 @@
 						count: 1
 						id: "modern_industrialization:highly_advanced_machine_hull"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6844,6 +7046,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -6854,6 +7057,7 @@
 						id: "modern_industrialization:quantum_circuit"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6899,6 +7103,7 @@
 						count: 1
 						id: "modern_industrialization:plasma_handling_iridium_machine_casing"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -6908,6 +7113,7 @@
 						count: 1
 						id: "modern_industrialization:iridium_machine_casing_pipe"
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -6932,6 +7138,7 @@
 			}
 			icon_scale: 2.0d
 			id: "16C3EFC0741108EE"
+			optional: true
 			rewards: [
 				{
 					amount: 250
@@ -6947,6 +7154,7 @@
 						id: "modern_industrialization:singularity"
 					}
 					random_bonus: 16
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -7029,6 +7237,7 @@
 						count: 1
 						id: "mekanism:basic_fluid_tank"
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -7039,6 +7248,7 @@
 						id: "modern_industrialization:quantum_circuit"
 					}
 					random_bonus: 4
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -7084,6 +7294,7 @@
 						id: "modern_industrialization:quantum_upgrade"
 					}
 					random_bonus: 1
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -7119,6 +7330,7 @@
 						id: "ftbmaterials:coal_coke_gem"
 					}
 					random_bonus: 2
+					team_reward: true
 					type: "item"
 				}
 			]
