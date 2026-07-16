@@ -164,6 +164,14 @@
 			x: -0.5d
 			y: -4.5d
 		}
+		{
+			height: 1.1d
+			image: "ftb:fluid/molten_bedrockium_still"
+			rotation: 45.0d
+			width: 1.1d
+			x: -0.5d
+			y: -8.0d
+		}
 	]
 	order_index: 3
 	progression_mode: "linear"
@@ -711,6 +719,7 @@
 			dependencies: ["740DA65D6FB1F0EC"]
 			icon_scale: 1.5d
 			id: "1F8EC3339B8873B9"
+			optional: true
 			rewards: [
 				{
 					amount: 10
@@ -960,6 +969,35 @@
 			}]
 			x: 3.0d
 			y: -11.0d
+		}
+		{
+			dependencies: ["665EA6DF800CE815"]
+			id: "12D15FCB12460F37"
+			rewards: [
+				{
+					amount: 25
+					id: "787CD80EE0352BC6"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "3686FEBAD2D909AD"
+					item: {
+						count: 1
+						id: "excessive_utilities:bedrockium_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "04229DE737800098"
+				item: { components: { "enderio:capacitor_data": { base: 30.0f, specializations: { } }, "minecraft:custom_model_data": 1, "minecraft:item_name": "{\"translate\":\"item.ftb.bedrockium_capacitor\"}" }, count: 1, id: "enderio:octadic_capacitor" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
 		}
 	]
 }

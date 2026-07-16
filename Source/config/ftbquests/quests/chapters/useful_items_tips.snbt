@@ -960,5 +960,74 @@
 			x: 4.5d
 			y: -2.5d
 		}
+		{
+			icon: {
+				id: "minecraft:lightning_rod"
+			}
+			id: "31C81ED0EEA8FD34"
+			min_width: 300
+			rewards: [{
+				amount: 1
+				id: "20D9002757F19B2B"
+				team_reward: false
+				type: "currency"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "16E099D5EA18961B"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CADA41796D0F7F9"]
+			hide_dependency_lines: true
+			id: "7D2375372CF328C3"
+			min_width: 350
+			rewards: [
+				{
+					amount: 3
+					id: "7AD63B07EA278D78"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "457F4C396A59D667"
+					item: {
+						count: 1
+						id: "minecraft:flint_and_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4043DB3B9D15DB85"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "458F2A7268747542"
+					item: {
+						count: 1
+						id: "minecraft:dispenser"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "13424A9A95F161A0"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:burning_dash", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
 	]
 }

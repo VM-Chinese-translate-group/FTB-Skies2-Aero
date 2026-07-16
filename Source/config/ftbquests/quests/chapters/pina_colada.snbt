@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2D0F5BF08D40618C"
 	default_hide_dependency_lines: false
 	default_min_width: 250
 	default_quest_shape: ""
@@ -13,6 +14,16 @@
 		id: "tropicraft:cocktail"
 	}
 	id: "0DCFFC4FFBC3B1E5"
+	images: [{
+		alpha: 150
+		color: 0
+		height: 22.0d
+		image: "ftb:textures/quests/white_bg.png"
+		rotation: 0.0d
+		width: 18.0d
+		x: 0.0d
+		y: -1.5d
+	}]
 	order_index: 1
 	quest_links: [
 		{
@@ -40,7 +51,7 @@
 				"00EF44F8FEB82203"
 				"28583E75F9E834F6"
 			]
-			icon_scale: 1.25d
+			icon_scale: 0.75d
 			id: "2D0F5BF08D40618C"
 			min_width: 350
 			rewards: [{
@@ -48,8 +59,8 @@
 				id: "6A835167AFE90535"
 				type: "currency"
 			}]
-			shape: "gear"
-			size: 3.0d
+			shape: "diamondgear"
+			size: 2.0d
 			tasks: [{
 				id: "3451E16E0A4E988D"
 				item: { components: { "tropicraft:cocktail": { drink: "tropicraft:pina_colada" } }, count: 1, id: "tropicraft:cocktail" }
@@ -79,8 +90,14 @@
 			size: 1.5d
 			tasks: [
 				{
+					id: "1D758D81AC0EE6D9"
+					item: { count: 1, id: "justdynathings:paradox_mixer" }
+					type: "item"
+				}
+				{
 					id: "09D9342C4CD8FD2A"
 					item: { count: 1, id: "ftb:pineapple_juice_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -89,6 +106,7 @@
 						id: "ftb:pineapple_juice"
 					}
 					id: "2CA9A97D227B014E"
+					optional_task: true
 					type: "fluid"
 				}
 			]
@@ -139,7 +157,6 @@
 				"382E047665CBD83B"
 				"487A0367385B68BC"
 			]
-			dependency_requirement: "one_completed"
 			icon: {
 				id: "ftb:white_rum_bucket"
 			}
@@ -172,26 +189,24 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["283EA4E7BA93DA11"]
+			dependencies: [
+				"283EA4E7BA93DA11"
+				"1F03F231AA612128"
+			]
 			icon: {
 				id: "ftb:coconut_milk_bucket"
 			}
 			id: "50FEA4A0E4E1EABD"
 			rewards: [{
-				amount: 35
+				amount: 25
 				id: "64F903A837E36658"
 				type: "currency"
 			}]
 			shape: "square"
 			tasks: [
 				{
-					id: "3AAC218B3DB44F1B"
-					item: { count: 1, id: "tropicraft:coconut" }
-					type: "item"
-				}
-				{
-					id: "4C427FEBB5537F77"
-					item: { count: 1, id: "tropicraft:coconut_chunk" }
+					id: "3C8D4C53DE3910A0"
+					item: { count: 1, id: "enderio:liquid_darkness_bucket" }
 					type: "item"
 				}
 				{
@@ -211,7 +226,7 @@
 				}
 			]
 			x: -4.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["616E3CE38F1D73AE"]
@@ -232,7 +247,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			icon: {
@@ -268,7 +283,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -4.5d
 			y: -1.0d
 		}
 		{
@@ -315,6 +330,9 @@
 		}
 		{
 			dependencies: ["1B986C3D7E212B33"]
+			icon: {
+				id: "tropicraft:pineapple"
+			}
 			id: "7569178CFA3533D7"
 			rewards: [{
 				amount: 75
@@ -340,6 +358,7 @@
 				"70A384F1352EE154"
 			]
 			id: "546A582A0084C982"
+			min_width: 260
 			rewards: [{
 				amount: 100
 				id: "3C2A1AF48C179296"
@@ -359,6 +378,11 @@
 				id: "neovitae:reagent_growth"
 			}
 			id: "2A140788CF103FFB"
+			rewards: [{
+				amount: 15
+				id: "51781B13EEA141CA"
+				type: "currency"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -537,6 +561,11 @@
 				id: "oritech:unholy_intelligence"
 			}
 			id: "5317AEA8F2339F72"
+			rewards: [{
+				amount: 25
+				id: "325558549041DFDE"
+				type: "currency"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -547,6 +576,7 @@
 				{
 					id: "26426635DE1B4755"
 					item: { count: 1, id: "oritech:still_strange_matter_bucket" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -697,23 +727,11 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "10BCE39406442B3D"
-					item: { count: 1, id: "ftb:molten_impure_bedrockium_bucket" }
-					type: "item"
-				}
-				{
-					id: "4D865F09561392CD"
-					item: { count: 1, id: "excessive_utilities:demonically_gargantuan_drum" }
-					type: "item"
-				}
-				{
-					id: "15FCCD97EB9C9806"
-					item: { count: 1, id: "excessive_utilities:bedrockium_drum" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "15FCCD97EB9C9806"
+				item: { count: 1, id: "excessive_utilities:bedrockium_drum" }
+				type: "item"
+			}]
 			x: -4.0d
 			y: 1.0d
 		}
@@ -771,18 +789,11 @@
 				type: "currency"
 			}]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "16BA1B8A5616C5B7"
-					item: { count: 1, id: "advanced_ae:reaction_chamber" }
-					type: "item"
-				}
-				{
-					id: "493A522B2373CFD8"
-					item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "493A522B2373CFD8"
+				item: { count: 1, id: "advanced_ae:quantum_alloy_plate" }
+				type: "item"
+			}]
 			x: -5.0d
 			y: 2.5d
 		}
@@ -812,9 +823,9 @@
 			dependencies: [
 				"0982AECAA96C6DA5"
 				"740706F63579237D"
-				"65549EC5F1FAB671"
 				"570BDF1FA230FF2A"
 				"24FF4F633F92B480"
+				"0A91BD776D5EB4E6"
 			]
 			id: "28583E75F9E834F6"
 			optional: true
@@ -843,14 +854,15 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "39E829066E33A740"
-				item: { count: 1, id: "advanced_ae:quantum_accelerator" }
+				item: { count: 1, id: "ftbskies2aerocompanion:titanium_energiser" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			id: "570BDF1FA230FF2A"
+			optional: true
 			rewards: [{
 				amount: 150
 				id: "6E1017C4A743F65A"
@@ -862,11 +874,12 @@
 				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			id: "740706F63579237D"
+			optional: true
 			rewards: [{
 				amount: 150
 				id: "4A24FA93EC389710"
@@ -878,32 +891,15 @@
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
-			hide_dependency_lines: true
-			id: "65549EC5F1FAB671"
-			rewards: [{
-				amount: 75
-				id: "0AAAB04540F5BFB9"
-				type: "currency"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6B2F1685F62AF4EF"
-				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"0E5E76F892EC6ECF"
-				"467CF111A0FF327A"
-			]
+			icon: {
+				id: "ftb:quantum_rod"
+			}
 			id: "24FF4F633F92B480"
+			optional: true
 			rewards: [{
 				amount: 150
 				id: "238F3ADCAB4B54BB"
@@ -922,7 +918,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -977,6 +973,7 @@
 				id: "oritech:black_hole_block"
 			}
 			id: "1B986C3D7E212B33"
+			min_width: 300
 			rewards: [{
 				amount: 50
 				id: "1338F07C39D3E6AE"
@@ -986,13 +983,13 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "073C1E8DD3907940"
-					item: { count: 1, id: "xycraft_machines:extractor" }
+					id: "6E9D19EB17C5A60A"
+					item: { count: 1, id: "oritech:black_hole_block" }
 					type: "item"
 				}
 				{
-					id: "6E9D19EB17C5A60A"
-					item: { count: 1, id: "oritech:black_hole_block" }
+					id: "3CBCFD2A4E5886F9"
+					item: { count: 1, id: "xycraft_machines:extractor" }
 					type: "item"
 				}
 			]
@@ -1000,36 +997,48 @@
 			y: -9.0d
 		}
 		{
-			id: "467CF111A0FF327A"
-			rewards: [{
-				amount: 100
-				id: "34477C44A74E5F9C"
-				type: "currency"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6058821A7AEE7A98"
-				item: { count: 1, id: "ftb:infinitely_compressed_circuit_board" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
-			id: "0E5E76F892EC6ECF"
+			id: "0A91BD776D5EB4E6"
+			optional: true
 			rewards: [{
 				amount: 75
-				id: "1AC1F4E10E8786E2"
+				id: "492785563D3C7F5E"
 				type: "currency"
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "542E4C69C455BE66"
-				item: { count: 1, id: "ftb:bio_neural_circuit" }
+				id: "3E7551F7098FA584"
+				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["283EA4E7BA93DA11"]
+			icon: {
+				id: "tropicraft:coconut"
+			}
+			id: "1F03F231AA612128"
+			rewards: [{
+				amount: 35
+				id: "64863012B165C7E3"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1CAD5F6AA08129B4"
+					item: { count: 1, id: "tropicraft:coconut" }
+					type: "item"
+				}
+				{
+					id: "7C5490D6753B318E"
+					item: { count: 1, id: "tropicraft:coconut_chunk" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.0d
 		}
 	]
 }

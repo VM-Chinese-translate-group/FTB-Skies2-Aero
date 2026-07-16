@@ -341,7 +341,7 @@
   "ftb.shop.description.skill_point.ring": "Curio Ring Slot",
   "ftb.shop.description.skill_point.rune": "Curio Rune Slot",
   "ftb.shop.description.skill_point": "§7§oAdds 1 skill point to spend in the skill tree.",
-  "ftb.shop.description.spawner": "§7â‹® Maximum spawn count and nearby entity check \n§7â‹® Minimal spawn delay, range, and health percentage \n§7â‹® Ignores nearby players, lights, and other conditions \n§7â‹® Mobs have no AI and are silent \n§7â‹® Mobs drop extra loot \n§7â‹® Redstone controlled",
+  "ftb.shop.description.spawner": "§7⋮ Maximum spawn count and nearby entity check \n§7⋮ Minimal spawn delay, range, and health percentage \n§7⋮ Ignores nearby players, lights, and other conditions \n§7⋮ Mobs have no AI and are silent \n§7⋮ Mobs drop extra loot \n§7⋮ Redstone controlled",
   "ftb.shop.description.temporal_pouch_warning": "§c§oBe sure to have a Temporal Pouch in your hand when claiming this reward!",
   "ftb.shop.player_upgrade.limit_reached": "Limit of %d was reached for %s",
   "ftb.shop.player_upgrade.no_item": "Please hold Player Upgrade in Main Hand",

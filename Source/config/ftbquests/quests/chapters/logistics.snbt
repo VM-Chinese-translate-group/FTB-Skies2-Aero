@@ -877,6 +877,7 @@
 				{
 					id: "7D89DFFEC7E13EC1"
 					item: { count: 1, id: "itemcollectors:basic_collector" }
+					optional_task: true
 					type: "item"
 				}
 				{

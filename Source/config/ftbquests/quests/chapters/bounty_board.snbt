@@ -1081,7 +1081,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 8L
 				id: "3A621FA2673D973B"
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
 				type: "item"

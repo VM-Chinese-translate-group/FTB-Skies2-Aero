@@ -1266,7 +1266,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5D96F0CE1154B9B8"]
 			icon: {
 				id: "starbunclemania:chef_hat"
 			}

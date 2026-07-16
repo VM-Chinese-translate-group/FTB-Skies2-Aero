@@ -308,6 +308,7 @@
 				{
 					id: "3602BC5A7FA7DDB8"
 					item: { components: { "ftbfiltersystem:filter": "or(item(draconicevolution:basic_io_crystal)item(draconicevolution:basic_relay_crystal)item(draconicevolution:basic_wireless_crystal))", "minecraft:custom_name": "\"Basic Energy Transfer\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 				{
