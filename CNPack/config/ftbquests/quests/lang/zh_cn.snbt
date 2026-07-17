@@ -51,7 +51,7 @@
 	quest.0056517EDF3DAB08.quest_desc: [
 		"&a速度表&r可以显示你的动力网络中某个特定组件的运行速度。"
 		""
-		"&a应力表&r可以显示你整个动力网络中正在使用的总&b应力量&r。。"
+		"&a应力表&r可以显示你整个动力网络中正在使用的总&b应力量&r。"
 	]
 	quest.0056517EDF3DAB08.title: "&f测量&bRPM&f和&b应力"
 	quest.006014B382FCF6E6.quest_desc: [
@@ -99,7 +99,7 @@
 		"将其投入水中，即可转化为&6多态流体&r。"
 	]
 	quest.00EF44F8FEB82203.quest_desc: ["[ \"使用\", { \"text\": \"悖论混合器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"774D3A6FFDD295D4\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"} }, \"混合闪电菠萝和时间菠萝汁。\" ]"]
-	quest.00EF44F8FEB82203.title: "Paradoxical Mixing"
+	quest.00EF44F8FEB82203.title: "悖谬混合"
 	quest.01177027CE208375.quest_desc: ["当你获得了一些&d不锈钢粉&r，你就可以将其放入&3电力高炉&r中，烧制出&b热不锈钢锭&r。"]
 	quest.01177027CE208375.title: "&d不锈钢锭"
 	quest.011DBD2652E49B97.quest_desc: [
@@ -336,7 +336,7 @@
 	quest.048C3FE50857E86F.quest_desc: [
 		"&a手摇曲柄&r是快速产生&b旋转力&r的最基础方案。"
 		""
-		"然而，它无法为你的结构和机器持久供应动力，因此你真的应该考虑一个更持久的解决方案。"
+		"然而，它无法为你的结构和机器持久供应动力，因此你真的应该考虑一个一劳永逸的解决方法。"
 	]
 	quest.048C3FE50857E86F.title: "&a手摇曲柄"
 	quest.049216EE3898849C.quest_desc: [
@@ -602,7 +602,7 @@
 	quest.09012B945D3AC7AE.quest_desc: [
 		"&a软管滑轮&r可以用于填充或排空大量液体。"
 		""
-		"如果液体体积足够大，&a软管滑轮&r会将其视为无限液体源。"
+		"如果流体体积足够大，&a软管滑轮&r会将其视为无限流体源。"
 	]
 	quest.09012B945D3AC7AE.title: "&a软管滑轮"
 	quest.090946AC35693607.quest_desc: [
@@ -827,9 +827,9 @@
 	]
 	quest.0AF5992D0DF57313.title: "&6四阶矿物处理产线"
 	quest.0B1C26C45144306A.quest_desc: [
-		"钓鱼获取精华的收益远超预期！这些精华可以转化成推动进程所需的资源。"
+		"钓鱼获取精华的收益远超预期！这些精华可以转化成推进度所需的资源。"
 		""
-		"将它们与一些下级精华和活化种子基底结合，就能制成一种作物，被动地生长这些精华。"
+		"将它们与一些下级精华和活化种子基底相结合，即可制作出一种能被动产出这些精华的作物。"
 		""
 		"&e注意&f：某些资源的种子需要你先找到对应材料后才能制作。"
 		""
@@ -1492,7 +1492,7 @@
 	]
 	quest.14D727685CB433C1.title: "&f经典老&2箱子"
 	quest.14EFD20C0400F2CF.quest_desc: [
-		"This fluid should serve as a good cold base for our ice cubes."
+		"这种液体应该能作为小冰块的冷凝剂。"
 		""
 		"You can choose to do this via &eModern Industrialization&f or Create Mixing."
 	]
@@ -3032,7 +3032,7 @@
 	quest.2B7E7CFF01172556.quest_desc: [
 		"&3翻牌显示器&r是一个可拓展的标志装置，能够根据网络文本或信息的展示需求进行高度定制化配置。"
 		""
-		"&3辉光管&r可以显示数字和/或字母，具体显示取决于对其的设置"
+		"&3辉光管&r可以显示数字和/或字母，具体显示取决于对其的设置。"
 	]
 	quest.2B7E7CFF01172556.title: "&3翻牌显示器"
 	quest.2B8B225CF404A351.quest_desc: [
@@ -3838,7 +3838,7 @@
 	quest.3557FBCEFEF444CC.quest_desc: [
 		"&d精密构件&r是&e机械动力&r模组中一些顶级工具和机器的重要合成部件。"
 		""
-		"&e注&r：本配方有20%的失败概率，因此请务必准备好过滤器以应对这种情况。"
+		"&e注意&r：本配方有20%的失败概率，因此请务必准备好过滤器以应对这种情况。"
 	]
 	quest.3557FBCEFEF444CC.title: "&d精密构件"
 	quest.355C3ACB16CC2DE9.quest_desc: [
@@ -4923,7 +4923,7 @@
 	quest.423950ED16C2422B.title: "&b勇士之力"
 	quest.424BFFB9EFAB9565.quest_desc: ["&3电子管&r是一种合成部件，用于在&e机械动力&r中制作一些电子或可以控制的机械装置。"]
 	quest.424BFFB9EFAB9565.title: "&3电子管"
-	quest.425A41A378E7BF52.quest_desc: ["&3工程师护目镜&r可显示你的&e机械动力&r网络中的各种元素，包括特定方块的 &bRPM&r。"]
+	quest.425A41A378E7BF52.quest_desc: ["&3工程师护目镜&r可显示你的&e机械动力&r网络中的各种元素，包括特定方块的&bRPM&r。"]
 	quest.425A41A378E7BF52.title: "&3工程师护目镜"
 	quest.425CB9CE53FBC0FF.quest_desc: [
 		"&d巫师之镜&r一般会施放&a自身&r类型的法术。"
@@ -6195,7 +6195,7 @@
 	quest.544DCCAF97078924.title: "&f符石基座"
 	quest.5455CF5D3C37ECA9.quest_desc: ["在这座矗立于下界虚空的宏伟建筑里，既有珍贵宝藏，也有似猪的怪物，甚至有一尊强力的守卫傀儡，任何胆敢靠近的人都会遭到袭击。"]
 	quest.5455CF5D3C37ECA9.title: "&f找到&6堡垒（Bastion）"
-	quest.546A582A0084C982.quest_desc: ["&7&o An amalgamation of artificial and magical flavours"]
+	quest.546A582A0084C982.quest_desc: ["&7&o人造物和魔法风味的结合"]
 	quest.546A582A0084C982.title: "Artificial Fruits"
 	quest.54AC477417E72055.quest_desc: [
 		"如果你想找个更好的办法从晶洞中收获紫水晶，&d紫晶傀儡&r乐意为你效劳！"
@@ -6748,7 +6748,7 @@
 		"&e仅开采矿石&r模式下，它会检索它下方的方块，直到找到矿石为止。然后它就会自动挖掘，并将挖掘到的矿石储存在内部空间。"
 	]
 	quest.5D4E2FAD79F5AC0A.title: "&3垂直挖矿机"
-	quest.5D622DB7CB6889EA.quest_desc: ["&a物品舱口&r可以让你将手持物或玩家物品栏中的物品瞬间存入相连的容器"]
+	quest.5D622DB7CB6889EA.quest_desc: ["&a物品舱口&r可以让你将手持物或玩家物品栏中的物品瞬间存入相连的容器。"]
 	quest.5D622DB7CB6889EA.quest_subtitle: "稍后再处理"
 	quest.5D622DB7CB6889EA.title: "&a物品舱口"
 	quest.5D7698281A8CA4D0.quest_desc: [
@@ -7238,7 +7238,7 @@
 		"你也可以使用&b伪装块&r来隐藏&a逻辑线缆&r。将伪装方块与你想使用的方块合成即可。"
 	]
 	quest.63A3450169DD4B17.title: "&f网络"
-	quest.63A3D154A4307BCC.quest_desc: ["&d伸缩机械手&r可以大幅增加你的攻击距离。"]
+	quest.63A3D154A4307BCC.quest_desc: ["&d伸缩机械手&r可以大幅增加你的触及距离。"]
 	quest.63A3D154A4307BCC.title: "&d伸缩机械手"
 	quest.63D1F9A9465CC28F.quest_desc: [
 		"什么东西都种一点对推进Enchanted模组进度相当重要。"
@@ -7394,7 +7394,7 @@
 	quest.66AB8C43E63AD672.quest_desc: [
 		"&3动力搅拌器&r可用于配方制作、混合药水以及其他一些混合配方。"
 		""
-		"&3烈焰人燃烧室&r用于为&c蒸汽引擎&r等设备以及&ePNCR&r等与热能相关的模组提供热能。"
+		"&3烈焰人燃烧室&r用于为&c蒸汽引擎&r等设备以及&ePnCR&r等与热能相关的模组提供热能。"
 	]
 	quest.66AB8C43E63AD672.title: "&3动力搅拌器"
 	quest.66B66C0C33071D7B.quest_desc: ["在&3化学反应釜&r中让&a粗铂矿&r和&e硫酸&r反应，我们就可以得到&d硫酸铂溶液&r。"]
@@ -7643,7 +7643,7 @@
 		""
 		"&e机械动力&r的内置的可视化文档名为&b思索&r，它将教你大多数方块的工作原理。在JEI或你的物品栏中将鼠标指针悬停在一个物品上可以查看它们是否有&b思索&r。"
 		""
-		"首先，制作一下&a安山合金&r。你需要很多这个"
+		"首先，制作一些&a安山合金&r。你需要很多这个。"
 		"{@pagebreak}"
 		"&a扳手&r是一种多功能工具，用于操作&e机械动力&r的结构。"
 		""
@@ -7894,7 +7894,7 @@
 	quest.706E4918137CFA07.quest_desc: [
 		"&d机械手&r用于模拟玩家交互和处理物品配方。"
 		""
-		"&d机械手&r可以挤牛奶、剪羊毛、开垦农田、攻击怪物，以及更多功能。"
+		"&d机械手&r可以挤牛奶、剪羊毛、开垦农田、攻击怪物，此外还有更多功能。"
 	]
 	quest.706E4918137CFA07.title: "&d机械手"
 	quest.70753CD7045AE9E1.quest_desc: [
@@ -8267,7 +8267,7 @@
 	]
 	quest.745140E3D92CB0D6.title: "&f方块破坏"
 	quest.7454899FCDA2349B.quest_desc: [
-		"&6火车站点&r是你铁路网络的中转站。"
+		"&6列车站点&r是你铁路网络的中转站。"
 		""
 		"它也可以在你组装火车时设置为组装模式。"
 	]
@@ -8333,9 +8333,9 @@
 		"&d游戏后期&f：击败&d末影龙&f"
 	]
 	quest.7569178CFA3533D7.quest_desc: [
-		"To make &aPineapples&r you'll need to decondensentrate &dLiquid Antimatter&f to chemical Antimatter and convert an &5Insanium Apple&f."
+		"要制作&a菠萝&r，你需要将&d液态反物质&f冷凝成化学品，然后用它转化一个&5究极精华苹果&f。"
 		""
-		"How did you think Pineapples were made?"
+		"不然你以为这个世界的菠萝是从哪里来的？"
 	]
 	quest.7577594004D188D9.quest_desc: ["在&3化学反应釜&r中将&c氯乙烯&r与铅或&4铬细粉&r结合，以制作&a聚氯乙烯&r。"]
 	quest.7577594004D188D9.title: "&c氯乙烯"
@@ -8360,7 +8360,7 @@
 	quest.75D7595FD90E77E5.quest_desc: ["每装一个&d装配矩阵样板核心&r，就能给&6装配矩阵&r增加36个样板槽位。"]
 	quest.75D7595FD90E77E5.title: "&d装配矩阵样板核心"
 	quest.767288EF95829225.quest_desc: [
-		"&3动力犁&r可以耕地并破坏没有实体碰撞箱的方块（雪、火把、铁轨、拉杆等）"
+		"&3动力犁&r可以耕地并破坏无碰撞体积的非固体方块（雪、火把、铁轨、拉杆等）"
 		""
 		"&3动力收割机&r用于收割作物。"
 	]
@@ -8488,7 +8488,7 @@
 	]
 	quest.7791DA964DA2A80D.title: "&f如何搭建加速器？"
 	quest.77C20F4D048CD9BF.quest_desc: [
-		"You'll need to make &2Orange Crystals&f to give your &dCoconut Cream&f its delightful texture."
+		"你需要制作一些&2橙色的水晶&f，用它为&d椰奶奶油&f带来令人愉悦的质感。"
 		""
 		"[ \"To do this, you'll need to progress with Mekanism's \", { \"text\": \"Chemical Processing Chain\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35ED26A5855FBBBA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" to break the Oranges down into crystals.\" ]"
 	]
@@ -8660,7 +8660,7 @@
 		"{image:ftb:textures/quests/ars/battlemageset.png width:130 height:125 align:center}"
 	]
 	quest.79F2BC05D79B9863.title: "&b战斗法师套装"
-	quest.79FDF1B5B7E09EAF.quest_desc: ["&e机械动力&3的流体管道&r需要&b旋转力&r才能从任何储罐中推/拉流体。"]
+	quest.79FDF1B5B7E09EAF.quest_desc: ["&e机械动力&3的流体管道&r需要&b旋转力&r才能从任何储罐中输入/输出流体。"]
 	quest.79FDF1B5B7E09EAF.title: "&3流体管道"
 	quest.7A06D08AC7C65D20.quest_desc: [
 		"你说你搞到了超级好的魔咒，但是它附在了很鸡肋的东西上？"
@@ -8745,7 +8745,7 @@
 		""
 		"&3铜板&r通常用于流体相关部件。"
 		""
-		"&3金板&r仅用于工具箱、弹射置物台、扳手和工程师护目镜。"
+		"&3金板&r仅用于制造工具箱、弹射置物台、扳手和工程师护目镜。"
 	]
 	quest.7B79DD44BE8E1BB7.title: "&3金属板"
 	quest.7B954D1F7620FA41.quest_desc: [
@@ -8807,9 +8807,9 @@
 	quest.7C953DC017229E15.quest_desc: [
 		"&a传动杆&r和&a齿轮&r是将旋转力传递到你的机器与结构的主要方式。"
 		""
-		"查看&a齿轮&r的&b思索&r，了解它们如何应用于增加或减少动力网络中的&b每分钟转速&r（&bRPM&r）。"
+		"查看&a齿轮&r的&b思索&r，了解它们如何增加或减少动力网络中的&b每分钟转速&r（&bRPM&r）。"
 	]
-	quest.7C953DC017229E15.title: "&a前期游戏&b旋转力"
+	quest.7C953DC017229E15.title: "&a游戏前期&b旋转力"
 	quest.7C9B4CE2A2F62096.quest_desc: [
 		"你可以把基片放进另一台&a加压反应室&r内，用它制取&6高密度聚乙烯丸&r。这种高级材料是制作各类高阶物品与设备的关键原料！"
 		""
@@ -8854,7 +8854,7 @@
 		""
 		"它的挖掘速度取决于接收到的&bRPM&r值。"
 		""
-		"它还可以连接到结构上，自动挖掘遇到的方块。"
+		"它还可以连接到动态结构上，自动挖掘遇到的方块。"
 	]
 	quest.7D11FCF02C35213F.quest_subtitle: "钻吧宝贝钻吧"
 	quest.7D11FCF02C35213F.title: "&a动力钻头"
