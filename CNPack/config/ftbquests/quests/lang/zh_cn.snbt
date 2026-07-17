@@ -598,7 +598,7 @@
 	]
 	quest.087D1FBAE8A425C0.title: "&f搭建&d传送门&r！"
 	quest.08D03AA0E1D218F7.title: "&7瘟疫术士套装"
-	quest.0900DBFB006F8F85.quest_desc: ["一旦准备好所有材料，只需将它们混合在一起，简单的化学反应便会将它们融合成新鲜冷冻的&b小冰块&f。"]
+	quest.0900DBFB006F8F85.quest_desc: ["准备好所有材料后，只需将它们混合在一起，简单的化学反应便会将它们融合成新鲜冷冻的&b小冰块&f。"]
 	quest.09012B945D3AC7AE.quest_desc: [
 		"&a软管滑轮&r可以用于填充或排空大量液体。"
 		""
@@ -662,7 +662,7 @@
 	quest.095DE7425166A5A3.title: "&f折越卷轴"
 	quest.0973638AADE1B61C.quest_desc: ["&d聚氯乙烯&r是进阶电路板元件、各种升级以及超导体线缆的原材料。"]
 	quest.0973638AADE1B61C.title: "&d聚氯乙烯"
-	quest.0982AECAA96C6DA5.quest_desc: ["This &dTitanium Energizer&r has served you well until now, but you'll need a much faster energiser from here on out."]
+	quest.0982AECAA96C6DA5.quest_desc: ["迄今为止，这个&d钛激发器&r一直兢兢业业地为你服务。但从现在开始，你需要一个更快的激发器了。"]
 	quest.099481C1F0718B67.quest_desc: [
 		"修行巫术的&6牧师&r常驻于村庄中，好在他们并不介意别人拿走所需的物品。"
 		""
@@ -1111,9 +1111,9 @@
 	quest.0F22A0A29B961A1C.quest_desc: ["在你着手&3蒸馏&r&d蒸汽裂解石脑油&r得到&e乙苯&r的时候，你也可以把多余的&3乙烯&r和&a苯&r化合以获得更多的&e乙苯&r。"]
 	quest.0F22A0A29B961A1C.title: "&e乙苯"
 	quest.0F2DCE3085A31789.quest_desc: [
-		"One of the coldest things known to man-kind, now in the palm of your hands."
+		"人类已知的最冷之物，如今尽在你掌心。"
 		""
-		"You'll first need to acquire Helium in one of several different ways, then cool it down even further."
+		"首先，你需要通过各种方式获取氦气，然后进一步将其冷却。"
 	]
 	quest.0F3EDB9AE592016B.quest_desc: ["提升储电能力，提高能量传输速率。"]
 	quest.0F3EDB9AE592016B.title: "&f机器容量插件"
@@ -1494,7 +1494,7 @@
 	quest.14EFD20C0400F2CF.quest_desc: [
 		"这种液体应该能作为小冰块的冷凝剂。"
 		""
-		"You can choose to do this via &eModern Industrialization&f or Create Mixing."
+		"你可以选择通过&e现代工业化&f或机械动力搅拌来完成此操作。"
 	]
 	quest.14FFB82FB7EB0659.title: "&f苹果派"
 	quest.154E08BC9091684F.quest_desc: [
@@ -1776,9 +1776,9 @@
 	]
 	quest.19874DF48B8B2A75.title: "&d终级控制电路"
 	quest.19AD731AAB341F7A.quest_desc: [
-		"You'll need something much stronger than an ordinary knife or blender to cut these Pineapples into smaller pieces."
+		" 想要把这些菠萝切成小块，普通的刀或搅拌机可不够，你得找点更趁手的家伙。"
 		""
-		"[ \"Use an \", { \"text\": \"Assembly Controller\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B9781072E9E935C\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Quest\"} }, \" with the Drill Unit upgrade to make \", {\"text\": \"Pineapple Chunks.\", \"color\": \"yellow\"} ]"
+		"[ \"使用带有装配钻头的\", { \"text\": \"装配台\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B9781072E9E935C\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"} }, \"来制作\", {\"text\": \"菠萝果粒。\", \"color\": \"yellow\"} ]"
 	]
 	quest.19C696F8143FB1B6.title: "&z混沌核心"
 	quest.19E98C84733A5532.quest_desc: [
@@ -1948,11 +1948,11 @@
 	quest.1B8F8FB85E523670.quest_desc: ["这座岛屿上有一座简朴的&c炽焰术士塔&r。由于无法向地下拓展空间，他们只能在地表与你正面交锋。"]
 	quest.1B8F8FB85E523670.title: "&f找到&c炽焰术士塔"
 	quest.1B986C3D7E212B33.quest_desc: [
-		"Once you have a black hole, set up an extractor above it with a one-block gap in between to extract &dLiquid Antimatter&f."
+		"有了黑洞后，在其上方隔一个方块放置提取机，以抽取&d液态反物质&f。"
 		""
-		"It's &lVERY IMPORTANT&r that you set up a block placer that places items every tick or the Black Hole will consume your Extractor and any other blocks near it."
+		"&l极其重要&r的一点是，你必须设置一个每tick放置方块的方块放置器，否则黑洞会吞噬掉你的提取机及其附近的所有方块。"
 		""
-		"[ \"Check the \", { \"text\": \"Particle Accelerator\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C0C63951FDED180\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Quest\"} }, \" quest if you need guidance on how to set it up. Alternatively, you can hold down \", {\"keybind\": \"key.guideme.guide\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: G\"}}, \" on any Particle Accelerator item to open its GuideMe page.\" ]"
+		"[ \"如果你需要关于如何设置粒子加速器的指南，可以查阅\", { \"text\": \"粒子加速器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C0C63951FDED180\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"} }, \"任务。同样地，你也可以在粒子加速器物品上长按\", {\"keybind\": \"key.guideme.guide\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认按键：G\"}}, \"打开GuideMe指南页面。\" ]"
 	]
 	quest.1B986C3D7E212B33.title: "黑洞榨汁"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
@@ -2308,11 +2308,11 @@
 	]
 	quest.20B98E676C8CC943.title: "&d憎恶能量"
 	quest.20C1D77571C98669.quest_desc: [
-		"The &6Bedrockium Mug&f is the perfect cup. It can perfectly handle the &zPiña Coladas&f infusion recipe, while not spoiling its delightful flavour."
+		"&6基岩马克杯&f是完美的杯子。它能完美承载&z椰林飘香&f的注液配方，同时不破坏其美妙风味。"
 		""
-		"&7&oAll parts for the Implosion Chamber can be made with other mods"
+		"&7&o内爆压缩机的所有部件都可以用其他模组的代替"
 	]
-	quest.20C1D77571C98669.title: "&6Bedrockium Mug"
+	quest.20C1D77571C98669.title: "&6基岩马克杯"
 	quest.20C572AF6BF2FAD9.quest_desc: [
 		"消耗TNT或火药。"
 		""
@@ -2594,7 +2594,7 @@
 		"成功启动后，这台机器能将一个原矿分解为四个&a矿物碎片&r。随后可送入提纯仓进行进一步加工。"
 	]
 	quest.24E7FEB8D24FAB4A.title: "&a化学压射室&r"
-	quest.24FF4F633F92B480.title: "Quantum Parts"
+	quest.24FF4F633F92B480.title: "量子部件"
 	quest.2507A7FD69022F2C.quest_desc: ["Burn Spiritus in the &cVas Maleficum&r and the air of the chunk grows thick with will. Read it with the &cSpiritus Aura Gauge&r."]
 	quest.2507A7FD69022F2C.title: "The Aura Between Worlds"
 	quest.2568C81FA7914FE2.quest_desc: [
@@ -2815,7 +2815,7 @@
 		"物品在&a物品展示台&r上的位置不重要，你只需要给它们供能即可。"
 	]
 	quest.283EA4E7BA93DA11.title: "&f水晶充能"
-	quest.28583E75F9E834F6.quest_desc: ["虽然从技术上讲不是必需要完成&z椰林飘香&f，但&6量子激发器&f会显著提高配方的充能速度，让你可以在几分钟内完成这个配方，而不是几天。"]
+	quest.28583E75F9E834F6.quest_desc: ["从技术上讲，&6量子激发器&f不是完成&z椰林飘香&f的必需品，但它可以显著提高配方的充能速度，让你可以在几分钟内完成配方，而不是几天。"]
 	quest.287E6819DB849CD4.quest_desc: [
 		"&a厨具架&r是储存烹饪厨具的最好方式。"
 		""
@@ -2918,7 +2918,7 @@
 	quest.29E6EF882A568585.quest_desc: ["这些&a经验晶方尖碑&r把知识浓缩成了微型图腾，只需要3个这样的方尖碑就能为&e附魔台&r提供5个书架的等级提升效果！"]
 	quest.29E6EF882A568585.title: "&2经验晶方尖碑"
 	quest.29E78B39C74FBC4E.title: "击杀每种敌对生物各一只"
-	quest.2A140788CF103FFB.quest_desc: ["We'll need to make an artificial pineapple, but for it to be useful, we need to give it some magical growth."]
+	quest.2A140788CF103FFB.quest_desc: ["我们需要制作一个人造菠萝，但要让它发挥作用，就必须赋予其魔法般的生长能力。"]
 	quest.2A19E0AF462C1FD2.quest_desc: [
 		"&a钻石符石&r提供20%伤害减免。"
 		""
@@ -3088,7 +3088,7 @@
 	quest.2C1649AE3DADD71D.title: "&b更快地建造"
 	quest.2C55C6EBABA86BA8.quest_desc: ["&a初级方块破坏器&r会使用内部的工具破坏前方的方块；就算你给他的工具是一根木棍或一块黑曜石，它也会完成任务的。"]
 	quest.2C55C6EBABA86BA8.title: "&a初级方块破坏器"
-	quest.2C5BB08BA01C2F8C.quest_desc: ["This usually-radioactive chemical will need to be combined with extremely strong plating before it can be used to make a cup that will not taint the perfect flavour of the &zPiña Colada&f."]
+	quest.2C5BB08BA01C2F8C.quest_desc: ["这种通常带有放射性的化学品需要与极强的板材结合，才能制作出不会破坏&z椰林飘香&f完美风味的杯子。"]
 	quest.2C8E9EA5AAA70DE2.quest_desc: ["&7&o未获世界卫生组织批准"]
 	quest.2C8E9EA5AAA70DE2.title: "冻结了时间的果汁"
 	quest.2C9A224C8B8436BB.quest_desc: [
@@ -3104,9 +3104,9 @@
 	]
 	quest.2CB418AE76610E8F.title: "&f扳手"
 	quest.2CC49B7C1ADB01A2.quest_desc: [
-		"A regular juicer won't be enought to extract what we need from this Pineapple."
+		"普通的榨汁机可不够从这颗菠萝中榨出我们需要的东西。"
 		""
-		"Place and grow a Pineapple as you would any other crop, then place a &bShimmering Ice&f and &2Time Crystal Block&f on either side of the Pineapple with an extractor above it to extract &dTemporal Pineapple Juice&f."
+		"像种植其他作物一样种下菠萝，然后在菠萝两侧分别放置一个&b辉光冰&f和一个&2时间水晶块&f，并在其上方放置提取器以提取&d时间菠萝汁&f。"
 	]
 	quest.2CC49B7C1ADB01A2.title: "有着奇怪味道的果汁"
 	quest.2D09494ED3235CC8.quest_desc: [
@@ -3116,17 +3116,17 @@
 	]
 	quest.2D09494ED3235CC8.title: "&3动力泵"
 	quest.2D0F5BF08D40618C.quest_desc: [
-		"你可能会问：我玩这个包的时候必须用机械动力、现代工业化或者资源蜜蜂吗？"
+		"你可能会问：我玩这个包必须要用到机械动力、现代工业化或者资源蜜蜂吗？"
 		""
-		"对此，我们绝对说不！以你自己的方式享受独特的冒险，并且&a玩得开心&f！"
+		"当然不是！以你自己的方式享受独特的冒险吧，&a玩得开心&f！"
 		""
-		"然而，当被问到通关这个包需要哪些模组时，我们会用另一个问题来回答：“你喜欢&z椰林飘香&f吗？”"
+		"不过，当被问到通关这个包需要哪些模组时，我们会用另一个问题来回答：“你喜欢&z椰林飘香&f吗？”"
 		""
-		"为调制出这杯完美饮品，你需要深入探索本整合包中绝大部分的模组、机制与维度。"
+		"调制这杯完美饮品的旅程中，你将领略这个整合包中的绝大部分模组、机制和维度。"
 		""
-		"无论你是来体验舒适的空岛，还是挑战自动化，在这里为你和你的冒险干杯 🍻"
+		"无论你是来体验舒适的空岛，还是挑战自动化。为了你和你的冒险，干杯 🍻"
 	]
-	quest.2D0F5BF08D40618C.title: "&zPiña Colada"
+	quest.2D0F5BF08D40618C.title: "&z椰林飘香"
 	quest.2D178651FB267E91.title: "精通之证"
 	quest.2D1B390B363E0F27.quest_desc: [
 		"&e龙之进化&r的&b能量水晶&r能够通过能量网络，将RF传输到连接的方块，至少需要一个&a端口水晶&r和一个&2无线水晶&r。"
@@ -3392,7 +3392,7 @@
 		"将蜜蜂小食放入&a泥土蜂巢&r可以吸引巧克力穴居蜜蜂、灰烬穴居蜜蜂和切叶蜜蜂。"
 	]
 	quest.30053CAD8FABA638.title: "&f石头和泥土蜂巢"
-	quest.302868ED0A86B151.quest_desc: ["This 'slightly' more powerful TNT can only be used for explosion recipes, making it ideal to use as an explosion catalyst for our &6Bedrockium Cup&f."]
+	quest.302868ED0A86B151.quest_desc: ["这块“稍微”更强劲的TNT只能用于爆炸配方，非常适合作为我们&6基岩杯&f的爆炸催化剂。"]
 	quest.302A4F4F2971CF8E.quest_desc: [
 		"&7地符石&r允许你通过空手右击泥土将其转化为草方块。"
 		""
@@ -3414,9 +3414,9 @@
 	]
 	quest.304B25BADD64077D.title: "&f存储升级"
 	quest.305D6DE67EF4ECA9.quest_desc: [
-		"You'll need to combine and empower several frozen items you have encountered to make these ice cubes."
+		"你需要将遇到的几种冰品结合并充能，才能制作出小冰块。"
 		""
-		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": You'll need at least \", {\"text\": \"Netherite-tier Display Stands\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"62BC01D7050D366E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" for this recipe to craft.\" ]"
+		"[\"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \"：该配方至少需要\", {\"text\": \"下届合金物品展示台\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"62BC01D7050D366E\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往任务\"} }, \"才能制作。\" ]"
 	]
 	quest.30689B890F5E7A03.quest_desc: [
 		"为了进一步提高&6位阶&r，你需要制作并灌注&3深暗书架&r。"
@@ -3649,7 +3649,7 @@
 	quest.32EA4C246F4FA403.title: "前进！"
 	quest.330F69D2F2626B50.quest_desc: ["&a斑斓透镜&r射出的激光会穿透物品，然后改变它们本身的颜色，比如染色玻璃或玻璃板、地毯、染料、羊毛以及带釉陶瓦。"]
 	quest.330F69D2F2626B50.title: "&a斑斓透镜"
-	quest.33349009FDC3501E.quest_desc: ["You'll need to create a more powerful fertilizer using biomass chemical and sunflowers."]
+	quest.33349009FDC3501E.quest_desc: ["你需要使用生物质化学品和向日葵来制作一种更强大的养料。"]
 	quest.33349009FDC3501E.title: "乳化剂"
 	quest.3334E05101A7297F.quest_desc: [
 		"&a反应仓&r是个处理速度非常快的机器，可以产生大部分&eAE2&r的材料，只不过耗能可能大了一点。"
@@ -4062,9 +4062,9 @@
 	quest.37F99696A47264FD.quest_desc: ["本章节旨在教你一些打造、强化、附魔装备的方式，以备探险使用！"]
 	quest.37F99696A47264FD.title: "&f穿戴整齐，出门探险！"
 	quest.382E047665CBD83B.quest_desc: [
-		"Time to put some kick into this drink!"
+		"是时候给这杯饮料加点劲儿了！"
 		""
-		"You'll need to refine Sugar Solution or process some Yeast Culture to get yourself some Ethanol."
+		"你需要通过精炼糖溶液或加工酵母菌来获取一些乙醇。"
 	]
 	quest.384287F30638679E.title: "&d五级&f生物种子"
 	quest.385293121273C7FB.quest_desc: [
@@ -5344,9 +5344,9 @@
 	quest.4882D3E03CC01268.title: "&b存储总线"
 	quest.48935E2DFCA1E835.quest_desc: ["你现在可以将注入器升到最高等级，制作&z混沌等级&f的装备。"]
 	quest.48CFC042AE951056.quest_desc: [
-		"This fluid brought about from the bowels of hell should be hot enough to help distill the flavour we need."
+		"这种从地狱深处带回来的流体应该具有足够的热量，能帮我们蒸馏出所需的风味。"
 		""
-		"[ \"You'll need to progress \", {\"text\": \"NeoVitae\", \"color\": \"yellow\"}, \" to acquire \", { \"text\": \"Hellforged Steel\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BDF260175FFE44F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \".\" ]"
+		"[ \"你需要推进\", {\"text\": \"NeoVitae\", \"color\": \"yellow\"}, \"以获取\", { \"text\": \"Hellforged Steel\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BDF260175FFE44F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往任务\"}}, \"。\" ]"
 	]
 	quest.48E284F256F6453E.quest_desc: [
 		"&eFargo的符石&r模组允许你制作强力的符石，他们具有各种各样的效果，比如把泥土变成草方块，获得创造飞行和超音速移动速度，甚至免疫所有种类的负面效果！"
@@ -5693,7 +5693,7 @@
 	]
 	quest.4D1FE471FC2D8EF4.title: "&d丁苯橡胶"
 	quest.4D21DB3EC7424E9A.title: "&f能量卡"
-	quest.4D4907AE087DB72A.quest_desc: ["This plating should be strong enough to support the power of the Reaction Chamber."]
+	quest.4D4907AE087DB72A.quest_desc: ["这种板材的强度应该足以承受反应仓中产生的能量。"]
 	quest.4D55D9FBE06DAA46.quest_desc: [
 		"假如你想为武器、盔甲或法术书灌注更多力量，那做些&3升级法球&r是最佳选择之一。"
 		""
@@ -5756,7 +5756,7 @@
 	quest.4E0DB5D4574FD4E2.quest_desc: ["&c烧炼&r升级可以给工具增加&c自动熔炼&r功能。"]
 	quest.4E0DB5D4574FD4E2.title: "&f升级：烧炼"
 	quest.4E3A4B79573FC1F2.title: "&d提尔锋"
-	quest.4E42C01668EF1E6F.quest_desc: ["Now that you have your &aCompressed Sugar&f, you'll need to enchant it with some experience using any fluid mixing machine."]
+	quest.4E42C01668EF1E6F.quest_desc: ["得到&a压缩糖&f以后，你需要在任意一种流体混合机中用经验附魔它。"]
 	quest.4E474C940C683371.quest_desc: [
 		"&6神龙反应堆&r是终极产能装置，正确搭建后，便能实现数以百万计的产能速率。&c这种反应堆会爆炸！&r"
 		""
@@ -5952,7 +5952,7 @@
 	quest.50DF3CDEE3B111CE.title: "&3化学反应釜"
 	quest.50EFBD8BDE0C88AF.quest_desc: ["&a范围升级&r可增加&3无线发送器&r的信号覆盖范围，从基础的16格最多扩展到48格。"]
 	quest.50EFBD8BDE0C88AF.title: "&a范围升级"
-	quest.50FEA4A0E4E1EABD.quest_desc: ["[ \"To get \", {\"text\": \"Coconut Cream\", \"color\": \"green\"}, \" instead of coconut water, you'll need to use Oritech's \", { \"text\": \"Fluid Separation\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50B7CA94F8BB6F58\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" to split \", {\"text\": \"Liquid Darkness\", \"color\": \"dark_green\"}, \" and \", {\"text\": \"Coconut Chunks\", \"color\": \"light_purple\"}, \".\" ]"]
+	quest.50FEA4A0E4E1EABD.quest_desc: ["[ \"要获得\", {\"text\": \"椰奶奶油\", \"color\": \"green\"}, \"而不是椰子水，你需要使用Oritech的\", { \"text\": \"流体离心技术\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50B7CA94F8BB6F58\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往任务\"} }, \"来离心\", {\"text\": \"液态黑暗\", \"color\": \"dark_green\"}, \"和\", {\"text\": \"椰子碎块\", \"color\": \"light_purple\"}, \"。\" ]"]
 	quest.5119EFBB9FB39CDE.quest_desc: ["[ \"敌对掠夺者部队的首领，驻守在\", {\"text\": \"神秘魔法地牢\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4BB5ADD98F958712\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往神秘魔法地牢任务\"]}}, \"的顶端。\"]"]
 	quest.5119EFBB9FB39CDE.title: "&f击杀&d高位唤魔者"
 	quest.51373D5476F2FD7F.quest_desc: [
@@ -6121,7 +6121,7 @@
 		""
 		"A Vitaemancer with a well-stocked flask belt is never truly in danger!"
 	]
-	quest.5317AEA8F2339F72.quest_desc: ["The &aRefinery&f allows you to extract up to 3 fluids from another fluid. Use it to gather &dStrange Matter&f from &cLava&f."]
+	quest.5317AEA8F2339F72.quest_desc: ["&a精炼厂&f允许你从一种流体中提取出最多3种流体。用它从&c熔岩&f中收集&d奇异物质&f。"]
 	quest.532DA0BDBF2F215A.title: "&f牛肉饼"
 	quest.5346FF153D836A07.quest_desc: [
 		"&a乙炔&r在&3化学反应釜&r中与&e盐酸&r结合制作&c氯乙烯&r。"
@@ -6196,7 +6196,7 @@
 	quest.5455CF5D3C37ECA9.quest_desc: ["在这座矗立于下界虚空的宏伟建筑里，既有珍贵宝藏，也有似猪的怪物，甚至有一尊强力的守卫傀儡，任何胆敢靠近的人都会遭到袭击。"]
 	quest.5455CF5D3C37ECA9.title: "&f找到&6堡垒（Bastion）"
 	quest.546A582A0084C982.quest_desc: ["&7&o人造物和魔法风味的结合"]
-	quest.546A582A0084C982.title: "Artificial Fruits"
+	quest.546A582A0084C982.title: "人造水果"
 	quest.54AC477417E72055.quest_desc: [
 		"如果你想找个更好的办法从晶洞中收获紫水晶，&d紫晶傀儡&r乐意为你效劳！"
 		""
@@ -6453,9 +6453,9 @@
 	]
 	quest.583FFE29C881EE8C.title: "&f关于网络的一切！"
 	quest.5844023E5D3A5FC6.quest_desc: [
-		"It's time to extract that sweet sculk flavour from the ancient depths of the world. You'll need to process a &2Warden's Tendril&f through a &aThermopneumatic Processing Plant&r using the &bMolten Hellforged&r you've just made."
+		"是时候从远古的深地中提取那甜美的幽匿风味了。你需要将一根&2监守者卷须&f放入&a热气动加工机&r中，借助你刚炼制出的&b熔融狱火&r进行加工。"
 		""
-		"[ \"You'll need to progress through \", {\"text\": \"Pneumaticcraft\", \"color\": \"yellow\"}, \" to access and automate the \", { \"text\": \"Thermopneumatic Processing Plant\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \".\" ]"
+		"[ \"你需要推进\", {\"text\": \"气动工艺\", \"color\": \"yellow\"}, \"才能制作并自动化\", { \"text\": \"热气动加工机\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6CD6367FB419EA35\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往任务\"} }, \"。\" ]"
 	]
 	quest.5844023E5D3A5FC6.title: "幽匿粉"
 	quest.58503249A5084026.quest_desc: [
@@ -6582,9 +6582,9 @@
 	quest.59CBFA5583139A3B.quest_desc: ["[\"这个\", {\"text\": \"重铸台\", \"color\": \"#B900B9\"}, \"是\", {\"text\": \"简易重铸台\", \"color\":\"#55FF55\"}, \"的升级版，可以重铸所有稀有度的物品，包括\", {\"text\": \"神话\", \"color\":\"#EA6F14\"}, \"等级的物品。\"]"]
 	quest.59CBFA5583139A3B.title: "{\"text\": \"重铸台\", \"color\": \"#B900B9\"}"
 	quest.59CC8388935D98A2.quest_desc: [
-		"You'll need to gather enough spirits to achieve transcendence."
+		"需要收集足够的精魂才能实现超脱。"
 		""
-		"You may choose to manually farm &dSpirits&f, but Malum has a ritual that automatically harvests low-health nearby mobs."
+		"你可以选择手动收集&d精魂&f，但灵灾有一种仪式可以自动收割附近低生命值的怪物。"
 	]
 	quest.59CC8388935D98A2.title: "超脱证悟"
 	quest.5A3AA3939DA8F851.quest_desc: [
@@ -6867,7 +6867,7 @@
 		"在你做&d铂&r处理流程时，也能做出一些&7铱粉末&r！"
 	]
 	quest.5E48B3223335F4F6.title: "&7粗依"
-	quest.5E5A46EAEC68E4FD.quest_desc: ["Considering the other flavours going into this mix, you'll certainly need to add an enourmous amount of sugar to make this thing remotely drinkable."]
+	quest.5E5A46EAEC68E4FD.quest_desc: ["考虑到我们要混合其他风味，你要加超多糖才能让这玩意儿勉强能喝。"]
 	quest.5E8B72B0CA428F12.title: "Here's the invis dev chapter"
 	quest.5EDAD39B73C1FF9C.quest_desc: ["在&3化学反应釜&r中把你的&e乙苯&r，&7蒸汽&r以及&a铁粉&r聚合为&d苯乙烯&r。"]
 	quest.5EDAD39B73C1FF9C.title: "&d苯乙烯"
@@ -6997,7 +6997,7 @@
 	]
 	quest.60B37EEA5AD64C3D.quest_subtitle: "基础存储方案"
 	quest.60B37EEA5AD64C3D.title: "&3存储终端"
-	quest.60BE013CD997EA21.quest_desc: ["The &aBedrockium Drum&f holds a massive amount of fluid, making it a good vessel for the &6Bedrockium Cup&f."]
+	quest.60BE013CD997EA21.quest_desc: ["&a基岩圆桶&f可容纳大量流体，是制作&6基岩杯&f的绝佳容器。"]
 	quest.60C650264AA5525D.quest_desc: [
 		"&a控制器&r是为你的&eRS2&r网络提供能源的主要设备。"
 		""
@@ -7697,7 +7697,7 @@
 		"这个教程面面俱到，如果需要帮助的话它绝对能帮到你！"
 	]
 	quest.6BB9FD515DFD8FF1.title: "&bAE2内置指南书&f"
-	quest.6BBB23F6E03B3523.quest_desc: ["These platings will make a perfect neutral base for the &6Bedrockium Cup&f."]
+	quest.6BBB23F6E03B3523.quest_desc: ["这些板材将是打造&6基岩杯&f的完美中性底材。"]
 	quest.6BC39EC7864A61E6.title: "&f炽炎术士典籍"
 	quest.6BC7C49D7F7D5AAF.quest_desc: ["在&3化学反应釜&r中将&e含硫石脑油&r和&b氢气&r化合，以此将液体分离为&a石脑油&r和&e硫酸&r。"]
 	quest.6BC7C49D7F7D5AAF.title: "&e页岩油加工"
@@ -7794,7 +7794,7 @@
 		"&a简易压缩抽屉&r可以处理只有原物品和方块物品的储存，比如放红石钻石和绿宝石！"
 	]
 	quest.6D2B6421B1115667.title: "&f压缩抽屉"
-	quest.6D53F52F41452E09.quest_desc: ["Once you've gotten all the necessary ingredients, it's time to play bartender and mix everything together!"]
+	quest.6D53F52F41452E09.quest_desc: ["准备好所有必要材料后，现在是时候像调酒师一样把所有东西混合在一起啦！"]
 	quest.6D5905345348ABEF.quest_desc: [
 		"&d通量网络控制器&r是能量网络的重要组件。"
 		""
@@ -8333,7 +8333,7 @@
 		"&d游戏后期&f：击败&d末影龙&f"
 	]
 	quest.7569178CFA3533D7.quest_desc: [
-		"要制作&a菠萝&r，你需要将&d液态反物质&f冷凝成化学品，然后用它转化一个&5究极精华苹果&f。"
+		"要制作&a菠萝&r，你需要将&d液态反物质&f蒸发成化学品，然后用它转化一个&5究极精华苹果&f。"
 		""
 		"不然你以为这个世界的菠萝是从哪里来的？"
 	]
@@ -8488,9 +8488,9 @@
 	]
 	quest.7791DA964DA2A80D.title: "&f如何搭建加速器？"
 	quest.77C20F4D048CD9BF.quest_desc: [
-		"你需要制作一些&2橙色的水晶&f，用它为&d椰奶奶油&f带来令人愉悦的质感。"
+		"你需要制作一些&2橙色的晶体&f，用它为&d椰奶奶油&f带来令人愉悦的质感。"
 		""
-		"[ \"To do this, you'll need to progress with Mekanism's \", { \"text\": \"Chemical Processing Chain\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35ED26A5855FBBBA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" to break the Oranges down into crystals.\" ]"
+		"[ \"为此，你需要推进通用机械的\", { \"text\": \"化学品处理链\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35ED26A5855FBBBA\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往任务\"} }, \"，才能将橙子变成晶体。\" ]"
 	]
 	quest.77C53FD36F7747EA.quest_desc: [
 		"当粒子以高速碰撞时，它们会发射能量密集的速子。碰撞能量越高，释放的能量越多，速子也会飞得越远，产生的速子也越多。"
@@ -8859,9 +8859,9 @@
 	quest.7D11FCF02C35213F.quest_subtitle: "钻吧宝贝钻吧"
 	quest.7D11FCF02C35213F.title: "&a动力钻头"
 	quest.7D1FBA05137C755E.quest_desc: [
-		"要更轻松地混合各种原料，你需要使用来自&e现代化工业&r模组的&a电动搅拌机&f"
+		"要更轻松地混合各种原料，你需要使用来自&e现代工业化&r模组的&a电动搅拌机&f。"
 		""
-		"&7&oWe have made the MI Mixer recipe easier so you can use other mods to craft the machine"
+		"&7&o我们简化了现代工业化搅拌机的配方，以便你利用其他模组来制作这台机器。"
 	]
 	quest.7D22824ADC29DA26.quest_desc: ["这座小岛悬浮在虚空之中，&d紫水晶巨蟹&r会在专为它们而设的祭坛附近生成。"]
 	quest.7D22824ADC29DA26.title: "&f偶遇&d樱花岛"
