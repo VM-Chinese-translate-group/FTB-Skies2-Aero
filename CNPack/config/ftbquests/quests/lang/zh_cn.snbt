@@ -18,7 +18,7 @@
 	chapter.4F0F16931654DF58.title: "悬赏板"
 	chapter.5BBD28643F4FD3B6.title: "龙之进化"
 	chapter.618927B4ED1733F6.title: "现代工业化"
-	chapter.67DDE0406A5EE303.title: "Neo Vitae"
+	chapter.67DDE0406A5EE303.title: "血命术"
 	chapter.6A58A6F56CD199A3.title: "集成动力"
 	chapter.6CA0553DF634A937.title: "新生魔艺"
 	chapter.6F0ED7CA1077DD3C.title: "末影接口"
@@ -138,8 +138,8 @@
 	]
 	quest.0128A3EC005A8AE5.title: "物理组装器"
 	quest.012AEBFDB1F1512E.title: "核源铁盔甲"
-	quest.0154D0F30F095E63.quest_desc: ["Crystal Catalyst can accelerate the growth of a similarly aspected crystal cluster. So if you use a raw calayst on a raw crystal it will grow substantially faster. If you use an aspected catalyst however it will change the type of the growing crystal into the new aspected type."]
-	quest.0154D0F30F095E63.title: "Coaxing Crystals"
+	quest.0154D0F30F095E63.quest_desc: ["灵质触媒可以加快与其要素相同的灵质晶簇的生长。因此，如果你对着原生晶簇使用原生灵质触媒，就可以大幅度加快其生长速度。且如果你对着目标晶簇使用要素不相同的灵质触媒，则会赋予目标晶簇新的要素类型。"]
+	quest.0154D0F30F095E63.title: "培育晶簇"
 	quest.0174ACD260158165.title: "&f气体管道"
 	quest.019C7CBC9B62C803.quest_desc: [
 		"不喜欢抽屉的样子？那就做个&a镶框抽屉&r吧！"
@@ -417,13 +417,13 @@
 	]
 	quest.06666C9D93C1A3EE.title: "&f探险家指南针"
 	quest.067E4D25501B94F3.quest_desc: [
-		"A ritual needs a heart. Lay a &cMaster Ritual Stone&r at the center, mark the lesser stones around it with the &cRitual Diviner&r, and ignite the working with a &cWeak Activation Crystal&r."
+		"仪式需要其心脏。首先将一块&c主仪式石&r放置在仪式中央，其次使用&c仪式占卜杖&r在其周围放置那些被铭刻的仪式石，最后使用&c虚弱激活水晶&r来激活它。"
 		""
-		"From the Well of Suffering to Overgrowth to the Endless Quarry, the circle does the labor you would otherwise bleed for."
+		"从苦难之井到牧养仪式再到无尽矿场，这些法阵替你承受了那些最为血腥的代价。"
 		""
-		"The &aRitual Configurator&r lets you define the range and area a ritual works in."
+		"&a仪式配置杖&r允许你自定义仪式的作用范围。"
 	]
-	quest.067E4D25501B94F3.title: "Rites and Rituals"
+	quest.067E4D25501B94F3.title: "仪式之技艺"
 	quest.06918197435AF24E.quest_desc: [
 		"你可以用&3进阶样板供应器升级&r将&aAE2的样板供应器&r升级到&eAdvancedAE版&r。"
 		""
@@ -741,8 +741,8 @@
 		"注意：一些合金可以用其他模组的机器合成，甚至手搓都可以，不过代价是消耗更多资源。"
 	]
 	quest.0A6E103A6945D11E.title: "&6铸造器"
-	quest.0A7737571F027A95.quest_desc: ["A hundred and eight runes and corners of Hellforged Block raise the altar to &cTier IV&r, home of the &cDominus Orb of Vitae&r and the most destructive rites in all of Vitaemancy."]
-	quest.0A7737571F027A95.title: "Tier IV: The Archmage's Orb"
+	quest.0A7737571F027A95.quest_desc: ["多达108个符文以及转角处的狱锻块已将你的祭坛擢升至&c等级 IV&r，它将成为&c至圣生命宝珠&r之居所，孕育最为至强之仪式的温床。"]
+	quest.0A7737571F027A95.title: "等级 IV：枢机法师生命宝珠"
 	quest.0A92084D7043133A.quest_desc: [
 		"&b插件&r可以提升你的Oritech多方块机器工作效率，提升的属性取决于使用的插件。"
 		""
@@ -966,9 +966,9 @@
 		"如果你所要查看的&a变量卡&r内容过长，无法在这么小的屏幕上全部展示，你也可以将内容复制在剪切板上。"
 	]
 	quest.0CEB6ADF1306381D.title: "&f查看数据"
-	quest.0D0A1E61C2384E37.quest_desc: ["Raw will bends to purpose. With a catalyst and an &cAnimus Mote&r drawn from a Daemonium Animaris, a Raw cluster becomes &cRuina&r, &cNihilum&r, &cVindicta&r, or &cInvictus&r, each its own cruelty and each reshaping how your Sentient Tools behave."]
-	quest.0D0A1E61C2384E37.quest_subtitle: "Any one aspect proves the craft."
-	quest.0D0A1E61C2384E37.title: "The Five Aspects"
+	quest.0D0A1E61C2384E37.quest_desc: ["原生灵质已被你彻底驯服。现在只要对原生晶簇使用特殊的触媒，佐以一份从魂结恶魔身上取得的&c魂结班粒&r，晶簇便会碎裂成&cRuina&r，&cNihilum&r，&cVindicta&r，以及&cInvictus&r四大要素之一，每种要素都有自己的独特之处，且会对你的感知工具产生一些特殊影响。"]
+	quest.0D0A1E61C2384E37.quest_subtitle: "合成任意要素以证明自身精通此道。"
+	quest.0D0A1E61C2384E37.title: "五大要素"
 	quest.0D35D0D33922A201.title: "&f打败十波&d永恒之门"
 	quest.0D4FAFE90506EC1D.quest_desc: ["&d升降机滑轮&r的功能类似于&3绳索滑轮&r，但可以使用&3接触式红石信号发生器&r和&a动态结构控制器&r来分配不同的楼层。"]
 	quest.0D4FAFE90506EC1D.title: "&d升降机滑轮"
@@ -1055,8 +1055,8 @@
 	quest.0E11DBABFFAB0FFA.title: "&d钨锭"
 	quest.0E19151FCABF4759.quest_desc: ["重置运动技能树中已使用的技能点。"]
 	quest.0E19151FCABF4759.title: "&f重置运动技能树"
-	quest.0E3D0533331945A1.quest_desc: ["Forge a Master Routing Node Core to widen the veins of your network. It will allow more items/liquid/energy to be carried with every transmission, and a Speed Core to quicken frequency of transmissions. Seat them within the Master Routing Node, and stack as many as your ambition demands. A network so driven will move oceans in moments."]
-	quest.0E3D0533331945A1.quest_subtitle: "A sluggish heart serves only a small body."
+	quest.0E3D0533331945A1.quest_desc: ["打造一枚路由堆叠升级作为核心以拓宽你的路由网络。它将允许节点一次性传输更多物品/流体/能量。而路由速度升级则可以提升路由网络传输内容物的频率。它们都需要被安装在主路由节点上，你想安多少就安多少。只要安的足够多，顷刻间抽干大海也不在话下。"]
+	quest.0E3D0533331945A1.quest_subtitle: "迟滞之心跳仅存于孱弱之身躯。"
 	quest.0EA1B56A92D0403F.quest_desc: [
 		"将&b铝粉&r、&c铬粉&r和&d不锈钢粉&r混合在&3搅拌机&r中，它就会产出&e铁铬铝合金粉&r。"
 		""
@@ -1236,11 +1236,11 @@
 	quest.1114D1FD164E514B.title: "&f欢迎游玩&e新生魔艺&f！"
 	quest.111F60263C10C60B.title: "&f汉堡包"
 	quest.11284BF46CEB2F12.quest_desc: [
-		"Brew Cutting Fluid in the Tabula Vitae, dissolve an ore into 2 dust, then smelt it to an ingot."
+		"在血命台桌上酿造一些切削油，使用它们将矿物分解为两份对应粉尘，然后烧成锭吧！"
 		""
-		"Blood multiplies more than power, it multiplies wealth. Brew a measure of Cutting Fluid in your Tabula Vitae, then dissolve an ore within it. The slab grinds the metal free of its stone into dust, two for every ore you offer; smelt that to a finished ingot. "
+		"鲜血带来的力量不止于此，其可以使你的产物激增。使用血命台桌制作一些切削油，并使用它们溶解一些矿物。台桌上矿物里的金属成分化作了粉尘，比你亲自烧制的还要多一份呢，最后，你只需要把它们烧成锭就好啦。"
 	]
-	quest.11284BF46CEB2F12.title: "Alchemy of Ore"
+	quest.11284BF46CEB2F12.title: "矿石炼金术"
 	quest.114B4840D2FA1CDF.quest_desc: [
 		"&a提纯仓&r可以提升粗矿的矿物产量。"
 		""
@@ -1290,13 +1290,13 @@
 	]
 	quest.1237537100194BED.title: "&f击杀&d凋灵"
 	quest.124509FFC6717603.quest_desc: [
-		"Your first sigil comes from the Alchemy Array. The &cDivination Sigil&r reads the well of Anima within you and the EV held in an altar before you."
+		"你的第一枚印记来自炼金列阵。&c占卜印记&r可以揭示你本魂中的EV含量以及你血命祭坛的状态。"
 		""
-		"The &cSeer's Sigil&r reads an altar in detail: its progress, EV per tick, and charge reserve. Invaluable when building toward higher tiers."
+		"&c先知印记&r可以更加细致地揭示祭坛：合成进度，每tick消耗的EV，以及充能层数。在升级你的祭坛时非常有用。"
 		""
-		"You cannot manage what you cannot measure."
+		"知己知彼，百战百胜"
 	]
-	quest.124509FFC6717603.title: "A Sense for Anima"
+	quest.124509FFC6717603.title: "本魂知觉"
 	quest.12468F8BF7B80737.quest_desc: [
 		"探索每一个维度可能要耗费大量时间，特别是在你搜寻特殊结构时！"
 		""
@@ -1453,11 +1453,11 @@
 	quest.141CE17C25D2A53A.title: "&f空白升级"
 	quest.1425B79ADD456D59.title: "iron stage"
 	quest.143B171B2AE08145.quest_desc: [
-		"Perform &cBreaching the Edge of Demon Realm&r and you tear a one-time wound in the veil, building an &cAntechamber&r on the far side."
+		"举行&c穿破狱界&r仪式，你便成功在帷幕之上割出了一道一次性的伤口，连通着遥远彼岸的&c主厅&r。"
 		""
-		"Step through. Bring keys, or the means to find them."
+		"思考一下。自己带钥匙，或是在此处找到钥匙。"
 	]
-	quest.143B171B2AE08145.title: "Breaching the Veil"
+	quest.143B171B2AE08145.title: "刺破帷幕"
 	quest.143E07D2565798AB.quest_desc: [
 		"&eOritech&r模组的主要机器为&b多方块机器&r，其中绝大多数的多方块机器都需要用上&a机器核心&r。记得查看机器的工具提示，其中标出了需要多少核心。"
 		""
@@ -1564,7 +1564,7 @@
 	]
 	quest.162F113C007AFA0A.title: "&z世界级旅行者"
 	quest.163228798680D7ED.title: "&f流体卡"
-	quest.165A563C9EFE232B.quest_desc: ["A flask is a held effect; a &cTipped Throwing Dagger&r is that effect delivered to someone else's throat."]
+	quest.165A563C9EFE232B.quest_desc: ["炼金药水瓶负责存储药水效果，而&c浸药投掷匕首&r则将药水效果刺入他人的咽喉。"]
 	quest.16B60BCB8240F808.quest_desc: [
 		"在&dME样板终端&r上编码好样板后，即可放入&a样板供应器&r。&a样板供应器&r将尝试用相连的方块完成制作。"
 		""
@@ -1738,11 +1738,11 @@
 	quest.18CD33B0D1C0D3E6.title: "&f高速农业！"
 	quest.1902A402B951AAF6.title: "&b破法者"
 	quest.191E3A2225AD70FA.quest_desc: [
-		"Bind an iron piece on a Binding array with a charged gem and the metal wakes up. &cSentient Armour&r starts humble: a hundred points of room to grow, and a long memory."
+		"将铁护甲在束缚列阵上进行束灵，一道闪电过后，金属内便生了灵智。&c感知盔甲&r一开始并不起眼：只有100点的可用升级点数，以及一段长久陪伴你的回忆。"
 		""
-		"The chestplate banks what you do: blows taken, miles walked, blocks broken."
+		"你所经历的一切都会被感知胸甲所习学：无论是遭受的攻击，行走的路途，还是破坏的方块"
 	]
-	quest.191E3A2225AD70FA.title: "The Sentient Shell"
+	quest.191E3A2225AD70FA.title: "感知外壳"
 	quest.1953C2127633B6D7.quest_desc: [
 		"&d无线通用终端&r集成了数种不同类型无线终端的功能于一体。"
 		""
@@ -1782,11 +1782,11 @@
 	]
 	quest.19C696F8143FB1B6.title: "&z混沌核心"
 	quest.19E98C84733A5532.quest_desc: [
-		"The spike trap will provide blood to the altar when it damages entities within 8 blocks of an Ara Vitae. Craft one to begin gathering blood passively. You'll need some way to provide enemies such as a mob spawner or other means. "
+		"尖刺陷阱伤害实体后会为八个方块范围内的命血祭坛提供鲜血。制造一个便可以开始尝试被动生产鲜血。你需要能提供足量实体的办法，如刷怪笼，或者其他什么东西。"
 		""
-		"A Vortex Array on top is a perfect way to gather the mobs and a collection array nearby can grab the drops."
+		"将收集列阵放置在其顶部是是个好办法，它可以自动拾取列阵附近的生物掉落物。"
 	]
-	quest.19E98C84733A5532.title: "Early Blood Automation"
+	quest.19E98C84733A5532.title: "早期血命术自动化"
 	quest.19EC021D1722EFC1.quest_desc: [
 		"&d焚身符石&r在玩家着火时增加25%伤害。"
 		""
@@ -1801,8 +1801,8 @@
 		"它还用于制作&b神秘之力&r。"
 	]
 	quest.19FB0270DFB28E04.title: "&d女巫符石"
-	quest.1A22280295ED9A42.quest_desc: ["Run an ore block through the full Athanor chain to ingots; and use Corrupted Dust with Ore Fragments in the Tabula Vitae to double them into Ore Gravel. If you fully max out the spiritus and processing cycle of corrupted dust you can take ore to ingot at over 8x the output of normal smelting!"]
-	quest.1A22280295ED9A42.title: "The Crucible's Greed"
+	quest.1A22280295ED9A42.quest_desc: ["将矿石在炼金炉中经过一整套工序制成对应碎块；再在血命台桌上使用腐化之粉将它们双倍转化为矿砂。如果你能最大限度地发挥灵质的潜力，并定期处理腐化之尘，你便可以获得8倍于普通冶炼的产物。"]
+	quest.1A22280295ED9A42.title: "釜中贪欲"
 	quest.1A4F6C1AC9BD2F42.quest_desc: ["你可以通过让&a发光蜜蜂&r和&a巧克力穴居蜜蜂&r一起繁殖，以制作&c红石蜜蜂&r。"]
 	quest.1A4F6C1AC9BD2F42.title: "&c红石蜜蜂"
 	quest.1A6984A6484FF8F3.quest_desc: [
@@ -1849,7 +1849,7 @@
 		"对着空气使用工具会调整工具的添加或移除工作模式，如果对着空气潜行右击的话，会改变一次并入网络的抽屉数量！"
 	]
 	quest.1AA08B095A8B378F.title: "&f链接抽屉"
-	quest.1AB874D6EADDB75D.title: "Tier 2"
+	quest.1AB874D6EADDB75D.title: "等级2"
 	quest.1ABA5F2ECAA6D9D2.quest_desc: [
 		"&e通用机械&r提供的物流线缆和管道是这个整合包最好用的管线！已经放在地上的管线可以直接升级，而且它们都有自己的内部缓存。"
 		""
@@ -2033,12 +2033,12 @@
 	quest.1CCED3AEA33EBC1E.quest_subtitle: "怪物掉落物"
 	quest.1CCED3AEA33EBC1E.title: "&f唤魔者典籍"
 	quest.1CE38D8CD1B5CA50.quest_desc: [
-		"Every Tabula Vitae reagent is a sigil waiting to happen. Water that never runs dry, lava on demand, a void that swallows fluids, haste, magnetism, hastened growth."
+		"与石板相结合的试剂就成为了等待激活的印记。永不干涸的水源，随取随用的熔岩，吞噬流体的虚空，提供急迫，吸取物品，以及加速作物生长。"
 		""
-		"Scribe the trades that suit you."
+		"记下适合你的交易。"
 	]
-	quest.1CE38D8CD1B5CA50.quest_subtitle: "Any one will do; collect them all in time."
-	quest.1CE38D8CD1B5CA50.title: "The Sigil Catalog"
+	quest.1CE38D8CD1B5CA50.quest_subtitle: "任何一个都行，迟早会全收集的"
+	quest.1CE38D8CD1B5CA50.title: "印记目录"
 	quest.1CEA8C4CF222E70B.quest_desc: [
 		"先回顾一下，免得大家搞不清楚，三阶矿物处理产线的结构是这样的！"
 		""
@@ -2135,13 +2135,13 @@
 	quest.1E0BB50868F951A3.quest_desc: ["&a水果篮&r本质上和其他存储方块一样，能在&b多方块厨房&r中存储物品，但不同的是，它能可视化存储&2水果&r！"]
 	quest.1E0BB50868F951A3.title: "&f水果篮"
 	quest.1E2F0E34FF11233F.quest_desc: [
-		"The &cHighway to Hell&r ritual tears open a permanent gate to the &cEndless Realm&r."
+		"&c灾狱之途&r仪式会撕开一道通往&c无尽领域&r的门扉。"
 		""
-		"Come armed and armored; the realm does not suffer the unprepared."
+		"全副武装之后再前去吧。领域不会放过任何一个轻浮之人。"
 		""
-		"As you progress you will see a message about a rift opening or creatures stirring in the depth. This means new door types will begin to be available like the mines entrance. Make sure to select those keys when opening whenever available. "
+		"随着深入探索地城，你会发现一些信息，比如空间裂隙打开或者出现了奇怪的噪声和生物。这意味着有新的门扉类型被解锁了，如矿井入口。请确保你拥有合适的钥匙来开启这些门扉。"
 	]
-	quest.1E2F0E34FF11233F.title: "Highway to Hell"
+	quest.1E2F0E34FF11233F.title: "通向地狱的高速公路"
 	quest.1E39AB995B86D47A.quest_desc: [
 		"在你的&a压力管道&r上应用&b聚乙烯&r层后，您可以将它们升级为&2强化压力管道&r，使它们能够承受高达10&bBAR&r的压力！"
 		""
@@ -2232,11 +2232,11 @@
 	]
 	quest.1F94DD493FE20C0B.title: "&e盆栽树"
 	quest.1FB8BF0898FD99D9.quest_desc: [
-		"Twenty-eight runes and four pillars capped in Blood Stained Glass raise the altar to &cTier II&r, where it can craft the &cVeneficus Orb of Vitae&r."
+		"28个符文与四条顶端是染血玻璃的立柱已将你的祭坛擢升至&c等级 II&r，现在它可以制作&c巫师的生命宝珠&r。"
 		""
-		"At Tier II the altar stops being a tool and becomes an engine."
+		"二级的祭坛不在只是普通的工具，更是一台引擎。"
 	]
-	quest.1FB8BF0898FD99D9.title: "Tier II: The Magician's Orb"
+	quest.1FB8BF0898FD99D9.title: "等级 II：巫师生命宝珠"
 	quest.1FCE7E6527304CC5.quest_desc: ["&a储能单元&r可以将EU存起来以供之后使用，其传输速率与同等级的发电机一致。"]
 	quest.1FCE7E6527304CC5.title: "&2低压储能单元"
 	quest.1FDD26042785FB0C.quest_desc: ["&a邮箱&r能在列车站点之间运输包裹。"]
@@ -2397,7 +2397,7 @@
 	quest.22878CFA5B7B90AD.title: "&d化学品结晶"
 	quest.228C9567BB43034A.quest_desc: ["&a气动能源炉&r可以将&b压力&r转化为&cFE&r。"]
 	quest.228C9567BB43034A.title: "&f把压力转换为FE"
-	quest.229B331555E15B4A.quest_desc: ["With the Dusk Diviner, the &cRitual of Sentient Evolution&r raises your armour's cap from &c100&r to &c300&r points. The &cSentient Extraction&r ritual strips upgrades into Tomes you can bank in a &cTraining Bracelet&r."]
+	quest.229B331555E15B4A.quest_desc: ["拥有了仪式占卜杖[薄暮]，便可以使用&c感知进化仪式&r将你感知盔甲的点数上限从&c100&r提升至&c300&r点。&c感知提取&r仪式可以将升级转化为升级手册，你可以将其存进&c感知训练手镯&r中。"]
 	quest.22B83D03C6C3E61E.quest_desc: ["提升运作速度，但是会降低能量使用效率。"]
 	quest.22B83D03C6C3E61E.title: "&f速度升级插件"
 	quest.22F07FB51C5DE600.quest_desc: [
@@ -2581,8 +2581,8 @@
 		"这是前期获取&6末影化合物&r的最好方式。"
 	]
 	quest.24CE908ED60FD514.title: "&f粉碎时间到！"
-	quest.24E04D4C7C3E7CA4.quest_desc: ["Mine the veins the Foreman guarded. &cDemonite&r is the only honest source of Hellforged metal, the capstone material for the ultimate altar tiers."]
-	quest.24E04D4C7C3E7CA4.title: "Demonite"
+	quest.24E04D4C7C3E7CA4.quest_desc: ["矿脉领工守护着它们。&c恶魔金属&r是获取狱锻锭的唯一途径，也是终极祭坛的拱顶石。"]
+	quest.24E04D4C7C3E7CA4.title: "恶魔金属"
 	quest.24E11CBBB6EC58D5.title: "&f烈焰粉"
 	quest.24E7FEB8D24FAB4A.quest_desc: [
 		"&a化学压射室&r可以将气体和方块相结合，产出新的物品。这个机器不仅可以拿来快速氧化铜块或复活死珊瑚块，还可以用于&a三阶矿物处理线&r的起点。"
@@ -2595,8 +2595,8 @@
 	]
 	quest.24E7FEB8D24FAB4A.title: "&a化学压射室&r"
 	quest.24FF4F633F92B480.title: "量子部件"
-	quest.2507A7FD69022F2C.quest_desc: ["Burn Spiritus in the &cVas Maleficum&r and the air of the chunk grows thick with will. Read it with the &cSpiritus Aura Gauge&r."]
-	quest.2507A7FD69022F2C.title: "The Aura Between Worlds"
+	quest.2507A7FD69022F2C.quest_desc: ["在&c恶念坩埚&r中燃烧灵质，其将渗透进区块的无形瘴气之中。若要知晓具体情况，请使用&c灵域测量仪&r。"]
+	quest.2507A7FD69022F2C.title: "世界之间的灵域"
 	quest.2568C81FA7914FE2.quest_desc: [
 		"&6量子数据纠缠器&r可以将所有&b量子合成存储器&r的内存翻四倍。"
 		""
@@ -2657,11 +2657,11 @@
 	]
 	quest.262F5FE957F52F5D.title: "&f绑定灵魂"
 	quest.263045D3780542C0.quest_desc: [
-		"Tau alone is potential. The &cAthanor&r refines it, pressing &cTau Oil&r and saturating fruit into the shards a higher altar demands."
+		"血命果有着非同寻常的潜力，&c炼金炉&r将改进它，榨取的&c血命油&r和饱满血命果中提取的碎片是擢升更高级祭坛的材料。"
 		""
-		"Build the furnace of the patient alchemist."
+		"耐心是炼金术师最好的炼金炉。"
 	]
-	quest.263045D3780542C0.title: "The Athanor"
+	quest.263045D3780542C0.title: "炼金炉"
 	quest.26567E1596ADB808.quest_desc: [
 		"耐久度是过去的东西了！"
 		""
@@ -2867,9 +2867,9 @@
 	]
 	quest.294FEC9B0B58EFDC.title: "&f切换符石效果"
 	quest.297703FC2EBF8CD8.quest_desc: [
-		"Crystals don't grow from nothing; they grow out of the Spiritus Aura, an invisible miasma measured per chunk, capped at 100 per Aspect."
+		"晶簇不会凭空生长；它们的成长需要消耗灵域中的意志，那区块之中的无形瘴气，每种意志最多在一个区块内存在100点。"
 		""
-		"Fill a chunk's Aura by burning Spiritus in a Vas Maleficum (feed it a charged gem, loose Spiritus, or crystals of any Aspect)."
+		"为区块灵域填充意志需要用恶念坩埚焚烧灵质（在其中放入灵质宝石，灵质掉落物，或者任意要素的灵质结晶）"
 		""
 		"Read the local concentration with a Spiritus Aura Gauge (sneak for exact 0–100 numbers per Aspect)."
 	]
@@ -5916,9 +5916,9 @@
 		"lava+choc= scoria"
 	]
 	quest.50941BEEA38BE2C9.quest_desc: [
-		"The ultimate Ara Vitae. &cCrystal Clusters&r crown its pillars; an immense ring of runes girds its foundation. Capacity and crafting power without equal, and the &cDivinus Orb of Vitae&r to wield it."
+		"终极命血祭坛。由&c晶体簇&r作为立柱的冠冕；巨大的符文环作为其基石。其力量与合成能力皆举世无双，而那&c近神之宝珠&r将驾驭它。"
 		""
-		"You came asking what power costs. You know now: everything, paid a drop at a time, until the asking and the answering are the same act."
+		"也许你会问此等力量的代价为何。你现在已经知晓：是一切，是你一点一滴的付出，直到答案即是问题本身，再也不分彼此。"
 	]
 	quest.50941BEEA38BE2C9.quest_subtitle: "What you do with that power is yours to decide."
 	quest.50941BEEA38BE2C9.title: "Tier V: The Pinnacle"
@@ -6117,9 +6117,9 @@
 	quest.52D59836B209B35A.title: "击杀&z混沌守卫"
 	quest.53060D307C063C25.quest_desc: ["&a龙芯&r是大多数&e龙之进化&r配方和物品的更高级合成材料。"]
 	quest.530F5E2E4ADB1BA4.quest_desc: [
-		"If altar construction starts to drag, the &cpotioncrafting&r system opens at Tier I. Brew &cAlchemy Flasks&r or tip &cAmethyst Throwing Daggers&r with dozens of effects."
+		"如果你暂时没动力去升级祭坛，&c药水酿造&r系统在你拥有一级祭坛时便已开启。去尝试用那新的几十种药水来填满&c炼金药水瓶&r或者涂抹锋利的&c紫水晶投掷匕首&r。"
 		""
-		"A Vitaemancer with a well-stocked flask belt is never truly in danger!"
+		"一位药水腰带满着的的血命师从不会真正受到生命危险！"
 	]
 	quest.5317AEA8F2339F72.quest_desc: ["&a精炼厂&f允许你从一种流体中提取出最多3种流体。用它从&c熔岩&f中收集&d奇异物质&f。"]
 	quest.532DA0BDBF2F215A.title: "&f牛肉饼"
@@ -6150,12 +6150,12 @@
 	]
 	quest.53EEF2EC6314E8F2.title: "&b强化合金"
 	quest.53F28C95FE1BAF29.quest_desc: [
-		"Eight runes laid around the altar make it &cTier I&r. Begin with &cBlank Runes&r, then inscribe them with purpose: capacity, speed, sacrifice."
+		"将8个符文绕着祭坛围成一圈，便可以擢升祭坛至&c等级 I&r。一开始只有&c空白符文&r，之后我们可以为它升级：增容，速度，以及牺牲。"
 		""
 		"While at Tier I you may hold an Orb in your off-hand and kill creatures to harvest EV straight into your Anima, sparing your own veins."
 	]
-	quest.53F28C95FE1BAF29.quest_subtitle: "Altar Upgrade"
-	quest.53F28C95FE1BAF29.title: "Tier I: The Ring of Runes"
+	quest.53F28C95FE1BAF29.quest_subtitle: "擢升祭坛"
+	quest.53F28C95FE1BAF29.title: "等级 1：符文之环"
 	quest.53FBBFC675F1FE7F.quest_desc: ["与普通的&a时元电芯&r相比，&d时元电池&r可以存储更多的&b时元&r。时元电池也能作为合成材料，参与&eTempad&r后续配方的合成中。"]
 	quest.53FBBFC675F1FE7F.title: "&d时元电池"
 	quest.54016A2A0FAB6B4B.quest_desc: ["大型电动机既是一种制作原料，也是一种加快物品管道传输速度的方法。与&e现代工业化&r中的大多数部件一样，你需要一个生产线来稳定补给这种材料。"]
@@ -9251,7 +9251,7 @@
 	task.27F8AF789DE14145.title: "任意&eAE2&f处理器"
 	task.27FFF0492348277F.title: "&d生长加速器&r"
 	task.2988CAF299690CDB.title: "实用命令！"
-	task.2A007083FA537679.title: "Sentient Evolution"
+	task.2A007083FA537679.title: "感知提取"
 	task.2AE0D73DD6B788CD.title: "Any Enchanted Book"
 	task.2B26EC54A2A0C834.title: "自动锤"
 	task.2B97A2DFF700B056.title: "&6Fargo的符石"
