@@ -145,7 +145,7 @@
 		}
 		{
 			height: 4.08d
-			hover: ["Modern Industrialization Fusion Reactor"]
+			hover: ["现代工业化聚变反应堆"]
 			image: "ftb:textures/quests/modern_industrialization/fusion_mi.png"
 			rotation: 0.0d
 			width: 7.57d
@@ -154,7 +154,7 @@
 		}
 		{
 			height: 8.41d
-			hover: ["Create Nuclear Reactor"]
+			hover: ["机械动力核反应堆"]
 			image: "ftb:textures/quests/create/create_nuclear.png"
 			rotation: 0.0d
 			width: 7.2d

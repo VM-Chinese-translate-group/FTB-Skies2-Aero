@@ -54,7 +54,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["钢铁采石场"]
+			hover: ["钢采石机"]
 			image: "ftb:textures/quests/modern_industrialization/steelquarry.png"
 			rotation: 0.0d
 			width: 7.187096774193549d
@@ -196,7 +196,7 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Modern Industrialization"]
+			hover: ["现代工业化"]
 			image: "ftb:textures/quests/titles_and_logos/milogo.png"
 			rotation: 0.0d
 			width: 5.0d
