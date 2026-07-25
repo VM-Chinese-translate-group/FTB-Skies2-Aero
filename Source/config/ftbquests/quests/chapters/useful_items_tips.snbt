@@ -106,7 +106,12 @@
 		}
 	]
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "39877011C19B9F9E"
+		linked_quest: "4FB56188FC0B259B"
+		x: 0.5d
+		y: 2.5d
+	}]
 	quests: [
 		{
 			icon: {
@@ -143,7 +148,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:tools/paxel)item(actuallyadditions:wooden_aiot)item(actuallyadditions:stone_aiot)item(actuallyadditions:iron_aiot)item(actuallyadditions:gold_aiot)item(actuallyadditions:diamond_aiot)item(actuallyadditions:netherite_aiot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 2.5d
 		}
 		{
@@ -684,7 +689,7 @@
 				item: { count: 1, id: "explorerscompass:explorerscompass" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
@@ -722,7 +727,7 @@
 			tasks: [
 				{
 					id: "2DC5C2F051C7A559"
-					item: { count: 1, id: "minecraft:obsidian" }
+					item: { count: 1, id: "draconicevolution:draconium_block" }
 					type: "item"
 				}
 				{
@@ -1028,6 +1033,27 @@
 			}]
 			x: -4.5d
 			y: -3.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/gui/missing_image.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "68D710AD53829D16"
+			optional: true
+			rewards: [{
+				amount: 1
+				id: "70874C00DD8477B1"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "1E773D333DA93235"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
 		}
 	]
 }

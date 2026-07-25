@@ -964,7 +964,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
-				count: 64L
+				count: 32L
 				id: "21A32270D37B3911"
 				item: { count: 1, id: "ftbmaterials:steel_plate" }
 				type: "item"
@@ -988,7 +988,7 @@
 			shape: "octagon"
 			tasks: [{
 				fluid: {
-					amount: 100000
+					amount: 50000
 					id: "sauce:source_fluid"
 				}
 				id: "0EB198ADE15DF9B7"
@@ -1039,7 +1039,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
-				count: 5L
+				count: 4L
 				id: "0BF966F9452BF470"
 				item: { count: 1, id: "ars_elemental:mark_of_mastery" }
 				type: "item"
@@ -1060,7 +1060,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 4L
 				id: "7C1F2A2265294758"
 				item: { count: 1, id: "excessive_utilities:block_of_unstable_ingot" }
 				type: "item"
@@ -1081,7 +1081,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 4L
 				id: "3A621FA2673D973B"
 				item: { count: 1, id: "draconicevolution:chaotic_core" }
 				type: "item"
@@ -1102,7 +1102,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 4L
 				id: "1CDD6840678D25EA"
 				item: { count: 1, id: "tropicraft:pineapple" }
 				type: "item"
@@ -1625,7 +1625,7 @@
 			shape: "octagon"
 			tasks: [{
 				fluid: {
-					amount: 50000
+					amount: 10000
 					id: "justdirethings:time_fluid_source"
 				}
 				id: "6538D6BBDBB202EC"

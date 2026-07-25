@@ -3119,5 +3119,82 @@
 			x: 19.0d
 			y: 5.5d
 		}
+		{
+			dependencies: ["3B5B50AF7B7F1EDE"]
+			icon: {
+				id: "modern_industrialization:ftb_constructor"
+			}
+			id: "4FB56188FC0B259B"
+			min_width: 350
+			optional: true
+			rewards: [{
+				amount: 15
+				id: "0A9847BFAB1B7629"
+				type: "currency"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "52DA50E1BA3AD15A"
+					item: { count: 1, id: "modern_industrialization:ftb_constructor" }
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "6E017D420DE8D006"
+					item: { count: 1, id: "chisel:factory/iceiceice" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0A5246273C5E9CC0"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_glass" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "127D1CDC88D8D41E"
+					item: { count: 1, id: "oritech:machine_core_3" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2C5B632C08AECAA9"
+					item: { count: 1, id: "advanced_ae:quantum_unit" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "63109A73C31E22EE"
+					item: { count: 1, id: "excessive_utilities:ender_flux_crystal" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "419C3DC7DDF3800F"
+					item: { count: 1, id: "mekanism:dynamic_tank" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3042A22355885CD5"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "374520B8587A0BAC"
+					item: { count: 1, id: "productivemetalworks:casting_basin" }
+					type: "item"
+				}
+				{
+					id: "206E80CB256DF2AE"
+					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
 	]
 }

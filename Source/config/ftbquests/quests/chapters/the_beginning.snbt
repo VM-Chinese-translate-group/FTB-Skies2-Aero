@@ -467,7 +467,7 @@
 							"minecraft:enchantments": {
 								levels: {
 									"minecraft:fortune": 3
-									"minecraft:unbreaking": 8
+									"minecraft:unbreaking": 4
 								}
 							}
 						}
@@ -1053,7 +1053,7 @@
 					type: "currency"
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
@@ -1071,11 +1071,15 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 4.0d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["3F80D4097EA8C49B"]
+			dependencies: [
+				"3F80D4097EA8C49B"
+				"238FE7DA1F124320"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "minecraft:clay_ball"
 			}
@@ -1099,7 +1103,7 @@
 					type: "currency"
 				}
 			]
-			shape: "diamond"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
@@ -1113,8 +1117,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 4.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6CADA41796D0F7F9"]
@@ -1259,7 +1263,6 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "2485AE690A2FAB3E"
-			invisible: true
 			shape: "gear"
 			size: 1.0d
 			tasks: [{
@@ -1298,8 +1301,8 @@
 				item: { count: 1, id: "minecraft:dried_ghast" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["58C5F4D2C885D972"]
@@ -1398,7 +1401,7 @@
 				id: "0B67F3701EE900BE"
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "rsquare"
 			tasks: [
 				{
 					icon: {
@@ -1441,6 +1444,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1F1730142E2922C0"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -1466,7 +1477,7 @@
 				type: "currency"
 			}]
 			shape: "diamond"
-			size: 1.0d
+			size: 1.25d
 			tasks: [
 				{
 					icon: {
@@ -2097,6 +2108,62 @@
 			}]
 			x: 5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4D1E458AA9F84ED1"]
+			icon: {
+				id: "minecraft:dirt"
+			}
+			id: "238FE7DA1F124320"
+			rewards: [{
+				amount: 2
+				id: "3334EB86C51C7ACE"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "6849097FD3CA8166"
+					item: { count: 1, id: "mysticalagriculture:dirt_essence" }
+					type: "item"
+				}
+				{
+					id: "75441BCA25FA945B"
+					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["54E7FC957D0973D7"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "modopedia:textures/gui/error_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6D6360901E8BB13F"
+			min_width: 300
+			repeat_cooldown: 600
+			rewards: [{
+				id: "0B8C5F585483085E"
+				item: {
+					count: 1
+					id: "integrateddynamics:wrench"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "1EB207BCD5A00C23"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -4.0d
 		}
 	]
 }
