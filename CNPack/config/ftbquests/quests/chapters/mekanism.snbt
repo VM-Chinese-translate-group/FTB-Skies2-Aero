@@ -84,8 +84,16 @@
 			x: 5.0d
 			y: 12.0d
 		}
+		{
+			height: 2.0d
+			image: "modern_industrialization:block/machines/steam_turbine/overlay_front_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 13.0d
+		}
 	]
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -1672,7 +1680,8 @@
 			y: 14.5d
 		}
 		{
-			dependency_requirement: "one_started"
+			dependencies: ["616E3CE38F1D73AE"]
+			hide_dependency_lines: true
 			icon: {
 				id: "mekanismgenerators:rotational_complex"
 			}

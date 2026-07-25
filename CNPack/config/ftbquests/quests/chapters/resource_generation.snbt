@@ -291,7 +291,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [
 		{
 			id: "3BEB951A156B8AB9"
@@ -469,6 +469,9 @@
 			y: 2.0d
 		}
 		{
+			icon: {
+				id: "minecraft:spawner"
+			}
 			id: "67F07FBB50AB431F"
 			min_width: 300
 			rewards: [
@@ -490,14 +493,24 @@
 				}
 			]
 			shape: "square"
-			tasks: [{
-				id: "4CF7A1B1D11A8C1A"
-				item: {
-					count: 1
-					id: "minecraft:spawner"
+			tasks: [
+				{
+					id: "5410BBDECEB70EFF"
+					item: {
+						count: 1
+						id: "apotheosis:spawner_chain"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4CF7A1B1D11A8C1A"
+					item: {
+						count: 1
+						id: "minecraft:spawner"
+					}
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: 3.0d
 		}

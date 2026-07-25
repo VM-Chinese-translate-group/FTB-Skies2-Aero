@@ -229,6 +229,30 @@
 			x: -20.5d
 			y: 2.5d
 		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/shapes/diamond/outline.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			height: 2.0d
+			image: "bhc:item/blade_of_vitality"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			height: 2.0d
+			image: "bhc:item/vigor_bow"
+			rotation: -90.0d
+			width: 2.0d
+			x: -6.0d
+			y: -5.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -1045,7 +1069,6 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "464AED8311A32476"
-			min_width: 300
 			rewards: [{
 				amount: 1
 				id: "7D4F020C78A16013"
@@ -1064,7 +1087,6 @@
 		{
 			dependencies: ["60FDF616DEDE5E73"]
 			id: "011DBD2652E49B97"
-			min_width: 300
 			rewards: [{
 				amount: 1
 				id: "3A9769C19047BAF0"
@@ -1614,6 +1636,9 @@
 		}
 		{
 			dependencies: ["2722C0E2E8993658"]
+			icon: {
+				id: "apothic_enchanting:ender_library"
+			}
 			id: "44C341DE3BCD64CC"
 			rewards: [
 				{
@@ -1640,7 +1665,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3A53BB7A6B708966"]
@@ -3950,6 +3975,354 @@
 			}]
 			x: -19.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["2722C0E2E8993658"]
+			icon: {
+				id: "apothic_enchanting:raven_enchanting_table"
+			}
+			id: "5382CB05500E49DE"
+			rewards: [
+				{
+					amount: 50
+					id: "6B9E034A2C5F1423"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "467AE71A44094B31"
+					team_reward: false
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5A4B3206BA7D13A0"
+					item: {
+						count: 1
+						id: "apotheosis:god_fused_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "75507A58C9BD2616"
+					item: {
+						count: 1
+						id: "apothic_enchanting:raven_enchanting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "bhc:red_heart"
+			}
+			id: "4BDD9230BBA6C0A0"
+			rewards: [{
+				amount: 1
+				id: "0B6AB238DCFF8648"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5A6ED5D259874C13"
+					item: {
+						count: 1
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+				{
+					id: "65F3A3E1C2C4DFE2"
+					item: {
+						count: 1
+						id: "bhc:yellow_heart"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28FD331EB93CE47C"
+					item: {
+						count: 1
+						id: "bhc:green_heart"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "170D27ED74013EC4"
+					item: {
+						count: 1
+						id: "bhc:blue_heart"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BDD9230BBA6C0A0"]
+			icon: {
+				id: "bhc:red_heart_patch"
+			}
+			id: "044A192E503B766B"
+			rewards: [{
+				amount: 5
+				id: "744AEC5D9B0ACEE7"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4407333358A8389A"
+					item: {
+						count: 1
+						id: "bhc:red_heart_patch"
+					}
+					type: "item"
+				}
+				{
+					id: "57CE88E6DA5ABD44"
+					item: {
+						count: 1
+						id: "bhc:yellow_heart_patch"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74E2435894386066"
+					item: {
+						count: 1
+						id: "bhc:green_heart_patch"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1776454206AEC407"
+					item: {
+						count: 1
+						id: "bhc:blue_heart_patch"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4BDD9230BBA6C0A0"]
+			id: "192EB03700278BE2"
+			rewards: [{
+				amount: 5
+				id: "25474C380A2DD866"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "503311E13A310328"
+				item: {
+					count: 1
+					id: "bhc:relic_apple"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4BDD9230BBA6C0A0"]
+			id: "5A6151C5CBCBAAF4"
+			min_width: 300
+			rewards: [{
+				amount: 15
+				id: "5A1811EF564A641E"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F19D7363B7D3788"
+				item: {
+					count: 1
+					id: "bhc:heart_amulet"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27E2F70FDEE0F003"]
+			id: "78BCE2A8F87EB08B"
+			rewards: [{
+				amount: 50
+				id: "5798DC56788597CA"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "55EE282D0500952E"
+				item: {
+					count: 1
+					id: "bhc:blade_of_vitality"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["54013FF4444B76EB"]
+			icon: {
+				id: "bhc:red_heartpulse_belt"
+			}
+			id: "00249E1AFEF0051A"
+			rewards: [{
+				amount: 15
+				id: "3549624CB4F5F6C6"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "12959E344AE408A4"
+					item: {
+						count: 1
+						id: "bhc:red_heartpulse_belt"
+					}
+					type: "item"
+				}
+				{
+					id: "1E1E0AF17AA46848"
+					item: {
+						count: 1
+						id: "bhc:yellow_heartpulse_belt"
+					}
+					type: "item"
+				}
+				{
+					id: "77030E918C655193"
+					item: {
+						count: 1
+						id: "bhc:green_heartpulse_belt"
+					}
+					type: "item"
+				}
+				{
+					id: "3DA3C4BF471DE037"
+					item: {
+						count: 1
+						id: "bhc:blue_heartpulse_belt"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5A6151C5CBCBAAF4"]
+			id: "27E2F70FDEE0F003"
+			rewards: [{
+				amount: 50
+				id: "00996D3043383085"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "087FACB4AA2BC120"
+				item: {
+					count: 1
+					id: "bhc:soul_heart_amulet"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["192EB03700278BE2"]
+			icon: {
+				id: "bhc:red_heart_canister"
+			}
+			id: "54013FF4444B76EB"
+			rewards: [{
+				amount: 10
+				id: "46535F53F13B0728"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "58C04496385FF354"
+					item: {
+						count: 1
+						id: "bhc:red_heart_canister"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BC9F061B39BE7F4"
+					item: {
+						count: 1
+						id: "bhc:yellow_heart_canister"
+					}
+					type: "item"
+				}
+				{
+					id: "282A94D0DF700291"
+					item: {
+						count: 1
+						id: "bhc:green_heart_canister"
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D09C9E93DC01A48"
+					item: {
+						count: 1
+						id: "bhc:blue_heart_canister"
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["78BCE2A8F87EB08B"]
+			id: "266D0151DF0A7BA5"
+			rewards: [{
+				amount: 50
+				id: "28D4CA0B22CB35EE"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "02865F4DA8BB2589"
+				item: {
+					count: 1
+					id: "bhc:vigor_bow"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
 		}
 	]
 }
