@@ -141,18 +141,18 @@
 		}
 		{
 			alpha: 155
-			height: 2.0d
+			height: 1.75d
 			image: "advanced_ae:block/quantum_crafter_grid_on"
 			rotation: 0.0d
-			width: 2.0d
+			width: 1.75d
 			x: 15.5d
 			y: 14.5d
 		}
 		{
-			height: 2.0d
+			height: 1.75d
 			image: "advanced_ae:block/crafting/quantum_internal_powered_animation"
 			rotation: 45.0d
-			width: 2.0d
+			width: 1.75d
 			x: 15.5d
 			y: 12.5d
 		}
@@ -571,9 +571,30 @@
 			x: -9.0d
 			y: 4.5d
 		}
+		{
+			height: 1.0d
+			image: "ae2lt:block/flawless_budding_overload_crystal"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "ae2lt:item/overload_singularity"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.5d
+			y: 5.5d
+		}
 	]
-	order_index: 2
-	quest_links: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "044D586FC27C77D8"
+		linked_quest: "4FB56188FC0B259B"
+		x: 8.0d
+		y: 7.5d
+	}]
 	quests: [
 		{
 			id: "05CEF45909A11F60"
@@ -2970,8 +2991,8 @@
 				id: "55B1C70507F60EDF"
 				type: "checkmark"
 			}]
-			x: 15.5d
-			y: 1.0d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["46A1341E5E97ABDC"]
@@ -5050,6 +5071,251 @@
 			}]
 			x: 14.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["73EC5E7F2300B99D"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ae2lt:block/lightning_assembler/base"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1D5A6A292CBF90D3"
+			min_width: 300
+			rewards: [{
+				amount: 1
+				id: "12FEB0416D7E9B7B"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "6FA48656DF0BB832"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D5A6A292CBF90D3"]
+			id: "25E129A95E8B4D1B"
+			min_width: 300
+			rewards: [{
+				amount: 3
+				id: "5C14F3E97FEE6C24"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1A00DE4AADDD40FC"
+				item: { count: 1, id: "ae2lt:overload_crystal" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25E129A95E8B4D1B"]
+			icon: {
+				id: "ae2lt:flawed_budding_overload_crystal"
+			}
+			id: "5624A48C0F835946"
+			min_width: 350
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					id: "ae2lt:flawed_budding_overload_crystal"
+				}
+				id: "4C920B09DE6D8705"
+				observation_type: "block_tag"
+				observe_type: 1
+				timer: 0L
+				to_observe: "ftb:overloaded_budding"
+				type: "observation"
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25E129A95E8B4D1B"]
+			icon: {
+				id: "ae2lt:overload_processor"
+			}
+			id: "609AB3BCA57D1A09"
+			rewards: [{
+				amount: 3
+				id: "481CBA44E7C1EE80"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "314C7A2FFE71D18C"
+					item: { count: 1, id: "ae2lt:overload_inscriber_press" }
+					type: "item"
+				}
+				{
+					id: "32C20077D3285553"
+					item: { count: 1, id: "ae2lt:overload_processor" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5624A48C0F835946"]
+			id: "08B1487323E55058"
+			min_width: 300
+			rewards: [{
+				amount: 3
+				id: "1EBEC2FC327F1ED1"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					id: "ae2lt:flawless_budding_overload_crystal"
+				}
+				id: "1C415D0C16371A3D"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ae2lt:flawless_budding_overload_crystal"
+				type: "observation"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["609AB3BCA57D1A09"]
+			icon: {
+				id: "ae2lt:lightning_collector"
+			}
+			id: "7A7A24CCFB9EEE43"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "21229FB70344B32B"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "59B6968A35CE1FED"
+					item: { count: 1, id: "ae2lt:lightning_collector" }
+					type: "item"
+				}
+				{
+					id: "46416BDBC01BA1A8"
+					item: { count: 1, id: "ae2lt:lightning_cell_component_i" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CA74EC17FBC975C"]
+			id: "0AD5078A3A112F55"
+			rewards: [{
+				amount: 100
+				id: "582D5A50CBF40B86"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7D8643916E57E38F"
+				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5DD3531E0F2A402C"]
+			id: "7CA74EC17FBC975C"
+			rewards: [{
+				amount: 15
+				id: "0EA68E2FF5980872"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "152C252F2BF308BC"
+				item: { count: 1, id: "ae2lt:lightning_simulation_room" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A7A24CCFB9EEE43"]
+			id: "5DD3531E0F2A402C"
+			min_width: 350
+			rewards: [{
+				amount: 10
+				id: "16919D41093F422C"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7BBAB51CC25DCF88"
+				item: { count: 1, id: "ae2lt:electro_chime_crystal" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DD3531E0F2A402C"]
+			icon: {
+				id: "ae2lt:tesla_coil"
+			}
+			id: "7AE14CDF6282082D"
+			rewards: [{
+				amount: 15
+				id: "6AADBDE1C60AD483"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2E8B38F7F902E0C7"
+				item: { count: 1, id: "ae2lt:tesla_coil" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5DD3531E0F2A402C"]
+			icon: {
+				id: "ae2lt:atmospheric_ionizer"
+			}
+			id: "1E89C7DECA4E915A"
+			min_width: 350
+			rewards: [{
+				amount: 25
+				id: "5D1CBE5AED959FAC"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5193FE302B6F77CB"
+					item: { count: 1, id: "ae2lt:atmospheric_ionizer" }
+					type: "item"
+				}
+				{
+					id: "4601F9E54F6A0F7C"
+					item: { count: 1, id: "ae2lt:thunderstorm_condensate" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 5.5d
 		}
 	]
 }

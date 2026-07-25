@@ -6,7 +6,7 @@
 	filename: "power"
 	group: "03201DC13AAA49AA"
 	icon: {
-		id: "mekanismgenerators:wind_generator"
+		id: "excessive_utilities:rainbow_generator"
 	}
 	id: "391B65CD04A90459"
 	images: [
@@ -28,108 +28,11 @@
 		}
 		{
 			height: 2.0d
-			image: "xycraft_world:block/connected/glass_viewer_single"
-			order: 1
-			rotation: 0.0d
+			image: "irons_jewelry:textures/gui/sprites/guidebook/guidebook_part_frame.png"
+			order: -1
+			rotation: 45.0d
 			width: 2.0d
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "mekanism:block/steel_casing"
-			order: -1
-			rotation: 45.0d
-			width: 1.0d
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			height: 1.5d
-			image: "xycraft_world:block/connected/lamp_rgb_glowing_single"
-			order: -2
-			rotation: 0.0d
-			width: 1.5d
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			height: 1.5d
-			image: "powah:block/solar_panel_nitro_frame"
-			order: -2
-			rotation: 0.0d
-			width: 1.5d
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			height: 1.5d
-			image: "powah:block/ender_cell_nitro"
-			order: -1
-			rotation: 45.0d
-			width: 1.5d
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			height: 3.0d
-			image: "powah:block/thermo_generator_nitro_top"
-			order: -2
-			rotation: 0.0d
-			width: 3.0d
-			x: -7.5d
-			y: 6.5d
-		}
-		{
-			height: 3.0d
-			image: "powah:block/niotic_crystal_block"
-			order: -1
-			rotation: 0.0d
-			width: 3.0d
-			x: -7.5d
-			y: 6.5d
-		}
-		{
-			height: 3.5d
-			image: "ftbquests:block/detector_on"
-			order: -3
-			rotation: 0.0d
-			width: 3.5d
-			x: -7.5d
-			y: 6.5d
-		}
-		{
-			height: 3.0d
-			image: "xycraft_world:block/connected/lamp_rgb_glowing_single"
-			rotation: 0.0d
-			width: 3.0d
-			x: -7.5d
-			y: 6.5d
-		}
-		{
-			height: 2.0d
-			image: "powah:block/solar_panel_nitro_frame"
-			order: -2
-			rotation: 0.0d
-			width: 2.0d
-			x: -7.5d
-			y: 4.0d
-		}
-		{
-			height: 2.0d
-			image: "mekanism:block/elite_induction_provider_led"
-			rotation: 45.0d
-			width: 2.0d
-			x: -4.5d
-			y: 0.0d
-		}
-		{
-			alpha: 200
-			height: 2.0d
-			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
-			rotation: 45.0d
-			width: 2.0d
-			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -159,196 +62,212 @@
 			y: -2.45d
 		}
 		{
-			height: 3.0d
-			image: "powah:item/battery_nitro"
-			rotation: 0.0d
-			width: 3.0d
-			x: -10.0d
-			y: 4.0d
-		}
-		{
 			height: 5.0d
 			image: "modern_industrialization:block/advanced_machine_hull"
 			rotation: 0.0d
 			width: 5.0d
-			x: 5.5d
-			y: 6.0d
+			x: 3.5d
+			y: 13.0d
 		}
 		{
-			alpha: 100
-			height: 5.0d
-			image: "xycraft_machines:block/connected/machine_base_single_old"
+			alpha: 150
+			height: 6.0d
+			image: "excessive_utilities:block/rainbow_generator"
 			rotation: 0.0d
-			width: 7.0d
+			width: 7.5d
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 9.3d
+			image: "ftb:textures/quests/white_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
 			x: 0.0d
 			y: 6.0d
 		}
 		{
-			height: 1.5d
-			image: "modern_industrialization:block/machines/steam_turbine/overlay_front_active"
+			height: 0.05d
+			image: "ftbchunks:textures/square_mask.png"
+			order: 1
 			rotation: 0.0d
-			width: 1.5d
-			x: -6.5d
-			y: 0.0d
+			width: 12.1d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			height: 1.25d
-			image: "ftb:textures/quests/draconic_evolution/draconic_core.png"
+			height: 0.05d
+			image: "ftbchunks:textures/square_mask.png"
+			order: 1
 			rotation: 0.0d
-			width: 1.25d
-			x: -4.0d
+			width: 12.1d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			height: 0.05d
+			image: "ftbchunks:textures/square_mask.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.1d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 0.05d
+			image: "ftbchunks:textures/square_mask.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.1d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
-			height: 1.75d
-			hover: ["Induction Matrix"]
-			image: "ftb:textures/quests/mekanism/induction.png"
+			height: 0.05d
+			image: "ftbchunks:textures/square_mask.png"
+			order: 1
 			rotation: 0.0d
-			width: 1.75d
-			x: -8.0d
+			width: 12.1d
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			height: 2.5d
+			image: "ftbquests:tasks/input_only"
+			order: -5
+			rotation: 45.0d
+			width: 2.5d
+			x: 0.0d
 			y: 0.0d
 		}
+		{
+			height: 4.08d
+			hover: ["Modern Industrialization Fusion Reactor"]
+			image: "ftb:textures/quests/modern_industrialization/fusion_mi.png"
+			rotation: 0.0d
+			width: 7.57d
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			height: 8.41d
+			hover: ["Create Nuclear Reactor"]
+			image: "ftb:textures/quests/create/create_nuclear.png"
+			rotation: 0.0d
+			width: 7.2d
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			alpha: 50
+			color: 0
+			height: 10.0d
+			image: "ftb:textures/quests/white_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			alpha: 50
+			color: 0
+			height: 10.0d
+			image: "ftb:textures/quests/white_bg.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 11.0d
+			y: 6.0d
+		}
 	]
-	order_index: 1
+	order_index: 3
 	quest_links: [
 		{
 			id: "6CB372A72C838C9C"
 			linked_quest: "0EFA11536D00E653"
-			shape: "diamond"
-			x: -4.5d
-			y: 0.5d
+			shape: "square"
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			id: "2AD4C60BAE9EE5A3"
 			linked_quest: "03E1EFC3F5AD2CA5"
-			shape: "diamond"
-			x: -0.5d
-			y: 1.5d
+			shape: "square"
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			id: "4D05A8D84C7AC05C"
 			linked_quest: "3ACEBC2F651514F4"
-			shape: "diamond"
-			x: -1.0d
-			y: 2.0d
+			shape: "square"
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			id: "6D6A2F560FF79576"
 			linked_quest: "3F75F781DE5123F4"
-			shape: "diamond"
-			x: -1.5d
-			y: 2.5d
+			shape: "hexagon"
+			size: 1.5d
+			x: -1.0d
+			y: 9.0d
 		}
 		{
 			id: "27DDFC98CAD347B1"
 			linked_quest: "31C83D9253FFF685"
-			shape: "none"
-			size: 1.5d
-			x: -6.5d
-			y: 0.0d
+			shape: "square"
+			x: 2.0d
+			y: 7.0d
 		}
 		{
 			id: "2A812ABC70659D86"
 			linked_quest: "22794ACEC855690B"
-			x: 4.75d
-			y: 6.0d
+			x: 2.75d
+			y: 13.0d
 		}
 		{
 			id: "5EADE1CBA1EED721"
 			linked_quest: "26D4074DECF26C04"
-			x: 6.25d
-			y: 6.0d
+			x: 4.25d
+			y: 13.0d
 		}
 		{
 			id: "533606FFE9077181"
 			linked_quest: "02BC61BBCDB931A3"
-			shape: "diamond"
-			x: -5.0d
-			y: 0.0d
+			shape: "square"
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			id: "6CB1AE31FC0F9863"
 			linked_quest: "69C82E67CEA88673"
-			shape: "diamond"
-			x: -0.5d
-			y: 2.5d
+			shape: "square"
+			x: 2.0d
+			y: 3.0d
 		}
 		{
 			id: "1BFDAE9FCBA7E00F"
 			linked_quest: "39A6CE8A1D5B2D8F"
-			shape: "diamond"
-			x: 1.5d
-			y: 2.5d
+			shape: "square"
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			id: "519510236669B54D"
 			linked_quest: "001F0C36B4AB9F5F"
-			shape: "diamond"
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			id: "20C56C89E74881E4"
-			linked_quest: "34D191F76AA69707"
-			shape: "diamond"
-			size: 1.5d
-			x: -4.5d
-			y: 4.5d
-		}
-		{
-			id: "692D0E2C02526A50"
-			linked_quest: "583FFE29C881EE8C"
-			shape: "diamond"
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			id: "2BD5360C3B3E5E21"
-			linked_quest: "61D79267453CA30C"
-			shape: "diamond"
-			x: -5.0d
-			y: 6.5d
-		}
-		{
-			id: "188D33828160B8A3"
-			linked_quest: "6D5905345348ABEF"
-			shape: "diamond"
-			x: -4.5d
+			shape: "square"
+			x: -2.0d
 			y: 7.0d
-		}
-		{
-			id: "4D6C839CD23B5B91"
-			linked_quest: "74BED9604BDE1EA5"
-			shape: "diamond"
-			x: -4.0d
-			y: 6.5d
-		}
-		{
-			id: "7F130B6E65D95479"
-			linked_quest: "1E6E38DC6183463A"
-			shape: "none"
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "48319CC62A599A01"
-			linked_quest: "2D1B390B363E0F27"
-			x: -5.0d
-			y: 2.0d
 		}
 		{
 			id: "51B48FFE6B452603"
 			linked_quest: "7F186F5B5630DB4A"
-			shape: "diamond"
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			id: "2A9EFCEDB2DEEFB7"
-			linked_quest: "25EB6E3274347822"
-			shape: "hexagon"
-			x: -8.0d
-			y: 0.0d
+			shape: "square"
+			x: 0.0d
+			y: 7.0d
 		}
 	]
 	quests: [
@@ -371,14 +290,14 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "0A05B647A7216846"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			icon: {
@@ -402,14 +321,14 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "07417ECE0AFC0BDA"
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismgenerators:solar_generator)item(mekanismgenerators:advanced_solar_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			id: "754048401D3A6A7B"
@@ -452,208 +371,8 @@
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7C0EFB4A52F2EC61"]
-			hide_dependency_lines: true
-			icon: {
-				id: "powah:energy_cell_nitro"
-			}
-			id: "6A4A2A2EFD552316"
-			rewards: [{
-				amount: 5
-				id: "6FCA8C4C7456BE8E"
-				team_reward: false
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					id: "5B0B7A1B78FA15B6"
-					item: { components: { "ftbfiltersystem:filter": "or(item(powah:energy_cell_starter)item(powah:energy_cell_basic)item(powah:energy_cell_hardened)item(powah:energy_cell_blazing)item(powah:energy_cell_niotic)item(powah:energy_cell_spirited)item(powah:energy_cell_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "60AE0E54D1CAE9EE"
-					item: { components: { "ftbfiltersystem:filter": "or(item(powah:battery_starter)item(powah:battery_basic)item(powah:battery_hardened)item(powah:battery_blazing)item(powah:battery_niotic)item(powah:battery_spirited)item(powah:battery_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: -8.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7C0EFB4A52F2EC61"]
-			hide_dependency_lines: true
-			icon: {
-				id: "powah:ender_cell_nitro"
-			}
-			id: "1CFBFD1CE648772F"
-			rewards: [{
-				amount: 5
-				id: "5FA7EA57CAB5E2DD"
-				team_reward: false
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "6ADC311A6F201C21"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:ender_cell_starter)item(powah:ender_cell_basic)item(powah:ender_cell_hardened)item(powah:ender_cell_blazing)item(powah:ender_cell_niotic)item(powah:ender_cell_spirited)item(powah:ender_cell_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7C0EFB4A52F2EC61"]
-			hide_dependency_lines: true
-			hide_details_until_startable: false
-			icon: {
-				id: "powah:energy_cable_nitro"
-			}
-			id: "1706D0B9391ED8E1"
-			rewards: [{
-				amount: 5
-				id: "16D14DD28FB62442"
-				team_reward: false
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "56AEAE6BD791EA6C"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:energy_cable_starter)item(powah:energy_cable_basic)item(powah:energy_cable_hardened)item(powah:energy_cable_blazing)item(powah:energy_cable_niotic)item(powah:energy_cable_spirited)item(powah:energy_cable_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["7C0EFB4A52F2EC61"]
-			hide_dependency_lines: true
-			icon: {
-				id: "powah:ender_gate_nitro"
-			}
-			id: "4E6EC6E1A507A52B"
-			rewards: [{
-				amount: 5
-				id: "6670EC83CA17018A"
-				team_reward: false
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "51876BE373B08431"
-				item: { components: { "ftbfiltersystem:filter": "or(item(powah:ender_gate_starter)item(powah:ender_gate_basic)item(powah:ender_gate_hardened)item(powah:ender_gate_blazing)item(powah:ender_gate_niotic)item(powah:ender_gate_spirited)item(powah:ender_gate_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7C0EFB4A52F2EC61"]
-			hide_dependency_lines: true
-			icon: {
-				id: "powah:player_transmitter_nitro"
-			}
-			id: "70A9E1AC900A77B4"
-			min_width: 250
-			rewards: [{
-				amount: 5
-				id: "26DC9E89D7F46B8A"
-				team_reward: false
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					id: "33E428135EC63BC7"
-					item: { components: { "ftbfiltersystem:filter": "or(item(powah:player_transmitter_starter)item(powah:player_transmitter_basic)item(powah:player_transmitter_hardened)item(powah:player_transmitter_blazing)item(powah:player_transmitter_niotic)item(powah:player_transmitter_spirited)item(powah:player_transmitter_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "1360DBA4E793FEB0"
-					item: { count: 1, id: "powah:binding_card" }
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["7C0EFB4A52F2EC61"]
-			icon: {
-				id: "powah:energizing_orb"
-			}
-			icon_scale: 2.0d
-			id: "4F092D86017F37E9"
-			min_width: 300
-			rewards: [
-				{
-					amount: 3
-					id: "6349A7777447942C"
-					team_reward: false
-					type: "currency"
-				}
-				{
-					id: "5CE6F8F0E9D61D66"
-					item: {
-						count: 1
-						id: "powah:energizing_rod_starter"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			tasks: [
-				{
-					id: "003B42F12683276E"
-					item: { count: 1, id: "powah:energizing_orb" }
-					type: "item"
-				}
-				{
-					id: "55F5BD3470BD58A4"
-					item: { components: { "ftbfiltersystem:filter": "or(item(powah:energizing_rod_starter)item(powah:energizing_rod_basic)item(powah:energizing_rod_hardened)item(powah:energizing_rod_blazing)item(powah:energizing_rod_niotic)item(powah:energizing_rod_spirited)item(powah:energizing_rod_nitro))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: 4.0d
-		}
-		{
-			icon: {
-				id: "powah:charged_snowball"
-			}
-			icon_scale: 2.0d
-			id: "7C0EFB4A52F2EC61"
-			rewards: [
-				{
-					amount: 1
-					id: "6C285A37B89B4DE2"
-					team_reward: false
-					type: "currency"
-				}
-				{
-					id: "5CFAB08FD5EA0FF9"
-					item: {
-						count: 1
-						id: "powah:book"
-					}
-					type: "item"
-				}
-			]
-			shape: "none"
-			size: 1.0d
-			tasks: [{
-				id: "148033544E8035D6"
-				item: { count: 1, id: "powah:dielectric_paste" }
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			id: "5EF11F96A97C2A23"
@@ -669,8 +388,8 @@
 				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5EF11F96A97C2A23"]
@@ -687,8 +406,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_steam_turbine" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 3.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6D72AFBA0AAC164C"]
@@ -705,8 +424,8 @@
 				item: { count: 1, id: "modern_industrialization:hv_steam_turbine" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["51D242BB3BA2BE40"]
@@ -723,8 +442,8 @@
 				item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 5.0d
+			y: 12.0d
 		}
 		{
 			id: "0603F40C8DB12868"
@@ -740,8 +459,8 @@
 				item: { count: 1, id: "modern_industrialization:lv_diesel_generator" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["0603F40C8DB12868"]
@@ -758,8 +477,8 @@
 				item: { count: 1, id: "modern_industrialization:mv_diesel_generator" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.5d
+			x: 3.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["664551F5E62A9D00"]
@@ -776,8 +495,8 @@
 				item: { count: 1, id: "modern_industrialization:hv_diesel_generator" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 4.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["361D61EE15801A6E"]
@@ -794,78 +513,48 @@
 				item: { count: 1, id: "modern_industrialization:large_diesel_generator" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 5.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["2F8BB4724991B7C4"]
+			icon: {
+				id: "dysoncubeproject:ray_receiver_controller"
+			}
 			id: "77E8BBA45C737818"
 			min_width: 300
 			rewards: [{
-				amount: 5
+				amount: 50
 				id: "239C4692F75B171E"
 				team_reward: false
 				type: "currency"
 			}]
-			shape: "square"
-			tasks: [{
-				id: "5F5A6B68D6ED8B86"
-				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["77E8BBA45C737818"]
-			icon: {
-				id: "dysoncubeproject:solar_sail_package"
-			}
-			id: "4AE2937C5B4DC094"
-			rewards: [{
-				amount: 7
-				id: "367F0776F372FC32"
-				team_reward: false
-				type: "currency"
-			}]
-			shape: "square"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
-					icon: {
-						id: "dysoncubeproject:beam_package"
-					}
-					id: "4A89F3E2D803B73E"
-					item: { components: { "ftbfiltersystem:filter": "or(item(dysoncubeproject:beam)item(dysoncubeproject:beam_package))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "5F5A6B68D6ED8B86"
+					item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
 					type: "item"
 				}
 				{
-					icon: {
-						id: "dysoncubeproject:solar_sail_package"
-					}
-					id: "5597978BFB274E19"
-					item: { components: { "ftbfiltersystem:filter": "or(item(dysoncubeproject:solar_sail)item(dysoncubeproject:solar_sail_package))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "3381A23119893420"
+					item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+					type: "item"
+				}
+				{
+					id: "6FF0BD19378FE0D2"
+					item: { count: 1, id: "dysoncubeproject:solar_sail_package" }
+					type: "item"
+				}
+				{
+					id: "79EB2CE3681A54A8"
+					item: { count: 1, id: "dysoncubeproject:beam_package" }
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4AE2937C5B4DC094"]
-			id: "3969A7841DEB047D"
-			rewards: [{
-				amount: 15
-				id: "74A4AA41C301376D"
-				team_reward: false
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "2FDDC10F6C074A2B"
-				item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 2.5d
+			x: 1.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["36E0D875AA8E2F66"]
@@ -877,39 +566,41 @@
 				team_reward: false
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "20D2895D2B264297"
 				item: { count: 1, id: "justdynathings:thermo_generator" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 7.0d
 		}
 		{
 			icon: {
 				id: "enderio:energetic_photovoltaic_module"
 			}
 			id: "379AF010B6BB7ECA"
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "0F9F80BE3C6A92D6"
 				item: { components: { "ftbfiltersystem:filter": "or(item(enderio:pulsating_photovoltaic_module)item(enderio:vibrant_photovoltaic_module)item(enderio:energetic_photovoltaic_module))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 5.0d
 		}
 		{
 			icon: {
 				id: "create_new_age:generator_coil"
 			}
 			id: "3B8310CD44BBD6F1"
+			min_width: 300
 			rewards: [{
 				amount: 5
 				id: "0EFB7A837C4DF38B"
 				type: "currency"
 			}]
+			shape: "square"
 			tasks: [
 				{
 					id: "7954A7CE09D65C52"
@@ -927,19 +618,1116 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 1.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["2ECAD5F752E445F1"]
+			icon: {
+				id: "oritech:black_hole_block"
+			}
+			id: "725E648984E4FFBF"
+			rewards: [{
+				amount: 50
+				id: "45D5AAC96142DB39"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "050D9BE489EF2746"
+					item: { count: 1, id: "oritech:black_hole_block" }
+					type: "item"
+				}
+				{
+					id: "188112ADF3CE25A0"
+					item: { count: 1, id: "oritech:particle_collector_block" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "748DAA46EC10AA3F"
+			rewards: [{
+				amount: 5
+				id: "4C23F66429CCAF24"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "190FCE9F07AF342D"
+				item: { count: 1, id: "createpropulsion:coral_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "20C572AF6BF2FAD9"
+			shape: "square"
+			tasks: [{
+				id: "4C995E6CA253D813"
+				item: { count: 1, id: "excessive_utilities:explosive_generator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			id: "62D413C857B3AAE5"
+			shape: "square"
+			tasks: [{
+				id: "6EC0BE33BD21AA25"
+				item: { count: 1, id: "excessive_utilities:death_generator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			id: "0AA18ADCF4B4315E"
+			shape: "square"
+			tasks: [{
+				id: "3E283F9DD04AE6CC"
+				item: { count: 1, id: "excessive_utilities:culinary_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			id: "5AEEDA6376EE5EDD"
+			shape: "square"
+			tasks: [{
+				id: "4F939990EDFC8576"
+				item: { count: 1, id: "excessive_utilities:potion_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			id: "72B5E5B3788E6E6C"
+			shape: "square"
+			tasks: [{
+				id: "007DC32135268D43"
+				item: { count: 1, id: "excessive_utilities:slimy_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			id: "5F972715B2392E1E"
+			shape: "square"
+			tasks: [{
+				id: "0ACCC74D37C087F1"
+				item: { count: 1, id: "excessive_utilities:halitosis_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "3D45356D57BBD334"
+			shape: "square"
+			tasks: [{
+				id: "688387DE104668E9"
+				item: { count: 1, id: "excessive_utilities:heated_redstone_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			id: "37A14843BCE4FF0E"
+			shape: "square"
+			tasks: [{
+				id: "61B625783B53A260"
+				item: { count: 1, id: "excessive_utilities:disenchantment_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "09C7A0F207271224"
+			shape: "square"
+			tasks: [{
+				id: "5D8EA39EC36B0FD0"
+				item: { count: 1, id: "excessive_utilities:pink_generator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			id: "5AA8C6E318141B69"
+			shape: "square"
+			tasks: [{
+				id: "519762146EEE7474"
+				item: { count: 1, id: "excessive_utilities:frosty_generator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			id: "42C7DDFED49DAC47"
+			shape: "square"
+			tasks: [{
+				id: "4C2E707A958E7E1B"
+				item: { count: 1, id: "excessive_utilities:nether_star_generator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			id: "217F8824DCB38FA1"
+			shape: "square"
+			tasks: [{
+				id: "44DEE4328B972FF7"
+				item: { count: 1, id: "excessive_utilities:overclocked_generator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			id: "54D8CBA1E79004FD"
+			shape: "square"
+			tasks: [{
+				id: "5D83D210DC156B4D"
+				item: { count: 1, id: "excessive_utilities:survivalist_generator" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "6137FF3EFFACB3A3"
+			shape: "square"
+			tasks: [{
+				id: "085C9E91E960BFAD"
+				item: { count: 1, id: "excessive_utilities:furnace_generator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			id: "5DD907AA92F6C760"
+			shape: "square"
+			tasks: [{
+				id: "1653907126C1A961"
+				item: { count: 1, id: "excessive_utilities:magmatic_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			id: "28FCC1558A29CA8D"
+			shape: "square"
+			tasks: [{
+				id: "7C4D5C9324A19DF6"
+				item: { count: 1, id: "excessive_utilities:ender_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"20C572AF6BF2FAD9"
+				"42C7DDFED49DAC47"
+				"72B5E5B3788E6E6C"
+				"5F972715B2392E1E"
+				"5DD907AA92F6C760"
+				"6137FF3EFFACB3A3"
+				"3D45356D57BBD334"
+				"37A14843BCE4FF0E"
+				"217F8824DCB38FA1"
+				"62D413C857B3AAE5"
+				"28FCC1558A29CA8D"
+				"54D8CBA1E79004FD"
+				"09C7A0F207271224"
+				"5AA8C6E318141B69"
+				"0AA18ADCF4B4315E"
+				"5AEEDA6376EE5EDD"
+			]
+			hide_dependency_lines: true
+			id: "183EA37FA456C008"
+			rewards: [{
+				amount: 25
+				id: "57A5E1419397C1DD"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "34465523EDFFBC8B"
+				item: { count: 1, id: "excessive_utilities:rainbow_generator" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4A1DBDE0963407E7"]
+			id: "14D192FB0424D1AE"
+			rewards: [{
+				amount: 5
+				id: "215BB00CD6BA9B79"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "26A37D63B5692A3C"
+				item: { count: 1, id: "draconicevolution:generator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B5B50AF7B7F1EDE"]
 			icon: {
 				id: "createnuclear:reactor_controller"
 			}
 			id: "2617A856093F36AB"
-			rewards: [{
-				amount: 50
-				id: "2B9139887B69D30F"
-				type: "currency"
-			}]
+			min_width: 300
+			rewards: [
+				{
+					amount: 50
+					id: "2B9139887B69D30F"
+					type: "currency"
+				}
+				{
+					id: "39121FC74073C123"
+					item: {
+						components: {
+							"createnuclear:reactor_blue_print_data": {
+								countGraphiteRod: 9
+								countUraniumRod: 18
+								graphiteTime: 3600
+								pattern: [
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 0
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 1
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 2
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 3
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 4
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 5
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 6
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 7
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 8
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 9
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 10
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 11
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 12
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 13
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 14
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 15
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 16
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 17
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 18
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 19
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 20
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 21
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 22
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 23
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 24
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 25
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 26
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 27
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 28
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 29
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 30
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 31
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 32
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 33
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 34
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 35
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 36
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 37
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 38
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 39
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 40
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 41
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 42
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 43
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 44
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 45
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 46
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 47
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 48
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 49
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 50
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 51
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 52
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 53
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 54
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 55
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 56
+									}
+								]
+								patternAll: [
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 0
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 1
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 2
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 3
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 4
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 5
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 6
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 7
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 8
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 9
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 10
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 11
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 12
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 13
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 14
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 15
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 16
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 17
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 18
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 19
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 20
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 21
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 22
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 23
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 24
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 25
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 26
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 27
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 28
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 29
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 30
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 31
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 32
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 33
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 34
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 35
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 36
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 37
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 38
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 39
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 40
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 41
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 42
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 43
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 44
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:graphite_rod"
+										}
+										slot: 45
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 46
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 47
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 48
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 49
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 50
+									}
+									{
+										Stack: {
+											count: 1
+											id: "createnuclear:uranium_rod"
+										}
+										slot: 51
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 52
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 53
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 54
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 55
+									}
+									{
+										Stack: {
+											count: 1
+											id: "minecraft:glass_pane"
+										}
+										slot: 56
+									}
+								]
+								uraniumTime: 3600
+							}
+						}
+						count: 1
+						id: "createnuclear:reactor_blueprint_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [
 				{
 					id: "0D04417709F14D70"
@@ -980,309 +1768,65 @@
 					item: { count: 1, id: "createnuclear:reactor_core" }
 					type: "item"
 				}
-			]
-			x: 5.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2617A856093F36AB"]
-			icon: {
-				id: "createnuclear:reactor_blueprint_item"
-			}
-			id: "5E3D81355D4DDE16"
-			rewards: [{
-				amount: 5
-				id: "43DC96707AD499FC"
-				type: "currency"
-			}]
-			tasks: [
 				{
-					id: "4C296AC502EB5B77"
-					item: { count: 1, id: "createnuclear:uranium_rod" }
-					type: "item"
-				}
-				{
-					id: "16431EAA9AC33D51"
+					id: "13C786510D2DF941"
 					item: { count: 1, id: "createnuclear:graphite_rod" }
 					type: "item"
 				}
 				{
-					id: "785E6A34C9CD343A"
-					item: { count: 1, id: "createnuclear:reactor_blueprint_item" }
+					id: "1F1593CD63CB715F"
+					item: { count: 1, id: "createnuclear:uranium_rod" }
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 1.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			icon: {
-				id: "oritech:black_hole_block"
+				id: "minecraft:coal"
 			}
-			id: "725E648984E4FFBF"
+			id: "35C4B2EA0D7FB8CB"
 			rewards: [{
-				amount: 50
-				id: "45D5AAC96142DB39"
+				amount: 1
+				id: "63A7F756702156FC"
 				type: "currency"
 			}]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "050D9BE489EF2746"
-					item: { count: 1, id: "oritech:black_hole_block" }
-					type: "item"
-				}
-				{
-					id: "188112ADF3CE25A0"
-					item: { count: 1, id: "oritech:particle_collector_block" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 1.5d
+			shape: "gear"
+			tasks: [{
+				id: "6AE9CBE1EAAE4F72"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.0d
 		}
 		{
-			id: "748DAA46EC10AA3F"
+			icon: {
+				id: "mekanism:upgrade_energy"
+			}
+			id: "1BF4810083FE3046"
 			rewards: [{
-				amount: 5
-				id: "4C23F66429CCAF24"
+				amount: 1
+				id: "226AF298239A5395"
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "gear"
 			tasks: [{
-				id: "190FCE9F07AF342D"
-				item: { count: 1, id: "createpropulsion:coral_generator" }
-				type: "item"
+				id: "7883DDD837E876A4"
+				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			id: "20C572AF6BF2FAD9"
-			shape: "square"
-			tasks: [{
-				id: "4C995E6CA253D813"
-				item: { count: 1, id: "excessive_utilities:explosive_generator" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			id: "62D413C857B3AAE5"
-			shape: "square"
-			tasks: [{
-				id: "6EC0BE33BD21AA25"
-				item: { count: 1, id: "excessive_utilities:death_generator" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 4.5d
-		}
-		{
-			id: "0AA18ADCF4B4315E"
-			shape: "square"
-			tasks: [{
-				id: "3E283F9DD04AE6CC"
-				item: { count: 1, id: "excessive_utilities:culinary_generator" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			id: "5AEEDA6376EE5EDD"
-			shape: "square"
-			tasks: [{
-				id: "4F939990EDFC8576"
-				item: { count: 1, id: "excessive_utilities:potion_generator" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			id: "72B5E5B3788E6E6C"
-			shape: "square"
-			tasks: [{
-				id: "007DC32135268D43"
-				item: { count: 1, id: "excessive_utilities:slimy_generator" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 5.5d
-		}
-		{
-			id: "5F972715B2392E1E"
-			shape: "square"
-			tasks: [{
-				id: "0ACCC74D37C087F1"
-				item: { count: 1, id: "excessive_utilities:halitosis_generator" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 5.5d
-		}
-		{
-			id: "3D45356D57BBD334"
-			shape: "square"
-			tasks: [{
-				id: "688387DE104668E9"
-				item: { count: 1, id: "excessive_utilities:heated_redstone_generator" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.5d
-		}
-		{
-			id: "37A14843BCE4FF0E"
-			shape: "square"
-			tasks: [{
-				id: "61B625783B53A260"
-				item: { count: 1, id: "excessive_utilities:disenchantment_generator" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.5d
-		}
-		{
-			id: "09C7A0F207271224"
-			shape: "square"
-			tasks: [{
-				id: "5D8EA39EC36B0FD0"
-				item: { count: 1, id: "excessive_utilities:pink_generator" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 5.5d
-		}
-		{
-			id: "5AA8C6E318141B69"
-			shape: "square"
-			tasks: [{
-				id: "519762146EEE7474"
-				item: { count: 1, id: "excessive_utilities:frosty_generator" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 5.5d
-		}
-		{
-			id: "42C7DDFED49DAC47"
-			shape: "square"
-			tasks: [{
-				id: "4C2E707A958E7E1B"
-				item: { count: 1, id: "excessive_utilities:nether_star_generator" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 6.5d
-		}
-		{
-			id: "217F8824DCB38FA1"
-			shape: "square"
-			tasks: [{
-				id: "44DEE4328B972FF7"
-				item: { count: 1, id: "excessive_utilities:overclocked_generator" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.5d
-		}
-		{
-			id: "54D8CBA1E79004FD"
-			shape: "square"
-			tasks: [{
-				id: "5D83D210DC156B4D"
-				item: { count: 1, id: "excessive_utilities:survivalist_generator" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			id: "6137FF3EFFACB3A3"
-			shape: "square"
-			tasks: [{
-				id: "085C9E91E960BFAD"
-				item: { count: 1, id: "excessive_utilities:furnace_generator" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.5d
-		}
-		{
-			id: "5DD907AA92F6C760"
-			shape: "square"
-			tasks: [{
-				id: "1653907126C1A961"
-				item: { count: 1, id: "excessive_utilities:magmatic_generator" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.5d
-		}
-		{
-			id: "28FCC1558A29CA8D"
-			shape: "square"
-			tasks: [{
-				id: "7C4D5C9324A19DF6"
-				item: { count: 1, id: "excessive_utilities:ender_generator" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"20C572AF6BF2FAD9"
-				"42C7DDFED49DAC47"
-				"72B5E5B3788E6E6C"
-				"5F972715B2392E1E"
-				"5DD907AA92F6C760"
-				"6137FF3EFFACB3A3"
-				"3D45356D57BBD334"
-				"37A14843BCE4FF0E"
-				"217F8824DCB38FA1"
-				"62D413C857B3AAE5"
-				"28FCC1558A29CA8D"
-				"54D8CBA1E79004FD"
-				"09C7A0F207271224"
-				"5AA8C6E318141B69"
-				"0AA18ADCF4B4315E"
-				"5AEEDA6376EE5EDD"
-			]
-			id: "183EA37FA456C008"
-			rewards: [{
-				amount: 25
-				id: "57A5E1419397C1DD"
-				type: "currency"
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "34465523EDFFBC8B"
-				item: { count: 1, id: "excessive_utilities:rainbow_generator" }
-				type: "item"
-			}]
-			x: 0.0d
+			x: -5.0d
 			y: 6.0d
 		}
 		{
-			id: "14D192FB0424D1AE"
-			rewards: [{
-				amount: 5
-				id: "215BB00CD6BA9B79"
-				type: "currency"
-			}]
-			shape: "diamond"
+			id: "7E4532B9052F0BEC"
+			shape: "gear"
 			tasks: [{
-				id: "26A37D63B5692A3C"
-				item: { count: 1, id: "draconicevolution:generator" }
-				type: "item"
+				id: "29DAAFF53D9E9531"
+				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -5.0d
+			y: 9.0d
 		}
 	]
 }

@@ -173,7 +173,7 @@
 			y: -8.0d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
@@ -994,6 +994,7 @@
 			tasks: [{
 				id: "04229DE737800098"
 				item: { components: { "enderio:capacitor_data": { base: 30.0f, specializations: { } }, "minecraft:custom_model_data": 1, "minecraft:item_name": "{\"translate\":\"item.ftb.bedrockium_capacitor\"}" }, count: 1, id: "enderio:octadic_capacitor" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -0.5d
