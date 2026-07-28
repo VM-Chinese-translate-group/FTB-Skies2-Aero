@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 5.25d
+			id: "14B1108935AAA8E7"
 			image: "ftb:textures/quests/create/train.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1AF52ED9912024E7"
 			image: "ftb:textures/quests/create/pipes.png"
 			rotation: 0.0d
 			width: 6.5d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.25d
+			id: "681F216659C8085F"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 2.4d
+			id: "36278CCAB08ACE70"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 2.4d
+			id: "5FA20D08D015BA2C"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -52,6 +57,7 @@
 		}
 		{
 			height: 1.25d
+			id: "7C2275CF4039AF39"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -60,6 +66,7 @@
 		}
 		{
 			height: 4.0d
+			id: "1D9B87C10CC3A7F3"
 			image: "ftb:textures/quests/titles_and_logos/create.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -68,6 +75,7 @@
 		}
 		{
 			height: 6.5d
+			id: "684E5CB5D156D06B"
 			image: "ftb:textures/quests/create/casings.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -76,6 +84,7 @@
 		}
 		{
 			height: 2.45d
+			id: "4712FE21D22A59EF"
 			image: "ftb:textures/quests/create/panels3x2.png"
 			rotation: 0.0d
 			width: 3.5d
@@ -84,6 +93,7 @@
 		}
 		{
 			height: 2.4d
+			id: "316329D2FE05A5E2"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -92,6 +102,7 @@
 		}
 		{
 			height: 2.4d
+			id: "3E2F9FE860DC38E8"
 			image: "ftb:textures/quests/create/panels.png"
 			rotation: 0.0d
 			width: 2.4d
@@ -100,6 +111,7 @@
 		}
 		{
 			height: 1.25d
+			id: "081BBA0AA2BFC2D7"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -108,6 +120,7 @@
 		}
 		{
 			height: 1.25d
+			id: "0684304FADB573E6"
 			image: "ftb:textures/quests/create/placard.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -116,6 +129,7 @@
 		}
 		{
 			height: 1.0d
+			id: "06BA1608E1061191"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -124,6 +138,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4863F000040993C6"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -132,6 +147,7 @@
 		}
 		{
 			height: 1.0d
+			id: "283FEFBE24394B70"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -140,6 +156,7 @@
 		}
 		{
 			height: 1.0d
+			id: "23BB202304D29AE0"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -148,6 +165,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5C20F568FE9F78E5"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -156,6 +174,7 @@
 		}
 		{
 			height: 1.0d
+			id: "02716AC813C5F77D"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -164,6 +183,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4F866ECC6068EEBF"
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
@@ -2656,6 +2676,9 @@
 		}
 		{
 			hide_dependency_lines: true
+			icon: {
+				id: "create:goggles"
+			}
 			id: "425A41A378E7BF52"
 			rewards: [{
 				amount: 10
@@ -2665,11 +2688,20 @@
 			}]
 			shape: "none"
 			size: 1.0d
-			tasks: [{
-				id: "0174311B3B5F5D6E"
-				item: { count: 1, id: "create:goggles" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0174311B3B5F5D6E"
+					item: { count: 1, id: "create:goggles" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F6F89DB9FD9539E"
+					item: { count: 1, id: "aeronautics:aviators_goggles" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 13.5d
 			y: 1.0d
 		}

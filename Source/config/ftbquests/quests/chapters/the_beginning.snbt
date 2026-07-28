@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "12F3CF4CD0AC265E"
 			image: "minecraft:block/cobblestone"
 			rotation: 0.0d
 			width: 1.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6DCAE9F6F6697B0A"
 			image: "create:block/brass_casing"
 			rotation: 0.0d
 			width: 2.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 3.0d
+			id: "082763370A243905"
 			image: "ftb:textures/quests/titles_and_logos/getting_started_title.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 1.5d
+			id: "751AF5E5A09AE8F6"
 			image: "create:block/andesite_casing"
 			rotation: 0.0d
 			width: 1.5d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 1.5d
+			id: "6494E928029D1D08"
 			image: "chisel:block/voidstone/eye"
 			rotation: 0.0d
 			width: 1.5d
@@ -52,6 +57,7 @@
 		}
 		{
 			height: 1.5d
+			id: "152971FFD948E3D0"
 			image: "geore:block/budding_iron"
 			rotation: 0.0d
 			width: 1.5d
@@ -60,6 +66,7 @@
 		}
 		{
 			height: 1.5d
+			id: "4F2E7861EDB1184B"
 			image: "geore:block/iron_tinted_glass"
 			rotation: 0.0d
 			width: 1.5d
@@ -70,6 +77,7 @@
 			alpha: 100
 			color: 0
 			height: 12.0d
+			id: "100CE90B6A9808B3"
 			image: "ftb:textures/quests/white_bg.png"
 			order: -5
 			rotation: 0.0d
@@ -79,6 +87,7 @@
 		}
 		{
 			height: 10.0d
+			id: "56595105F880DE79"
 			image: "ftb:textures/quests/backgrounds/floatingship1.png"
 			order: -2
 			rotation: 0.0d
