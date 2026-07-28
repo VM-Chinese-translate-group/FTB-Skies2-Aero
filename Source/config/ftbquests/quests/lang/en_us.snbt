@@ -36,6 +36,20 @@
 	chapter_group.3E3B6463983F18FB.title: "Tech Mods"
 	chapter_group.4E06BB3DD10B837B.title: "Main Questline"
 	file.0000000000000001.title: "&6FTB Skies 2 Aero"
+	image.15151BA87AD31CB1.title: "Steam Blast Furnace"
+	image.15AE98077F28FD0E.title: "A Drygmy and their Henge"
+	image.19BE9905792CE228.title: "Modern Industrialization"
+	image.23592362C6D48071.title: "Oritech Wiki"
+	image.2A3D777B27B8421D.title: "Steam Boiler"
+	image.2D57811713A8360C.title: "Modern Industrialization Fusion Reactor"
+	image.3232E1408EF91518.title: "Create Nuclear Reactor"
+	image.38DA1519525E0C48.title: "Induction Matrix"
+	image.3D667E67689C5F06.title: "The Steel Quarry"
+	image.441BB7866AC35E7D.title: "Induction Matrix"
+	image.4E2F112FDBE38BE9.title: "Pneumatic Pressure Chamber"
+	image.4EC7A9C355EBF014.title: "Join The Discord!"
+	image.5FD10AE1ECE90FE1.title: "Custom Multiblock Tanks!"
+	image.7D25DF235C8E954B.title: "Report A Bug"
 	quest.000F1E507ACDFAAE.quest_desc: [
 		"Drifting in the dark expanse of the void islands, the &9Acropolis&r is a complex building of pale seastone. This and the creatures that live here show it must have once been connected to an ocean. There's even a &cshrimp&r that packs quite a punch!"
 		""
@@ -161,6 +175,8 @@
 		"Upgrading a &bGem&r costs &aGem Dust&r, rarity materials, and a second &bGem&r of the same rarity. The material and dust cost of upgrading a &bGem&r increases with its rarity. The exact upgrade costs will be shown in the interface."
 	]
 	quest.01D2CEAF59872C33.title: "&aGem Case"
+	quest.020E45FCE378CC54.quest_desc: ["&aMotors&f allow you to convert power (FE/t) into Stress (SU). They come in 3 different tiers and can be upgraded with extensions to generate more SU at the cost of more power."]
+	quest.020E45FCE378CC54.title: "Converting FE to Stress"
 	quest.0219C9D8447C8936.quest_desc: [
 		"The &2Timedoor Projector&r is a crude device that can open up timedoors for travel!"
 		""
@@ -772,6 +788,11 @@
 		"{image\\:\\ftb:textures/quests/productivebees/advancedbeehivesim.png width:125 height:150 align:center}"
 	]
 	quest.0A1FDABEAAA0723B.title: "&eUpgrade: &fSimulator"
+	quest.0A4AB56CCEE5B2F8.quest_desc: [
+		"This &aContraption Controller&f can be assigned up to 13 keys on your keyboard to map to redstone signals and control your contraptions."
+		""
+		"It has several different input modes for very precise controls."
+	]
 	quest.0A6E103A6945D11E.quest_desc: [
 		"The &aFoundry&r is key for progression and specializes in creating all of the alloys needed to make &6Oritech&r machines."
 		""
@@ -1390,6 +1411,11 @@
 	quest.127FA4B0058E6117.title: "&eHostile Neural Networks&f!"
 	quest.12843F69BB8EEFCE.quest_desc: ["&3Display Links&r can be used to visualize dynamic information about your network or about a block."]
 	quest.12843F69BB8EEFCE.title: "&3Display Link"
+	quest.128E082AAA482324.quest_desc: [
+		"&aHot Air Burners&f and &bSteam Vents&f can be used to raise &bBaloon Contraptions&f using heat."
+		""
+		"The &aHot Air Burner&f simple requires redstone to produce a limite amount of heat, where the &bSteam Vent&f produces more heat, but requires Steam to function."
+	]
 	quest.12B8D538B54497E2.quest_desc: [
 		"After you've crafted a &aForge Hammer&r, you'll want to make some &bIron Plates&r as well as some &bCopper Components&r which will be used in a multitude of crafting recipes."
 		""
@@ -1679,6 +1705,8 @@
 	quest.1739969280BB4E82.title: "&fRedstone Conduit"
 	quest.176610923FDE130F.quest_desc: ["By using &bDoped Silicon Plates&r over their regular counterparts, you can greatly increase the yield from their various recipes."]
 	quest.176610923FDE130F.title: "&fDoped Silicon Plates"
+	quest.176783D2397F5BE7.quest_desc: ["&eCreate: New Age&f, adds Solar panels that can function like &aBlaze Burners&f, heating up the block above them."]
+	quest.176783D2397F5BE7.title: "Solar Heaters"
 	quest.176D9BAC77298ABB.quest_desc: [
 		"These machines can generate energy when placed against a hot block like magma or &aPrimal Coal&f and pumping in a coolant."
 		""
@@ -2052,18 +2080,6 @@
 		"It is also used to craft the &bForce of Negative&r."
 	]
 	quest.1C3D395850C1C4A4.title: "&dWeakened Talisman"
-	quest.1C3DFCB335276952.quest_desc: [
-		"&eMekanism&r typically has some of the most powerful energy generators in modded Minecraft, and fission itself gates some powerful endgame materials."
-		""
-		"Here are some requirements and risks to consider before getting started on fission."
-		""
-		"Fissile fuel requires a fair amount of power, and a regular supply of three materials: &eSulfur,&r &7Fluorite,&r and &2Uranium.&r"
-		""
-		"&dFission Reactors&r require a ton of coolant to be constantly supplied, the heated coolant extracted, and the used fuel to be removed."
-		""
-		"If one or more of these conditions are not handled properly, you risk &cdamaging the reactor&r and potentially causing a &4nuclear accident.&r"
-	]
-	quest.1C3DFCB335276952.title: "&fSo You Want to Build a &dNuclear Reactor&f"
 	quest.1C866721E1F2FF50.quest_desc: [
 		"It's like a &aCoal Generator&r that fits into your pocket!"
 		""
@@ -2614,6 +2630,11 @@
 		"This is a massive upgrade for production!"
 	]
 	quest.2436337445AD0E07.title: "&eUpgrade: &fBlock"
+	quest.24377F5E129310BF.quest_desc: [
+		"These advanced &dVector Thrusters&f can run on either fluids or power, depending on which you use."
+		""
+		"Their main advantage is the ability to be directionally controlled using redstone, allowing them to rotate with much more ease than most other propulsion methods."
+	]
 	quest.24445EC4DA6492F1.quest_desc: ["You'll need a bad omen to trigger a raid... Rumor says killing a peaceful wandering trader may be enough to invoke the ire of the gods..."]
 	quest.24445EC4DA6492F1.quest_subtitle: "Defend A Village From A Raid"
 	quest.24445EC4DA6492F1.title: "&dHero Of The Village"
@@ -3367,6 +3388,11 @@
 		""
 		"At this point you will also gain access to &dWyvern&f tools and weapons, and the &dWyvern Chestpiece&r."
 	]
+	quest.2DDA4D1BAACC6183.quest_desc: [
+		"The &aAirship Station&f can be used to automatically control and dock airships and other contraptions."
+		""
+		"Together with the &dShip Transponder&f, this allows you to create an automated transportation network using your contraptions."
+	]
 	quest.2DDAFF4BE2B4D6E4.quest_desc: ["Combining &#d2b8e0Ethene&r with &aTiny Chromium Dust&r, we can get &3Polyethylene&r."]
 	quest.2DDAFF4BE2B4D6E4.title: "&3Polyethylene"
 	quest.2DDC9D75FBFA1F3C.quest_desc: [
@@ -3460,6 +3486,7 @@
 	quest.2EEE782146096F9C.title: "&eBuilding Gadgets"
 	quest.2F057F981B68EB95.quest_desc: ["The &aSimple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
 	quest.2F057F981B68EB95.title: "&aSimple Fluid Placer"
+	quest.2F11FF90561D0604.quest_desc: ["The &aGyroscope&r will attempt to keep your contraption stable along whatever axis it is placed at using a LOT of rotational force"]
 	quest.2F15D918EF183051.quest_desc: [
 		"&6Skies 2: Aero&r is a sandbox-style Skyblock that lets you play how you want to!"
 		""
@@ -3584,6 +3611,13 @@
 		"You can also use a &zDeepshelf of Arcane Treasures&r to allow your enchanting table to enchant &zTreasure Enchantments&r."
 	]
 	quest.30689B890F5E7A03.title: "&3Venturing Deeper"
+	quest.30CA4D865CA459BF.quest_desc: [
+		"The &dControl Desk&f is a modular control system."
+		""
+		"You can place multiple &dDesks&f side by side to extend the amount of controls you can assign to a single &dDesk&f. Clicking anywhere on the &dDesk&f allows you to interact with all controls via keybinds."
+		""
+		"Each &aModule&f can be installed separately and come with their own buttons as well."
+	]
 	quest.30CDAD044D94659A.quest_desc: [
 		"The &aArthana&r is a magical dagger that is proficient in obtaining arcane materials from slain creatures."
 		""
@@ -3706,8 +3740,6 @@
 		"The remaining empty spaces can now be filled with &aGlass&r, &aCasings&r, or &2Turbine Vents&r. The multiblock only needs 1 &2Vent&r to form, but they help with &7Steam&r flow so the more the better."
 		""
 		"Once formed, the multiblock can be interacted with to check its current rates and status. The &eStats Menu&r can list what parts of the build are limiting the &7Steam&r flow and production rates."
-		""
-		"&dFission Reactor &aSteam Ports&r can export into &aTurbine Valves&r, and &2Turbine Vents&r can export &bWater&r into the &dReactor&r input ports, allowing for a cycle with zero pipes!"
 		""
 		"{image\\:ftb\\:textures/quests/mekanism/turbine3transp.png width:100 height:100 align:center}"
 	]
@@ -3881,6 +3913,7 @@
 		"Just like previous tiers, this Goo can also produce the previous resources, and at a faster rate."
 	]
 	quest.340D7F25B5EB0D33.title: "&fMaking &3Celestigems"
+	quest.34155C195AD70571.quest_desc: ["This simple, early-game thruster burns items as fuel to generate forward momentum."]
 	quest.34169D76520A5D85.quest_desc: [
 		"The &bCharging Module&r can be placed on a pressure tube and it will charge all items in the inventory it's facing."
 		""
@@ -4138,6 +4171,7 @@
 		"Just like previous tiers, this can also convert all previous ingot blocks at an increased rate."
 	]
 	quest.36E0D875AA8E2F66.title: "&5Ore of the Eclipse"
+	quest.36FD842DB9DF0066.quest_desc: ["&aPropellers&f are used to move your contraptions back and forth along a fixed axis."]
 	quest.37104662F0BDDE66.quest_desc: [
 		"&eApplied Energistics&r (&eAE2&r) is a highly customizable &bdigital storage mod&r that completely changes the way you experience modded MC. Gone are the days of chest walls!"
 		""
@@ -4594,15 +4628,17 @@
 		""
 		"You can check the next page for the exact conversion rates"
 		"{@pagebreak}"
-		"&7Magnetite&f: 9,216 SU -> 552 FE/t"
+		"&cIMPORTANT&f: The values below represent a single ring of magnets. Larger systems may vary slightly depending on your setup."
 		""
-		"&cRedstone&f: 12,288 SU -> 1,104 FE/t"
+		"&6Redstone&f: 12,288 SU -> 180 FE/t"
 		""
-		"&eLayered&f: 18,432 SU -> 2,208 FE/t"
+		"&cLayered&f: 18,432 SU -> 360 FE/t"
 		""
-		"&bFluxuated&f: 30,720 SU -> 4,416 FE/t"
+		"&eFluxuated&f: 30,720 SU -> 720 FE/t"
 		""
-		"&dNetherite&f: 79,872 SU -> 13,270 FE/t"
+		"&bNetherite&f: 79,872 SU -> 2,376 FE/t"
+		""
+		"&dBedrockium&f: 116,736 SU -> 3,564 FE/t"
 	]
 	quest.3B9B79565D5E2CA3.quest_desc: [
 		"Armor made from soulwoven silk doesn't provide much defense, but it's better than typical clothing and much better than nothing at all."
@@ -4621,6 +4657,7 @@
 		""
 		"Applied Flux exports &2Energy&f using Energy Tablets."
 	]
+	quest.3BD19E3F63F85B0A.quest_desc: ["This &aJoystick&f can control 4-axis movement and also comes with an extra button that can be configured separately."]
 	quest.3BDF260175FFE44F.quest_desc: ["Demonite refines into &cHellforged Ingots&r, the spine of every endgame thing you will ever build."]
 	quest.3BDF260175FFE44F.title: "Hellforged Steel"
 	quest.3BF066E5C333F217.quest_desc: [
@@ -4653,6 +4690,8 @@
 		"For example, to create a wand that is used to break blocks, the inscribed spell can just be Break by itself, or can be Break + Augments. When used with the wand, it will cast Projectile -> Accelerate -> Break."
 	]
 	quest.3C25B0FAC773D70A.title: "&fEnchanter's Wand"
+	quest.3C9335337392A726.quest_desc: ["Energising is a key part of &eCreate: New Age&f, and you'll likely want to upgrade your energisers as you progress through the pack. "]
+	quest.3C9335337392A726.title: "Energising"
 	quest.3CA9125C16DD3124.quest_desc: ["While nodes autoconnect when placed, if you want to manually reconnect nodes to a different master routing node you can use the node router tool."]
 	quest.3CAA89E621ED5B6E.quest_desc: [
 		"The &aCamouflage Applicator&r can make camouflageable blocks such as tubes and heat pipes look like other blocks!"
@@ -4683,6 +4722,13 @@
 	quest.3CCE39C0957034B3.title: "&fWander into the &6Blazing Desert"
 	quest.3CD3CA5B619F5698.quest_desc: ["&aFortune&r and &aSilk Touch&r upgrades can be used in &aDestructors&r to apply their enchantment to the mined block."]
 	quest.3CD3CA5B619F5698.title: "&aFortune \\&\\ Silk Touch Upgrades"
+	quest.3CDF1981A930B6C5.quest_desc: [
+		"The &aKinetic Bridge&f transfers stress from one network to another."
+		""
+		"You can control exactly how much stress is transferred to the secondary network inside its interface."
+		""
+		"Stress capacity is still shared between both networks, but an &2Overstress Clutch&f won't stall the main network if the secondary network would cause an overstress."
+	]
 	quest.3D1796B4F460DBBF.quest_desc: [
 		"The &dOmni-Directional Connector&r can connect two networks across any distance, including other dimensions, as long as the chunks are loaded."
 		""
@@ -5081,7 +5127,11 @@
 	quest.423950ED16C2422B.title: "&bForce of Warrior"
 	quest.424BFFB9EFAB9565.quest_desc: ["The &3Electron Tube&r is a crafting component used to make some electronic or controllable mechanisms within &eCreate&r."]
 	quest.424BFFB9EFAB9565.title: "&3Electron Tube"
-	quest.425A41A378E7BF52.quest_desc: ["The &3Engineer's Goggles&r shows you various elements within your &eCreate&r network, including the &bRPM&r of specific blocks"]
+	quest.425A41A378E7BF52.quest_desc: [
+		"The &3Engineer's Goggles&r shows you various elements within your &eCreate&r network, including the &bRPM&r of specific blocks."
+		""
+		"The &dAviator's Goggles&f also display information about contraptions and networks."
+	]
 	quest.425A41A378E7BF52.title: "&3Engineer's Goggles"
 	quest.425CB9CE53FBC0FF.quest_desc: [
 		"By default, the &dEnchanter's Mirror&r will cast a spell with the form &aSelf&r."
@@ -5565,18 +5615,6 @@
 	quest.49835EC10C5AE8D8.title: "&6Quantum Crafter"
 	quest.498A5C0A00F19E2E.quest_desc: ["The most basic available reactor fuel is a regular &6Uranium Fuel Rod&r. It requires no fancy processing, but also outputs the least amount of energy. However, its simplicity makes it appealing to start with."]
 	quest.498A5C0A00F19E2E.title: "&6Uranium Fuel Rod"
-	quest.49B8310D0C7A6C55.quest_desc: [
-		"The &3Fissile Fuel&r needed to run &dFission Reactors&r is made by processing &eSulfur&r, &7Fluorite&r, and &2Uranium&r with some water products. It seems complicated but, unlike in real life, it is easier than it seems."
-		""
-		"[\"First, use \", { \"text\": \"Sulfuric Acid\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EAE9F58776D84C8\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Jump to Sulfuric Acid Quest\"]}},\" to break down \", {\"text\": \"Fluorite\", \"color\": \"gray\"}, \" into \", {\"text\": \"Hydrofluoric Acid\", \"color\": \"blue\"}, \" in a \", {\"text\": \"Chemical Dissolution Chamber\", \"color\": \"dark_green\"}, \".\"] "
-		""
-		"Second, enrich &aUranium&r ingots into &6Yellow Cake Uranium&r, before oxidizing it into &6Uranium Oxide&r."
-		""
-		"Finally, combine the &9Hydrofluoric Acid&r and &6Uranium Oxide&r in a &aChemical Infuser&r before piping it into an &2Isotopic Centrifuge&r to produce &3Fissile Fuel&r."
-		""
-		"&eTip&r: &7Fluorite&r blocks take about as much &eSulfuric Acid&r to break down as a single &7Fluorite Crystal&r, but produce as much &9Hydrofluoric Acid&r as nine &7Crystals&r, saving on &eSulfur&r!"
-	]
-	quest.49B8310D0C7A6C55.title: "&fThe Fuel Line"
 	quest.49CBB0619F943B81.quest_desc: ["&6Train Schedules&r allow drivers to automatically operate trains within a set pattern."]
 	quest.49CBB0619F943B81.title: "&6Train Schedule"
 	quest.49DD167D6323406B.quest_desc: [
@@ -5763,6 +5801,7 @@
 		"By itself, this upgrade can be set up to automatically void specific items that you set inside of its filter. Upgrading to the Advanced version allows for more filtering options!"
 	]
 	quest.4BA8E435EDA995AC.title: "&fVoid Upgrades"
+	quest.4BB2E61FF925FE84.quest_desc: ["The &dAdvanced Data Link&f connects to any type of orientation device and relays its information via redstone to connected blocks."]
 	quest.4BB5ADD98F958712.quest_desc: ["Out in the void lies a dungeon packed with all sorts of ill-gotten magical loot, guarded by a similar assortment of creatures. An &6Archevoker&r oversees it all from the highest level."]
 	quest.4BB5ADD98F958712.title: "&fDiscover a &6Certain Magical Dungeon"
 	quest.4BBEE37F0D847BA9.quest_subtitle: "Transfers Fluids"
@@ -5902,6 +5941,8 @@
 		"Sadly, it only allows one item at a time, so unless you want to fill your entire base with &aWriters&r, use these only for the most important things, or things you are constantly stocking in your system."
 	]
 	quest.4DB08D796BBE6E93.title: "&fCrafting Writer"
+	quest.4DBC0A4045FF1D1B.quest_desc: ["&aTransmission Chains&f are used to cleanly transfer rotation between belts."]
+	quest.4DBC0A4045FF1D1B.title: "Transferring Belt Rotation"
 	quest.4DD685A3F0F1329F.quest_desc: [
 		"Although there is a pre-programmed &5Collector Drone&r, this quest will show you how to make one for yourself!"
 		""
@@ -6778,6 +6819,11 @@
 		""
 		"This one is safe to drink, and can provide a small buffer of &bextra health&r for a short time when drunk, but might be a little expensive for such utility."
 	]
+	quest.59554A8C13B46F7F.quest_desc: [
+		"The &dNavigation Table&f Will provide a redstone signal relative to its bound target location."
+		""
+		"The advanced version can store several mapped locations. Use this in combination with something like the &dAdvanced Data Link&f for fine positional control."
+	]
 	quest.595F8AC6DB5DACD8.quest_desc: [
 		"Getting your first &bDiamond&r in vanilla is a pretty big deal, and it's quite the ordeal here too!"
 		""
@@ -7308,6 +7354,11 @@
 		"Consumes regular furnace fuels."
 		""
 		"&o&7Used for the Rainbow Generator"
+	]
+	quest.613AD839EF3BC6A7.quest_desc: [
+		"These &aThrusters&f do a lot more than just move your contraptions thanks to their upgrades, which can allow &aThrusters&f to smelt, cook, and haunt items just like &bEncased Fans&f."
+		""
+		"They consume liquid fuel by default, but can be made to consume power (FE) instead using the &dThruster Lens&f."
 	]
 	quest.616DE67925A3071C.title: "&fRotten Spell Book"
 	quest.616E3CE38F1D73AE.quest_desc: [
@@ -9054,6 +9105,11 @@
 		"To extract the power from the generator, you must connect a pipe or machine to the front face that has a square on it! "
 	]
 	quest.7B579D0762DB9F33.title: "&fHeat Generator"
+	quest.7B60B5C3AA48EE25.quest_desc: [
+		"This page aims to get you started on some of the &eCreate&f mod addons in this pack and show you some useful items."
+		""
+		"When dealing with &eCreate&f, remember that &bPonders&f can be extremely helpful in figuring out how something works."
+	]
 	quest.7B65BEA50EBC983D.quest_desc: [
 		"After entering the Nether void, various porcine creatures may appear if given a large enough surface. Some of them may attack you on sight, but these &aPiglins&r are neutral to anyone &bwearing gold&r."
 		""
@@ -9097,6 +9153,7 @@
 	quest.7BA817A69CE39AF0.quest_subtitle: "+10% Summon Damage"
 	quest.7BA817A69CE39AF0.title: "&aConjurer's Talisman"
 	quest.7BCC2E37198682F8.quest_desc: ["Acquire an item with level X enchantment"]
+	quest.7BDD4842A8DB77F6.quest_desc: ["&aKinetic Batteries&r store &bStress&r for later use, making them useful for network emergencies."]
 	quest.7BEB2CB9C3BF6318.quest_desc: ["&3Stock Links&r allow you to set up and manage a stock network of your items, making them available to be requested by other systems in the same network."]
 	quest.7BEB2CB9C3BF6318.title: "&3Stock Link"
 	quest.7C03724DFA7CC612.quest_desc: [
@@ -9520,6 +9577,7 @@
 	task.0C13FA83021AE4C5.title: "&eKill&f: &6Netherite Monstrosity"
 	task.0C41CFCD491848EC.title: "&aInferium &fArmor"
 	task.0D41D1A509DD941A.title: "Importers"
+	task.0E1704694A58907A.title: "Motors"
 	task.0E7B34D38F84AC11.title: "Any Brooch"
 	task.0E7BA466F8A98A9F.title: "&eKill: &cClawdian"
 	task.0ECBFE9262249011.title: "Any soulstained tool"
@@ -9561,6 +9619,7 @@
 	task.1C70AB93B6A0F1A6.title: "&aVillager Blocks&r"
 	task.1C79E9AB6C1C38DB.title: "Niche Budding GeOres"
 	task.1E077548E9C8149C.title: "Lithium Dust"
+	task.1E1AB4C026855273.title: "Advanced Energisers"
 	task.1E25F96E4ECA6380.title: "Reset Magic"
 	task.1E44E4A78D48D820.title: "Useful Upgrades"
 	task.1E4BBCF77E4AE460.title: "Expansion Box"
@@ -9624,6 +9683,7 @@
 	task.349CB5A281EE3E5B.title: "&eKill&f: &4The Watcher"
 	task.35409BE8A6FF3D03.title: "&6MekaSuit"
 	task.354FABEDA5A08474.title: "&6Tier 4"
+	task.35E6B8F66E06A2F1.title: "Create: Addons"
 	task.36C5D1EED2022E8D.title: "&aTier 1"
 	task.36D4CF12BC70DBDD.title: "&fAll About Networks!"
 	task.3772CB9C1C8A3D66.title: "Automating Spirits?"
@@ -9718,12 +9778,14 @@
 	task.56A35A967954A4C2.title: "&aDrawers"
 	task.56AEAE6BD791EA6C.title: "&fEnergy Cables"
 	task.56BA1011DDE093D0.title: "&fRaw Osmium Ore"
+	task.56EDE00103BDA015.title: "Upgrades"
 	task.56F4B59903257C92.title: "&eKill&f: &3Deepling Priest"
 	task.574369B60421C9FF.title: "&aBanding Materials"
 	task.575F4232C0E9D957.title: "Magical Equipment"
 	task.578CC62BD4DEF924.title: "Observe the &aHot Air Burner&r"
 	task.579A856376CC3518.title: "Any Malum curio"
 	task.58687506041183E7.title: "&eKill&f: &cSlimes"
+	task.5895E635907FB075.title: "Solar Heating Plates"
 	task.58BEE5F1435F017A.title: "&eObserve&f: &5Weeping Well's &fcontents"
 	task.58DC7CD2A4F595DD.title: "&eKill&f: &dArchevoker"
 	task.590BA3A3FF454C9F.title: "&eKill&f: &cIgnited Berserker"
@@ -9749,6 +9811,7 @@
 	task.5F2D8B32B8F048A7.title: "Leaves"
 	task.5F6FF27A6B03405E.title: "create cobblegen"
 	task.5F91F645D55E49BB.title: "Any &2Tier 2 &fSeeds"
+	task.5FA883F4C7A813C0.title: "Base Energisers"
 	task.5FD1AC346811740C.title: "&eKill&f: &6Dead King"
 	task.601DC826C875D69F.title: "BEER Modifiers"
 	task.60789ACB2B0A6E74.title: "&bImbued Essences"
@@ -9783,6 +9846,7 @@
 	task.6C0240B676A69E94.title: "Elite Circuit or Analog Circuit"
 	task.6C6FBA9B08EC0728.title: "Any #constructionstick:construction_sticks"
 	task.6C730129357A78D0.title: "&eKill&f: &cZombified Piglins"
+	task.6C7516F4970E8191.title: "Modules and Buttons"
 	task.6D2BF51317854A51.title: "&eKill&f: &3Coralssus"
 	task.6D8527E9C8C06246.title: "Soulful Drops"
 	task.6F25EA9A5E06524F.title: "Implosion Machines"
@@ -9819,6 +9883,7 @@
 	task.7A2B58FD3F6E8094.title: "&fAny &eRefined Storage &aController"
 	task.7AC3BD79A70049CA.title: "&eKill&f: &6Priest"
 	task.7AFA5CC185A71520.title: "Welcome to &eApotheosis"
+	task.7B09D502A20CC9BD.title: "Extensions"
 	task.7B71A001741520D3.title: "&eKill&f: &cWither Skeletons"
 	task.7BCC732B12F68016.title: "Any #jdt:eclipsealloy_tools"
 	task.7BEB5A63E12A8674.title: "List of Budding Blocks"

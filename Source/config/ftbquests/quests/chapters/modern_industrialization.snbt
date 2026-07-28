@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "3D040CF1E765D902"
 			image: "modern_industrialization:block/bronze_machine_casing"
 			rotation: 45.0d
 			width: 2.0d
@@ -20,15 +21,16 @@
 		}
 		{
 			height: 7.0d
-			hover: ["Steam Blast Furnace"]
+			id: "15151BA87AD31CB1"
 			image: "ftb:textures/quests/modern_industrialization/steamblastfurnace.png"
 			rotation: 0.0d
 			width: 5.3637621023513145d
-			x: -1.5d
-			y: 11.5d
+			x: -2.5d
+			y: 11.0d
 		}
 		{
 			height: 2.5d
+			id: "47405D7597431C16"
 			image: "ftbquests:tasks/tank"
 			order: 1
 			rotation: 0.0d
@@ -38,6 +40,7 @@
 		}
 		{
 			height: 2.5d
+			id: "02E16A82A9E7B8DB"
 			image: "modern_industrialization:fluid/synthetic_oil_still"
 			rotation: 0.0d
 			width: 2.5d
@@ -46,6 +49,7 @@
 		}
 		{
 			height: 2.0d
+			id: "3FA17351A9F5A637"
 			image: "minecraft:block/cauldron_top"
 			rotation: 45.0d
 			width: 2.0d
@@ -54,25 +58,25 @@
 		}
 		{
 			height: 10.0d
-			hover: ["The Steel Quarry"]
+			id: "3D667E67689C5F06"
 			image: "ftb:textures/quests/modern_industrialization/steelquarry.png"
 			rotation: 0.0d
 			width: 7.187096774193549d
-			x: 2.5d
-			y: -3.5d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			height: 4.0d
-			hover: ["Steam Boiler"]
+			id: "2A3D777B27B8421D"
 			image: "ftb:textures/quests/modern_industrialization/largesteamboiler.png"
 			rotation: 0.0d
 			width: 3.211267605633803d
-			x: 18.0d
-			y: 9.5d
+			x: 17.5d
+			y: 7.5d
 		}
 		{
 			height: 5.0d
-			hover: ["Custom Multiblock Tanks!"]
+			id: "5FD10AE1ECE90FE1"
 			image: "ftb:textures/quests/modern_industrialization/largesteeltank.png"
 			rotation: 0.0d
 			width: 4.872773536895674d
@@ -81,6 +85,7 @@
 		}
 		{
 			height: 2.5d
+			id: "7104B10B1C175BED"
 			image: "ftbquests:block/barrier_open"
 			rotation: 45.0d
 			width: 2.5d
@@ -89,6 +94,7 @@
 		}
 		{
 			height: 2.5d
+			id: "18A74432DE047D6D"
 			image: "ftbquests:block/barrier_open"
 			rotation: 0.0d
 			width: 2.5d
@@ -97,6 +103,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3A42C18A9633548A"
 			image: "minecraft:textures/gui/sprites/widget/slot_frame.png"
 			order: 1
 			rotation: 0.0d
@@ -106,6 +113,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5968DD7B34116C71"
 			image: "modern_industrialization:fluid/steam_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -114,6 +122,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3D1B46B06CE6F7D9"
 			image: "modern_industrialization:block/machines/oil_drilling_rig/overlay_front_active"
 			order: 1
 			rotation: 0.0d
@@ -123,6 +132,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1F6C1CE9145F7D57"
 			image: "modern_industrialization:block/steel_machine_casing"
 			rotation: 0.0d
 			width: 1.0d
@@ -131,6 +141,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5BE18E215503AA1E"
 			image: "modern_industrialization:fluid/diesel_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -139,6 +150,7 @@
 		}
 		{
 			height: 1.0d
+			id: "61EBE7E9F951CCF2"
 			image: "modern_industrialization:fluid/ethanol_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -147,6 +159,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5D9F27E30C3FF601"
 			image: "modern_industrialization:fluid/ethylene_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -156,6 +169,7 @@
 		{
 			color: 11184810
 			height: 1.0d
+			id: "6E24FB212D19A2FF"
 			image: "modern_industrialization:block/stainless_steel_block"
 			rotation: 0.0d
 			width: 1.0d
@@ -164,6 +178,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0D95F8DAF55695EA"
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
 			width: 2.0d
@@ -172,6 +187,7 @@
 		}
 		{
 			height: 2.0d
+			id: "02806A7858761710"
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 45.0d
 			width: 2.0d
@@ -180,6 +196,7 @@
 		}
 		{
 			height: 1.0d
+			id: "240410D1FAA2AE21"
 			image: "modern_industrialization:fluid/cryofluid_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -188,6 +205,7 @@
 		}
 		{
 			height: 1.5d
+			id: "45BE2797F4A71F0B"
 			image: "chisel:block/technical/massivefan"
 			rotation: 0.0d
 			width: 1.5d
@@ -196,7 +214,7 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Modern Industrialization"]
+			id: "19BE9905792CE228"
 			image: "ftb:textures/quests/titles_and_logos/milogo.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -206,6 +224,7 @@
 		{
 			color: 11705789
 			height: 1.0d
+			id: "53D703B343D238AB"
 			image: "mekanism:liquid/steam"
 			rotation: 0.0d
 			width: 1.0d
