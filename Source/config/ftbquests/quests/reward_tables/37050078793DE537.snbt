@@ -14,7 +14,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Box of AE2 Goodies"
+		item_name: "ftbquests.loot_crate.box_of_ae2_goodies"
 		string_id: "box_of_ae2_goodies"
 	}
 	loot_size: 1

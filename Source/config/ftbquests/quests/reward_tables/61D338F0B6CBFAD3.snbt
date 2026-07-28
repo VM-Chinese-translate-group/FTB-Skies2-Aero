@@ -14,7 +14,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Seed Bag"
+		item_name: "ftbquests.loot_crate.random_seed_bag"
 		string_id: "random_seed_bag"
 	}
 	loot_size: 1

@@ -11,7 +11,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Box of Old Tech Parts"
+		item_name: "ftbquests.loot_crate.technology_bundle"
 		string_id: "technology_bundle"
 	}
 	loot_size: 1

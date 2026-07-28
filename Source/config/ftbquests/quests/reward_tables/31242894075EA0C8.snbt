@@ -15,7 +15,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Gems Bag"
+		item_name: "ftbquests.loot_crate.gems_bag"
 		string_id: "gems_bag"
 	}
 	loot_size: 1

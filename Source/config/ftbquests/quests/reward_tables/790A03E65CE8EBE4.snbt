@@ -15,7 +15,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Grandma's Treat"
+		item_name: "ftbquests.loot_crate.grandmas_treat"
 		string_id: "grandmas_treat"
 	}
 	loot_size: 1

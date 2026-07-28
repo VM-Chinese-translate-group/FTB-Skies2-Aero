@@ -15,7 +15,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Perfect Gems Bag"
+		item_name: "ftbquests.loot_crate.perfect_gems_bag"
 		string_id: "perfect_gems_bag"
 	}
 	loot_size: 1

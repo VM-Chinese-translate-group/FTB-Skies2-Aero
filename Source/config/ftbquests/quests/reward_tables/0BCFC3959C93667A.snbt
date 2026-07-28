@@ -11,7 +11,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Box of Storage Parts"
+		item_name: "ftbquests.loot_crate.storage_box"
 		string_id: "storage_box"
 	}
 	loot_size: 1

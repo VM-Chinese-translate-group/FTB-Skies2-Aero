@@ -14,7 +14,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Artisan Scroll Bag"
+		item_name: "ftbquests.loot_crate.artisan_scroll_bag"
 		string_id: "artisan_scroll_bag"
 	}
 	loot_size: 1
