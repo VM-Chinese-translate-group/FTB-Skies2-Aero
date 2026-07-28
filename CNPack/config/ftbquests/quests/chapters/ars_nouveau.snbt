@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "2A0180F76B7468B9"
 			image: "ars_nouveau:block/void_prism"
 			rotation: 0.0d
 			width: 1.0d
@@ -20,15 +21,17 @@
 		}
 		{
 			height: 5.0d
-			hover: ["一位德格米与它们的石阵"]
+			id: "15AE98077F28FD0E"
 			image: "ftb:textures/quests/ars/drygmyperch.png"
 			rotation: 0.0d
 			width: 4.016018306636155d
 			x: -3.5d
 			y: 0.5d
+			hover: ["一位德格米与它们的石阵"]
 		}
 		{
 			height: 3.0d
+			id: "683D422B085E242F"
 			image: "ftb:textures/quests/ars/scribetable.png"
 			rotation: 0.0d
 			width: 4.17970401691332d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 4.0d
+			id: "51F8067C5ED32F8F"
 			image: "ftb:textures/quests/ars/glyphmenu.png"
 			rotation: 0.0d
 			width: 5.566433566433567d
@@ -45,6 +49,7 @@
 		}
 		{
 			height: 2.0d
+			id: "588F25C7DFC03462"
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
 			width: 2.0d
@@ -53,6 +58,7 @@
 		}
 		{
 			height: 2.0d
+			id: "10C6C5513566B594"
 			image: "ars_nouveau:block/gilded_sourcestone_large_bricks"
 			rotation: 0.0d
 			width: 2.0d
@@ -61,6 +67,7 @@
 		}
 		{
 			height: 2.0d
+			id: "35EDA0583436AE12"
 			image: "ars_nouveau:block/gilded_sourcestone_large_bricks"
 			rotation: 180.0d
 			width: 2.0d
@@ -69,6 +76,7 @@
 		}
 		{
 			height: 2.0d
+			id: "333782B107731695"
 			image: "ars_nouveau:block/fire_2"
 			order: -2
 			rotation: 0.0d
@@ -78,6 +86,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5DBF3EBCE0D24D12"
 			image: "ars_nouveau:block/gilded_sourcestone_large_bricks"
 			rotation: 0.0d
 			width: 2.0d
@@ -86,6 +95,7 @@
 		}
 		{
 			height: 2.0d
+			id: "496C5B76201F2170"
 			image: "ars_nouveau:block/fire_2"
 			order: -2
 			rotation: 0.0d
@@ -95,6 +105,7 @@
 		}
 		{
 			height: 3.0d
+			id: "04CFEB7494720A3D"
 			image: "ars_elemental:item/debug"
 			rotation: 0.0d
 			width: 3.0d
@@ -103,6 +114,7 @@
 		}
 		{
 			height: 4.0d
+			id: "295AEC12B442F579"
 			image: "ftb:textures/quests/ars/alterationtable.png"
 			rotation: 0.0d
 			width: 5.572938689217759d
@@ -111,6 +123,7 @@
 		}
 		{
 			height: 2.0d
+			id: "3C013BE0CCB46356"
 			image: "ftb:textures/quests/titles_and_logos/ars_nouveau_title.png"
 			rotation: 0.0d
 			width: 10.0d

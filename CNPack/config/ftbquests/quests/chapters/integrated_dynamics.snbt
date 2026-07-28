@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "702006D9762C390B"
 			image: "ftb:textures/quests/titles_and_logos/integrated_dynamics_logo.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6137984296FAB6AE"
 			image: "integrateddynamics:item/variable"
 			rotation: 0.0d
 			width: 1.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "04265EB4FA27DBF3"
 			image: "integrateddynamics:item/variable"
 			rotation: 0.0d
 			width: 1.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0B471CE1FC923406"
 			image: "integrateddynamics:item/variable"
 			rotation: 0.0d
 			width: 1.0d

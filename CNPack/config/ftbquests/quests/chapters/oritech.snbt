@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "7E6AE8320E58E33B"
 			image: "oritech:block/nickel_plating_block/center"
 			order: 1
 			rotation: 45.0d
@@ -21,6 +22,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7E756D0B5063F763"
 			image: "xycraft_world:block/connected/glass_viewer_single"
 			rotation: 45.0d
 			width: 3.0d
@@ -29,6 +31,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6F198F5D8C9A5DD4"
 			image: "oritech:block/nickel_plating_block/center"
 			rotation: 0.0d
 			width: 2.0d
@@ -36,17 +39,19 @@
 			y: 0.0d
 		}
 		{
-			click: "https://moddedmc.org/en/project/oritech/docs"
+			click_action: "open_uri:https://moddedmc.org/en/project/oritech/docs"
 			height: 5.0d
-			hover: ["Oritech Wiki"]
+			id: "23592362C6D48071"
 			image: "ftb:textures/quests/titles_and_logos/oritechlogo.png"
 			rotation: 0.0d
 			width: 9.580152671755725d
 			x: 12.0d
 			y: -4.5d
+			hover: ["Oritech Wiki"]
 		}
 		{
 			height: 3.0d
+			id: "32083E28008C5C8B"
 			image: "ftb:textures/quests/titles_and_logos/oritech_logo_blockthing.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6FAA101845544E2D"
 			image: "oritech:block/fluxite_block"
 			rotation: 45.0d
 			width: 1.0d

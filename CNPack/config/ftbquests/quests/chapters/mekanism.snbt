@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "6525339643FA0C16"
 			image: "ftb:textures/quests/mekanism/mekanismlogo.png"
 			rotation: 0.0d
 			width: 10.345991561181435d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 2.0d
+			id: "74284DF3E1284053"
 			image: "mekanism:block/painting_machine/back"
 			rotation: 0.0d
 			width: 2.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0D155956B7107172"
 			image: "mekanism:block/bio_fuel_block_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 1.0d
+			id: "00A2B5A59A80EF21"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -49,6 +53,7 @@
 			alpha: 200
 			color: 5636095
 			height: 1.0d
+			id: "6424391989A662E9"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
 			order: -1
 			rotation: 45.0d
@@ -60,6 +65,7 @@
 			alpha: 150
 			color: 43690
 			height: 5.0d
+			id: "186E7988C382BED1"
 			image: "mekanism:block/overlay/overlay_white"
 			order: -1
 			rotation: 0.0d
@@ -69,15 +75,17 @@
 		}
 		{
 			height: 3.5d
-			hover: ["感应矩阵"]
+			id: "38DA1519525E0C48"
 			image: "ftb:textures/quests/mekanism/induction.png"
 			rotation: 0.0d
 			width: 3.3373173970783534d
 			x: 3.5d
 			y: 14.0d
+			hover: ["感应矩阵"]
 		}
 		{
 			height: 1.25d
+			id: "7C58065A6A62DE77"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.25d
@@ -86,6 +94,7 @@
 		}
 		{
 			height: 2.0d
+			id: "369C6885573B1C9D"
 			image: "modern_industrialization:block/machines/steam_turbine/overlay_front_active"
 			rotation: 0.0d
 			width: 2.0d
