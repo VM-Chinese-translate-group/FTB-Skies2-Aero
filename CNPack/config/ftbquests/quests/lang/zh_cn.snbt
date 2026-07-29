@@ -36,20 +36,20 @@
 	chapter_group.3E3B6463983F18FB.title: "科技模组"
 	chapter_group.4E06BB3DD10B837B.title: "主线任务"
 	file.0000000000000001.title: "&6FTB Skies 2 Aero"
-	image.15151BA87AD31CB1.title: "Steam Blast Furnace"
-	image.15AE98077F28FD0E.title: "A Drygmy and their Henge"
-	image.19BE9905792CE228.title: "Modern Industrialization"
+	image.15151BA87AD31CB1.title: "蒸汽高炉"
+	image.15AE98077F28FD0E.title: "一位德格米与它们的石阵"
+	image.19BE9905792CE228.title: "现代工业化"
 	image.23592362C6D48071.title: "Oritech Wiki"
-	image.2A3D777B27B8421D.title: "Steam Boiler"
-	image.2D57811713A8360C.title: "Modern Industrialization Fusion Reactor"
-	image.3232E1408EF91518.title: "Create Nuclear Reactor"
-	image.38DA1519525E0C48.title: "Induction Matrix"
-	image.3D667E67689C5F06.title: "The Steel Quarry"
-	image.441BB7866AC35E7D.title: "Induction Matrix"
-	image.4E2F112FDBE38BE9.title: "Pneumatic Pressure Chamber"
-	image.4EC7A9C355EBF014.title: "Join The Discord!"
-	image.5FD10AE1ECE90FE1.title: "Custom Multiblock Tanks!"
-	image.7D25DF235C8E954B.title: "Report A Bug"
+	image.2A3D777B27B8421D.title: "蒸汽锅炉"
+	image.2D57811713A8360C.title: "现代工业化聚变反应堆"
+	image.3232E1408EF91518.title: "机械动力核反应堆"
+	image.38DA1519525E0C48.title: "感应矩阵"
+	image.3D667E67689C5F06.title: "钢铁采石机"
+	image.441BB7866AC35E7D.title: "感应矩阵"
+	image.4E2F112FDBE38BE9.title: "气动压力室"
+	image.4EC7A9C355EBF014.title: "加入 Discord！"
+	image.5FD10AE1ECE90FE1.title: "自定义多方块储罐！"
+	image.7D25DF235C8E954B.title: "反馈Bug"
 	quest.000F1E507ACDFAAE.quest_desc: [
 		"&9卫城&r静静漂浮在虚空的黑暗深渊中，这是一座由蔚蓝海石构建的复杂建筑。此地与栖息于此的生物都展现出它们曾必定与海洋相联系。甚至还有一只&c虾（巨钳守卫）&r，非常凶猛！"
 		""
@@ -175,8 +175,8 @@
 		"升级&b宝石&r需要消耗&a宝石粉&r、珍宝材料以及另一枚同稀有度的&b宝石&r。&b宝石&r的稀有度越高，升级消耗的材料就越多。升级要消耗的详细材料会在界面中显示。"
 	]
 	quest.01D2CEAF59872C33.title: "&a宝石柜"
-	quest.020E45FCE378CC54.quest_desc: ["&aMotors&f allow you to convert power (FE/t) into Stress (SU). They come in 3 different tiers and can be upgraded with extensions to generate more SU at the cost of more power."]
-	quest.020E45FCE378CC54.title: "Converting FE to Stress"
+	quest.020E45FCE378CC54.quest_desc: ["&a电动机&f可将能量（FE/t）转化为应力（SU）。电动机分为3个等级，安装超频器后可消耗更多能量以提供更高的SU产出。"]
+	quest.020E45FCE378CC54.title: "将FE转化为应力"
 	quest.0219C9D8447C8936.quest_desc: [
 		"&2时门投影仪&r是一个可以开启时门，用于快速旅行的简单设备！"
 		""
@@ -771,9 +771,9 @@
 	]
 	quest.0A1FDABEAAA0723B.title: "&e升级：&f模拟"
 	quest.0A4AB56CCEE5B2F8.quest_desc: [
-		"This &aContraption Controller&f can be assigned up to 13 keys on your keyboard to map to redstone signals and control your contraptions."
+		"此&a动态结构控制器（Contraption Controller）&f最多可绑定键盘上的13个按键，并映射为红石信号来控制动态结构。"
 		""
-		"It has several different input modes for very precise controls."
+		"拥有多种输入模式，可实现极高精度的控制。"
 	]
 	quest.0A6E103A6945D11E.quest_desc: [
 		"&a铸造器&r是&6Oritech&r推动进度的重要机器，专门制作各种&6Oritech&r机器所需的合金。"
@@ -1382,9 +1382,9 @@
 	quest.12843F69BB8EEFCE.quest_desc: ["&3显示链接器&r可用于可视化显示有关你的网络或方块的动态信息。"]
 	quest.12843F69BB8EEFCE.title: "&3显示链接器"
 	quest.128E082AAA482324.quest_desc: [
-		"&aHot Air Burners&f and &bSteam Vents&f can be used to raise &bBaloon Contraptions&f using heat."
+		"&a热空气燃烧室&f与&b蒸汽喷口&f可通过热量升起&b气球动态结构&f。"
 		""
-		"The &aHot Air Burner&f simple requires redstone to produce a limite amount of heat, where the &bSteam Vent&f produces more heat, but requires Steam to function."
+		"&a热空气燃烧室&f仅需红石信号即可产生有限的热量，而&b蒸汽喷口&f能提供更多热量，但需要消耗蒸汽。"
 	]
 	quest.12B8D538B54497E2.quest_desc: [
 		"有了&a锻压锤&r后，你会需要制作一些&b铁板&r和&b铜质组件&r的，它们将用于各种合成配方。"
@@ -1675,8 +1675,8 @@
 	quest.1739969280BB4E82.title: "&f红石导管"
 	quest.176610923FDE130F.quest_desc: ["只要使用&b掺杂硅板&r而不是常规硅板，你就能提高其配方的产量。"]
 	quest.176610923FDE130F.title: "&f掺杂硅板"
-	quest.176783D2397F5BE7.quest_desc: ["&eCreate: New Age&f, adds Solar panels that can function like &aBlaze Burners&f, heating up the block above them."]
-	quest.176783D2397F5BE7.title: "Solar Heaters"
+	quest.176783D2397F5BE7.quest_desc: ["&e机械动力：电气时代&f加入了类似于&a烈焰人燃烧室&f的太阳能板，可对上方方块进行加热。"]
+	quest.176783D2397F5BE7.title: "太阳能加热"
 	quest.176D9BAC77298ABB.quest_desc: [
 		"将这种机器紧邻热源方块（如岩浆块或&a原初煤炭块&f）放置，再向其泵入冷却液即可发电。译者注：需要把机器放在热源方块之上"
 		""
@@ -2601,9 +2601,9 @@
 	]
 	quest.2436337445AD0E07.title: "&e升级：&f蜜脾块"
 	quest.24377F5E129310BF.quest_desc: [
-		"These advanced &dVector Thrusters&f can run on either fluids or power, depending on which you use."
+		"高级&d矢量推进器&f支持使用流体或电能作为动力。"
 		""
-		"Their main advantage is the ability to be directionally controlled using redstone, allowing them to rotate with much more ease than most other propulsion methods."
+		"其核心优势在于可通过红石信号控制喷射方向，相比绝大多数推进方式转向更为灵活。"
 	]
 	quest.24445EC4DA6492F1.quest_desc: ["要触发袭击，你得先有不祥之兆效果…传闻说若对人畜无害的流浪商人痛下杀手，这样的行径便足以触怒神明…"]
 	quest.24445EC4DA6492F1.quest_subtitle: "为村庄击退一场袭击"
@@ -3343,9 +3343,9 @@
 		"你现在也能够制作&d双足飞龙等级&f的工具和武器，以及&d双足飞龙护胸&r。"
 	]
 	quest.2DDA4D1BAACC6183.quest_desc: [
-		"The &aAirship Station&f can be used to automatically control and dock airships and other contraptions."
+		"&a飞艇停靠站（Airship Station）&f可用于自动控制与停靠飞艇及其他动态结构。"
 		""
-		"Together with the &dShip Transponder&f, this allows you to create an automated transportation network using your contraptions."
+		"配合&d飞艇应答器（Ship Transponder）&f使用，即可利用各类动态结构构建自动化的运输网络。"
 	]
 	quest.2DDAFF4BE2B4D6E4.quest_desc: ["把&#d2b8e0乙烯&r和&a铬粉末&r混合起来，我们就能够得到&3聚乙烯&r。"]
 	quest.2DDAFF4BE2B4D6E4.title: "&3聚乙烯"
@@ -3440,7 +3440,7 @@
 	quest.2EEE782146096F9C.title: "&e建筑小帮手"
 	quest.2F057F981B68EB95.quest_desc: ["向&a初级流体放置器&r输入流体后，它会将流体倒在世界中。"]
 	quest.2F057F981B68EB95.title: "&a初级流体放置器"
-	quest.2F11FF90561D0604.quest_desc: ["The &aGyroscope&r will attempt to keep your contraption stable along whatever axis it is placed at using a LOT of rotational force"]
+	quest.2F11FF90561D0604.quest_desc: ["&a陀螺仪&r会消耗大量旋转力，尝试使动态结构沿着所放置的轴线维持稳定。"]
 	quest.2F15D918EF183051.quest_desc: [
 		"&6Skies 2: Aero&r是一个沙盒向空岛整合包，你可以按自己喜好进行游玩！"
 		""
@@ -3566,11 +3566,11 @@
 	]
 	quest.30689B890F5E7A03.title: "&3深入探索"
 	quest.30CA4D865CA459BF.quest_desc: [
-		"The &dControl Desk&f is a modular control system."
+		"&d控制台&f是一套模块化的控制系统。"
 		""
-		"You can place multiple &dDesks&f side by side to extend the amount of controls you can assign to a single &dDesk&f. Clicking anywhere on the &dDesk&f allows you to interact with all controls via keybinds."
+		"可以将多个&d控制台&f并排放置，以扩展单个&d控制台&f可绑定的控制项数量。点击&d控制台&f的任意位置，即可通过快捷键与所有控制项交互。"
 		""
-		"Each &aModule&f can be installed separately and come with their own buttons as well."
+		"每个&a模块&f均可单独安装，并配备各自的按键。"
 	]
 	quest.30CDAD044D94659A.quest_desc: [
 		"&a仪祭匕首&r是一把精于从击杀的生物中获得奥术材料的魔法匕首。"
@@ -3866,7 +3866,7 @@
 		"这种凝胶可以生产上一阶的物品，且速度更快。"
 	]
 	quest.340D7F25B5EB0D33.title: "&f制作&3苍穹晶"
-	quest.34155C195AD70571.quest_desc: ["This simple, early-game thruster burns items as fuel to generate forward momentum."]
+	quest.34155C195AD70571.quest_desc: ["这种简易的前期推进器通过燃烧物品作为燃料来产生向前的推进力。"]
 	quest.34169D76520A5D85.quest_desc: [
 		"&b充气模块&r可以安装在压力管道上，然后为它面向的容器中的所有物品充气。"
 		""
@@ -4124,7 +4124,7 @@
 		"与先前的凝胶一样，它转化较低级别金属的速度更快。"
 	]
 	quest.36E0D875AA8E2F66.title: "&5蚀空合金矿石"
-	quest.36FD842DB9DF0066.quest_desc: ["&aPropellers&f are used to move your contraptions back and forth along a fixed axis."]
+	quest.36FD842DB9DF0066.quest_desc: ["&a螺旋桨&f用于让动态结构沿固定轴线前后移动。"]
 	quest.37104662F0BDDE66.quest_desc: [
 		"&e应用能源&r（&eAE2&r）是一款高度定制化的&b数字存储模组&r，它将彻底改变你游玩带模组的MC的体验。让箱子墙见鬼去吧！"
 		""
@@ -4581,17 +4581,17 @@
 		""
 		"你可以在下一页查看确切的转换率"
 		"{@pagebreak}"
-		"&cIMPORTANT&f: The values below represent a single ring of magnets. Larger systems may vary slightly depending on your setup."
+		"&c重要&f：下方数值仅代表单个磁铁环。更庞大的系统可能会因具体搭建结构而略有差异。"
 		""
-		"&6Redstone&f: 12,288 SU -> 180 FE/t"
+		"&6红石&f：12288SU -> 180FE/t"
 		""
-		"&cLayered&f: 18,432 SU -> 360 FE/t"
+		"&c铁金介质&f：18432SU -> 360FE/t"
 		""
-		"&eFluxuated&f: 30,720 SU -> 720 FE/t"
+		"&e钻石质&f：30720SU -> 720FE/t"
 		""
-		"&bNetherite&f: 79,872 SU -> 2,376 FE/t"
+		"&b下界合金&f：79872SU -> 2376FE/t"
 		""
-		"&dBedrockium&f: 116,736 SU -> 3,564 FE/t"
+		"&d基岩&f：116736SU -> 3564FE/t"
 	]
 	quest.3B9B79565D5E2CA3.quest_desc: [
 		"用魂织绸缎制成的盔甲并没有很高的防御力，但已经比之前的盔甲好很多了，而且总比没有好。"
@@ -4610,7 +4610,7 @@
 		""
 		"应用通量：用能量板标记输出&2能量&f。"
 	]
-	quest.3BD19E3F63F85B0A.quest_desc: ["This &aJoystick&f can control 4-axis movement and also comes with an extra button that can be configured separately."]
+	quest.3BD19E3F63F85B0A.quest_desc: ["此&a操纵杆&f可控制4轴移动，并附带一个可单独配置的额外按键。"]
 	quest.3BDF260175FFE44F.quest_desc: ["恶魔金属被重塑为&c狱锻锭&r，游戏末期的重要材料。"]
 	quest.3BDF260175FFE44F.title: "狱锻锭"
 	quest.3BF066E5C333F217.quest_desc: [
@@ -4643,8 +4643,8 @@
 		"例如，想要做一个能破坏方块的法杖，法术可以是破坏和强化（可选）。使用法杖时它会自动加上投射物的形态魔符。"
 	]
 	quest.3C25B0FAC773D70A.title: "&f巫师之杖"
-	quest.3C9335337392A726.quest_desc: ["Energising is a key part of &eCreate: New Age&f, and you'll likely want to upgrade your energisers as you progress through the pack. "]
-	quest.3C9335337392A726.title: "Energising"
+	quest.3C9335337392A726.quest_desc: ["充电是&e机械动力：电气时代&f的核心玩法，随着游戏进度的推进，你可能需要不断升级激发器。"]
+	quest.3C9335337392A726.title: "充电"
 	quest.3CA9125C16DD3124.quest_desc: ["虽然节点在放置时便会自动连接到主节点上，但如果你希望让节点连接到另一个主路由节点上时，你就需要使用节点路由杖。"]
 	quest.3CAA89E621ED5B6E.quest_desc: [
 		"&a伪装涂覆器&r可以让管道和热管等可伪装方块看起来像其他方块一样！"
@@ -4676,11 +4676,11 @@
 	quest.3CD3CA5B619F5698.quest_desc: ["&a时运&r和&a精准采集&r升级可以安装在&a破坏面板&r中，这样它破坏方块时就会有对应魔咒的效果了。"]
 	quest.3CD3CA5B619F5698.title: "&a时运升级与精准采集升级"
 	quest.3CDF1981A930B6C5.quest_desc: [
-		"The &aKinetic Bridge&f transfers stress from one network to another."
+		"&a动力桥接器&f可在不同网络间传输应力。"
 		""
-		"You can control exactly how much stress is transferred to the secondary network inside its interface."
+		"你可以在其界面内精确控制传输至副网络的应力数值。"
 		""
-		"Stress capacity is still shared between both networks, but an &2Overstress Clutch&f won't stall the main network if the secondary network would cause an overstress."
+		"两个网络之间仍共享应力上限，但若副网络发生过载，&2过应力离合器&f能让主网络不会停转。"
 	]
 	quest.3D1796B4F460DBBF.quest_desc: [
 		"&d全向连接器&r能够以无线的方式无视距离甚至跨维度将两个网络连接起来，前提是两边的区块都在加载状态。"
@@ -5081,9 +5081,9 @@
 	quest.424BFFB9EFAB9565.quest_desc: ["&3电子管&r是一种合成部件，用于在&e机械动力&r中制作一些电子或可以控制的机械装置。"]
 	quest.424BFFB9EFAB9565.title: "&3电子管"
 	quest.425A41A378E7BF52.quest_desc: [
-		"The &3Engineer's Goggles&r shows you various elements within your &eCreate&r network, including the &bRPM&r of specific blocks."
+		"&3工程师护目镜&r可显示你的&e机械动力&r网络中的各种元素，包括特定方块的&bRPM&r。"
 		""
-		"The &dAviator's Goggles&f also display information about contraptions and networks."
+		"&d飞行员护目镜&f同样可以显示动态结构与网络的相关信息。"
 	]
 	quest.425A41A378E7BF52.title: "&3工程师护目镜"
 	quest.425CB9CE53FBC0FF.quest_desc: [
@@ -5748,7 +5748,7 @@
 		"这个升级可以自动销毁白名单内的物品，升级后还有更多过滤选项！"
 	]
 	quest.4BA8E435EDA995AC.title: "&f虚空升级"
-	quest.4BB2E61FF925FE84.quest_desc: ["The &dAdvanced Data Link&f connects to any type of orientation device and relays its information via redstone to connected blocks."]
+	quest.4BB2E61FF925FE84.quest_desc: ["&d高级数据链（Advanced Data Link）&f可连接任意类型的方向定位设备，并通过红石信号将信息中继发送至相连的方块。"]
 	quest.4BB5ADD98F958712.quest_desc: ["虚空深处隐藏着一座地牢，里面堆满了各种来路不明的魔法宝物，由各类诡异的生物守卫着。&6高位唤魔者&r站在最高层，掌控着这片禁地。"]
 	quest.4BB5ADD98F958712.title: "&f发现&6神秘魔法地牢"
 	quest.4BBEE37F0D847BA9.quest_subtitle: "传输流体"
@@ -5888,8 +5888,8 @@
 		"遗憾的是，一个&a合成写入器&r只能配置一种物品，如果你不想家里到处都是&a合成写入器&r的话，就尽量只在那些重要的物品或者需要保持一定数量的物品上使用它吧。"
 	]
 	quest.4DB08D796BBE6E93.title: "&f合成写入器"
-	quest.4DBC0A4045FF1D1B.quest_desc: ["&aTransmission Chains&f are used to cleanly transfer rotation between belts."]
-	quest.4DBC0A4045FF1D1B.title: "Transferring Belt Rotation"
+	quest.4DBC0A4045FF1D1B.quest_desc: ["&a链条&f用于整洁地在传送带之间传输旋转力。"]
+	quest.4DBC0A4045FF1D1B.title: "传送带间的旋转力传输"
 	quest.4DD685A3F0F1329F.quest_desc: [
 		"&5无人机&r虽然有预编程的程序，不过如果你想要写个属于自己的程序的话，仔细跟着这个任务学吧。"
 		""
@@ -6743,9 +6743,9 @@
 		"红石汤可以安全饮用，饮用后短时间内提供少量的&b额外生命&r，这样使用可能有些暴殄天物。"
 	]
 	quest.59554A8C13B46F7F.quest_desc: [
-		"The &dNavigation Table&f Will provide a redstone signal relative to its bound target location."
+		"&d导航台&f会根据其绑定的目标位置输出相应的红石信号。"
 		""
-		"The advanced version can store several mapped locations. Use this in combination with something like the &dAdvanced Data Link&f for fine positional control."
+		"高级版本可存储多个已标记的位置。将其与&d高级数据链&f等设备配合使用，可实现精细的位置控制。"
 	]
 	quest.595F8AC6DB5DACD8.quest_desc: [
 		"在原版获得第一颗&b钻石&r是件大事，在这也不简单！"
@@ -7267,9 +7267,9 @@
 		"&o&7用于合成彩虹发电机"
 	]
 	quest.613AD839EF3BC6A7.quest_desc: [
-		"These &aThrusters&f do a lot more than just move your contraptions thanks to their upgrades, which can allow &aThrusters&f to smelt, cook, and haunt items just like &bEncased Fans&f."
+		"得益于升级件，这些&a推进器&f的功能远不止移动动态结构，它们还能像&b鼓风机&f一样对物品进行熔炼、烟熏和缠魂。"
 		""
-		"They consume liquid fuel by default, but can be made to consume power (FE) instead using the &dThruster Lens&f."
+		"它们默认消耗液体燃料，但使用&d推进器透镜（Thruster Len）&f后可改用电能（FE）。"
 	]
 	quest.616DE67925A3071C.title: "&f破败法术书"
 	quest.616E3CE38F1D73AE.quest_desc: [
@@ -9017,9 +9017,9 @@
 	]
 	quest.7B579D0762DB9F33.title: "&f热力发电机"
 	quest.7B60B5C3AA48EE25.quest_desc: [
-		"This page aims to get you started on some of the &eCreate&f mod addons in this pack and show you some useful items."
+		"本页旨在帮助你快速上手此整合包中的部分&e机械动力&f附属模组，并为你展示一些实用物品。"
 		""
-		"When dealing with &eCreate&f, remember that &bPonders&f can be extremely helpful in figuring out how something works."
+		"游玩&e机械动力&f时，善用&b思索&f动画能极大地帮助你理解各种机制的工作原理。"
 	]
 	quest.7B65BEA50EBC983D.quest_desc: [
 		"进入下界虚空后，如果有足够大的平台，可能会出现各种猪类生物。其中部分生物会主动攻击玩家，但这些&a猪灵&r对任何&b穿戴金质装备&r的玩家保持中立。"
@@ -9064,7 +9064,7 @@
 	quest.7BA817A69CE39AF0.quest_subtitle: "+10% 召唤伤害"
 	quest.7BA817A69CE39AF0.title: "&a召唤师护符"
 	quest.7BCC2E37198682F8.quest_desc: ["获得一件具有等级X魔咒的物品"]
-	quest.7BDD4842A8DB77F6.quest_desc: ["&aKinetic Batteries&r store &bStress&r for later use, making them useful for network emergencies."]
+	quest.7BDD4842A8DB77F6.quest_desc: ["&a动力电池&r可储存&b应力&r以备后用，非常适合用于应对动力网络的突发紧急状况。"]
 	quest.7BEB2CB9C3BF6318.quest_desc: ["&3仓储链接站&r允许你设置和管理物品的库存网络，使这些物品可以在同一网络中的其他系统请求时可用。"]
 	quest.7BEB2CB9C3BF6318.title: "&3仓储链接站"
 	quest.7C03724DFA7CC612.quest_desc: [
@@ -9488,7 +9488,7 @@
 	task.0C13FA83021AE4C5.title: "&e击杀&f：&6下界合金巨兽"
 	task.0C41CFCD491848EC.title: "&a下级精华&f盔甲"
 	task.0D41D1A509DD941A.title: "输入口"
-	task.0E1704694A58907A.title: "Motors"
+	task.0E1704694A58907A.title: "电动机"
 	task.0E7B34D38F84AC11.title: "任意胸针"
 	task.0E7BA466F8A98A9F.title: "&e击杀：&c巨钳守卫"
 	task.0ECBFE9262249011.title: "任意魂染工具"
@@ -9530,7 +9530,7 @@
 	task.1C70AB93B6A0F1A6.title: "&a村民方块&r"
 	task.1C79E9AB6C1C38DB.title: "小众矿晶母岩"
 	task.1E077548E9C8149C.title: "锂粉"
-	task.1E1AB4C026855273.title: "Advanced Energisers"
+	task.1E1AB4C026855273.title: "高级激发器"
 	task.1E25F96E4ECA6380.title: "重置魔法技能树"
 	task.1E44E4A78D48D820.title: "实用升级"
 	task.1E4BBCF77E4AE460.title: "扩容盒"
@@ -9592,7 +9592,7 @@
 	task.349CB5A281EE3E5B.title: "&e击杀&f：&4观测者"
 	task.35409BE8A6FF3D03.title: "&6Meka套装"
 	task.354FABEDA5A08474.title: "&6四阶"
-	task.35E6B8F66E06A2F1.title: "Create: Addons"
+	task.35E6B8F66E06A2F1.title: "机械动力：扩展"
 	task.36C5D1EED2022E8D.title: "&a一阶"
 	task.36D4CF12BC70DBDD.title: "&f关于网络的一切！"
 	task.3772CB9C1C8A3D66.title: "自动化精魂？"
@@ -9681,14 +9681,14 @@
 	task.56A35A967954A4C2.title: "&a抽屉"
 	task.56AEAE6BD791EA6C.title: "&f能量线缆"
 	task.56BA1011DDE093D0.title: "&f粗锇矿石"
-	task.56EDE00103BDA015.title: "Upgrades"
+	task.56EDE00103BDA015.title: "升级"
 	task.56F4B59903257C92.title: "&e击杀&f：&3渊灵祭司"
 	task.574369B60421C9FF.title: "&a环带材料"
 	task.575F4232C0E9D957.title: "魔法装备"
 	task.578CC62BD4DEF924.title: "观察&a热空气燃烧室&r"
 	task.579A856376CC3518.title: "任意灵灾饰品"
 	task.58687506041183E7.title: "&e击杀&f：&c史莱姆"
-	task.5895E635907FB075.title: "Solar Heating Plates"
+	task.5895E635907FB075.title: "太阳能板"
 	task.58BEE5F1435F017A.title: "&e观察&f：&5哭泣之井&f里的东西"
 	task.58DC7CD2A4F595DD.title: "&e击杀&f：&d高位唤魔者"
 	task.590BA3A3FF454C9F.title: "&e击杀&f：&c炽燃狂魂"
@@ -9714,7 +9714,7 @@
 	task.5F2D8B32B8F048A7.title: "树叶"
 	task.5F6FF27A6B03405E.title: "create cobblegen"
 	task.5F91F645D55E49BB.title: "任意&2二级&f种子"
-	task.5FA883F4C7A813C0.title: "Base Energisers"
+	task.5FA883F4C7A813C0.title: "普通激发器"
 	task.5FD1AC346811740C.title: "&e击杀&f：&6死者之王"
 	task.601DC826C875D69F.title: "BEER调整物品"
 	task.60789ACB2B0A6E74.title: "&b灌注精华"
@@ -9748,7 +9748,7 @@
 	task.6C0240B676A69E94.title: "精英控制电路或者模拟电路"
 	task.6C6FBA9B08EC0728.title: "任意#constructionstick:construction_sticks"
 	task.6C730129357A78D0.title: "&e击杀&f：&c僵尸猪灵"
-	task.6C7516F4970E8191.title: "Modules and Buttons"
+	task.6C7516F4970E8191.title: "模块与按键"
 	task.6D2BF51317854A51.title: "&e击杀&f：&3珊瑚巨像"
 	task.6D8527E9C8C06246.title: "灵魂掉落物"
 	task.6F25EA9A5E06524F.title: "内爆机器"
@@ -9785,7 +9785,7 @@
 	task.7A2B58FD3F6E8094.title: "&f任意&e精致存储&a控制器"
 	task.7AC3BD79A70049CA.title: "&e击杀&f：&6牧师"
 	task.7AFA5CC185A71520.title: "欢迎游玩&e神化&r模组！"
-	task.7B09D502A20CC9BD.title: "Extensions"
+	task.7B09D502A20CC9BD.title: "超频器"
 	task.7B71A001741520D3.title: "&e击杀&f：&c凋灵骷髅"
 	task.7BCC732B12F68016.title: "任意#jdt:eclipsealloy_tools"
 	task.7BEB5A63E12A8674.title: "母岩方块列表"
