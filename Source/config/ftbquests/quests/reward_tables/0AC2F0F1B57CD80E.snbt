@@ -11,7 +11,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Lost Box of Tomes"
+		item_name: "ftbquests.loot_crate.lost_box_of_tomes"
 		string_id: "lost_box_of_tomes"
 	}
 	loot_size: 1

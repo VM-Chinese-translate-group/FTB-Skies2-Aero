@@ -15,7 +15,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Flawed Gem Bag"
+		item_name: "ftbquests.loot_crate.apotheosis_flawed_gems_bag"
 		string_id: "apotheosis_flawed_gems_bag"
 	}
 	loot_size: 1

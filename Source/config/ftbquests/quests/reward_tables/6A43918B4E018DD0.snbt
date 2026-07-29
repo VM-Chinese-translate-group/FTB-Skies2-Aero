@@ -11,7 +11,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Bee Upgrade Bag"
+		item_name: "ftbquests.loot_crate.bee_upgrade_bag"
 		string_id: "bee_upgrade_bag"
 	}
 	loot_size: 1

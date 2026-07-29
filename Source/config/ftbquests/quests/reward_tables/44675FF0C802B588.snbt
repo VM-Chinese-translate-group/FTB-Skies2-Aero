@@ -13,7 +13,7 @@
 			monster: 0
 			passive: 0
 		}
-		item_name: "Utility Spell Scrolls"
+		item_name: "ftbquests.loot_crate.utility_spell_scrolls"
 		string_id: "utility_spell_scrolls"
 	}
 	loot_size: 2

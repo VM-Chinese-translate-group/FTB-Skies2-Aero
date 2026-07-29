@@ -15,7 +15,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Flawless Gems Bag"
+		item_name: "ftbquests.loot_crate.flawless_gems_bag"
 		string_id: "flawless_gems_bag"
 	}
 	loot_size: 1

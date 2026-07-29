@@ -11,7 +11,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Legendary Crate"
+		item_name: "ftbquests.loot_crate.legendary_crate"
 		string_id: "legendary_crate"
 	}
 	loot_size: 1

@@ -18,7 +18,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Bee Gene Bag"
+		item_name: "ftbquests.loot_crate.bee_gene_bag"
 		string_id: "bee_gene_bag"
 	}
 	loot_size: 1

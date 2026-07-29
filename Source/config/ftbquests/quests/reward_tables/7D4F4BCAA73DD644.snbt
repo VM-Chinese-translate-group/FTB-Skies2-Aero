@@ -17,7 +17,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Adventurer Bag"
+		item_name: "ftbquests.loot_crate.adventurer_bag"
 		string_id: "adventurer_bag"
 	}
 	loot_size: 1

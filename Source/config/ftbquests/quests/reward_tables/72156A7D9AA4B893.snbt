@@ -13,7 +13,7 @@
 			monster: 0
 			passive: 0
 		}
-		item_name: "Damaging Spell Scrolls"
+		item_name: "ftbquests.loot_crate.damaging_spell_scrolls"
 		string_id: "damaging_spell_scrolls"
 	}
 	loot_size: 2
