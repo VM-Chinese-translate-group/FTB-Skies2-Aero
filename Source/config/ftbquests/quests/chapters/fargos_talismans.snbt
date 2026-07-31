@@ -11,6 +11,7 @@
 	id: "485ABBDAA9A6C0CD"
 	images: [
 		{
+			click_action: "none:"
 			height: 10.0d
 			id: "7BA4C75149DAF124"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -20,6 +21,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 8.0d
 			id: "2D8865C898C1B995"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -29,6 +31,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 6.0d
 			id: "7BC202F19086CD14"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -38,6 +41,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 10.0d
 			id: "1A9FECF5BE650FF0"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -47,6 +51,7 @@
 			y: 7.29d
 		}
 		{
+			click_action: "none:"
 			height: 6.0d
 			id: "30A1AE2717EAF67D"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -56,6 +61,7 @@
 			y: 4.37d
 		}
 		{
+			click_action: "none:"
 			height: 6.0d
 			id: "50BE1F389FA4050E"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -65,6 +71,7 @@
 			y: -4.36d
 		}
 		{
+			click_action: "none:"
 			height: 10.0d
 			id: "227E4601F5F52E63"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -74,6 +81,7 @@
 			y: -6.17d
 		}
 		{
+			click_action: "none:"
 			height: 8.0d
 			id: "3D328F2C441F1A8F"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -83,6 +91,7 @@
 			y: 5.82d
 		}
 		{
+			click_action: "none:"
 			height: 8.0d
 			id: "05910DC57CD4803A"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -92,6 +101,7 @@
 			y: -5.82d
 		}
 		{
+			click_action: "none:"
 			height: 10.0d
 			id: "13DA59922D50694F"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -101,6 +111,7 @@
 			y: -7.285d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "21A5171615894349"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -110,6 +121,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "3FBA2D5D4B586ABE"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -119,6 +131,7 @@
 			y: 2.9d
 		}
 		{
+			click_action: "none:"
 			height: 7.0d
 			id: "537715656869F2EA"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -128,6 +141,7 @@
 			y: 4.1d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "7C590B23CDBA8CC5"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -137,6 +151,7 @@
 			y: -2.9d
 		}
 		{
+			click_action: "none:"
 			height: 7.0d
 			id: "77FC9E5AA445DE91"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -146,6 +161,7 @@
 			y: -4.1d
 		}
 		{
+			click_action: "none:"
 			height: 13.0d
 			id: "6D557E0974F74774"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -155,6 +171,7 @@
 			y: -8.21d
 		}
 		{
+			click_action: "none:"
 			height: 16.0d
 			id: "749D75D3F8A87800"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -164,6 +181,7 @@
 			y: -10.31d
 		}
 		{
+			click_action: "none:"
 			height: 10.0d
 			id: "7E306B9CE1C1CBC4"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -173,6 +191,7 @@
 			y: 6.19d
 		}
 		{
+			click_action: "none:"
 			height: 13.0d
 			id: "5CC5E7DAA3087FAD"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -182,6 +201,7 @@
 			y: 8.25d
 		}
 		{
+			click_action: "none:"
 			height: 16.0d
 			id: "7356C5D19DC7CE82"
 			image: "minecraft:block/light_gray_stained_glass_pane_top"
@@ -191,6 +211,7 @@
 			y: 10.31d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "756AA63801ADE751"
 			image: "malum:textures/particle/staff/staff_slam_03.png"
@@ -200,6 +221,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 16777045
 			height: 4.0d
 			id: "169BC11DC06010DE"
@@ -210,6 +232,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 6577559
 			height: 5.0d
 			id: "356B02FD73F9BC3E"
@@ -221,6 +244,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "08E80A7918C5330D"
 			image: "ftb:textures/quests/titles_and_logos/fargos_talisman_logo.png"

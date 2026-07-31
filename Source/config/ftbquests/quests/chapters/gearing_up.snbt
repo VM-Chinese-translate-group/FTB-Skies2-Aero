@@ -11,6 +11,7 @@
 	id: "2EF5133328945047"
 	images: [
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6754CFA9AB0F4E50"
 			image: "apotheosis:items/gems/royalty"
@@ -20,6 +21,7 @@
 			y: -6.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "0A39BC6EB724D474"
 			image: "apotheosis:items/gems/endersurge"
@@ -29,6 +31,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.75d
 			id: "740192022F115991"
 			image: "apotheosis:blocks/augmenting/top"
@@ -38,6 +41,7 @@
 			y: -12.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.75d
 			id: "39FCD3137C36D526"
 			image: "apotheosis:blocks/reforging/table_top"
@@ -47,6 +51,7 @@
 			y: -12.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "0774AAAB08389EAF"
 			image: "ftbchunks:textures/circle_mask.png"
@@ -57,6 +62,7 @@
 			y: -6.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "46C24DA1770B0363"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
@@ -67,6 +73,7 @@
 			y: -6.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "654036783D8BE9E2"
 			image: "ftbquests:tasks/input_only"
@@ -77,6 +84,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "23162B84A099BB58"
 			image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png"
@@ -88,6 +96,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "272CCBD65D99AA0D"
 			image: "minecraft:textures/gui/sprites/advancements/challenge_frame_obtained.png"
@@ -98,6 +107,7 @@
 			y: -6.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1476983DCEDF5FA4"
 			image: "apotheosis:items/gems/inferno"
@@ -108,6 +118,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "39BE1FF701CEDCF6"
 			image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png"
@@ -118,6 +129,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "03B80C0C2CF71217"
 			image: "apotheosis:items/gems/blood_lord"
@@ -128,6 +140,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "49268B639A51B374"
 			image: "minecraft:textures/gui/sprites/advancements/goal_frame_obtained.png"
@@ -138,6 +151,7 @@
 			y: -9.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "7776EF9E32F0E979"
 			image: "cognition:block/cognitive_alloy_block"
@@ -147,6 +161,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			color: 7490560
 			height: 2.5d
 			id: "3E3DED5AD5A54DA4"
@@ -157,6 +172,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			color: 7490560
 			height: 2.5d
 			id: "403AEFFA1B9A88CE"
@@ -167,6 +183,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			color: 5635925
 			height: 2.7d
 			id: "18CBA357E1D44F26"
@@ -178,6 +195,7 @@
 			y: -5.0d
 		}
 		{
+			click_action: "none:"
 			color: 5635925
 			height: 2.7d
 			id: "5351795E2C3A6086"
@@ -189,6 +207,7 @@
 			y: 2.0d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "5DFBC5D11C762717"
 			image: "relics:textures/hud/abilities/card_frame_active.png"
@@ -199,6 +218,7 @@
 			y: -5.0d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "586864FB4EBD8B3E"
 			image: "relics:textures/hud/abilities/card_frame_active.png"
@@ -209,6 +229,7 @@
 			y: 2.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "2E579591E3513CA2"
 			image: "fargostalismans:item/hero_shield"
@@ -218,6 +239,7 @@
 			y: -5.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "1A8B5CDD9786D062"
 			image: "justdirethings:item/celestigem_sword_active"
@@ -228,6 +250,7 @@
 		}
 		{
 			alpha: 200
+			click_action: "none:"
 			height: 3.0d
 			id: "53E9FF9398750701"
 			image: "ftb:textures/quests/titles_and_logos/apoth_logo.png"
@@ -237,6 +260,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "09B0FE9D2CC98C41"
 			image: "fargostalismans:item/hero_shield"
@@ -246,6 +270,7 @@
 			y: 2.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "27E7A62E69DA371A"
 			image: "justdirethings:item/celestigem_sword_active"
@@ -255,6 +280,7 @@
 			y: 2.5d
 		}
 		{
+			click_action: "none:"
 			height: 5.0d
 			id: "34EE277566E0995B"
 			image: "ftbquests:textures/shapes/diamond/outline.png"
@@ -264,6 +290,7 @@
 			y: -7.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "3383698C91ADAD3E"
 			image: "bhc:item/blade_of_vitality"
@@ -273,6 +300,7 @@
 			y: -5.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "272DB56F25B57C27"
 			image: "bhc:item/vigor_bow"

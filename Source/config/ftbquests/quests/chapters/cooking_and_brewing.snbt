@@ -12,6 +12,7 @@
 	images: [
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 12.0d
 			id: "3D6C8EBFADF719B8"
 			image: "ftb:textures/quests/cooking.png"
@@ -21,6 +22,7 @@
 			y: 4.5d
 		}
 		{
+			click_action: "none:"
 			height: 9.0d
 			id: "60F8471811B76BB3"
 			image: "ftb:textures/quests/merchant.png"
@@ -30,6 +32,7 @@
 			y: 13.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "4684EAF442B2DC48"
 			image: "ftb:textures/quests/titles_and_logos/cook_and_brewing.png"
@@ -39,6 +42,7 @@
 			y: -2.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "2E0F4D1F39DB5874"
 			image: "minecraft:item/cake"
@@ -48,6 +52,7 @@
 			y: -2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4AA89EC173B8C3F5"
 			image: "minecraft:item/cake"
@@ -57,6 +62,7 @@
 			y: -2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4330A156FC23460E"
 			image: "cookingforblockheads:block/spicerack"
@@ -66,6 +72,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "3776BD95612F2AA4"
 			image: "cookingforblockheads:block/spicerack"
@@ -75,6 +82,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6914237463A2D510"
 			image: "cookingforblockheads:block/spicerack"
@@ -84,6 +92,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "3C271BA7A929A1B4"
 			image: "cookingforblockheads:block/spicerack"
@@ -93,6 +102,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "5DB0207FC5E9C779"
 			image: "cookingforblockheads:block/spicerack"
@@ -102,6 +112,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1E6736B5448553F9"
 			image: "cookingforblockheads:block/spicerack"
@@ -111,6 +122,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "7296BD559BDCA9B6"
 			image: "cookingforblockheads:block/spicerack"
@@ -120,6 +132,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "3BA17287CB345581"
 			image: "cookingforblockheads:block/spicerack"
@@ -129,6 +142,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "58917A4EBB953E7C"
 			image: "cookingforblockheads:block/spicerack"
@@ -138,6 +152,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "5636737F19A72DC6"
 			image: "cookingforblockheads:block/spicerack"
@@ -147,6 +162,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6B61C5595A5BA220"
 			image: "cookingforblockheads:block/spicerack"
@@ -156,6 +172,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "19BCEC0579E8C9AC"
 			image: "cookingforblockheads:block/spicerack"
@@ -165,6 +182,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1E5B29049F1302B6"
 			image: "cookingforblockheads:block/spicerack"
@@ -174,6 +192,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "0E71F0F869596F62"
 			image: "cookingforblockheads:block/spicerack"
@@ -183,6 +202,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "62A9DB95A36E2EE8"
 			image: "cookingforblockheads:block/spicerack"
@@ -192,6 +212,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4076F76356F8D95D"
 			image: "cookingforblockheads:block/spicerack"
@@ -201,6 +222,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "26AAECEC478AA166"
 			image: "cookingforblockheads:block/spicerack"
@@ -210,6 +232,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6D34555708ECBC06"
 			image: "cookingforblockheads:block/spicerack"
@@ -219,6 +242,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "7DDD9FE5CE8EBF1B"
 			image: "cookingforblockheads:block/spicerack"
@@ -228,6 +252,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "017A8B7BCC6585DC"
 			image: "cookingforblockheads:block/spicerack"
@@ -237,6 +262,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "66D82A908250BA06"
 			image: "cookingforblockheads:block/spicerack"
@@ -246,6 +272,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "5640129A42E0340B"
 			image: "cookingforblockheads:block/spicerack"
@@ -255,6 +282,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "7914666911B19AB9"
 			image: "cookingforblockheads:block/spicerack"
@@ -264,6 +292,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "291E549F0CEFE27E"
 			image: "cookingforblockheads:block/spicerack"
@@ -273,6 +302,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "152A32D9D7ABCA94"
 			image: "cookingforblockheads:block/spicerack"
@@ -282,6 +312,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1243E89A3713C675"
 			image: "cookingforblockheads:block/spicerack"
@@ -291,6 +322,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "721103FD1A7C72CA"
 			image: "cookingforblockheads:block/spicerack"
@@ -300,6 +332,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "56EAB3950A4BC25F"
 			image: "cookingforblockheads:block/spicerack"
@@ -309,6 +342,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "23BF964386FEE2CF"
 			image: "cookingforblockheads:block/spicerack"
@@ -318,6 +352,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6A73BB70A5E5258B"
 			image: "cookingforblockheads:block/spicerack"
@@ -327,6 +362,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "48E38525FE1CA004"
 			image: "cookingforblockheads:block/spicerack"
@@ -336,6 +372,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "7B62B42EBCAD496D"
 			image: "cookingforblockheads:block/spicerack"
@@ -345,6 +382,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6B0990B16935652D"
 			image: "cookingforblockheads:block/spicerack"

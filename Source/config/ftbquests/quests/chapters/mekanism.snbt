@@ -14,6 +14,7 @@
 	id: "6F822DE2465C4A31"
 	images: [
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "6525339643FA0C16"
 			image: "ftb:textures/quests/mekanism/mekanismlogo.png"
@@ -23,6 +24,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "74284DF3E1284053"
 			image: "mekanism:block/painting_machine/back"
@@ -32,6 +34,7 @@
 			y: 5.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "0D155956B7107172"
 			image: "mekanism:block/bio_fuel_block_top"
@@ -41,6 +44,7 @@
 			y: 8.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "00A2B5A59A80EF21"
 			image: "ae2:block/controller_powered"
@@ -51,6 +55,7 @@
 		}
 		{
 			alpha: 200
+			click_action: "none:"
 			color: 5636095
 			height: 1.0d
 			id: "6424391989A662E9"
@@ -63,6 +68,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			color: 43690
 			height: 5.0d
 			id: "186E7988C382BED1"
@@ -74,6 +80,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 3.5d
 			id: "38DA1519525E0C48"
 			image: "ftb:textures/quests/mekanism/induction.png"
@@ -83,6 +90,7 @@
 			y: 14.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "7C58065A6A62DE77"
 			image: "ae2:block/controller_powered"
@@ -92,6 +100,7 @@
 			y: 12.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "369C6885573B1C9D"
 			image: "modern_industrialization:block/machines/steam_turbine/overlay_front_active"

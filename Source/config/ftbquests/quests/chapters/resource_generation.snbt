@@ -14,6 +14,7 @@
 	id: "7ECA39E2497C35D1"
 	images: [
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "206D4501D0DFEF1A"
 			image: "productivebees:block/incubator/top"
@@ -23,6 +24,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 16777045
 			height: 1.5d
 			id: "4F154EE4617BACAC"
@@ -33,6 +35,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "4497242F68E7A2BF"
 			image: "sophisticatedstorage:block/diamond_barrel_bottom"
@@ -43,6 +46,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "3A62C37BB8AC002C"
 			image: "minecraft:item/diamond"
@@ -52,6 +56,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "08E97C09B302D0A9"
 			image: "minecraft:item/emerald"
@@ -61,6 +66,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "05C496AE2106534C"
 			image: "productivebees:item/iron_bee"
@@ -70,6 +76,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			color: 43520
 			height: 1.5d
 			id: "136AAD7E8B09CDB9"
@@ -80,6 +87,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 5.0d
 			id: "5F6E7285DB13DF0F"
 			image: "ftb:textures/quests/productivebees/beesimage1.png"
@@ -89,6 +97,7 @@
 			y: 5.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "32E1469DCA11AD83"
 			image: "ftb:textures/quests/productivebees/beeimage2.png"
@@ -99,6 +108,7 @@
 		}
 		{
 			alpha: 200
+			click_action: "none:"
 			color: 43520
 			height: 4.0d
 			id: "266888528538D619"
@@ -109,6 +119,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "334C1AA7EAE022C6"
 			image: "mysticalagriculture:block/awakened_supremium_gemstone_block"
@@ -120,6 +131,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 9.0d
 			id: "0F532DB60353D9F9"
 			image: "replication:item/memory_chip"
@@ -130,6 +142,7 @@
 			y: 1.25d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "686D151965F98271"
 			image: "mysticalagriculture:block/inferium_gemstone_block"
@@ -139,6 +152,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "573537A7A0B59B1B"
 			image: "mysticalagriculture:block/supremium_gemstone_block"
@@ -148,6 +162,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "730E36189FF92682"
 			image: "mysticalagriculture:block/imperium_gemstone_block"
@@ -157,6 +172,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "407A803645F6B1D3"
 			image: "mysticalagriculture:block/tertium_gemstone_block"
@@ -166,6 +182,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4E91A7A3ED866ADE"
 			image: "mysticalagriculture:block/prudentium_gemstone_block"
@@ -176,6 +193,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "33CB8BFB49C67C29"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -186,6 +204,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "7177AF5668CEA025"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -196,6 +215,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "0A188B6006068C67"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -206,6 +226,7 @@
 		}
 		{
 			alpha: 125
+			click_action: "none:"
 			height: 1.25d
 			id: "43524E15911FD8F5"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -216,6 +237,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 1.25d
 			id: "2719B39600B2F463"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -225,6 +247,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "0BF1B46A115C452C"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -235,6 +258,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.25d
 			id: "4C2AAB501C50798C"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -244,6 +268,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1206C7629FC3B5CD"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -254,6 +279,7 @@
 		}
 		{
 			alpha: 200
+			click_action: "none:"
 			height: 1.25d
 			id: "1A8687413A9E7DB7"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -264,6 +290,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "3C1A8777688410AF"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -273,6 +300,7 @@
 			y: -2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "05459258E6DB28A7"
 			image: "mysticalagradditions:block/insanium_gemstone_block"
@@ -283,6 +311,7 @@
 		}
 		{
 			alpha: 175
+			click_action: "none:"
 			height: 1.25d
 			id: "7E0876E46E322D19"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -292,6 +321,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "212A2241D83AE1A2"
 			image: "ftb:textures/quests/titles_and_logos/replication_logo.png"
@@ -302,6 +332,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "28C324D7C3D9320A"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -313,6 +344,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.0d
 			id: "2144AB74429131DA"
 			image: "xycraft_world:block/connected/glass_viewer_single"

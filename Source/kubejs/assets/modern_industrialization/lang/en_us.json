@@ -18,5 +18,6 @@
   "item.modern_industrialization.aluminum_tiny_dust": "Industrial Aluminum Tiny Dust",
   "item.modern_industrialization.aluminum_wire": "Industrial Aluminum Wire",
   "block.modern_industrialization.pumpjack": "Pumpjack",
-  "rei_categories.modern_industrialization.pumpjack": "Pumpjack"
+  "rei_categories.modern_industrialization.pumpjack": "Pumpjack",
+  "block.modern_industrialization.advanced_coke_oven": "Advanced Coke Oven"
 }

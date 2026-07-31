@@ -14,6 +14,7 @@
 	id: "4F0F16931654DF58"
 	images: [
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4DF00BB43BF108D6"
 			image: "ftb:textures/quests/titles_and_logos/bountytext2.png"
@@ -23,6 +24,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.8d
 			id: "7F4ABCC2A621A5E2"
 			image: "ftb:textures/quests/theme_assets/textbox.png"
@@ -34,6 +36,7 @@
 		}
 		{
 			alpha: 155
+			click_action: "none:"
 			color: 170
 			height: 2.5d
 			id: "511195A36058C00A"
@@ -45,6 +48,7 @@
 		}
 		{
 			alpha: 155
+			click_action: "none:"
 			color: 170
 			height: 2.5d
 			id: "5F00C239B04F2AC2"
@@ -56,6 +60,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 1.5d
 			id: "37571B13487D9532"
 			image: "relics:textures/gui/description/general/bottom_background.png"
@@ -67,6 +72,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 1.5d
 			id: "7ECC6850DE1C7BEB"
 			image: "relics:textures/gui/description/general/bottom_background.png"
@@ -78,6 +84,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 1.5d
 			id: "5466E644FF0DBA27"
 			image: "relics:textures/gui/description/general/bottom_background.png"
@@ -89,6 +96,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 1.5d
 			id: "5B8355E0BD3C9F23"
 			image: "relics:textures/gui/description/general/bottom_background.png"
@@ -100,6 +108,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 1.5d
 			id: "599CE427481903B4"
 			image: "relics:textures/gui/description/general/bottom_background.png"
