@@ -11,6 +11,7 @@
 	id: "618927B4ED1733F6"
 	images: [
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "3D040CF1E765D902"
 			image: "modern_industrialization:block/bronze_machine_casing"
@@ -20,6 +21,7 @@
 			y: 4.5d
 		}
 		{
+			click_action: "none:"
 			height: 7.0d
 			id: "15151BA87AD31CB1"
 			image: "ftb:textures/quests/modern_industrialization/steamblastfurnace.png"
@@ -29,6 +31,7 @@
 			y: 11.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.5d
 			id: "47405D7597431C16"
 			image: "ftbquests:tasks/tank"
@@ -39,6 +42,7 @@
 			y: 8.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.5d
 			id: "02E16A82A9E7B8DB"
 			image: "modern_industrialization:fluid/synthetic_oil_still"
@@ -48,6 +52,7 @@
 			y: 8.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "3FA17351A9F5A637"
 			image: "minecraft:block/cauldron_top"
@@ -57,6 +62,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			height: 10.0d
 			id: "3D667E67689C5F06"
 			image: "ftb:textures/quests/modern_industrialization/steelquarry.png"
@@ -66,6 +72,7 @@
 			y: -2.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "2A3D777B27B8421D"
 			image: "ftb:textures/quests/modern_industrialization/largesteamboiler.png"
@@ -75,6 +82,7 @@
 			y: 7.5d
 		}
 		{
+			click_action: "none:"
 			height: 5.0d
 			id: "5FD10AE1ECE90FE1"
 			image: "ftb:textures/quests/modern_industrialization/largesteeltank.png"
@@ -84,6 +92,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.5d
 			id: "7104B10B1C175BED"
 			image: "ftbquests:block/barrier_open"
@@ -93,6 +102,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.5d
 			id: "18A74432DE047D6D"
 			image: "ftbquests:block/barrier_open"
@@ -102,6 +112,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "3A42C18A9633548A"
 			image: "minecraft:textures/gui/sprites/widget/slot_frame.png"
@@ -112,6 +123,7 @@
 			y: 5.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "5968DD7B34116C71"
 			image: "modern_industrialization:fluid/steam_still"
@@ -121,6 +133,7 @@
 			y: 5.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "3D1B46B06CE6F7D9"
 			image: "modern_industrialization:block/machines/oil_drilling_rig/overlay_front_active"
@@ -131,6 +144,7 @@
 			y: 0.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1F6C1CE9145F7D57"
 			image: "modern_industrialization:block/steel_machine_casing"
@@ -140,6 +154,7 @@
 			y: 0.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "5BE18E215503AA1E"
 			image: "modern_industrialization:fluid/diesel_still"
@@ -149,6 +164,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "61EBE7E9F951CCF2"
 			image: "modern_industrialization:fluid/ethanol_still"
@@ -158,6 +174,7 @@
 			y: 2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "5D9F27E30C3FF601"
 			image: "modern_industrialization:fluid/ethylene_still"
@@ -167,6 +184,7 @@
 			y: 2.0d
 		}
 		{
+			click_action: "none:"
 			color: 11184810
 			height: 1.0d
 			id: "6E24FB212D19A2FF"
@@ -177,6 +195,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "0D95F8DAF55695EA"
 			image: "ae2:block/molecular_assembler_lights"
@@ -186,6 +205,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "02806A7858761710"
 			image: "ae2:block/molecular_assembler_lights"
@@ -195,6 +215,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "240410D1FAA2AE21"
 			image: "modern_industrialization:fluid/cryofluid_still"
@@ -204,6 +225,7 @@
 			y: 7.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "45BE2797F4A71F0B"
 			image: "chisel:block/technical/massivefan"
@@ -213,6 +235,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			height: 5.0d
 			id: "19BE9905792CE228"
 			image: "ftb:textures/quests/titles_and_logos/milogo.png"
@@ -222,6 +245,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 11705789
 			height: 1.0d
 			id: "53D703B343D238AB"

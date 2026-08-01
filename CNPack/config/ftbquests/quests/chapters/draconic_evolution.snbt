@@ -11,6 +11,7 @@
 	id: "5BBD28643F4FD3B6"
 	images: [
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "64373DA6277ADA06"
 			image: "draconicevolution:block/awakened_draconium_block"
@@ -20,6 +21,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "54679C0C6B7B4678"
 			image: "draconicevolution:block/draconium_block"
@@ -30,6 +32,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "65B018E3136C1513"
 			image: "draconicevolution:textures/gui/reactor/core.png"
@@ -39,6 +42,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "246E8C992A58725B"
 			image: "ftb:textures/quests/draconic_evolution/draconic_core.png"

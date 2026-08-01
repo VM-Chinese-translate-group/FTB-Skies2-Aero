@@ -18,5 +18,6 @@
   "item.modern_industrialization.aluminum_tiny_dust": "小堆工业铝粉",
   "item.modern_industrialization.aluminum_wire": "工业铝线",
   "block.modern_industrialization.pumpjack": "抽油机",
-  "rei_categories.modern_industrialization.pumpjack": "抽油机"
+  "rei_categories.modern_industrialization.pumpjack": "抽油机",
+  "block.modern_industrialization.advanced_coke_oven": "Advanced Coke Oven"
 }

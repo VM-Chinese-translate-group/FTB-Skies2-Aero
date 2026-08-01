@@ -11,6 +11,7 @@
 	id: "78D9A0ADE8A319B1"
 	images: [
 		{
+			click_action: "none:"
 			height: 5.0d
 			id: "4D7AB32707CE1F57"
 			image: "malum:item/raw_soulstone"
@@ -20,6 +21,7 @@
 			y: 1.374d
 		}
 		{
+			click_action: "none:"
 			height: 4.4d
 			id: "4F3A5FAADDF6F8AD"
 			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
@@ -30,6 +32,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.4d
 			id: "36E82A46A45EBCCE"
 			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
@@ -40,6 +43,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "68B12ED6274E2E29"
 			image: "malum:textures/gui/book/widgets/runewood_frame_totemic.png"
@@ -50,6 +54,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "0E71F7D2AFE0480E"
 			image: "malum:textures/gui/book/widgets/dark_filling_totemic.png"
@@ -60,6 +65,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "43D97709FCABDDAB"
 			image: "malum:block/blight/blighted_growth_7"
@@ -70,6 +76,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.4d
 			id: "0C8AA218843168AD"
 			image: "malum:textures/gui/book/widgets/soulwood_frame_grand.png"
@@ -80,6 +87,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.4d
 			id: "4E2088ADA288E791"
 			image: "malum:textures/gui/book/widgets/dark_filling_grand.png"
@@ -90,6 +98,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			color: 2361384
 			height: 11.0d
 			id: "3BCDBDFBB09633C3"
@@ -101,6 +110,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			color: 5636095
 			height: 1.0d
 			id: "61FAA9160586F091"
@@ -111,6 +121,7 @@
 			y: 3.0d
 		}
 		{
+			click_action: "none:"
 			color: 43690
 			height: 1.0d
 			id: "2F2C4EF2796527EA"
@@ -121,6 +132,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 16733695
 			height: 1.0d
 			id: "47D1442F62078918"
@@ -131,6 +143,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			color: 5635925
 			height: 1.0d
 			id: "02DCD4E7FFCF0898"
@@ -141,6 +154,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 16755200
 			height: 1.0d
 			id: "1746F97A8142CA41"
@@ -151,6 +165,7 @@
 			y: 3.0d
 		}
 		{
+			click_action: "none:"
 			color: 16716652
 			height: 1.0d
 			id: "22B2094D2FE08DB8"
@@ -161,6 +176,7 @@
 			y: -0.5d
 		}
 		{
+			click_action: "none:"
 			color: 11141290
 			height: 1.0d
 			id: "18E24886C7F0EF22"
@@ -171,6 +187,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "4FF9C48EBABD17F4"
 			image: "ftb:textures/quests/titles_and_logos/malum_logo.png"
@@ -180,6 +197,7 @@
 			y: -2.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.4d
 			id: "51BBDE3E5B4CC5A8"
 			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
@@ -190,6 +208,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.4d
 			id: "62234631376627B2"
 			image: "malum:textures/gui/book/widgets/paper_filling_gilded.png"
@@ -200,6 +219,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.4d
 			id: "579D6C06C4D76777"
 			image: "malum:textures/mob_effect/rejected.png"
@@ -209,6 +229,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			height: 10.0d
 			id: "680030333884E1B0"
 			image: "malum:block/banners/soulwoven_banner_spawn"
@@ -219,6 +240,7 @@
 			y: 7.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "68F05CE83214F0EB"
 			image: "malum:item/geas/pact_of_tidal_affinity"
@@ -228,6 +250,7 @@
 			y: 8.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1FC3F7C860D53387"
 			image: "malum:textures/mob_effect/wyrd_exhaustion.png"
@@ -237,6 +260,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			color: 11184810
 			height: 0.8d
 			id: "61E6E74C15AF2993"
@@ -247,6 +271,7 @@
 			y: 7.0d
 		}
 		{
+			click_action: "none:"
 			color: 11184810
 			height: 0.8d
 			id: "7B69ECE3327F11BA"
@@ -257,6 +282,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			color: 11184810
 			height: 1.0d
 			id: "6B7DF7059735BFDE"
@@ -267,6 +293,7 @@
 			y: 2.5d
 		}
 		{
+			click_action: "none:"
 			color: 11184810
 			height: 1.0d
 			id: "686DF582810A6154"

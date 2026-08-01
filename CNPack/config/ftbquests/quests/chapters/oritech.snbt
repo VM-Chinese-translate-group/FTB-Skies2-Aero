@@ -11,6 +11,7 @@
 	id: "7B3ADCA4950CB4F0"
 	images: [
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "7E6AE8320E58E33B"
 			image: "oritech:block/nickel_plating_block/center"
@@ -21,6 +22,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "7E756D0B5063F763"
 			image: "xycraft_world:block/connected/glass_viewer_single"
@@ -30,6 +32,7 @@
 			y: 3.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "6F198F5D8C9A5DD4"
 			image: "oritech:block/nickel_plating_block/center"
@@ -49,6 +52,7 @@
 			y: -4.5d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "32083E28008C5C8B"
 			image: "ftb:textures/quests/titles_and_logos/oritech_logo_blockthing.png"
@@ -58,6 +62,7 @@
 			y: 4.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6FAA101845544E2D"
 			image: "oritech:block/fluxite_block"
