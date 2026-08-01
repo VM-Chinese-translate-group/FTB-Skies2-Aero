@@ -15,6 +15,7 @@
 	images: [
 		{
 			alpha: 100
+			click_action: "none:"
 			color: 0
 			height: 2.5d
 			id: "4F4EC509EABF6D0D"
@@ -45,6 +46,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			color: 5636095
 			height: 1.0d
 			id: "3971A60C1DDD1137"

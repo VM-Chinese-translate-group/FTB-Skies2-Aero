@@ -11,6 +11,7 @@
 	id: "30644C8F44EB6CC0"
 	images: [
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "6A40AF6DF66A7C61"
 			image: "ftb:textures/quests/titles_and_logos/just_dire_things_logo.png"
@@ -20,6 +21,7 @@
 			y: -4.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "360260D4B4AAD413"
 			image: "justdirethings:block/gooblock_tier1"
@@ -29,6 +31,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "1D50B348518009EB"
 			image: "justdirethings:block/celestigem_block"
@@ -39,6 +42,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "7F33EF990792AC77"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
@@ -48,6 +52,7 @@
 			y: 3.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "4DBFEA4BC02203EF"
 			image: "ftbquests:tasks/input_only"
@@ -58,6 +63,7 @@
 			y: 3.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "7749ACB205927194"
 			image: "ftbquests:tasks/input_only"
@@ -68,6 +74,7 @@
 			y: 3.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "2EBFBFDED0BFD618"
 			image: "ftbquests:tasks/input_only"
@@ -78,6 +85,7 @@
 			y: 3.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "2A8F0CAB796FDF4C"
 			image: "justdirethings:block/gooblock_tier2"
@@ -87,6 +95,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "3D9A6FDF244D1F10"
 			image: "justdirethings:block/gooblock_tier3"
@@ -96,6 +105,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "5C9ED31BB59FD925"
 			image: "justdirethings:block/gooblock_tier4"
@@ -105,6 +115,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "49A9CE612FEF66CB"
 			image: "justdirethings:block/gooblock_tier4"
@@ -114,6 +125,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "3C8079A27D1FF895"
 			image: "justdirethings:block/gooblock_tier3"
@@ -123,6 +135,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "20318F2F4FAC5A8C"
 			image: "justdirethings:block/gooblock_tier2"
@@ -132,6 +145,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6A28C39317B2F72C"
 			image: "justdirethings:block/time_crystal_cluster_large"
@@ -141,6 +155,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "61F76CE011559FF6"
 			image: "justdirethings:block/time_crystal_cluster_large"
@@ -150,6 +165,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "36BBFB1AC6330EE6"
 			image: "justdirethings:block/eclipsealloy_block"
@@ -160,6 +176,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "0EF27AFA6D1E6860"
 			image: "justdirethings:block/blazegold_block"
@@ -170,6 +187,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "442BA35857C6743C"
 			image: "justdirethings:block/ferricore_block"
@@ -180,6 +198,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "4CF7A40139502140"
 			image: "justdirethings:block/gooblock_tier1"
@@ -189,6 +208,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 0.8d
 			id: "7A395486FCB56298"
 			image: "minecraft:item/rotten_flesh"
@@ -198,6 +218,7 @@
 			y: -1.1099999999999999d
 		}
 		{
+			click_action: "none:"
 			height: 0.8d
 			id: "53440F8BED2D5983"
 			image: "minecraft:item/sugar"
@@ -207,6 +228,7 @@
 			y: 0.9199999999999999d
 		}
 		{
+			click_action: "none:"
 			color: 11141290
 			height: 1.6d
 			id: "47E58D3139AC1EE0"
@@ -217,6 +239,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 11141290
 			height: 1.6d
 			id: "448F542211A04BD2"
@@ -227,6 +250,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 43520
 			height: 1.0d
 			id: "7554C682E0C434A9"
@@ -237,6 +261,7 @@
 			y: -2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.6d
 			id: "3958574B97D4B0C7"
 			image: "justdirethings:block/paradoxmachine_bottom"
@@ -246,6 +271,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.6d
 			id: "752B28E04ECC7A06"
 			image: "justdirethings:block/paradoxmachine_bottom"

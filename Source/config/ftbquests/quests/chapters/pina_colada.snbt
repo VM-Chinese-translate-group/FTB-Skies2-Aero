@@ -16,6 +16,7 @@
 	id: "0DCFFC4FFBC3B1E5"
 	images: [{
 		alpha: 150
+		click_action: "none:"
 		color: 0
 		height: 22.0d
 		id: "67F931E19E36AAEB"

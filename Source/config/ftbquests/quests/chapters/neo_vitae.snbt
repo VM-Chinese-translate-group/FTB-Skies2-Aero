@@ -11,6 +11,7 @@
 	id: "67DDE0406A5EE303"
 	images: [
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "6A935360115C93A9"
 			image: "neovitae:textures/mob_effect/soulsnare.png"
@@ -20,6 +21,7 @@
 			y: 3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "3AA9A5FD78DC399E"
 			image: "neovitae:item/weak_blood_shard"
@@ -29,6 +31,7 @@
 			y: 1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "087CC05C3C64A19B"
 			image: "neovitae:item/weak_blood_shard"
@@ -38,6 +41,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "45AEF08E398773FB"
 			image: "neovitae:item/tau_oil"
@@ -47,6 +51,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "35C9A160CA5D0B65"
 			image: "neovitae:item/strong_tau"
@@ -56,6 +61,7 @@
 			y: 1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "1C5BF24969985CCA"
 			image: "neovitae:block/dawn_ritual_stone"
@@ -65,6 +71,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			color: 16714507
 			height: 2.5d
 			id: "6B73EC6AD76BB5CA"
@@ -75,6 +82,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "270034F9E2BB7882"
 			image: "neovitae:block/dungeon/prismatic_demonite_e"
@@ -84,6 +92,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "0EA8ADE50CEF4291"
 			image: "neovitae:block/dungeon/prismatic_demonite_e"
@@ -93,6 +102,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "736ABCF97B209F3A"
 			image: "neovitae:block/dungeon/prismatic_demonite_e"
@@ -102,6 +112,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "3617E5773F6F6E11"
 			image: "neovitae:block/dungeon/prismatic_demonite_e"
@@ -111,6 +122,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "2659E870470DC32F"
 			image: "neovitae:item/spiritus_gem_grand_raw"
@@ -120,6 +132,7 @@
 			y: -2.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "0C3C978BB496DEF5"
 			image: "neovitae:item/spiritus_gem_grand_ruina"
@@ -129,6 +142,7 @@
 			y: -2.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "41770C522267FC83"
 			image: "neovitae:item/spiritus_gem_grand_vindicta"
@@ -138,6 +152,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "5E3F8475088C8718"
 			image: "neovitae:item/spiritus_gem_grand_nihilum"
@@ -147,6 +162,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			color: 16733525
 			height: 2.0d
 			id: "7AEA20F7344443A2"
@@ -157,6 +173,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "0391C2BC78C6FA60"
 			image: "irons_spellbooks:block/blood"
@@ -166,6 +183,7 @@
 			y: 2.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "2691911C0A9A2800"
 			image: "irons_spellbooks:block/blood"
@@ -332,8 +350,7 @@
 				}
 				{
 					id: "5D42F6CC5ADFB3C2"
-					item: { components: { "neovitae:spiritus_amount": 1.0d }, count: 1, id: "neovitae:raw_spiritus" }
-					match_components: "fuzzy"
+					item: { count: 1, id: "neovitae:base_spiritus_soul_raw" }
 					type: "item"
 				}
 			]

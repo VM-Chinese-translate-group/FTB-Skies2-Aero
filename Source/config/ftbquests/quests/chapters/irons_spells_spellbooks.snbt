@@ -14,6 +14,7 @@
 	id: "3AEDC4DBA9DD1E44"
 	images: [
 		{
+			click_action: "none:"
 			height: 4.5d
 			id: "784923608AB91223"
 			image: "ftb:textures/quests/irons/tomeupgrades.png"
@@ -23,6 +24,7 @@
 			y: 5.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "140D044E8B26CEB0"
 			image: "irons_spellbooks:textures/mob_effect/oakskin.png"
@@ -32,6 +34,7 @@
 			y: 12.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6343FE9935609B0C"
 			image: "irons_spellbooks:block/blood"
@@ -41,6 +44,7 @@
 			y: 6.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.75d
 			id: "52F4D3F7F37DC883"
 			image: "irons_spellbooks:item/upgrade_orb_fire"
@@ -50,6 +54,7 @@
 			y: 11.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "0C5FA200367786B6"
 			image: "irons_spellbooks:item/upgrade_orb_holy"
@@ -59,6 +64,7 @@
 			y: 7.960000000000001d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "2EB070101BE6A107"
 			image: "irons_spellbooks:item/upgrade_orb_lightning"
@@ -68,6 +74,7 @@
 			y: 7.960000000000001d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "569CF77AD1E8CFE1"
 			image: "irons_spellbooks:textures/mob_effect/chilled.png"
@@ -77,6 +84,7 @@
 			y: 11.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "15CE3ADE3FDDF98F"
 			image: "framedblocks:block/gold_plate_frame"
@@ -87,6 +95,7 @@
 			y: 9.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "1B3B17ABEA8D1683"
 			image: "framedblocks:block/gold_plate_frame"
@@ -97,6 +106,7 @@
 			y: 9.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "0076720CC8AA8516"
 			image: "irons_spellbooks:block/scroll_forge_bottom"
@@ -106,6 +116,7 @@
 			y: 13.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "67ABA79A74CAC8F0"
 			image: "framedblocks:block/gold_plate_frame"
@@ -116,6 +127,7 @@
 			y: 13.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "71277FC4F9A3547F"
 			image: "irons_spellbooks:textures/mob_effect/frostbite.png"
@@ -125,6 +137,7 @@
 			y: 12.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "6980C84716B62213"
 			image: "irons_spellbooks:block/scroll_forge_bottom"
@@ -134,6 +147,7 @@
 			y: 9.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "0D34DCEA5D96A905"
 			image: "irons_spellbooks:block/scroll_forge_bottom"
@@ -143,6 +157,7 @@
 			y: 9.5d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "14040BEC4B13DDBB"
 			image: "irons_spellbooks:item/divine_pearl"
@@ -153,6 +168,7 @@
 			y: 9.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4975B1A70ACB5664"
 			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
@@ -163,6 +179,7 @@
 			y: 4.0d
 		}
 		{
+			click_action: "none:"
 			color: 16733695
 			height: 1.5d
 			id: "0CF3C8C6AC5FE19D"
@@ -174,6 +191,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			color: 11141290
 			height: 1.5d
 			id: "702DE9802A0C19BA"
@@ -185,6 +203,7 @@
 			y: 4.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "57475B4A4CA7F0E6"
 			image: "minecraft:block/sculk_shrieker_can_summon_inner_top"
@@ -195,6 +214,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "4767D9DB82BA5A27"
 			image: "ftb:textures/quests/titles_and_logos/irons_spellbook_logo.png"
@@ -204,6 +224,7 @@
 			y: -2.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "56B137897ED8AC1F"
 			image: "irons_spellbooks:item/upgrade_orb_fire"
@@ -213,6 +234,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "49AB2A044D8C871E"
 			image: "irons_spellbooks:item/upgrade_orb_fire"
@@ -223,6 +245,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4728DB421F288B1D"
 			image: "irons_spellbooks:block/inscription_table_side"
@@ -232,6 +255,7 @@
 			y: -0.4d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "029985F36DA2C3A8"
 			image: "irons_spellbooks:block/inscription_table_side"
@@ -242,6 +266,7 @@
 			y: -0.4d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4644067DDE5C7A6F"
 			image: "irons_spellbooks:block/inscription_table_side"
@@ -251,6 +276,7 @@
 			y: 0.3999999999999999d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "08A3EE3BF5D390BB"
 			image: "irons_spellbooks:block/inscription_table_side"
@@ -260,6 +286,7 @@
 			y: 0.3999999999999999d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "17CF010383A59D31"
 			image: "relics:textures/gui/description/general/options_outline.png"
@@ -270,6 +297,7 @@
 			y: 5.0d
 		}
 		{
+			click_action: "none:"
 			color: 8127276
 			height: 1.0d
 			id: "7E90C02AA9D0401B"

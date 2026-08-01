@@ -11,6 +11,7 @@
 	id: "6F0ED7CA1077DD3C"
 	images: [
 		{
+			click_action: "none:"
 			height: 1.25d
 			id: "59A0CADDBDECA16B"
 			image: "enderio:textures/gui/sprites/conduit_icon/energy.png"
@@ -20,6 +21,7 @@
 			y: -4.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "3BBF1F55DEAEF03F"
 			image: "enderio:block/enhanced_machine_chassis"
@@ -29,6 +31,7 @@
 			y: -4.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "1105CB43912CBAE9"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
@@ -39,6 +42,7 @@
 			y: -4.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "0A5272FB8E66B6A4"
 			image: "minecraft:block/fire_1"
@@ -48,6 +52,7 @@
 			y: -2.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "44833B114F4D3778"
 			image: "minecraft:block/bedrock"
@@ -57,6 +62,7 @@
 			y: -0.7605442176870838d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "09B5310731A3C713"
 			image: "enderio:block/void_chassis"
@@ -66,6 +72,7 @@
 			y: -3.0d
 		}
 		{
+			click_action: "none:"
 			height: 0.5d
 			id: "2B659DA98A3DE459"
 			image: "ftblibrary:textures/faces/minecraft/enderman.png"
@@ -75,6 +82,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 0.5d
 			id: "08D65FFC0C21416A"
 			image: "ftblibrary:textures/faces/minecraft/enderman.png"
@@ -84,6 +92,7 @@
 			y: -0.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "69FB234728897021"
 			image: "enderio:block/xp_juice_flowing"
@@ -93,6 +102,7 @@
 			y: -3.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "62C7BE154BF6DA10"
 			image: "enderio:block/ender_still"
@@ -102,6 +112,7 @@
 			y: -1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.5d
 			id: "2BFE007198A85979"
 			image: "enderio:item/conduit_facade"
@@ -111,6 +122,7 @@
 			y: -4.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "12540F28737D49F0"
 			image: "minecraft:block/end_portal_frame_top"
@@ -120,6 +132,7 @@
 			y: -11.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6853067DA537157F"
 			image: "enderio:item/ender_resonator"
@@ -129,6 +142,7 @@
 			y: -8.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6B410AD4C8269C0A"
 			image: "enderio:item/zombie_electrode"
@@ -138,6 +152,7 @@
 			y: -8.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "4A9EB38E59336F87"
 			image: "enderio:item/soularium_nugget"
@@ -147,6 +162,7 @@
 			y: -6.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "1B759A6F597678A1"
 			image: "enderio:item/soularium_nugget"
@@ -156,6 +172,7 @@
 			y: -6.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "74D0FF14BC3F3F3F"
 			image: "xycraft_world:block/connected/glass_viewer_glowing_single"
@@ -165,6 +182,7 @@
 			y: -6.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "71B9BC6460D819B3"
 			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
@@ -174,6 +192,7 @@
 			y: -2.5d
 		}
 		{
+			click_action: "none:"
 			color: 16733525
 			height: 1.0d
 			id: "4BED5A1413B33FC1"
@@ -184,6 +203,7 @@
 			y: -4.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.1d
 			id: "74727A8FE7001DC3"
 			image: "ftb:fluid/molten_bedrockium_still"

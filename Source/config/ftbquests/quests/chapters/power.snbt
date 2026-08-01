@@ -11,6 +11,7 @@
 	id: "391B65CD04A90459"
 	images: [
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "1786C8803CF60EE1"
 			image: "ae2:block/molecular_assembler_lights"
@@ -20,6 +21,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "008DB5F6A2EFD86A"
 			image: "ae2:block/mysterious_cube_side"
@@ -29,6 +31,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "1C7537C907C7860A"
 			image: "irons_jewelry:textures/gui/sprites/guidebook/guidebook_part_frame.png"
@@ -39,6 +42,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 3.0d
 			id: "1FFB9EE98FBF5177"
 			image: "ftb:textures/quests/titles_and_logos/power_gen_title.png"
@@ -48,6 +52,7 @@
 			y: -3.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "543DBDD5F1D62867"
 			image: "modularrouters:item/upgrade/energy_upgrade"
@@ -58,6 +63,7 @@
 			y: -2.75d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
 			id: "298D41E364F8A916"
 			image: "modularrouters:item/upgrade/energy_upgrade"
@@ -68,6 +74,7 @@
 			y: -2.45d
 		}
 		{
+			click_action: "none:"
 			height: 5.0d
 			id: "6B73203B753AE644"
 			image: "modern_industrialization:block/advanced_machine_hull"
@@ -78,6 +85,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			height: 6.0d
 			id: "45BA446D5C36891C"
 			image: "excessive_utilities:block/rainbow_generator"
@@ -88,6 +96,7 @@
 		}
 		{
 			alpha: 150
+			click_action: "none:"
 			color: 0
 			height: 9.3d
 			id: "0FFFC3EE8ED68054"
@@ -99,6 +108,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			height: 0.05d
 			id: "28E9FF14F21CFC5B"
 			image: "ftbchunks:textures/square_mask.png"
@@ -109,6 +119,7 @@
 			y: 4.0d
 		}
 		{
+			click_action: "none:"
 			height: 0.05d
 			id: "0A053A07E6D2F0DA"
 			image: "ftbchunks:textures/square_mask.png"
@@ -119,6 +130,7 @@
 			y: 8.0d
 		}
 		{
+			click_action: "none:"
 			height: 0.05d
 			id: "4CEC2313EFC10094"
 			image: "ftbchunks:textures/square_mask.png"
@@ -129,6 +141,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			height: 0.05d
 			id: "41B6847318E341B1"
 			image: "ftbchunks:textures/square_mask.png"
@@ -139,6 +152,7 @@
 			y: 2.0d
 		}
 		{
+			click_action: "none:"
 			height: 0.05d
 			id: "7F9C5430CDA5ABF0"
 			image: "ftbchunks:textures/square_mask.png"
@@ -149,6 +163,7 @@
 			y: 10.0d
 		}
 		{
+			click_action: "none:"
 			height: 2.5d
 			id: "1F77E19C2F79292D"
 			image: "ftbquests:tasks/input_only"
@@ -159,6 +174,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.08d
 			id: "2D57811713A8360C"
 			image: "ftb:textures/quests/modern_industrialization/fusion_mi.png"
@@ -168,6 +184,7 @@
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			height: 8.41d
 			id: "3232E1408EF91518"
 			image: "ftb:textures/quests/create/create_nuclear.png"
@@ -178,6 +195,7 @@
 		}
 		{
 			alpha: 50
+			click_action: "none:"
 			color: 0
 			height: 10.0d
 			id: "2C2BD735CCBE32EC"
@@ -190,6 +208,7 @@
 		}
 		{
 			alpha: 50
+			click_action: "none:"
 			color: 0
 			height: 10.0d
 			id: "55E663477C093EE1"

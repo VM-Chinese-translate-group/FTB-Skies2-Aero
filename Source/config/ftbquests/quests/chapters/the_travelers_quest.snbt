@@ -14,6 +14,7 @@
 	id: "24B8C5083DAC9280"
 	images: [
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "13FF8DAEA8188F74"
 			image: "minecraft:textures/entity/end_portal.png"
@@ -23,6 +24,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "20781141C2A57D20"
 			image: "minecraft:block/lava_still"
@@ -32,6 +34,7 @@
 			y: -1.0d
 		}
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "3EE0D899F9F0E91B"
 			image: "ftb:textures/quests/titles_and_logos/travelers_quest_logo.png"
@@ -43,6 +46,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 4.0d
 			id: "4F0E628FB93CD96C"
 			image: "cataclysm:textures/entity/flame_strike_sigil.png"
@@ -53,6 +57,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 1.6d
 			id: "4115E0F92A61BE9A"
 			image: "irons_spellbooks:textures/entity/acid_orb/acid_orb.png"
@@ -63,6 +68,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 2.5d
 			id: "29495DB012E46850"
 			image: "irons_spellbooks:block/cinderous_soul_rune"
@@ -74,6 +80,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			height: 5.0d
 			id: "0C01FEEDB0EB24DD"
 			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle1.png"
@@ -85,6 +92,7 @@
 		}
 		{
 			alpha: 100
+			click_action: "none:"
 			color: 5636095
 			height: 6.0d
 			id: "783838BE5AA69F34"
@@ -96,6 +104,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.4d
 			id: "48FB0840FA06A4FA"
 			image: "malum:textures/mob_effect/rejected.png"
@@ -106,6 +115,7 @@
 		}
 		{
 			alpha: 191
+			click_action: "none:"
 			height: 12.5d
 			id: "4A1C1E78B5715AAD"
 			image: "ftb:textures/quests/titles_and_logos/tempad_bg.png"
@@ -117,6 +127,7 @@
 		}
 		{
 			alpha: 127
+			click_action: "none:"
 			height: 1.0d
 			id: "730A11651B5DDFED"
 			image: "tempad:textures/gui/sprites/app/tp_to/normal.png"
@@ -127,6 +138,7 @@
 		}
 		{
 			alpha: 127
+			click_action: "none:"
 			height: 1.0d
 			id: "7223C3C7A72CEBC2"
 			image: "tempad:textures/gui/sprites/app/timeline/normal.png"
@@ -137,6 +149,7 @@
 		}
 		{
 			alpha: 127
+			click_action: "none:"
 			height: 1.0d
 			id: "322D338D4E399C5D"
 			image: "tempad:textures/gui/sprites/app/knowledge_repository/normal.png"
@@ -147,6 +160,7 @@
 		}
 		{
 			alpha: 127
+			click_action: "none:"
 			height: 1.0d
 			id: "631596F4C088DDB2"
 			image: "tempad:textures/gui/sprites/button/teleport/normal.png"
@@ -157,6 +171,7 @@
 		}
 		{
 			alpha: 127
+			click_action: "none:"
 			height: 1.0d
 			id: "2984B4272FEC31C9"
 			image: "tempad:textures/gui/sprites/guide/images/tva.png"

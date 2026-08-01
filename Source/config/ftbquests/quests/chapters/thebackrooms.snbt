@@ -12,6 +12,7 @@
 	}
 	id: "33808F1AE9F1266A"
 	images: [{
+		click_action: "none:"
 		height: 5.0d
 		id: "61948914CC53F44D"
 		image: "minecraft:textures/gui/advancements/window.png"

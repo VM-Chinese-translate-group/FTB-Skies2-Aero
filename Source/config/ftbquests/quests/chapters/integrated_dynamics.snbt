@@ -11,6 +11,7 @@
 	id: "6A58A6F56CD199A3"
 	images: [
 		{
+			click_action: "none:"
 			height: 4.0d
 			id: "702006D9762C390B"
 			image: "ftb:textures/quests/titles_and_logos/integrated_dynamics_logo.png"
@@ -20,6 +21,7 @@
 			y: -4.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6137984296FAB6AE"
 			image: "integrateddynamics:item/variable"
@@ -29,6 +31,7 @@
 			y: 1.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "04265EB4FA27DBF3"
 			image: "integrateddynamics:item/variable"
@@ -38,6 +41,7 @@
 			y: 0.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
 			id: "0B471CE1FC923406"
 			image: "integrateddynamics:item/variable"
