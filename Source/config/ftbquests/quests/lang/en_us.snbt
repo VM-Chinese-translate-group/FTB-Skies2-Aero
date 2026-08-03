@@ -801,7 +801,7 @@
 		"Note: Some of these alloys can also be crafted by hand or other modded machines, but doing so often consumes more resources."
 	]
 	quest.0A6E103A6945D11E.title: "&fThe &6Foundry"
-	quest.0A7737571F027A95.quest_desc: ["A hundred and eight runes and corners of Hellforged Block raise the altar to &cTier IV&r, home of the &cDominus Orb of Vitae&r and the most destructive rites in all of Vitaemancy."]
+	quest.0A7737571F027A95.quest_desc: ["A hundred runes and Hellforged Block set at the compass points raise the altar to &cTier IV&r, home of the &cDominus Orb of Vitae&r and the most destructive rites in all of Vitaemancy."]
 	quest.0A7737571F027A95.title: "Tier IV: The Archmage's Orb"
 	quest.0A92084D7043133A.quest_desc: [
 		"&bAddons&r are used to improve your Multiblock Machines depending on the type of Addon you choose to add. "
@@ -1703,6 +1703,7 @@
 	quest.1733FCE814C7DE2D.title: "&eApplied Flux"
 	quest.1739969280BB4E82.quest_subtitle: "Transfers Redstone Signals"
 	quest.1739969280BB4E82.title: "&fRedstone Conduit"
+	quest.17612A3DF8930377.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.176610923FDE130F.quest_desc: ["By using &bDoped Silicon Plates&r over their regular counterparts, you can greatly increase the yield from their various recipes."]
 	quest.176610923FDE130F.title: "&fDoped Silicon Plates"
 	quest.176783D2397F5BE7.quest_desc: ["&eCreate: New Age&f, adds Solar panels that can function like &aBlaze Burners&f, heating up the block above them."]
@@ -1719,6 +1720,7 @@
 		"Multiple ring stages might be necessary for some cases."
 	]
 	quest.1770A460E1FD7CC8.title: "&fAccelerator Designs"
+	quest.1771DF7C6EBF1B89.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.17A73A05FAE4D6F5.quest_desc: [
 		"The &bLegendary Talisman Base&r is an upgrade to the &dEpic Talisman Base&r."
 		""
@@ -1935,6 +1937,11 @@
 		"While looking into the air, using the tool will switch between adding or removing drawers. If you sneak-use the tool in the air, it will switch between adding a single drawer at a time, or multiple!"
 	]
 	quest.1AA08B095A8B378F.title: "&fLinking Drawers"
+	quest.1AB874D6EADDB75D.quest_desc: [
+		"Eight runes made a ring. &cTier II&r wants &c24&r of them, and four two-block pillars standing four blocks out on every side, each capped with &cBlood Stained Glass&r."
+		""
+		"Any solid block serves for the pillars. Raise it and the &cAra Vitae&r can forge the &cVeneficus Orb of Vitae&r."
+	]
 	quest.1AB874D6EADDB75D.title: "Tier 2"
 	quest.1ABA5F2ECAA6D9D2.quest_desc: [
 		"&eMekanism&r offers some of the best logistics cables and pipes in the pack! These items can be upgraded in the world, and also have an internal buffer."
@@ -2042,6 +2049,7 @@
 	]
 	quest.1B986C3D7E212B33.title: "Black Hole Juicing"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
+	quest.1BBED0C6E9F1ED2F.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.1BC994881BC225ED.quest_desc: [
 		"By combining magical spools with different materials and applying them to arcane armor in the &aWeaver's Workbench&r, the armor changes in appearance while keeping all of its defense and other benefits."
 		""
@@ -2266,6 +2274,7 @@
 		""
 		"At tier 8, you will also need to upgrade your &2Stabilizers&r into a ring, requiring a total of 36 blocks (9 per ring)."
 	]
+	quest.1E7B5442F153ED3B.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.1E89C7DECA4E915A.quest_desc: [
 		"The &dAtmospheric Ionizer&f is a weather control device that consumes &bWeather Condensate&f and AE energy to force the world's weather to a specific state, letting you feed the &aLightning Collector&f with reliable natural lightning strikes."
 		""
@@ -2329,6 +2338,7 @@
 		"This fight can be somewhat challenging due to the flying and ranged enemies, so be sure to prepare before attempting this."
 	]
 	quest.1F7919AA7C47CB88.title: "&#cd342dGateway of the Hellish Fortress"
+	quest.1F804789D4AD363F.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.1F8EC3339B8873B9.quest_desc: [
 		"The &aXP Obelisk&r is one of the best ways to store your experience, especially when combined with the &aXP Vacuum&r."
 		""
@@ -2344,7 +2354,7 @@
 	]
 	quest.1F94DD493FE20C0B.title: "&eBonsai Trees"
 	quest.1FB8BF0898FD99D9.quest_desc: [
-		"Twenty-eight runes and four pillars capped in Blood Stained Glass raise the altar to &cTier II&r, where it can craft the &cVeneficus Orb of Vitae&r."
+		"Twenty-four runes and four pillars capped in Blood Stained Glass raise the altar to &cTier II&r, where it can craft the &cVeneficus Orb of Vitae&r."
 		""
 		"At Tier II the altar stops being a tool and becomes an engine."
 	]
@@ -3306,6 +3316,10 @@
 		"The journey for the perfect refreshment will take you through most mods, mechanics, and dimensions offered by the mods in this pack."
 		""
 		"Whether you're here for a cozy Sky Block playthrough or an automation challenge, here's to you and your adventure 🍻 "
+		"{@pagebreak}"
+		"The &zPiña Colada&f is the ultimate end-goal of &6FTB Skies 2: Aero&f."
+		""
+		"After crafting this item, you must drink it "
 	]
 	quest.2D0F5BF08D40618C.title: "&zPiña Colada"
 	quest.2D178651FB267E91.title: "Proof of Mastery"
@@ -3679,7 +3693,7 @@
 		""
 		"Other mods can help you obtain the Amadron Tablet early, letting you purchase oil to be delivered to a tank."
 		""
-		"The Fluid Laser Drill and the Oil Drilling Rig are multiblock setups that will steadily generate oil using energy."
+		"The Pumpjack and the Oil Drilling Rig are multiblock setups that will steadily generate oil using energy. "
 	]
 	quest.31B06C6ACEF764E0.quest_subtitle: "The U.S.A Knows Your Location"
 	quest.31B06C6ACEF764E0.title: "&fThe Search For Oil!"
@@ -4238,6 +4252,7 @@
 		"{image\\:\\ftb:textures/quests/modern_industrialization/heatexchanger.png width:200 height:150 align:center}"
 	]
 	quest.37A31A3936ADD670.title: "&dHeat Exchanger"
+	quest.37CB1AD3D940346F.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.37D23D46198DA708.quest_desc: [
 		"These allow you to break or place items in the world."
 		""
@@ -4569,9 +4584,6 @@
 		"&dMechanical Crafters&r are gigantic crafting tables that can be automated in several different ways."
 		""
 		"&aCrafter Slot Covers&r can be used to cover up any slots that are not used in autocrafting. However, you can also use a redstone signal to force-start a crafting recipe."
-		""
-		""
-		"&c&lFTB Notice&r: Due to impact on load times, general crafting is currently disabled. We apologize for the inconvenience."
 	]
 	quest.3B5B50AF7B7F1EDE.title: "&dMechanical Crafter"
 	quest.3B6540C11FAF6C3D.quest_desc: [
@@ -4883,6 +4895,7 @@
 		"You can also adjust even more options like filtering which items it can pick up, or how fast it picks items up."
 	]
 	quest.3F26B10626145BBC.title: "&eJust Dire's &fItem Collector"
+	quest.3F53B8955DF5B0F2.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.3F5480E01ABA887B.quest_desc: [
 		"The &aAutocrafter&r accepts up to 9 configured recipe &aPatterns&r and 4 &aSpeed Upgrades&r."
 		""
@@ -5125,6 +5138,7 @@
 		"It is also used to craft the &3Soul of Minecraft&r."
 	]
 	quest.423950ED16C2422B.title: "&bForce of Warrior"
+	quest.423C04D5968C6A2B.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.424BFFB9EFAB9565.quest_desc: ["The &3Electron Tube&r is a crafting component used to make some electronic or controllable mechanisms within &eCreate&r."]
 	quest.424BFFB9EFAB9565.title: "&3Electron Tube"
 	quest.425A41A378E7BF52.quest_desc: [
@@ -5145,6 +5159,7 @@
 		"&eStabilization&r cancels out the negative effects, meaning you get all the upside, and none of the downside."
 	]
 	quest.427682661459BB4F.title: "&eStabilizing Your Enchantments"
+	quest.428A1ABBA6791E75.quest_desc: ["&7&oObtained from the goat event, the shop or quest rewards"]
 	quest.4291D83FD8A79A24.title: "&fSweet Berry Cheesecake"
 	quest.42C7DDFED49DAC47.quest_desc: [
 		"Consumes Nether Stars or firework stars."
@@ -6051,6 +6066,7 @@
 		"You'll need to put the chemical through a &aRotary Condensentrator&r in order to bucket or pump a bucket's worth (1000mB) into an assigned &aTask Screen&r."
 	]
 	quest.4EAE9F58776D84C8.title: "&fSulfuric Acid"
+	quest.4EB43B146ED82F1E.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.4ECDF58A8FB43590.quest_subtitle: "Transfers Gases or Chemicals"
 	quest.4ECDF58A8FB43590.title: "&eMekanism's &2Gas Tubes"
 	quest.4ECF22AA79A3688B.title: "&fCabbage Farm"
@@ -6688,9 +6704,6 @@
 	]
 	quest.580866E99C53DB3E.title: "&fAuto-Pickup Upgrades!"
 	quest.580DDEAC95562B05.title: "&bTier 4 &fSeeds"
-	quest.580FB02F9178E853.quest_desc: ["Once you get your first &5Singularity&r, you can electrolyze it for &5UU Matter&r. It produces 1 mb of &5UU Matter&r per operation, but also lasts forever."]
-	quest.580FB02F9178E853.quest_subtitle: "Know that UU Matter"
-	quest.580FB02F9178E853.title: "&5UU Matter"
 	quest.583FFE29C881EE8C.quest_desc: [
 		"Using the &6Flux Configurator&r, you can access the Network UI by using it in your hand. You can also access this from any block within the mod."
 		""
@@ -6778,6 +6791,7 @@
 		"While you can do all 3, you will only be able to choose 1 bonus &aBoost&r for your preferred method."
 	]
 	quest.58CD2EA60183F861.title: "&cThe Blood Staff"
+	quest.58EA61D0CE13D752.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.58F29A199D553D29.quest_desc: [
 		"&3Diesel Generators&r can provide on-demand power by burning different fuels, most notably &eDiesel&r."
 		""
@@ -7106,7 +7120,7 @@
 		"&o&7Used for the Rainbow Generator"
 	]
 	quest.5DE88B0427A5B039.quest_desc: [
-		"Fifty-six runes, pillars crowned in Bloodstone Brick and Weak Blood Shards, raise the altar to &cTier III&r."
+		"Fifty-two runes, pillars crowned in Blood Stained Glass and corners of Bloodstone Brick, raise the altar to &cTier III&r."
 		""
 		"Here you forge the &cMagus Orb of Vitae&r, and the &cRitual Diviner [Dusk]&r."
 	]
@@ -7349,6 +7363,7 @@
 		"&aBlood Poppies&r are mostly decorative, but using an empty taglock on one that someone has passed through will collect a sample of the blood."
 	]
 	quest.612A181814F656B1.title: "Witchy Plants"
+	quest.612B021FC1A3B205.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.612B021FC1A3B205.title: "&bJellyfish Necklace"
 	quest.6137FF3EFFACB3A3.quest_desc: [
 		"Consumes regular furnace fuels."
@@ -7383,6 +7398,7 @@
 		"&n&4Warning!&r Completing this quest by checking the checkmark will set your team on the Path of Crystalmancy and lockout the other 2 path rewards."
 	]
 	quest.617AB01D45539EA7.title: "&fCrystal Boosting"
+	quest.618B5341336CA8CB.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.61A8D9B0C8D22D50.quest_desc: [
 		"The &aClipboard&r is a handy tool for keeping track of things."
 		""
@@ -7717,6 +7733,7 @@
 	quest.66B66C0C33071D7B.quest_desc: ["By combining &aRaw Platinum Ore&r with &eSulfuric Acid&r in a &3Chemical Reactor&r, we can make &dPlatinum Sulfuric Solution&r."]
 	quest.66B66C0C33071D7B.title: "&dPlatinum Sulfuric Solution"
 	quest.66BC17A3725601D7.title: "&fTomato Farm"
+	quest.66E5ACACAC79B1F8.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.66FE429D36389F75.quest_desc: [
 		"When collecting spirits from slain creatures, there is a chance that the spirit infuses the creature's normal resource with its essence, causing a new item to form."
 		""
@@ -7808,6 +7825,7 @@
 		"Right-clicking the &aFactory Controller&r will show you if it's able to produce lava with the current setup."
 	]
 	quest.680EF3BB338460AA.title: "&fLava Factory"
+	quest.682D4887ED36D3B7.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.684AAE454101D8B7.quest_subtitle: "Holy Set"
 	quest.684AAE454101D8B7.title: "&6Priest Set"
 	quest.68583162106594A8.quest_desc: [
@@ -7868,7 +7886,7 @@
 		""
 		"The &2Macerator&r is crucial to providing ore multiplication, as well as getting different byproducts from several items."
 	]
-	quest.69159D10C2791C2E.title: "&fCrushing \\&\\ Cutting"
+	quest.69159D10C2791C2E.title: "&fCrushing \\&\\ Smelting"
 	quest.69282BCC2FA04060.quest_desc: [
 		"This block has a very simple, yet important role within your &eI.D&r network, which is to store existing variables that a system can reference back to."
 		""
@@ -8006,6 +8024,7 @@
 	]
 	quest.6B6C60BFE1D378D0.title: "&6Max Size Assembler Matrix"
 	quest.6B86574E77643F07.quest_desc: ["By continuosuly killing beings from all three dimensions, you can harness their tears to use as a lubricant for the reaction chamber."]
+	quest.6B9371B721B992AD.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.6B971FA156A96BD5.quest_desc: [
 		"A &aSpirit Catalyzer&r consumes inserted furnace fuels to accelerate the processing speed of a nearby &eCrucible&r, up to eight are able to function on a single Crucible."
 		""
@@ -8209,6 +8228,7 @@
 		"Naming a chest will provide a separate storage tab in the Storage Lectern. This can be done by naming the chest in an anvil, or by using a Name spell!"
 	]
 	quest.6FEA088D2D5A3AEF.title: "&dBookwryms &fand Magical Storage!"
+	quest.6FEF508F7DDDB261.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.6FF752712E99A936.quest_desc: ["To craft any of the upgrades, you'll need to make an &aUpgrade Base&r."]
 	quest.6FF752712E99A936.title: "&fUpgrade Base"
 	quest.705E4FFB4FCADFD1.quest_desc: [
@@ -8449,6 +8469,7 @@
 		""
 		"&o&7Used for the Rainbow Generator"
 	]
+	quest.72C782BC4F768080.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.72D582D05DC9C7A2.quest_desc: [
 		"&2Oak Nests&r can be crafted or found in the overworld in Oak trees."
 		""
@@ -8861,7 +8882,7 @@
 		""
 		"When provided with power, the &3EM Rail Ejectors&r will work faster and ramp up how many items they send each time."
 		"{@pagebreak}"
-		"Within each &3Rail Ejector&r, you may choose to place in either &aBeams&r or &2Sails&r through the bottom-middle block of the multiblock structure."
+		"Within each &3Rail Ejector&r, you may choose to place in either &aBeams&r or &2Sails&r through the bottom-middle block of the structure."
 		""
 		"&aBeams&r allow your &6Sphere&r to accept more &2Sails&r, which is what actually increases your power generation. Each beam supports 20 solar sails in this pack."
 		""
@@ -9511,6 +9532,7 @@
 	reward.4D8CE3813F5B049C.title: "Unlock Loot Bags Shop"
 	reward.5232A5D897287658.title: "Legendary Choice Reward"
 	reward.55C61BB9870E19BF.title: "Unlock Miscellaneous Shop"
+	reward.58FC98BAEDB8920C.title: "+10,000 EV"
 	reward.5C3AD0A37016117B.title: "Relic Choice"
 	reward.5F260183479B3F42.title: "+2500 EV"
 	reward.6151767D816C3443.title: "+250 EV"

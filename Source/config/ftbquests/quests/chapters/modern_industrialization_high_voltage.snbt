@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 250
 	default_quest_shape: ""
 	filename: "modern_industrialization_high_voltage"
 	group: "3E3B6463983F18FB"
@@ -40,7 +41,7 @@
 			order: -3
 			rotation: 0.0d
 			width: 10.0d
-			x: 37.5d
+			x: 37.0d
 			y: 1.5d
 		}
 		{
@@ -51,7 +52,7 @@
 			order: -2
 			rotation: 0.0d
 			width: 12.0d
-			x: 37.5d
+			x: 37.0d
 			y: 1.5d
 		}
 		{
@@ -282,8 +283,8 @@
 			image: "minecraft:block/nether_portal"
 			rotation: 0.0d
 			width: 2.0d
-			x: 41.5d
-			y: 1.5d
+			x: 38.0d
+			y: 0.5d
 		}
 		{
 			click_action: "none:"
@@ -305,37 +306,6 @@
 			width: 1.0d
 			x: 37.5d
 			y: 3.0d
-		}
-		{
-			click_action: "none:"
-			height: 1.0d
-			id: "5FC882B9475977C4"
-			image: "modern_industrialization:fluid/uu_matter_still"
-			rotation: 45.0d
-			width: 1.0d
-			x: 37.5d
-			y: 0.0d
-		}
-		{
-			click_action: "none:"
-			color: 0
-			height: 1.0d
-			id: "3CC796DFB3F1EE15"
-			image: "minecraft:block/glass"
-			rotation: 45.0d
-			width: 1.0d
-			x: 37.5d
-			y: 0.0d
-		}
-		{
-			click_action: "none:"
-			height: 2.0d
-			id: "7A08A020E9DE22F8"
-			image: "minecraft:block/glass"
-			rotation: 0.0d
-			width: 2.0d
-			x: 41.5d
-			y: 1.5d
 		}
 		{
 			click_action: "none:"
@@ -378,6 +348,16 @@
 			width: 1.96d
 			x: 21.0d
 			y: -5.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "5DE25CED8AE84EAD"
+			image: "minecraft:block/glass"
+			rotation: 0.0d
+			width: 2.0d
+			x: 38.0d
+			y: 0.5d
 		}
 	]
 	order_index: 9
@@ -3274,6 +3254,7 @@
 		}
 		{
 			dependencies: ["7D49D69623266062"]
+			hide_dependency_lines: false
 			icon_scale: 2.0d
 			id: "1F3C96D0DAC4F080"
 			rewards: [
@@ -3299,11 +3280,11 @@
 				item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
 				type: "item"
 			}]
-			x: 33.5d
-			y: 1.5d
+			x: 34.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1F3C96D0DAC4F080"]
+			dependencies: ["44654F0A91D7817D"]
 			icon_scale: 2.0d
 			id: "3D44D7B3E2062870"
 			rewards: [
@@ -3330,11 +3311,12 @@
 				item: { count: 1, id: "modern_industrialization:singularity" }
 				type: "item"
 			}]
-			x: 35.5d
-			y: 0.0d
+			x: 30.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1F3C96D0DAC4F080"]
+			hide_dependency_lines: false
 			icon_scale: 2.0d
 			id: "7297DFC4797D2FB9"
 			rewards: [
@@ -3379,11 +3361,12 @@
 				item: { count: 1, id: "modern_industrialization:fusion_reactor" }
 				type: "item"
 			}]
-			x: 35.5d
+			x: 36.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7297DFC4797D2FB9"]
+			hide_dependency_lines: false
 			icon: {
 				id: "modern_industrialization:helium_plasma_bucket"
 			}
@@ -3447,6 +3430,7 @@
 		}
 		{
 			dependencies: ["2F34A04C7FB2D605"]
+			hide_dependency_lines: false
 			icon_scale: 2.0d
 			id: "26D4074DECF26C04"
 			rewards: [
@@ -3482,14 +3466,12 @@
 				item: { count: 1, id: "modern_industrialization:plasma_turbine" }
 				type: "item"
 			}]
-			x: 39.5d
+			x: 39.0d
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"216FBD5E15FE2E7D"
-				"26D4074DECF26C04"
-			]
+			dependencies: ["216FBD5E15FE2E7D"]
+			hide_dependency_lines: false
 			icon: {
 				id: "modern_industrialization:quantum_helmet"
 			}
@@ -3550,74 +3532,12 @@
 					type: "item"
 				}
 			]
-			x: 41.5d
-			y: 1.5d
+			x: 38.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["3D44D7B3E2062870"]
-			icon: {
-				id: "modern_industrialization:uu_matter_bucket"
-			}
-			id: "580FB02F9178E853"
-			rewards: [
-				{
-					amount: 50
-					id: "0B0DEE24B18CB0C7"
-					team_reward: false
-					type: "currency"
-				}
-				{
-					id: "140B6A7AB6D86845"
-					item: {
-						components: {
-							"mekanism:fluids": {
-								fluid_tanks: [{
-									amount: 8000
-									id: "modern_industrialization:uu_matter"
-								}]
-							}
-						}
-						count: 1
-						id: "mekanism:basic_fluid_tank"
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5AEA0D935F668602"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_circuit"
-					}
-					random_bonus: 4
-					team_reward: true
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					fluid: {
-						amount: 1000
-						id: "modern_industrialization:uu_matter"
-					}
-					id: "6C364A9BC30BA3C1"
-					optional_task: true
-					type: "fluid"
-				}
-				{
-					id: "293F574658081BA2"
-					item: { count: 1, id: "modern_industrialization:uu_matter_bucket" }
-					optional_task: true
-					type: "item"
-				}
-			]
-			x: 37.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["580FB02F9178E853"]
+			dependencies: ["7D49D69623266062"]
+			hide_dependency_lines: false
 			icon_scale: 2.0d
 			id: "216FBD5E15FE2E7D"
 			rewards: [
@@ -3643,8 +3563,8 @@
 				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
 				type: "item"
 			}]
-			x: 39.5d
-			y: 0.0d
+			x: 35.0d
+			y: 0.5d
 		}
 	]
 }
