@@ -350,7 +350,7 @@
 				}
 				{
 					id: "5D42F6CC5ADFB3C2"
-					item: { count: 1, id: "neovitae:base_spiritus_soul_raw" }
+					item: { components: { "neovitae:spiritus_amount": 1.0d }, count: 1, id: "neovitae:base_spiritus_soul_raw" }
 					type: "item"
 				}
 			]
@@ -1504,6 +1504,7 @@
 						id: "neovitae:essentia_vitae_bucket"
 					}
 					id: "5F260183479B3F42"
+					permission_level: 3
 					type: "command"
 				}
 				{

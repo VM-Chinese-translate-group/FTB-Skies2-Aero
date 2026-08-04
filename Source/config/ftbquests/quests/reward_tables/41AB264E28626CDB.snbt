@@ -962,6 +962,8 @@
 			}
 			weight: 2.0f
 		}
+		{ id: "69B51FF25B319EFA", item: { components: { "relics:data": { abilities: { abilities: { dispersion: { lock: { breaks: 5 }, points: 0, stats: { distribution_ratio: { initialQuality: 3 }, player_xp_ratio: { initialQuality: 10 }, same_item_bonus: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:experience_disperser" } }
+		{ id: "456C98E53559EC59", item: { components: { "relics:data": { abilities: { abilities: { envy: { lock: { breaks: 5 }, points: 0, stats: { incoming_damage_multiplier: { }, outgoing_damage_multiplier: { initialQuality: 6 } } }, gluttony: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 4 }, late_multiplier: { initialQuality: 10 } } }, greed: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 8 }, looting: { initialQuality: 3 }, luck: { initialQuality: 10 } } }, lust: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 4 }, time: { initialQuality: 10 } } }, pride: { lock: { breaks: 5 }, points: 0, stats: { multiplier: { initialQuality: 3 } } }, sloth: { lock: { breaks: 5 }, points: 0, stats: { speed: { initialQuality: 7 }, time: { initialQuality: 8 } } }, wrath: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 5 }, late_multiplier: { }, window: { initialQuality: 4 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:ring_of_the_seven_deadly_sins" } }
 	]
 	use_title: true
 }

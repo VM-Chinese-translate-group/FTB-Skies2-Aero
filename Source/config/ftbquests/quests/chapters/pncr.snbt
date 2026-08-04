@@ -1457,7 +1457,7 @@
 			tasks: [
 				{
 					id: "142801A29595E7A0"
-					item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+					item: { count: 1, id: "modern_industrialization:crude_oil_bucket" }
 					type: "item"
 				}
 				{
