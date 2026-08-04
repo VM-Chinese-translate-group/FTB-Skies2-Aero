@@ -783,7 +783,7 @@
 		"注意：一些合金可以用其他模组的机器合成，甚至手搓都可以，不过代价是消耗更多资源。"
 	]
 	quest.0A6E103A6945D11E.title: "&6铸造器"
-	quest.0A7737571F027A95.quest_desc: ["多达108个符文以及转角处的狱锻块已将你的祭坛擢升至&c等级 IV&r，它将成为&c至圣生命宝珠&r之居所，孕育最为至强之仪式的温床。"]
+	quest.0A7737571F027A95.quest_desc: ["A hundred runes and Hellforged Block set at the compass points raise the altar to &cTier IV&r, home of the &cDominus Orb of Vitae&r and the most destructive rites in all of Vitaemancy."]
 	quest.0A7737571F027A95.title: "等级 IV：枢机法师生命宝珠"
 	quest.0A92084D7043133A.quest_desc: [
 		"&b插件&r可以提升你的Oritech多方块机器工作效率，提升的属性取决于使用的插件。"
@@ -1673,6 +1673,7 @@
 	quest.1733FCE814C7DE2D.title: "&e应用通量"
 	quest.1739969280BB4E82.quest_subtitle: "传输红石信号"
 	quest.1739969280BB4E82.title: "&f红石导管"
+	quest.17612A3DF8930377.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.176610923FDE130F.quest_desc: ["只要使用&b掺杂硅板&r而不是常规硅板，你就能提高其配方的产量。"]
 	quest.176610923FDE130F.title: "&f掺杂硅板"
 	quest.176783D2397F5BE7.quest_desc: ["&e机械动力：电气时代&f加入了类似于&a烈焰人燃烧室&f的太阳能板，可对上方方块进行加热。"]
@@ -1689,6 +1690,7 @@
 		"某些情况下可能需要设计多环结构。"
 	]
 	quest.1770A460E1FD7CC8.title: "&f设计粒子加速器"
+	quest.1771DF7C6EBF1B89.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.17A73A05FAE4D6F5.quest_desc: [
 		"&b传说符石基底&r是&d史诗符石基底&r的升级。"
 		""
@@ -1905,6 +1907,11 @@
 		"对着空气使用工具会调整工具的添加或移除工作模式，如果对着空气潜行右击的话，会改变一次并入网络的抽屉数量！"
 	]
 	quest.1AA08B095A8B378F.title: "&f链接抽屉"
+	quest.1AB874D6EADDB75D.quest_desc: [
+		"Eight runes made a ring. &cTier II&r wants &c24&r of them, and four two-block pillars standing four blocks out on every side, each capped with &cBlood Stained Glass&r."
+		""
+		"Any solid block serves for the pillars. Raise it and the &cAra Vitae&r can forge the &cVeneficus Orb of Vitae&r."
+	]
 	quest.1AB874D6EADDB75D.title: "等级2"
 	quest.1ABA5F2ECAA6D9D2.quest_desc: [
 		"&e通用机械&r提供的物流线缆和管道是这个整合包最好用的管线！已经放在地上的管线可以直接升级，而且它们都有自己的内部缓存。"
@@ -2012,6 +2019,7 @@
 	]
 	quest.1B986C3D7E212B33.title: "黑洞榨汁"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
+	quest.1BBED0C6E9F1ED2F.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.1BC994881BC225ED.quest_desc: [
 		"你可以在&a织物工作台&r上把隐秘线轴与不同材料结合在一起，并把它们安置在奥术盔甲上。盔甲的外观会发生变化，但防御力和其他增益都会保留。"
 		""
@@ -2236,6 +2244,7 @@
 		""
 		"升至8阶时，你还需要把&2稳定器&r升级为环型结构，共需要36个（每个环9个）。"
 	]
+	quest.1E7B5442F153ED3B.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.1E89C7DECA4E915A.quest_desc: [
 		"&d大气电离仪&f是一种天气控制设备，通过消耗&b天气凝核&f与AE的能量将世界天气强制更改为指定状态，从而为&a闪电收集器&f提供稳定的自然雷击。"
 		""
@@ -2299,6 +2308,7 @@
 		"敌人拥有飞行、远程攻击能力，因此这场战斗会非常艰难，所以在大战前先做好准备吧。"
 	]
 	quest.1F7919AA7C47CB88.title: "&#cd342d炼狱要塞之门"
+	quest.1F804789D4AD363F.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.1F8EC3339B8873B9.quest_desc: [
 		"&a经验方尖碑&r是存储经验的最好方式之一，与&a真空经验箱&r配合使用体验更佳。"
 		""
@@ -2314,7 +2324,7 @@
 	]
 	quest.1F94DD493FE20C0B.title: "&e盆栽树"
 	quest.1FB8BF0898FD99D9.quest_desc: [
-		"28个符文与四条顶端是染血玻璃的立柱已将你的祭坛擢升至&c等级 II&r，现在它可以制作&c巫师的生命宝珠&r。"
+		"24个符文与四条顶端是染血玻璃的立柱已将你的祭坛擢升至&c等级 II&r，现在它可以制作&c巫师的生命宝珠&r。"
 		""
 		"二级的祭坛不在只是普通的工具，更是一台引擎。"
 	]
@@ -3260,6 +3270,10 @@
 		"调制这杯完美饮品的旅程中，你将领略这个整合包中的绝大部分模组、机制和维度。"
 		""
 		"无论你是来体验舒适的空岛，还是挑战自动化。为了你和你的冒险，干杯 🍻"
+		"{@pagebreak}"
+		"The &zPiña Colada&f is the ultimate end-goal of &6FTB Skies 2: Aero&f."
+		""
+		"After crafting this item, you must drink it "
 	]
 	quest.2D0F5BF08D40618C.title: "&z椰林飘香"
 	quest.2D178651FB267E91.title: "精通之证"
@@ -3633,7 +3647,7 @@
 		""
 		"借助其他模组提前获取亚马龙平板电脑，你就能直接下单购买石油并将其送达至储罐中。"
 		""
-		"流体镭射钻和石油钻机都是多方块结构，可以使用能量稳定生成石油。"
+		"The Pumpjack and the Oil Drilling Rig are multiblock setups that will steadily generate oil using energy. "
 	]
 	quest.31B06C6ACEF764E0.quest_subtitle: "美国知道你的坐标"
 	quest.31B06C6ACEF764E0.title: "&f出门找原油！"
@@ -4191,6 +4205,7 @@
 		"{image\\:\\ftb:textures/quests/modern_industrialization/heatexchanger.png width:200 height:150 align:center}"
 	]
 	quest.37A31A3936ADD670.title: "&d热交换机"
+	quest.37CB1AD3D940346F.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.37D23D46198DA708.quest_desc: [
 		"这些组件可以将网络中的方块放置到世界上，或破坏世界上的方块。"
 		""
@@ -4522,9 +4537,6 @@
 		"&d动力合成器&r是一种巨大的工作台，可以通过多种不同的方式实现自动化。"
 		""
 		"&a合成槽盖板&r可用于覆盖自动合成中未使用的槽位。当然，你也可以使用红石信号来强制启动合成配方。"
-		""
-		""
-		"&c&lFTB提示&r：由于对加载时间的影响，目前普通的合成功能已禁用。对于给你带来的不便，我们深表歉意。"
 	]
 	quest.3B5B50AF7B7F1EDE.title: "&d动力合成器"
 	quest.3B6540C11FAF6C3D.quest_desc: [
@@ -4836,6 +4848,7 @@
 		"此外，你还可以调整更多高级选项，例如设置物品过滤器来决定让收集器拾取哪些特定物品，或是调整收集器拾取物品的频率。"
 	]
 	quest.3F26B10626145BBC.title: "&eJust Dire的&f物品拾取器"
+	quest.3F53B8955DF5B0F2.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.3F5480E01ABA887B.quest_desc: [
 		"&a自动合成仓&r最多可安装9个已配置配方的&a样板&r和4个&a速度升级&r。"
 		""
@@ -5078,6 +5091,7 @@
 		"它还用于制作&3Minecraft之魂&r。"
 	]
 	quest.423950ED16C2422B.title: "&b勇士之力"
+	quest.423C04D5968C6A2B.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.424BFFB9EFAB9565.quest_desc: ["&3电子管&r是一种合成部件，用于在&e机械动力&r中制作一些电子或可以控制的机械装置。"]
 	quest.424BFFB9EFAB9565.title: "&3电子管"
 	quest.425A41A378E7BF52.quest_desc: [
@@ -5098,6 +5112,7 @@
 		"&e量子稳定&r会剔除掉负面的部分，这样你的附魔等级就只增不减了。"
 	]
 	quest.427682661459BB4F.title: "&e稳定化附魔"
+	quest.428A1ABBA6791E75.quest_desc: ["&7&o从山羊事件、商店或任务奖励中获得。"]
 	quest.4291D83FD8A79A24.title: "&f甜浆果芝士派"
 	quest.42C7DDFED49DAC47.quest_desc: [
 		"消耗下界之星或烟花之星。"
@@ -5998,6 +6013,7 @@
 		"你需要将该化学物质通过&a回旋式气液转换机&r，才能将其装桶或泵送一桶（1000mB）的量到指定的&a任务目标显示器&r中。"
 	]
 	quest.4EAE9F58776D84C8.title: "&f硫酸"
+	quest.4EB43B146ED82F1E.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.4ECDF58A8FB43590.quest_subtitle: "传输气体和化学品"
 	quest.4ECDF58A8FB43590.title: "&e通用机械&2气体管道"
 	quest.4ECF22AA79A3688B.title: "&f卷心菜农场"
@@ -6617,9 +6633,6 @@
 	]
 	quest.580866E99C53DB3E.title: "&f自动拾取升级！"
 	quest.580DDEAC95562B05.title: "&b四级&f种子"
-	quest.580FB02F9178E853.quest_desc: ["当你得到你第一枚&5奇点&r后，可以把它拿去电解以获得&5UU物质&r，虽然每次电解只会产出1mB的&5UU物质&r，但奇点并不会被消耗。"]
-	quest.580FB02F9178E853.quest_subtitle: "了解UU物质"
-	quest.580FB02F9178E853.title: "&5UU物质"
 	quest.583FFE29C881EE8C.quest_desc: [
 		"你可以用&6通量网络配置器&r直接打开网络UI，本模组的任何方块都可以直接打开网络UI。"
 		""
@@ -6707,6 +6720,7 @@
 		"当然，3种方式你都可以发展，但是你只能选择1种方式的奖励来&a提升&r效率。"
 	]
 	quest.58CD2EA60183F861.title: "&c猩红神杖"
+	quest.58EA61D0CE13D752.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.58F29A199D553D29.quest_desc: [
 		"&3柴油发电机&r可通过燃烧&e柴油&r等燃料产生能量。"
 		""
@@ -7017,7 +7031,7 @@
 		"&o&7用于合成彩虹发电机"
 	]
 	quest.5DE88B0427A5B039.quest_desc: [
-		"56枚符文，由血石砖作为盖顶的立柱，以及一些虚弱气血碎片，擢升祭坛至&c等级 III&r。"
+		"Fifty-two runes, pillars crowned in Blood Stained Glass and corners of Bloodstone Brick, raise the altar to &cTier III&r."
 		""
 		"现在你可以铸造&c法师生命宝珠&r，以及&c仪式占卜杖[薄暮]&r了。"
 	]
@@ -7260,6 +7274,7 @@
 		"&a血腥虞美人&r大多用来装饰，不过，对有人经过的血腥罂粟使用空的巫媒套件可以收集血液样本。"
 	]
 	quest.612A181814F656B1.title: "巫师植物"
+	quest.612B021FC1A3B205.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.612B021FC1A3B205.title: "&b水母项链"
 	quest.6137FF3EFFACB3A3.quest_desc: [
 		"消耗常规的燃料。"
@@ -7294,6 +7309,7 @@
 		"&n&4警告！&r勾选此勾选框完成任务后，你的团队将踏上水晶魔法之道，并锁定另外两条路径的奖励。"
 	]
 	quest.617AB01D45539EA7.title: "&f水晶催生"
+	quest.618B5341336CA8CB.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.61A8D9B0C8D22D50.quest_desc: [
 		"&a剪贴板&r是一个方便的工具，用于记录一些事务。"
 		""
@@ -7628,6 +7644,7 @@
 	quest.66B66C0C33071D7B.quest_desc: ["在&3化学反应釜&r中让&a粗铂&r和&e硫酸&r反应，我们就可以得到&d硫酸铂溶液&r。"]
 	quest.66B66C0C33071D7B.title: "&d硫酸铂溶液"
 	quest.66BC17A3725601D7.title: "&f番茄农场"
+	quest.66E5ACACAC79B1F8.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.66FE429D36389F75.quest_desc: [
 		"在杀死生物收集精魂时，它们的精魂有概率把蕴含的精华注入到原本的掉落物中，从而使它们获得新的形态。"
 		""
@@ -7719,6 +7736,7 @@
 		"右击&a熔岩工厂控制器&r就可以显示目前是否可以产生熔岩。"
 	]
 	quest.680EF3BB338460AA.title: "&f熔岩工厂"
+	quest.682D4887ED36D3B7.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.684AAE454101D8B7.quest_subtitle: "神圣套装"
 	quest.684AAE454101D8B7.title: "&6牧师套装"
 	quest.68583162106594A8.quest_desc: [
@@ -7779,7 +7797,7 @@
 		""
 		"&2研磨机&r可以使矿石增产并可以从一些物品中获得副产物。"
 	]
-	quest.69159D10C2791C2E.title: "&f粉碎和切割"
+	quest.69159D10C2791C2E.title: "&f粉碎和烧炼"
 	quest.69282BCC2FA04060.quest_desc: [
 		"这个方块非常简单，但在&eI.D&r网络中起着非常重要的作用。你可以将赋值好的变量卡放在其中，以便网络调用。"
 		""
@@ -7917,6 +7935,7 @@
 	]
 	quest.6B6C60BFE1D378D0.title: "&6完全体装配矩阵"
 	quest.6B86574E77643F07.quest_desc: ["通过持续杀死来自三个维度的生物，你可以收集它们的泪水作为反应仓的润滑剂。"]
+	quest.6B9371B721B992AD.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.6B971FA156A96BD5.quest_desc: [
 		"&a精魂催化器&r会消耗熔炉可用的燃料来给附近的&e坩埚&r加速。1个坩埚最多可以被8个催化器加速。"
 		""
@@ -8120,6 +8139,7 @@
 		"给箱子命名后，它在书龙讲台内就会自带一个存储标签。你可以选择用铁砧给箱子命名，也可以直接用命名法术！"
 	]
 	quest.6FEA088D2D5A3AEF.title: "&d书龙&f，以及魔法存储！"
+	quest.6FEF508F7DDDB261.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.6FF752712E99A936.quest_desc: ["如果想要合成升级，你得先做&a升级基板&r。"]
 	quest.6FF752712E99A936.title: "&f升级基板"
 	quest.705E4FFB4FCADFD1.quest_desc: [
@@ -8360,6 +8380,7 @@
 		""
 		"&o&7用于合成彩虹发电机"
 	]
+	quest.72C782BC4F768080.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.72D582D05DC9C7A2.quest_desc: [
 		"&2橡木蜂巢&r可以在主世界的橡树上发现，也可以通过制作获得。"
 		""
@@ -9422,6 +9443,7 @@
 	reward.4D8CE3813F5B049C.title: "解锁战利品袋商店"
 	reward.5232A5D897287658.title: "选择传说级奖励"
 	reward.55C61BB9870E19BF.title: "解锁杂项商店"
+	reward.58FC98BAEDB8920C.title: "+10,000 EV"
 	reward.5C3AD0A37016117B.title: "自选遗物"
 	reward.5F260183479B3F42.title: "+2500 EV"
 	reward.6151767D816C3443.title: "+250 EV"
