@@ -72,6 +72,8 @@ item_ids:
 | <ItemImage id="ftbmaterials:silver_chunk" scale="0.5"/> 银 | — | 钻石+ | 金制+ |
 | <ItemImage id="ftbmaterials:aluminum_chunk" scale="0.5"/> 铝 | 金制+ | 金制+ | 烈焰 |
 | <ItemImage id="ftbmaterials:osmium_chunk" scale="0.5"/> 锇 | 钻石+ | 钻石+ | — |
+| <ItemImage id="ftbmaterials:zinc_chunk" scale="0.5"/> 锌 | 烈焰 | 烈焰 | — |
+| <ItemImage id="ftbmaterials:fluorite_chunk" scale="0.5"/> 氟石 | 烈焰 | 烈焰 | — |
 | <ItemImage id="ftbmaterials:lapis_lazuli_chunk" scale="0.5"/> 青金石 | 金制+ | — | — |
 | <ItemImage id="ftbmaterials:emerald_chunk" scale="0.5"/> 绿宝石 | 金制+ | — | — |
 | <ItemImage id="ftbmaterials:diamond_chunk" scale="0.5"/> 钻石 | 钻石+ | — | — |
@@ -118,7 +120,7 @@ item_ids:
 | <ItemImage id="minecraft:gunpowder" scale="0.5"/> 火药 | — | 铁制+ |
 | <ItemImage id="minecraft:bone_meal" scale="0.5"/> 骨粉 | — | 布制+ |
 | <ItemImage id="mysticalagriculture:dirt_essence" scale="0.5"/> 泥土精华 | — | 布制 |
-| <ItemImage id="mysticalagriculture:prosperity_shard" scale="0.5"/> 活化水晶碎片 | 金制+ | — |
+| <ItemImage id="mysticalagriculture:prosperity_shard" scale="0.5"/> 活化水晶碎片 | 金制 | — |
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
