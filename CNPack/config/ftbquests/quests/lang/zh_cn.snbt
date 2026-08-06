@@ -4587,7 +4587,7 @@
 	quest.3B8310CD44BBD6F1.quest_desc: [
 		"借助磁铁和&2碳刷&f，&a发电机线圈&f可以将&e机械动力模组的&b应力&f（&bSU&f）转化为&cForge能量（FE）&f。"
 		""
-		"[ \"使用这种方法，你对\", {\"text\": \"SU\", \"color\": \"aqua\"}, \"生产投资越多，你的电力就越多。每个\", { \"text\": \"核反应堆\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2617A856093F36AB\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往该任务\"} }, \"提供的&bSU&f足以产生约30万FE/t。\" ]"
+		"[ \"以这种方法，你生产越多\", {\"text\": \"SU\", \"color\": \"aqua\"}, \"，就能获得越多电力。每个\", { \"text\": \"核反应堆\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2617A856093F36AB\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往该任务\"} }, \"提供的&bSU&f足以产生约30万FE/t。\" ]"
 		""
 		"一排最多可放置8个&a发电机线圈&f。而&a发电机线圈&f彼此相邻时，可以共用磁铁，从而节省一些资源。"
 		""
