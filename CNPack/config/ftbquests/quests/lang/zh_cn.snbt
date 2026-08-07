@@ -783,7 +783,7 @@
 		"注意：一些合金可以用其他模组的机器合成，甚至手搓都可以，不过代价是消耗更多资源。"
 	]
 	quest.0A6E103A6945D11E.title: "&6铸造器"
-	quest.0A7737571F027A95.quest_desc: ["A hundred runes and Hellforged Block set at the compass points raise the altar to &cTier IV&r, home of the &cDominus Orb of Vitae&r and the most destructive rites in all of Vitaemancy."]
+	quest.0A7737571F027A95.quest_desc: ["一百块符文，加上置于四方方位上的狱锻块，可将祭坛升至&c等级 IV&r。这里能孕育出&c至圣生命宝珠&r，亦可施行至强之仪式中最具破坏力的仪式。"]
 	quest.0A7737571F027A95.title: "等级 IV：枢机法师生命宝珠"
 	quest.0A92084D7043133A.quest_desc: [
 		"&b插件&r可以提升你的Oritech多方块机器工作效率，提升的属性取决于使用的插件。"
@@ -1908,9 +1908,9 @@
 	]
 	quest.1AA08B095A8B378F.title: "&f链接抽屉"
 	quest.1AB874D6EADDB75D.quest_desc: [
-		"Eight runes made a ring. &cTier II&r wants &c24&r of them, and four two-block pillars standing four blocks out on every side, each capped with &cBlood Stained Glass&r."
+		"八块符文可围成一圈。而升至&c等级 II&r需要&c24&r块符文，并在四个方向各向外延伸4格处立起高2格的柱子，每根柱顶冠以&c染血玻璃&r。"
 		""
-		"Any solid block serves for the pillars. Raise it and the &cAra Vitae&r can forge the &cVeneficus Orb of Vitae&r."
+		"柱子可使用任意实体方块搭建。升至此级后，&c命血祭坛&r便可锻造&c巫师生命宝珠&r。"
 	]
 	quest.1AB874D6EADDB75D.title: "等级2"
 	quest.1ABA5F2ECAA6D9D2.quest_desc: [
@@ -3271,9 +3271,9 @@
 		""
 		"无论你是来体验舒适的空岛，还是挑战自动化。为了你和你的冒险，干杯 🍻"
 		"{@pagebreak}"
-		"The &zPiña Colada&f is the ultimate end-goal of &6FTB Skies 2: Aero&f."
+		"&z椰林飘香&f是&6FTB Skies 2：Aero&f的终极目标。"
 		""
-		"After crafting this item, you must drink it "
+		"合成此物品后，将其饮下"
 	]
 	quest.2D0F5BF08D40618C.title: "&z椰林飘香"
 	quest.2D178651FB267E91.title: "精通之证"
@@ -3647,7 +3647,7 @@
 		""
 		"借助其他模组提前获取亚马龙平板电脑，你就能直接下单购买石油并将其送达至储罐中。"
 		""
-		"The Pumpjack and the Oil Drilling Rig are multiblock setups that will steadily generate oil using energy. "
+		"抽油机（Pumpjack）和石油钻机都是多方块结构，可以使用能量稳定生成石油。"
 	]
 	quest.31B06C6ACEF764E0.quest_subtitle: "美国知道你的坐标"
 	quest.31B06C6ACEF764E0.title: "&f出门找原油！"
@@ -7031,7 +7031,7 @@
 		"&o&7用于合成彩虹发电机"
 	]
 	quest.5DE88B0427A5B039.quest_desc: [
-		"Fifty-two runes, pillars crowned in Blood Stained Glass and corners of Bloodstone Brick, raise the altar to &cTier III&r."
+		"五十二块符文、顶部冠以染血玻璃的柱子以及血石砖构成的边角，可将祭坛升至&c等级 III&r。"
 		""
 		"现在你可以铸造&c法师生命宝珠&r，以及&c仪式占卜杖[薄暮]&r了。"
 	]
