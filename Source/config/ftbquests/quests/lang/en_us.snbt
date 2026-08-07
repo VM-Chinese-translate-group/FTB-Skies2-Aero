@@ -219,6 +219,8 @@
 		"The &dGas-Burning Generator&r is one of the best ways to generate power in the early game that can last well into the mid game."
 		""
 		"This generator can burn &dEthene&r to produce power at a very high rate! You can expect each full generator to produce ~5k RF/t."
+		""
+		"Alternatively,"
 	]
 	quest.02BC61BBCDB931A3.title: "&dGas-Burning Generator"
 	quest.02F52598328E84A0.quest_desc: [
@@ -1386,6 +1388,8 @@
 		"&2Time Fluid&f is used in the &dParadox Mixer&f, primarily used for the &zPina Colada&f craft."
 		""
 		"It can also be used to power &dBudding Time Crystals&f."
+		""
+		"You'll want to make the &6Echoing Budding Time Block&f once you're able to so that you can mass-produce &aTime Clusters&f. It requires &cEnergy&f and &2Time Fluid&f to run."
 	]
 	quest.12662BF53A31F0B4.quest_desc: [
 		"Want to keep other players away from your stuff? Make an &aExpulsion Pylon&r!"
@@ -1506,7 +1510,7 @@
 		""
 		"&c&lWARNING!&r Loss of stabilization while storing &9Souls&r may have &ccatastrophic&r consequences."
 	]
-	quest.13DFA7B0975971B7.title: "&dOritech Enchanting"
+	quest.13DFA7B0975971B7.title: "&dSoul Enchanting"
 	quest.13FE28AF74A357CD.quest_desc: ["&dBrass Funnels&r and &dBrass Tunnels&r function just like their andesite counterparts, but allow for item quantity configuration and item filtering."]
 	quest.13FE28AF74A357CD.title: "&dUpgraded Item Handling"
 	quest.1403ABF77D987200.quest_desc: [
@@ -1655,6 +1659,13 @@
 		"For more information about how to make the &aPattern Providers&r and &3Assemblers&r work faster, check out the AE2 Guide!"
 	]
 	quest.16B60BCB8240F808.title: "&fStoring Patterns"
+	quest.16BCE01AAAC88527.quest_desc: [
+		"The &2pumpjack&r is a custom multiblock added to this pack. It requires mostly raw materials like steel to construct and once built you need to provide it with &epower and a mesh&r. The tier of mesh you use will decide how efficiently the pumpjack runs. "
+		""
+		"While running it will produce &8Oil&r at a decent rate while slowly consuming the &emesh&r (Creative Mesh lasts forever). Use a Modern Industrialization &ewrench&r in your hand to see a live preview of the multiblock in world. "
+	]
+	quest.16BCE01AAAC88527.quest_subtitle: "Black Gold, Texas Tea"
+	quest.16BCE01AAAC88527.title: "The Pumpjack"
 	quest.16C3EFC0741108EE.quest_desc: ["&zQuantum Gear&r is the best there is. You can fly freely for no power cost, never take damage from external sources, and kill any mob in one hit with the &zQuantum Sword&r."]
 	quest.16C3EFC0741108EE.title: "&zQuantum Gear"
 	quest.16C668B00B581A9C.quest_desc: [
@@ -3167,15 +3178,6 @@
 		"It's an &aInfusion Crystal&r that never breaks!"
 	]
 	quest.2AF9753B396F7625.title: "&dMaster Infusion Crystal"
-	quest.2AFB466982F0D9CE.quest_desc: [
-		"[\"See its \", {\"text\": \"quest\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6A22BBE9C146E910\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Electric Quarry Quest\"]} }, \" for more details.\"]"
-		""
-		"This is the second tier of quarry from Modern Industrialization. The steam tier doesn't offer much outside of basic Path resources besides sulfur."
-		""
-		"Not recommended for beginners."
-	]
-	quest.2AFB466982F0D9CE.quest_subtitle: "General purpose ore generation"
-	quest.2AFB466982F0D9CE.title: "&fElectric Quarry"
 	quest.2B02D9425E19F560.quest_desc: [
 		"Found something that doesn't work like it should?"
 		""
@@ -4519,13 +4521,6 @@
 		"Note: This is a virtual quarry, and does not destroy any blocks!"
 	]
 	quest.3A91BB6A673C0D83.title: "&aMultiblock Quarries&r"
-	quest.3A97BF08F622BB5B.quest_desc: [
-		"The &aEnchanter&r from &6EnderIO&r is an &dEnchantment Table&r that allows you to pick which enchantment you want to make."
-		""
-		"When provided with specific items and &2Experience&r, you can enchant &aBook \\&\\ Quills&r with an enchantment of your choice."
-		""
-		"To see which enchantments you can make, make sure to check out the uses in JEI!"
-	]
 	quest.3AB6083CCDD1B74A.quest_desc: [
 		"The &aKettle&r is used to craft many items and potions and needs some heat underneath it for proper brewing, be sure to place it over a &eCampfire&r or a similar heat source."
 		""
@@ -4787,7 +4782,11 @@
 		"&dQuantum Crafting Units&r can be used to fill in empty spaces within the multiblock, but do not serve a purpose otherwise when placed inside."
 	]
 	quest.3D767C3E2F0DE320.title: "&fThe &6Quantum Computer &fStructure"
-	quest.3D9FFFF325533514.quest_desc: ["Double byproduct amount in &aFragment Forge&r. Increases block breaking yield in &aDestroyer Blocks&r and &aEnderic Lasers&r."]
+	quest.3D9FFFF325533514.quest_desc: [
+		"Increases block breaking yield in &aDestroyer Blocks&r and &aEnderic Lasers&r."
+		""
+		"Doubles byproduct amount in &aFragment Forge&r. "
+	]
 	quest.3D9FFFF325533514.title: "&fMachine Yield Addon"
 	quest.3DD5BAC2ADCDF36B.quest_subtitle: "Craftable"
 	quest.3DD5BAC2ADCDF36B.title: "&aDruidic Tome"
@@ -5327,6 +5326,12 @@
 		"Multiple &aWheels&r can be stacked next to each other to increase your system's &bStress Capacity&r."
 	]
 	quest.44B6C65772E456D0.title: "&aWater Wheel"
+	quest.44BEA4F6BA513806.quest_desc: [
+		"&eOritech's &aSteam Boiler Addon&f allows an &eOritech&f generator to produce &bSteam&f instead of energy, which can be used in the &dSteam Engine&f to produce a lot of energy."
+		""
+		"[ \"In \", {\"text\": \"Skies 2: Aero\", \"color\": \"gold\"}, \", \", {\"text\": \"Steam\", \"color\": \"aqua\"}, \" can be converted and used to power other modded generators such as \", { \"text\": \"Mekanism's Turbine\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27DDFC98CAD347B1\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Meka Turbine Quest\"} }, \" and \", { \"text\": \"Modern Industrialization's Steam Turbine\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Turbine Quest\"} }, \".\"]"
+	]
+	quest.44BEA4F6BA513806.title: "&dSteam Power!"
 	quest.44C341DE3BCD64CC.quest_desc: [
 		"This upgraded version of the &dEnchantment Library&r can store enchantments values up to level 31."
 		""
@@ -5583,6 +5588,12 @@
 		"If you're ever lost on what to do, you can always use the &aFargo's Talisman Guide&r to help you."
 	]
 	quest.48E284F256F6453E.title: "&fWelcome to &eFargo's Talismans&f!"
+	quest.490ED4C756B0C84D.quest_desc: [
+		"Within the bowels of the &zEndless Hell&f, you'll find the &dForeman&f, a formidable demon."
+		""
+		"[ \"You must progress into \", { \"text\": \"NeoVitae\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3EC0F38A5F8D01E2\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Questline\"} }, \" before reaching this foe.\" ]"
+	]
+	quest.490ED4C756B0C84D.title: "Kill the &dForeman"
 	quest.493E152B4A7BB767.quest_desc: ["&3Redstone Requesters&r allow you to request specific item(s) from a linked stock network when pulsed with a redstone signal."]
 	quest.493E152B4A7BB767.title: "&3Redstone Requester"
 	quest.49540656967A58DC.title: "Play for 1 Hour"
@@ -6477,7 +6488,9 @@
 		""
 		"To get one, you'll need to perform the &aRitual of Awakening&r near Budding Amethyst to get the Amethyst Golem Charm."
 		""
-		"Use this Charm anywhere to summon the Golem, then set its home block by using a Dominion Wand on the Golem first, then onto a chest you want to set as its home. The Golem will harvest any crystals within 10 blocks of its home block!"
+		"Use this Charm anywhere to summon the Golem, then set its home block by using a Dominion Wand on the Golem, then onto a chest to set its deposit block. The Golem will harvest any crystals within 10 blocks of its home!"
+		""
+		"&eNote&f: Golems prefer vanilla inventories to deposit their items."
 	]
 	quest.54AC477417E72055.title: "&dAmethyst &fFarming"
 	quest.54B7D149B45635F4.quest_desc: ["The &dChronometer&r is a better version of the &aChronon Generator&r, passively producing more &bChronon&r than before."]
@@ -6511,7 +6524,9 @@
 	quest.54E7FC957D0973D7.quest_desc: [
 		"If you've chosen one of the starter bases that contains a ship, you'll want to know a few things about &eSimulated Contraptions&f before you set off on your adventure."
 		""
-		"It is &cVERY&f advised to use &a/sethome&f on your ship once you have assembled it, or you will not be able to get back on it"
+		"It is &cVERY&f advised to use &a/sethome&f on your ship once you have assembled it, or you will not be able to get back on it."
+		""
+		"It is recommended to set up the waystone given to you as this quest reward at your ship, since &a/sethome&f is not 100% reliable."
 	]
 	quest.54EA7CEFB131A995.quest_desc: [
 		"The &7Normal Talisman Base&r is your starting tier for talisman crafting."
@@ -7016,6 +7031,11 @@
 		"All trains need at least one of these in order to work."
 	]
 	quest.5C7494C886570E80.title: "&6Train Controls"
+	quest.5C821A41A1730AA4.quest_desc: [
+		"The &dRefinery&r is used to process fluid mixtures. It has 1 item input, 1 fluid input, and between 1 and 3 fluid outputs."
+		""
+		"To gain access to more output slots you'll need to craft extra &aRefinery Chamber Modules&f and assemble them on top of the &dRefinery&f."
+	]
 	quest.5CA5F9BE51C24FC8.title: "&fRedstone Card"
 	quest.5CC2FE30CF016754.title: "&a1k Storage Part"
 	quest.5CC65B3FE402E58B.quest_desc: [
@@ -7139,6 +7159,11 @@
 		"These are also used to make the strongest tier of essence, &6Awakened Supremium Essence&r."
 	]
 	quest.5E04779BC1EB52E9.title: "&bElemental Seeds"
+	quest.5E05CA392077BE35.quest_desc: [
+		"The &2Source Condenser&f converts nearby or generated &dSource&f into &bLiquid Source&f."
+		""
+		"[ \"This is useful when converted into gas to generate power via \", { \"text\": \"Mekanism's Gas-Burning Generator\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02BC61BBCDB931A3\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \".\"]"
+	]
 	quest.5E12FC7FD8720FBA.quest_desc: [
 		"Something runs the Mines, and it does not clock out. The &cForeman&r is a Daemonium Doloris swollen with authority: six hundred hearts of spite and a key no one else carries."
 		""
@@ -8850,6 +8875,18 @@
 		"This means that, at higher speeds, the distance between &aGuide Rings&r can be larger."
 	]
 	quest.7791DA964DA2A80D.title: "&fAccelerator Setup"
+	quest.779E01749502690E.quest_desc: [
+		"The &6Tainted Refinery&f is a 'corrupted' version of the &dRefinery&r. "
+		""
+		"[\"To create it, explode a \", {\"text\": \"Refinery\", \"color\": \"light_purple\"}, \" while a charged \", { \"text\": \"Arcane Catalyst\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13DFA7B0975971B7\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" is within 6 blocks of it.\" ]"
+		""
+		"It processes the same refinery recipes but accepts unlimited energy with diminishing returns, and its output and energy efficiency can be increased by surrounding it with the right blocks:"
+		""
+		"- Sculk-themed blocks increase the &bOutput Multiplier&f, ranging from 1x to 3x."
+		"- Arcane-themed blocks increase the &bEnergy Efficiency&f, ranging from 1x to 9x."
+		""
+		"&7Check the Oracle guide for more information"
+	]
 	quest.77C20F4D048CD9BF.quest_desc: [
 		"You'll need to make &2Orange Crystals&f to give your &dCoconut Cream&f its delightful texture."
 		""
@@ -9577,6 +9614,7 @@
 	task.035C4884AAC6C3AB.title: "Managing Teams"
 	task.03CB37E752FE1DD1.title: "&eFind Structure&f: &cVolcano"
 	task.03DFD823ACDCF36F.title: "Fluid Management"
+	task.03F4476EBA5B9315.title: "Malum Trinkets"
 	task.042D580737DAD156.title: "Any #ftb:tiered_interfaces"
 	task.0530149F4E3FF764.title: "Kitchen Cabinets"
 	task.0571EE9376E24EFB.title: "Any #ftb:tiered_display_stands"
@@ -9805,7 +9843,6 @@
 	task.574369B60421C9FF.title: "&aBanding Materials"
 	task.575F4232C0E9D957.title: "Magical Equipment"
 	task.578CC62BD4DEF924.title: "Observe the &aHot Air Burner&r"
-	task.579A856376CC3518.title: "Any Malum curio"
 	task.58687506041183E7.title: "&eKill&f: &cSlimes"
 	task.5895E635907FB075.title: "Solar Heating Plates"
 	task.58BEE5F1435F017A.title: "&eObserve&f: &5Weeping Well's &fcontents"

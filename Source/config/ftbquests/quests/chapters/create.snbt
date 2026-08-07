@@ -3198,7 +3198,7 @@
 					type: "item"
 				}
 				{
-					count: 9L
+					count: 10L
 					id: "0A5246273C5E9CC0"
 					item: { count: 1, id: "pneumaticcraft:pressure_chamber_glass" }
 					type: "item"
@@ -3210,38 +3210,49 @@
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 6L
 					id: "2C5B632C08AECAA9"
 					item: { count: 1, id: "advanced_ae:quantum_unit" }
 					type: "item"
 				}
 				{
-					count: 5L
+					count: 6L
 					id: "63109A73C31E22EE"
 					item: { count: 1, id: "excessive_utilities:ender_flux_crystal" }
 					type: "item"
 				}
 				{
-					count: 3L
+					count: 4L
 					id: "419C3DC7DDF3800F"
 					item: { count: 1, id: "mekanism:dynamic_tank" }
 					type: "item"
 				}
 				{
-					count: 3L
+					count: 4L
 					id: "3042A22355885CD5"
 					item: { count: 1, id: "create:mechanical_mixer" }
 					type: "item"
 				}
 				{
-					count: 3L
+					count: 4L
 					id: "374520B8587A0BAC"
-					item: { count: 1, id: "productivemetalworks:casting_basin" }
+					item: { count: 1, id: "create:basin" }
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "206E80CB256DF2AE"
 					item: { count: 1, id: "create:depot" }
+					type: "item"
+				}
+				{
+					id: "7C1E4A9B3D06F582"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "2B8F5D147AE9C063"
+					item: { count: 1, id: "mekanism:laser" }
 					type: "item"
 				}
 			]
