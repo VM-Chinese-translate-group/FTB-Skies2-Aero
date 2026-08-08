@@ -219,6 +219,8 @@
 		"&d燃气发电机&r是游戏前期最强的发电方式之一，可一直用到游戏中期。"
 		""
 		"这种发电机能以极高的效率燃烧&d乙烯&r来发电！每台满载的发电机可产生约5k RF/t的能量。"
+		""
+		"Alternatively,"
 	]
 	quest.02BC61BBCDB931A3.title: "&d燃气发电机"
 	quest.02F52598328E84A0.quest_desc: [
@@ -1356,6 +1358,8 @@
 		"&2时间流体&f可用于&d悖论混合器&f中，主要用来制作&z椰林飘香&f。"
 		""
 		"它还可以用来为&d时间水晶母岩&f供能。"
+		""
+		"You'll want to make the &6Echoing Budding Time Block&f once you're able to so that you can mass-produce &aTime Clusters&f. It requires &cEnergy&f and &2Time Fluid&f to run."
 	]
 	quest.12662BF53A31F0B4.quest_desc: [
 		"不想让别的玩家乱动你的东西？做个&a驱逐塔&r！"
@@ -1476,7 +1480,7 @@
 		""
 		"&c&l注意！！！&r，如果储存大量&9灵魂&r的时候外部失去稳定，则可能造成&c极其严重&r的后果！！"
 	]
-	quest.13DFA7B0975971B7.title: "&dOritech的附魔方式"
+	quest.13DFA7B0975971B7.title: "&dSoul Enchanting"
 	quest.13FE28AF74A357CD.quest_desc: ["&d黄铜漏斗&r和&d黄铜隧道&r与安山岩版本功能大致相同，但支持配置输出物品数量与物品过滤功能。"]
 	quest.13FE28AF74A357CD.title: "&d升级版物品处理"
 	quest.1403ABF77D987200.quest_desc: [
@@ -1625,6 +1629,13 @@
 		"想了解如何提升&a样板供应器&r与&3分子装配室&r的运作效率，请查阅AE2指南！"
 	]
 	quest.16B60BCB8240F808.title: "&f存储样板"
+	quest.16BCE01AAAC88527.quest_desc: [
+		"The &2pumpjack&r is a custom multiblock added to this pack. It requires mostly raw materials like steel to construct and once built you need to provide it with &epower and a mesh&r. The tier of mesh you use will decide how efficiently the pumpjack runs. "
+		""
+		"While running it will produce &8Oil&r at a decent rate while slowly consuming the &emesh&r (Creative Mesh lasts forever). Use a Modern Industrialization &ewrench&r in your hand to see a live preview of the multiblock in world. "
+	]
+	quest.16BCE01AAAC88527.quest_subtitle: "Black Gold, Texas Tea"
+	quest.16BCE01AAAC88527.title: "The Pumpjack"
 	quest.16C3EFC0741108EE.quest_desc: ["&z量子装备&r就是这个游戏最强装备了，你可以不消耗能量到处飞翔，不受到任何外界伤害，而且用&z量子剑&r可以秒杀所有怪物。"]
 	quest.16C3EFC0741108EE.title: "&z量子装备"
 	quest.16C668B00B581A9C.quest_desc: [
@@ -3135,15 +3146,6 @@
 		"这种&a注魔水晶&r可以无限次使用！"
 	]
 	quest.2AF9753B396F7625.title: "&d终级注魔水晶"
-	quest.2AFB466982F0D9CE.quest_desc: [
-		"[\"查看此\", {\"text\": \"任务\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"6A22BBE9C146E910\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往电力开采机任务\"]} }, \"以获取详情。\"]"
-		""
-		"这是现代工业化模组中的二级采石机。蒸汽版本仅能提供基础路径下的资源（除了硫磺），功能较为有限。"
-		""
-		"不建议新手尝试。"
-	]
-	quest.2AFB466982F0D9CE.quest_subtitle: "通用矿石生成"
-	quest.2AFB466982F0D9CE.title: "&f电动采石机"
 	quest.2B02D9425E19F560.quest_desc: [
 		"发现某些东西无法正常运作？"
 		""
@@ -4472,13 +4474,6 @@
 		"注意：这是个虚拟的采石场，不会在物理意义上破坏方块！"
 	]
 	quest.3A91BB6A673C0D83.title: "&a多方块采石场&r"
-	quest.3A97BF08F622BB5B.quest_desc: [
-		"&6末影接口&r模组的&a附魔器&r是一个可以自选魔咒的&d附魔台&r。"
-		""
-		"使用特定的物品和一些&2经验值&r，你便可以按己所需给&a书与笔&r附上想要的魔咒。"
-		""
-		"想知道能制作哪些魔咒？看看JEI吧！"
-	]
 	quest.3AB6083CCDD1B74A.quest_desc: [
 		"&a水壶&r用于合成多种物品与药水。酿造时底部需有热源，请务必将其放置在&e营火&r或类似热源上方。"
 		""
@@ -4740,7 +4735,11 @@
 		"多方块内部空格可以用&d量子合成单元&r填充，除此之外没别的用处。"
 	]
 	quest.3D767C3E2F0DE320.title: "&6量子计算机&f结构"
-	quest.3D9FFFF325533514.quest_desc: ["在&a粉碎工厂&r中，使副产物产量加倍。增加&a方块破坏器&r和&a末影激光器&r挖掘的产出。"]
+	quest.3D9FFFF325533514.quest_desc: [
+		"Increases block breaking yield in &aDestroyer Blocks&r and &aEnderic Lasers&r."
+		""
+		"Doubles byproduct amount in &aFragment Forge&r. "
+	]
 	quest.3D9FFFF325533514.title: "&f产量升级插件"
 	quest.3DD5BAC2ADCDF36B.quest_subtitle: "可合成"
 	quest.3DD5BAC2ADCDF36B.title: "&a德鲁伊巨著"
@@ -5274,6 +5273,12 @@
 		"多个&a水车&r可以并排放置，以增加系统的&b应力值&r。"
 	]
 	quest.44B6C65772E456D0.title: "&a水车"
+	quest.44BEA4F6BA513806.quest_desc: [
+		"&eOritech's &aSteam Boiler Addon&f allows an &eOritech&f generator to produce &bSteam&f instead of energy, which can be used in the &dSteam Engine&f to produce a lot of energy."
+		""
+		"[ \"In \", {\"text\": \"Skies 2: Aero\", \"color\": \"gold\"}, \", \", {\"text\": \"Steam\", \"color\": \"aqua\"}, \" can be converted and used to power other modded generators such as \", { \"text\": \"Mekanism's Turbine\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27DDFC98CAD347B1\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Meka Turbine Quest\"} }, \" and \", { \"text\": \"Modern Industrialization's Steam Turbine\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Turbine Quest\"} }, \".\"]"
+	]
+	quest.44BEA4F6BA513806.title: "&dSteam Power!"
 	quest.44C341DE3BCD64CC.quest_desc: [
 		"这是升级版的&d魔咒图书馆&r，可以存储最高31级的附魔等级。"
 		""
@@ -5530,6 +5535,12 @@
 		"如果你不确定要做什么，&aFargo的符石指南&r可以帮助你。"
 	]
 	quest.48E284F256F6453E.title: "&f欢迎游玩&eFargo的符石&f！"
+	quest.490ED4C756B0C84D.quest_desc: [
+		"Within the bowels of the &zEndless Hell&f, you'll find the &dForeman&f, a formidable demon."
+		""
+		"[ \"You must progress into \", { \"text\": \"NeoVitae\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3EC0F38A5F8D01E2\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Questline\"} }, \" before reaching this foe.\" ]"
+	]
+	quest.490ED4C756B0C84D.title: "Kill the &dForeman"
 	quest.493E152B4A7BB767.quest_desc: ["&3红石请求器&r在接收到红石信号时，从连接的库存网络中请求特定物品。"]
 	quest.493E152B4A7BB767.title: "&3红石请求器"
 	quest.49540656967A58DC.title: "游玩1小时"
@@ -6406,7 +6417,9 @@
 		""
 		"你需要在紫水晶母岩旁边执行&a启蒙仪式&r，这样才能得到紫晶傀儡护符。"
 		""
-		"在任意位置使用该护符，就可以召唤出紫晶傀儡。然后拿着支配魔杖先右击傀儡，再右击一处箱子就能设置它的家。这个傀儡会自动收获周边10格半径内的任意水晶！"
+		"Use this Charm anywhere to summon the Golem, then set its home block by using a Dominion Wand on the Golem, then onto a chest to set its deposit block. The Golem will harvest any crystals within 10 blocks of its home!"
+		""
+		"&eNote&f: Golems prefer vanilla inventories to deposit their items."
 	]
 	quest.54AC477417E72055.title: "&d紫水晶&f自动化"
 	quest.54B7D149B45635F4.quest_desc: ["&d时律计&r是&a时元发生器&r的改良版本，它可以比之前自动生成更多的&b时元&r。"]
@@ -6440,7 +6453,9 @@
 	quest.54E7FC957D0973D7.quest_desc: [
 		"如果你选择的初始基地包含一艘船，你可能需要在出航探险前了解一下&e物理结构&f的相关知识。"
 		""
-		"&c强烈&f建议在飞船组装完成后使用&a/sethome&f命令，不然你大概率就回不来了。"
+		"It is &cVERY&f advised to use &a/sethome&f on your ship once you have assembled it, or you will not be able to get back on it."
+		""
+		"It is recommended to set up the waystone given to you as this quest reward at your ship, since &a/sethome&f is not 100% reliable."
 	]
 	quest.54EA7CEFB131A995.quest_desc: [
 		"&7普通符石基底&r是用于制作符石的最初级的基板。"
@@ -6939,6 +6954,11 @@
 		"所有列车都需要至少一个这样的部件才能运行。"
 	]
 	quest.5C7494C886570E80.title: "&6列车驾驶台"
+	quest.5C821A41A1730AA4.quest_desc: [
+		"The &dRefinery&r is used to process fluid mixtures. It has 1 item input, 1 fluid input, and between 1 and 3 fluid outputs."
+		""
+		"To gain access to more output slots you'll need to craft extra &aRefinery Chamber Modules&f and assemble them on top of the &dRefinery&f."
+	]
 	quest.5CA5F9BE51C24FC8.title: "&f红石卡"
 	quest.5CC2FE30CF016754.title: "&a1k存储组件"
 	quest.5CC65B3FE402E58B.quest_desc: [
@@ -7050,6 +7070,11 @@
 		"它们同样用于制作最强大的精华——&6觉醒精华&r。"
 	]
 	quest.5E04779BC1EB52E9.title: "&b元素种子"
+	quest.5E05CA392077BE35.quest_desc: [
+		"The &2Source Condenser&f converts nearby or generated &dSource&f into &bLiquid Source&f."
+		""
+		"[ \"This is useful when converted into gas to generate power via \", { \"text\": \"Mekanism's Gas-Burning Generator\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02BC61BBCDB931A3\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \".\"]"
+	]
 	quest.5E12FC7FD8720FBA.quest_desc: [
 		"矿井内的某物正如火如荼地工作着，它似乎并不会打卡下班。&c领工&r是一只格外强大且颇具权威的恶魔温迪戈，有足足600点生命值，它拥有一把独特的钥匙。"
 		""
@@ -8761,6 +8786,18 @@
 		"这就意味着如果粒子速度很快，那么两个&a导向环&r之间的间距就可以非常大。"
 	]
 	quest.7791DA964DA2A80D.title: "&f如何搭建加速器？"
+	quest.779E01749502690E.quest_desc: [
+		"The &6Tainted Refinery&f is a 'corrupted' version of the &dRefinery&r. "
+		""
+		"[\"To create it, explode a \", {\"text\": \"Refinery\", \"color\": \"light_purple\"}, \" while a charged \", { \"text\": \"Arcane Catalyst\", \"color\": \"blue\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13DFA7B0975971B7\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" is within 6 blocks of it.\" ]"
+		""
+		"It processes the same refinery recipes but accepts unlimited energy with diminishing returns, and its output and energy efficiency can be increased by surrounding it with the right blocks:"
+		""
+		"- Sculk-themed blocks increase the &bOutput Multiplier&f, ranging from 1x to 3x."
+		"- Arcane-themed blocks increase the &bEnergy Efficiency&f, ranging from 1x to 9x."
+		""
+		"&7Check the Oracle guide for more information"
+	]
 	quest.77C20F4D048CD9BF.quest_desc: [
 		"你需要制作一些&2橙色的晶体&f，用它为&d椰奶奶油&f带来令人愉悦的质感。"
 		""
@@ -9488,6 +9525,7 @@
 	task.035C4884AAC6C3AB.title: "队伍管理"
 	task.03CB37E752FE1DD1.title: "&e找到建筑&f：&c火山"
 	task.03DFD823ACDCF36F.title: "流体管理"
+	task.03F4476EBA5B9315.title: "Malum Trinkets"
 	task.042D580737DAD156.title: "任意#ftb:tiered_interfaces"
 	task.0530149F4E3FF764.title: "厨房橱柜"
 	task.0571EE9376E24EFB.title: "任意＃FTB：分级物品展示台"
@@ -9708,7 +9746,6 @@
 	task.574369B60421C9FF.title: "&a环带材料"
 	task.575F4232C0E9D957.title: "魔法装备"
 	task.578CC62BD4DEF924.title: "观察&a热空气燃烧室&r"
-	task.579A856376CC3518.title: "任意灵灾饰品"
 	task.58687506041183E7.title: "&e击杀&f：&c史莱姆"
 	task.5895E635907FB075.title: "太阳能板"
 	task.58BEE5F1435F017A.title: "&e观察&f：&5哭泣之井&f里的东西"

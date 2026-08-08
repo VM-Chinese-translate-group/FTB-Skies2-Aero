@@ -1062,19 +1062,12 @@
 			hide_dependency_lines: true
 			id: "7819C1805C7E5BCD"
 			optional: true
-			rewards: [
-				{
-					amount: 1
-					id: "187044824EC3BE4E"
-					team_reward: false
-					type: "currency"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "12DAF6447F2A4E53"
-					type: "random"
-				}
-			]
+			rewards: [{
+				amount: 1
+				id: "187044824EC3BE4E"
+				team_reward: false
+				type: "currency"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "2AB5E8CAE519EF35"
@@ -1101,15 +1094,6 @@
 					type: "currency"
 				}
 				{
-					count: 2
-					id: "32763CD17EC3241E"
-					item: {
-						count: 1
-						id: "actuallyadditions:display_stand"
-					}
-					type: "item"
-				}
-				{
 					id: "1C41F902EF0A57C6"
 					team_reward: false
 					type: "xp"
@@ -1128,7 +1112,7 @@
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 4L
 					id: "2A260D8300B885ED"
 					item: {
 						count: 1

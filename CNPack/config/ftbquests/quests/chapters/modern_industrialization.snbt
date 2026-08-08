@@ -3010,12 +3010,6 @@
 									id: "modern_industrialization:ethanol"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 							"minecraft:block_entity_data": {
 								delay: 0
 								edit_mode: 0
@@ -3083,12 +3077,6 @@
 									id: "mekanism:ethene"
 								}]
 							}
-							"mekanism:owner": [I;
-								682619199
-								1372147555
-								-1515289020
-								-612383425
-							]
 							"minecraft:block_entity_data": {
 								delay: 0
 								edit_mode: 0

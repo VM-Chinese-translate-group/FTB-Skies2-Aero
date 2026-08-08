@@ -1770,7 +1770,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7067E5B47D381423"]
@@ -1781,7 +1781,7 @@
 				team_reward: false
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "46DC10BE659809EF"
 				item: {
@@ -1790,8 +1790,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.5d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7067E5B47D381423"]
@@ -1802,7 +1802,7 @@
 				team_reward: false
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "51663102BF93BBC2"
 				item: {
@@ -1811,8 +1811,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7067E5B47D381423"]
@@ -1824,7 +1824,7 @@
 				team_reward: false
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "423A31F682CCB0FF"
 				item: {
@@ -1845,7 +1845,7 @@
 				team_reward: false
 				type: "currency"
 			}]
-			shape: "diamond"
+			shape: "square"
 			tasks: [{
 				id: "551CB5299C3F23E3"
 				item: {
@@ -2126,6 +2126,7 @@
 				"26D8F6345B6AB232"
 				"79F2BC05D79B9863"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "ars_elemental:fire_hood"
 			}
@@ -2185,6 +2186,26 @@
 				}
 			]
 			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7067E5B47D381423"]
+			id: "5E05CA392077BE35"
+			rewards: [{
+				amount: 15
+				id: "70AA392FB29D177F"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7E60F0C720CEAB35"
+				item: {
+					count: 1
+					id: "starbunclemania:source_condenser"
+				}
+				type: "item"
+			}]
+			x: 6.0d
 			y: 9.0d
 		}
 	]
