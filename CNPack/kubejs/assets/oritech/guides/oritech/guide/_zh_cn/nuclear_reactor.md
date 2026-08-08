@@ -36,8 +36,7 @@ item_ids:
 反应堆是由<Color id="green">反应堆墙</Color>搭建而成的**中空长方体**。搭建时需遵循以下规则：
 
 - 单方向最大尺寸为**64格**。
-- <Color id="green">核反应堆控制器</Color>必须放置在**墙**的任意位置。
-- <Color id="green">能量端口</Color>与<Color id="green">红石端口</Color>同样可放置在墙上。
+- <Color id="green">反应堆控制器</Color>与<Color id="green">能量端口</Color>必须安装在**墙**上，可选的<Color id="green">红石端口</Color>也可放置在**墙**。
 - <Color id="green">燃料口</Color>与<Color id="green">冷却剂口</Color>必须放置在**顶部墙**上，且需位于内部对应堆叠组件的正上方。
 - 所有其他组件（燃料棒、管道、散热片、吸收器等）都安装在**内部**。
 - 内部结构在每个垂直层级上必须**完全一致**。因此，可先设计好2D平面布局，再根据需要向上堆叠高度。能量输出、燃料消耗和冷却剂用量都会随高度按比例增加。
@@ -75,13 +74,13 @@ item_ids:
   ### <Color id="aqua">反应堆燃料棒</Color>
 </Row>
 
-<Color id="gold">反应堆燃料棒</Color>是内部燃烧燃料的组件。它们有<Color id="green">单联</Color>、<Color id="yellow">双联</Color>和<Color id="red">四联</Color>三种变体，层级越高，每刻产生的热量和RF就越多。每个燃料棒堆叠的顶部墙正上方，都需要配备一个<Color id="green">燃料口</Color>。
-
 <ItemGrid>
   <ItemIcon id="oritech:reactor_rod"/>
   <ItemIcon id="oritech:reactor_double_rod"/>
   <ItemIcon id="oritech:reactor_quad_rod"/>
 </ItemGrid>
+
+<Color id="gold">反应堆燃料棒</Color>是内部燃烧燃料的组件。它们有<Color id="green">单联</Color>、<Color id="yellow">双联</Color>和<Color id="red">四联</Color>三种变体，层级越高，每刻产生的热量和RF就越多。每个燃料棒堆叠的顶部墙正上方，都需要配备一个<Color id="green">燃料口</Color>。
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
@@ -90,7 +89,7 @@ item_ids:
   ### <Color id="aqua">中子反射器</Color>
 </Row>
 
-将<Color id="green">中子反射器</Color>放置在燃料棒旁，可以将中子反射回去。这样无需增加燃料棒即可提升其工作效率，是紧凑型布局中提高输出强度的绝佳选择。
+将<Color id="green">中子反射器</Color>最好放置在燃料棒旁，可以将中子反射回燃料棒。这样无需增加燃料棒即可提升其工作效率，是紧凑型布局中提高输出强度的绝佳选择。
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 

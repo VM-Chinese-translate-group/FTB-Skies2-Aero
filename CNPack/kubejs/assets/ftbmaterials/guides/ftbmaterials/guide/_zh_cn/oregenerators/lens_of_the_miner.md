@@ -33,7 +33,7 @@ item_ids:
   ### <Color id="aqua">原子再构机</Color>
 </Row>
 
-将<ItemLink id="actuallyadditions:lens_of_the_miner"/>安装到<ItemLink id="actuallyadditions:atomic_reconstructor"/>上并供能。原子重构机可向前发射最长 10 格的激光，所有接触激光路径或紧邻路径的方块都可能被转化。
+将<ItemLink id="actuallyadditions:lens_of_the_miner"/>安装到<ItemLink id="actuallyadditions:atomic_reconstructor"/>上并供能。原子重构机可向前发射最长 10 格的激光，所有接触激光路径的方块都可能被转化。
 
 > <Color id="yellow">注意：</Color>在 JEI 中查看<ItemLink id="actuallyadditions:lens_of_the_miner"/>，可获取完整的矿石转化列表。
 

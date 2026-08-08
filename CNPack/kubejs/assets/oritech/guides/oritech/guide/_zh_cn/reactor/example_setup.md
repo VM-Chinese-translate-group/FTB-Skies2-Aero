@@ -15,7 +15,7 @@ navigation:
     <IsometricCamera yaw="125" pitch="45"/>
   </GameScene>
 
-  采用该搭建结构，反应堆的每一层都可产生158,000 RF/t。
+  在**Skies 2 Aero**中采用该搭建结构，反应堆的每一层都可产生158,000 RF/t左右。（其他整合包中可能不同）
 </Column>
 
 <ItemImage id="minecraft:air" scale="0.25"/>
