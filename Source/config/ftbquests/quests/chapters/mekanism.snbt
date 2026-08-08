@@ -404,7 +404,7 @@
 		}
 		{
 			dependencies: ["6A3BFD63419A15CE"]
-			icon_scale: 2.0d
+			icon_scale: 1.5d
 			id: "7EF7546FF007EF36"
 			rewards: [
 				{
@@ -462,7 +462,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["33A9FF901E2D7725"]
@@ -1415,7 +1415,8 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["05315396D48EE815"]
+			dependencies: ["2C0B3B4BFDD9C502"]
+			hide_dependency_lines: true
 			id: "02BC61BBCDB931A3"
 			min_width: 250
 			optional: true
@@ -1441,8 +1442,8 @@
 				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.0d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["212600F8D3C1E1EB"]
@@ -1520,7 +1521,10 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["616E3CE38F1D73AE"]
+			dependencies: [
+				"616E3CE38F1D73AE"
+				"44BEA4F6BA513806"
+			]
 			hide_dependency_lines: true
 			icon: {
 				id: "mekanismgenerators:rotational_complex"

@@ -3289,19 +3289,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["595F8AC6DB5DACD8"]
-			id: "2AFB466982F0D9CE"
-			optional: true
-			shape: "square"
-			tasks: [{
-				id: "5835ADFEEB4EC055"
-				item: { count: 1, id: "modern_industrialization:electric_quarry" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["7123022757E50A70"]
 			icon: {
 				id: "mysticalagriculture:awakened_draconium_seeds"
@@ -3491,6 +3478,72 @@
 			]
 			x: 1.75d
 			y: 4.5d
+		}
+		{
+			icon: {
+				id: "modern_industrialization:pumpjack"
+			}
+			id: "16BCE01AAAC88527"
+			rewards: [
+				{
+					id: "3BC7DE524D98B156"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_item_input_hatch"
+					}
+					type: "item"
+				}
+				{
+					id: "49A0DA78B7C704DB"
+					item: {
+						count: 1
+						id: "modern_industrialization:steel_fluid_output_hatch"
+					}
+					type: "item"
+				}
+				{
+					id: "253B508495013BF0"
+					item: {
+						count: 1
+						id: "modern_industrialization:lv_energy_input_hatch"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "589E62B7C43922BA"
+					item: { count: 1, id: "modern_industrialization:pumpjack" }
+					type: "item"
+				}
+				{
+					count: 29L
+					id: "31A1ED98A8B06186"
+					item: { count: 1, id: "mekanism:dynamic_tank" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6A25006A42D56D56"
+					item: { count: 1, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3E92B10DF462E6FD"
+					item: { count: 1, id: "create:mechanical_pump" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "04DEDB8D802F6586"
+					item: { count: 1, id: "modern_industrialization:steel_machine_casing_pipe" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 }

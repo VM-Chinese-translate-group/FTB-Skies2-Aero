@@ -255,7 +255,7 @@
 			id: "27DDFC98CAD347B1"
 			linked_quest: "31C83D9253FFF685"
 			shape: "square"
-			x: 2.0d
+			x: 1.5d
 			y: 7.0d
 		}
 		{
@@ -274,7 +274,7 @@
 			id: "533606FFE9077181"
 			linked_quest: "02BC61BBCDB931A3"
 			shape: "square"
-			x: -1.0d
+			x: -1.5d
 			y: 7.0d
 		}
 		{
@@ -295,14 +295,14 @@
 			id: "519510236669B54D"
 			linked_quest: "001F0C36B4AB9F5F"
 			shape: "square"
-			x: -2.0d
+			x: -2.5d
 			y: 7.0d
 		}
 		{
 			id: "51B48FFE6B452603"
 			linked_quest: "7F186F5B5630DB4A"
 			shape: "square"
-			x: 0.0d
+			x: -0.5d
 			y: 7.0d
 		}
 	]
@@ -608,7 +608,7 @@
 				item: { count: 1, id: "justdynathings:thermo_generator" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 7.0d
 		}
 		{
@@ -1863,6 +1863,32 @@
 			}]
 			x: -5.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["36E0D875AA8E2F66"]
+			hide_dependency_lines: true
+			id: "44BEA4F6BA513806"
+			rewards: [{
+				amount: 35
+				id: "65A67A5B3740DF18"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "51BD9E1C447F16A2"
+					item: { count: 1, id: "oritech:steam_boiler_addon" }
+					type: "item"
+				}
+				{
+					id: "56E586770E5DDD1D"
+					item: { count: 1, id: "oritech:steam_engine_block" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 7.0d
 		}
 	]
 }
