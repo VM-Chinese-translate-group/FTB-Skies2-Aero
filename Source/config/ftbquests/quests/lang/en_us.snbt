@@ -5378,7 +5378,7 @@
 	]
 	quest.45A36EB1C2133600.title: "&dRandom Access Memory"
 	quest.45B2C8BD2ACBA46D.quest_desc: [
-		"The &dReactor&r needs to be made of rectangular walls, where the frame is made of &aReactor Wall&r blocks. The max size of a Reactor is 64 blocks per direction. Its interior needs to be identical in the vertical (y) axis."
+		"The &dReactor&r needs to be made of rectangular walls, where the frame is made of &aReactor Wall&r blocks. The max size of a Reactor is 16 blocks per direction. Its interior needs to be identical in the vertical (y) axis."
 		""
 		"Somewhere on the walls, you'll need the &6Nuclear Reactor Control Panel&r, as well as any &cEnergy Ports&r that you wish to use."
 		""
@@ -9568,11 +9568,14 @@
 	reward.3C1DEBCA0C4BEE07.title: "Unlock Late Game Shop"
 	reward.4D8CE3813F5B049C.title: "Unlock Loot Bags Shop"
 	reward.5232A5D897287658.title: "Legendary Choice Reward"
+	reward.53A32BDE506D3A8C.title: "+500 EV"
 	reward.55C61BB9870E19BF.title: "Unlock Miscellaneous Shop"
 	reward.58FC98BAEDB8920C.title: "+10,000 EV"
 	reward.5C3AD0A37016117B.title: "Relic Choice"
+	reward.5E62E9CA6162C2E0.title: "+1000 EV"
 	reward.5F260183479B3F42.title: "+2500 EV"
 	reward.6151767D816C3443.title: "+250 EV"
+	reward.64C5DA9AA3A26E3E.title: "+500 EV"
 	reward.67949C68240319FB.title: "Relic Choice Reward"
 	reward.6E39028F7E470FCF.title: "+1 To &aPuffish Mining Skill&r"
 	reward.6FBE95AE17A80FE2.title: "Unlock Early-Game Shop"
