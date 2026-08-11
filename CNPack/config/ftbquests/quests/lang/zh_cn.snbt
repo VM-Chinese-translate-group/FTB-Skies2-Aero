@@ -5325,7 +5325,7 @@
 	]
 	quest.45A36EB1C2133600.title: "&d随机存取存储器"
 	quest.45B2C8BD2ACBA46D.quest_desc: [
-		"The &dReactor&r needs to be made of rectangular walls, where the frame is made of &aReactor Wall&r blocks. The max size of a Reactor is 16 blocks per direction. Its interior needs to be identical in the vertical (y) axis."
+		"&d反应堆&r必须是一个长方体结构，其框架必须由&a反应堆墙&r方块构成。反应堆的最大尺寸为16x16x16。其内部每一层（Y轴方向）的布局都必须完全相同。"
 		""
 		"你需要在外壳的某处安装一个&6核反应堆控制面板&r，以及那些你要用的&c能量端口&r。"
 		""
