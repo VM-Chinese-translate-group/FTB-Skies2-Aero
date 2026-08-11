@@ -5325,7 +5325,7 @@
 	]
 	quest.45A36EB1C2133600.title: "&d随机存取存储器"
 	quest.45B2C8BD2ACBA46D.quest_desc: [
-		"&d反应堆&r必须是一个长方体结构，其框架必须由&a反应堆墙&r方块构成。反应堆的最大尺寸为64x64x64。其内部每一层（Y轴方向）的布局都必须完全相同。"
+		"The &dReactor&r needs to be made of rectangular walls, where the frame is made of &aReactor Wall&r blocks. The max size of a Reactor is 16 blocks per direction. Its interior needs to be identical in the vertical (y) axis."
 		""
 		"你需要在外壳的某处安装一个&6核反应堆控制面板&r，以及那些你要用的&c能量端口&r。"
 		""
@@ -9479,11 +9479,14 @@
 	reward.3C1DEBCA0C4BEE07.title: "解锁游戏后期商店"
 	reward.4D8CE3813F5B049C.title: "解锁战利品袋商店"
 	reward.5232A5D897287658.title: "选择传说级奖励"
+	reward.53A32BDE506D3A8C.title: "+500 EV"
 	reward.55C61BB9870E19BF.title: "解锁杂项商店"
 	reward.58FC98BAEDB8920C.title: "+10,000 EV"
 	reward.5C3AD0A37016117B.title: "自选遗物"
+	reward.5E62E9CA6162C2E0.title: "+1000 EV"
 	reward.5F260183479B3F42.title: "+2500 EV"
 	reward.6151767D816C3443.title: "+250 EV"
+	reward.64C5DA9AA3A26E3E.title: "+500 EV"
 	reward.67949C68240319FB.title: "选择遗物奖励"
 	reward.6E39028F7E470FCF.title: "+1 &aPuffish挖掘技能&r"
 	reward.6FBE95AE17A80FE2.title: "解锁游戏前期商店"
