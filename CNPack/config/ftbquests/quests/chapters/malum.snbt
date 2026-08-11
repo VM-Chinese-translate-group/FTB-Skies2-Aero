@@ -1206,7 +1206,7 @@
 				item: {
 					components: {
 						"ftbfiltersystem:filter": "or(item_tag(curios:belt)item_tag(curios:necklace)item_tag(curios:ring))or(mod(malum)mod(gaze))"
-						"minecraft:custom_name": "\"Malum trinkets\""
+						"minecraft:custom_name": "\"灵灾饰品\""
 					}
 					count: 1
 					id: "ftbfiltersystem:smart_filter"
