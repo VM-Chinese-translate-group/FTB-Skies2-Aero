@@ -2881,6 +2881,7 @@
 				id: "apothic_enchanting:raven_enchanting_table"
 			}
 			id: "5382CB05500E49DE"
+			min_width: 300
 			rewards: [
 				{
 					amount: 50

@@ -529,6 +529,11 @@
 		"Oak, Birch, and &eRowan&r saplings have fumes that are key to progression, but others will be wanted later."
 	]
 	quest.0730F5C57F80CC0B.title: "&aSupernatural Scents"
+	quest.0734E1D03D456888.quest_desc: [
+		"The &6Atomic Empowering Matrix&f automatically processes both &aReconstruction&f and &2Empowering&f recipes inside a one-block solution."
+		""
+		"Simply place the &6Matrix&f next to an &dAE2 Pattern Provider&f containing those recipes and give it power."
+	]
 	quest.073546F80EDA632E.quest_desc: [
 		"Need a specific seed for your farm? Check out the local Farmer's &aMarket&r!"
 		""
@@ -859,6 +864,11 @@
 	quest.0ABFE7704D561C35.quest_desc: ["&3Contraption Controls&r allow for better configuration of your contraptions via redstone signals."]
 	quest.0ABFE7704D561C35.title: "&3Contraption Controls"
 	quest.0AD5078A3A112F55.quest_desc: ["The &6Lightning Collapse Matrix&f is one of the key end-tier components in &eAE2LT&f. Keeping a matrix in a machine's matrix slot unlocks the machine's higher-tier operating mode."]
+	quest.0AD7F1774B857EFA.quest_desc: [
+		"The &6Infused Awakening Matrix&f automatically processes &aInfusion&f and &2Awakening&f recipes inside a one-block solution."
+		""
+		"Simply place the &6Matrix&f next to an &dAE2 Pattern Provider&f containing those recipe patterns."
+	]
 	quest.0AE2AD555992273E.quest_desc: [
 		"To get this charm, you'll need to find a wild &2Whirlisprig&r out in the world and grow a tree nearby it."
 		""
@@ -1048,6 +1058,10 @@
 		"Just like the &aInfusion Altar&r, place down the &6Awakening Altar&r first to show a guide on where to place the pedestals and vessels. To create the recipe, the altar will also need a redstone signal."
 		""
 		"Items for the recipe will be placed directly on the &6Awakening Pedestals&r. For the &6Essence Vessels&r, you'll need to place in one of each of the &bElemental Essences&r."
+		"{@pagebreak}"
+		"&eNot Enough Patterns&f allows you to connect an &dAE2 Pattern Provider&f directly to the &6Pedestal&f and automatically route the items to their blocks from your ME Network without any extra setup."
+		""
+		"An &2Import Card&f is recommended for pulling the result back into your system. Check the AE2 Guideme's NEP section for more details."
 	]
 	quest.0D79C07499BF6E95.title: "&fAwakening Altar"
 	quest.0D864FD6A668D8C6.quest_desc: [
@@ -1356,6 +1370,13 @@
 		"It will also create several other items that will help you get started generating resources."
 	]
 	quest.11EEAE553AD6C287.title: "&fCobble and Stone!"
+	quest.123341C9AFD8E86A.quest_desc: [
+		"The &6Sequenced Assembly Matrix&f automatically processes Filling, Deploying, and Sequenced Assembly recipes inside a one-block solution."
+		""
+		"Simply place the &6Matrix&f next to an &dAE2 Pattern Provider&f containing those recipe patterns and provide the &6Matrix&f with Stress and power (if applicable)."
+		""
+		"The more stress you provide it and the faster RPM you do it at, the quicker the &6Matrix&f will process recipes. It accepts Stress from the 2 sides that have a larger circle around the middle."
+	]
 	quest.1237537100194BED.quest_desc: [
 		"As a minor deity of decay, &6nether stars&r dropped by a defeated &dWither&r are an increasingly common demand of worthiness."
 		""
@@ -1382,6 +1403,13 @@
 		"Safe Travels!"
 	]
 	quest.12468F8BF7B80737.title: "&2Adventuring Beyond!"
+	quest.12488A9A290B00DC.quest_desc: [
+		"&eNot Enough Patterns' &3Sequenced Assembly Controller&f makes managing assembly sequences very easy. It automatically handles all item and fluid routing to their stations (energisers need to be powered separately)."
+		""
+		"Simply place the &3Controller&f near your assembly line and connect it to an &dAE2 Pattern Provider&f containing the pattern that relates to that assembly line."
+		""
+		"Then, using a &aSequenced Assembly Linker&f, Right-click to set that assembly line's input, output (must be a depot), and the machines in the correct processing order. Lastly, Right-click the &3Controller&f to store that configuration."
+	]
 	quest.12498DE8D427D40E.quest_desc: ["Nether fortresses spawn heavy amounts of blazes and wither skeletons, providing their key resources as well as a fair amount of loot."]
 	quest.12498DE8D427D40E.title: "&fFind a &cNether Fortress"
 	quest.12512AAAF15B97C1.quest_desc: [
@@ -1651,10 +1679,12 @@
 		"Once you've encoded some patterns using the &dPattern Encoding Terminal&r, you can place them into a &aPattern Provider&r. The &aProviders&r will try to complete the craft using whatever block it is attached to."
 		""
 		"For doing shaped and shapeless craft recipes that don't require machines, you can place the &aProvider&r next to a &3Molecular Assembler&r, which are just fancy autocrafters!"
-		"{@pagebreak}"
-		"For other autocrafting tasks that require some type of processing, you'd place the &aProvider&r facing the machine you want to craft in."
 		""
+		"For other autocrafting tasks that require some type of processing, you'd place the &aProvider&r facing the machine you want to craft in. Check the next page for more information."
+		"{@pagebreak}"
 		"For example, you can set up autosmelting for recipes by placing a &2Furnace&r in front of the &aProvider&r, and then encoding the appropriate smelting recipes onto patterns to be placed into the &aProviders&r."
+		""
+		"&eNot Enough Patterns&f mod simplifies many mod automations to simply placing the &aProvider&f next to the main processing block and placing your Pattern inside it, &eNEP&f handles the rest. It also adds an &dImport Card&f, which allows it to automatically pull results from that block back into the system."
 		""
 		"For more information about how to make the &aPattern Providers&r and &3Assemblers&r work faster, check out the AE2 Guide!"
 	]
@@ -3001,6 +3031,10 @@
 		"You'll need to set up each &aDisplay Stand&r three blocks away (two block gap) on each side of the &aEmpowerer&r."
 		""
 		"The position of items on the &aDisplay Stands&r do not matter, but you will need to power them."
+		""
+		"&eNot Enough Patterns&f allows you to connect an &dAE2 Pattern Provider&f directly to the &aEmpowerer&f and it'll automatically distribute the items stored in your ME Network to complete the recipe."
+		""
+		"Check the AE2 Guideme's NEP section for more details."
 	]
 	quest.283EA4E7BA93DA11.title: "&fEmpowering Crystals"
 	quest.28583E75F9E834F6.quest_desc: ["While technically not required to complete the &zPina Colada&f, the &6Quantum Energiser&f SIGNIFICANTLY increases the energizing speed of recipes, allowing you to complete this recipe in minutes instead of days."]
@@ -3014,6 +3048,10 @@
 		"The &aDepot&r can hold up to a stack of one item at a time."
 		""
 		"&eCreate&r machines will automatically interact with items on the &aDepot&r, similar to &aMechanical Belts&r."
+		""
+		"&eNot Enough Patterns&f also allows you to connect an &dAE2 Pattern Provider&f directly to the &aDepot&f and it'll automatically process Filling and Deploying recipes directly from your ME Network without any extra setup."
+		""
+		"An &2Import Card&f is recommended for pulling the result back into your system. Check the AE2 Guideme's NEP section for more details."
 	]
 	quest.2889A850949BA4A3.title: "&aDepot"
 	quest.28C59127725B1F84.quest_subtitle: "Grants Freezing Immunity"
@@ -4576,9 +4614,13 @@
 	quest.3B3CE4B6B25CB8DB.quest_desc: ["The key point of progress. &dAttuned Stones&r are made using Whiffs of Magic and diamonds, and making this item allows progression into even more mod mechanics such as &bPoppets&r and &bCircle Magic&r."]
 	quest.3B3CE4B6B25CB8DB.title: "&dAttuned Stones"
 	quest.3B5B50AF7B7F1EDE.quest_desc: [
-		"&dMechanical Crafters&r are gigantic crafting tables that can be automated in several different ways."
+		"&6Mechanical Crafters&r are gigantic crafting tables that can be automated in several different ways."
 		""
 		"&aCrafter Slot Covers&r can be used to cover up any slots that are not used in autocrafting. However, you can also use a redstone signal to force-start a crafting recipe."
+		""
+		"&eNot Enough Patterns&f allows you to connect an &dAE2 Pattern Provider&f directly to any &6Mechanical Crafting Grid&f and it'll automatically process any shaped recipe that fits in the grid from items stored in your ME Network without any extra setup."
+		""
+		"Check the AE2 Guideme's NEP section for more details."
 	]
 	quest.3B5B50AF7B7F1EDE.title: "&dMechanical Crafter"
 	quest.3B6540C11FAF6C3D.quest_desc: [
@@ -6413,6 +6455,10 @@
 		"Once you've maximized your &aEterna&f, you'll want to craft the &zEnchanting Table of the Raven&f."
 		""
 		"This enchantment table allows you to manually configure your &aEterna&f, &cQuanta&f, and &dArcana&f values without requiring any nearby bookshelves."
+		""
+		"&eNot Enough Patterns&f mod allows you to connect an AE2 Pattern Provider directly to the &zTable of the Raven&f and use either liquid experience or bottles of enchanting stored in your ME Network to automatically process enchanting recipes."
+		""
+		"Check the AE2 Guideme's NEP section for more details."
 	]
 	quest.5382CB05500E49DE.title: "&zEnchanting Table of the Raven"
 	quest.53E72F025E4CB895.quest_desc: ["The &3Mechanical Saw&r can be used to mine entire trees at once or process item recipes."]
@@ -7222,6 +7268,16 @@
 		"[\"You can refer to the \", {\"text\": \"Main LV Steam Turbine Quest\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50049BE2452AB7F5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to LV Steam Turbine Quest\"} }, \" for more information or the \", { \"text\": \"MI Questline\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F2FC13FA7C3A89\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI Chapter\"} }, \" to get started.\"]"
 	]
 	quest.5EF11F96A97C2A23.title: "&aLV Steam Turbine"
+	quest.5F1A2C7D9B4E6081.quest_desc: [
+		"&bAmadron&r trades can be automated by your &eME system&r, but they use their own kind of pattern."
+		""
+		"Encode one in the &dAmadron Wireless Terminal&r: drop a &7Blank Pattern&r into its pattern slot, find the offer in the list, then press the save button next to it. You get an &bAmadron Processing Pattern&r."
+		""
+		"The &ePattern Encoding Terminal&r cannot make these, and the &e+&r button in JEI only gives you an ordinary processing pattern, which the station will refuse."
+		""
+		"Drop the finished pattern into an &dAmadron Processing Station&r and the trade becomes craftable like any other recipe."
+	]
+	quest.5F1A2C7D9B4E6081.title: "&fAutomating &bAmadron"
 	quest.5F5A8762D664CBF0.quest_desc: [
 		"The Imbuement Chamber is also used to make certain magical &bEssences&r."
 		""
@@ -8210,6 +8266,11 @@
 	quest.6E5CEEE43F0DECA7.quest_desc: ["Loot 100 &eLootr&f barrels while exploring."]
 	quest.6E62CF3784A15E0F.title: "&fChemical Card"
 	quest.6E66D752E153E00F.title: "&fUseful &aTier 1&f Glyphs"
+	quest.6EBE4A9647FFC833.quest_desc: [
+		"The &6Injector Fusion Matrix&f automatically processes Injection recipes inside a one-block solution."
+		""
+		"Simply place the &6Matrix&f next to an &dAE2 Pattern Provider&f containing those recipe patterns and provide it with power."
+	]
 	quest.6EE1C1B7FFB86C6C.quest_desc: ["&aSigils of Socketing&r are used to increase the amount of &bGem Sockets&r of an &bAffix&r item."]
 	quest.6EE1C1B7FFB86C6C.title: "&aSigil of Socketing"
 	quest.6F06B178DDBCAC38.quest_desc: [
