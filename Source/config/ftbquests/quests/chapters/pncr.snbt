@@ -1471,6 +1471,47 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["7B30DD6FB76E75A5"]
+			icon: {
+				id: "appliedpneumatics:amadron_wireless_terminal"
+			}
+			id: "5F1A2C7D9B4E6081"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					amount: 5
+					id: "21E7C4B60A9D538F"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "7D3F86C1A5B240E9"
+					item: {
+						count: 1
+						id: "ae2:blank_pattern"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3C8D5E2A7F14B096"
+					item: { count: 1, id: "appliedpneumatics:amadron_wireless_terminal" }
+					type: "item"
+				}
+				{
+					id: "6A24B9F0D8C31E57"
+					item: { count: 1, id: "appliedpneumatics:me_amadron_process_station" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
 			dependencies: ["31B06C6ACEF764E0"]
 			icon: {
 				id: "pneumaticcraft:refinery"
