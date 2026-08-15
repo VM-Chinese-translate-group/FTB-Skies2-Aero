@@ -2993,7 +2993,6 @@
 				id: "mysticalagriculture:awakening_altar"
 			}
 			id: "0D79C07499BF6E95"
-			min_width: 250
 			rewards: [
 				{
 					amount: 10
@@ -4056,6 +4055,28 @@
 			]
 			x: 1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7C9CABB75B422A4A"]
+			hide_dependency_lines: true
+			id: "0AD7F1774B857EFA"
+			rewards: [{
+				amount: 75
+				id: "1652C177FDC8FD22"
+				type: "currency"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "75F566DAF9BB210E"
+				item: {
+					count: 1
+					id: "nep:infused_awakening_matrix"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.5d
 		}
 	]
 }

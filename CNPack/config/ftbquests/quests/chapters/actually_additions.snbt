@@ -1522,7 +1522,28 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["283EA4E7BA93DA11"]
+			id: "0734E1D03D456888"
+			optional: true
+			rewards: [{
+				amount: 75
+				id: "3AF31B97B199261C"
+				type: "currency"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4EB1B13625FE21F1"
+				item: {
+					count: 1
+					id: "nep:atomic_empowering_matrix"
+				}
+				type: "item"
+			}]
+			x: -0.5d
 			y: 8.5d
 		}
 	]
