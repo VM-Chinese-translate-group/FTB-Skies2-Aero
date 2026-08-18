@@ -220,7 +220,9 @@
 		""
 		"这种发电机能以极高的效率燃烧&d乙烯&r来发电！每台满载的发电机可产生约5k RF/t的能量。"
 		""
-		"或者也可以选择其他替代方案。"
+		"Alternatively, it will burn &bGaseous Source&r, which you make by running &bLiquid Source&r through a &eRotary Condensentrator&r."
+		""
+		"&bGaseous Source&r is worth about two thirds of &dEthene&r. Expect ~3.1k RF/t from a full generator, and around 300k RF out of every bucket of &bLiquid Source&r you feed it."
 	]
 	quest.02BC61BBCDB931A3.title: "&d燃气发电机"
 	quest.02F52598328E84A0.quest_desc: [
@@ -1722,7 +1724,7 @@
 	quest.176D9BAC77298ABB.quest_desc: [
 		"将这种机器紧邻热源方块（如岩浆块或&a原初煤炭块&f）放置，再向其泵入冷却液即可发电。译者注：需要把机器放在热源方块之上"
 		""
-		"虽然水很容易获取，但多态流体的效率是其两倍还多，时间流体的效率更是高达十倍。若想获得大量电力，考虑下自动化生产这些冷却液吧！"
+		"Polymorphic Fluid is the easier of the two coolants to get started with, and Time Fluid is twice as effective again. Consider automating one of them for large amounts of power!"
 	]
 	quest.176D9BAC77298ABB.title: "&d热力发电机"
 	quest.1770A460E1FD7CC8.quest_desc: [
@@ -1983,11 +1985,13 @@
 	quest.1AE69DDE0FBE9E9F.quest_subtitle: "传输物品"
 	quest.1AE69DDE0FBE9E9F.title: "&f物品管道"
 	quest.1AF7088248493BC4.quest_desc: [
-		"虽然&e农夫乐事&r模组本身已拥有类似&b发射器切割&r的多种自动化机制，但其附属模组&6Create: Central Kitchen&r则能让你使用多种&e机械动力&r的机械，将所有不同的烹饪环节也一并自动化！"
+		"&eFarmer's Delight&r comes with a few automation tricks of its own, so your kitchen doesn't have to be a hands-on affair."
 		""
-		"&6理包机&r可以将食材妥善地解包并放入&a厨锅&r中；&6烈焰人燃烧室&r可以加热放置其上的&a煎锅&r来加速进程；&6动力锯&r在给原木去皮时则会产出&a树皮&r……"
+		"A &6Dispenser&r loaded with a knife will work a &aCutting Board&r for you, and the &aCooking Pot&r takes ingredients from the top or sides and hands finished meals out of the bottom, so hoppers or your favourite item pipes can keep it fed."
 		""
-		"如果这些功能听起来让你很动心，那就亲手搭建一座属于你自己的小型食品工厂吧！"
+		"&6Cooking for Blockheads&r takes it further: connect an &aOven&r, &aFridge&r and &aCounter&r into one kitchen and the &aCooking Table&r will pull ingredients from every block attached to it."
+		""
+		"If things like that sound appealing to you, try setting up a little food factory for yourself!"
 	]
 	quest.1AF7088248493BC4.title: "&6机械化餐食"
 	quest.1AFA348F161447F8.quest_desc: ["&a起重机系统&r也可以让连接的结构在一个轴上移动，与&a动力活塞&r不同的是其提供了多种红石控制选项。"]
@@ -2057,6 +2061,8 @@
 		"&l极其重要&r的一点是，你必须设置一个每tick放置方块的方块放置器，否则黑洞会吞噬掉你的提取机及其附近的所有方块。"
 		""
 		"[ \"如果你需要关于如何设置粒子加速器的指南，可以查阅\", { \"text\": \"粒子加速器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C0C63951FDED180\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"} }, \"任务。同样地，你也可以在粒子加速器物品上长按\", {\"keybind\": \"key.guideme.guide\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认按键：G\"}}, \"打开GuideMe指南页面。\" ]"
+		""
+		"&c&lWARNING!&r Do &lNOT&r build this setup inside a &bCompact Machine&r. The room does not tick reliably while you are outside it, so your block placer falls behind and the &6Black Hole&r will consume your setup."
 	]
 	quest.1B986C3D7E212B33.title: "黑洞榨汁"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
@@ -8403,7 +8409,9 @@
 	quest.725E648984E4FFBF.quest_desc: [
 		"在&6黑洞&f吞噬方块位置的另一侧放一个&a速子吸收器&f，&6黑洞&f每次吞噬方块至多可以产出50000RF。"
 		""
-		"[\"请查阅\", {\"text\": \"黑洞GuideMe指南\", \"underlined\":true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guideme open @s oritech:guide oritech:black_hole_generator.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开黑洞GuideMe指南\"}},\"参考搭建示例。\"]"
+		"&c&lWARNING!&r Do &lNOT&r build this setup inside a &bCompact Machine&r. The room does not tick reliably while you are outside it, so your block placer falls behind and the &6Black Hole&r will consume your setup."
+		""
+		"[\"Check the \", {\"text\": \"Black Hole GuideMe\", \"underlined\":true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guideme open @s oritech:guide oritech:black_hole_generator.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}},\" for an example setup.\"]"
 	]
 	quest.725E648984E4FFBF.title: "&d黑洞的力量&r"
 	quest.726B9A931D3E1242.quest_desc: [
@@ -8859,6 +8867,7 @@
 		""
 		"&7参阅Oracle指南以了解更多信息"
 	]
+	quest.779E01749502690E.title: "The &6Tainted Refinery"
 	quest.77C20F4D048CD9BF.quest_desc: [
 		"你需要制作一些&2橙色的晶体&f，用它为&d椰奶奶油&f带来令人愉悦的质感。"
 		""
@@ -9658,6 +9667,7 @@
 	task.1E25F96E4ECA6380.title: "重置魔法技能树"
 	task.1E44E4A78D48D820.title: "实用升级"
 	task.1E4BBCF77E4AE460.title: "扩容盒"
+	task.1E785759988570F8.title: "&eObserve&f: &6Tainted Refinery"
 	task.1E8A40FC83FDC270.title: "&e找到建筑&f：&c炽焰术师塔"
 	task.1E99CDD9919D994A.title: "&a工匠卷轴"
 	task.1EAA289B281EBF4C.title: "任意#constructionstick:upgrades"

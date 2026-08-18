@@ -1373,12 +1373,15 @@
 				type: "currency"
 			}]
 			tasks: [{
-				id: "0EE035D16C741223"
-				item: {
-					count: 1
+				icon: {
 					id: "oritech:tainted_refinery_block"
 				}
-				type: "item"
+				id: "1E785759988570F8"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "oritech:tainted_refinery_block"
+				type: "observation"
 			}]
 			x: 8.0d
 			y: 3.0d
