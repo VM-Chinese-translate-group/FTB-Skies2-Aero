@@ -220,7 +220,9 @@
 		""
 		"This generator can burn &dEthene&r to produce power at a very high rate! You can expect each full generator to produce ~5k RF/t."
 		""
-		"Alternatively,"
+		"Alternatively, it will burn &bGaseous Source&r, which you make by running &bLiquid Source&r through a &eRotary Condensentrator&r."
+		""
+		"&bGaseous Source&r is worth about two thirds of &dEthene&r. Expect ~3.1k RF/t from a full generator, and around 300k RF out of every bucket of &bLiquid Source&r you feed it."
 	]
 	quest.02BC61BBCDB931A3.title: "&dGas-Burning Generator"
 	quest.02F52598328E84A0.quest_desc: [
@@ -1752,7 +1754,7 @@
 	quest.176D9BAC77298ABB.quest_desc: [
 		"These machines can generate energy when placed against a hot block like magma or &aPrimal Coal&f and pumping in a coolant."
 		""
-		"While water is easy enough to source, polymorphic fluid is more than twice as good and Time Fluid is ten times better. Consider automating these coolants for large amounts of power!"
+		"Polymorphic Fluid is the easier of the two coolants to get started with, and Time Fluid is twice as effective again. Consider automating one of them for large amounts of power!"
 	]
 	quest.176D9BAC77298ABB.title: "&dThermo Generator"
 	quest.1770A460E1FD7CC8.quest_desc: [
@@ -2013,9 +2015,11 @@
 	quest.1AE69DDE0FBE9E9F.quest_subtitle: "Transfers Items"
 	quest.1AE69DDE0FBE9E9F.title: "&fItem Pipe"
 	quest.1AF7088248493BC4.quest_desc: [
-		"While &eFarmer's Delight&r already has various automation mechanics such as &bdispenser cutting&r, the addon &6Create: Central Kitchen&r allows various &eCreate&r machines to automate all the different cooking components too!"
+		"&eFarmer's Delight&r comes with a few automation tricks of its own, so your kitchen doesn't have to be a hands-on affair."
 		""
-		"&6Packagers&r will properly unpack ingredients into a &aCooking Pot&r, &6Blaze Burners&r can heat a &aSkillet&r placed on them and speed up the process, &6Saws&r will produce &aTree Bark&r when stripping logs..."
+		"A &6Dispenser&r loaded with a knife will work a &aCutting Board&r for you, and the &aCooking Pot&r takes ingredients from the top or sides and hands finished meals out of the bottom, so hoppers or your favourite item pipes can keep it fed."
+		""
+		"&6Cooking for Blockheads&r takes it further: connect an &aOven&r, &aFridge&r and &aCounter&r into one kitchen and the &aCooking Table&r will pull ingredients from every block attached to it."
 		""
 		"If things like that sound appealing to you, try setting up a little food factory for yourself!"
 	]
@@ -2087,6 +2091,8 @@
 		"It's &lVERY IMPORTANT&r that you set up a block placer that places items every tick or the Black Hole will consume your Extractor and any other blocks near it."
 		""
 		"[ \"Check the \", { \"text\": \"Particle Accelerator\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C0C63951FDED180\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Quest\"} }, \" quest if you need guidance on how to set it up. Alternatively, you can hold down \", {\"keybind\": \"key.guideme.guide\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: G\"}}, \" on any Particle Accelerator item to open its GuideMe page.\" ]"
+		""
+		"&c&lWARNING!&r Do &lNOT&r build this setup inside a &bCompact Machine&r. The room does not tick reliably while you are outside it, so your block placer falls behind and the &6Black Hole&r will consume your setup."
 	]
 	quest.1B986C3D7E212B33.title: "Black Hole Juicing"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
@@ -8492,6 +8498,8 @@
 	quest.725E648984E4FFBF.quest_desc: [
 		"The &6Black Hole&f can produce up to 50,000 RF each time it consumes a block if a &aTachyon Absorber&f is placed on the opposite side of where that block was consumed relative to the &6Black Hole&f."
 		""
+		"&c&lWARNING!&r Do &lNOT&r build this setup inside a &bCompact Machine&r. The room does not tick reliably while you are outside it, so your block placer falls behind and the &6Black Hole&r will consume your setup."
+		""
 		"[\"Check the \", {\"text\": \"Black Hole GuideMe\", \"underlined\":true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guideme open @s oritech:guide oritech:black_hole_generator.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}},\" for an example setup.\"]"
 	]
 	quest.725E648984E4FFBF.title: "&dBlack Hole Power&r"
@@ -8948,6 +8956,7 @@
 		""
 		"&7Check the Oracle guide for more information"
 	]
+	quest.779E01749502690E.title: "The &6Tainted Refinery"
 	quest.77C20F4D048CD9BF.quest_desc: [
 		"You'll need to make &2Orange Crystals&f to give your &dCoconut Cream&f its delightful texture."
 		""
@@ -9747,6 +9756,7 @@
 	task.1E25F96E4ECA6380.title: "Reset Magic"
 	task.1E44E4A78D48D820.title: "Useful Upgrades"
 	task.1E4BBCF77E4AE460.title: "Expansion Box"
+	task.1E785759988570F8.title: "&eObserve&f: &6Tainted Refinery"
 	task.1E8A40FC83FDC270.title: "&eFind Structure&f: &cPyromancer Tower"
 	task.1E99CDD9919D994A.title: "&aArtisan Scrolls"
 	task.1EAA289B281EBF4C.title: "Any #constructionstick:upgrades"

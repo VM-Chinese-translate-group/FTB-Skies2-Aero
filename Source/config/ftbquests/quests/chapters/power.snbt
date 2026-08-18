@@ -663,6 +663,7 @@
 				id: "oritech:black_hole_block"
 			}
 			id: "725E648984E4FFBF"
+			min_width: 300
 			rewards: [{
 				amount: 50
 				id: "45D5AAC96142DB39"
