@@ -220,9 +220,9 @@
 		""
 		"这种发电机能以极高的效率燃烧&d乙烯&r来发电！每台满载的发电机可产生约5k RF/t的能量。"
 		""
-		"Alternatively, it will burn &bGaseous Source&r, which you make by running &bLiquid Source&r through a &eRotary Condensentrator&r."
+		"此外，它也可以燃烧&b气态魔源&r，将&b液态魔源&r通入&e回旋式气液转换机&r即可制得。"
 		""
-		"&bGaseous Source&r is worth about two thirds of &dEthene&r. Expect ~3.1k RF/t from a full generator, and around 300k RF out of every bucket of &bLiquid Source&r you feed it."
+		"&b气态魔源&r的热值约为&d乙烯&r的三分之二。发电机满载时预计产出3.1k RF/t，每消耗一桶&b液态魔源&r约可产出300k RF。"
 	]
 	quest.02BC61BBCDB931A3.title: "&d燃气发电机"
 	quest.02F52598328E84A0.quest_desc: [
@@ -1724,7 +1724,7 @@
 	quest.176D9BAC77298ABB.quest_desc: [
 		"将这种机器紧邻热源方块（如岩浆块或&a原初煤炭块&f）放置，再向其泵入冷却液即可发电。译者注：需要把机器放在热源方块之上"
 		""
-		"Polymorphic Fluid is the easier of the two coolants to get started with, and Time Fluid is twice as effective again. Consider automating one of them for large amounts of power!"
+		"多态流体是两种冷却剂中较易起步的一种，而时间流体的冷却效率则是其两倍。建议实现其中一种的自动化生产，以获取海量能量！"
 	]
 	quest.176D9BAC77298ABB.title: "&d热力发电机"
 	quest.1770A460E1FD7CC8.quest_desc: [
@@ -1985,13 +1985,13 @@
 	quest.1AE69DDE0FBE9E9F.quest_subtitle: "传输物品"
 	quest.1AE69DDE0FBE9E9F.title: "&f物品管道"
 	quest.1AF7088248493BC4.quest_desc: [
-		"&eFarmer's Delight&r comes with a few automation tricks of its own, so your kitchen doesn't have to be a hands-on affair."
+		"&e农夫乐事&r自带一些自动化机制，让厨房运作无需事事亲力亲为。"
 		""
-		"A &6Dispenser&r loaded with a knife will work a &aCutting Board&r for you, and the &aCooking Pot&r takes ingredients from the top or sides and hands finished meals out of the bottom, so hoppers or your favourite item pipes can keep it fed."
+		"装有刀的&6发射器&r能自动在&a砧板&r上处理食材；&a厨锅&r支持从顶部或侧面输入食材，并从底部输出成品菜肴，连接漏斗或心仪的物品管道即可实现持续供料。"
 		""
-		"&6Cooking for Blockheads&r takes it further: connect an &aOven&r, &aFridge&r and &aCounter&r into one kitchen and the &aCooking Table&r will pull ingredients from every block attached to it."
+		"&6傻瓜烹饪&r则更进一步：将&a烤箱&r、&a冰箱&r与&a厨柜&r连为一体化厨房，&a烹饪桌&r便能直接调用所有相连方块内的食材。"
 		""
-		"If things like that sound appealing to you, try setting up a little food factory for yourself!"
+		"如果对这些机制感兴趣，不妨试着搭建一座属于自己的食品小工厂吧！"
 	]
 	quest.1AF7088248493BC4.title: "&6机械化餐食"
 	quest.1AFA348F161447F8.quest_desc: ["&a起重机系统&r也可以让连接的结构在一个轴上移动，与&a动力活塞&r不同的是其提供了多种红石控制选项。"]
@@ -8409,9 +8409,9 @@
 	quest.725E648984E4FFBF.quest_desc: [
 		"在&6黑洞&f吞噬方块位置的另一侧放一个&a速子吸收器&f，&6黑洞&f每次吞噬方块至多可以产出50000RF。"
 		""
-		"&c&lWARNING!&r Do &lNOT&r build this setup inside a &bCompact Machine&r. The room does not tick reliably while you are outside it, so your block placer falls behind and the &6Black Hole&r will consume your setup."
+		"&c&l警告！&r&l切勿&r在&b压缩空间&r内搭建此结构。身处机器空间外部时，内部的游戏刻更新并不稳定；一旦方块放置器的供给跟不上，&6黑洞&r就会将整个结构吞噬殆尽。"
 		""
-		"[\"Check the \", {\"text\": \"Black Hole GuideMe\", \"underlined\":true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guideme open @s oritech:guide oritech:black_hole_generator.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}},\" for an example setup.\"]"
+		"[\"请查阅\", {\"text\": \"黑洞GuideMe指南\", \"underlined\":true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guideme open @s oritech:guide oritech:black_hole_generator.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开 GuideMe 页面\"}}, \"以获取搭建示例。\"]"
 	]
 	quest.725E648984E4FFBF.title: "&d黑洞的力量&r"
 	quest.726B9A931D3E1242.quest_desc: [
