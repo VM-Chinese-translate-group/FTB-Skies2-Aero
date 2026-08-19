@@ -86,6 +86,10 @@ item_ids:
 
 <ItemImage id="minecraft:air" scale="0.25"/>
 
+><Color id="red">警告！</Color>切勿在<Color id="aqua">压缩空间</Color>内部建造此设施。当你在外部时，压缩空间无法稳定加载游戏刻，这会导致你的<Color id="dark_green">方块放置器</Color>运行滞后，进而使<Color id="light_purple">黑洞</Color>吞噬掉你的设施。
+
+<ItemImage id="minecraft:air" scale="0.25"/>
+
 ***
 
 <Column alignItems="center" fullWidth={true}>
