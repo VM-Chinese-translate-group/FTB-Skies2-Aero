@@ -2062,7 +2062,7 @@
 		""
 		"[ \"如果你需要关于如何设置粒子加速器的指南，可以查阅\", { \"text\": \"粒子加速器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C0C63951FDED180\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"} }, \"任务。同样地，你也可以在粒子加速器物品上长按\", {\"keybind\": \"key.guideme.guide\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认按键：G\"}}, \"打开GuideMe指南页面。\" ]"
 		""
-		"&c&lWARNING!&r Do &lNOT&r build this setup inside a &bCompact Machine&r. The room does not tick reliably while you are outside it, so your block placer falls behind and the &6Black Hole&r will consume your setup."
+		"&c&l警告！&r&l切勿&r在&b压缩空间&r内搭建此结构。身处机器空间外部时，内部的游戏刻更新并不稳定；一旦方块放置器的供给跟不上，&6黑洞&r就会将整个结构吞噬殆尽。"
 	]
 	quest.1B986C3D7E212B33.title: "黑洞榨汁"
 	quest.1BB404B2D4AE8431.title: "Path Rewards Link"
