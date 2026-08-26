@@ -14,6 +14,7 @@
 	chapter.3AEDC4DBA9DD1E44.title: "Iron的法术与魔法书"
 	chapter.3B99F85218D37371.title: "实用物品和小贴士"
 	chapter.3CE58B5907FB2A58.title: "实用拓展"
+	chapter.4585404711F46350.title: "航空学"
 	chapter.485ABBDAA9A6C0CD.title: "Fargo的符石"
 	chapter.4F0F16931654DF58.title: "悬赏板"
 	chapter.56F302CC805CFC4D.title: "机械动力：扩展"
@@ -69,13 +70,13 @@
 		""
 		"升级数值可在下一页查看。"
 		"{@pagebreak}"
-		"&c红色心跳腰带&r：1.5格跳跃高度，略微增加移速。"
+		"&c红色心跳腰带&f：1.5格跳跃高度，略微增加移速。"
 		""
-		"&e黄色心跳腰带&r：2格跳跃高度，中幅增加移速。"
+		"&e黄色心跳腰带&f：2格跳跃高度，中幅增加移速。"
 		""
-		"&9蓝色心跳腰带&r：2.5格跳跃高度，大幅增加移速。"
+		"&9蓝色心跳腰带&f：2.5格跳跃高度，大幅增加移速。"
 		""
-		"&a绿色心跳腰带&r：3格跳跃高度，巨幅增加移速。"
+		"&a绿色心跳腰带&f：3格跳跃高度，巨幅增加移速。"
 	]
 	quest.00249E1AFEF0051A.title: "更好的移动"
 	quest.0056517EDF3DAB08.quest_desc: [
@@ -110,9 +111,9 @@
 		""
 		"[\"\", {\"text\": \"位阶\", \"color\": \"green\"}, \"：这是附魔台的力量源泉，其最大值取决于你的书架等级和\", { \"text\": \"世界层级\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往世界层级任务\"} }, \"，决定了附魔的最高等级。\" ]"
 		""
-		"&c量子化&r：这是进行高阶附魔时必然产生的混沌波动，决定了附魔的随机性。"
+		"&c量子化&f：这是进行高阶附魔时必然产生的混沌波动，决定了附魔的随机性。"
 		""
-		"&d阿卡那&r：这代表着魔咒的整体质量和数量，决定了魔咒的稀有度，以及单次附魔能够获得的魔咒数量。"
+		"&d阿卡那&f：这代表着魔咒的整体质量和数量，决定了魔咒的稀有度，以及单次附魔能够获得的魔咒数量。"
 	]
 	quest.00A7C1FE54F86429.title: "&6附魔的奥秘"
 	quest.00E7719300B02F8F.quest_desc: [
@@ -130,6 +131,14 @@
 	]
 	quest.00EF44F8FEB82203.quest_desc: ["[ \"使用\", { \"text\": \"悖论混合器\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"774D3A6FFDD295D4\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开任务\"} }, \"混合闪电菠萝和时间菠萝汁。\" ]"]
 	quest.00EF44F8FEB82203.title: "悖谬混合"
+	quest.010F6CB71BAB1731.quest_desc: [
+		"&a对接连接器&f总是以两个为一组。它们会延长、靠近后自动对齐并锁定。保证连接紧固的同时也保证两端的独立性，一旦锁定，物品和流体可双向直通，只要在一侧提供输入、另一侧抽出即可。"
+		""
+		"Retract either end to undock. A comparator reads how far along the docking is, which is the signal an automated dock waits for."
+		""
+		"&aRedstone Magnets&f help line a big ship up. Opposite poles attract and try to align with each other, so a magnet on the hull and one on the pier drags the connectors into range."
+	]
+	quest.010F6CB71BAB1731.title: "&a对接连接器"
 	quest.01177027CE208375.quest_desc: [
 		"当你获得了一些&d不锈钢粉&r，你就可以将其放入&3电力高炉&r中，烧制出&b热不锈钢锭&r。"
 		""
@@ -152,6 +161,14 @@
 		"此为，你也可以使用&#eda73b蜂蜜胶&f胶合结构。"
 	]
 	quest.0128A3EC005A8AE5.title: "物理组装器"
+	quest.012ACDB95C655DDB.quest_desc: [
+		"A ship needs rotation on board, and a waterwheel doesn't travel well. The &aPortable Engine&f burns fuel and spins a shaft, in either direction, and it'll take fuel from hoppers and belts so you don't have to hand-feed it in flight."
+		""
+		"Drop a &dBlaze Cake&f in and it runs superheated for more power. "
+		""
+		"[\"The \", {\"text\": \"Stirling Engine\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"17C82FAD796695DE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Stress Relief Quest\"]}}, \" from \", {\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \" is the other onboard option, and any \", {\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \" burner can heat it.\"]"
+	]
+	quest.012ACDB95C655DDB.title: "&a便携式引擎"
 	quest.012AEBFDB1F1512E.title: "核源铁盔甲"
 	quest.0154D0F30F095E63.quest_desc: ["灵质触媒可以加快与其要素相同的灵质晶簇的生长。因此，如果你对着原生晶簇使用原生灵质触媒，就可以大幅度加快其生长速度。且如果你对着目标晶簇使用要素不相同的灵质触媒，则会赋予目标晶簇新的要素类型。"]
 	quest.0154D0F30F095E63.title: "培育晶簇"
@@ -215,6 +232,12 @@
 		"大多数&2蜂巢&r需要放入物品来吸引蜜蜂，基础蜂巢需要的是&e蜜蜂小食&r，对蜂巢使用此物品将会启动蜜蜂入住计时器，此时再次使用蜜蜂小食会缩短入住时间。"
 	]
 	quest.0241EAE68EA53595.title: "&f用蜂巢获取蜜蜂"
+	quest.02926DC431DB0DD2.quest_desc: [
+		"&bThrust&f is the push. Propellers make it from rotation, thrusters make it from fuel, and both of them push on the ship at the block where they sit."
+		""
+		"Where the push sits matters as much as how hard it pushes. Thrust below the centre of mass pitches the nose up, thrust on one side turns you, and thrust that isn't pointed straight through the centre of mass turns into a slow spin. The &aContraption Diagram&f shows you exactly where every one of them is pushing."
+	]
+	quest.02926DC431DB0DD2.title: "&bThrust"
 	quest.02BC61BBCDB931A3.quest_desc: [
 		"&d燃气发电机&r是游戏前期最强的发电方式之一，可一直用到游戏中期。"
 		""
@@ -281,9 +304,17 @@
 		""
 		"你可以制作一个&a基础->铁&r升级，然后对你的存储方块使用它。"
 		""
-		"&e注意&r：你也可以直接从基础等级升级到更高等级！"
+		"&e注意&f：你也可以直接从基础等级升级到更高等级！"
 	]
 	quest.03569C25419223DC.title: "&f存储升级"
+	quest.035FB8020EAB6725.quest_desc: [
+		"Place a &aContraption Claim Block&f on a ship and the ship becomes &eFTB Chunks&f territory. Only your team can break it or open it, allies can be added from the block, and it shows up on the map with its altitude and speed."
+		""
+		"The block also lets you force-load the ship. &bKeep Anchor Loaded&f keeps the chunks under it awake so it keeps existing while you're gone, and &bKeep Physics Active&f keeps it simulating too, so a flying farm keeps farming. Both count against your team's force-load limits."
+		""
+		"&cWarning&f: A ship that never stops simulating is a ship that never stops costing the server. Force-load the base, not the fleet."
+	]
+	quest.035FB8020EAB6725.title: "&aContraption Claim Block"
 	quest.0361236BF20549B5.quest_desc: [
 		"骷髅头颅给予+1x能量容量和充能速度"
 		""
@@ -323,7 +354,7 @@
 	quest.038C26F86776F520.quest_desc: [
 		"&b天空村庄&r的空岛上散布着许多前期极为稀有的资源，比如&2绿宝石&r、&d紫水晶&r，以及一些特殊的模组材料，如&5灵魂石&r。"
 		""
-		"&a小窍门&r：使用&e传说之眼&r或&e探险家指南针&r来定位并前往这些地方，可能会让你收获颇丰。"
+		"&a小窍门&f：使用&e传说之眼&r或&e探险家指南针&r来定位并前往这些地方，可能会让你收获颇丰。"
 	]
 	quest.038C26F86776F520.quest_subtitle: "绿宝石与紫水晶"
 	quest.038C26F86776F520.title: "&f天空村庄材料"
@@ -346,18 +377,24 @@
 		"末影傀儡在各处游荡，但最难缠的敌人是驻守在最底层的&5末影守卫&r。"
 	]
 	quest.040795388568AB69.title: "&f找到&5废弃城堡（Ruined Citadel）"
+	quest.0442C24F82084CE8.quest_desc: [
+		"For when the ship is parked and the island is over there. Hold the &aHang Glider&f and jump off something tall and you glide instead of drop. The &3Reinforced Hang Glider&f lasts longer between repairs."
+		""
+		"&7&oNo lift, no engine, no landing gear. Aim for the water."
+	]
+	quest.0442C24F82084CE8.title: "&aHang Glider"
 	quest.044A192E503B766B.quest_desc: [
 		"&a心之治疗创可贴&r就像创可贴一样，会根据其等级为玩家恢复大量生命值。但它有冷却时间，用它救急时要注意。"
 		""
 		"每一级都会增加基础治疗数值。"
 		""
-		"&c红色&r：每次1颗心。"
+		"&c红色&f：每次1颗心。"
 		""
-		"&e黄色&r：每次3颗心。"
+		"&e黄色&f：每次3颗心。"
 		""
-		"&9蓝色&r：每次6颗心。"
+		"&9蓝色&f：每次6颗心。"
 		""
-		"&a绿色&r：每次10颗心。"
+		"&a绿色&f：每次10颗心。"
 	]
 	quest.044A192E503B766B.title: "包扎一下！"
 	quest.04561BBA227DE4D6.quest_desc: [
@@ -529,6 +566,12 @@
 		"{image:minecraft:item/emerald width:20 height:20 align:center}"
 	]
 	quest.073546F80EDA632E.title: "&a贸易站"
+	quest.0765E40A957F1F00.quest_desc: [
+		"Climbing down to tie up a ship gets old. A &3Throwable Rope Connector&f is a connector you throw, and it anchors wherever it lands, up to 10 blocks away. Keep one in your off hand and the &3Rope Connector Launcher&f fires it 20 blocks instead."
+		""
+		"The &3Mounted Rope Launcher&f is the ship-side version with a 40 block reach. Right-click to mount it, left-click to fire, right-click to release the anchor, and a redstone pulse fires it along its last aim so the docking sequence can throw its own lines. Ammo is only used up when a throw actually sticks."
+	]
+	quest.0765E40A957F1F00.title: "&3Rope Launchers"
 	quest.077F5C3829CA7300.quest_desc: [
 		"为了鼓励玩家不断探索、尝尽各种美食，玩家在本整合包中食用不同食物可以获得&6额外生命值&r！"
 		""
@@ -553,6 +596,8 @@
 		"&a传送带&r可用于搭建传送带装置，实现物品和&b旋转力&r的传输。"
 		""
 		"&e机械动力&r的机器将自动与&a传送带&r上的物品交互（当机器支持该功能时）。"
+		""
+		"&aTransmission Chains&f are used to cleanly transfer rotation between belts."
 	]
 	quest.07BCE0B7BDB4E155.title: "&a传送带"
 	quest.07C181C204CF1240.quest_desc: [
@@ -656,7 +701,7 @@
 		""
 		"要收容这些蜜蜂，可以在蜂巢中安装&a升级：反传送&r来阻止它们传送！"
 	]
-	quest.090946AC35693607.title: "&e升级：&f反传送"
+	quest.090946AC35693607.title: "&e升级&f：反传送"
 	quest.091ACA18018FFD3E.quest_desc: [
 		"这些组件可以从世界中汲取流体，或将网络中的流体放置在世界中。"
 		""
@@ -692,7 +737,7 @@
 		""
 		"&3配置工具&r是用来锁定抽屉存放物品种类的，如果你要从抽屉中一直存取同类物品的话，那么它就能派上用场了！"
 		""
-		"&e专业提示&r：如果你把抽屉都连上了&a存储控制器&r，那么可以对存储控制器使用配置工具，这样一次就能锁定所有抽屉！"
+		"&e专业提示&f：如果你把抽屉都连上了&a存储控制器&r，那么可以对存储控制器使用配置工具，这样一次就能锁定所有抽屉！"
 		"{@pagebreak}"
 		"潜行使用配置工具可以改变模式。配置工具有很多模式，比如隐藏物品存储数量，又或者是为了节省FPS而隐藏抽屉物品显示。"
 	]
@@ -737,6 +782,12 @@
 		"&e注意&f：骨粉及类似催生效果会&c抑制&r转生粉的效果，促使树苗在发生变异前直接生长，切勿强行催生！"
 	]
 	quest.09B6F6758B0EEEC5.title: "&f巫师之树"
+	quest.09B7653EF21B5A33.quest_desc: [
+		"&bLift&f is anything that pushes up. There are three ways to get it. Trap hot gas in a balloon, bolt on &dLevitite&f, use propellers to propel higher, or go fast enough that sails and wings start carrying you."
+		""
+		"A ship settles at the height where lift and weight are equal. Air gets thinner as you climb, so the same balloon lifts less up high, and that's what stops a balloon rising forever. Add lift to climb, cut it to sink. "
+	]
+	quest.09B7653EF21B5A33.title: "&bLift"
 	quest.09BC75B655BDC624.quest_desc: [
 		"获得多只相同类型的蜜蜂很困难，尤其是&d末影龙蜜蜂&r这种需要特殊繁殖花的蜜蜂。"
 		""
@@ -748,7 +799,7 @@
 		""
 		"该升级也可以作为过滤器安装到&a捕捉器&r中，使其只捕捉幼蜂。"
 	]
-	quest.09BC75B655BDC624.title: "&e升级：&f幼年蜂"
+	quest.09BC75B655BDC624.title: "&e升级&f：幼年蜂"
 	quest.09C7A0F207271224.quest_desc: [
 		"消耗粉红色染料与方块。"
 		""
@@ -778,7 +829,7 @@
 		""
 		"{image\\:\\ftb:textures/quests/productivebees/advancedbeehivesim.png width:125 height:150 align:center}"
 	]
-	quest.0A1FDABEAAA0723B.title: "&e升级：&f模拟"
+	quest.0A1FDABEAAA0723B.title: "&e升级&f：模拟"
 	quest.0A4AB56CCEE5B2F8.quest_desc: [
 		"此&a动态结构控制器（Contraption Controller）&f最多可绑定键盘上的13个按键，并映射为红石信号来控制动态结构。"
 		""
@@ -834,15 +885,15 @@
 	quest.0ABE3ABD2CDF6A45.quest_desc: [
 		"你会需要大量的&6反应堆组件&r，所以我为你列了个物品及其作用的清单，你可以照着它们来合成自己的反应堆方块！"
 		""
-		"&e燃料棒&r：它们有很多种类，将会作为你反应堆的中坚力量，就是它们起到发电的作用。&6四联燃料棒&r的耐久比&a单燃料棒&r或&b二联燃料棒&r要多的多，它的比辐射率会随着温度降低。"
+		"&e燃料棒&f：它们有很多种类，将会作为你反应堆的中坚力量，就是它们起到发电的作用。&6四联燃料棒&r的耐久比&a单燃料棒&r或&b二联燃料棒&r要多的多，它的比辐射率会随着温度降低。"
 		""
-		"&e板&r：有着广泛用途的导热性和反射性表面，有极高概率将&6快中子&r变为&d热中子&r。"
+		"&e板&f：有着广泛用途的导热性和反射性表面，有极高概率将&6快中子&r变为&d热中子&r。"
 		"{@pagebreak}"
-		"&e热交换器&r：该组件用途为管理反应堆内部温度，其十分优异的导热性能可以将一边的热能转移到另一边。"
+		"&e热交换器&f：该组件用途为管理反应堆内部温度，其十分优异的导热性能可以将一边的热能转移到另一边。"
 		""
-		"&e水&r：有很多种类。高压水的能源密度更大，但&9重水&r产生的可以产生&4氚&r而不是&5氘&r而是。当水吸收&6快中子&r的时候就会产生&c氘&r，吸收&d热中子&r则会升温（直接汽化成&7蒸汽&r）。"
+		"&e水&f：有很多种类。高压水的能源密度更大，但&9重水&r产生的可以产生&4氚&r而不是&5氘&r而是。当水吸收&6快中子&r的时候就会产生&c氘&r，吸收&d热中子&r则会升温（直接汽化成&7蒸汽&r）。"
 		""
-		"&e镉控制杆&r：一种特殊组件，极高概率吸收&d热中子&r。"
+		"&e镉控制杆&f：一种特殊组件，极高概率吸收&d热中子&r。"
 	]
 	quest.0ABE3ABD2CDF6A45.title: "&6核反应堆组件"
 	quest.0ABFE7704D561C35.quest_desc: ["&3动态结构控制器&r可通过红石信号实现装置的精细配置。"]
@@ -941,6 +992,14 @@
 		"大抵可以当做是个能量中继器。"
 	]
 	quest.0BAF0C06F01C4E80.title: "&f机器适配器插件"
+	quest.0BC10EF89AA8FF5D.quest_desc: [
+		"A flying base is a target. A flying base with guns is a fleet."
+		""
+		"&eCreate Big Cannons&f puts real artillery on the deck, from a cast-iron field gun to a built-up steel monster, and &eShield Generators&f puts something between you and the reply. Both run on the same &eCreate&f rotation and redstone the rest of the ship already uses."
+		""
+		"&cWarning&f: Guns kick. A cannon firing off one side of a light airship moves the airship. Mount them near the centre of mass, fire in pairs, or enjoy the spin."
+	]
+	quest.0BC10EF89AA8FF5D.title: "&cArmament"
 	quest.0BEF15E1352A5F72.quest_desc: [
 		"&eReplication&r模组可以让你把物品和方块分解为&b物质&r，这些物质可以转换为其他材料和相同类型的物品。"
 		""
@@ -1027,6 +1086,14 @@
 	quest.0D0A1E61C2384E37.quest_subtitle: "合成任意要素以证明自身精通此道。"
 	quest.0D0A1E61C2384E37.title: "五大要素"
 	quest.0D35D0D33922A201.title: "&f打败十波&d永恒之门"
+	quest.0D3AB3D21858B5E3.quest_desc: [
+		"&aHoney Glue&f is &bSuper Glue&f for ships. Click two corners and it glues the box between them. &bCtrl+Scroll&f grows or shrinks the box, and holding &bAlt&f lets you drop a corner in mid-air."
+		""
+		"The difference from &bSuper Glue&f is what it sticks to. &aHoney Glue&f only ever attaches to &bSimulated Contraptions&f, so a bearing or piston contraption passing by won't drag half your deck away. It will grab any &bSuper Glue&f it overlaps, but &bSuper Glue&f won't grab it back."
+		""
+		"&eCreate Propulsion&f adds an &aAuto Glue&f item that draws one honey box over a whole connected structure in a single click. Handy on a big hull."
+	]
+	quest.0D3AB3D21858B5E3.title: "&a蜂蜜胶"
 	quest.0D4FAFE90506EC1D.quest_desc: ["&d升降机滑轮&r的功能类似于&3绳索滑轮&r，但可以使用&3接触式红石信号发生器&r和&a动态结构控制器&r来分配不同的楼层。"]
 	quest.0D4FAFE90506EC1D.title: "&d升降机滑轮"
 	quest.0D63039E72A4F69A.title: "&b冰霜魔杖"
@@ -1105,7 +1172,7 @@
 		""
 		"挖掘这种矿簇后掉落的&a粗核源铁&r能够烧制成&a核源铁锭&r！"
 		""
-		"&e注意&r：时运不会作用于这些矿簇上。单个矿簇一般能掉落3到4个粗矿。"
+		"&e注意&f：时运不会作用于这些矿簇上。单个矿簇一般能掉落3到4个粗矿。"
 	]
 	quest.0E107AC18FCFDB57.title: "&a黏液转化&r"
 	quest.0E11DBABFFAB0FFA.quest_desc: [
@@ -1118,6 +1185,14 @@
 	quest.0E19151FCABF4759.title: "&f重置运动技能树"
 	quest.0E3D0533331945A1.quest_desc: ["打造一枚路由堆叠升级作为核心以拓宽你的路由网络。它将允许节点一次性传输更多物品/流体/能量。而路由速度升级则可以提升路由网络传输内容物的频率。它们都需要被安装在主路由节点上，你想安多少就安多少。只要安的足够多，顷刻间抽干大海也不在话下。"]
 	quest.0E3D0533331945A1.quest_subtitle: "迟滞之心跳仅存于孱弱之身躯。"
+	quest.0E51F853D09B41FE.quest_desc: [
+		"Spin a &aPropeller&f and it pushes. Spin it the other way and it pulls. A wrench flips the direction without touching the gearing. The &aWooden&f and &aAndesite&f versions are fixed, and the &3Smart Propeller&f pitches itself along one axis to try and face upward, which makes it the easy pick for a helicopter rotor."
+		""
+		"Each one costs 4 SU on the network. A propeller that's already moving through the air can't push as hard, so thrust falls off as you pick up speed, and it falls off again as the air thins with altitude."
+		""
+		"Goggles show the &bThrust&f and &bAirflow&f of any propeller you look at."
+	]
+	quest.0E51F853D09B41FE.title: "&aPropellers"
 	quest.0EA1B56A92D0403F.quest_desc: [
 		"将&b铝粉&r、&c铬粉&r和&d不锈钢粉&r混合在&3搅拌机&r中，它就会产出&e铁铬铝合金粉&r。"
 		""
@@ -1267,11 +1342,11 @@
 		""
 		"在&a合金炉&r的UI内，你可以按需进行自动化配置，比如侧面输入/输出、红石控制，以及切换以下三种工作模式："
 		"{@pagebreak}"
-		"&e仅合金配方&r：这个模式下合金炉只能处理合金配方。"
+		"&e仅合金配方&f：这个模式下合金炉只能处理合金配方。"
 		""
-		"&e仅熔炉配方&r：这个模式下合金炉就是个熔炉而已。"
+		"&e仅熔炉配方&f：这个模式下合金炉就是个熔炉而已。"
 		""
-		"&e合金和烧炼配方&r：这个模式下烧炼配方和合金配方不分离，但实现自动化的时候可能会出现该做成合金的材料反而会被烧炼的问题。"
+		"&e合金和烧炼配方&f：这个模式下烧炼配方和合金配方不分离，但实现自动化的时候可能会出现该做成合金的材料反而会被烧炼的问题。"
 	]
 	quest.109CB437DFAECDC6.title: "&a合金炉"
 	quest.10AB0C0930A5D77D.title: "&5生命恢复"
@@ -1302,6 +1377,14 @@
 		"鲜血带来的力量不止于此，其可以使你的产物激增。使用命血台桌制作一些切削油，并使用它们溶解一些矿物。台桌上矿物里的金属成分化作了粉尘，比你亲自烧制的还要多一份呢，最后，你只需要把它们烧成锭就好啦。"
 	]
 	quest.11284BF46CEB2F12.title: "矿石炼金术"
+	quest.112F8339E73484F3.quest_desc: [
+		"A fixed engine pushes one way. To steer with thrust you need the engine to swivel."
+		""
+		"The &dVector Thruster&f swivels by itself. Redstone on its faces yaws and pitches the nozzle, and the &dLiquid Vector Thruster&f does the same on &bTurpentine&f. The &3Servo Bearing&f is the other route. Mount any thruster on it and a redstone difference across the bearing pivots the whole assembly up to 90 degrees."
+		""
+		"Put a &bSmart Gearbox&f in servo mode behind a &3Servo Bearing&f and it aims the engine from orientation data automatically, which is how a ship holds a heading on its own."
+	]
+	quest.112F8339E73484F3.title: "&dVectored Thrust"
 	quest.114B4840D2FA1CDF.quest_desc: [
 		"&a提纯仓&r可以提升粗矿的矿物产量。"
 		""
@@ -1427,6 +1510,14 @@
 	]
 	quest.12B8D538B54497E2.title: "&f锐意进取"
 	quest.12D15FCB12460F37.title: "&6基岩电容"
+	quest.12D46DE4D42AA302.quest_desc: [
+		"Cannons are cast, not crafted. The &aBasin Foundry Lid&f goes on a heated &bBasin&f and melts metal into molten &aCast Iron&f, &3Bronze&f, &3Steel&f or &dNethersteel&f. A &aCannon Cast&f built up from &aCasting Sand&f and a cannon mould is the shape you pour it into."
+		""
+		"Fill the cast, wait for it to set, and break it open. A comparator on the cast reads 0 to 14 while it fills and 15 when it's done. What comes out is an unbored block, so the &aCannon Drill&f comes next. It needs rotation, water, and a lathe turning the cannon at the same speed as the drill, and it eats more water the faster it runs."
+		""
+		"&aCast Iron&f is the starter metal. &3Steel&f and &dNethersteel&f cannons are built up in layers with the &3Cannon Builder&f and finished under a blasting fan, and they take far more powder before they burst."
+	]
+	quest.12D46DE4D42AA302.title: "&aCasting a Cannon"
 	quest.131199313AE3F5E9.quest_desc: ["一台简单的消耗能量来取代燃料的类似于熔炉的机器。"]
 	quest.13448A305B57016A.quest_desc: [
 		"如果你想升级你的装备，试试&a初级精华工具&r吧，它比钻石工具更好！还有像&e镰刀&r和&b短镰&r这样可以范围收割作物的新工具！"
@@ -1716,6 +1807,12 @@
 	quest.1733FCE814C7DE2D.title: "&e应用通量"
 	quest.1739969280BB4E82.quest_subtitle: "传输红石信号"
 	quest.1739969280BB4E82.title: "&f红石导管"
+	quest.174B0BF2FAF28318.quest_desc: [
+		"A &aNameplate&f names the ship. Right-click to edit, dye to recolour, and wax it with honeycomb to lock the name. Every nameplate on the same contraption shares one name, and the &aAirship Station&f later in this chapter picks ships by that name, so name it early."
+		""
+		"A &aHandle&f is something to hold on to. Hold right-click to grab it and pull yourself along, hold it while sneaking to pull the ship instead, and scroll to change your distance. Grabbing one mid-fall also ends the fall without ending you."
+	]
+	quest.174B0BF2FAF28318.title: "&aNameplates and Handles"
 	quest.17612A3DF8930377.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.176610923FDE130F.quest_desc: ["只要使用&b掺杂硅板&r而不是常规硅板，你就能提高其配方的产量。"]
 	quest.176610923FDE130F.title: "&f掺杂硅板"
@@ -1764,6 +1861,14 @@
 		"它还用于制作&b敌手之力&r。"
 	]
 	quest.1811EC8E48EAD1BD.title: "&7苦力怕符石"
+	quest.1813C6C6A1D8AB8E.quest_desc: [
+		"&dLevitite&f is a crystal that refuses to fall. Enough of it on a ship and the ship floats with no balloon, no burner and no fuel. It can't climb on its own, and at low speed it drags hard against any movement, though the drag fades once you get going."
+		""
+		"If you've got &eJust Dire Things&f going, a &3Tier 2 Goo&f block turns lava into blend in two minutes flat."
+		""
+		"Pour the blend where you want the crystal and touch it with fire, a torch, a campfire, magma or a lit blaze burner. The reaction spreads through the whole pool and sets. Once placed its lift will be applied. This block can be picked up so move it as needed."
+	]
+	quest.1813C6C6A1D8AB8E.title: "&dLevitite"
 	quest.183EA37FA456C008.quest_desc: [
 		"&z彩虹发电机&f可以产出500万FE/t的能量，前提是&l所有&r其他&eExcessive Utilities&f模组的发电机都在发电。"
 		""
@@ -1855,7 +1960,7 @@
 		""
 		"其同样可以加装在蜂箱以外的地方，试试用在离心机、繁殖箱等方块上吧！"
 	]
-	quest.197CF94F783E59DF.title: "&e升级：&f速度"
+	quest.197CF94F783E59DF.title: "&e升级&f：速度"
 	quest.1980C42D8CDBE51C.quest_desc: [
 		"&d电动刷怪笼&r是原版刷怪笼的电动版本。"
 		""
@@ -1867,7 +1972,7 @@
 		""
 		"与大多数消耗电能工作的机器一样，你可以用更高级的&b电容&r来升级它的性能。"
 		""
-		"&e注意&r：打开物品栏，选中&7破损的刷怪笼&r，按&eU&r键即可打开JEI查看配方。"
+		"&e注意&f：打开物品栏，选中&7破损的刷怪笼&r，按&eU&r键即可打开JEI查看配方。"
 	]
 	quest.1980C42D8CDBE51C.title: "&f电动刷怪笼"
 	quest.19874DF48B8B2A75.quest_desc: [
@@ -2045,6 +2150,14 @@
 		"需要在自动化中多次使用相同变量时，该物品能够充分发挥作用。"
 	]
 	quest.1B2E6CA3642024B7.title: "&f复制器"
+	quest.1B6D163AEB801FF7.quest_desc: [
+		"A &aMechanical Servo&f turns a redstone signal into an angle. Right-click to set its range, and a full signal rotates it to the end of that range, a weaker signal to somewhere in between. It finishes the move it's on before it starts the next one."
+		""
+		"The &aStepper Servo&f steps instead. Set the angle per step, and each signal strength turns it that many steps. Signal on one side goes one way, the other side goes the other way, and both sides powered means hold still. Either one costs 4 SU per RPM while the input shaft turns."
+		""
+		"Rudders, elevators, aiming a propeller, opening a hangar door. Anything that needs to be at an angle rather than spinning."
+	]
+	quest.1B6D163AEB801FF7.title: "&aServos"
 	quest.1B8BB733ADF897FE.quest_desc: [
 		"你可以利用&eProductive Metalworks&r模组冶炼合金，将其铸造成各种不同的零件，制作工具、盔甲等装备。"
 		""
@@ -2330,6 +2443,14 @@
 		"如果想要升级流体传输速率，你可以选择给&d路由器&r安装一个&a流体传输升级&r。&a速度升级&r可以提升流体输入输出的频率，也很值得安装。"
 	]
 	quest.1F2E5FBD59466D57.title: "&f掌控流体"
+	quest.1F34918369AC97C7.quest_desc: [
+		"A normal &3Propeller Bearing&f on top of a ship makes a helicopter that tips over. The &dGyroscopic Propeller Bearing&f keeps its rotor pointing up no matter what the hull is doing underneath, which is the difference between a helicopter and a very expensive fan."
+		""
+		"Mount one upside down under a top-heavy build and it stabilizes the whole thing instead. A redstone signal resets the tilt to zero if the auto-levelling is fighting you."
+		""
+		"It needs a &dGyroscopic Mechanism&f, which is covered in the &bStability&f quest path."
+	]
+	quest.1F34918369AC97C7.title: "&dGyroscopic Propeller Bearing"
 	quest.1F3C96D0DAC4F080.quest_desc: [
 		"这是你朝着&5量子&m领域&r&5机器&r迈出的第一步！"
 		""
@@ -2370,6 +2491,12 @@
 		"&7&o盆栽盆还有一个用来伪装成另一个方块的伪装格。&r"
 	]
 	quest.1F94DD493FE20C0B.title: "&e盆栽树"
+	quest.1F9921A99FE2A241.quest_desc: [
+		"The &3Propeller Bearing&f turns a structure into a propeller. It grabs the block in front of it, and anything with at least two sail-like blocks in it counts. More sails, more thrust for the same rotation, and a big four-blade windmill out of &aSails&f will out-push a mini propeller several times over."
+		""
+		"It draws 2 SU. Reverse the input rotation or wrench it to reverse the thrust, and expect the same fall-off with airspeed and altitude as the small propellers."
+	]
+	quest.1F9921A99FE2A241.title: "&3Propeller Bearing"
 	quest.1FB8BF0898FD99D9.quest_desc: [
 		"24个符文与四条顶端是染血玻璃的立柱已将你的祭坛擢升至&c等级 II&r，现在它可以制作&c巫师的生命宝珠&r。"
 		""
@@ -2424,6 +2551,14 @@
 	quest.206987FC6B1524F8.title: "&a原子再构器"
 	quest.2075944B1DA3B63C.quest_subtitle: "施放需要长时间吟唱的法术不会被打断"
 	quest.2075944B1DA3B63C.title: "&a专注护身符"
+	quest.207B925E3490E7CC.quest_desc: [
+		"&aSolid Shot&f punches. &3AP Shot&f punches deeper. &cHE Shells&f blow up, &cShrapnel&f sprays, &aSmoke Shells&f hide you, &aFluid Shells&f dump whatever you filled them with, and a &aBag of Grapeshot&f turns the gun into a very large shotgun."
+		""
+		"Shells need a fuze to go off. An &aImpact Fuze&f detonates on a hit about two times in three, an &3Inertia Fuze&f nine times in ten, and the delayed versions of each wait until the shell is inside something first."
+		""
+		"A &3Big Cartridge&f rolls powder and shell into one item for the &3Quick-Firing Breech&f, which is how a &bMechanical Arm&f reloads a gun by itself. Keep a &aGas Mask&f aboard if you're the one firing smoke."
+	]
+	quest.207B925E3490E7CC.title: "&cMunitions"
 	quest.207CED1C925F85C4.quest_desc: [
 		"当你有了&c红石蜜蜂&r，将其与&a蓝色条纹蜜蜂&r一起繁殖即可获取&9青金石蜜蜂&r！"
 		""
@@ -2565,6 +2700,14 @@
 		"如果你在一个蜂箱里放了不止一种蜜蜂，最好使用&a饲养板&r来保持区域整洁！饲养板使你可以在一个方块的空间内放置多种花朵或方块。"
 	]
 	quest.230E34A0E4A4C014.title: "&f从蜂箱到&a蜂乡"
+	quest.23131503EF0BF979.quest_desc: [
+		"&aEnvelope&f blocks are the skin of a balloon. Build an airtight shell out of them, point a burner into it, and every cubic metre of &bHot Air&f inside lifts 1.5 kpg."
+		""
+		"The shell has to be sealed. Hot air fills it from the top down and leaks out of any gap, and any block sitting inside the shell steals volume. Shafts that need to pass through the wall get encased in envelope blocks to stay airtight."
+		""
+		"Right-click with dye to paint them. A good balloon is a big, empty, closed box with as few blocks inside as you can manage."
+	]
+	quest.23131503EF0BF979.title: "&aHot Air Envelope"
 	quest.2315DBE189D330DA.quest_desc: [
 		"末影龙蜜蜂已经干了很多活儿了，但这一切都将得到回报。"
 		""
@@ -2572,7 +2715,13 @@
 		""
 		"专业建议：四个“升级：产量”比四个“升级：速度”更好！"
 	]
-	quest.2315DBE189D330DA.title: "&e升级：&f产量ω"
+	quest.2315DBE189D330DA.title: "&e升级&f：产量ω"
+	quest.2316F3820C478CDC.quest_desc: [
+		"Before the artillery, there's the vegetable. The &dMounted Potato Cannon&f is the handheld one bolted to the deck. It takes the same ammo, loads from hoppers and belts, and charges on rotation. Once charged, redstone fires it, and a held signal keeps firing."
+		""
+		"It kicks. A light ship with a cannon on one side will notice."
+	]
+	quest.2316F3820C478CDC.title: "&dMounted Potato Cannon"
 	quest.231BAC05D93088B2.quest_desc: [
 		"当你在砍树或巡视你的领地时，你可能在聊天框中看到你获得了一个技能点！"
 		""
@@ -2609,6 +2758,18 @@
 		"你也可以使用&a扳手&r的偏移量保存功能来让组件自动计算如何设置偏移量，或者使用变量卡来搭建一些更复杂或需要移动的系统。"
 	]
 	quest.2331E407E82138AB.title: "&f认识接口"
+	quest.2345657297A97D4A.quest_desc: [
+		"&eAeroworks&f gives you a proper cockpit with the &dControl Desk&f. It's a block of sockets, and every &aControl Module&f you mount in one becomes a real control with its own keybinds and redstone link frequencies. Right-click with an empty hand to sit at it, use keyboard and mouse to move the controls, and press &bEsc&f to let go."
+		""
+		"Each control transmits how far it's moved on one frequency, and the opposite direction on a second frequency. Desks that touch join into one deck that a single player runs together. Sneak and right-click a mounted control to configure it, and wrench it off when you change your mind. It keeps its settings."
+		""
+		"The standalone &aJoystick&f block is the same idea in a single block, with four axes and a spare button."
+		"{@pagebreak}"
+		"Each &aModule&f can be installed separately and come with their own buttons as well."
+		""
+		"You can place multiple &dDesks&f side by side to extend the amount of controls you can assign to a single &dDesk&f. Clicking anywhere on the &dDesk&f allows you to interact with all controls via keybinds."
+	]
+	quest.2345657297A97D4A.title: "&dControl Desk"
 	quest.234A09F196E91BDD.quest_desc: ["生成资源的方式很多，本章节旨在帮助你了解能够大量获取物品的模组！"]
 	quest.234A09F196E91BDD.title: "&6资源生成"
 	quest.2369D81BC32A5982.quest_desc: [
@@ -2631,6 +2792,12 @@
 		""
 		"泥土能转化为黏土，泥土上能种树，泥土甚至能搭建每一个Minecraft玩家都搭建过的泥土房子（当然，这次是在空岛上）。"
 	]
+	quest.23A56DB24FE7D584.quest_desc: [
+		"Right-click a ship with the &aContraption Diagram&f and it opens a page of the things you actually need to know. Total mass, the &bcentre of mass&f, and every force arrow, merged or separate."
+		""
+		"The &bcentre of mass&f is the number that decides whether your ship flies level or nose-first. Balloons and propellers push on the ship where they sit, so lift far from the centre of mass turns into a tilt, and a tilt turns into a spin. Check the diagram before the maiden voyage, then move the heavy bits until the arrows line up."
+	]
+	quest.23A56DB24FE7D584.title: "&aContraption Diagram"
 	quest.23B63CC05AA3EAAB.quest_desc: [
 		"&a龙符石&r使玩家免疫直接和非直接魔法伤害。"
 		""
@@ -2656,7 +2823,7 @@
 		""
 		"这是对产量的重量级升级！"
 	]
-	quest.2436337445AD0E07.title: "&e升级：&f蜜脾块"
+	quest.2436337445AD0E07.title: "&e升级&f：蜜脾块"
 	quest.24377F5E129310BF.quest_desc: [
 		"高级&d矢量推进器&f支持使用流体或电能作为动力。"
 		""
@@ -2701,21 +2868,21 @@
 		""
 		"玩家可以使用命令&b/events toggle ftb:[事件名称]&r来禁用或重新启用每个事件，以满足自己的喜好。"
 		""
-		"&3Allay：&r一个有用的悦灵会出现，想和你以物换物。"
+		"&3Allay&f：一个有用的悦灵会出现，想和你以物换物。"
 		""
-		"&3Fairy：&r这个友好的隐形精灵会在离开前提供一点加速。"
+		"&3Fairy&f：这个友好的隐形精灵会在离开前提供一点加速。"
 		"{@pagebreak}"
-		"&3Frogs：&r如果附近有水，则会生成一只青蛙或鱿鱼。"
+		"&3Frogs&f：如果附近有水，则会生成一只青蛙或鱿鱼。"
 		""
-		"&3Goat：&r站在岛屿边缘附近的玩家可能会被轻轻推一下，帮助他们体验虚空。"
+		"&3Goat&f：站在岛屿边缘附近的玩家可能会被轻轻推一下，帮助他们体验虚空。"
 		""
-		"&3Llama：&r会生成一种特殊的羊驼，向玩家吐出有用的物品。如果用拴绳拴住它们，它们就会被留下，喂养它们以吐出资源。"
+		"&3Llama&f：会生成一种特殊的羊驼，向玩家吐出有用的物品。如果用拴绳拴住它们，它们就会被留下，喂养它们以吐出资源。"
 		"{@pagebreak}"
-		"&3Phantom：&r一只恶意的幻翼俯冲下来，将铁砧砸在某人头上！免费的铁砧……"
+		"&3Phantom&f：一只恶意的幻翼俯冲下来，将铁砧砸在某人头上！免费的铁砧……"
 		""
-		"&3Pyromancer：&r一个新手炽焰术士会顺道拜访，如果你愿意交易一些魔法物品的话。"
+		"&3Pyromancer&f：一个新手炽焰术士会顺道拜访，如果你愿意交易一些魔法物品的话。"
 		""
-		"&3Wandering Trader：&r来自流浪商人公会的众多商人之一会来拜访你，提供各种物品来帮助你的冒险。"
+		"&3Wandering Trader&f：来自流浪商人公会的众多商人之一会来拜访你，提供各种物品来帮助你的冒险。"
 	]
 	quest.2485AE690A2FAB3E.title: "&6FTB&f事件"
 	quest.24A60877D5FAD4A5.quest_desc: [
@@ -2833,7 +3000,7 @@
 		""
 		"&d灵魂绑定器&r消耗液态经验和&a满灵魂瓶&r，来转化&7破损的刷怪笼&r的类型或制造注能物品。"
 		""
-		"&e注意&r：&a石英玻璃&r可以在&a合金炉&r用4个下界石英熔炼出来。"
+		"&e注意&f：&a石英玻璃&r可以在&a合金炉&r用4个下界石英熔炼出来。"
 	]
 	quest.262F5FE957F52F5D.title: "&f绑定灵魂"
 	quest.263045D3780542C0.quest_desc: [
@@ -3071,7 +3238,7 @@
 		""
 		"为区块灵域填充灵质需要用恶念坩埚焚烧灵质（在其中放入灵质宝石，灵质掉落物，或者任意要素的灵质结晶）"
 		""
-		"查看当前区块灵域的灵质浓度需要使用灵域测量仪（潜行时会显示每种要素0–100的数字）"
+		"查看当前区块灵域的灵质浓度需要使用灵域测量仪（潜行时会显示每种要素0-100的数字）"
 	]
 	quest.298BFB73F3B2E3D5.quest_desc: [
 		"&a电池&r是很好的便携式能量容器。各种充能方式都可以给它充能，无论是有线的还是无线的。"
@@ -3091,7 +3258,7 @@
 		""
 		"使用&a空气栅&r将气体直接排放到散热片上，则会极大地提升散热片的散热效率。如果把它和&a涡流管&r配套使用的话，那么机器的温度将不再是问题！"
 		""
-		"&e注意&r：一旦&a散热片&r的温度达到60℃以上或-60℃以下，那么就会对接触到它的生物&c造成伤害&r。"
+		"&e注意&f：一旦&a散热片&r的温度达到60℃以上或-60℃以下，那么就会对接触到它的生物&c造成伤害&r。"
 	]
 	quest.299CD86325D3D74B.title: "&f散热片"
 	quest.29A0F6B08A706371.title: "&f实用的&3二阶&r魔符"
@@ -3112,7 +3279,7 @@
 	quest.29CEF5D43415B227.quest_desc: [
 		"&d魔源中继器：折越型&r可以将魔源传输至另一个&d折越型中继器&r，无视距离。"
 		""
-		"注意：如果折越距离大于30格，则在传送时有概率损耗一些魔源。"
+		"&e注意&f：如果折越距离大于30格，则在传送时有概率损耗一些魔源。"
 	]
 	quest.29CEF5D43415B227.title: "&d远程传输魔源"
 	quest.29E6EF882A568585.quest_desc: ["这些&a经验晶方尖碑&r把知识浓缩成了微型图腾，只需要3个这样的方尖碑就能为&e附魔台&r提供5个书架的等级提升效果！"]
@@ -3277,6 +3444,12 @@
 		"&e建筑棒&r上能够安装一些酷炫的升级，例如有一个升级可以让它改为消耗能量，而不再消耗耐久度。"
 	]
 	quest.2C1649AE3DADD71D.title: "&b更快地建造"
+	quest.2C3835C8412B1DF2.quest_desc: [
+		"&eCopycats+&f blocks take on the texture of whatever block you click them with, so a hull can look like oak, deepslate or brass while weighing almost nothing. &eAero Copycats&f is the glue between the two mods. It hands every copycat shape a proper physics mass, and a &aCopycat Board&f comes in at 0.125 kpg."
+		""
+		"That's the trick to a big ship. Build the shape out of boards, beams, panels and slices, skin them with the heavy-looking block, and let the balloon carry a fraction of the weight."
+	]
+	quest.2C3835C8412B1DF2.title: "&aLight Hull Blocks"
 	quest.2C55C6EBABA86BA8.quest_desc: ["&a初级方块破坏器&r会使用内部的工具破坏前方的方块；就算你给他的工具是一根木棍或一块黑曜石，它也会完成任务的。"]
 	quest.2C55C6EBABA86BA8.title: "&a初级方块破坏器"
 	quest.2C5BB08BA01C2F8C.quest_desc: ["这种通常带有放射性的化学品需要与极强的板材结合，才能制作出不会破坏&z椰林飘香&f完美风味的杯子。"]
@@ -3300,6 +3473,14 @@
 		"像种植其他作物一样种下菠萝，然后在菠萝两侧分别放置一个&b辉光冰&f和一个&2时间水晶块&f，并在其上方放置提取器以提取&d时间菠萝汁&f。"
 	]
 	quest.2CC49B7C1ADB01A2.title: "有着奇怪味道的果汁"
+	quest.2CE7B94D12101C54.quest_desc: [
+		"The &dShield Generator&f wraps a ship in a shell that stops anything moving faster than 0.35 blocks a tick. Shells, arrows and shot bounce off, and anything fast that's leaving gets reflected too. People walking through it are fine, and so is your own slow cargo."
+		""
+		"It burns &aAmethyst Shards&f, or takes &bFE&f instead at up to 2,000 FE a push, 20 FE per shard-tick. A redstone signal sets the shield heat from 0 to 100, and hotter is stronger. Big hits in one spot open a local breach for a moment, so a shield is a buffer, not a wall."
+		""
+		"Three shapes. A &bConvex Hull&f hugs the ship, a &bMetaball&f rounds it off, and a &bGround Dome&f sits on the ground around a base at up to 50 blocks radius. The shell can stand up to 5 blocks off the hull. Bigger shields burn shards faster."
+	]
+	quest.2CE7B94D12101C54.title: "&dShield Generator"
 	quest.2D09494ED3235CC8.quest_desc: [
 		"&3动力泵&r是使流体管道能够实际输送流体的核心装置。"
 		""
@@ -3319,7 +3500,7 @@
 		"{@pagebreak}"
 		"&z椰林飘香&f是&6FTB Skies 2：Aero&f的终极目标。"
 		""
-		"合成此物品后，将其饮下"
+		"After crafting this item, you must drink it at around 17:00 (5PM) game-time while sitting on a tropicraft chair."
 	]
 	quest.2D0F5BF08D40618C.title: "&z椰林飘香"
 	quest.2D178651FB267E91.title: "精通之证"
@@ -3349,15 +3530,15 @@
 	quest.2D2EC0BCFF1DA68C.quest_desc: [
 		"用蜜蜂笼捕获蜜蜂后，大多数蜜蜂会显示具体的属性，我们来看一看这些属性吧！"
 		""
-		"&a产量&r：决定蜜脾的产出量，最高为&6非常高&r。"
+		"&a产量&f：决定蜜脾的产出量，最高为&6非常高&r。"
 		""
-		"&a天气耐受性&r：决定蜜蜂能否在特定天气下生产，最好的属性是&6任何&r。"
+		"&a天气耐受性&f：决定蜜蜂能否在特定天气下生产，最好的属性是&6任何&r。"
 		"{@pagebreak}"
-		"&a行为&r：决定蜜蜂喜欢什么样的排班，昼行性代表白天工作，夜行性代表晚上工作，最佳属性为&6昼夜双行性&r，白天晚上都能工作。"
+		"&a行为&f：决定蜜蜂喜欢什么样的排班，昼行性代表白天工作，夜行性代表晚上工作，最佳属性为&6昼夜双行性&r，白天晚上都能工作。"
 		""
-		"&a耐力&r：决定蜜蜂的最大生命值，最好的属性为&6强&r。"
+		"&a耐力&f：决定蜜蜂的最大生命值，最好的属性为&6强&r。"
 		""
-		"&a性格&r：有些蜜蜂不喜欢其他蜜蜂，这个属性会告诉你它和其他蜜蜂如何互动……也许还有你:)。最佳属性为&6友好&r，因为他们真的很松弛。"
+		"&a性格&f：有些蜜蜂不喜欢其他蜜蜂，这个属性会告诉你它和其他蜜蜂如何互动……也许还有你:)。最佳属性为&6友好&r，因为他们真的很松弛。"
 		""
 		"提示框中还会显示蜜蜂繁殖所需的物品！"
 	]
@@ -3420,17 +3601,17 @@
 		""
 		"如果你需要的话，你也可以在顶部搜索栏直接搜寻想要的变量类型。"
 		"{@pagebreak}"
-		"&7Any&r：这些是几乎独属于Minecraft的类型，比如物品、方块、配方、流体、原料等。"
+		"&7Any&f：这些是几乎独属于Minecraft的类型，比如物品、方块、配方、流体、原料等。"
 		""
-		"&3NBTs&r：这些也是独属于Minecraft的类型，通常被称为“标签”。不必过于纠结NBT到底是什么，只需知道Minecraft中的所有物品都有对应的NBT标签即可。"
+		"&3NBTs&f：这些也是独属于Minecraft的类型，通常被称为“标签”。不必过于纠结NBT到底是什么，只需知道Minecraft中的所有物品都有对应的NBT标签即可。"
 		""
-		"&cString&r：字符串可以是词语，也可以是文本，其中可以包括数字。&o你在这个页面上阅读到的所有内容都是&c字符串&f！&r"
+		"&cString&f：字符串可以是词语，也可以是文本，其中可以包括数字。&o你在这个页面上阅读到的所有内容都是&c字符串&f！&r"
 		"{@pagebreak}"
-		"&9Booleans&r：布尔型变量的值仅为&a是&r或者&4否&r，代表着编程语言中的&aTrue&r和&4False&r。一张空白的&a变量卡&r的值始终是&aTrue&r。"
+		"&9Booleans&f：布尔型变量的值仅为&a是&r或者&c否&r，代表着编程语言中的&aTrue&r和&cFalse&r。一张空白的&a变量卡&r的值始终是&aTrue&r。"
 		""
-		"&6Integers&r：此类型中包含所有整数，当然可包括负数。不过，在处理非常大的数字是，还是建议使用&eDoubles&r或&eLong&r。"
+		"&6Integers&f：此类型中包含所有整数，当然可包括负数。不过，在处理非常大的数字是，还是建议使用&eDoubles&r或&eLong&r。"
 		""
-		"&eDoubles&r：这些数字并不像&6整型&r一样全是整数。你在搭建网络时基本不会使用双精度型，不过你需要了解它们之间的区别。"
+		"&eDoubles&f：这些数字并不像&6整型&r一样全是整数。你在搭建网络时基本不会使用双精度型，不过你需要了解它们之间的区别。"
 		""
 		"此外，在&a逻辑编程器&r中还有很多类型的&b变量&r，比如&e算数&r和&2运算符&r，不过由于这些类型基本不会用到，任务中也就不再介绍了。"
 	]
@@ -3500,14 +3681,15 @@
 	quest.2EEE782146096F9C.title: "&e建筑小帮手"
 	quest.2F057F981B68EB95.quest_desc: ["向&a初级流体放置器&r输入流体后，它会将流体倒在世界中。"]
 	quest.2F057F981B68EB95.title: "&a初级流体放置器"
-	quest.2F11FF90561D0604.quest_desc: ["&a陀螺仪&r会消耗大量旋转力，尝试使动态结构沿着所放置的轴线维持稳定。"]
-	quest.2F15D918EF183051.quest_desc: [
-		"&6Skies 2: Aero&r是一个沙盒向空岛整合包，你可以按自己喜好进行游玩！"
+	quest.2F06B5B38E9B8804.quest_desc: [
+		"Keys become redstone with the &3Linked Typewriter&f. It binds keyboard keys to &bRedstone Link&f frequencies. Sneak and right-click to open the setup, put a link's items on a key, and from then on pressing the key transmits on that frequency. Right-click it with a &bLinked Controller&f to copy that controller's bindings across in one go."
 		""
-		"这个整合包为各类玩家准备了海量模组。模组无明确的门槛限制，随心所欲地体验游戏过程吧！"
+		"Right-click to take control and the typewriter steals your movement keys and every bound key until you let go. Thirteen thrusters, six servos and a burner, all from one seat."
 		""
-		"对于那些热爱挑战的玩家来说，整合包的终极目标是制作并饮用一杯&z椰林飘香&r。你认为自己有足够的实力吗？"
+		"&eAeronautics Curios Compat&f gives it a slot of its own. Keep a typewriter in the curio slot and the &bUse Remote Typewriter&f key drives the ship from anywhere aboard."
 	]
+	quest.2F06B5B38E9B8804.title: "&3Linked Typewriter"
+	quest.2F11FF90561D0604.quest_desc: ["&a陀螺仪&r会消耗大量旋转力，尝试使动态结构沿着所放置的轴线维持稳定。"]
 	quest.2F15D918EF183051.title: "&f欢迎游玩&6FTB Skies 2：Aero&f！"
 	quest.2F2DC018DD6A2A23.quest_desc: [
 		"大多数&b珠宝饰品&r的效果加成和属性都来自其所镶嵌的&a宝石&r 。"
@@ -3570,7 +3752,7 @@
 	quest.2FEC8EC3EB592A03.quest_desc: [
 		"&2钢采矿机&r是可以无限挖掘出材料的多方块机器，前提是里面装有合适的&a钻头&r。"
 		""
-		"&e注意&r：不同等级的不同&a钻头&r产出的矿石不同，请查阅配方用途以准确定位所需矿石。请确保输出空间足够容纳所有矿石种类，或使用多个输出仓，以免遗漏任何矿石！"
+		"&e注意&f：不同等级的不同&a钻头&r产出的矿石不同，请查阅配方用途以准确定位所需矿石。请确保输出空间足够容纳所有矿石种类，或使用多个输出仓，以免遗漏任何矿石！"
 	]
 	quest.2FEC8EC3EB592A03.title: "&f你的第一个&d采石机&f！"
 	quest.2FFA4CF8C062AD5E.quest_desc: [
@@ -3667,6 +3849,17 @@
 		"这个机器可以用来制造&6乙烯&r、&6高密度聚乙烯丸&r以及更多别的材料！"
 	]
 	quest.31705AD5BE50E2CB.title: "&f加压反应室"
+	quest.31747F470139AA5A.quest_desc: [
+		"Everything in this chapter is about one thing. Building a ship that actually flies, and not falling out of it."
+		""
+		"A &bSimulated Contraption&f is a pile of blocks that has been handed over to the physics engine. It has mass, measured in &bkpg&f, and it obeys three forces. &bWeight&f pulls it down, &bLift&f holds it up, &bThrust&f shoves it around. Get lift and weight to agree and the ship hovers. Add thrust and it goes somewhere."
+		""
+		"[\"You've already met the \", {\"text\": \"Physics Assembler\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0128A3EC005A8AE5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Physics Assembler Quest\"]}}, \" and the \", {\"text\": \"Hot Air Burner\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Hot Air Burner Quest\"]}}, \" on your starter ship. The quest paths below cover the hull, the lift, the engines, keeping it level, steering it, getting it somewhere useful, and arming it.\"]"
+		""
+		"&eNote&f: Nearly every block here has a &bPonder&f. Hold W over the item in JEI or your inventory. They're short and they'll save you a crash or two."
+	]
+	quest.31747F470139AA5A.quest_subtitle: "Up, up and away"
+	quest.31747F470139AA5A.title: "&6Taking to the Skies"
 	quest.319F49C16CFE900C.quest_desc: [
 		"虽然睡觉是设置重生点的经典方法，但你也可以选择使用&a/sethome&r命令来设定家，输入&a/home&r回家。"
 		""
@@ -3786,6 +3979,12 @@
 	quest.321229F5E7574245.quest_subtitle: "生物掉落的经验值提升25%"
 	quest.321229F5E7574245.title: "&e方形绿宝石之戒"
 	quest.3219123B72D9F360.title: "&3256B化学品存储组件"
+	quest.322D2B0CB2B547D8.quest_desc: [
+		"The &dGyroscopic Mechanism&f is the part that everything in this quest path is built around. "
+		""
+		"You'll want them for the &dGyroscopic Propeller Bearing&f as well."
+	]
+	quest.322D2B0CB2B547D8.title: "&dGyroscopic Mechanism"
 	quest.325D35004FF683C2.quest_desc: [
 		"&6量子计算机&r是最强大的多方块自动合成器，如果存储条件允许的话，它一次可以执行巨量任务！"
 		""
@@ -3873,7 +4072,7 @@
 	quest.33A9FF901E2D7725.quest_desc: [
 		"你需要&2钢质机壳&r才能合成该模组的机器！"
 		""
-		"&e注意&r：大多数机器都有内部的输入/输出上限，但这个限制可以通过管道来绕过。因此，如果你希望加快生产效率，请务必善用管道。"
+		"&e注意&f：大多数机器都有内部的输入/输出上限，但这个限制可以通过管道来绕过。因此，如果你希望加快生产效率，请务必善用管道。"
 	]
 	quest.33A9FF901E2D7725.title: "&a机壳"
 	quest.33AC3264C0AE8FF1.quest_desc: [
@@ -3927,13 +4126,6 @@
 	]
 	quest.340D7F25B5EB0D33.title: "&f制作&3苍穹晶"
 	quest.34155C195AD70571.quest_desc: ["这种简易的前期推进器通过燃烧物品作为燃料来产生向前的推进力。"]
-	quest.34169D76520A5D85.quest_desc: [
-		"&b充气模块&r可以安装在压力管道上，然后为它面向的容器中的所有物品充气。"
-		""
-		"若物品的&b压力&r高于管道，它也可以反向释放这些压力。"
-		""
-		"如果将它们安装在两个相连的&3末影箱&r上，你就能实现&b气压&r的跨空传送！"
-	]
 	quest.34169D76520A5D85.title: "&f充气模块"
 	quest.3424F0E39EB5DFC6.quest_desc: ["在你用&3蒸馏机&r在&a糖溶液&r中获得&2乙醇&r的同时，也许你还可以利用多余的&e硫酸&r和&3乙烯&r制造更多的乙醇。"]
 	quest.3424F0E39EB5DFC6.title: "&2乙醇"
@@ -4042,7 +4234,7 @@
 	quest.3557FBCEFEF444CC.quest_desc: [
 		"&d精密构件&r是&e机械动力&r模组中一些顶级工具和机器的重要合成部件。"
 		""
-		"&e注意&r：本配方有20%的失败概率，因此请务必准备好过滤器以应对这种情况。"
+		"&e注意&f：本配方有20%的失败概率，因此请务必准备好过滤器以应对这种情况。"
 	]
 	quest.3557FBCEFEF444CC.title: "&d精密构件"
 	quest.355C3ACB16CC2DE9.quest_desc: [
@@ -4185,13 +4377,6 @@
 	]
 	quest.36E0D875AA8E2F66.title: "&5蚀空合金矿石"
 	quest.36FD842DB9DF0066.quest_desc: ["&a螺旋桨&f用于让动态结构沿固定轴线前后移动。"]
-	quest.37104662F0BDDE66.quest_desc: [
-		"&e应用能源&r（&eAE2&r）是一款高度定制化的&b数字存储模组&r，它将彻底改变你游玩带模组的MC的体验。让箱子墙见鬼去吧！"
-		""
-		"要开始上手&eAE2&r，你首先需要制作一台&a充能器&r。这个机器可以接收能量来为物品充电，而充电后的物品是推进该模组进度的关键。"
-		""
-		"&o&7没错，这个奖励就是个装饰品，不是bug。"
-	]
 	quest.37104662F0BDDE66.title: "&f开始发展&e应用能源&f！"
 	quest.371D1FEFBD49CCFF.quest_desc: [
 		"&3苍穹晶工具&r消耗&6能量&r而非耐久度，且性能略优于钻石工具。"
@@ -4244,7 +4429,7 @@
 		""
 		"如果你选择用输入&7蒸汽&r和高压水的配方，它就会输出&7高压蒸汽&r和普通水，其中高压蒸汽可以用来发电。"
 		""
-		"&e注意&r：谨慎设定配方的合成次数，因为你可能需要更高级别的输入仓和输出仓才能满足配方要求。如果合成没有开始，那说明你的仓室太小了。"
+		"&e注意&f：谨慎设定配方的合成次数，因为你可能需要更高级别的输入仓和输出仓才能满足配方要求。如果合成没有开始，那说明你的仓室太小了。"
 		"{@pagebreak}"
 		"这是一台3x3x5的多方块机器，其墙面的中间部分由特定的外壳构成。一面墙由&c耐热机器外壳&r组成，另一面由&9防冻机器外壳&r组成。物品和流体仓只能放在某些特定位置，因此务必使用&a扳手&r来辅助放置它们。"
 		""
@@ -4283,7 +4468,7 @@
 		""
 		"每个此升级会将蜂箱的产量提高150%，而且你需要它来制作下一等级的升级！"
 	]
-	quest.385293121273C7FB.title: "&e升级：&f产量β"
+	quest.385293121273C7FB.title: "&e升级&f：产量β"
 	quest.3854D5D51530B938.quest_desc: [
 		"&3真空冷却机&r是一种多方块结构，可以以极低温冷却物品或流体。"
 		""
@@ -4332,6 +4517,12 @@
 		"3. 污浊矿粉在&a富集仓&r中净化为矿粉，矿粉熔炼后便可成为矿物锭了。"
 	]
 	quest.38BD69DD1995E971.title: "&9二阶矿物处理产线"
+	quest.38F4B084BA4C6236.quest_desc: [
+		"Everything on a ship listens to redstone. Burners take an analog signal for how hot, thrusters take one for how hard, servos take one for how far. Controls are just ways to turn a hand on a wheel or a key on the keyboard into those signals."
+		""
+		"Start with a lever and a wheel. Graduate to a desk full of modules when the ship has more than three things to adjust."
+	]
+	quest.38F4B084BA4C6236.title: "&bControls"
 	quest.38FAD316AB487AD1.quest_desc: [
 		"这台机器可放置，并配置它在一个区域内挖掘特定的矿石！它耗电量非常大，请务必注意这一点。"
 		""
@@ -4355,7 +4546,7 @@
 		""
 		"制作该升级需要很多&6末影龙蜜蜂&r！"
 	]
-	quest.39214B204D3BEB2A.title: "&e升级：&f产量α"
+	quest.39214B204D3BEB2A.title: "&e升级&f：产量α"
 	quest.39217B517F7C280A.quest_desc: [
 		"你需要杀死&5荒野奇美拉&r，才能证明自己有使用和制造高阶咒语的能力。"
 		""
@@ -4468,7 +4659,7 @@
 		"{@pagebreak}"
 		"无论你连接到哪个面，每个量子环都只能提供总计128个频道。此外，你只能连接到与链接仓相邻的4个量子环，因为角落位置的方块无法与之相连。"
 		""
-		"&e注意&r：两边区块必须都加载才能正常工作。"
+		"&e注意&f：两边区块必须都加载才能正常工作。"
 	]
 	quest.3A59D1773EBD3B8A.title: "&6量子桥"
 	quest.3A5A665B1F76BE26.quest_desc: [
@@ -4607,7 +4798,7 @@
 		"&7&o浅蓝色手钻可以被染色"
 		""
 		"{@pagebreak}"
-		"&e注意&r：这些升级如果标注有等级的话，那么你要先安装低阶升级才能安装高阶升级。"
+		"&e注意&f：这些升级如果标注有等级的话，那么你要先安装低阶升级才能安装高阶升级。"
 		""
 		""
 		"速度（I，II，III）：提升挖掘速度。"
@@ -4630,7 +4821,7 @@
 	quest.3B8310CD44BBD6F1.quest_desc: [
 		"借助磁铁和&2碳刷&f，&a发电机线圈&f可以将&e机械动力模组的&b应力&f（&bSU&f）转化为&cForge能量（FE）&f。"
 		""
-		"[ \"以这种方法，你生产越多\", {\"text\": \"SU\", \"color\": \"aqua\"}, \"，就能获得越多电力。每个\", { \"text\": \"核反应堆\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2617A856093F36AB\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往该任务\"} }, \"提供的&bSU&f足以产生约30万FE/t。\" ]"
+		"[\"Using this method, your power will scale better the more you invest into your \", {\"text\": \"SU\", \"color\": \"aqua\"}, \" production, with each \", {\"text\": \"Nuclear Reactor\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2617A856093F36AB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \" providing enough \", {\"text\": \"SU\", \"color\": \"aqua\"}, \" to generate around 300,000 FE/t.\"]"
 		""
 		"一排最多可放置8个&a发电机线圈&f。而&a发电机线圈&f彼此相邻时，可以共用磁铁，从而节省一些资源。"
 		""
@@ -4666,17 +4857,6 @@
 		"应用通量：用能量板标记输出&2能量&f。"
 	]
 	quest.3BD19E3F63F85B0A.quest_desc: ["此&a操纵杆&f可控制4轴移动，并附带一个可单独配置的额外按键。"]
-	quest.3BDF260175FFE44F.quest_desc: ["恶魔金属被重塑为&c狱锻锭&r，游戏末期的重要材料。"]
-	quest.3BDF260175FFE44F.title: "狱锻锭"
-	quest.3BF066E5C333F217.quest_desc: [
-		"在这个空荡荡的世界开局，你需要获取一些资源来扩展自己的天地！"
-		""
-		"&o所以，你打算从哪开始？"
-		""
-		"如果选择从&e航空学&f的船上开始，那你大概会看到一个缓慢生产木头的&a盆栽盆&f。要是你没这么选，那就去砍树吧！"
-		""
-		"[\"你也可以在挖掘方块时按住“\", {\"keybind\": \"key.ftbultimine\", \"color\": \"yellow\"}, \"”激活\", {\"text\": \"连锁挖矿\", \"color\": \"aqua\"}, \"。一次性砍倒一整颗树，但坏处是得消耗更多的饥饿值。\"]"
-	]
 	quest.3BF066E5C333F217.title: "初始天空"
 	quest.3BFF8EFB5E7186A4.quest_desc: [
 		"多方块&6量子计算机&r内部可以用不同方块填充，包括更多的&b量子计算机存储器&r。"
@@ -4744,7 +4924,7 @@
 		""
 		"制作&d全向连接器&r时，它们会自动分配到同一个组别。当你用一个已有分组的&d全向连接器&r合成三个&a全向连接器&r时，它们都会被分配到用于合成的原料的组别。"
 		""
-		"&c注意&r：频繁使用全向连接器会引起极高延迟，所以请尽可能避免使用它们。"
+		"&c注意&f：频繁使用全向连接器会引起极高延迟，所以请尽可能避免使用它们。"
 	]
 	quest.3D1796B4F460DBBF.title: "&d全向连接器"
 	quest.3D35A43A4D0E118F.quest_desc: ["在&3化学反应釜中&r将&d苯乙烯&r和&e丁二烯&r化合以得到&7苯乙烯-丁二烯&r。"]
@@ -4835,6 +5015,12 @@
 		"&6气态锂&r就有用的多了！"
 	]
 	quest.3E63D54D05A3E300.title: "&6液态锂"
+	quest.3E63FAE41FEA9A17.quest_desc: [
+		"Down is the one direction a ship keeps losing track of, and the &aGimbal Sensor&f is how it finds it again. It puts out a redstone signal on the low side, each axis on its own, and the angle for full signal is set in the value boxes. Invert it if you'd rather the signal came out uphill."
+		""
+		"On its own it's a tilt alarm. Fed into a &aServo&f or a thruster throttle it's the start of an autopilot. Fed into the blocks below it becomes the ship's sense of balance."
+	]
+	quest.3E63FAE41FEA9A17.title: "&aGimbal Sensor"
 	quest.3E7001F4A49CF787.quest_desc: [
 		"&b进气口&r可以放在&3真空冷却机&r的物品输入仓中，从而制造&7液态空气&r。"
 		""
@@ -4923,7 +5109,7 @@
 		""
 		"用碗右击水源就可以舀出一碗水，将水倒入&2滴水器&r中，滴水器会将其下方的树叶分解成水，还能用来转化其他材料！"
 		""
-		"&a提示&r：若&a滴水器&r上方存在&b水源方块&r，滴水器将持续装填水。"
+		"&a提示&f：若&a滴水器&r上方存在&b水源方块&r，滴水器将持续装填水。"
 	]
 	quest.3F80D4097EA8C49B.title: "空气动力筛子与滴水器"
 	quest.3FB51F0568B0896C.quest_desc: [
@@ -5063,6 +5249,13 @@
 	quest.412FD0DA6B746561.quest_subtitle: "通过交易获得"
 	quest.412FD0DA6B746561.title: "&f村民圣典"
 	quest.4145FED51D1ACD76.title: "&f下界疣"
+	quest.415FB6154BA6209B.quest_desc: [
+		"The &3Blaze Burner&r is used to generate heat for things like &cSteam Engines&r and other heat-related mods like &ePNCR&r."
+		""
+		"You'll first need to craft an &aEmpty Blaze Burner&f, then go to the nether and Right-click a &cBlaze&f with the &aEmpty Blaze Burner&f to capture it."
+		""
+		"Once that's done you're able to place down your &3Blaze Burner&f and feed it items or fluids, causing it to generate heat."
+	]
 	quest.417573A657CAED05.quest_desc: [
 		"你可以用&c下界&r获取的材料升级凝胶。"
 		""
@@ -5074,13 +5267,13 @@
 	]
 	quest.417573A657CAED05.title: "&f制造&c烈焰金"
 	quest.4194F3C176E50B7B.quest_desc: [
-		"&5挽魂锋镰&r："
+		"&5挽魂锋镰&f："
 		"&7只为动摇敌人，只为杀死敌人"
 		""
-		"&5宙界重斧&r："
+		"&5宙界重斧&f："
 		"&7给生灵带来无法预料的重击，每一条生命的亡语都是下一条生命的丧钟"
 		""
-		"&5侵蚀权杖&r："
+		"&5侵蚀权杖&f："
 		"&7敌人无法掩饰地挣扎，你的每一击都在逐渐扼杀他们的灵魂"
 	]
 	quest.4194F3C176E50B7B.title: "&6恶念武器"
@@ -5278,7 +5471,7 @@
 		"{image\\:\\ftb:textures/quests/pneumaticcraft/quest_drone_1.png width:240 height:200 align:center}"
 		"{@pagebreak}"
 		""
-		"&e额外的小提示&r，在最后添加一个&9待机&r命令，这样无人机就可以在不需要工作时自动关闭，从而避免浪费&b压力&r。"
+		"&e额外的小提示&f：在最后添加一个&9待机&r命令，这样无人机就可以在不需要工作时自动关闭，从而避免浪费&b压力&r。"
 	]
 	quest.43E68DE2E5A53162.title: "&d用无人机&f收获作物"
 	quest.443C71D871AFAB67.quest_desc: [
@@ -5347,6 +5540,12 @@
 		"如果想把终端和网络链接在一起的话，首先做一对&d量子纠缠奇点&r，然后一个放在接入基地的&6量子桥&r内，另一个和量子桥卡一起装入你的&d无线终端&r即可。"
 	]
 	quest.450A1BAD728F594B.title: "&d无尽无线访问"
+	quest.4538EAA0215C8EC0.quest_desc: [
+		"A &aJoystick&f gives two tilt axes. A &aThrottle Quadrant&f gives four levers side by side. Then there's the &aYoke&f, the &aWheel&f, the &aPedal&f, the &aLever&f, a single &aButton&f, a 2x2 &aButton Panel&f and a 3x3 &aKeypad&f."
+		""
+		"Smaller modules fit in larger sockets, and a few of the big ones carry a small socket of their own. Right-click that with a small module to stack a head on top, and it rides along with the control underneath while working like any other input."
+	]
+	quest.4538EAA0215C8EC0.title: "&aControl Modules"
 	quest.456030ECDFA9CE3B.quest_desc: [
 		"&b反应堆热量吸收器&r能从所有相邻的组件上吸收固定量的热量，因此当它被需要散热的组件包围时，其冷却效率是最高的。"
 		""
@@ -5550,7 +5749,7 @@
 		""
 		"带它回家好好培养吧。"
 		""
-		"培养到足够饱满，虚弱血命果会长成&c饱满血命果&r：其密度足够被精炼"
+		"培养到足够饱满，虚弱血命果会长成&c饱满血命果&f：其密度足够被精炼"
 		""
 		"为了培养它，你必须让动物在其生长之处站定。随着时间的推移，动物会受到伤害，而每次都有概率催熟血命果，并使其转化为饱满血命果。"
 	]
@@ -5572,6 +5771,12 @@
 	]
 	quest.4882D3E03CC01268.title: "&b存储总线"
 	quest.48935E2DFCA1E835.quest_desc: ["你现在可以将注入器升到最高等级，制作&z混沌等级&f的装备。"]
+	quest.4896357F588DAA54.quest_desc: [
+		"On a &bSimulated Contraption&f, a &aSail&f is a wing. Move it through the air and it makes lift at right angles to its surface, and the faster you go the more it makes. Enough sail and enough speed and a ship with no balloon at all leaves the ground."
+		""
+		"The &aSymmetric Sail&f is the other half. It makes no lift, only drag, and only when it's angled away from the direction of travel. That's a rudder, a tail fin or a stabilizer, depending on where you bolt it."
+	]
+	quest.4896357F588DAA54.title: "&aSails"
 	quest.48CFC042AE951056.quest_desc: [
 		"这种从地狱深处带回来的流体应该具有足够的热量，能帮我们蒸馏出所需的风味。"
 		""
@@ -5603,7 +5808,7 @@
 		""
 		"由于是多层结构，所以这一个多方块结构就可以拥有多个输出仓。你可以按需摆放输出仓（至少一个，至多九个）以获取全部副产物！"
 		""
-		"&e注意&r：你需要在控制器中设置结构的高度，确保其结构正确！"
+		"&e注意&f：你需要在控制器中设置结构的高度，确保其结构正确！"
 		"{@pagebreak}"
 		"你的目标是建造一座至少拥有三个输出仓的蒸馏塔，从而为下个任务做准备。"
 		""
@@ -5636,6 +5841,14 @@
 	quest.49835EC10C5AE8D8.title: "&6量子合成器"
 	quest.498A5C0A00F19E2E.quest_desc: ["最基础也是最便利的反应堆燃料就是&6铀燃料棒&r。无需多余处理步骤的代价是输出能量也较少，但作为起步的燃料棒还是很适合的。"]
 	quest.498A5C0A00F19E2E.title: "&6铀燃料棒"
+	quest.499819F644DAAB83.quest_desc: [
+		"[\"The \", {\"text\": \"Hot Air Burner\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Hot Air Burner Quest\"]}}, \" tops out at 500 hot air. The \", {\"text\": \"Steam Vent\", \"color\": \"aqua\"}, \" puts out up to 5,000 steam, which lifts exactly the same 1.5 kpg per cubic metre, so a vented balloon carries ten times the ship.\"]"
+		""
+		"The catch is the piping. A vent wants the same things a &bSteam Engine&f wants, heat under a boiler, water in it, and enough boiler space. Power it with redstone and it fills the balloon above it. The signal strength scales the output, and the panel on the vent sets the ceiling."
+		""
+		"Both burners and vents will hunt up to 80 blocks for a balloon to fill, and several can share one balloon. Click a vent with an &aIron Sheet&f to change its metal."
+	]
+	quest.499819F644DAAB83.title: "&bSteam Vent"
 	quest.49CBB0619F943B81.quest_desc: ["&6列车时刻表&r允许司机按照设定的模式自动操作列车。"]
 	quest.49CBB0619F943B81.title: "&6列车时刻表"
 	quest.49DD167D6323406B.quest_desc: [
@@ -5667,6 +5880,8 @@
 		"钓点周围的水足够多的话，你还有可能钓到特别稀有的东西……"
 		""
 		"如果钓点周围五格宽的水域开阔无阻，且至少两格深，上方无遮挡，则有几率钓到“珍贵”的精华。"
+		""
+		"&o&7Some Essence require finding the item first such as Diamond and Emerald Essence&r"
 	]
 	quest.4A07DF8EB4A0C40A.title: "&f耕作之道"
 	quest.4A0A19E73680034F.quest_desc: [
@@ -5726,7 +5941,7 @@
 		"它还用于制作&b神秘之力&r。"
 		""
 		""
-		"&e&l注意&r：此物品的复活效果目前不生效。&r"
+		"&e&l注意&f：此物品的复活效果目前不生效。&r"
 	]
 	quest.4A5402081BC88910.title: "&a不死符石"
 	quest.4A5FD3641E0A566E.quest_desc: [
@@ -5762,11 +5977,11 @@
 	quest.4AC0B8A467BB5FA8.quest_desc: [
 		"这本书看起来破旧不堪，但其中涌动着远古魔法之力。"
 		""
-		"正常来说，你可以在&6远古城市&r的战利品中找到它，但在这个虚空世界里，它则是完成两种&e传送门珍珠&r事件后的奖励："
+		"正常来说，你可以在&6远古城市&r的战利品中找到它，但在这个虚空世界里，它则是完成两种&e传送门珍珠&f事件后的奖励："
 		""
-		"&a—一则生与死的传说&r，"
+		"- &a一则生与死的传说&r，"
 		""
-		"&2—一个衰朽王国的末路之战&r"
+		"- &2一个衰朽王国的末路之战&r"
 	]
 	quest.4AC0B8A467BB5FA8.quest_subtitle: "远古城市的战利品"
 	quest.4AC0B8A467BB5FA8.title: "&3颓残之书"
@@ -5796,6 +6011,12 @@
 		"&d奇点&r要用来制作大规模存储设备，以及跨维度链接装置。"
 	]
 	quest.4B463FDAEAC42511.title: "&3物质聚合器&f"
+	quest.4B52F4885BEA9FC0.quest_desc: [
+		"Same blend, different flame. Put a &aSoul Campfire&f or &aSoul Torch&f next to the &dLevitite Blend&f instead of regular fire, or pour it over soul sand or soul soil that's burning, and it crystallizes pink instead of blue."
+		""
+		"&7&oIt floats exactly the same. This one is purely for the ship that has everything."
+	]
+	quest.4B52F4885BEA9FC0.title: "&dPearlescent Levitite"
 	quest.4B5BFD1142133E93.quest_desc: [
 		"&d目盲符石&r在玩家受到失明效果影响时增加25%伤害。"
 		""
@@ -5813,7 +6034,7 @@
 		""
 		"用组装机制作物品前，务必在JEI检查其EU输入需求！"
 		""
-		"&e提示&r：你可以锁定输入和输出槽以防止不小心制造别的物品。这一点对于自动化非常重要。另外，你在以后会需要很多这些东西。"
+		"&e提示&f：你可以锁定输入和输出槽以防止不小心制造别的物品。这一点对于自动化非常重要。另外，你在以后会需要很多这些东西。"
 	]
 	quest.4B81B0228592E5C9.title: "&2装配机"
 	quest.4BA8E435EDA995AC.quest_desc: [
@@ -5823,15 +6044,6 @@
 	]
 	quest.4BA8E435EDA995AC.title: "&f虚空升级"
 	quest.4BB2E61FF925FE84.quest_desc: ["&d高级数据链（Advanced Data Link）&f可连接任意类型的方向定位设备，并通过红石信号将信息中继发送至相连的方块。"]
-	quest.4BB5ADD98F958712.quest_desc: ["虚空深处隐藏着一座地牢，里面堆满了各种来路不明的魔法宝物，由各类诡异的生物守卫着。&6高位唤魔者&r站在最高层，掌控着这片禁地。"]
-	quest.4BB5ADD98F958712.title: "&f发现&6神秘魔法地牢"
-	quest.4BBEE37F0D847BA9.quest_subtitle: "传输流体"
-	quest.4BBEE37F0D847BA9.title: "&f流体管道"
-	quest.4BCA8A5C3F80D375.quest_desc: [
-		"&a除名符石&r可以移除物品名称中的词缀文本，将其变回正常的物品名称。"
-		""
-		"例如：一个&d充能的破损的时运的急迫的人的钻石镐&r除名后，就会变成&d钻石镐&r。"
-	]
 	quest.4BCA8A5C3F80D375.title: "&a除名符石"
 	quest.4BDD9230BBA6C0A0.quest_desc: [
 		"&a心&r是&e心之容器&r模组的核心部件。"
@@ -5840,10 +6052,10 @@
 		""
 		"心可以食用，会根据等级恢复生命值。"
 		""
-		"- &c红色&r：每次10颗心。"
-		"- &e黄色&r：每次20颗心。"
-		"- &b蓝色&r：每次30颗心。"
-		"- &a绿色&r：每次40颗心。"
+		"- &c红色&f：每次10颗心。"
+		"- &e黄色&f：每次20颗心。"
+		"- &b蓝色&f：每次30颗心。"
+		"- &a绿色&f：每次40颗心。"
 	]
 	quest.4BDD9230BBA6C0A0.title: "心的无尽力量"
 	quest.4BF0B397B0B9EE8C.quest_desc: ["重置防御技能树中已使用的技能点。"]
@@ -5914,7 +6126,7 @@
 		""
 		"当你将&2筛网&f放进&a筛子&f后，转化为动态结构的同时&a筛子&r也会正常工作。如果是在飞船上，使用&a物理组装器&r即可。"
 		""
-		"&a注意&r：如果&a气体动力筛子&r放在飞船上，筛子工作前请确保你的飞船处于可以立即起飞的状态！"
+		"&a注意&f：如果&a气体动力筛子&r放在飞船上，筛子工作前请确保你的飞船处于可以立即起飞的状态！"
 	]
 	quest.4D1E458AA9F84ED1.title: "&e空气动力筛子&r"
 	quest.4D1EBD92C674531E.quest_desc: [
@@ -6103,6 +6315,14 @@
 		"每个多方块合成器只允许放置一个量子计算机。"
 	]
 	quest.4F3CA2DCE719D18A.title: "&6多线程"
+	quest.4F433F2FA020F0E3.quest_desc: [
+		"A big cannon is a line of bored cannon blocks, a chamber at the back, a barrel in front, and a breech to load through. Blocks placed by hand don't join on their own. Weld them with the &aCannon Welder&f, or better, build the gun once and move it whole with a contraption."
+		""
+		"The &aCannon Mount&f holds the assembled gun and pitches it with rotation. The &3Yaw Controller&f under the mount turns it. Load a &aPowder Charge&f and a projectile through the breech, by hand with a &aRam Head&f on a stick, or with the &aCannon Loader&f, then give the mount a redstone pulse. Guns can be up to 64 blocks long."
+		""
+		"More powder, more range, until the barrel gives out. A cast iron gun with too many charges has a coin-flip chance of bursting, so learn its limit on the ground before you learn it at altitude."
+	]
+	quest.4F433F2FA020F0E3.title: "&3Big Cannon"
 	quest.4F5A267B3042E308.title: "&d256k存储组件"
 	quest.4F63F8D79802D6ED.quest_desc: [
 		"&d高压大型蒸汽锅炉&r可生产高达2048mB/t的&7蒸汽&r。"
@@ -6206,6 +6426,12 @@
 	quest.50FEA4A0E4E1EABD.quest_desc: ["[ \"要获得\", {\"text\": \"椰奶奶油\", \"color\": \"green\"}, \"而不是椰子水，你需要使用Oritech的\", { \"text\": \"流体离心技术\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50B7CA94F8BB6F58\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往任务\"} }, \"来离心\", {\"text\": \"液态黑暗\", \"color\": \"dark_green\"}, \"和\", {\"text\": \"椰子碎块\", \"color\": \"light_purple\"}, \"。\" ]"]
 	quest.5119EFBB9FB39CDE.quest_desc: ["[ \"敌对掠夺者部队的首领，驻守在\", {\"text\": \"神秘魔法地牢\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4BB5ADD98F958712\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往神秘魔法地牢任务\"]}}, \"的顶端。\"]"]
 	quest.5119EFBB9FB39CDE.title: "&f击杀&d高位唤魔者"
+	quest.5122A391CD92E556.quest_desc: [
+		"The &dContraption Controller&f is a flight computer with 13 channels. Bind keys to pitch, roll, yaw, throttle and whatever else, pick an input mode per channel for how the signal ramps, and it puts out clean analog redstone for each one."
+		""
+		"The &aAnalogue Joystick&f is its physical cousin. Tilt it and each side sends its own signal scaled to how far you pushed. Good for the pilot who wants to feel the ship rather than type at it."
+	]
+	quest.5122A391CD92E556.title: "&dContraption Controller"
 	quest.51373D5476F2FD7F.quest_desc: [
 		"对于志存高远的精魂法师来说，收集精魂是个非常重要的工作。但花费一整晚的时间来杀敌可能会是件麻烦事，因为你还需要分类和管理资源，尤其是战利品里还多出了&b精魂&r。"
 		""
@@ -6250,6 +6476,14 @@
 		"你物品栏左上方的&a垃圾桶&r图标也可以用。输入&a/trashcan&r命令也可以打开它。"
 	]
 	quest.51804232265672A9.title: "&f物品栏垃圾桶！"
+	quest.51A57B31F8DA4A8F.quest_desc: [
+		"Before anything flies it has to hold together, and it has to be light enough to be worth lifting."
+		""
+		"Every block on a ship has a mass. Stone and metal are heavy, wood and wool are light, and a hull built out of the wrong stuff will need three times the lift. Press &bF3+H&f and the mass shows up in item tooltips, courtesy of &eSable Mass View&f."
+		""
+		"This quest path is about glue, goggles, hull blocks and knowing what your ship weighs."
+	]
+	quest.51A57B31F8DA4A8F.title: "&aThe Hull"
 	quest.51B5EE931AC1B86E.quest_desc: [
 		"这种蜂巢只能放在&c下界&r吸引蜜蜂。"
 		""
@@ -6293,7 +6527,7 @@
 		""
 		"你应该尽快发展到能使用&2蒸汽研磨机&r的阶段。"
 		""
-		"&e注意&r：前期你可以选择把原木做成锯末，用锯末制作纸箱……前期纸箱用处很多！"
+		"&e注意&f：前期你可以选择把原木做成锯末，用锯末制作纸箱……前期纸箱用处很多！"
 	]
 	quest.51F2FC13FA7C3A89.title: "&e现代工业化&f的开端"
 	quest.51FCC60BA75382BA.quest_desc: [
@@ -6396,6 +6630,12 @@
 		"详情请查阅AE2指南中的NEP章节。"
 	]
 	quest.5382CB05500E49DE.title: "&z渡鸦附魔台"
+	quest.53D0DF41254360B9.quest_desc: [
+		"Not everything has to fly. &eOffroad&f puts a &aTire&f on a &aWheel Mount&f and a &bSimulated Contraption&f becomes a truck. Rotation drives the wheel, redstone from the top brakes it, redstone from the side steers it toward the signal. Tires come in &aSmall&f, standard, &3Large&f and &dMonstrous&f, and the mount's suspension strength is set on its scroll panel."
+		""
+		"The &3Borehead Bearing&f is the same mod's drill. Attach &aRock Cutting Wheels&f and a storage block to it and it chews through terrain in a radius, at a quarter of the input speed, dropping everything into the storage until the storage is full."
+	]
+	quest.53D0DF41254360B9.title: "&aGround Travel"
 	quest.53E72F025E4CB895.quest_desc: ["&3动力锯&r可以一次性砍伐整棵树或处理物品配方。"]
 	quest.53E72F025E4CB895.title: "&3动力锯"
 	quest.53E949B1A0D04290.quest_desc: [
@@ -6462,8 +6702,18 @@
 	quest.544DCCAF97078924.title: "&f符石基座"
 	quest.5455CF5D3C37ECA9.quest_desc: ["在这座矗立于下界虚空的宏伟建筑里，既有珍贵宝藏，也有似猪的怪物，甚至有一尊强力的守卫傀儡，任何胆敢靠近的人都会遭到袭击。"]
 	quest.5455CF5D3C37ECA9.title: "&f找到&6堡垒（Bastion）"
-	quest.546A582A0084C982.quest_desc: ["&7&o人造物和魔法风味的结合"]
+	quest.546A582A0084C982.quest_desc: [
+		"&7&o人造物和魔法风味的结合"
+		""
+		"&cWarning!&o&r &oA Flashpine can't be havested or picked up if placed.&r"
+	]
 	quest.546A582A0084C982.title: "人造水果"
+	quest.547C772CB5972224.quest_desc: [
+		"The &aTilt Adapter&f from &eCreate Propulsion&f tilts rotational output by an analog signal, up to 90 degrees each way in this pack. The &3Advanced Tilt Adapter&f lets you set a different limit for each side, and holding &bCtrl&f while setting one toggles shared limits."
+		""
+		"Where a servo holds an angle, the adapter keeps the shaft spinning through the tilt, so it's the one for a propeller you want to aim while it runs."
+	]
+	quest.547C772CB5972224.title: "&aTilt Adapter"
 	quest.54AC477417E72055.quest_desc: [
 		"如果你想找个更好的办法从晶洞中收获紫水晶，&d紫晶傀儡&r乐意为你效劳！"
 		""
@@ -6530,6 +6780,14 @@
 		"每种&a底盘&r类型都有其功能上的优缺点，因此务必根据任务选择合适的类型。"
 	]
 	quest.55897B86C2908176.title: "&a底盘"
+	quest.55B5C402ABBDF7C1.quest_desc: [
+		"The &aSteering Wheel&f is precise rotation by hand. Hold right-click to grab it and move the mouse to turn, sneak while turning to snap to 45 degree steps, and set the maximum angle on its value panel. A comparator on it reads the angle, and a comparator on the back reads whether someone's holding it."
+		""
+		"The &aThrottle Lever&f is the same idea for redstone. Drag it to set an analog signal, wrench it to invert. One for the burner, one for the engines, and you have a cockpit."
+		""
+		"&eNote&f: A bearing on the far end of a wheel will happily disassemble whatever it's turning. Tell it not to."
+	]
+	quest.55B5C402ABBDF7C1.title: "&aWheel and Throttle"
 	quest.55B7E3EE706E8D6F.quest_desc: [
 		"&b强化石头&r是最先进的&e气动工艺&r机器的基础材料。"
 		""
@@ -6602,7 +6860,7 @@
 	quest.5691235133373883.title: "&f能量电池"
 	quest.56C6C2E5CA811E21.quest_desc: ["Seems to happen when blight spreads onto stone, but only existing blighted earth gets transformed?"]
 	quest.56E1FAD44A6E8C11.quest_desc: [
-		"&e柴油&r有两种制备方式。"
+		"&e柴油&f有两种制备方式。"
 		""
 		"第一种制备方式：首先你需要用&3蒸馏室&r提取出&2轻燃油和重燃油&r，接下来用&2搅拌机&r把它们混合为&e柴油&r。"
 		""
@@ -6759,11 +7017,11 @@
 	]
 	quest.586E18023A595A6C.title: "&2资源蜜蜂&r"
 	quest.5881702D0DE6180E.quest_desc: [
-		"&a收集升级&r - 给抽屉内置一个“磁铁”，可以拾取周边的东西。"
+		"&a收集升级- &r给抽屉内置一个“磁铁”，可以拾取周边的东西。"
 		""
-		"&a抽入升级&r - 抽屉可以从周边存储方块中自动抽取物品。"
+		"&a抽入升级- &r抽屉可以从周边存储方块中自动抽取物品。"
 		""
-		"&a推出升级&r - 抽屉可以向周边存储方块自动输出物品。"
+		"&a推出升级- &r抽屉可以向周边存储方块自动输出物品。"
 		""
 		"安装在抽屉里后，右击升级就可以配置它们。"
 	]
@@ -6835,9 +7093,15 @@
 		""
 		"一生二，二生三，三生万物。"
 		""
-		"&7&o你也有机会钓到一些钻石精华，并且存在其他更有技术性的方法来生成钻石，例如&a煤炭压缩&r&7&o，&a矿工透镜&r&7&o等等……"
+		"&7&oThere is also the rare chance to fish up some diamond essence if you have found them first, and other more technical methods exist that could generate diamonds such as &aCoal Compression&r&7&o, a &aLens of the Miner&r&7&o, etc..."
 	]
 	quest.595F8AC6DB5DACD8.title: "&a你的第一颗&b钻石"
+	quest.596B99FA746FF18B.quest_desc: [
+		"A &3Wing&f is a purpose-made lifting surface, the &3Tempered Wing&f is the sturdier version, and the &aCopycat Wings&f come in 8 and 12 metre spans that take the texture of any block you click them with."
+		""
+		"Pair wings with thrusters and you've got a plane rather than a blimp. Planes are faster, planes are lighter, and planes fall out of the sky the moment the engine stops. Choose accordingly."
+	]
+	quest.596B99FA746FF18B.title: "&3Wings"
 	quest.598652FE2E4839AC.quest_desc: [
 		"嫌弃真正的草地自然生成动物的速度太慢？"
 		""
@@ -6886,7 +7150,7 @@
 		""
 		"生产的&d魔源&r会自动输出到半径五格内的&a魔源罐&r。"
 		""
-		"&e注意&r：用骨粉催熟是没法加速产出魔源的，但是也许有某种办法可以有效加速魔源生产……"
+		"&e注意&f：用骨粉催熟是没法加速产出魔源的，但是也许有某种办法可以有效加速魔源生产……"
 	]
 	quest.5A57DB728220261F.title: "&2农艺魔源通道"
 	quest.5A5D6A90C0999828.quest_desc: [
@@ -6947,6 +7211,14 @@
 	]
 	quest.5B499DF961D9308B.title: "&a初级点击器"
 	quest.5B5447A65D9C82B9.title: "&d16384B流体存储组件"
+	quest.5B59923796F5C973.quest_desc: [
+		"&eAutomated Logistics&f teaches a ship a route by watching you fly it. Put a &3Vehicle Transponder&f on the ship and an &3Airship Station&f at each end of the trip. Open the transponder, switch to &bRecording Mode&f, add a route from this station to that one, fly it, and save the segment when you land. Routes are saved per direction, so fly the return leg too."
+		""
+		"Press play from any station on the route and the ship flies it by itself, stop after stop, and it keeps flying while the chunks between are unloaded. The stops screen sets wait conditions and docking waits, and during a dock both the station and the transponder put out redstone so your connectors know when to extend."
+		""
+		"The &3Logistics Terminal&f is the top-down map of every station, route and ship in the network. The &dAdvanced Transponder&f adds four redstone output ports for dock and drive intent."
+	]
+	quest.5B59923796F5C973.title: "&3Airship Station"
 	quest.5B7CC380E28893C1.quest_desc: [
 		"如果要做&2橡胶&r，我们首先需要获取任意形态的&a油&r。"
 		""
@@ -6955,6 +7227,14 @@
 		"[\"要制作焦煤，你需要使用\", { \"text\": \"MI焦炉\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往MI焦炉任务\"}}, \"。\"]"
 	]
 	quest.5B7CC380E28893C1.title: "&a煤粉榨油"
+	quest.5BA4D2B907325D32.quest_desc: [
+		"&eCreate Propulsion&f has its own family of engines. The &aSolid Fuel Thruster&f is the cheap one. It burns items from the slot on its back, redstone is on or off with no in-between, and it pushes about a quarter as hard as its liquid cousins. Wrench it to open the hatch and it'll pull fuel from a container behind it."
+		""
+		"The &3Thruster&f runs on &bTurpentine&f and holds a 1,000 mB tank that lasts 1,000 ticks at full throttle. The &dIon Thruster&f skips fuel and drinks 40 FE per tick instead, and it's the strongest of the three."
+		""
+		"Build any of them as a 2x2x2 or 3x3x3 block and they merge. The big versions push 25% and 50% harder and burn 40% and 60% less fuel."
+	]
+	quest.5BA4D2B907325D32.title: "&3Propulsion Thrusters"
 	quest.5BA74A759CC43BBB.quest_desc: [
 		"&e现代工业化&r每个阶段都有几种不同的电缆。"
 		""
@@ -7029,7 +7309,7 @@
 		""
 		"把所需物品摆在底座上，然后给&a祭坛&r通入红石信号就可以开始合成了。你也可以在&a祭坛&r下放置一个&c红石块&r来立即激活有效的合成配方。"
 		""
-		"&e注意&r：基座上的物品不需要按顺序放置。"
+		"&e注意&f：基座上的物品不需要按顺序放置。"
 	]
 	quest.5CE002C1C1142CD1.title: "&f制作&a自定义种子"
 	quest.5D0742E56290E42B.quest_desc: [
@@ -7177,6 +7457,12 @@
 	quest.5E8B72B0CA428F12.title: "Here's the invis dev chapter"
 	quest.5EDAD39B73C1FF9C.quest_desc: ["在&3化学反应釜&r中把你的&e乙苯&r，&7蒸汽&r以及&a铁粉&r化合为&d苯乙烯&r。"]
 	quest.5EDAD39B73C1FF9C.title: "&d苯乙烯"
+	quest.5EE8F456D1B56D3D.quest_desc: [
+		"The &3Advanced Data Link&f carries orientation. Point it at a &aGimbal Sensor&f or another orientation source, up to 128 blocks away, and any block next to the link that can use that data gets it."
+		""
+		"It's the same idea as a &bDisplay Link&f, but instead of text it moves pitch, roll and heading to the blocks that need them."
+	]
+	quest.5EE8F456D1B56D3D.title: "&3Advanced Data Link"
 	quest.5EF11F96A97C2A23.quest_desc: [
 		"&e现代工业化&r（&eMI&r）包含好几种阶段的&a蒸汽涡轮机&r，它们能够将&7蒸汽&r转化为&c能量&r。"
 		""
@@ -7188,13 +7474,19 @@
 	quest.5F1A2C7D9B4E6081.quest_desc: [
 		"&b亚马龙&r交易可接入&eME系统&r实现自动化，但需要使用专属样板。"
 		""
-		"可在&d亚马龙无线终端&r中编码样板：将一张&7空白样板&r放入样板槽，在列表中找到对应交易项，随后点击旁边的保存按钮，即可获得&b亚马龙处理样板&r。"
+		"可在&d亚马龙无线终端&f中编码样板：将一张&7空白样板&r放入样板槽，在列表中找到对应交易项，随后点击旁边的保存按钮，即可获得&b亚马龙处理样板&r。"
 		""
 		"&e样板编码终端&r无法制作此类样板，且点击JEI中的&e+&r号按钮也只会生成普通的处理样板，处理站会拒绝接收。"
 		""
 		"将制作好的样板放入&d亚马龙处理站&r，该交易即可像普通配方一样进行自动合成。"
 	]
 	quest.5F1A2C7D9B4E6081.title: "&f自动化&b亚马龙"
+	quest.5F4BAB9B54CF7E4A.quest_desc: [
+		"The &dGyroscope&f actively holds the ship level along whatever axis you place it on. Spin it up and it fights pitch and roll, and it bleeds off a spin so the ship stops turning when you stop turning it."
+		""
+		"It wants rotation, and a lot of it. Full control arrives at 256 RPM and the draw is 16 SU per RPM, so a gyroscope at full speed costs 4,096 SU. One gyro fully steadies about 5,000 units of ship inertia. A bigger hull needs more of them, and a ship with too few isn't unstable, just slower to right itself."
+	]
+	quest.5F4BAB9B54CF7E4A.title: "&d陀螺仪"
 	quest.5F5A8762D664CBF0.quest_desc: [
 		"灌注室可以制作一些魔法&b精华&r。"
 		""
@@ -7449,10 +7741,10 @@
 		""
 		"把它们安顿好，然后就等着看吧。它们会不知疲倦地为你的基地供应一切，从基础食物到饕餮盛宴。"
 		"{@pagebreak}"
-		"&a战利品进化：&r"
+		"&a战利品进化&f："
 		"一开始只是些不起眼的胡萝卜和马铃薯，但随着羊驼越来越强，它们产出的物品也会升级为熟肉、像曼陀罗种子这样的魔法材料，最终甚至能产出农夫乐事里的顶级大餐！"
 		""
-		"&d专业提示：&r"
+		"&d专业提示&f："
 		"  • 用心规划你的羊驼养殖，让它们吐出各种"
 		"特化口水"
 		"  • 最高等级(10)的羊驼会吐出史诗级的食物，比如"
@@ -7488,6 +7780,12 @@
 		"它还用于制作&d探险家之力&r。"
 	]
 	quest.629308DC692DB140.title: "&7荧石符石"
+	quest.62987A983CFB5C77.quest_desc: [
+		"Two separate rotation lanes run through the &3Smart Gearbox&f at different speeds, which is useful on its own when a hull is short on space."
+		""
+		"The trick is &bServo Mode&f. Feed it orientation from an &3Advanced Data Link&f and it aims any &3Servo Bearing&f attached to it so the mounted thruster or propeller always points the way you want it to. Power the gearbox with redstone and the aim inverts. Between this, a &aGimbal Sensor&f and a couple of thrusters, a ship can hold itself level with no player at the controls."
+	]
+	quest.62987A983CFB5C77.title: "&3Smart Gearbox"
 	quest.629C6374800613C4.quest_desc: [
 		"想要将方块连接&a逻辑线缆&r，使其接入网络，你需要使用一些&a接口&r。"
 		""
@@ -7512,6 +7810,18 @@
 		"&6下界合金等级&r解锁椰子和充能冰。"
 	]
 	quest.62BC01D7050D366E.title: "分级物品展示台"
+	quest.62BF630E65CE5CDD.quest_desc: [
+		"The &3Thruster&f from &eCreate Thrusters&f burns fuel and shoves the ship away from its nozzle. Coal, blaze rods, lava and a long list of fluids all count as fuel. A redstone signal from 1 to 15 is the throttle, and full throttle gives about 2.94 kpN."
+		""
+		"Throttle is not linear. A neutral fuel burns 5.6 mB per tick flat out, and backing off to half throttle cuts the burn a lot more than it cuts the thrust. Cruise low, sprint rarely."
+		""
+		"The &aSmall Thruster&f is the same engine in a shorter body. Stay out of the exhaust, it hurts."
+		"{@pagebreak}"
+		"These &aThrusters&f do a lot more than just move your contraptions thanks to their upgrades, which can allow &aThrusters&f to smelt, cook, and haunt items just like &bEncased Fans&f."
+		""
+		"They consume liquid fuel by default, but can be made to consume power (FE) instead using the &dThruster Lens&f"
+	]
+	quest.62BF630E65CE5CDD.title: "&3Thrusters"
 	quest.62C92C8960875611.quest_desc: ["无论是在物理领域还是在魔法领域，金属加工都是非常重要的，不过两个领域的加工方式大相径庭。注入了精魂的金属锭非常有利于更加深远的发展。"]
 	quest.62C92C8960875611.title: "&f精魂冶金学"
 	quest.62CFAFC74ADA4781.quest_desc: ["&3鼓风机&r产生的气流可用于推动实体或处理物品。"]
@@ -7661,8 +7971,22 @@
 	quest.652650C157E16712.quest_desc: ["&b精魂&r的作用之一是制作装备。将精魂注入布料，你就能得到包含精魂力量的优秀装备材料。"]
 	quest.652650C157E16712.title: "&f魂织绸缎"
 	quest.653A1D93146FEBD3.title: "精魂提纯"
+	quest.655A43231DB3160E.quest_desc: [
+		"The &3Autocannon&f is the small fast one. A breech, a recoil spring and a few barrel blocks, cast the same way as the big gun except the moulds shed their sand on their own. It sits on a &aCannon Mount&f like the big gun and aims the same way."
+		""
+		"It feeds from an &aAutocannon Ammo Container&f that holds 64 rounds, or 128 &aMachine Gun Rounds&f. &aFlak&f rounds burst in the air for anything with wings, &3AP&f rounds go through armour. The recoil is half of a big cannon's, which on a small ship still counts."
+	]
+	quest.655A43231DB3160E.title: "&3Autocannon"
 	quest.6587B145151746EC.quest_desc: ["&e蒸馏器&r解锁了许多新产物的配方，&a石膏&r和&a女神之泪&r是推动进度的关键材料，在&b圆环魔法&r中会用到。"]
 	quest.6587B145151746EC.title: "蒸馏器产物"
+	quest.65BC94BEFE461307.quest_desc: [
+		"Two &aRope Connectors&f and a &aRope Coupling&f ties two contraptions together, or a contraption to the ground. Right-click one end then the other. Shears cut it, and right-clicking with a wrench slides you down it."
+		""
+		"A &aRope Winch&f in place of one connector reels the rope in and out with rotation, which is a mooring line, a crane or an elevator depending on what's on the end. Two winches won't connect to each other."
+		""
+		"The &3Powered Zipline&f from &eCreate Thrusters&f rides along a rope under its own power, and the &3Claw&f hangs from one and grabs connectors on a redstone pulse."
+	]
+	quest.65BC94BEFE461307.title: "&a绳索"
 	quest.663460DE8AF7E464.quest_desc: [
 		"&a压印器&r是&eAE2&r中最重要的机器。"
 		""
@@ -7722,11 +8046,7 @@
 		"标记还可以设置访问权限：私人、团队或所有人。"
 	]
 	quest.669DCBD04E5C4D5E.title: "&d时标基座"
-	quest.66AB8C43E63AD672.quest_desc: [
-		"&3动力搅拌器&r可用于配方制作、混合药水以及其他一些混合配方。"
-		""
-		"&3烈焰人燃烧室&r用于为&c蒸汽引擎&r等设备以及&ePnCR&r等与热能相关的模组提供热能。"
-	]
+	quest.66AB8C43E63AD672.quest_desc: ["&3动力搅拌器&r可用于配方制作、混合药水以及其他一些混合配方。"]
 	quest.66AB8C43E63AD672.title: "&3动力搅拌器"
 	quest.66B66C0C33071D7B.quest_desc: ["在&3化学反应釜&r中让&a粗铂&r和&e硫酸&r反应，我们就可以得到&d硫酸铂溶液&r。"]
 	quest.66B66C0C33071D7B.title: "&d硫酸铂溶液"
@@ -7833,7 +8153,7 @@
 		""
 		"先用打包带打包箱子，然后破坏它就能得到完整的箱子，你把它放下来后，胶带就会自动消失！"
 		""
-		"&e注意&r：装有&a堆叠升级&r的箱子最好先打包再搬运。"
+		"&e注意&f：装有&a堆叠升级&r的箱子最好先打包再搬运。"
 	]
 	quest.68583162106594A8.title: "&f搬运箱子"
 	quest.68668718B414B6E4.quest_desc: [
@@ -7899,6 +8219,12 @@
 		"略去细节，值为32的&b煤变量&r存储在&a变量卡箱&r中，网络就会识别到32这个值，只在存储网络中有超过32个煤炭时，才会将煤炭输入熔炉。"
 	]
 	quest.69282BCC2FA04060.title: "&f变量卡箱"
+	quest.6932BD0BC70C77E7.quest_desc: [
+		"A ship that flies is easy. A ship that flies level is the hard part."
+		""
+		"Anything with the lift and the weight in different places wants to tip, and once it's tipping the lift points sideways and it tips faster. Balance the hull first, then add something that actively fights the tilt. Follow this quest path to learn the ways to balance."
+	]
+	quest.6932BD0BC70C77E7.title: "&bStability"
 	quest.693E3765975EF799.quest_desc: ["&a移动式存储接口&r允许你从结构中输入/提取物品。"]
 	quest.693E3765975EF799.title: "&a动态结构交互"
 	quest.6964408274A7ACF7.title: "游玩&a10小时"
@@ -7954,17 +8280,17 @@
 	quest.6A691F59D434B379.quest_desc: [
 		"以下是许多反应堆机制的简单概述。"
 		""
-		"&e中子发射&r：开始反应后&a核燃料棒&r会向外发射&6中子&r，中子分热中子和快中子（两者概率相同）。&a燃料棒&r可以发射出的最大&6中子数&r可在JEI中查阅，最小中子数取决于温度。同时，&a燃料棒&r在被外部&6中子&r轰击时也会释放&6中子&r。"
+		"&e中子发射&f：开始反应后&a核燃料棒&r会向外发射&6中子&r，中子分热中子和快中子（两者概率相同）。&a燃料棒&r可以发射出的最大&6中子数&r可在JEI中查阅，最小中子数取决于温度。同时，&a燃料棒&r在被外部&6中子&r轰击时也会释放&6中子&r。"
 		"{@pagebreak}"
-		"&e中子吸收&r：&a燃料棒&r和其余的核反应堆组件都有概率吸收一枚&6快中子&r。如果&a燃料棒&r被&6快中子&r轰击则会释放更多&6中子&r，但其余组件会掉1耐久。"
+		"&e中子吸收&f：&a燃料棒&r和其余的核反应堆组件都有概率吸收一枚&6快中子&r。如果&a燃料棒&r被&6快中子&r轰击则会释放更多&6中子&r，但其余组件会掉1耐久。"
 		""
-		"&e中子散射&r：轰击目标的&6中子&r有概率被反射进别的格子，反射路径是随机的。而该&6中子&r将会随机成为&d快中子&r或&d热中子&r，具体概率可以查阅JEI。"
+		"&e中子散射&f：轰击目标的&6中子&r有概率被反射进别的格子，反射路径是随机的。而该&6中子&r将会随机成为&d快中子&r或&d热中子&r，具体概率可以查阅JEI。"
 		"{@pagebreak}"
-		"&e中子穿透&r：如一个向外发射的&6中子&r既未被散射也未轰击目标，则它会保留发射路线并穿过该组件。而如果&6中子&r发射进了一个未被占用的地方（任何非组件的地方），它就会消失。"
+		"&e中子穿透&f：如一个向外发射的&6中子&r既未被散射也未轰击目标，则它会保留发射路线并穿过该组件。而如果&6中子&r发射进了一个未被占用的地方（任何非组件的地方），它就会消失。"
 		""
-		"&e温度&r：当&d热中子&r被吸收后，组件就会升温。"
+		"&e温度&f：当&d热中子&r被吸收后，组件就会升温。"
 		""
-		"&e热传导性&r：指该组件传输热量的能力，热组件会自发将热量传输到冷组件上。"
+		"&e热传导性&f：指该组件传输热量的能力，热组件会自发将热量传输到冷组件上。"
 	]
 	quest.6A691F59D434B379.title: "&6核反应堆机制"
 	quest.6AA51581B0CA5271.quest_desc: [
@@ -7996,6 +8322,12 @@
 		"它还用于制作&d主世界之力&r。"
 	]
 	quest.6AF5FF1455F7C977.title: "&a紫水晶符石"
+	quest.6B09F7DEBFE6905B.quest_desc: [
+		"A ship that flies and steers still needs somewhere to go and a way to stop when it gets there."
+		""
+		"This quest path is docking, ropes, navigation, automated routes, claiming your ship so it keeps ticking while you're away, and taking it into other dimensions."
+	]
+	quest.6B09F7DEBFE6905B.title: "&bGoing Places"
 	quest.6B23438D6F622F5D.quest_desc: ["&4&l警告！&r&c爆破透镜&r会在激光击中处产生一场大爆炸。"]
 	quest.6B23438D6F622F5D.title: "&c爆破透镜"
 	quest.6B390939597DC9E7.quest_desc: [
@@ -8123,6 +8455,12 @@
 		"右击存储容器即可将其打包，然后你就可以把它整个挖掉，搬到别的地方去了。"
 	]
 	quest.6D165125DC0B8F50.title: "&f打包带"
+	quest.6D24519E78D6F67C.quest_desc: [
+		"A &aCover&f is a facade that wraps around pipes, cables and other awkward blocks so the hull reads as one surface. The &aDirectional Cover&f does the same with a block that has a front."
+		""
+		"Regular cable facades fall off the moment a ship assembles. These survive &eCreate&f contraptions and physics assembly both, so a covered engine room stays covered when it takes off."
+	]
+	quest.6D24519E78D6F67C.title: "&aAeronautics Covers"
 	quest.6D2885E2EC0123BA.quest_desc: ["&7你一定&l狠&r&7喜欢椰林飘香"]
 	quest.6D28E1AFBB33C43E.quest_desc: ["&d时钢&r可用于升级你的现有设备，也可以合成一些有用的东西。"]
 	quest.6D28E1AFBB33C43E.title: "&d时钢"
@@ -8183,6 +8521,14 @@
 	quest.6E5CEEE43F0DECA7.quest_desc: ["在探索过程中开启100个&eLootr&f战利品桶。"]
 	quest.6E62CF3784A15E0F.title: "&f化学品卡"
 	quest.6E66D752E153E00F.title: "&f实用的&a一阶&r魔符"
+	quest.6E9D6254DEBD449A.quest_desc: [
+		"The &aNavigation Table&f points at things. Give it a navigation item, a &bFilled Map&f or a &bCompass&f, and it puts out a redstone signal toward the destination, strongest when the ship faces it dead on and weaker as you drift off. Feed that into a servo and the ship finds its own way."
+		""
+		"The &aNavigator's Table&f from &eAeronaut's Compass&f is how you make the destination. Put a compass on it, type coordinates and a name, and the compass points there. Craft it alone to reset it."
+		""
+		"The &3Advanced Navigation Table&f holds several maps at once and exposes the slots to automation, so a route can swap targets as it goes."
+	]
+	quest.6E9D6254DEBD449A.title: "&a导航台"
 	quest.6EBE4A9647FFC833.quest_desc: [
 		"&6注入聚合矩阵（Injector Fusion Matrix）&f可在单方块内自动完成注入配方。"
 		""
@@ -8346,6 +8692,18 @@
 		"你可以将自己投入&5哭泣之井&r来完成献祭；此外，在使用&6帷幔之锋&r杀死村民时，也有小概率获得此物。"
 	]
 	quest.7169587C7DC4C8C0.title: "&5献祭精魄"
+	quest.7176D0016C3E1BDC.quest_desc: [
+		"This pack's shortcut is the &aSkybound Anchor&f. Place it on a ship and it counters pitch and roll with no rotation, no stress and no fuel."
+		""
+		"It doesn't touch yaw, so the ship still turns freely, and it doesn't fix a hull that's badly out of balance, it just stops the wobble. For a starter ship or a flying base that mostly parks, this is all the stabilization you need. Save the &dGyroscope&f for something that has to fly straight at speed."
+	]
+	quest.7176D0016C3E1BDC.title: "&aSkybound Anchor"
+	quest.71806B23D902DDE1.quest_desc: [
+		"The &aAltitude Sensor&f turns height into a redstone signal. By default the signal grows as you climb, the range is set in its interface, and it can be flipped to shrink instead."
+		""
+		"Feed that signal into the burner or vent and the ship holds a height by itself. Climb, the signal rises, the redstone into the burner drops, the balloon cools, the ship sinks back. Wearing goggles or holding a wrench shows the exact altitude and air pressure."
+	]
+	quest.71806B23D902DDE1.title: "&aAltitude Sensor"
 	quest.71806E77AEE9E050.quest_desc: [
 		"一旦你获得了一些&a锇&r，就可使用&e热力发电机&r开始生成基础电力。"
 		""
@@ -8375,7 +8733,7 @@
 		""
 		"你可以钻取原油或页岩油。这两种油的处理工序大体一样，但是在处理细节上不同，所以记得多看JEI来规划如何处理。"
 		"{@pagebreak}"
-		"&3钻机&r完全体："
+		"&3钻机&f完全体："
 		""
 		"{image\\:\\ftb:textures/quests/modern_industrialization/oildrilling.png width:150 height:200 align:center}"
 	]
@@ -8428,11 +8786,11 @@
 		""
 		"它有三种模式："
 		""
-		"- &b默认（Default）&r：可以将相连的逻辑线缆断开，或断开逻辑线缆与相邻的方块之间的连接。逻辑线缆只会与其他逻辑线缆或某些&eI.D&r中的方块自动连接。"
+		"- &b默认（Default）&f：可以将相连的逻辑线缆断开，或断开逻辑线缆与相邻的方块之间的连接。逻辑线缆只会与其他逻辑线缆或某些&eI.D&r中的方块自动连接。"
 		"{@pagebreak}"
-		"- &b保存偏移量（Save Offset）&r：记录选定方块的坐标，并可以使指定接口自动识别偏移量。"
+		"- &b保存偏移量（Save Offset）&f：记录选定方块的坐标，并可以使指定接口自动识别偏移量。"
 		""
-		"- &b保存偏移量和面（Save Offset \\&\\ Side）&r：与上述保存偏移量的功能相同，但同时还会保存你选择方块时的面。当指定一些不同面有不同功能的方块时非常有用。"
+		"- &b保存偏移量和面（Save Offset \\&\\ Side）&f：与上述保存偏移量的功能相同，但同时还会保存你选择方块时的面。当指定一些不同面有不同功能的方块时非常有用。"
 		""
 		"[\"在使用\", {\"text\": \"部件强化：偏移\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \"时，保存偏移量和面就会相当有用，因为它可以节省你计算和手动记录偏移量的时间。\"]"
 	]
@@ -8450,7 +8808,7 @@
 		""
 		"由于每个&a读取器&r和&a输出器&r都有许多要介绍的内容，因此我们会再单独介绍它们。"
 		""
-		"&e注意&r：&a实体&r、&a物品栏&r以及&a机器写入器&r需要其它模组才能生效，而本包中并未添加这些模组。因此它们并不可用。"
+		"&e注意&f：&a实体&r、&a物品栏&r以及&a机器写入器&r需要其它模组才能生效，而本包中并未添加这些模组。因此它们并不可用。"
 	]
 	quest.729DF05C1D2AE6E7.title: "&f读取器和输出器"
 	quest.72A00FD887707E9D.quest_desc: [
@@ -8513,7 +8871,7 @@
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_adding.png width:190 height:60 align:center}"
 		"{@pagebreak}"
-		"&a编程器&r中的配方方面会被自动填充。"
+		"&a编程器&f中的配方方面会被自动填充。"
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_example.png width:170 height:150 align:center}"
 		"{@pagebreak}"
@@ -8533,7 +8891,7 @@
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_aspect.png width:200 height:125 align:center}"
 		"{@pagebreak}"
-		"现在，你就可以在&a合成接口&r里使用这个配方了："
+		"现在，你就可以在&a合成接口&f里使用这个配方了："
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_valid.png width:150 height:110 align:center}"
 		"{@pagebreak}"
@@ -8609,7 +8967,7 @@
 		""
 		"与之前的产量升级不同，你现在不需要再安装升级：模拟了，安装另一个升级吧！"
 	]
-	quest.73F82078E2BC4DA5.title: "&e升级：&f产量γ"
+	quest.73F82078E2BC4DA5.title: "&e升级&f：产量γ"
 	quest.73FD015A3696ABFB.quest_desc: ["在将&a龙之心&r注入到&d龙块&r后，你就能得到&6觉醒龙块&r了，这是将你已有&e龙之进化&r装置升级到下一阶段的必需材料。"]
 	quest.740706F63579237D.quest_desc: [
 		"量子技术确实是一件混乱的事。但就有这样一个&d居住在末地的守卫&r，它同时也是混沌的造物和化身，它守护着的那块晶体能够帮助我们掌控并汲取这种混沌能量。"
@@ -8644,7 +9002,7 @@
 	quest.74B2332D6BBC0721.quest_desc: [
 		"&a传说之眼&r是一件特殊道具，可以让漫游者在虚空中找到通往天空村庄之路。只需使用该物品，便可召唤出一个指示物，它会短暂地朝某个村庄的方向飘去，随后消散。"
 		""
-		"&e提示&r：需要&3火药&r制作TNT？当然可以造刷怪塔，但我们推荐你在需要时直接合成&3主世界夜境之门&r。每个波次都会掉落火药，足够轻松推进进度！"
+		"&e提示&f：需要&3火药&r制作TNT？当然可以造刷怪塔，但我们推荐你在需要时直接合成&3主世界夜境之门&r。每个波次都会掉落火药，足够轻松推进进度！"
 	]
 	quest.74B2332D6BBC0721.title: "&a传说之眼"
 	quest.74BED9604BDE1EA5.quest_desc: [
@@ -8727,6 +9085,12 @@
 	quest.75CE1ACD81A3CAC5.title: "&7锰粉"
 	quest.75D7595FD90E77E5.quest_desc: ["每装一个&d装配矩阵样板核心&r，就能给&6装配矩阵&r增加36个样板槽位。"]
 	quest.75D7595FD90E77E5.title: "&d装配矩阵样板核心"
+	quest.765CD0AA28077AA3.quest_desc: [
+		"Wear these and the ship stops being a mystery. Every force acting on a &bSimulated Contraption&f gets drawn as an arrow, propellers and thrusters print their output, and assemblies show their details."
+		""
+		"[\"The \", {\"text\": \"Aviator's Goggles\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"425A41A378E7BF52\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Engineer's Goggles Quest\"]}}, \" from \", {\"text\": \"Aeronautics\", \"color\": \"yellow\"}, \" do the same job as \", {\"text\": \"Engineer's Goggles\", \"color\": \"aqua\"}, \" for stress and RPM. Pick whichever pair suits the outfit.\"]"
+	]
+	quest.765CD0AA28077AA3.title: "&3Physics Goggles"
 	quest.767288EF95829225.quest_desc: [
 		"&3动力犁&r可以耕地并破坏无碰撞体积的非固体方块（雪、火把、铁轨、拉杆等）"
 		""
@@ -9012,7 +9376,7 @@
 		""
 		"只要手持&a扳手&r并看向多方块结构的控制方块，它就会生成该多方块结构的投影并指导你如何建筑它！"
 		""
-		"&e提示&r：建造多方块结构时将其放在副手位置！"
+		"&e提示&f：建造多方块结构时将其放在副手位置！"
 	]
 	quest.79408CC2B3EF8DA6.title: "&2扳手&r&f与你！"
 	quest.794C1EAA6252BC44.quest_desc: ["重置远程技能树中已使用的技能点。"]
@@ -9217,6 +9581,15 @@
 	quest.7C0FD2B2589BC66D.title: "&b大就是美，多就是好"
 	quest.7C2617969808F086.quest_desc: ["把一些&3晶体管&r和&3电容&r拍在&d未组装的印刷电路板&r来做出&b印刷电路板&r。"]
 	quest.7C2617969808F086.title: "&f组装好的印刷电路板"
+	quest.7C2F9F95406E9258.quest_desc: [
+		"&eAeroPortals&f lets a ship fly through a portal. Not you, the ship. Sail the hull into a &bNether Portal&f and the entire contraption arrives on the other side, crew, cargo, balloon and all, still moving at the speed it went in."
+		""
+		"It works on far more than the Nether. The &bEnd&f, &eArs Nouveau&f portals, &eDraconic&f, the &bEnder Gateway&f, &eTelePastries&f, even the &6Pina Colada&f. Build the portal big enough for the ship to pass through it."
+		""
+		"&cWarning&f: The destination has to have room. A ship that would arrive inside solid rock has its jump cancelled rather than the rock removed, so scout the far side first. A portal of matching size gets built for you if none is waiting, and a ship can't jump again for ten seconds after arriving. Keep the hull under 200,000 blocks of bounding box or the portal won't notice it at all."
+	]
+	quest.7C2F9F95406E9258.quest_subtitle: "The whole ship goes"
+	quest.7C2F9F95406E9258.title: "&dAero Portals"
 	quest.7C4F7E36320797C5.title: "&b三级&f生物种子"
 	quest.7C71C66C357C3623.quest_desc: ["&2乙醚&r用于将&e柴油&r和&a生物柴油&r转化为&6增压柴油&r。"]
 	quest.7C71C66C357C3623.title: "&2乙醚"
@@ -9307,7 +9680,7 @@
 		"- &2漏斗&r，在&2泥巴&r下方时仍可拾取物品。"
 		"- &2子沙&r，在接收到红石信号脉冲时，会使&a甘蔗&r生长得飞快。"
 		""
-		"&c&l警告&r：切记一次只扔一张纸！扔多张纸会浪费整组物品！"
+		"&c&l警告&f：切记一次只扔一张纸！扔多张纸会浪费整组物品！"
 	]
 	quest.7D2375372CF328C3.title: "&f空中冲刺"
 	quest.7D23D1C9DE75721F.title: "&f击杀20只&c骷髅"
@@ -9338,6 +9711,12 @@
 	quest.7D6F927122F7FE62.title: "&6末影水晶"
 	quest.7D98D9AB89357FA6.quest_desc: ["我们现在已经准备好前往新时代了——&2低压时代&r。低压时代的机器全部都需要&a基础机器外壳&r，你得&c多多&r准备了。"]
 	quest.7D98D9AB89357FA6.title: "&2低压时代&r"
+	quest.7D996CB0951B1037.quest_desc: [
+		"A &dPropulsion Upgrade&f multiplies thrust. Tier 1 doubles it, and each tier doubles again up to sixteen times at Tier 4, with the fuel bill climbing to match."
+		""
+		"&dProcessing Upgrades&f turn the exhaust into an &bEncased Fan&f. Items on &aDepots&f in the stream get smoked, smelted or haunted, faster and over a wider area at higher tiers. The &dThruster Lens&f swaps fuel for &bFE&f entirely, 90 FE per tick at full throttle, and focuses the plume into a beam that pushes harder than the open flame. The &aFuel Oxidizer&f boosts supported fuels by half again."
+	]
+	quest.7D996CB0951B1037.title: "&dThruster Upgrades"
 	quest.7DC700AAF1680424.title: "&a纸板"
 	quest.7DE9A4C7979AC1FA.quest_desc: [
 		"&6时域仪&r可以开启一扇通往任意标记点的传送门。"
@@ -9350,7 +9729,7 @@
 	quest.7E2399076FA8B7AC.quest_desc: [
 		"&a单向连接器&r可以通过无线的方式直线（最多512格）连接两个逻辑网络。"
 		""
-		"&e注意&r：频繁使用单向连接器会引起较高tps延迟，所以请减少使用。"
+		"&e注意&f：频繁使用单向连接器会引起较高tps延迟，所以请减少使用。"
 	]
 	quest.7E2399076FA8B7AC.title: "&f单向连接器"
 	quest.7E4532B9052F0BEC.quest_desc: ["这一行是&d游戏后期的发电机&f，可以为你提供最大的发电量，适配游戏末期的高级发展规划。"]
@@ -9421,7 +9800,7 @@
 		""
 		"不同燃料的产能速率（FE/t）相同，但高级的燃料可以燃烧更久！"
 		""
-		"&e注意&r：将鼠标放在燃料发电机上，按&aU&r键，即可查看可用燃料列表。"
+		"&e注意&f：将鼠标放在燃料发电机上，按&aU&r键，即可查看可用燃料列表。"
 	]
 	quest.7F24FA574B370F08.quest_subtitle: "唤魔套装"
 	quest.7F24FA574B370F08.title: "&a高位唤魔者套装"
@@ -9466,7 +9845,7 @@
 	]
 	quest.7FA34CEB41A4D9F5.title: "&a蒸汽高炉"
 	quest.7FBA170218539BE8.quest_desc: [
-		"认知有一种依靠&a噬菌体&r生产经验的独特方法：这种微小的结构体能够不断地将书架分解成经验球，直到只剩下&7遗忘尘埃&r。"
+		"认知有一种依靠&a噬菌体&f生产经验的独特方法：这种微小的结构体能够不断地将书架分解成经验球，直到只剩下&7遗忘尘埃&r。"
 		""
 		"&a受侵染的书架&r会把噬菌体传播到其他书架上，这意味着使用一次噬菌体就能侵染所有相连接的书架。可以使用&e调试权杖&r来停止这一过程。"
 		""
@@ -9618,12 +9997,13 @@
 	task.0ADB488118F04CF5.title: "蜜蜂属性"
 	task.0AE9E3C1553154B6.title: "机器核心"
 	task.0BC939593E954EC8.title: "技能"
+	task.0BE0A1D1F62A6D47.title: "Any #ftb:tropicraft_chair"
 	task.0C13FA83021AE4C5.title: "&e击杀&f：&6下界合金巨兽"
 	task.0C41CFCD491848EC.title: "&a下级精华&f盔甲"
 	task.0D41D1A509DD941A.title: "输入口"
 	task.0E1704694A58907A.title: "电动机"
 	task.0E7B34D38F84AC11.title: "任意胸针"
-	task.0E7BA466F8A98A9F.title: "&e击杀：&c巨钳守卫"
+	task.0E7BA466F8A98A9F.title: "&e击杀&f：&c巨钳守卫"
 	task.0ECBFE9262249011.title: "任意魂染工具"
 	task.0ED7E5C08F734CB3.title: "我拒绝把我的傀儡砍死"
 	task.0F868488088CDEC1.title: "BEER"
@@ -9760,7 +10140,7 @@
 	task.4096CA7300D6F0EB.title: "切换符石效果"
 	task.40EF108176203527.title: "任意基础木质工具"
 	task.41C6DFE9A3B35FF8.title: "输出口"
-	task.41F820C3A757072B.title: "&e击杀：&b斯库拉"
+	task.41F820C3A757072B.title: "&e击杀&f：&b斯库拉"
 	task.425475855D1D929C.title: "升级"
 	task.42D7392235F0A913.title: "&f镶框抽屉"
 	task.43335047972E4FA8.title: "&e找到建筑&f：&d末地城（End Castle）"
@@ -9791,7 +10171,6 @@
 	task.4C920B09DE6D8705.title: "&e观察&f：任意过载水晶母岩"
 	task.4D5C3B07083B5ED6.title: "我已经有了电力"
 	task.4D84454C3C872F73.title: "观察&a舵轮&r"
-	task.4DA7CC978A6E7D2D.title: "&e观察&f：浮空水晶"
 	task.4DBC16ACBFEF4D40.title: "堆叠升级"
 	task.4DDC10B7CDEA5CB5.title: "&f接口"
 	task.4F1777D10DAD6649.title: "任意&b元素&f种子"
@@ -9810,7 +10189,7 @@
 	task.554CEA60D1280A89.title: "&e找到建筑&f：&c下界要塞"
 	task.555E91E3488C8559.title: "认知五件套"
 	task.55B1C70507F60EDF.title: "&bAE2内置指南书&f"
-	task.55E36C96A2424F59.title: "&e击杀：&6远古遗魂"
+	task.55E36C96A2424F59.title: "&e击杀&f：&6远古遗魂"
 	task.55F5BD3470BD58A4.title: "充能棒"
 	task.56A35A967954A4C2.title: "&a抽屉"
 	task.56AEAE6BD791EA6C.title: "&f能量线缆"
@@ -9884,6 +10263,7 @@
 	task.6C7516F4970E8191.title: "模块与按键"
 	task.6D2BF51317854A51.title: "&e击杀&f：&3珊瑚巨像"
 	task.6D8527E9C8C06246.title: "灵魂掉落物"
+	task.6EB6678C52C4F313.title: "升级"
 	task.6F25EA9A5E06524F.title: "内爆机器"
 	task.6F50B64460D2EC3D.title: "&e找到建筑&f：&cFargo的地牢"
 	task.6F72448CD3FD5163.title: "如何获取蜜蜂！"
