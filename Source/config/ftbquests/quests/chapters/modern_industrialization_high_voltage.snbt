@@ -360,7 +360,7 @@
 			y: 0.5d
 		}
 	]
-	order_index: 9
+	order_index: 8
 	quest_links: [{
 		id: "2270EBD2C0036F31"
 		linked_quest: "37E9DC506653FCCA"
@@ -1611,7 +1611,7 @@
 			dependencies: ["6126333E1B6B6925"]
 			hide_dependency_lines: true
 			icon: {
-				id: "pneumaticcraft:ethanol_bucket"
+				id: "modern_industrialization:ethanol_bucket"
 			}
 			id: "3424F0E39EB5DFC6"
 			optional: true
@@ -1639,7 +1639,7 @@
 				{
 					fluid: {
 						amount: 1000
-						id: "pneumaticcraft:ethanol"
+						id: "modern_industrialization:ethanol"
 					}
 					id: "3180883B15E9DF42"
 					optional_task: true

@@ -26,7 +26,7 @@
 		x: 0.0d
 		y: -1.5d
 	}]
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "24D838D2C8435AB3"
@@ -52,6 +52,14 @@
 				"7D1FBA05137C755E"
 				"00EF44F8FEB82203"
 			]
+			icon: {
+				components: {
+					"tropicraft:cocktail": {
+						drink: "tropicraft:pina_colada"
+					}
+				}
+				id: "tropicraft:cocktail"
+			}
 			icon_scale: 0.75d
 			id: "2D0F5BF08D40618C"
 			min_width: 350
@@ -61,12 +69,19 @@
 				type: "currency"
 			}]
 			shape: "diamondgear"
-			size: 2.0d
-			tasks: [{
-				id: "3451E16E0A4E988D"
-				item: { components: { "tropicraft:cocktail": { drink: "tropicraft:pina_colada" } }, count: 1, id: "tropicraft:cocktail" }
-				type: "item"
-			}]
+			size: 2.5d
+			tasks: [
+				{
+					id: "3451E16E0A4E988D"
+					item: { components: { "tropicraft:cocktail": { drink: "tropicraft:pina_colada" } }, count: 1, id: "tropicraft:cocktail" }
+					type: "item"
+				}
+				{
+					id: "0BE0A1D1F62A6D47"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ftb:tropicraft_chair)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}

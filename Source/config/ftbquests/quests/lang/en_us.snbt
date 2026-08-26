@@ -14,9 +14,9 @@
 	chapter.3AEDC4DBA9DD1E44.title: "Iron's Spells 'n Spellbooks"
 	chapter.3B99F85218D37371.title: "Useful Items \\&\\ Tips"
 	chapter.3CE58B5907FB2A58.title: "Actually Additions"
+	chapter.4585404711F46350.title: "Aeronautics"
 	chapter.485ABBDAA9A6C0CD.title: "Fargo's Talismans"
 	chapter.4F0F16931654DF58.title: "Bounty Board"
-	chapter.56F302CC805CFC4D.title: "Create: Addons"
 	chapter.5BBD28643F4FD3B6.title: "Draconic Evolution"
 	chapter.618927B4ED1733F6.title: "Modern Industrialization"
 	chapter.67DDE0406A5EE303.title: "Neo Vitae"
@@ -69,13 +69,13 @@
 		""
 		"Upgrade values can be seen on the next page."
 		"{@pagebreak}"
-		"&cRed Heartpulse Belt&r : 1.5 Block Height Jump and slight speed increase."
+		"&cRed Heartpulse Belt&f: 1.5 Block Height Jump and slight speed increase."
 		""
-		"&eYellow Heartpulse Belt&r : 2 Block Height Jump and moderate speed increase."
+		"&eYellow Heartpulse Belt&f: 2 Block Height Jump and moderate speed increase."
 		""
-		"&9Blue Heartpulse Belt&r: 2.5 Block Height Jump and fast speed increase."
+		"&9Blue Heartpulse Belt&f: 2.5 Block Height Jump and fast speed increase."
 		""
-		"&aGreen Heartpulse Belt&r: 3 Block Height Jump and very fast speed increase."
+		"&aGreen Heartpulse Belt&f: 3 Block Height Jump and very fast speed increase."
 	]
 	quest.00249E1AFEF0051A.title: "A Better Movement"
 	quest.0056517EDF3DAB08.quest_desc: [
@@ -110,9 +110,9 @@
 		""
 		"[\"\", {\"text\": \"Eterna\", \"color\": \"green\"}, \": The power of the enchanting table, capped based on the tier of your bookshelves as well as your \", { \"text\": \"World Tier\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to World Tiers Quest\"} }, \". This stat determines the maximum level of enchants.\" ]"
 		""
-		"&cQuanta&r: The chaos inherent when enchanting at higher power. This determines the randomness of enchants."
+		"&cQuanta&f: The chaos inherent when enchanting at higher power. This determines the randomness of enchants."
 		""
-		"&dArcana&r: The overall quality and quantity of the enchantments. This determines the rarity of enchants, as well as how many enchants are applied per use."
+		"&dArcana&f: The overall quality and quantity of the enchantments. This determines the rarity of enchants, as well as how many enchants are applied per use."
 	]
 	quest.00A7C1FE54F86429.title: "&6The Secrets of Enchanting"
 	quest.00E7719300B02F8F.quest_desc: [
@@ -130,6 +130,14 @@
 	]
 	quest.00EF44F8FEB82203.quest_desc: ["[ \"Use a \", { \"text\": \"Paradox Mixer\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"774D3A6FFDD295D4\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open Quest\"} }, \" to combine the Flashpine and the Temporal Pineapple Juice.\" ]"]
 	quest.00EF44F8FEB82203.title: "Paradoxical Mixing"
+	quest.010F6CB71BAB1731.quest_desc: [
+		"&aDocking Connectors&f come in pairs. Extend both, bring them close, and they pull themselves into line and lock. The connection is rigid but the two sides stay separate ships, and once locked, items and fluids pass straight through in either direction, as long as something is inserting on one side and pulling on the other."
+		""
+		"Retract either end to undock. A comparator reads how far along the docking is, which is the signal an automated dock waits for."
+		""
+		"&aRedstone Magnets&f help line a big ship up. Opposite poles attract and try to align with each other, so a magnet on the hull and one on the pier drags the connectors into range."
+	]
+	quest.010F6CB71BAB1731.title: "&aDocking Connector"
 	quest.01177027CE208375.quest_desc: [
 		"Once you have your hands on some &dStainless Steel Dust&r, you can run it through an &3Electric Blast Furnace&r to create a &bStainless Steel Hot Ingot&r!"
 		""
@@ -152,6 +160,14 @@
 		"Otherwise, you can build your contraptions using &#eda73bHoney Glue&f."
 	]
 	quest.0128A3EC005A8AE5.title: "Physics Assembler"
+	quest.012ACDB95C655DDB.quest_desc: [
+		"A ship needs rotation on board, and a waterwheel doesn't travel well. The &aPortable Engine&f burns fuel and spins a shaft, in either direction, and it'll take fuel from hoppers and belts so you don't have to hand-feed it in flight."
+		""
+		"Drop a &dBlaze Cake&f in and it runs superheated for more power. "
+		""
+		"[\"The \", {\"text\": \"Stirling Engine\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"17C82FAD796695DE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Stress Relief Quest\"]}}, \" from \", {\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \" is the other onboard option, and any \", {\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \" burner can heat it.\"]"
+	]
+	quest.012ACDB95C655DDB.title: "&aPortable Engine"
 	quest.012AEBFDB1F1512E.title: "Ferricore Armor"
 	quest.0154D0F30F095E63.quest_desc: ["Crystal Catalyst can accelerate the growth of a similarly aspected crystal cluster. So if you use a raw calayst on a raw crystal it will grow substantially faster. If you use an aspected catalyst however it will change the type of the growing crystal into the new aspected type."]
 	quest.0154D0F30F095E63.title: "Coaxing Crystals"
@@ -215,6 +231,12 @@
 		"Most &2Nests&r require an item to be used on them to lure bees, with the basic nests requiring &eHoney Treats&r. Using one will start the timer for a bee to come move in, and using more will cut the time needed for them to spawn in."
 	]
 	quest.0241EAE68EA53595.title: "&fNest Spawning"
+	quest.02926DC431DB0DD2.quest_desc: [
+		"&bThrust&f is the push. Propellers make it from rotation, thrusters make it from fuel, and both of them push on the ship at the block where they sit."
+		""
+		"Where the push sits matters as much as how hard it pushes. Thrust below the centre of mass pitches the nose up, thrust on one side turns you, and thrust that isn't pointed straight through the centre of mass turns into a slow spin. The &aContraption Diagram&f shows you exactly where every one of them is pushing."
+	]
+	quest.02926DC431DB0DD2.title: "&bThrust"
 	quest.02BC61BBCDB931A3.quest_desc: [
 		"The &dGas-Burning Generator&r is one of the best ways to generate power in the early game that can last well into the mid game."
 		""
@@ -281,9 +303,17 @@
 		""
 		"This can be done by making a &aBasic To Iron&r upgrade and using it on your storage in the world."
 		""
-		"&eNote&r: You can also upgrade to the higher tiers from the basic tier as well!"
+		"&eNote&f: You can also upgrade to the higher tiers from the basic tier as well!"
 	]
 	quest.03569C25419223DC.title: "&fTier Upgrades"
+	quest.035FB8020EAB6725.quest_desc: [
+		"Place a &aContraption Claim Block&f on a ship and the ship becomes &eFTB Chunks&f territory. Only your team can break it or open it, allies can be added from the block, and it shows up on the map with its altitude and speed."
+		""
+		"The block also lets you force-load the ship. &bKeep Anchor Loaded&f keeps the chunks under it awake so it keeps existing while you're gone, and &bKeep Physics Active&f keeps it simulating too, so a flying farm keeps farming. Both count against your team's force-load limits."
+		""
+		"&cWarning&f: A ship that never stops simulating is a ship that never stops costing the server. Force-load the base, not the fleet."
+	]
+	quest.035FB8020EAB6725.title: "&aContraption Claim Block"
 	quest.0361236BF20549B5.quest_desc: [
 		"A skeleton skull gives +1x base power and recharge speed"
 		""
@@ -323,7 +353,7 @@
 	quest.038C26F86776F520.quest_desc: [
 		"&bSky villages&r have resources strewn over their islands that are very rare early on, such as &2emeralds&r, &damethyst&r, and some more unique modded materials like &5soulstone&r."
 		""
-		"&aTip&r: Using an &eEye of Legend&r or &eExplorer's Compass&r to locate one of these and travel to it could prove lucrative."
+		"&aTip&f: Using an &eEye of Legend&r or &eExplorer's Compass&r to locate one of these and travel to it could prove lucrative."
 	]
 	quest.038C26F86776F520.quest_subtitle: "Emerald and Amethyst"
 	quest.038C26F86776F520.title: "&fSky Village Materials"
@@ -346,18 +376,24 @@
 		"Ender Golems can be found scattered throughout, but the hardest foe is the Ender Guardian that rests on the &5lowest floor&r."
 	]
 	quest.040795388568AB69.title: "&fFind the &5Ruined Citadel"
+	quest.0442C24F82084CE8.quest_desc: [
+		"For when the ship is parked and the island is over there. Hold the &aHang Glider&f and jump off something tall and you glide instead of drop. The &3Reinforced Hang Glider&f lasts longer between repairs."
+		""
+		"&7&oNo lift, no engine, no landing gear. Aim for the water."
+	]
+	quest.0442C24F82084CE8.title: "&aHang Glider"
 	quest.044A192E503B766B.quest_desc: [
 		"The &aHeart Patch&r is like a band-aid it will heal the player based on its level so much health. It has a cooldown so be careful when using it as a life-line."
 		""
 		"Each Tier Increases the base value healed."
 		""
-		"&cRed&r : 1 Heart per use."
+		"&cRed&f: 1 Heart per use."
 		""
-		"&eYellow&r : 3 Hearts per use."
+		"&eYellow&f: 3 Hearts per use."
 		""
-		"&9Blue&r: 6 Hearts per use."
+		"&9Blue&f: 6 Hearts per use."
 		""
-		"&aGreen&r: 10 Hearts per use."
+		"&aGreen&f: 10 Hearts per use."
 	]
 	quest.044A192E503B766B.title: "Patch Me Up!"
 	quest.04561BBA227DE4D6.quest_desc: [
@@ -547,6 +583,12 @@
 		"{image:minecraft:item/emerald width:20 height:20 align:center}"
 	]
 	quest.073546F80EDA632E.title: "&fThe &aMarket"
+	quest.0765E40A957F1F00.quest_desc: [
+		"Climbing down to tie up a ship gets old. A &3Throwable Rope Connector&f is a connector you throw, and it anchors wherever it lands, up to 10 blocks away. Keep one in your off hand and the &3Rope Connector Launcher&f fires it 20 blocks instead."
+		""
+		"The &3Mounted Rope Launcher&f is the ship-side version with a 40 block reach. Right-click to mount it, left-click to fire, right-click to release the anchor, and a redstone pulse fires it along its last aim so the docking sequence can throw its own lines. Ammo is only used up when a throw actually sticks."
+	]
+	quest.0765E40A957F1F00.title: "&3Rope Launchers"
 	quest.077F5C3829CA7300.quest_desc: [
 		"To encourage exploring a variety of food, foods in this pack will grant you &6extra health&r the more you try!"
 		""
@@ -571,6 +613,8 @@
 		"&aMechanical Belts&r can be used to create conveyor-like systems to transfer items and/or &bRotational Force&r."
 		""
 		"&eCreate&r machines will automatically interact with items on &aBelts&r if they are able to."
+		""
+		"&aTransmission Chains&f are used to cleanly transfer rotation between belts."
 	]
 	quest.07BCE0B7BDB4E155.title: "&aMechanical Belt"
 	quest.07C181C204CF1240.quest_desc: [
@@ -674,7 +718,7 @@
 		""
 		"To keep these bees contained, the &aAnti-Teleportation Upgrade&r can be installed in a hive to stop them from teleporting!"
 	]
-	quest.090946AC35693607.title: "&eUpgrade: &fAnti-Teleportation"
+	quest.090946AC35693607.title: "&eUpgrade&f: Anti-Teleportation"
 	quest.091ACA18018FFD3E.quest_desc: [
 		"These allow you to collect or place fluids from the world."
 		""
@@ -710,7 +754,7 @@
 		""
 		"The &3Configuration Tool&r is used to lock Drawers to only interact with certain items. This is super useful when you are constantly pulling or pushing items from Drawers!"
 		""
-		"&ePro Tip&r: If you've connected Drawers to a &aStorage Controller&r, you can use the Configuration Tool on the Controller to lock all of the Drawers that are linked, all at once!"
+		"&ePro Tip&f: If you've connected Drawers to a &aStorage Controller&r, you can use the Configuration Tool on the Controller to lock all of the Drawers that are linked, all at once!"
 		"{@pagebreak}"
 		"You can also sneak-use the tool in the air to change modes. There are several modes that you can configure for drawers, like hiding the count amount or disabling the render of items on a Drawer to save FPS."
 	]
@@ -755,6 +799,12 @@
 		"&eNote&f: Bone meal and similar effects work &cagainst&r mutandis and grow the saplings before they mutate, don't force the change."
 	]
 	quest.09B6F6758B0EEEC5.title: "&fWitcher-Trees"
+	quest.09B7653EF21B5A33.quest_desc: [
+		"&bLift&f is anything that pushes up. There are three ways to get it. Trap hot gas in a balloon, bolt on &dLevitite&f, use propellers to propel higher, or go fast enough that sails and wings start carrying you."
+		""
+		"A ship settles at the height where lift and weight are equal. Air gets thinner as you climb, so the same balloon lifts less up high, and that's what stops a balloon rising forever. Add lift to climb, cut it to sink. "
+	]
+	quest.09B7653EF21B5A33.title: "&bLift"
 	quest.09BC75B655BDC624.quest_desc: [
 		"Getting multiple of the same type of bee can be difficult, especially if they have specific breeding flowers like &dDraconic Bees&r."
 		""
@@ -766,7 +816,7 @@
 		""
 		"This can also be used as a filter in the &aCatcher&r to allow it to only capture baby bees!"
 	]
-	quest.09BC75B655BDC624.title: "&eUpgrade: &fBaBee"
+	quest.09BC75B655BDC624.title: "&eUpgrade&f: BaBee"
 	quest.09C7A0F207271224.quest_desc: [
 		"Consumes pink dyes and blocks."
 		""
@@ -796,12 +846,7 @@
 		""
 		"{image\\:\\ftb:textures/quests/productivebees/advancedbeehivesim.png width:125 height:150 align:center}"
 	]
-	quest.0A1FDABEAAA0723B.title: "&eUpgrade: &fSimulator"
-	quest.0A4AB56CCEE5B2F8.quest_desc: [
-		"This &aContraption Controller&f can be assigned up to 13 keys on your keyboard to map to redstone signals and control your contraptions."
-		""
-		"It has several different input modes for very precise controls."
-	]
+	quest.0A1FDABEAAA0723B.title: "&eUpgrade&f: Simulator"
 	quest.0A6E103A6945D11E.quest_desc: [
 		"The &aFoundry&r is key for progression and specializes in creating all of the alloys needed to make &6Oritech&r machines."
 		""
@@ -852,15 +897,15 @@
 	quest.0ABE3ABD2CDF6A45.quest_desc: [
 		"There are a lot of &6Reactor Components&r to keep track of, so here is a list of each of them and their function(s)!"
 		""
-		"&eFuel Rods&r: These come in many varieties, and are your main nuclear force. They are responsible for providing the reactor with energy. &6Quad Rods&r last much longer than &aSingle Rods&r or &bDual Rods&r. Their emissivity decreases with temperature."
+		"&eFuel Rods&f: These come in many varieties, and are your main nuclear force. They are responsible for providing the reactor with energy. &6Quad Rods&r last much longer than &aSingle Rods&r or &bDual Rods&r. Their emissivity decreases with temperature."
 		""
-		"&ePlates&r: A general-use conductive and reflective surface. has a high change of converting incoming &6Fast Neutrons&r into &dThermal Neutrons&r."
+		"&ePlates&f: A general-use conductive and reflective surface. has a high change of converting incoming &6Fast Neutrons&r into &dThermal Neutrons&r."
 		"{@pagebreak}"
-		"&eHeat Exchanger&r: A component designed for managing internal reactor temperature. Has a high thermal conductivity, meaning it can take heat from adjacent sources and send it to adjacent destinations."
+		"&eHeat Exchanger&f: A component designed for managing internal reactor temperature. Has a high thermal conductivity, meaning it can take heat from adjacent sources and send it to adjacent destinations."
 		""
-		"&eWater&r: Comes in several varieties. Pressurized versions are more energy-dense, and &9Heavy Water&r produces &4Tritium&r instead of &5Deuterium&r. Produces &cDeuterium&r when absorbing a &6Fast Neutron&r and increases in temperature (turning to &7Steam&r) when absorbing a &dThermal Neutron&r."
+		"&eWater&f: Comes in several varieties. Pressurized versions are more energy-dense, and &9Heavy Water&r produces &4Tritium&r instead of &5Deuterium&r. Produces &cDeuterium&r when absorbing a &6Fast Neutron&r and increases in temperature (turning to &7Steam&r) when absorbing a &dThermal Neutron&r."
 		""
-		"&eCadmium Control Rod&r: A special component that has a high chance of absorbing incoming &dThermal Neutrons&r."
+		"&eCadmium Control Rod&f: A special component that has a high chance of absorbing incoming &dThermal Neutrons&r."
 	]
 	quest.0ABE3ABD2CDF6A45.title: "&6Reactor Components"
 	quest.0ABFE7704D561C35.quest_desc: ["&3Contraption Controls&r allow for better configuration of your contraptions via redstone signals."]
@@ -959,6 +1004,14 @@
 		"Acts as an energy proxy."
 	]
 	quest.0BAF0C06F01C4E80.title: "&fMachine Acceptor Addon"
+	quest.0BC10EF89AA8FF5D.quest_desc: [
+		"A flying base is a target. A flying base with guns is a fleet."
+		""
+		"&eCreate Big Cannons&f puts real artillery on the deck, from a cast-iron field gun to a built-up steel monster, and &eShield Generators&f puts something between you and the reply. Both run on the same &eCreate&f rotation and redstone the rest of the ship already uses."
+		""
+		"&cWarning&f: Guns kick. A cannon firing off one side of a light airship moves the airship. Mount them near the centre of mass, fire in pairs, or enjoy the spin."
+	]
+	quest.0BC10EF89AA8FF5D.title: "&cArmament"
 	quest.0BEF15E1352A5F72.quest_desc: [
 		"&eReplication&r is a mod that allows you to break down items and blocks into &bMatter&r that can be exchanged for other materials and items of the same type."
 		""
@@ -1051,6 +1104,14 @@
 	quest.0D0A1E61C2384E37.quest_subtitle: "Any one aspect proves the craft."
 	quest.0D0A1E61C2384E37.title: "The Five Aspects"
 	quest.0D35D0D33922A201.title: "&fDefeat 10 &dGateways To Eternity"
+	quest.0D3AB3D21858B5E3.quest_desc: [
+		"&aHoney Glue&f is &bSuper Glue&f for ships. Click two corners and it glues the box between them. &bCtrl+Scroll&f grows or shrinks the box, and holding &bAlt&f lets you drop a corner in mid-air."
+		""
+		"The difference from &bSuper Glue&f is what it sticks to. &aHoney Glue&f only ever attaches to &bSimulated Contraptions&f, so a bearing or piston contraption passing by won't drag half your deck away. It will grab any &bSuper Glue&f it overlaps, but &bSuper Glue&f won't grab it back."
+		""
+		"&eCreate Propulsion&f adds an &aAuto Glue&f item that draws one honey box over a whole connected structure in a single click. Handy on a big hull."
+	]
+	quest.0D3AB3D21858B5E3.title: "&aHoney Glue"
 	quest.0D4FAFE90506EC1D.quest_desc: ["The &dElevator Pulley&r functions similarly to a &3Rope Pulley&r, but can use a &3Redstone Contact&r and &aContraption Controls&r to assign different floors."]
 	quest.0D4FAFE90506EC1D.title: "&dElevator Pulley"
 	quest.0D63039E72A4F69A.title: "&bIce Staff"
@@ -1129,7 +1190,7 @@
 		""
 		"Mining this ore will give you &aRaw Ferricore&r, which you can smelt down into &aFerricore Ingots&r."
 		""
-		"&eNote&r: Fortune does not work on these ores. You will typically get between 3 or 4 raw ores."
+		"&eNote&f: Fortune does not work on these ores. You will typically get between 3 or 4 raw ores."
 	]
 	quest.0E107AC18FCFDB57.title: "&aGoo Transmutations&r"
 	quest.0E11DBABFFAB0FFA.quest_desc: [
@@ -1142,6 +1203,14 @@
 	quest.0E19151FCABF4759.title: "&fReset Athletics"
 	quest.0E3D0533331945A1.quest_desc: ["Forge a Master Routing Node Core to widen the veins of your network. It will allow more items/liquid/energy to be carried with every transmission, and a Speed Core to quicken frequency of transmissions. Seat them within the Master Routing Node, and stack as many as your ambition demands. A network so driven will move oceans in moments."]
 	quest.0E3D0533331945A1.quest_subtitle: "A sluggish heart serves only a small body."
+	quest.0E51F853D09B41FE.quest_desc: [
+		"Spin a &aPropeller&f and it pushes. Spin it the other way and it pulls. A wrench flips the direction without touching the gearing. The &aWooden&f and &aAndesite&f versions are fixed, and the &3Smart Propeller&f pitches itself along one axis to try and face upward, which makes it the easy pick for a helicopter rotor."
+		""
+		"Each one costs 4 SU on the network. A propeller that's already moving through the air can't push as hard, so thrust falls off as you pick up speed, and it falls off again as the air thins with altitude."
+		""
+		"Goggles show the &bThrust&f and &bAirflow&f of any propeller you look at."
+	]
+	quest.0E51F853D09B41FE.title: "&aPropellers"
 	quest.0EA1B56A92D0403F.quest_desc: [
 		"Combining &bAluminum Dust&r, &cChromium Dust&r, and &dStainless Steel Dust&r in a &3Mixer&r will yield &eKanthal Dust&r."
 		""
@@ -1291,11 +1360,11 @@
 		""
 		"In the &aAlloy Smelter's&r interface, you can configure it in many different ways to improve your automation. It allows for side input/output configuration, redstone configuration, and swapping between three modes:"
 		"{@pagebreak}"
-		"&eAlloy only mode&r: Only allows the Alloy Smelter to create alloys."
+		"&eAlloy only mode&f: Only allows the Alloy Smelter to create alloys."
 		""
-		"&eFurnace only mode&r: Treats the Alloy Smelter as a furnace"
+		"&eFurnace only mode&f: Treats the Alloy Smelter as a furnace"
 		""
-		"&eAlloying and Smelting&r: This mode will do both alloying and smelting, which can be bad when automating as some items will be smelted before turning into alloys."
+		"&eAlloying and Smelting&f: This mode will do both alloying and smelting, which can be bad when automating as some items will be smelted before turning into alloys."
 	]
 	quest.109CB437DFAECDC6.title: "&aAlloy Smelter"
 	quest.10AB0C0930A5D77D.title: "&5Regeneration"
@@ -1326,6 +1395,14 @@
 		"Blood multiplies more than power, it multiplies wealth. Brew a measure of Cutting Fluid in your Tabula Vitae, then dissolve an ore within it. The slab grinds the metal free of its stone into dust, two for every ore you offer; smelt that to a finished ingot. "
 	]
 	quest.11284BF46CEB2F12.title: "Alchemy of Ore"
+	quest.112F8339E73484F3.quest_desc: [
+		"A fixed engine pushes one way. To steer with thrust you need the engine to swivel."
+		""
+		"The &dVector Thruster&f swivels by itself. Redstone on its faces yaws and pitches the nozzle, and the &dLiquid Vector Thruster&f does the same on &bTurpentine&f. The &3Servo Bearing&f is the other route. Mount any thruster on it and a redstone difference across the bearing pivots the whole assembly up to 90 degrees."
+		""
+		"Put a &bSmart Gearbox&f in servo mode behind a &3Servo Bearing&f and it aims the engine from orientation data automatically, which is how a ship holds a heading on its own."
+	]
+	quest.112F8339E73484F3.title: "&dVectored Thrust"
 	quest.114B4840D2FA1CDF.quest_desc: [
 		"The &aPurification Chamber&r is mostly used to increase the yield from raw ores."
 		""
@@ -1445,11 +1522,6 @@
 	quest.127FA4B0058E6117.title: "&eHostile Neural Networks&f!"
 	quest.12843F69BB8EEFCE.quest_desc: ["&3Display Links&r can be used to visualize dynamic information about your network or about a block."]
 	quest.12843F69BB8EEFCE.title: "&3Display Link"
-	quest.128E082AAA482324.quest_desc: [
-		"&aHot Air Burners&f and &bSteam Vents&f can be used to raise &bBaloon Contraptions&f using heat."
-		""
-		"The &aHot Air Burner&f simple requires redstone to produce a limite amount of heat, where the &bSteam Vent&f produces more heat, but requires Steam to function."
-	]
 	quest.12B8D538B54497E2.quest_desc: [
 		"After you've crafted a &aForge Hammer&r, you'll want to make some &bIron Plates&r as well as some &bCopper Components&r which will be used in a multitude of crafting recipes."
 		""
@@ -1457,6 +1529,14 @@
 	]
 	quest.12B8D538B54497E2.title: "&fForge Ahead"
 	quest.12D15FCB12460F37.title: "&6Bedrockium Capacitor"
+	quest.12D46DE4D42AA302.quest_desc: [
+		"Cannons are cast, not crafted. The &aBasin Foundry Lid&f goes on a heated &bBasin&f and melts metal into molten &aCast Iron&f, &3Bronze&f, &3Steel&f or &dNethersteel&f. A &aCannon Cast&f built up from &aCasting Sand&f and a cannon mould is the shape you pour it into."
+		""
+		"Fill the cast, wait for it to set, and break it open. A comparator on the cast reads 0 to 14 while it fills and 15 when it's done. What comes out is an unbored block, so the &aCannon Drill&f comes next. It needs rotation, water, and a lathe turning the cannon at the same speed as the drill, and it eats more water the faster it runs."
+		""
+		"&aCast Iron&f is the starter metal. &3Steel&f and &dNethersteel&f cannons are built up in layers with the &3Cannon Builder&f and finished under a blasting fan, and they take far more powder before they burst."
+	]
+	quest.12D46DE4D42AA302.title: "&aCasting a Cannon"
 	quest.131199313AE3F5E9.quest_desc: ["A simple furnace-like machine that smelts items using energy instead of burneable fuels."]
 	quest.13448A305B57016A.quest_desc: [
 		"If you're looking to upgrade your gear, &aInferium Gear&r is better than Diamond! There are also great new tools like &eScythes&r and &bSickles&r that provide an AoE harvesting effect!"
@@ -1746,6 +1826,12 @@
 	quest.1733FCE814C7DE2D.title: "&eApplied Flux"
 	quest.1739969280BB4E82.quest_subtitle: "Transfers Redstone Signals"
 	quest.1739969280BB4E82.title: "&fRedstone Conduit"
+	quest.174B0BF2FAF28318.quest_desc: [
+		"A &aNameplate&f names the ship. Right-click to edit, dye to recolour, and wax it with honeycomb to lock the name. Every nameplate on the same contraption shares one name, and the &aAirship Station&f later in this chapter picks ships by that name, so name it early."
+		""
+		"A &aHandle&f is something to hold on to. Hold right-click to grab it and pull yourself along, hold it while sneaking to pull the ship instead, and scroll to change your distance. Grabbing one mid-fall also ends the fall without ending you."
+	]
+	quest.174B0BF2FAF28318.title: "&aNameplates and Handles"
 	quest.17612A3DF8930377.quest_desc: ["&7&oObtained from the shop or quest rewards"]
 	quest.176610923FDE130F.quest_desc: ["By using &bDoped Silicon Plates&r over their regular counterparts, you can greatly increase the yield from their various recipes."]
 	quest.176610923FDE130F.title: "&fDoped Silicon Plates"
@@ -1794,6 +1880,14 @@
 		"It is also used to craft the &bForce of Rejectors&r."
 	]
 	quest.1811EC8E48EAD1BD.title: "&7Creeper Talisman"
+	quest.1813C6C6A1D8AB8E.quest_desc: [
+		"&dLevitite&f is a crystal that refuses to fall. Enough of it on a ship and the ship floats with no balloon, no burner and no fuel. It can't climb on its own, and at low speed it drags hard against any movement, though the drag fades once you get going."
+		""
+		"If you've got &eJust Dire Things&f going, a &3Tier 2 Goo&f block turns lava into blend in two minutes flat."
+		""
+		"Pour the blend where you want the crystal and touch it with fire, a torch, a campfire, magma or a lit blaze burner. The reaction spreads through the whole pool and sets. Once placed its lift will be applied. This block can be picked up so move it as needed."
+	]
+	quest.1813C6C6A1D8AB8E.title: "&dLevitite"
 	quest.183EA37FA456C008.quest_desc: [
 		"The &zRainbow Generator&f produces 5 Million FE/t when &lALL&r other &eExcessive Utilities&f generators are consuming power."
 		""
@@ -1807,7 +1901,7 @@
 	]
 	quest.186BE7F6DFA8C41E.title: "&7Gunpowder"
 	quest.18913114C6D06E74.quest_desc: [
-		"With &eEasy Villagers&r, you can literally pick up villagers by sneak-right-clicking on them. This makes for super easy villager halls!"
+		"With &eEasy Villagers&r, you can literally pick up villagers by Sneak + Right-clicking on them. This makes for super easy villager halls!"
 		""
 		"You can also create &aTrader Blocks&r to place them in with their trading table to create a one block trading solution."
 	]
@@ -1885,7 +1979,7 @@
 		""
 		"These can also be placed in more than just Beehives. Try it in your Centrifuges, Breeding Chambers, and more!"
 	]
-	quest.197CF94F783E59DF.title: "&eUpgrade: &fSpeed"
+	quest.197CF94F783E59DF.title: "&eUpgrade&f: Speed"
 	quest.1980C42D8CDBE51C.quest_desc: [
 		"The &dPowered Spawner&r is a powered version of the vanilla mob spawner."
 		""
@@ -1897,7 +1991,7 @@
 		""
 		"Just like most powered machines, it can be upgraded by installing higher tier &bCapacitors&r."
 		""
-		"&eNote&r: The recipe for this can be found in JEI by hitting &eU&r on a &7Broken Spawner&r in your inventory."
+		"&eNote&f: The recipe for this can be found in JEI by hitting &eU&r on a &7Broken Spawner&r in your inventory."
 	]
 	quest.1980C42D8CDBE51C.title: "&fPowered Spawner"
 	quest.19874DF48B8B2A75.quest_desc: [
@@ -2075,6 +2169,14 @@
 		"This can be very useful if you're reusing the same variable multiples times within your automations"
 	]
 	quest.1B2E6CA3642024B7.title: "&fMaterializer"
+	quest.1B6D163AEB801FF7.quest_desc: [
+		"A &aMechanical Servo&f turns a redstone signal into an angle. Right-click to set its range, and a full signal rotates it to the end of that range, a weaker signal to somewhere in between. It finishes the move it's on before it starts the next one."
+		""
+		"The &aStepper Servo&f steps instead. Set the angle per step, and each signal strength turns it that many steps. Signal on one side goes one way, the other side goes the other way, and both sides powered means hold still. Either one costs 4 SU per RPM while the input shaft turns."
+		""
+		"Rudders, elevators, aiming a propeller, opening a hangar door. Anything that needs to be at an angle rather than spinning."
+	]
+	quest.1B6D163AEB801FF7.title: "&aServos"
 	quest.1B8BB733ADF897FE.quest_desc: [
 		"&eProductive Metalworks&r is used to smelt and forge alloys into various different parts, which can be used to make tools, armor, and more."
 		""
@@ -2360,6 +2462,14 @@
 		"To upgrade the transfer rate of fluids, you can install &aFluid Transfer Upgrades&r into the &dRouter&r. &aSpeed Upgrades&r will determine how often it pulls or pushes fluids, and can be great to install as well."
 	]
 	quest.1F2E5FBD59466D57.title: "&fWorking With Fluids"
+	quest.1F34918369AC97C7.quest_desc: [
+		"A normal &3Propeller Bearing&f on top of a ship makes a helicopter that tips over. The &dGyroscopic Propeller Bearing&f keeps its rotor pointing up no matter what the hull is doing underneath, which is the difference between a helicopter and a very expensive fan."
+		""
+		"Mount one upside down under a top-heavy build and it stabilizes the whole thing instead. A redstone signal resets the tilt to zero if the auto-levelling is fighting you."
+		""
+		"It needs a &dGyroscopic Mechanism&f, which is covered in the &bStability&f quest path."
+	]
+	quest.1F34918369AC97C7.title: "&dGyroscopic Propeller Bearing"
 	quest.1F3C96D0DAC4F080.quest_desc: [
 		"Our first step into &5Quantum &mRealms&r &5Machines&r!"
 		""
@@ -2400,6 +2510,12 @@
 		"&7&oBonsai pots also have a disguise slot that allows it to mimic another block.&r"
 	]
 	quest.1F94DD493FE20C0B.title: "&eBonsai Trees"
+	quest.1F9921A99FE2A241.quest_desc: [
+		"The &3Propeller Bearing&f turns a structure into a propeller. It grabs the block in front of it, and anything with at least two sail-like blocks in it counts. More sails, more thrust for the same rotation, and a big four-blade windmill out of &aSails&f will out-push a mini propeller several times over."
+		""
+		"It draws 2 SU. Reverse the input rotation or wrench it to reverse the thrust, and expect the same fall-off with airspeed and altitude as the small propellers."
+	]
+	quest.1F9921A99FE2A241.title: "&3Propeller Bearing"
 	quest.1FB8BF0898FD99D9.quest_desc: [
 		"Twenty-four runes and four pillars capped in Blood Stained Glass raise the altar to &cTier II&r, where it can craft the &cVeneficus Orb of Vitae&r."
 		""
@@ -2413,7 +2529,7 @@
 	quest.1FE952E6D58451EA.quest_desc: [
 		"With Magebloom, we can craft &aSpell Parchment&r for us to inscribe our spells on!"
 		""
-		"To inscribe a spell onto a &aBlank Parchment&r, use the parchment on your &aScribe's Table&r. Select the spell you'd like to inscribe in your Spell Book, then sneak-right-click onto the parchment to set the spell!"
+		"To inscribe a spell onto a &aBlank Parchment&r, use the parchment on your &aScribe's Table&r. Select the spell you'd like to inscribe in your Spell Book, then Sneak + Right-click onto the parchment to set the spell!"
 		""
 		"These &aBlank Parchments&r can also be used to create item filters to help with automation, as well as making &dWarp Scrolls&r!"
 	]
@@ -2454,6 +2570,14 @@
 	quest.206987FC6B1524F8.title: "&aAtomic Reconstructor"
 	quest.2075944B1DA3B63C.quest_subtitle: "Prevents Long Casts From Being Interrupted"
 	quest.2075944B1DA3B63C.title: "&aAmulet of Concentration"
+	quest.207B925E3490E7CC.quest_desc: [
+		"&aSolid Shot&f punches. &3AP Shot&f punches deeper. &cHE Shells&f blow up, &cShrapnel&f sprays, &aSmoke Shells&f hide you, &aFluid Shells&f dump whatever you filled them with, and a &aBag of Grapeshot&f turns the gun into a very large shotgun."
+		""
+		"Shells need a fuze to go off. An &aImpact Fuze&f detonates on a hit about two times in three, an &3Inertia Fuze&f nine times in ten, and the delayed versions of each wait until the shell is inside something first."
+		""
+		"A &3Big Cartridge&f rolls powder and shell into one item for the &3Quick-Firing Breech&f, which is how a &bMechanical Arm&f reloads a gun by itself. Keep a &aGas Mask&f aboard if you're the one firing smoke."
+	]
+	quest.207B925E3490E7CC.title: "&cMunitions"
 	quest.207CED1C925F85C4.quest_desc: [
 		"Once you have a &cRedstone Bee&r, breed it with a &aBlue Banded Bee&r to make a &9Lapis Bee&r!"
 		""
@@ -2578,7 +2702,7 @@
 		"{@pagebreak}"
 		"To use it, you'll need to provide it &9Water&r by just having a bucket in your inventory or by right-clicking a water source block."
 		""
-		"To power the drill, open your inventory and drag a fuel source like coal over top of the &2Steam Mining Drill&r and then Right-click it to deposit the fuel. You can change the &2Drill&r mode by Shift + Right-clicking it."
+		"To power the drill, open your inventory and drag a fuel source like coal over top of the &2Steam Mining Drill&r and then Right-click it to deposit the fuel. You can change the &2Drill&r mode by Sneak + Right-clicking it."
 		""
 		"Yes, it does work with &eUltimine&r!"
 	]
@@ -2595,6 +2719,14 @@
 		"If you have multiple types of bees living in one hive, make sure to check out the &aFeeding Slab&r to keep your area tidy! This block allows you to place in several types of flowers or blocks in a single blockspace."
 	]
 	quest.230E34A0E4A4C014.title: "&fBeehives to &aBeehomes"
+	quest.23131503EF0BF979.quest_desc: [
+		"&aEnvelope&f blocks are the skin of a balloon. Build an airtight shell out of them, point a burner into it, and every cubic metre of &bHot Air&f inside lifts 1.5 kpg."
+		""
+		"The shell has to be sealed. Hot air fills it from the top down and leaks out of any gap, and any block sitting inside the shell steals volume. Shafts that need to pass through the wall get encased in envelope blocks to stay airtight."
+		""
+		"Right-click with dye to paint them. A good balloon is a big, empty, closed box with as few blocks inside as you can manage."
+	]
+	quest.23131503EF0BF979.title: "&aHot Air Envelope"
 	quest.2315DBE189D330DA.quest_desc: [
 		"Those Draconic Bees have been putting in a lot of work, but it's all about to pay off."
 		""
@@ -2602,7 +2734,13 @@
 		""
 		"Pro Tip: 4 Productivity Upgrades are better than using speed upgrades at all!"
 	]
-	quest.2315DBE189D330DA.title: "&eUpgrade: &fProductivity Omega"
+	quest.2315DBE189D330DA.title: "&eUpgrade&f: Productivity Omega"
+	quest.2316F3820C478CDC.quest_desc: [
+		"Before the artillery, there's the vegetable. The &dMounted Potato Cannon&f is the handheld one bolted to the deck. It takes the same ammo, loads from hoppers and belts, and charges on rotation. Once charged, redstone fires it, and a held signal keeps firing."
+		""
+		"It kicks. A light ship with a cannon on one side will notice."
+	]
+	quest.2316F3820C478CDC.title: "&dMounted Potato Cannon"
 	quest.231BAC05D93088B2.quest_desc: [
 		"While you were chopping trees and running around your area, you might have seen in chat that you've gained a skill point!"
 		""
@@ -2639,6 +2777,18 @@
 		"You can also use a &aWrench&r in offset mode to automatically calculate the relative offset, or use variable cards for more complex or mobile systems."
 	]
 	quest.2331E407E82138AB.title: "&fUnderstanding Interfaces"
+	quest.2345657297A97D4A.quest_desc: [
+		"&eAeroworks&f gives you a proper cockpit with the &dControl Desk&f. It's a block of sockets, and every &aControl Module&f you mount in one becomes a real control with its own keybinds and redstone link frequencies. Right-click with an empty hand to sit at it, use keyboard and mouse to move the controls, and press &bEsc&f to let go."
+		""
+		"Each control transmits how far it's moved on one frequency, and the opposite direction on a second frequency. Desks that touch join into one deck that a single player runs together. Sneak and right-click a mounted control to configure it, and wrench it off when you change your mind. It keeps its settings."
+		""
+		"The standalone &aJoystick&f block is the same idea in a single block, with four axes and a spare button."
+		"{@pagebreak}"
+		"Each &aModule&f can be installed separately and come with their own buttons as well."
+		""
+		"You can place multiple &dDesks&f side by side to extend the amount of controls you can assign to a single &dDesk&f. Clicking anywhere on the &dDesk&f allows you to interact with all controls via keybinds."
+	]
+	quest.2345657297A97D4A.title: "&dControl Desk"
 	quest.234A09F196E91BDD.quest_desc: ["There are many ways to generate resources, and this chapter aims to help cover most of the mods that help you farm millions of items!"]
 	quest.234A09F196E91BDD.title: "&6Resource Generation"
 	quest.2369D81BC32A5982.quest_desc: [
@@ -2661,6 +2811,12 @@
 		""
 		"Dirt can be used to make Clay, or plant more trees, or even make yourself every minecrafter's first dirt house (in the sky, this time)."
 	]
+	quest.23A56DB24FE7D584.quest_desc: [
+		"Right-click a ship with the &aContraption Diagram&f and it opens a page of the things you actually need to know. Total mass, the &bcentre of mass&f, and every force arrow, merged or separate."
+		""
+		"The &bcentre of mass&f is the number that decides whether your ship flies level or nose-first. Balloons and propellers push on the ship where they sit, so lift far from the centre of mass turns into a tilt, and a tilt turns into a spin. Check the diagram before the maiden voyage, then move the heavy bits until the arrows line up."
+	]
+	quest.23A56DB24FE7D584.title: "&aContraption Diagram"
 	quest.23B63CC05AA3EAAB.quest_desc: [
 		"The &aDragon Talisman&r provides immunity to direct and indirect magic damage."
 		""
@@ -2686,12 +2842,7 @@
 		""
 		"This is a massive upgrade for production!"
 	]
-	quest.2436337445AD0E07.title: "&eUpgrade: &fBlock"
-	quest.24377F5E129310BF.quest_desc: [
-		"These advanced &dVector Thrusters&f can run on either fluids or power, depending on which you use."
-		""
-		"Their main advantage is the ability to be directionally controlled using redstone, allowing them to rotate with much more ease than most other propulsion methods."
-	]
+	quest.2436337445AD0E07.title: "&eUpgrade&f: Block"
 	quest.24445EC4DA6492F1.quest_desc: ["You'll need a bad omen to trigger a raid... Rumor says killing a peaceful wandering trader may be enough to invoke the ire of the gods..."]
 	quest.24445EC4DA6492F1.quest_subtitle: "Defend A Village From A Raid"
 	quest.24445EC4DA6492F1.title: "&dHero Of The Village"
@@ -2731,21 +2882,21 @@
 		""
 		"Players can use the command &b/events toggle ftb:[event name]&r to disable or re-enable each event to their own liking."
 		""
-		"&3Allay:&r A helpful allay will appear, offering to trade one item for another."
+		"&3Allay&f: A helpful allay will appear, offering to trade one item for another."
 		""
-		"&3Fairy:&r This benevolent invisible sprite provides a little boost before it moves on."
+		"&3Fairy&f: This benevolent invisible sprite provides a little boost before it moves on."
 		"{@pagebreak}"
-		"&3Frogs:&r If there's a body of water nearby, a frog or squid spawns in."
+		"&3Frogs&f: If there's a body of water nearby, a frog or squid spawns in."
 		""
-		"&3Goat:&r Players standing near the edge may receive a little nudge to help them experience the void."
+		"&3Goat&f: Players standing near the edge may receive a little nudge to help them experience the void."
 		""
-		"&3Llama:&r A special sort of llama spawns that spits helpful items at players. If placed on a lead, these can be kept around and fed to spit resources instead."
+		"&3Llama&f: A special sort of llama spawns that spits helpful items at players. If placed on a lead, these can be kept around and fed to spit resources instead."
 		"{@pagebreak}"
-		"&3Phantom:&r A malicious phantom swoops down to drop an anvil on someone's head! Free anvil tho..."
+		"&3Phantom&f: A malicious phantom swoops down to drop an anvil on someone's head! Free anvil tho..."
 		""
-		"&3Pyromancer:&r A novice pyromancer stops by, if you'd like to trade a few magical goods."
+		"&3Pyromancer&f: A novice pyromancer stops by, if you'd like to trade a few magical goods."
 		""
-		"&3Wandering Trader:&r One of the many traders from the Wanderer guild pays a visit, offering various items to help in your adventures."
+		"&3Wandering Trader&f: One of the many traders from the Wanderer guild pays a visit, offering various items to help in your adventures."
 	]
 	quest.2485AE690A2FAB3E.title: "&6FTB &fEvents"
 	quest.24A60877D5FAD4A5.quest_desc: [
@@ -2865,7 +3016,7 @@
 		""
 		"The &dSoul Binder&r consumes liquid experience and a filled &aSoul Vial&r to convert &7Broken Spawners&r or create new empowered items."
 		""
-		"&eNote&r: &aFused Quartz&r is made by smelting 4 Nether Quarts in an &aAlloy Smelter&r."
+		"&eNote&f: &aFused Quartz&r is made by smelting 4 Nether Quarts in an &aAlloy Smelter&r."
 	]
 	quest.262F5FE957F52F5D.title: "&fBinding Souls"
 	quest.263045D3780542C0.quest_desc: [
@@ -3103,12 +3254,12 @@
 		""
 		"Fill a chunk's Aura by burning Spiritus in a Vas Maleficum (feed it a charged gem, loose Spiritus, or crystals of any Aspect)."
 		""
-		"Read the local concentration with a Spiritus Aura Gauge (sneak for exact 0–100 numbers per Aspect)."
+		"Read the local concentration with a Spiritus Aura Gauge (sneak for exact 0-100 numbers per Aspect)."
 	]
 	quest.298BFB73F3B2E3D5.quest_desc: [
 		"&aBatteries&r are a good way to store energy to move around. They can be charged with any wired or wireless charging method."
 		""
-		"When holding them in hand, they can be sneak-right-clicked to put them into discharge mode, charging other items in your inventory."
+		"When holding them in hand, they can be Sneak + Right-clicked to put them into discharge mode, charging other items in your inventory."
 	]
 	quest.298BFB73F3B2E3D5.title: "&aBatteries"
 	quest.2992268BD1E5C553.quest_desc: [
@@ -3123,7 +3274,7 @@
 		""
 		"Their effectiveness can be greatly increased by using an &aAir Grate&r to vent air over the fins. Combining that with the use of &aVortex Tubes&r can effectively handle all of your temperature problems!"
 		""
-		"&eNote&r: Once a &aHeat Sink&r reaches over 60C or under -60C, it will &cdeal damage when touched&r."
+		"&eNote&f: Once a &aHeat Sink&r reaches over 60C or under -60C, it will &cdeal damage when touched&r."
 	]
 	quest.299CD86325D3D74B.title: "&fHeat Sink"
 	quest.29A0F6B08A706371.title: "&fUseful &3Tier 2&f Glyphs"
@@ -3144,7 +3295,7 @@
 	quest.29CEF5D43415B227.quest_desc: [
 		"The &dWarper Relay&r is used to teleport Source to other &dWarper Relays&r, no matter how far away."
 		""
-		"&eNote&r: Distances beyond 30 blocks will have a chance to lose some Source when warping."
+		"&eNote&f: Distances beyond 30 blocks will have a chance to lose some Source when warping."
 	]
 	quest.29CEF5D43415B227.title: "&dWarping Source"
 	quest.29E6EF882A568585.quest_desc: ["By condensing knowledge into miniature totems, just three of these &aBrilliant Obelisks&r will give the same increase to an &eEnchanting Table&r as 5 bookshelves!"]
@@ -3311,6 +3462,12 @@
 		"There are also some cool upgrades that you can add to the &eSticks&r, like making it use power instead of durability."
 	]
 	quest.2C1649AE3DADD71D.title: "&bFaster Building"
+	quest.2C3835C8412B1DF2.quest_desc: [
+		"&eCopycats+&f blocks take on the texture of whatever block you click them with, so a hull can look like oak, deepslate or brass while weighing almost nothing. &eAero Copycats&f is the glue between the two mods. It hands every copycat shape a proper physics mass, and a &aCopycat Board&f comes in at 0.125 kpg."
+		""
+		"That's the trick to a big ship. Build the shape out of boards, beams, panels and slices, skin them with the heavy-looking block, and let the balloon carry a fraction of the weight."
+	]
+	quest.2C3835C8412B1DF2.title: "&aLight Hull Blocks"
 	quest.2C55C6EBABA86BA8.quest_desc: ["This &aSimple Block Breaker&r is bound and determined to use its tool to break the block in front of it. Even if the tool is a stick and the block is obsidian. It'll get there."]
 	quest.2C55C6EBABA86BA8.title: "&aSimple Block Breaker"
 	quest.2C5BB08BA01C2F8C.quest_desc: ["This usually-radioactive chemical will need to be combined with extremely strong plating before it can be used to make a cup that will not taint the perfect flavour of the &zPiña Colada&f."]
@@ -3346,6 +3503,14 @@
 		"Place and grow a Pineapple as you would any other crop, then place a &bShimmering Ice&f and &2Time Crystal Block&f on either side of the Pineapple with an extractor above it to extract &dTemporal Pineapple Juice&f."
 	]
 	quest.2CC49B7C1ADB01A2.title: "Weird-tasting Fruit Juice"
+	quest.2CE7B94D12101C54.quest_desc: [
+		"The &dShield Generator&f wraps a ship in a shell that stops anything moving faster than 0.35 blocks a tick. Shells, arrows and shot bounce off, and anything fast that's leaving gets reflected too. People walking through it are fine, and so is your own slow cargo."
+		""
+		"It burns &aAmethyst Shards&f, or takes &bFE&f instead at up to 2,000 FE a push, 20 FE per shard-tick. A redstone signal sets the shield heat from 0 to 100, and hotter is stronger. Big hits in one spot open a local breach for a moment, so a shield is a buffer, not a wall."
+		""
+		"Three shapes. A &bConvex Hull&f hugs the ship, a &bMetaball&f rounds it off, and a &bGround Dome&f sits on the ground around a base at up to 50 blocks radius. The shell can stand up to 5 blocks off the hull. Bigger shields burn shards faster."
+	]
+	quest.2CE7B94D12101C54.title: "&dShield Generator"
 	quest.2D09494ED3235CC8.quest_desc: [
 		"The &3Mechanical Pump&r is the mechanism that actually allows fluid pipes to carry fluid."
 		""
@@ -3365,14 +3530,14 @@
 		"{@pagebreak}"
 		"The &zPiña Colada&f is the ultimate end-goal of &6FTB Skies 2: Aero&f."
 		""
-		"After crafting this item, you must drink it "
+		"After crafting this item, you must drink it at around 17:00 (5PM) game-time while sitting on a tropicraft chair."
 	]
 	quest.2D0F5BF08D40618C.title: "&zPiña Colada"
 	quest.2D178651FB267E91.title: "Proof of Mastery"
 	quest.2D1B390B363E0F27.quest_desc: [
 		"&eDE &bEnergy Crystals&r can transfer RF power to linked blocks via an energy network with at least one &aI/O Crystal&r and one &2Wireless Crystal&r. "
 		""
-		"Shift + Right-click your Wireless Crystal to start linking it to other blocks by Right-clicking."
+		"Sneak + Right-click your Wireless Crystal to start linking it to other blocks by Right-clicking."
 		""
 		"&aRelays&r can only connect to other Network components, so they are only used to extend the range of your network."
 		""
@@ -3395,15 +3560,15 @@
 	quest.2D2EC0BCFF1DA68C.quest_desc: [
 		"When captured in a Bee Cage, most bees will show specific stats. Let's go over those!"
 		""
-		"&aProductivity&r: Determines the amount of combs produced, with the highest stat being &6Very High&r."
+		"&aProductivity&f: Determines the amount of combs produced, with the highest stat being &6Very High&r."
 		""
-		"&aWeather Tolerance&r: Determines if the bee can work in certain weather conditions, with &6Any&r being the best."
+		"&aWeather Tolerance&f: Determines if the bee can work in certain weather conditions, with &6Any&r being the best."
 		"{@pagebreak}"
-		"&aBehavior&r: Determines what kind of shift the bee likes to work. Diurnal meaning during the day, Nocturnal meaning during the night. The best type is &6Metaturnal&r, which makes the bee work no matter what time of day it is."
+		"&aBehavior&f: Determines what kind of shift the bee likes to work. Diurnal meaning during the day, Nocturnal meaning during the night. The best type is &6Metaturnal&r, which makes the bee work no matter what time of day it is."
 		""
-		"&aEndurance&r: This is the bee's max health, with &6Strong&r being the best."
+		"&aEndurance&f: This is the bee's max health, with &6Strong&r being the best."
 		""
-		"&aTemper&r: Some bees don't like other bees. This will tell you how it interacts with other bees... or you. :) &6Passive&r bees are the best because they are pretty chill."
+		"&aTemper&f: Some bees don't like other bees. This will tell you how it interacts with other bees... or you. :) &6Passive&r bees are the best because they are pretty chill."
 		""
 		"This tooltip will also show you the items needed for it to breed!"
 	]
@@ -3448,11 +3613,6 @@
 		""
 		"At this point you will also gain access to &dWyvern&f tools and weapons, and the &dWyvern Chestpiece&r."
 	]
-	quest.2DDA4D1BAACC6183.quest_desc: [
-		"The &aAirship Station&f can be used to automatically control and dock airships and other contraptions."
-		""
-		"Together with the &dShip Transponder&f, this allows you to create an automated transportation network using your contraptions."
-	]
 	quest.2DDAFF4BE2B4D6E4.quest_desc: ["Combining &#d2b8e0Ethene&r with &aTiny Chromium Dust&r, we can get &3Polyethylene&r."]
 	quest.2DDAFF4BE2B4D6E4.title: "&3Polyethylene"
 	quest.2DDC9D75FBFA1F3C.quest_desc: [
@@ -3466,17 +3626,17 @@
 		""
 		"You can also search up something more specific in the search bar at the top of the interface if you know what you're looking for!"
 		"{@pagebreak}"
-		"&7Any&r: These are mostly unique to Minecraft, and include things like Items, Blocks, Recipes, Fluids, Ingredients, etc...."
+		"&7Any&f: These are mostly unique to Minecraft, and include things like Items, Blocks, Recipes, Fluids, Ingredients, etc...."
 		""
-		"&3NBTs&r: These are also unique to Minecraft and are often referred to as \"tags\". Don't worry too much about what it stands for, just know that almost everything within Minecraft can have an NBT tag associated with it."
+		"&3NBTs&f: These are also unique to Minecraft and are often referred to as \"tags\". Don't worry too much about what it stands for, just know that almost everything within Minecraft can have an NBT tag associated with it."
 		""
-		"&cStrings&r: These are words or sentences containing text, which can include numbers. &oEverything you can read on this page is a &cString&f!&r"
+		"&cStrings&f: These are words or sentences containing text, which can include numbers. &oEverything you can read on this page is a &cString&f!&r"
 		"{@pagebreak}"
-		"&9Booleans&r: These are values which are exclusively &aYes&r or &cNo&r, referred to in programming as &aTrue&r or &cFalse&r. A blank &aVariable Card&r will always equal to &aTrue&r."
+		"&9Booleans&f: These are values which are exclusively &aYes&r or &cNo&r, referred to in programming as &aTrue&r or &cFalse&r. A blank &aVariable Card&r will always equal to &aTrue&r."
 		""
-		"&6Integers&r: These refer to whole numbers, which can include negative numbers. However, it's better to use &eDoubles&r or &eLong&r when you are working with really big numbers."
+		"&6Integers&f: These refer to whole numbers, which can include negative numbers. However, it's better to use &eDoubles&r or &eLong&r when you are working with really big numbers."
 		""
-		"&eDoubles&r: These are numbers that are not a whole number like &6Integers&r. You generally won't use these very often in your systems, but it's still important to know the difference."
+		"&eDoubles&f: These are numbers that are not a whole number like &6Integers&r. You generally won't use these very often in your systems, but it's still important to know the difference."
 		""
 		"There are many other &bVariables&r within the &aLogic Programmer&r, such as &eArithmetics&r and &2Operators&r, but they will not be explained within this questbook as they are almost never practical to use."
 	]
@@ -3546,14 +3706,14 @@
 	quest.2EEE782146096F9C.title: "&eBuilding Gadgets"
 	quest.2F057F981B68EB95.quest_desc: ["The &aSimple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
 	quest.2F057F981B68EB95.title: "&aSimple Fluid Placer"
-	quest.2F11FF90561D0604.quest_desc: ["The &aGyroscope&r will attempt to keep your contraption stable along whatever axis it is placed at using a LOT of rotational force"]
-	quest.2F15D918EF183051.quest_desc: [
-		"&6Skies 2: Aero&r is a sandbox-style Skyblock that lets you play how you want to!"
+	quest.2F06B5B38E9B8804.quest_desc: [
+		"Keys become redstone with the &3Linked Typewriter&f. It binds keyboard keys to &bRedstone Link&f frequencies. Sneak and right-click to open the setup, put a link's items on a key, and from then on pressing the key transmits on that frequency. Right-click it with a &bLinked Controller&f to copy that controller's bindings across in one go."
 		""
-		"This pack has tons of mods for all types of players. Mods are not particularly gated, so experience progression however you'd like!"
+		"Right-click to take control and the typewriter steals your movement keys and every bound key until you let go. Thirteen thrusters, six servos and a burner, all from one seat."
 		""
-		"For those looking for a challenge, the final goal of the pack is crafting and drinking a &zPiña Colada&r. Do you think you have what it takes?"
+		"&eAeronautics Curios Compat&f gives it a slot of its own. Keep a typewriter in the curio slot and the &bUse Remote Typewriter&f key drives the ship from anywhere aboard."
 	]
+	quest.2F06B5B38E9B8804.title: "&3Linked Typewriter"
 	quest.2F15D918EF183051.title: "&fWelcome to &6FTB Skies 2: Aero&f!"
 	quest.2F2DC018DD6A2A23.quest_desc: [
 		"&aGems&r are the part of most &bJewelry&r that grants effects or attributes."
@@ -3616,7 +3776,7 @@
 	quest.2FEC8EC3EB592A03.quest_desc: [
 		"The &2Steel Quarry&r is a multiblock machine that infinitely harvests materials over time, as long as it is provided with &aDrills&r."
 		""
-		"&eNote&r: Different &aDrills&r and tiers will yield different ores, so check the uses to best target the ores you want the most. Make sure your output is large enough to accommodate all the ore types or use multiple output hatches so you don't miss any ores!"
+		"&eNote&f: Different &aDrills&r and tiers will yield different ores, so check the uses to best target the ores you want the most. Make sure your output is large enough to accommodate all the ore types or use multiple output hatches so you don't miss any ores!"
 	]
 	quest.2FEC8EC3EB592A03.title: "&fYour First &dQuarry&f!"
 	quest.2FFA4CF8C062AD5E.quest_desc: [
@@ -3671,13 +3831,6 @@
 		"You can also use a &zDeepshelf of Arcane Treasures&r to allow your enchanting table to enchant &zTreasure Enchantments&r."
 	]
 	quest.30689B890F5E7A03.title: "&3Venturing Deeper"
-	quest.30CA4D865CA459BF.quest_desc: [
-		"The &dControl Desk&f is a modular control system."
-		""
-		"You can place multiple &dDesks&f side by side to extend the amount of controls you can assign to a single &dDesk&f. Clicking anywhere on the &dDesk&f allows you to interact with all controls via keybinds."
-		""
-		"Each &aModule&f can be installed separately and come with their own buttons as well."
-	]
 	quest.30CDAD044D94659A.quest_desc: [
 		"The &aArthana&r is a magical dagger that is proficient in obtaining arcane materials from slain creatures."
 		""
@@ -3713,6 +3866,17 @@
 		"This is used to make &6Ethene&r, &6HDPE Pellets&r, and more!"
 	]
 	quest.31705AD5BE50E2CB.title: "&fPressurized Reaction Chamber"
+	quest.31747F470139AA5A.quest_desc: [
+		"Everything in this chapter is about one thing. Building a ship that actually flies, and not falling out of it."
+		""
+		"A &bSimulated Contraption&f is a pile of blocks that has been handed over to the physics engine. It has mass, measured in &bkpg&f, and it obeys three forces. &bWeight&f pulls it down, &bLift&f holds it up, &bThrust&f shoves it around. Get lift and weight to agree and the ship hovers. Add thrust and it goes somewhere."
+		""
+		"[\"You've already met the \", {\"text\": \"Physics Assembler\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0128A3EC005A8AE5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Physics Assembler Quest\"]}}, \" and the \", {\"text\": \"Hot Air Burner\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Hot Air Burner Quest\"]}}, \" on your starter ship. The quest paths below cover the hull, the lift, the engines, keeping it level, steering it, getting it somewhere useful, and arming it.\"]"
+		""
+		"&eNote&f: Nearly every block here has a &bPonder&f. Hold W over the item in JEI or your inventory. They're short and they'll save you a crash or two."
+	]
+	quest.31747F470139AA5A.quest_subtitle: "Up, up and away"
+	quest.31747F470139AA5A.title: "&6Taking to the Skies"
 	quest.319F49C16CFE900C.quest_desc: [
 		"While sleeping in a bed is the default way of setting your respawn point, you can also use the &a/sethome&r command to set a point to teleport back to with &a/home&r."
 		""
@@ -3832,6 +3996,12 @@
 	quest.321229F5E7574245.quest_subtitle: "Creatures Drop 25% More Exp"
 	quest.321229F5E7574245.title: "&eEmerald Stoneplate Ring"
 	quest.3219123B72D9F360.title: "&3256B Chemical Storage Part"
+	quest.322D2B0CB2B547D8.quest_desc: [
+		"The &dGyroscopic Mechanism&f is the part that everything in this quest path is built around. "
+		""
+		"You'll want them for the &dGyroscopic Propeller Bearing&f as well."
+	]
+	quest.322D2B0CB2B547D8.title: "&dGyroscopic Mechanism"
 	quest.325D35004FF683C2.quest_desc: [
 		"The &6Quantum Computer&r will be your ultimate autocrafting multiblock, capable of crafting an unlimited amount of crafting tasks at the same time, as long as it has the crafting storage for it."
 		""
@@ -3920,7 +4090,7 @@
 	quest.33A9FF901E2D7725.quest_desc: [
 		"To make most machines in the mod, we'll need &2Steel Casings&r!"
 		""
-		"&eNote&r: Most machines have an internal push/pull limit, which can be bypassed by pipes. If you wish to speed up your production make sure to utilize pipes."
+		"&eNote&f: Most machines have an internal push/pull limit, which can be bypassed by pipes. If you wish to speed up your production make sure to utilize pipes."
 	]
 	quest.33A9FF901E2D7725.title: "&aMachine Casings"
 	quest.33AC3264C0AE8FF1.quest_desc: [
@@ -3973,14 +4143,6 @@
 		"Just like previous tiers, this Goo can also produce the previous resources, and at a faster rate."
 	]
 	quest.340D7F25B5EB0D33.title: "&fMaking &3Celestigems"
-	quest.34155C195AD70571.quest_desc: ["This simple, early-game thruster burns items as fuel to generate forward momentum."]
-	quest.34169D76520A5D85.quest_desc: [
-		"The &bCharging Module&r can be placed on a pressure tube and it will charge all items in the inventory it's facing."
-		""
-		"It can also discharge them if their &bPressure&r exceeds the Tube's."
-		""
-		"If you put these on two connected &3Ender Chests&r you can effectively teleport &bAir Pressure&r!"
-	]
 	quest.34169D76520A5D85.title: "&fCharging Module"
 	quest.3424F0E39EB5DFC6.quest_desc: ["While you have &2Ethanol&r from your &3Distilleries&r and &aSugar Solution&r, perhaps you could also make more using your excess &eSulfuric Acid&r and &3Ethylene&r."]
 	quest.3424F0E39EB5DFC6.title: "&2Ethanol"
@@ -4089,7 +4251,7 @@
 	quest.3557FBCEFEF444CC.quest_desc: [
 		"The &dPrecision Mechanism&r is an important crafting component used for some of the best tools and machines &eCreate&r has to offer."
 		""
-		"&eNote&r: This recipe has a 20% chance to fail, so make sure to have a filter in place to account for this."
+		"&eNote&f: This recipe has a 20% chance to fail, so make sure to have a filter in place to account for this."
 	]
 	quest.3557FBCEFEF444CC.title: "&dPrecision Mechanism"
 	quest.355C3ACB16CC2DE9.quest_desc: [
@@ -4231,14 +4393,6 @@
 		"Just like previous tiers, this can also convert all previous ingot blocks at an increased rate."
 	]
 	quest.36E0D875AA8E2F66.title: "&5Ore of the Eclipse"
-	quest.36FD842DB9DF0066.quest_desc: ["&aPropellers&f are used to move your contraptions back and forth along a fixed axis."]
-	quest.37104662F0BDDE66.quest_desc: [
-		"&eApplied Energistics&r (&eAE2&r) is a highly customizable &bdigital storage mod&r that completely changes the way you experience modded MC. Gone are the days of chest walls!"
-		""
-		"To get started with &eAE2&r, you'll want to first construct a &aCharger&r. This machine accepts power to charge items, which you'll need for the progression of the mod."
-		""
-		"&o&7Yes, the reward is for decoration. This is not a bug."
-	]
 	quest.37104662F0BDDE66.title: "&fGetting Started With &eApplied Energistics&f!"
 	quest.371D1FEFBD49CCFF.quest_desc: [
 		"&3Celestigem Tools&r uses &6Energy&r instead of durability and are a little better than Diamond-tier."
@@ -4291,7 +4445,7 @@
 		""
 		"If you use the recipe that takes &7Steam&r and HP water as inputs, it will output regular water and &7HP Steam&r that we can use for power."
 		""
-		"&eNote&r: Be cautious of the recipe amounts, as you might need higher tiers of hatches to meet the recipe requirements. You'll know your hatches are too small if the recipes fail to start processing."
+		"&eNote&f: Be cautious of the recipe amounts, as you might need higher tiers of hatches to meet the recipe requirements. You'll know your hatches are too small if the recipes fail to start processing."
 		"{@pagebreak}"
 		"This machine is 3x3x5 multiblock, with the middle section built out of specific casings. One wall is made up of &cHeatproof Machine Casings&r and the other of &9Frostproof Machine Casings&r. The item and fluid hatches can only go in certain spots, so make sure to use the &aWrench&r to help place them."
 		""
@@ -4330,7 +4484,7 @@
 		""
 		"This increases the production of the hive by 150% each. We need these to make the next tier!"
 	]
-	quest.385293121273C7FB.title: "&eUpgrade: &fProductivity Beta"
+	quest.385293121273C7FB.title: "&eUpgrade&f: Productivity Beta"
 	quest.3854D5D51530B938.quest_desc: [
 		"The &3Vacuum Freezer&r is a multiblock machine that uses extreme temperatures to cool down items or liquids placed inside."
 		""
@@ -4379,6 +4533,12 @@
 		"3. The Dirty Ore Dusts are sent into the &aEnrichment Chamber&r to be cleaned back into Ore Dust, which can then be smelted down into ingots."
 	]
 	quest.38BD69DD1995E971.title: "&9Tier 2 Ore Processing"
+	quest.38F4B084BA4C6236.quest_desc: [
+		"Everything on a ship listens to redstone. Burners take an analog signal for how hot, thrusters take one for how hard, servos take one for how far. Controls are just ways to turn a hand on a wheel or a key on the keyboard into those signals."
+		""
+		"Start with a lever and a wheel. Graduate to a desk full of modules when the ship has more than three things to adjust."
+	]
+	quest.38F4B084BA4C6236.title: "&bControls"
 	quest.38FAD316AB487AD1.quest_desc: [
 		"This machine can be placed down and configured to mine up specific blocks or ores within an area! It is very power hungry, so keep that in mind."
 		""
@@ -4402,7 +4562,7 @@
 		""
 		"If you want to make these, you'll need a lot of &6Draconic Bees&r!"
 	]
-	quest.39214B204D3BEB2A.title: "&eUpgrade: &fProductivity Alpha"
+	quest.39214B204D3BEB2A.title: "&eUpgrade&f: Productivity Alpha"
 	quest.39217B517F7C280A.quest_desc: [
 		"To craft and use the highest tier spells, you'll need to have proven yourself worthy by defeating the &5Wilden Chimera&r."
 		""
@@ -4515,7 +4675,7 @@
 		"{@pagebreak}"
 		"The Quantum Ring only allows 128 channels total from it, no matter which face you connect to. You can also only connect to the 4 Quantum Rings that are adjacent to the Link Chamber, as the corners do not connect."
 		""
-		"&eNote&r: Both sides will need to be chunk loaded to work."
+		"&eNote&f: Both sides will need to be chunk loaded to work."
 	]
 	quest.3A59D1773EBD3B8A.title: "&6Quantum Network Bridges"
 	quest.3A5A665B1F76BE26.quest_desc: [
@@ -4647,14 +4807,14 @@
 	]
 	quest.3B6BEB5B9B49DC06.title: "&fMaking &dMagic&f!"
 	quest.3B6CDE92B84CBFE5.quest_desc: [
-		"The &aDrill&r works like a pickaxe and a shovel when charged, and it can be upgraded by sneak-right-clicking with it in your hand."
+		"The &aDrill&r works like a pickaxe and a shovel when charged, and it can be upgraded by Sneak + Right-clicking with it in your hand."
 		""
 		"The next quest contains a list of all &bDrill Augments&r."
 		""
 		"&7&oThe Light Blue Drill can be dyed."
 		""
 		"{@pagebreak}"
-		"&eNote&r: Tiered upgrades require the previous tier to be installed for them to work."
+		"&eNote&f: Tiered upgrades require the previous tier to be installed for them to work."
 		""
 		""
 		"Speed (I, II, III): Increases the mining speed."
@@ -4677,7 +4837,7 @@
 	quest.3B8310CD44BBD6F1.quest_desc: [
 		"&aGenerator Coils&f convert the &eCreate Mod's &bStress Units&f (&bSU&f) into &cForge Energy&f using the power of magnets and &2Carbon Brushes&f."
 		""
-		"[ \"Using this method, your power will scale better the more you invest into your \", {\"text\": \"SU\", \"color\": \"aqua\"}, \" production, with each \", { \"text\": \"Nuclear Reactor\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2617A856093F36AB\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" providing enough &bSU&f to generate around 300,000 FE/t.\" ]"
+		"[\"Using this method, your power will scale better the more you invest into your \", {\"text\": \"SU\", \"color\": \"aqua\"}, \" production, with each \", {\"text\": \"Nuclear Reactor\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2617A856093F36AB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \" providing enough \", {\"text\": \"SU\", \"color\": \"aqua\"}, \" to generate around 300,000 FE/t.\"]"
 		""
 		"Up to 8 &aCoils&f can be stacked in a single line, but their magnets can be shared with other &aCoils&f when placed next to each other, saving some resources."
 		""
@@ -4711,18 +4871,6 @@
 		"Applied Pneumatics exports &bAir Pressure&f using Air Tanks."
 		""
 		"Applied Flux exports &2Energy&f using Energy Tablets."
-	]
-	quest.3BD19E3F63F85B0A.quest_desc: ["This &aJoystick&f can control 4-axis movement and also comes with an extra button that can be configured separately."]
-	quest.3BDF260175FFE44F.quest_desc: ["Demonite refines into &cHellforged Ingots&r, the spine of every endgame thing you will ever build."]
-	quest.3BDF260175FFE44F.title: "Hellforged Steel"
-	quest.3BF066E5C333F217.quest_desc: [
-		"Starting off in this empty world, you'll need to get yourself some resources to expand!"
-		""
-		"&oSo what do you do? "
-		""
-		"If you've started on an &eAeronautics&f ship, you'll notice a &aBonsai Pot&f, slowly generating wood. If not, then punch that tree!"
-		""
-		"[\"You can also hold \", {\"keybind\": \"key.ftbultimine\", \"color\": \"yellow\"}, \" to activate \", {\"text\": \"Ultimine\", \"color\": \"aqua\"}, \" when mining, allowing you to break the entire tree down in one go, at the cost of some extra hunger.\"]"
 	]
 	quest.3BF066E5C333F217.title: "The Sky of Beginning"
 	quest.3BFF8EFB5E7186A4.quest_desc: [
@@ -4791,7 +4939,7 @@
 		""
 		"When you craft &dOmni-Directional Connectors&r, they will be automatically linked to the same group. However, if you craft them using an existing &dOmni-Directional Connector&r, you will receive 3 &aConnectors&r that are already linked to the original group."
 		""
-		"&cWarning&r: These can cause an immense amount of tps lag if used often, so try to avoid using them as much as possible."
+		"&cWarning&f: These can cause an immense amount of tps lag if used often, so try to avoid using them as much as possible."
 	]
 	quest.3D1796B4F460DBBF.title: "&dOmni-Directional Connector"
 	quest.3D35A43A4D0E118F.quest_desc: ["By combining &dStyrene&r and &eButadiene&r in another &3Chemical Reactor&r, we can create &7Styrene-Butadiene&r."]
@@ -4882,6 +5030,12 @@
 		"With &6Lithium Gas&r, we can do so much more!"
 	]
 	quest.3E63D54D05A3E300.title: "&6Liquid Lithium"
+	quest.3E63FAE41FEA9A17.quest_desc: [
+		"Down is the one direction a ship keeps losing track of, and the &aGimbal Sensor&f is how it finds it again. It puts out a redstone signal on the low side, each axis on its own, and the angle for full signal is set in the value boxes. Invert it if you'd rather the signal came out uphill."
+		""
+		"On its own it's a tilt alarm. Fed into a &aServo&f or a thruster throttle it's the start of an autopilot. Fed into the blocks below it becomes the ship's sense of balance."
+	]
+	quest.3E63FAE41FEA9A17.title: "&aGimbal Sensor"
 	quest.3E7001F4A49CF787.quest_desc: [
 		"The &bAir Intake&r can go into the &3Vacuum Freezer&r to make &7Liquid Air&r."
 		""
@@ -4970,7 +5124,7 @@
 		""
 		"By using the filled bowl on the &2Dripper&r, it will slowly drip water onto the block beneath to create different materials!"
 		""
-		"&aTip&r: You can place a &bWater Source Block&r on top of the &aDripper&r to fill it permanently!"
+		"&aTip&f: You can place a &bWater Source Block&r on top of the &aDripper&r to fill it permanently!"
 	]
 	quest.3F80D4097EA8C49B.title: "Scooping And Dripping"
 	quest.3FB51F0568B0896C.quest_desc: [
@@ -5110,6 +5264,13 @@
 	quest.412FD0DA6B746561.quest_subtitle: "Trade"
 	quest.412FD0DA6B746561.title: "&fVillager Bible"
 	quest.4145FED51D1ACD76.title: "&fNether Wart"
+	quest.415FB6154BA6209B.quest_desc: [
+		"The &3Blaze Burner&r is used to generate heat for things like &cSteam Engines&r and other heat-related mods like &ePNCR&r."
+		""
+		"You'll first need to craft an &aEmpty Blaze Burner&f, then go to the nether and Right-click a &cBlaze&f with the &aEmpty Blaze Burner&f to capture it."
+		""
+		"Once that's done you're able to place down your &3Blaze Burner&f and feed it items or fluids, causing it to generate heat."
+	]
 	quest.417573A657CAED05.quest_desc: [
 		"Once you've gathered some materials from the &cNether&r, you can upgrade to the next tier of Goo."
 		""
@@ -5121,13 +5282,13 @@
 	]
 	quest.417573A657CAED05.title: "&fCreating &cBlazegold"
 	quest.4194F3C176E50B7B.quest_desc: [
-		"&5The Edge of Deliverance&r:"
+		"&5The Edge of Deliverance&f:"
 		"&7A strike to weaken, a strike to fell"
 		""
-		"&5The Weight of Worlds&r:"
+		"&5The Weight of Worlds&f:"
 		"&7The random blows of life, each end aiding the downfall of another"
 		""
-		"&5The Erosion Scepter&r:"
+		"&5The Erosion Scepter&f:"
 		"&7Struggle made manifest, every smite further and further smothering the soul"
 	]
 	quest.4194F3C176E50B7B.title: "&6Malignant Weapons"
@@ -5331,7 +5492,7 @@
 		"{image\\:\\ftb:textures/quests/pneumaticcraft/quest_drone_1.png width:240 height:200 align:center}"
 		"{@pagebreak}"
 		""
-		"&eBonus tip:&r It's good practice to add a &9Standby&r command at the end so your drone can shut itself off when no work is needed, saving some &bPressure&r"
+		"&eBonus tip&f: It's good practice to add a &9Standby&r command at the end so your drone can shut itself off when no work is needed, saving some &bPressure&r"
 	]
 	quest.43E68DE2E5A53162.title: "&fHarvesting Crops with &dDrones"
 	quest.443C71D871AFAB67.quest_desc: [
@@ -5400,6 +5561,12 @@
 		"To link the two, you'll need to create a pair of &dQuantum Entangled Singularities&r, and place one into a &6Quantum Network Bridge&r and the other into your &dWireless Terminal&r, along with the card itself."
 	]
 	quest.450A1BAD728F594B.title: "&dInfinite Wireless Access"
+	quest.4538EAA0215C8EC0.quest_desc: [
+		"A &aJoystick&f gives two tilt axes. A &aThrottle Quadrant&f gives four levers side by side. Then there's the &aYoke&f, the &aWheel&f, the &aPedal&f, the &aLever&f, a single &aButton&f, a 2x2 &aButton Panel&f and a 3x3 &aKeypad&f."
+		""
+		"Smaller modules fit in larger sockets, and a few of the big ones carry a small socket of their own. Right-click that with a small module to stack a head on top, and it rides along with the control underneath while working like any other input."
+	]
+	quest.4538EAA0215C8EC0.title: "&aControl Modules"
 	quest.456030ECDFA9CE3B.quest_desc: [
 		"&bReactor Heat Absorbers&r remove a fixed amount of heat from all neighboring components making it more efficient when surrounded by components that need to be cooled."
 		""
@@ -5603,7 +5770,7 @@
 		""
 		"Carry it home and cultivate it."
 		""
-		"Cultivated and saturated, Weak Tau ripens into &cStrong Tau&r: dense enough to refine."
+		"Cultivated and saturated, Weak Tau ripens into &cStrong Tau&f: dense enough to refine."
 		""
 		"To grow this you must allow it to grow with animals walking on it. They will be damaged over time and each time there is a chance the Tau will becomes saturated and will evolve into Strong Tau. "
 	]
@@ -5625,6 +5792,12 @@
 	]
 	quest.4882D3E03CC01268.title: "&bStorage Bus"
 	quest.48935E2DFCA1E835.quest_desc: ["You can now upgrade your infusion setup to the final tier, and craft &zChaotic Tier&f gear."]
+	quest.4896357F588DAA54.quest_desc: [
+		"On a &bSimulated Contraption&f, a &aSail&f is a wing. Move it through the air and it makes lift at right angles to its surface, and the faster you go the more it makes. Enough sail and enough speed and a ship with no balloon at all leaves the ground."
+		""
+		"The &aSymmetric Sail&f is the other half. It makes no lift, only drag, and only when it's angled away from the direction of travel. That's a rudder, a tail fin or a stabilizer, depending on where you bolt it."
+	]
+	quest.4896357F588DAA54.title: "&aSails"
 	quest.48CFC042AE951056.quest_desc: [
 		"This fluid brought about from the bowels of hell should be hot enough to help distill the flavour we need."
 		""
@@ -5656,7 +5829,7 @@
 		""
 		"It can stack, meaning one multiblock can have multiple outputs. You can have as few as one output or as many as nine to break down all possible byproducts!"
 		""
-		"&eNote&r: Make sure you set the height of the structure in the controller so that it will properly form!"
+		"&eNote&f: Make sure you set the height of the structure in the controller so that it will properly form!"
 		"{@pagebreak}"
 		"You should aim to make a tower with at least 3 outputs like this one for the next quest."
 		""
@@ -5689,6 +5862,14 @@
 	quest.49835EC10C5AE8D8.title: "&6Quantum Crafter"
 	quest.498A5C0A00F19E2E.quest_desc: ["The most basic available reactor fuel is a regular &6Uranium Fuel Rod&r. It requires no fancy processing, but also outputs the least amount of energy. However, its simplicity makes it appealing to start with."]
 	quest.498A5C0A00F19E2E.title: "&6Uranium Fuel Rod"
+	quest.499819F644DAAB83.quest_desc: [
+		"[\"The \", {\"text\": \"Hot Air Burner\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Hot Air Burner Quest\"]}}, \" tops out at 500 hot air. The \", {\"text\": \"Steam Vent\", \"color\": \"aqua\"}, \" puts out up to 5,000 steam, which lifts exactly the same 1.5 kpg per cubic metre, so a vented balloon carries ten times the ship.\"]"
+		""
+		"The catch is the piping. A vent wants the same things a &bSteam Engine&f wants, heat under a boiler, water in it, and enough boiler space. Power it with redstone and it fills the balloon above it. The signal strength scales the output, and the panel on the vent sets the ceiling."
+		""
+		"Both burners and vents will hunt up to 80 blocks for a balloon to fill, and several can share one balloon. Click a vent with an &aIron Sheet&f to change its metal."
+	]
+	quest.499819F644DAAB83.title: "&bSteam Vent"
 	quest.49CBB0619F943B81.quest_desc: ["&6Train Schedules&r allow drivers to automatically operate trains within a set pattern."]
 	quest.49CBB0619F943B81.title: "&6Train Schedule"
 	quest.49DD167D6323406B.quest_desc: [
@@ -5720,6 +5901,8 @@
 		"If there's enough water around the line, it's possible to catch something extra rare..."
 		""
 		"If there's an open patch of water five blocks wide all around the bobber, and the patch is at least two blocks deep with open air above, there's a chance of catching a 'treasured' essence."
+		""
+		"&o&7Some Essence require finding the item first such as Diamond and Emerald Essence&r"
 	]
 	quest.4A07DF8EB4A0C40A.title: "&fPath of Cultivation"
 	quest.4A0A19E73680034F.quest_desc: [
@@ -5779,7 +5962,7 @@
 		"It is also used to craft the &bForce of Mystic&r."
 		""
 		""
-		"&e&lNote&r: This item's revival effect is not working at the moment.&r"
+		"&e&lNote&f: This item's revival effect is not working at the moment.&r"
 	]
 	quest.4A5402081BC88910.title: "&aUndying Talisman"
 	quest.4A5FD3641E0A566E.quest_desc: [
@@ -5815,11 +5998,11 @@
 	quest.4AC0B8A467BB5FA8.quest_desc: [
 		"This book looks old, but is filled with an ancient magical power."
 		""
-		"You can normally find this in &6Ancient City&r loot, but here in the void as a reward from the two &eGate Pearls&r:"
+		"You can normally find this in &6Ancient City&r loot, but here in the void as a reward from the two &eGate Pearls&f:"
 		""
-		"&a- A Tale of Life and Death&r,"
+		"- &aA Tale of Life and Death&r,"
 		""
-		"&2- The Last Battle of a Fallen Kingdom&r"
+		"- &2The Last Battle of a Fallen Kingdom&r"
 	]
 	quest.4AC0B8A467BB5FA8.quest_subtitle: "Ancient City Loot"
 	quest.4AC0B8A467BB5FA8.title: "&3Ruined Book"
@@ -5849,6 +6032,12 @@
 		"These &dSingularities&r are critical for creating massive storages and inter-dimensional links. "
 	]
 	quest.4B463FDAEAC42511.title: "&fThe &3Matter Condenser"
+	quest.4B52F4885BEA9FC0.quest_desc: [
+		"Same blend, different flame. Put a &aSoul Campfire&f or &aSoul Torch&f next to the &dLevitite Blend&f instead of regular fire, or pour it over soul sand or soul soil that's burning, and it crystallizes pink instead of blue."
+		""
+		"&7&oIt floats exactly the same. This one is purely for the ship that has everything."
+	]
+	quest.4B52F4885BEA9FC0.title: "&dPearlescent Levitite"
 	quest.4B5BFD1142133E93.quest_desc: [
 		"The &dBlinded Talisman&r increases damage by 25% while the player is affected by blindness."
 		""
@@ -5866,7 +6055,7 @@
 		""
 		"When crafting an item, make sure to check the EU/t required for the craft in JEI!"
 		""
-		"&eNote&r: You can lock input and output slots to prevent certain recipes from crafting. This is important to know for automation. Also you're going to want MANY of these eventually."
+		"&eNote&f: You can lock input and output slots to prevent certain recipes from crafting. This is important to know for automation. Also you're going to want MANY of these eventually."
 	]
 	quest.4B81B0228592E5C9.title: "&fThe &2Assembler"
 	quest.4BA8E435EDA995AC.quest_desc: [
@@ -5875,16 +6064,6 @@
 		"By itself, this upgrade can be set up to automatically void specific items that you set inside of its filter. Upgrading to the Advanced version allows for more filtering options!"
 	]
 	quest.4BA8E435EDA995AC.title: "&fVoid Upgrades"
-	quest.4BB2E61FF925FE84.quest_desc: ["The &dAdvanced Data Link&f connects to any type of orientation device and relays its information via redstone to connected blocks."]
-	quest.4BB5ADD98F958712.quest_desc: ["Out in the void lies a dungeon packed with all sorts of ill-gotten magical loot, guarded by a similar assortment of creatures. An &6Archevoker&r oversees it all from the highest level."]
-	quest.4BB5ADD98F958712.title: "&fDiscover a &6Certain Magical Dungeon"
-	quest.4BBEE37F0D847BA9.quest_subtitle: "Transfers Fluids"
-	quest.4BBEE37F0D847BA9.title: "&fFluid Pipe"
-	quest.4BCA8A5C3F80D375.quest_desc: [
-		"The &aSigil of Unnaming&r removes the Affix name of an item, reverting it to its normal item name."
-		""
-		"For example: &dEndawn the Ogre Slayer's Windswept Burnt Shoes of the Spellwarden&r will be renamed to &dBurnt Shoes&r."
-	]
 	quest.4BCA8A5C3F80D375.title: "&aSigil of Unnaming"
 	quest.4BDD9230BBA6C0A0.quest_desc: [
 		"&aHearts&r are a key component of &eBaubley Heart Canisters&r."
@@ -5893,10 +6072,10 @@
 		""
 		"Hearts can be eaten and will restore health based on the level."
 		""
-		"- &cRed&r : 10 Hearts per use."
-		"- &eYellow&r : 20 Hearts per use."
-		"- &bBlue&r: 30 Hearts per use."
-		"- &aGreen&r: 40 Hearts per use."
+		"- &cRed&f: 10 Hearts per use."
+		"- &eYellow&f: 20 Hearts per use."
+		"- &bBlue&f: 30 Hearts per use."
+		"- &aGreen&f: 40 Hearts per use."
 	]
 	quest.4BDD9230BBA6C0A0.title: "The Unlimited Power of Hearts"
 	quest.4BF0B397B0B9EE8C.quest_desc: ["Refund your spent skill points in the Defense tree."]
@@ -5967,7 +6146,7 @@
 		""
 		"Once you place the &2Mesh&f inside the &aScoop&f, activating the contraption it is attached to will also activate the &aScoop&r as well. If it's on your ship, the &aPhysics Assembler&r will activate it!"
 		""
-		"&aNote&r: If the &aScoop&r is attached to a ship, make sure your ship is ready to fly before you active it for the Scoop!"
+		"&aNote&f: If the &aScoop&r is attached to a ship, make sure your ship is ready to fly before you active it for the Scoop!"
 	]
 	quest.4D1E458AA9F84ED1.title: "The &eAero Scoop&r"
 	quest.4D1EBD92C674531E.quest_desc: [
@@ -6015,8 +6194,6 @@
 		"Sadly, it only allows one item at a time, so unless you want to fill your entire base with &aWriters&r, use these only for the most important things, or things you are constantly stocking in your system."
 	]
 	quest.4DB08D796BBE6E93.title: "&fCrafting Writer"
-	quest.4DBC0A4045FF1D1B.quest_desc: ["&aTransmission Chains&f are used to cleanly transfer rotation between belts."]
-	quest.4DBC0A4045FF1D1B.title: "Transferring Belt Rotation"
 	quest.4DD685A3F0F1329F.quest_desc: [
 		"Although there is a pre-programmed &5Collector Drone&r, this quest will show you how to make one for yourself!"
 		""
@@ -6093,7 +6270,7 @@
 	]
 	quest.4E4E33E04625A9EB.title: "&cVolcanic Sourcelink"
 	quest.4E623BAFD92591EE.quest_desc: [
-		"The &aStaff of Travelling&r is a powerful tool that allows you to teleport forward a short distance by \"Shift + right-clicking\". You can also use this mechanic to go through thin walls!"
+		"The &aStaff of Travelling&r is a powerful tool that allows you to teleport forward a short distance by \"Sneak + Right-clicking\". You can also use this mechanic to go through thin walls!"
 		""
 		"The &aTravel Anchor&r allows you to set a waypoint that can be teleported to when holding the &aStaff of Travelling&r, so long as that block waypoint is within visible range."
 		""
@@ -6162,6 +6339,14 @@
 		"You can only use 1 per multiblock structure."
 	]
 	quest.4F3CA2DCE719D18A.title: "&6Multi-Threading"
+	quest.4F433F2FA020F0E3.quest_desc: [
+		"A big cannon is a line of bored cannon blocks, a chamber at the back, a barrel in front, and a breech to load through. Blocks placed by hand don't join on their own. Weld them with the &aCannon Welder&f, or better, build the gun once and move it whole with a contraption."
+		""
+		"The &aCannon Mount&f holds the assembled gun and pitches it with rotation. The &3Yaw Controller&f under the mount turns it. Load a &aPowder Charge&f and a projectile through the breech, by hand with a &aRam Head&f on a stick, or with the &aCannon Loader&f, then give the mount a redstone pulse. Guns can be up to 64 blocks long."
+		""
+		"More powder, more range, until the barrel gives out. A cast iron gun with too many charges has a coin-flip chance of bursting, so learn its limit on the ground before you learn it at altitude."
+	]
+	quest.4F433F2FA020F0E3.title: "&3Big Cannon"
 	quest.4F5A267B3042E308.title: "&d256k Storage Part"
 	quest.4F63F8D79802D6ED.quest_desc: [
 		"The &dHP Large Steam Boiler&r can produce up to 2048 mb/t of &7Steam&r."
@@ -6271,6 +6456,12 @@
 	quest.50FEA4A0E4E1EABD.quest_desc: ["[ \"To get \", {\"text\": \"Coconut Cream\", \"color\": \"green\"}, \" instead of coconut water, you'll need to use Oritech's \", { \"text\": \"Fluid Separation\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50B7CA94F8BB6F58\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"} }, \" to split \", {\"text\": \"Liquid Darkness\", \"color\": \"dark_green\"}, \" and \", {\"text\": \"Coconut Chunks\", \"color\": \"light_purple\"}, \".\" ]"]
 	quest.5119EFBB9FB39CDE.quest_desc: ["[ \"The leader of a hostile illager troop, found at the top of a \", {\"text\": \"Certain Magical Dungeon\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4BB5ADD98F958712\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Magical Dungeon Quest\"]}}, \".\"]"]
 	quest.5119EFBB9FB39CDE.title: "&fKill The &dArchevoker"
+	quest.5122A391CD92E556.quest_desc: [
+		"The &dContraption Controller&f is a flight computer with 13 channels. Bind keys to pitch, roll, yaw, throttle and whatever else, pick an input mode per channel for how the signal ramps, and it puts out clean analog redstone for each one."
+		""
+		"The &aAnalogue Joystick&f is its physical cousin. Tilt it and each side sends its own signal scaled to how far you pushed. Good for the pilot who wants to feel the ship rather than type at it."
+	]
+	quest.5122A391CD92E556.title: "&dContraption Controller"
 	quest.51373D5476F2FD7F.quest_desc: [
 		"Collecting spirits is important work for an aspiring spirit mage, but an evening spent slaying the hostile creatures of the night can be a hassle with all the resources to sort and manage, especially when &bSpirit&r is involved."
 		""
@@ -6315,6 +6506,14 @@
 		"There is also the &aTrash Bin&r icon in the top left of your inventory that you can use as well. This can also be accessed by using the &a/trashcan&r command."
 	]
 	quest.51804232265672A9.title: "&fInventory Trashcan!"
+	quest.51A57B31F8DA4A8F.quest_desc: [
+		"Before anything flies it has to hold together, and it has to be light enough to be worth lifting."
+		""
+		"Every block on a ship has a mass. Stone and metal are heavy, wood and wool are light, and a hull built out of the wrong stuff will need three times the lift. Press &bF3+H&f and the mass shows up in item tooltips, courtesy of &eSable Mass View&f."
+		""
+		"This quest path is about glue, goggles, hull blocks and knowing what your ship weighs."
+	]
+	quest.51A57B31F8DA4A8F.title: "&aThe Hull"
 	quest.51B5EE931AC1B86E.quest_desc: [
 		"The Nests can only be placed in the &cNether&r to lure in bees."
 		""
@@ -6358,7 +6557,7 @@
 		""
 		"You should progress onto machine processing with a &2Steam Macerator&r as soon as you're able."
 		""
-		"&eNote&r: You can also pulverize logs into sawdust for early cardboard boxes. These can be handy for lots of things!"
+		"&eNote&f: You can also pulverize logs into sawdust for early cardboard boxes. These can be handy for lots of things!"
 	]
 	quest.51F2FC13FA7C3A89.title: "&fThe Start of &eModern Industrialization"
 	quest.51FCC60BA75382BA.quest_desc: [
@@ -6467,6 +6666,12 @@
 		"Check the AE2 Guideme's NEP section for more details."
 	]
 	quest.5382CB05500E49DE.title: "&zEnchanting Table of the Raven"
+	quest.53D0DF41254360B9.quest_desc: [
+		"Not everything has to fly. &eOffroad&f puts a &aTire&f on a &aWheel Mount&f and a &bSimulated Contraption&f becomes a truck. Rotation drives the wheel, redstone from the top brakes it, redstone from the side steers it toward the signal. Tires come in &aSmall&f, standard, &3Large&f and &dMonstrous&f, and the mount's suspension strength is set on its scroll panel."
+		""
+		"The &3Borehead Bearing&f is the same mod's drill. Attach &aRock Cutting Wheels&f and a storage block to it and it chews through terrain in a radius, at a quarter of the input speed, dropping everything into the storage until the storage is full."
+	]
+	quest.53D0DF41254360B9.title: "&aGround Travel"
 	quest.53E72F025E4CB895.quest_desc: ["The &3Mechanical Saw&r can be used to mine entire trees at once or process item recipes."]
 	quest.53E72F025E4CB895.title: "&3Mechanical Saw"
 	quest.53E949B1A0D04290.quest_desc: [
@@ -6533,8 +6738,18 @@
 	quest.544DCCAF97078924.title: "&fTalisman Pedestal"
 	quest.5455CF5D3C37ECA9.quest_desc: ["This imposing structure in the Nether's void contains valuable loot and porcine foes, with a powerful construct that attacks those who draw near."]
 	quest.5455CF5D3C37ECA9.title: "&fFind a &6Bastion"
-	quest.546A582A0084C982.quest_desc: ["&7&o An amalgamation of artificial and magical flavours"]
+	quest.546A582A0084C982.quest_desc: [
+		"&7&o An amalgamation of artificial and magical flavours"
+		""
+		"&cWarning!&o&r &oA Flashpine can't be havested or picked up if placed.&r"
+	]
 	quest.546A582A0084C982.title: "Artificial Fruits"
+	quest.547C772CB5972224.quest_desc: [
+		"The &aTilt Adapter&f from &eCreate Propulsion&f tilts rotational output by an analog signal, up to 90 degrees each way in this pack. The &3Advanced Tilt Adapter&f lets you set a different limit for each side, and holding &bCtrl&f while setting one toggles shared limits."
+		""
+		"Where a servo holds an angle, the adapter keeps the shaft spinning through the tilt, so it's the one for a propeller you want to aim while it runs."
+	]
+	quest.547C772CB5972224.title: "&aTilt Adapter"
 	quest.54AC477417E72055.quest_desc: [
 		"If you're looking for a better way to harvest Amethyst from geodes, the &dAmethyst Golem&r will quickly become your best friend!"
 		""
@@ -6601,6 +6816,14 @@
 		"Each &aChassis&r type has pros and cons to their functionality, so be sure to use the right one for the job."
 	]
 	quest.55897B86C2908176.title: "&aChassis"
+	quest.55B5C402ABBDF7C1.quest_desc: [
+		"The &aSteering Wheel&f is precise rotation by hand. Hold right-click to grab it and move the mouse to turn, sneak while turning to snap to 45 degree steps, and set the maximum angle on its value panel. A comparator on it reads the angle, and a comparator on the back reads whether someone's holding it."
+		""
+		"The &aThrottle Lever&f is the same idea for redstone. Drag it to set an analog signal, wrench it to invert. One for the burner, one for the engines, and you have a cockpit."
+		""
+		"&eNote&f: A bearing on the far end of a wheel will happily disassemble whatever it's turning. Tell it not to."
+	]
+	quest.55B5C402ABBDF7C1.title: "&aWheel and Throttle"
 	quest.55B7E3EE706E8D6F.quest_desc: [
 		"&bReinforced Stone&r is the basis for most &ePNCR&r machinery."
 		""
@@ -6673,7 +6896,7 @@
 	quest.5691235133373883.title: "&fEnergy Battery"
 	quest.56C6C2E5CA811E21.quest_desc: ["Seems to happen when blight spreads onto stone, but only existing blighted earth gets transformed?"]
 	quest.56E1FAD44A6E8C11.quest_desc: [
-		"There are two ways to get &eDiesel&r:"
+		"There are two ways to get &eDiesel&f:"
 		""
 		"You can use &3Distilleries&r to get &2Light and Heavy Fuels&r, and then use the &2Mixer&r to combine them into &eDiesel&r."
 		""
@@ -6830,11 +7053,11 @@
 	]
 	quest.586E18023A595A6C.title: "&2Productive Bees&r"
 	quest.5881702D0DE6180E.quest_desc: [
-		"&aCollector Upgrade&r - Adds an internal magnet to pick items up off the ground around it."
+		"&aCollector Upgrade- &rAdds an internal magnet to pick items up off the ground around it."
 		""
-		"&aPuller Upgrade&r - Allows the drawer to pull from adjacent inventories."
+		"&aPuller Upgrade- &rAllows the drawer to pull from adjacent inventories."
 		""
-		"&aPusher Upgrade&r - Allows the drawer to push to adjacent inventories."
+		"&aPusher Upgrade- &rAllows the drawer to push to adjacent inventories."
 		""
 		"These can be configured by right-clicking the upgrade while inside of the drawer."
 	]
@@ -6847,9 +7070,9 @@
 	quest.58982359699AFB7F.quest_desc: [
 		"The &aConfiguration Card&r is a very useful tool that allows you to copy and paste a network device's settings and upgrades."
 		""
-		"Shift right-click a network device to copy and paste its settings onto another device."
+		"Sneak + Right-click a network device to copy and paste its settings onto another device."
 		""
-		"Shift right-click the air to clear stored settings."
+		"Sneak + Right-click the air to clear stored settings."
 	]
 	quest.58982359699AFB7F.title: "&fConfiguration Card"
 	quest.58C5F4D2C885D972.quest_desc: [
@@ -6900,11 +7123,6 @@
 		""
 		"This one is safe to drink, and can provide a small buffer of &bextra health&r for a short time when drunk, but might be a little expensive for such utility."
 	]
-	quest.59554A8C13B46F7F.quest_desc: [
-		"The &dNavigation Table&f Will provide a redstone signal relative to its bound target location."
-		""
-		"The advanced version can store several mapped locations. Use this in combination with something like the &dAdvanced Data Link&f for fine positional control."
-	]
 	quest.595F8AC6DB5DACD8.quest_desc: [
 		"Getting your first &bDiamond&r in vanilla is a pretty big deal, and it's quite the ordeal here too!"
 		""
@@ -6912,9 +7130,15 @@
 		""
 		"Once you have a few, you'll be able to generate more."
 		""
-		"&7&oThere is also the rare chance to fish up some diamond essence, and other more technical methods exist that could generate diamonds such as &aCoal Compression&r&7&o, a &aLens of the Miner&r&7&o, etc..."
+		"&7&oThere is also the rare chance to fish up some diamond essence if you have found them first, and other more technical methods exist that could generate diamonds such as &aCoal Compression&r&7&o, a &aLens of the Miner&r&7&o, etc..."
 	]
 	quest.595F8AC6DB5DACD8.title: "&aYour First &bDiamonds"
+	quest.596B99FA746FF18B.quest_desc: [
+		"A &3Wing&f is a purpose-made lifting surface, the &3Tempered Wing&f is the sturdier version, and the &aCopycat Wings&f come in 8 and 12 metre spans that take the texture of any block you click them with."
+		""
+		"Pair wings with thrusters and you've got a plane rather than a blimp. Planes are faster, planes are lighter, and planes fall out of the sky the moment the engine stops. Choose accordingly."
+	]
+	quest.596B99FA746FF18B.title: "&3Wings"
 	quest.598652FE2E4839AC.quest_desc: [
 		"Is waiting for farm animals to spawn on patches of non-fake grass just too slow for you?"
 		""
@@ -6963,7 +7187,7 @@
 		""
 		"The &dSource&r that is created will output to a &aSource Jar&r within 5 blocks of it."
 		""
-		"&eNote&r: You cannot bone meal crops to speed up making Source, but there may be some other ways to speed this up..."
+		"&eNote&f: You cannot bone meal crops to speed up making Source, but there may be some other ways to speed this up..."
 	]
 	quest.5A57DB728220261F.title: "&2Agronomic Sourcelink"
 	quest.5A5D6A90C0999828.quest_desc: [
@@ -7024,6 +7248,14 @@
 	]
 	quest.5B499DF961D9308B.title: "&aSimple Clicker"
 	quest.5B5447A65D9C82B9.title: "&d16384b Fluid Storage Part"
+	quest.5B59923796F5C973.quest_desc: [
+		"&eAutomated Logistics&f teaches a ship a route by watching you fly it. Put a &3Vehicle Transponder&f on the ship and an &3Airship Station&f at each end of the trip. Open the transponder, switch to &bRecording Mode&f, add a route from this station to that one, fly it, and save the segment when you land. Routes are saved per direction, so fly the return leg too."
+		""
+		"Press play from any station on the route and the ship flies it by itself, stop after stop, and it keeps flying while the chunks between are unloaded. The stops screen sets wait conditions and docking waits, and during a dock both the station and the transponder put out redstone so your connectors know when to extend."
+		""
+		"The &3Logistics Terminal&f is the top-down map of every station, route and ship in the network. The &dAdvanced Transponder&f adds four redstone output ports for dock and drive intent."
+	]
+	quest.5B59923796F5C973.title: "&3Airship Station"
 	quest.5B7CC380E28893C1.quest_desc: [
 		"For us to make &2Rubber&r, we'll need to get our hands on some form of &aOil&r first."
 		""
@@ -7032,6 +7264,14 @@
 		"[\"To make Coal Coke, you'll need to use \", { \"text\": \"MI's Coke Oven\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"06FD385E707F4E12\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to MI's Coke Oven Quest\"}}, \".\"]"
 	]
 	quest.5B7CC380E28893C1.title: "&aCreating Oil from Dust"
+	quest.5BA4D2B907325D32.quest_desc: [
+		"&eCreate Propulsion&f has its own family of engines. The &aSolid Fuel Thruster&f is the cheap one. It burns items from the slot on its back, redstone is on or off with no in-between, and it pushes about a quarter as hard as its liquid cousins. Wrench it to open the hatch and it'll pull fuel from a container behind it."
+		""
+		"The &3Thruster&f runs on &bTurpentine&f and holds a 1,000 mB tank that lasts 1,000 ticks at full throttle. The &dIon Thruster&f skips fuel and drinks 40 FE per tick instead, and it's the strongest of the three."
+		""
+		"Build any of them as a 2x2x2 or 3x3x3 block and they merge. The big versions push 25% and 50% harder and burn 40% and 60% less fuel."
+	]
+	quest.5BA4D2B907325D32.title: "&3Propulsion Thrusters"
 	quest.5BA74A759CC43BBB.quest_desc: [
 		"&eMI&r has several different cables for each tier."
 		""
@@ -7106,7 +7346,7 @@
 		""
 		"To craft them, place the items needed on each Pedestal and then give the &aAltar&r a redstone signal to start. You can also place a &cBlock of Redstone&r under the &aAltar&r to instantly start any valid recipes."
 		""
-		"&eNote&r: The items do not have to follow any order when placed on the Pedestals."
+		"&eNote&f: The items do not have to follow any order when placed on the Pedestals."
 	]
 	quest.5CE002C1C1142CD1.title: "&fMaking &aCustom Seeds"
 	quest.5D0742E56290E42B.quest_desc: [
@@ -7200,9 +7440,9 @@
 	quest.5DF40808F9C6FEC0.quest_desc: [
 		"With access to &aFerricore&r, you can make many of the simple machines that the mod offers."
 		""
-		"With new machines, it wouldn't hurt to make the &aFerricore Wrench&r. This tool can rotate machines by right-clicking, or sneak-right-clicking will insta-break them for you."
+		"With new machines, it wouldn't hurt to make the &aFerricore Wrench&r. This tool can rotate machines by right-clicking, or Sneak + Right-clicking will insta-break them for you."
 		""
-		"The &aMachine Settings Copier&r does exactly what you think! Sneak-right-clicking on a machine with it will copy the settings to the copier, then right-clicking on a different machine will paste the settings."
+		"The &aMachine Settings Copier&r does exactly what you think! Sneak + Right-clicking on a machine with it will copy the settings to the copier, then right-clicking on a different machine will paste the settings."
 	]
 	quest.5DF40808F9C6FEC0.title: "&fUseful Machine Tools"
 	quest.5E04779BC1EB52E9.quest_desc: [
@@ -7266,6 +7506,12 @@
 	quest.5E8B72B0CA428F12.title: "Here's the invis dev chapter"
 	quest.5EDAD39B73C1FF9C.quest_desc: ["You can combine &eEthylbenzene&r with &7Steam&r and &aIron Dust&r in a &3Chemical Reactor&r to create &dStyrene&r."]
 	quest.5EDAD39B73C1FF9C.title: "&dStyrene"
+	quest.5EE8F456D1B56D3D.quest_desc: [
+		"The &3Advanced Data Link&f carries orientation. Point it at a &aGimbal Sensor&f or another orientation source, up to 128 blocks away, and any block next to the link that can use that data gets it."
+		""
+		"It's the same idea as a &bDisplay Link&f, but instead of text it moves pitch, roll and heading to the blocks that need them."
+	]
+	quest.5EE8F456D1B56D3D.title: "&3Advanced Data Link"
 	quest.5EF11F96A97C2A23.quest_desc: [
 		"&eModern Industrialization&r (&eMI&r) has a variety of tiered &aSteam Turbines&r which can be used to convert &7Steam&r into &cPower&r."
 		""
@@ -7277,13 +7523,19 @@
 	quest.5F1A2C7D9B4E6081.quest_desc: [
 		"&bAmadron&r trades can be automated by your &eME system&r, but they use their own kind of pattern."
 		""
-		"Encode one in the &dAmadron Wireless Terminal&r: drop a &7Blank Pattern&r into its pattern slot, find the offer in the list, then press the save button next to it. You get an &bAmadron Processing Pattern&r."
+		"Encode one in the &dAmadron Wireless Terminal&f: drop a &7Blank Pattern&r into its pattern slot, find the offer in the list, then press the save button next to it. You get an &bAmadron Processing Pattern&r."
 		""
 		"The &ePattern Encoding Terminal&r cannot make these, and the &e+&r button in JEI only gives you an ordinary processing pattern, which the station will refuse."
 		""
 		"Drop the finished pattern into an &dAmadron Processing Station&r and the trade becomes craftable like any other recipe."
 	]
 	quest.5F1A2C7D9B4E6081.title: "&fAutomating &bAmadron"
+	quest.5F4BAB9B54CF7E4A.quest_desc: [
+		"The &dGyroscope&f actively holds the ship level along whatever axis you place it on. Spin it up and it fights pitch and roll, and it bleeds off a spin so the ship stops turning when you stop turning it."
+		""
+		"It wants rotation, and a lot of it. Full control arrives at 256 RPM and the draw is 16 SU per RPM, so a gyroscope at full speed costs 4,096 SU. One gyro fully steadies about 5,000 units of ship inertia. A bigger hull needs more of them, and a ship with too few isn't unstable, just slower to right itself."
+	]
+	quest.5F4BAB9B54CF7E4A.title: "&dGyroscope"
 	quest.5F5A8762D664CBF0.quest_desc: [
 		"The Imbuement Chamber is also used to make certain magical &bEssences&r."
 		""
@@ -7457,11 +7709,6 @@
 		""
 		"&o&7Used for the Rainbow Generator"
 	]
-	quest.613AD839EF3BC6A7.quest_desc: [
-		"These &aThrusters&f do a lot more than just move your contraptions thanks to their upgrades, which can allow &aThrusters&f to smelt, cook, and haunt items just like &bEncased Fans&f."
-		""
-		"They consume liquid fuel by default, but can be made to consume power (FE) instead using the &dThruster Lens&f."
-	]
 	quest.616DE67925A3071C.title: "&fRotten Spell Book"
 	quest.616E3CE38F1D73AE.quest_desc: [
 		"The &2Metallurgic Infuser&r is the core machine used in Mekanism."
@@ -7538,10 +7785,10 @@
 		""
 		"Set them up and watch as they work tirelessly to supply your base with everything from basic food to gourmet delicacies."
 		"{@pagebreak}"
-		"&aLoot Evolution:&r"
+		"&aLoot Evolution&f: "
 		"Start with humble carrots and potatoes, but as your llamas grow stronger, they'll upgrade to cooked meats, magical ingredients like Demon's Dream seeds, and eventually premium Farmer's Delight meals!"
 		""
-		"&dPro Tips:&r"
+		"&dPro Tips&f: "
 		"  • Breed your llamas strategically to create"
 		"  specialized spitters"
 		"  • Max strength (10) llamas drop epic foods like"
@@ -7577,6 +7824,12 @@
 		"It is also used to craft the &dForce of Explorer&r."
 	]
 	quest.629308DC692DB140.title: "&7Glowstone Talisman"
+	quest.62987A983CFB5C77.quest_desc: [
+		"Two separate rotation lanes run through the &3Smart Gearbox&f at different speeds, which is useful on its own when a hull is short on space."
+		""
+		"The trick is &bServo Mode&f. Feed it orientation from an &3Advanced Data Link&f and it aims any &3Servo Bearing&f attached to it so the mounted thruster or propeller always points the way you want it to. Power the gearbox with redstone and the aim inverts. Between this, a &aGimbal Sensor&f and a couple of thrusters, a ship can hold itself level with no player at the controls."
+	]
+	quest.62987A983CFB5C77.title: "&3Smart Gearbox"
 	quest.629C6374800613C4.quest_desc: [
 		"To attach &aLogic Cables&r to blocks in the world and add them to your network, you'll need some type of &aInterface&r."
 		""
@@ -7601,6 +7854,18 @@
 		"&6Netherite Tier&r unlocks Coconuts and Empowered Ice."
 	]
 	quest.62BC01D7050D366E.title: "Tiered Display Stands"
+	quest.62BF630E65CE5CDD.quest_desc: [
+		"The &3Thruster&f from &eCreate Thrusters&f burns fuel and shoves the ship away from its nozzle. Coal, blaze rods, lava and a long list of fluids all count as fuel. A redstone signal from 1 to 15 is the throttle, and full throttle gives about 2.94 kpN."
+		""
+		"Throttle is not linear. A neutral fuel burns 5.6 mB per tick flat out, and backing off to half throttle cuts the burn a lot more than it cuts the thrust. Cruise low, sprint rarely."
+		""
+		"The &aSmall Thruster&f is the same engine in a shorter body. Stay out of the exhaust, it hurts."
+		"{@pagebreak}"
+		"These &aThrusters&f do a lot more than just move your contraptions thanks to their upgrades, which can allow &aThrusters&f to smelt, cook, and haunt items just like &bEncased Fans&f."
+		""
+		"They consume liquid fuel by default, but can be made to consume power (FE) instead using the &dThruster Lens&f"
+	]
+	quest.62BF630E65CE5CDD.title: "&3Thrusters"
 	quest.62C92C8960875611.quest_desc: ["Metalworking is just as important in magic as it is with the mundane, even if the methods are far different. Ingots that have been infused with spiritual properties will be instrumental in progressing deeper into this craft."]
 	quest.62C92C8960875611.title: "&fSpiritual Metallurgy"
 	quest.62CFAFC74ADA4781.quest_desc: ["The &3Encased Fan&r creates air current that can be used to push entities or process items."]
@@ -7750,8 +8015,22 @@
 	quest.652650C157E16712.quest_desc: ["One obvious use of &bSpirit&r is to make equipment from it. Infusing it into cloth provides a fine base to use the Spirit's properties."]
 	quest.652650C157E16712.title: "&fSoulwoven Silk"
 	quest.653A1D93146FEBD3.title: "Spiritual Purification"
+	quest.655A43231DB3160E.quest_desc: [
+		"The &3Autocannon&f is the small fast one. A breech, a recoil spring and a few barrel blocks, cast the same way as the big gun except the moulds shed their sand on their own. It sits on a &aCannon Mount&f like the big gun and aims the same way."
+		""
+		"It feeds from an &aAutocannon Ammo Container&f that holds 64 rounds, or 128 &aMachine Gun Rounds&f. &aFlak&f rounds burst in the air for anything with wings, &3AP&f rounds go through armour. The recoil is half of a big cannon's, which on a small ship still counts."
+	]
+	quest.655A43231DB3160E.title: "&3Autocannon"
 	quest.6587B145151746EC.quest_desc: ["The &eDistillery&r unlocks a lot of new products. Some of the key ingredients for progression are &aGypsum&r and &aTear of the Goddess&r, which are required for &bCircle Magic&r."]
 	quest.6587B145151746EC.title: "Distillery Products"
+	quest.65BC94BEFE461307.quest_desc: [
+		"Two &aRope Connectors&f and a &aRope Coupling&f ties two contraptions together, or a contraption to the ground. Right-click one end then the other. Shears cut it, and right-clicking with a wrench slides you down it."
+		""
+		"A &aRope Winch&f in place of one connector reels the rope in and out with rotation, which is a mooring line, a crane or an elevator depending on what's on the end. Two winches won't connect to each other."
+		""
+		"The &3Powered Zipline&f from &eCreate Thrusters&f rides along a rope under its own power, and the &3Claw&f hangs from one and grabs connectors on a redstone pulse."
+	]
+	quest.65BC94BEFE461307.title: "&aRopes"
 	quest.663460DE8AF7E464.quest_desc: [
 		"The &aInscriber&r is one of the most important machines in &eAE2&r."
 		""
@@ -7811,11 +8090,7 @@
 		"Access can also be set with this marker: private, team, or everyone."
 	]
 	quest.669DCBD04E5C4D5E.title: "&dChronomark"
-	quest.66AB8C43E63AD672.quest_desc: [
-		"The &3Mechanical Mixer&r is used for recipes, mixing potions, and some other mixing recipes."
-		""
-		"The &3Blaze Burner&r is used to generate heat for things like &cSteam Engines&r and other heat-related mods like &ePNCR&r."
-	]
+	quest.66AB8C43E63AD672.quest_desc: ["The &3Mechanical Mixer&r is used for recipes, mixing potions, and some other mixing recipes."]
 	quest.66AB8C43E63AD672.title: "&3Mechanical Mixer"
 	quest.66B66C0C33071D7B.quest_desc: ["By combining &aRaw Platinum Ore&r with &eSulfuric Acid&r in a &3Chemical Reactor&r, we can make &dPlatinum Sulfuric Solution&r."]
 	quest.66B66C0C33071D7B.title: "&dPlatinum Sulfuric Solution"
@@ -7922,7 +8197,7 @@
 		""
 		"Use the packing tape on it first, then break it to get the chest as a single item. Once you've placed it down, the tape will disappear!"
 		""
-		"&eNote&r: Chests with &aStack Upgrades&r will need to be packed up first before moving."
+		"&eNote&f: Chests with &aStack Upgrades&r will need to be packed up first before moving."
 	]
 	quest.68583162106594A8.title: "&fMoving Chests"
 	quest.68668718B414B6E4.quest_desc: [
@@ -7988,6 +8263,12 @@
 		"Without getting into specifics, this &bCoal Variable&r of 32 would be stored in the &aVariable Store&r block so that the system can use it as a reference to only put coal into your furnace when you have more than 32 coal in your storage system."
 	]
 	quest.69282BCC2FA04060.title: "&fVariable Store"
+	quest.6932BD0BC70C77E7.quest_desc: [
+		"A ship that flies is easy. A ship that flies level is the hard part."
+		""
+		"Anything with the lift and the weight in different places wants to tip, and once it's tipping the lift points sideways and it tips faster. Balance the hull first, then add something that actively fights the tilt. Follow this quest path to learn the ways to balance."
+	]
+	quest.6932BD0BC70C77E7.title: "&bStability"
 	quest.693E3765975EF799.quest_desc: ["The &aPortable Storage Interface&r allows you to insert/extract items from your contraptions."]
 	quest.693E3765975EF799.title: "&aContraption Interaction"
 	quest.6964408274A7ACF7.title: "Play for &a10 Hours"
@@ -8043,17 +8324,17 @@
 	quest.6A691F59D434B379.quest_desc: [
 		"Here's a simplistic overview of the many reactor mechanics."
 		""
-		"&eNeutron Emission&r: &aFuel Rods&r emit &6Neutrons&r, which start reactions. These can be Fast or Thermal, with a percent change of being either. &aFuel Rods&r can emit the maximum number of &6Neutrons&r, as seen in JEI, or less depending on the temperature it is at. &aFuel Rods&r will also emit &6Neutrons&r when they absorb incoming &6Neutrons&r."
+		"&eNeutron Emission&f: &aFuel Rods&r emit &6Neutrons&r, which start reactions. These can be Fast or Thermal, with a percent change of being either. &aFuel Rods&r can emit the maximum number of &6Neutrons&r, as seen in JEI, or less depending on the temperature it is at. &aFuel Rods&r will also emit &6Neutrons&r when they absorb incoming &6Neutrons&r."
 		"{@pagebreak}"
-		"&eNeutron Absorption&r: &aFuel Rods&r and reactor components have a chance to absorb an incoming &6Fast Neutron&r. If this occurs, the &aFuel Rod&r will emit more &6Neutrons&r, while other components will take a tick of durability."
+		"&eNeutron Absorption&f: &aFuel Rods&r and reactor components have a chance to absorb an incoming &6Fast Neutron&r. If this occurs, the &aFuel Rod&r will emit more &6Neutrons&r, while other components will take a tick of durability."
 		""
-		"&eNeutron Scattering&r: Incoming &6Neutrons&r have a chance to be deflected into other spaces. The direction it travels is random. The &6Neutron&r type has a chance to become either &dFast&r or &dThermal&r, depending on the chance listed on the component's EMI page."
+		"&eNeutron Scattering&f: Incoming &6Neutrons&r have a chance to be deflected into other spaces. The direction it travels is random. The &6Neutron&r type has a chance to become either &dFast&r or &dThermal&r, depending on the chance listed on the component's EMI page."
 		"{@pagebreak}"
-		"&eNeutron Travel&r: If a traveling &6Neutron&r is not absorbed and does NOT scatter, it passes through the component, maintaining its direction of travel. If a &6Neutron&r travels into an unoccupied space (any non-hatch), it disappears."
+		"&eNeutron Travel&f: If a traveling &6Neutron&r is not absorbed and does NOT scatter, it passes through the component, maintaining its direction of travel. If a &6Neutron&r travels into an unoccupied space (any non-hatch), it disappears."
 		""
-		"&eTemperature&r: When a &dThermal Neutron&r is absorbed, it raises the temperature of the component in question."
+		"&eTemperature&f: When a &dThermal Neutron&r is absorbed, it raises the temperature of the component in question."
 		""
-		"&eThermal Conductivity&r: The ability for the component to transmit heat. Sends heat from hot things to less hot things."
+		"&eThermal Conductivity&f: The ability for the component to transmit heat. Sends heat from hot things to less hot things."
 	]
 	quest.6A691F59D434B379.title: "&6Reactor Mechanics"
 	quest.6AA51581B0CA5271.quest_desc: [
@@ -8063,7 +8344,7 @@
 		""
 		"&bStorage Disks&r can be upgraded directly into the next tier by crafting the upgraded part with the existing &bStorage Disk&r, returning your old one in the process while keeping all of your items stored."
 		""
-		"&bStorage Disks&r can be separated from their housing by shift right-clicking when it has no items stored inside it."
+		"&bStorage Disks&r can be separated from their housing by Sneak + Right-clicking when it has no items stored inside it."
 	]
 	quest.6AA51581B0CA5271.title: "&aDisk Drive"
 	quest.6AC3229957F41063.quest_desc: [
@@ -8085,6 +8366,12 @@
 		"It is also used to craft the &dForce of Overworld&r."
 	]
 	quest.6AF5FF1455F7C977.title: "&aAmethyst Talisman"
+	quest.6B09F7DEBFE6905B.quest_desc: [
+		"A ship that flies and steers still needs somewhere to go and a way to stop when it gets there."
+		""
+		"This quest path is docking, ropes, navigation, automated routes, claiming your ship so it keeps ticking while you're away, and taking it into other dimensions."
+	]
+	quest.6B09F7DEBFE6905B.title: "&bGoing Places"
 	quest.6B23438D6F622F5D.quest_desc: ["&4&lWARNING!&r The &cLens of Detonation&r will create a fiery explosion around the block hit by the laser."]
 	quest.6B23438D6F622F5D.title: "&cLens of Detonation"
 	quest.6B390939597DC9E7.quest_desc: [
@@ -8212,6 +8499,12 @@
 		"Right-clicking on storage will wrap it up in tape, then you can break and place it down wherever you need it."
 	]
 	quest.6D165125DC0B8F50.title: "&fPacking Tape"
+	quest.6D24519E78D6F67C.quest_desc: [
+		"A &aCover&f is a facade that wraps around pipes, cables and other awkward blocks so the hull reads as one surface. The &aDirectional Cover&f does the same with a block that has a front."
+		""
+		"Regular cable facades fall off the moment a ship assembles. These survive &eCreate&f contraptions and physics assembly both, so a covered engine room stays covered when it takes off."
+	]
+	quest.6D24519E78D6F67C.title: "&aAeronautics Covers"
 	quest.6D2885E2EC0123BA.quest_desc: ["&7You must &lreally&r&7 like Piña Coladas"]
 	quest.6D28E1AFBB33C43E.quest_desc: ["&dTime Steel&r is used to craft better versions of your existing devices, and a few new gadgets as well."]
 	quest.6D28E1AFBB33C43E.title: "&dTime Steel"
@@ -8272,6 +8565,14 @@
 	quest.6E5CEEE43F0DECA7.quest_desc: ["Loot 100 &eLootr&f barrels while exploring."]
 	quest.6E62CF3784A15E0F.title: "&fChemical Card"
 	quest.6E66D752E153E00F.title: "&fUseful &aTier 1&f Glyphs"
+	quest.6E9D6254DEBD449A.quest_desc: [
+		"The &aNavigation Table&f points at things. Give it a navigation item, a &bFilled Map&f or a &bCompass&f, and it puts out a redstone signal toward the destination, strongest when the ship faces it dead on and weaker as you drift off. Feed that into a servo and the ship finds its own way."
+		""
+		"The &aNavigator's Table&f from &eAeronaut's Compass&f is how you make the destination. Put a compass on it, type coordinates and a name, and the compass points there. Craft it alone to reset it."
+		""
+		"The &3Advanced Navigation Table&f holds several maps at once and exposes the slots to automation, so a route can swap targets as it goes."
+	]
+	quest.6E9D6254DEBD449A.title: "&aNavigation Tables"
 	quest.6EBE4A9647FFC833.quest_desc: [
 		"The &6Injector Fusion Matrix&f automatically processes Injection recipes inside a one-block solution."
 		""
@@ -8435,6 +8736,18 @@
 		"This may be done by throwing yourself into the &5Weeping Well&r. It can also be dropped rarely by slaying villagers with the &6Veil's Edge&r."
 	]
 	quest.7169587C7DC4C8C0.title: "&5Spirit of Sacrifice"
+	quest.7176D0016C3E1BDC.quest_desc: [
+		"This pack's shortcut is the &aSkybound Anchor&f. Place it on a ship and it counters pitch and roll with no rotation, no stress and no fuel."
+		""
+		"It doesn't touch yaw, so the ship still turns freely, and it doesn't fix a hull that's badly out of balance, it just stops the wobble. For a starter ship or a flying base that mostly parks, this is all the stabilization you need. Save the &dGyroscope&f for something that has to fly straight at speed."
+	]
+	quest.7176D0016C3E1BDC.title: "&aSkybound Anchor"
+	quest.71806B23D902DDE1.quest_desc: [
+		"The &aAltitude Sensor&f turns height into a redstone signal. By default the signal grows as you climb, the range is set in its interface, and it can be flipped to shrink instead."
+		""
+		"Feed that signal into the burner or vent and the ship holds a height by itself. Climb, the signal rises, the redstone into the burner drops, the balloon cools, the ship sinks back. Wearing goggles or holding a wrench shows the exact altitude and air pressure."
+	]
+	quest.71806B23D902DDE1.title: "&aAltitude Sensor"
 	quest.71806E77AEE9E050.quest_desc: [
 		"Once you have some &aOsmium&r, we can start generating some basic power using the &eHeat Generator&r."
 		""
@@ -8464,7 +8777,7 @@
 		""
 		"You drill Crude Oil and run it through the &3Distillation Tower&r, so make sure to check JEI to see how to plan your processing."
 		"{@pagebreak}"
-		"A fully-built &3Drilling Rig&r:"
+		"A fully-built &3Drilling Rig&f:"
 		""
 		"{image\\:\\ftb:textures/quests/modern_industrialization/oildrilling.png width:150 height:200 align:center}"
 	]
@@ -8517,11 +8830,11 @@
 		""
 		"It has three different modes:"
 		""
-		"- &bDefault&r: Allows you to disconnect cables from connecting to other cables or blocks next to them. A Logic Cable will NOT automatically connect to blocks except other Logic Cables or some &eI.D&r blocks."
+		"- &bDefault&f: Allows you to disconnect cables from connecting to other cables or blocks next to them. A Logic Cable will NOT automatically connect to blocks except other Logic Cables or some &eI.D&r blocks."
 		"{@pagebreak}"
-		"- &bSave Offset&r: Saves the co-ordinates of the selected block, and applies it as an offset to the selected part."
+		"- &bSave Offset&f: Saves the co-ordinates of the selected block, and applies it as an offset to the selected part."
 		""
-		"- &bSave Offset \\&\\ Side&r: Does the same as the above, but also saves the side of the block you selected. This is particularly useful for blocks that have functionality on a specific side."
+		"- &bSave Offset \\&\\ Side&f: Does the same as the above, but also saves the side of the block you selected. This is particularly useful for blocks that have functionality on a specific side."
 		""
 		"[\"Saving offsets and sides can be useful when using a \", {\"text\": \"Part Enhancement: Offset\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \", as it saves you the trouble of having to calculate and keep track of offsets mentally.\"]"
 	]
@@ -8539,7 +8852,7 @@
 		""
 		"We'll be going over each individual &aReader&r and &aWriter&r component in their own quest as there's a lot to cover for each one."
 		""
-		"&eNote&r: The &aEntity&r, &aInventory&r, and &aMachine Writers&r require addons to function which are not installed in this pack. They are currently not usable."
+		"&eNote&f: The &aEntity&r, &aInventory&r, and &aMachine Writers&r require addons to function which are not installed in this pack. They are currently not usable."
 	]
 	quest.729DF05C1D2AE6E7.title: "&fReaders \\&\\ Writers"
 	quest.72A00FD887707E9D.quest_desc: [
@@ -8602,7 +8915,7 @@
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_adding.png width:190 height:60 align:center}"
 		"{@pagebreak}"
-		"This should automatically fill in the Recipe aspect inside your &aProgrammer&r:"
+		"This should automatically fill in the Recipe aspect inside your &aProgrammer&f:"
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_example.png width:170 height:150 align:center}"
 		"{@pagebreak}"
@@ -8622,7 +8935,7 @@
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_aspect.png width:200 height:125 align:center}"
 		"{@pagebreak}"
-		"You can now use this recipe inside a &aCrafting Interface&r:"
+		"You can now use this recipe inside a &aCrafting Interface&f:"
 		""
 		"{image\\:\\ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_valid.png width:150 height:110 align:center}"
 		"{@pagebreak}"
@@ -8698,7 +9011,7 @@
 		""
 		"Unlike the previous upgrades, you won't need a Simulator Upgrade installed, which allows you to place another one of the upgrades in it instead!"
 	]
-	quest.73F82078E2BC4DA5.title: "&eUpgrade: &fProductivity Gamma"
+	quest.73F82078E2BC4DA5.title: "&eUpgrade&f: Productivity Gamma"
 	quest.73FD015A3696ABFB.quest_desc: ["By infusing a &aDragon's Heart&r into your &dDraconium&r, you can acquire &6Awakened Draconium&r which you'll need if you wish to upgrade your existing &eDE&r setups."]
 	quest.740706F63579237D.quest_desc: [
 		"Quantum technology sure is a chaotic thing. But, a certain &dEnd Guardian&r, the embodiment of Chaos itself, protects a crystal that can control this chaotic energy, allowing us to harness a portion of its powers."
@@ -8733,7 +9046,7 @@
 	quest.74B2332D6BBC0721.quest_desc: [
 		"The &aEye of Legend&r is a special item that allows wanderers to find their way to floating villages out in the void. Simply use the item to summon a guide that drifts briefly in the direction of one before dispersing."
 		""
-		"&eTIP&r: Need some &3Gunpowder&r to make TNT? You could make a mob farm, sure, but our chosen way is to just craft the &3Overworldian Nights Gateway&r any time you need some. Each wave will drop gunpowder which should give you more than enough to progress easily!"
+		"&eTIP&f: Need some &3Gunpowder&r to make TNT? You could make a mob farm, sure, but our chosen way is to just craft the &3Overworldian Nights Gateway&r any time you need some. Each wave will drop gunpowder which should give you more than enough to progress easily!"
 	]
 	quest.74B2332D6BBC0721.title: "&aEye of Legend"
 	quest.74BED9604BDE1EA5.quest_desc: [
@@ -8816,6 +9129,12 @@
 	quest.75CE1ACD81A3CAC5.title: "&7Manganese Dust"
 	quest.75D7595FD90E77E5.quest_desc: ["Each &dAssembler Matrix Pattern Core&r provides 36 pattern slots to the &6Assembler Matrix&r."]
 	quest.75D7595FD90E77E5.title: "&dAssembler Matrix Pattern Core"
+	quest.765CD0AA28077AA3.quest_desc: [
+		"Wear these and the ship stops being a mystery. Every force acting on a &bSimulated Contraption&f gets drawn as an arrow, propellers and thrusters print their output, and assemblies show their details."
+		""
+		"[\"The \", {\"text\": \"Aviator's Goggles\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"425A41A378E7BF52\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Engineer's Goggles Quest\"]}}, \" from \", {\"text\": \"Aeronautics\", \"color\": \"yellow\"}, \" do the same job as \", {\"text\": \"Engineer's Goggles\", \"color\": \"aqua\"}, \" for stress and RPM. Pick whichever pair suits the outfit.\"]"
+	]
+	quest.765CD0AA28077AA3.title: "&3Physics Goggles"
 	quest.767288EF95829225.quest_desc: [
 		"The &3Mechanical Plough&r can create farmland and break blocks that don't have a solid hitbox (snow, torches, rails, levers, etc...)"
 		""
@@ -9101,7 +9420,7 @@
 		""
 		"By holding the &aWrench&r and looking at the base machine of a multiblock, it will create holograms of blocks to show you how to build it!"
 		""
-		"&eTip&r: Place it in your off-hand when building multiblocks!"
+		"&eTip&f: Place it in your off-hand when building multiblocks!"
 	]
 	quest.79408CC2B3EF8DA6.title: "&fThe &2Wrench &fand You!"
 	quest.794C1EAA6252BC44.quest_desc: ["Refund your spent skill points in the Ranged tree."]
@@ -9233,11 +9552,6 @@
 		"To extract the power from the generator, you must connect a pipe or machine to the front face that has a square on it! "
 	]
 	quest.7B579D0762DB9F33.title: "&fHeat Generator"
-	quest.7B60B5C3AA48EE25.quest_desc: [
-		"This page aims to get you started on some of the &eCreate&f mod addons in this pack and show you some useful items."
-		""
-		"When dealing with &eCreate&f, remember that &bPonders&f can be extremely helpful in figuring out how something works."
-	]
 	quest.7B65BEA50EBC983D.quest_desc: [
 		"After entering the Nether void, various porcine creatures may appear if given a large enough surface. Some of them may attack you on sight, but these &aPiglins&r are neutral to anyone &bwearing gold&r."
 		""
@@ -9247,7 +9561,7 @@
 	quest.7B77544B48E690CB.quest_desc: [
 		"If you want to connect and create all of your storage into a single network, this can easily be done by making the &aStorage Controller&r."
 		""
-		"Any storage container that is placed next to the &aController&r will automatically link to it. This allows you to item dump by right-clicking or sneak-right-clicking on the Controller for easy inventory management!"
+		"Any storage container that is placed next to the &aController&r will automatically link to it. This allows you to item dump by right-clicking or Sneak + Right-clicking on the Controller for easy inventory management!"
 		"{@pagebreak}"
 		"Placing storage next to anything that is linked to the Controller will also add it to the network as well, like a big multiblock chest! You can make &aStorage Links&r to connect any storage container that might be separate from your main storage hub, and can use the &aStorage Tool&r to link them up to the Controller!"
 	]
@@ -9306,6 +9620,15 @@
 	quest.7C0FD2B2589BC66D.title: "&bBigger \\&\\ Better"
 	quest.7C2617969808F086.quest_desc: ["Slapping some &3Transistors&r and &3Capacitors&r on the &dUnassembled PCB&r will make a &bPrinted Circuit Board&r."]
 	quest.7C2617969808F086.title: "&fFinished PCB"
+	quest.7C2F9F95406E9258.quest_desc: [
+		"&eAeroPortals&f lets a ship fly through a portal. Not you, the ship. Sail the hull into a &bNether Portal&f and the entire contraption arrives on the other side, crew, cargo, balloon and all, still moving at the speed it went in."
+		""
+		"It works on far more than the Nether. The &bEnd&f, &eArs Nouveau&f portals, &eDraconic&f, the &bEnder Gateway&f, &eTelePastries&f, even the &6Pina Colada&f. Build the portal big enough for the ship to pass through it."
+		""
+		"&cWarning&f: The destination has to have room. A ship that would arrive inside solid rock has its jump cancelled rather than the rock removed, so scout the far side first. A portal of matching size gets built for you if none is waiting, and a ship can't jump again for ten seconds after arriving. Keep the hull under 200,000 blocks of bounding box or the portal won't notice it at all."
+	]
+	quest.7C2F9F95406E9258.quest_subtitle: "The whole ship goes"
+	quest.7C2F9F95406E9258.title: "&dAero Portals"
 	quest.7C4F7E36320797C5.title: "&bTier 4 &fMob Seeds"
 	quest.7C71C66C357C3623.quest_desc: ["&2Diethyl Ether&r is used to turn &eDiesel&r and &aBiodiesel&r into &6Boosted Diesel&r."]
 	quest.7C71C66C357C3623.title: "&2Diethyl Ether"
@@ -9396,7 +9719,7 @@
 		"- &2Hoppers&r under &2mud&r can still pick up items."
 		"- &2Snad&r, when directly pulsed with redstone, causes &asugarcane&r to grow quite fast."
 		""
-		"&c&lWarning&r: Throw only one piece of paper! Using more will waste the rest of the stack!"
+		"&c&lWarning&f: Throw only one piece of paper! Using more will waste the rest of the stack!"
 	]
 	quest.7D2375372CF328C3.title: "&fAir Dash"
 	quest.7D23D1C9DE75721F.title: "&fKill 20 &cSkeletons"
@@ -9427,6 +9750,12 @@
 	quest.7D6F927122F7FE62.title: "&6Ender Crystal"
 	quest.7D98D9AB89357FA6.quest_desc: ["We're now ready to make the journey into a new technological age, the &2LV Age&r. Each machine in this age will require these &aBasic Machine Hulls&r. You'll use &cA LOT&r of them."]
 	quest.7D98D9AB89357FA6.title: "&fThe &2LV Age"
+	quest.7D996CB0951B1037.quest_desc: [
+		"A &dPropulsion Upgrade&f multiplies thrust. Tier 1 doubles it, and each tier doubles again up to sixteen times at Tier 4, with the fuel bill climbing to match."
+		""
+		"&dProcessing Upgrades&f turn the exhaust into an &bEncased Fan&f. Items on &aDepots&f in the stream get smoked, smelted or haunted, faster and over a wider area at higher tiers. The &dThruster Lens&f swaps fuel for &bFE&f entirely, 90 FE per tick at full throttle, and focuses the plume into a beam that pushes harder than the open flame. The &aFuel Oxidizer&f boosts supported fuels by half again."
+	]
+	quest.7D996CB0951B1037.title: "&dThruster Upgrades"
 	quest.7DC700AAF1680424.title: "&aCardboard"
 	quest.7DE9A4C7979AC1FA.quest_desc: [
 		"The &6Tempad&r allows you to open a door to any marked location."
@@ -9439,7 +9768,7 @@
 	quest.7E2399076FA8B7AC.quest_desc: [
 		"The &aMono-Directional Connector&r can connect two networks in a straight line up to 512 blocks away."
 		""
-		"&eNote&r: These can cause large amounts of tps lag if used often, so try to avoid using them too much."
+		"&eNote&f: These can cause large amounts of tps lag if used often, so try to avoid using them too much."
 	]
 	quest.7E2399076FA8B7AC.title: "&fMono-Directional Connector"
 	quest.7E4532B9052F0BEC.quest_desc: ["Theis row has your &dLate Game Generators&f, providing you the most power; perfect for your advanced late-game setups."]
@@ -9510,7 +9839,7 @@
 		""
 		"Higher tier fuels provide the same FE/t, but lasts a lot longer!"
 		""
-		"&eNote&r: Hitting &aU&r on the Fuel Generator will show a full list of fuels that can be used."
+		"&eNote&f: Hitting &aU&r on the Fuel Generator will show a full list of fuels that can be used."
 	]
 	quest.7F24FA574B370F08.quest_subtitle: "Evocation Set"
 	quest.7F24FA574B370F08.title: "&aArchevoker Set"
@@ -9555,7 +9884,7 @@
 	]
 	quest.7FA34CEB41A4D9F5.title: "&aSteam Blast Furnace"
 	quest.7FBA170218539BE8.quest_desc: [
-		"Cognition has a unique method of XP generation by way of &aBibliophages&r: tiny constructs that steadily break down bookshelves into XP orbs until only &7Forgotten Dust&r is left behind."
+		"Cognition has a unique method of XP generation by way of &aBibliophages&f: tiny constructs that steadily break down bookshelves into XP orbs until only &7Forgotten Dust&r is left behind."
 		""
 		"&aInfected Bookshelves&r can spread the phages onto other bookshelves, allowing for a single use of a Bibliophage to affect as many connected bookshelves as available. This process can be halted by using a &eStaff of Attunement&r on the infected shelf."
 		""
@@ -9707,12 +10036,13 @@
 	task.0ADB488118F04CF5.title: "Bee Stats"
 	task.0AE9E3C1553154B6.title: "Machine Cores"
 	task.0BC939593E954EC8.title: "Skills"
+	task.0BE0A1D1F62A6D47.title: "Any #ftb:tropicraft_chair"
 	task.0C13FA83021AE4C5.title: "&eKill&f: &6Netherite Monstrosity"
 	task.0C41CFCD491848EC.title: "&aInferium &fArmor"
 	task.0D41D1A509DD941A.title: "Importers"
 	task.0E1704694A58907A.title: "Motors"
 	task.0E7B34D38F84AC11.title: "Any Brooch"
-	task.0E7BA466F8A98A9F.title: "&eKill: &cClawdian"
+	task.0E7BA466F8A98A9F.title: "&eKill&f: &cClawdian"
 	task.0ECBFE9262249011.title: "Any soulstained tool"
 	task.0ED7E5C08F734CB3.title: "Refuse to Slay a Golem"
 	task.0F868488088CDEC1.title: "BEER"
@@ -9817,7 +10147,6 @@
 	task.349CB5A281EE3E5B.title: "&eKill&f: &4The Watcher"
 	task.35409BE8A6FF3D03.title: "&6MekaSuit"
 	task.354FABEDA5A08474.title: "&6Tier 4"
-	task.35E6B8F66E06A2F1.title: "Create: Addons"
 	task.36C5D1EED2022E8D.title: "&aTier 1"
 	task.36D4CF12BC70DBDD.title: "&fAll About Networks!"
 	task.3772CB9C1C8A3D66.title: "Automating Spirits?"
@@ -9854,7 +10183,7 @@
 	task.4096CA7300D6F0EB.title: "Toggling Talisman Effects"
 	task.40EF108176203527.title: "Any basic wooden tool"
 	task.41C6DFE9A3B35FF8.title: "Exporters"
-	task.41F820C3A757072B.title: "&eKill: &bScylla"
+	task.41F820C3A757072B.title: "&eKill&f: &bScylla"
 	task.425475855D1D929C.title: "Augments"
 	task.42D7392235F0A913.title: "&fFramed Drawers"
 	task.43335047972E4FA8.title: "&eFind Structure&f: &dEnd Castle"
@@ -9886,7 +10215,6 @@
 	task.4C9C28A8ADC0B379.title: "Any #cabletiers:ultra_constructors"
 	task.4D5C3B07083B5ED6.title: "I already have power"
 	task.4D84454C3C872F73.title: "Observe the &aSteering Wheel&r"
-	task.4DA7CC978A6E7D2D.title: "&eObserve&f: Levitite"
 	task.4DBC16ACBFEF4D40.title: "Stack Upgrades"
 	task.4DDC10B7CDEA5CB5.title: "&fInterfaces"
 	task.4F1777D10DAD6649.title: "Any &bElemental &fSeed"
@@ -9907,12 +10235,11 @@
 	task.555E91E3488C8559.title: "Standard Cognitive tools"
 	task.556948BC1DE8468D.title: "Any #c:gravels"
 	task.55B1C70507F60EDF.title: "&fThe &bAE2 Guide"
-	task.55E36C96A2424F59.title: "&eKill: &6Ancient Remnant"
+	task.55E36C96A2424F59.title: "&eKill&f: &6Ancient Remnant"
 	task.55F5BD3470BD58A4.title: "Energizing Rods"
 	task.56A35A967954A4C2.title: "&aDrawers"
 	task.56AEAE6BD791EA6C.title: "&fEnergy Cables"
 	task.56BA1011DDE093D0.title: "&fRaw Osmium Ore"
-	task.56EDE00103BDA015.title: "Upgrades"
 	task.56F4B59903257C92.title: "&eKill&f: &3Deepling Priest"
 	task.574369B60421C9FF.title: "&aBanding Materials"
 	task.575F4232C0E9D957.title: "Magical Equipment"
@@ -9979,9 +10306,9 @@
 	task.6C0240B676A69E94.title: "Elite Circuit or Analog Circuit"
 	task.6C6FBA9B08EC0728.title: "Any #constructionstick:construction_sticks"
 	task.6C730129357A78D0.title: "&eKill&f: &cZombified Piglins"
-	task.6C7516F4970E8191.title: "Modules and Buttons"
 	task.6D2BF51317854A51.title: "&eKill&f: &3Coralssus"
 	task.6D8527E9C8C06246.title: "Soulful Drops"
+	task.6EB6678C52C4F313.title: "Upgrades"
 	task.6F25EA9A5E06524F.title: "Implosion Machines"
 	task.6F50B64460D2EC3D.title: "&eFind Structure&f: &cFargo's Dungeon"
 	task.6F72448CD3FD5163.title: "How To Get Bees!"
