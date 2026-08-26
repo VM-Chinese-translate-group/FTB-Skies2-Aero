@@ -167,7 +167,7 @@
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 21.0d
+			x: 21.5d
 			y: 6.370000000000001d
 		}
 		{
@@ -177,7 +177,7 @@
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 22.0d
+			x: 22.5d
 			y: 6.370000000000001d
 		}
 		{
@@ -187,8 +187,8 @@
 			image: "create:block/mechanical_arm_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: 23.0d
-			y: 6.370000000000001d
+			x: 22.5d
+			y: 7.620000000000001d
 		}
 		{
 			click_action: "none:"
@@ -209,6 +209,36 @@
 			width: 1.0d
 			x: 20.0d
 			y: 4.370000000000001d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "49B583BCA574D30E"
+			image: "create:block/mechanical_arm_side"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.5d
+			y: 7.62d
+		}
+		{
+			click_action: "none:"
+			height: 1.25d
+			id: "21B2ACA3AE6E71EA"
+			image: "ftb:textures/quests/create/placard.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 6.75d
+			y: -4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.25d
+			id: "4A7A88882689FE3C"
+			image: "ftb:textures/quests/create/placard.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 4.25d
+			y: -4.5d
 		}
 	]
 	order_index: 1
@@ -257,7 +287,7 @@
 				}
 			]
 			x: 16.0d
-			y: -3.0d
+			y: -4.25d
 		}
 		{
 			id: "6AC3229957F41063"
@@ -426,7 +456,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["0F4C0E2BA12726FA"]
@@ -456,7 +486,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6A45F51C228012B1"]
@@ -747,6 +777,9 @@
 		{
 			dependencies: ["602E22F391C57619"]
 			hide_dependency_lines: true
+			icon: {
+				id: "create:belt_connector"
+			}
 			id: "07BCE0B7BDB4E155"
 			rewards: [
 				{
@@ -765,14 +798,32 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					count: 2
+					id: "51EA473C5DF2E256"
+					item: {
+						count: 1
+						id: "createtransmission:transmission_chain"
+					}
+					random_bonus: 2
+					type: "item"
+				}
 			]
 			shape: "none"
 			size: 1.0d
-			tasks: [{
-				id: "2AD035AF458E1231"
-				item: { count: 1, id: "create:belt_connector" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AD035AF458E1231"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					id: "78F2D20D96A1110B"
+					item: { count: 1, id: "createtransmission:transmission_chain" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 6.25d
 			y: -3.0d
 		}
@@ -911,15 +962,19 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["602E22F391C57619"]
-			hide_dependency_lines: true
+			dependencies: [
+				"415FB6154BA6209B"
+				"176783D2397F5BE7"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
 			icon: {
 				id: "create:mechanical_mixer"
 			}
 			id: "66AB8C43E63AD672"
 			rewards: [
 				{
-					amount: 5
+					amount: 3
 					id: "5D78A45B78CB2466"
 					team_reward: false
 					type: "currency"
@@ -933,21 +988,13 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			tasks: [
-				{
-					id: "3E4C8C72560123A0"
-					item: { count: 1, id: "create:mechanical_mixer" }
-					type: "item"
-				}
-				{
-					id: "1685764B0C71551F"
-					item: { count: 1, id: "create:blaze_burner" }
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3E4C8C72560123A0"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
 			x: 15.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -1978,6 +2025,7 @@
 		}
 		{
 			dependencies: ["3557FBCEFEF444CC"]
+			hide_dependency_lines: true
 			id: "57260AC6D2C4A9F9"
 			rewards: [
 				{
@@ -2002,11 +2050,12 @@
 				item: { count: 1, id: "create:rotation_speed_controller" }
 				type: "item"
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["3557FBCEFEF444CC"]
+			hide_dependency_lines: true
 			id: "75A5A110FC155C5C"
 			rewards: [
 				{
@@ -2032,8 +2081,8 @@
 				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
-			x: 23.0d
-			y: 5.5d
+			x: 22.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["706E4918137CFA07"]
@@ -2391,7 +2440,7 @@
 				}
 			]
 			x: 15.0d
-			y: -4.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["0467ED23E790F1C4"]
@@ -2543,6 +2592,7 @@
 		}
 		{
 			dependencies: ["3557FBCEFEF444CC"]
+			hide_dependency_lines: true
 			id: "082DD19BC652E4FF"
 			rewards: [
 				{
@@ -2569,7 +2619,7 @@
 				item: { count: 1, id: "create:factory_gauge" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: 5.5d
 		}
 		{
@@ -2819,7 +2869,7 @@
 				}
 			]
 			x: 15.0d
-			y: -3.0d
+			y: -4.25d
 		}
 		{
 			dependencies: ["7B79DD44BE8E1BB7"]
@@ -3266,6 +3316,7 @@
 			}
 			id: "12488A9A290B00DC"
 			min_width: 350
+			optional: true
 			rewards: [{
 				amount: 25
 				id: "4CC08F288852C3AD"
@@ -3290,6 +3341,7 @@
 		{
 			dependencies: ["12488A9A290B00DC"]
 			id: "123341C9AFD8E86A"
+			optional: true
 			rewards: [{
 				amount: 75
 				id: "0E2C2616D996872F"
@@ -3304,6 +3356,210 @@
 			}]
 			x: 25.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["3557FBCEFEF444CC"]
+			hide_dependency_lines: true
+			id: "7BDD4842A8DB77F6"
+			rewards: [
+				{
+					amount: 15
+					id: "7959D7981B5FC2CB"
+					type: "currency"
+				}
+				{
+					id: "0C59BD6B41785C41"
+					item: {
+						count: 1
+						id: "create:rotation_speed_controller"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6B470F25781B9254"
+				item: { components: { "create_connected:kinetic_battery_charge": 3.6864E7d }, count: 1, id: "create_connected:kinetic_battery" }
+				type: "item"
+			}]
+			x: 21.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["0F4C0E2BA12726FA"]
+			icon: {
+				id: "create_connected:kinetic_bridge"
+			}
+			id: "3CDF1981A930B6C5"
+			rewards: [
+				{
+					amount: 10
+					id: "402C12AB8F74F4EB"
+					type: "currency"
+				}
+				{
+					id: "271DE28FF44D617C"
+					item: {
+						count: 1
+						id: "create:stressometer"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3488A5C31D231B92"
+					item: { count: 1, id: "create_connected:kinetic_bridge" }
+					type: "item"
+				}
+				{
+					id: "1741E68284BCF15A"
+					item: { count: 1, id: "create_connected:overstress_clutch" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "create_new_age:reinforced_energiser"
+			}
+			id: "3C9335337392A726"
+			rewards: [
+				{
+					amount: 1
+					id: "179BA503CDE9AB3F"
+					type: "currency"
+				}
+				{
+					id: "64A2FF41DD38AA78"
+					item: {
+						count: 1
+						id: "excessive_utilities:survivalist_generator"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [
+				{
+					id: "5FA883F4C7A813C0"
+					item: { components: { "ftbfiltersystem:filter": "or(item(create_new_age:basic_energiser)item(create_new_age:advanced_energiser)item(create_new_age:reinforced_energiser))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1E1AB4C026855273"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ftbskies2aerocompanion:netherite_energiser)item(ftbskies2aerocompanion:platinum_energiser)item(ftbskies2aerocompanion:titanium_energiser)item(ftbskies2aerocompanion:quantum_energiser))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.767857142857146d
+			y: -4.4640306122448905d
+		}
+		{
+			icon: {
+				id: "create_new_age:reinforced_motor"
+			}
+			id: "020E45FCE378CC54"
+			rewards: [{
+				amount: 3
+				id: "3777176D8D6E92CD"
+				type: "currency"
+			}]
+			shape: "none"
+			tasks: [
+				{
+					id: "0E1704694A58907A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(create_new_age:basic_motor)item(create_new_age:advanced_motor)item(create_new_age:reinforced_motor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7B09D502A20CC9BD"
+					item: { components: { "ftbfiltersystem:filter": "or(item(create_new_age:advanced_motor_extension)item(create_new_age:basic_motor_extension))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.278061224489797d
+			y: -4.525255102040809d
+		}
+		{
+			dependencies: ["7B79DD44BE8E1BB7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "create_new_age:basic_solar_heating_plate"
+			}
+			id: "176783D2397F5BE7"
+			rewards: [
+				{
+					amount: 5
+					id: "50707E9F1DB58F1F"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A352A0E62986284"
+					table_id: 5312113063121691887L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3F82DED95A9BC0B3"
+					item: { count: 1, id: "create_new_age:heat_pipe" }
+					type: "item"
+				}
+				{
+					id: "04C1CFAD29E358F9"
+					item: { count: 1, id: "create_new_age:heat_pump" }
+					type: "item"
+				}
+				{
+					id: "5895E635907FB075"
+					item: { components: { "ftbfiltersystem:filter": "or(item(create_new_age:basic_solar_heating_plate)item(create_new_age:advanced_solar_heating_plate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B79DD44BE8E1BB7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "create:blaze_burner"
+			}
+			id: "415FB6154BA6209B"
+			rewards: [
+				{
+					amount: 5
+					id: "4673B3D6EF8FE357"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BF01EB83E879C01"
+					table_id: 5312113063121691887L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7B7C542F65832C3C"
+					item: { count: 1, id: "create:empty_blaze_burner" }
+					type: "item"
+				}
+				{
+					id: "77D3332C23296F50"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.0d
 		}
 	]
 }
