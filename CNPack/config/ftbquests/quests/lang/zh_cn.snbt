@@ -162,11 +162,11 @@
 	]
 	quest.0128A3EC005A8AE5.title: "物理组装器"
 	quest.012ACDB95C655DDB.quest_desc: [
-		"A ship needs rotation on board, and a waterwheel doesn't travel well. The &aPortable Engine&f burns fuel and spins a shaft, in either direction, and it'll take fuel from hoppers and belts so you don't have to hand-feed it in flight."
+		"飞船需要随船携带旋转力，而水车并不适合在航行中使用。&a便携式引擎&f通过燃烧燃料驱动传动杆双向旋转，且支持通过漏斗和传送带自动上料，无需在飞行途中手动补充燃料。"
 		""
-		"Drop a &dBlaze Cake&f in and it runs superheated for more power. "
+		"投入&d烈焰蛋糕&f可使其进入过热状态，输出更多动力。"
 		""
-		"[\"The \", {\"text\": \"Stirling Engine\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"17C82FAD796695DE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Stress Relief Quest\"]}}, \" from \", {\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \" is the other onboard option, and any \", {\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \" burner can heat it.\"]"
+		"{\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \"中的\", {\"text\": \"斯特林发送机\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"17C82FAD796695DE\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往应力减负任务\"]}}, \"是另一种机载动力方案，且任何\", {\"text\": \"Create Propulsion\", \"color\": \"yellow\"}, \"的燃烧器均可为其供热。\"]"
 	]
 	quest.012ACDB95C655DDB.title: "&a便携式引擎"
 	quest.012AEBFDB1F1512E.title: "核源铁盔甲"
@@ -233,11 +233,11 @@
 	]
 	quest.0241EAE68EA53595.title: "&f用蜂巢获取蜜蜂"
 	quest.02926DC431DB0DD2.quest_desc: [
-		"&bThrust&f is the push. Propellers make it from rotation, thrusters make it from fuel, and both of them push on the ship at the block where they sit."
+		"&b推力&f即前进的动力。螺旋桨消耗旋转力产生推力，推进器消耗燃料产生推力，且二者都会在安装所在的方块位置对飞船施加推力。"
 		""
-		"Where the push sits matters as much as how hard it pushes. Thrust below the centre of mass pitches the nose up, thrust on one side turns you, and thrust that isn't pointed straight through the centre of mass turns into a slow spin. The &aContraption Diagram&f shows you exactly where every one of them is pushing."
+		"施力点的位置与推力大小同样关键。质心下方的推力会使船头上仰，单侧的推力会带动转向，而未正对质心的推力则会导致飞船缓慢自旋。&a结构图解&f可精准显示各推进部件的具体施力位置与方向。"
 	]
-	quest.02926DC431DB0DD2.title: "&bThrust"
+	quest.02926DC431DB0DD2.title: "&b推力"
 	quest.02BC61BBCDB931A3.quest_desc: [
 		"&d燃气发电机&r是游戏前期最强的发电方式之一，可一直用到游戏中期。"
 		""
@@ -308,13 +308,13 @@
 	]
 	quest.03569C25419223DC.title: "&f存储升级"
 	quest.035FB8020EAB6725.quest_desc: [
-		"Place a &aContraption Claim Block&f on a ship and the ship becomes &eFTB Chunks&f territory. Only your team can break it or open it, allies can be added from the block, and it shows up on the map with its altitude and speed."
+		"在飞船上放置&a动态认领方块&f后，整艘飞船便会成为&eFTB Chunks&f的领地。仅你的队伍可以破坏方块或打开容器，也可在该方块中添加盟友，且飞船的海拔高度与航速都会实时显示在地图上。"
 		""
-		"The block also lets you force-load the ship. &bKeep Anchor Loaded&f keeps the chunks under it awake so it keeps existing while you're gone, and &bKeep Physics Active&f keeps it simulating too, so a flying farm keeps farming. Both count against your team's force-load limits."
+		"该方块还支持强加载飞船。&b保持锚点加载&f可保持飞船下方区块处于活跃状态，确保你离开时飞船依然存在；&b保持物理模拟激活&f则能让物理运算持续进行，使飞行农场在你离开后继续运作。两项设置均会占用队伍的强加载区块额度。"
 		""
-		"&cWarning&f: A ship that never stops simulating is a ship that never stops costing the server. Force-load the base, not the fleet."
+		"&c警告&f：持续进行物理模拟的飞船会不断消耗服务器性能。请强制加载基地，而不是整个舰队。"
 	]
-	quest.035FB8020EAB6725.title: "&aContraption Claim Block"
+	quest.035FB8020EAB6725.title: "&a动态结构认领方块"
 	quest.0361236BF20549B5.quest_desc: [
 		"骷髅头颅给予+1x能量容量和充能速度"
 		""
@@ -378,11 +378,11 @@
 	]
 	quest.040795388568AB69.title: "&f找到&5废弃城堡（Ruined Citadel）"
 	quest.0442C24F82084CE8.quest_desc: [
-		"For when the ship is parked and the island is over there. Hold the &aHang Glider&f and jump off something tall and you glide instead of drop. The &3Reinforced Hang Glider&f lasts longer between repairs."
+		"适合飞船已停稳、目标岛屿就在眼前的场景。手持&a滑翔翼&f从高处跃下即可向前滑翔，免于坠落。&3强化悬挂式滑翔翼&f拥有更高的耐久度，无需频繁修复。"
 		""
-		"&7&oNo lift, no engine, no landing gear. Aim for the water."
+		"&7&o无升力，无引擎，无起落架。瞄准水面降落吧。"
 	]
-	quest.0442C24F82084CE8.title: "&aHang Glider"
+	quest.0442C24F82084CE8.title: "&a悬挂式滑翔翼"
 	quest.044A192E503B766B.quest_desc: [
 		"&a心之治疗创可贴&r就像创可贴一样，会根据其等级为玩家恢复大量生命值。但它有冷却时间，用它救急时要注意。"
 		""
@@ -567,11 +567,11 @@
 	]
 	quest.073546F80EDA632E.title: "&a贸易站"
 	quest.0765E40A957F1F00.quest_desc: [
-		"Climbing down to tie up a ship gets old. A &3Throwable Rope Connector&f is a connector you throw, and it anchors wherever it lands, up to 10 blocks away. Keep one in your off hand and the &3Rope Connector Launcher&f fires it 20 blocks instead."
+		"每次都得爬下去系缆绳未免太麻烦了。&3投掷式绳索连接器&f可直接用手投掷，最远可在10格外的落点锚定。将其置于副手时，使用&3绳索连接器发射器&f可将射程提升至20格。"
 		""
-		"The &3Mounted Rope Launcher&f is the ship-side version with a 40 block reach. Right-click to mount it, left-click to fire, right-click to release the anchor, and a redstone pulse fires it along its last aim so the docking sequence can throw its own lines. Ammo is only used up when a throw actually sticks."
+		"&3固定式绳索发射器&f是安装在飞船上的版本，射程可达40格。右击操控，左击发射，右击释放锚点；输入红石脉冲即可沿上一次瞄准的方向自动发射，便于让停泊自动化程序自行抛掷缆绳。只有成功锚定固定时才会消耗弹药。"
 	]
-	quest.0765E40A957F1F00.title: "&3Rope Launchers"
+	quest.0765E40A957F1F00.title: "&3绳索发射器"
 	quest.077F5C3829CA7300.quest_desc: [
 		"为了鼓励玩家不断探索、尝尽各种美食，玩家在本整合包中食用不同食物可以获得&6额外生命值&r！"
 		""
@@ -783,11 +783,11 @@
 	]
 	quest.09B6F6758B0EEEC5.title: "&f巫师之树"
 	quest.09B7653EF21B5A33.quest_desc: [
-		"&bLift&f is anything that pushes up. There are three ways to get it. Trap hot gas in a balloon, bolt on &dLevitite&f, use propellers to propel higher, or go fast enough that sails and wings start carrying you."
+		"&b升力&f即向上托举的力。获取升力主要有几种途径：在气球中收集热气、装上&d浮空水晶&f、使用螺旋桨向上推升，或是航速足够快时让帆和机翼提供托举。"
 		""
-		"A ship settles at the height where lift and weight are equal. Air gets thinner as you climb, so the same balloon lifts less up high, and that's what stops a balloon rising forever. Add lift to climb, cut it to sink. "
+		"当升力与重力平衡时，飞船便会稳定在对应高度。随着高度上升，空气会越来越稀薄，同一个气球在高空产生的升力也会减少，这也限制了气球无限攀升。增大升力即可爬升，减少升力即可下沉。"
 	]
-	quest.09B7653EF21B5A33.title: "&bLift"
+	quest.09B7653EF21B5A33.title: "&b升力"
 	quest.09BC75B655BDC624.quest_desc: [
 		"获得多只相同类型的蜜蜂很困难，尤其是&d末影龙蜜蜂&r这种需要特殊繁殖花的蜜蜂。"
 		""
@@ -993,13 +993,13 @@
 	]
 	quest.0BAF0C06F01C4E80.title: "&f机器适配器插件"
 	quest.0BC10EF89AA8FF5D.quest_desc: [
-		"A flying base is a target. A flying base with guns is a fleet."
+		"飞行基地只是靶子，配备火炮的飞行基地才称得上舰队。"
 		""
-		"&eCreate Big Cannons&f puts real artillery on the deck, from a cast-iron field gun to a built-up steel monster, and &eShield Generators&f puts something between you and the reply. Both run on the same &eCreate&f rotation and redstone the rest of the ship already uses."
+		"&e机械动力：火炮&f模组可以为甲板装上真正的重型火炮——从基础的铸铁野战炮到庞大的套接钢炮巨兽；而&e护盾发生器（Shield Generators）&f则能为你筑起抵御反击的屏障。二者与飞船上的其他部件一样，依靠相同的&e机械动力&f的旋转力与红石信号驱动。"
 		""
-		"&cWarning&f: Guns kick. A cannon firing off one side of a light airship moves the airship. Mount them near the centre of mass, fire in pairs, or enjoy the spin."
+		"&c警告&f：开炮存在后坐力。在轻型飞船单侧开炮会推动整艘飞船。请将其安装在质心附近、成对开火，否则就尽情享受原地自旋吧。"
 	]
-	quest.0BC10EF89AA8FF5D.title: "&cArmament"
+	quest.0BC10EF89AA8FF5D.title: "&c武装"
 	quest.0BEF15E1352A5F72.quest_desc: [
 		"&eReplication&r模组可以让你把物品和方块分解为&b物质&r，这些物质可以转换为其他材料和相同类型的物品。"
 		""
@@ -1087,11 +1087,11 @@
 	quest.0D0A1E61C2384E37.title: "五大要素"
 	quest.0D35D0D33922A201.title: "&f打败十波&d永恒之门"
 	quest.0D3AB3D21858B5E3.quest_desc: [
-		"&aHoney Glue&f is &bSuper Glue&f for ships. Click two corners and it glues the box between them. &bCtrl+Scroll&f grows or shrinks the box, and holding &bAlt&f lets you drop a corner in mid-air."
+		"&a蜂蜜胶&f是专为飞船设计的&b强力胶&f。点击两个对角即可粘合其围成的长方体选区。&bCtrl+滚轮&f可缩放选区大小，按住&bAlt&f可在空中选定角点。"
 		""
-		"The difference from &bSuper Glue&f is what it sticks to. &aHoney Glue&f only ever attaches to &bSimulated Contraptions&f, so a bearing or piston contraption passing by won't drag half your deck away. It will grab any &bSuper Glue&f it overlaps, but &bSuper Glue&f won't grab it back."
+		"它与&b强力胶&f的区别在于粘合的对象。&a蜂蜜胶&f只会粘合&b物理结构&f，因此路过的轴承或活塞装置不会意外扯走你半边甲板。它会吸纳任何与其重叠的&b强力胶&f区域，但&b强力胶&f不会反向粘合它。"
 		""
-		"&eCreate Propulsion&f adds an &aAuto Glue&f item that draws one honey box over a whole connected structure in a single click. Handy on a big hull."
+		"&eCreate Propulsion&f新增了&a自动黏合器&f，只需单次点击即可将整个相连结构框入同一个蜂蜜胶选区，在建造大型船体时非常实用。"
 	]
 	quest.0D3AB3D21858B5E3.title: "&a蜂蜜胶"
 	quest.0D4FAFE90506EC1D.quest_desc: ["&d升降机滑轮&r的功能类似于&3绳索滑轮&r，但可以使用&3接触式红石信号发生器&r和&a动态结构控制器&r来分配不同的楼层。"]
@@ -1380,9 +1380,9 @@
 	quest.112F8339E73484F3.quest_desc: [
 		"固定引擎只能朝单一方向提供推力。若想依靠推力转向，就得让引擎能够摆动。"
 		""
-		"&d矢量推进器&f自身即可偏转。在其各个面输入红石信号可控制喷口的偏航与俯仰；&d液体矢量推进器&f以&b松节油（Turpentine）&f为燃料，具有相同的功能。另一种方案是使用&3伺服轴承（Servo Bearing）&f：将任意推进器安装在其上，利用轴承两侧的红石信号差，即可带动整个部件旋转至多90度。"
+		"&d矢量推进器&f自身即可偏转。在其各个面输入红石信号可控制喷口的偏航与俯仰；&d液体矢量推进器&f以&b松节油（Turpentine）&f为燃料，具有相同的功能。另一种方案是使用&3舵机轴承（Servo Bearing）&f：将任意推进器安装在其上，利用轴承两侧的红石信号差，即可带动整个部件旋转至多90度。"
 		""
-		"在&3伺服轴承（Smart Gearbox）&f后方放置处于伺服模式的&b智能齿轮箱&f，即可根据姿态数据自动调整引擎朝向，这也是飞船自动保持航向的原理。"
+		"在&3舵机轴承（Smart Gearbox）&f后方放置处于舵机模式的&b智能齿轮箱（Smart Gearbox）&f，即可根据姿态数据自动调整引擎朝向，这也是飞船自动保持航向的原理。"
 	]
 	quest.112F8339E73484F3.title: "&d矢量推力"
 	quest.114B4840D2FA1CDF.quest_desc: [
@@ -1808,11 +1808,11 @@
 	quest.1739969280BB4E82.quest_subtitle: "传输红石信号"
 	quest.1739969280BB4E82.title: "&f红石导管"
 	quest.174B0BF2FAF28318.quest_desc: [
-		"A &aNameplate&f names the ship. Right-click to edit, dye to recolour, and wax it with honeycomb to lock the name. Every nameplate on the same contraption shares one name, and the &aAirship Station&f later in this chapter picks ships by that name, so name it early."
+		"&a铭牌&f用于为飞船命名。右击可编辑名称，使用染料可改变颜色，使用蜜脾涂蜡可锁定名称。同一装置上的所有铭牌共享同一个名称；本章后文中的&a飞艇站（Airship Station）&f会通过该名称识别飞船，因此建议尽早命名。"
 		""
-		"A &aHandle&f is something to hold on to. Hold right-click to grab it and pull yourself along, hold it while sneaking to pull the ship instead, and scroll to change your distance. Grabbing one mid-fall also ends the fall without ending you."
+		"&a把手&f可供抓握固定。按住右键即可抓握并随船移动，潜行时抓握则可拉动飞船，滑动滚轮可调节抓握距离。在下坠途中抓住把手还能中止坠落，保你一命。"
 	]
-	quest.174B0BF2FAF28318.title: "&aNameplates and Handles"
+	quest.174B0BF2FAF28318.title: "&a铭牌与把手"
 	quest.17612A3DF8930377.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.176610923FDE130F.quest_desc: ["只要使用&b掺杂硅板&r而不是常规硅板，你就能提高其配方的产量。"]
 	quest.176610923FDE130F.title: "&f掺杂硅板"
@@ -1842,7 +1842,7 @@
 		""
 		"&n&4警告！&r勾选此勾选框完成任务后，你的团队将踏上勘矿之道，并锁定另外两条路径的奖励。"
 	]
-	quest.17C82FAD796695DE.title: "&f缓解应力"
+	quest.17C82FAD796695DE.title: "&f应力减负"
 	quest.17EBE81C391DE37E.quest_desc: ["&a芯片存储器&r可以储存&a存储芯片&r，这样你的物质网络就可以使用它们。"]
 	quest.17EBE81C391DE37E.title: "&f芯片存储器"
 	quest.17FBBBFBAA349CA8.quest_desc: [
@@ -1862,13 +1862,13 @@
 	]
 	quest.1811EC8E48EAD1BD.title: "&7苦力怕符石"
 	quest.1813C6C6A1D8AB8E.quest_desc: [
-		"&dLevitite&f is a crystal that refuses to fall. Enough of it on a ship and the ship floats with no balloon, no burner and no fuel. It can't climb on its own, and at low speed it drags hard against any movement, though the drag fades once you get going."
+		"&d浮空水晶&f是一种永不下坠的水晶。只要在飞船上安装足够数量，无需气球、燃烧室或燃料，飞船便能自然浮空。它无法自行爬升，且在低速时会产生明显的运动阻力，不过起速后阻力便会消退。"
 		""
-		"If you've got &eJust Dire Things&f going, a &3Tier 2 Goo&f block turns lava into blend in two minutes flat."
+		"若推进了&eJust Dire Things&f的进度，放置&3二阶凝胶&f方块即可在短短两分钟内将熔岩转化为混合液。"
 		""
-		"Pour the blend where you want the crystal and touch it with fire, a torch, a campfire, magma or a lit blaze burner. The reaction spreads through the whole pool and sets. Once placed its lift will be applied. This block can be picked up so move it as needed."
+		"将混合液倒在预定位置，再用火、火把、营火、岩浆块或点燃的烈焰人燃烧室触碰引燃。固化反应会蔓延至整池液体并完成凝固。成型后即可提供升力。该方块可直接采集回收，便于按需调整位置。"
 	]
-	quest.1813C6C6A1D8AB8E.title: "&dLevitite"
+	quest.1813C6C6A1D8AB8E.title: "&d浮空水晶"
 	quest.183EA37FA456C008.quest_desc: [
 		"&z彩虹发电机&f可以产出500万FE/t的能量，前提是&l所有&r其他&eExcessive Utilities&f模组的发电机都在发电。"
 		""
@@ -2151,13 +2151,13 @@
 	]
 	quest.1B2E6CA3642024B7.title: "&f复制器"
 	quest.1B6D163AEB801FF7.quest_desc: [
-		"A &aMechanical Servo&f turns a redstone signal into an angle. Right-click to set its range, and a full signal rotates it to the end of that range, a weaker signal to somewhere in between. It finishes the move it's on before it starts the next one."
+		"&a机械舵机&f可将红石信号转化为旋转角度。右击可设定其角度范围：满信号会使其旋转至该范围的最大角度，较弱的信号则对应中间角度。它会在彻底完成当前转动后，再开始响应下一次动作。"
 		""
-		"The &aStepper Servo&f steps instead. Set the angle per step, and each signal strength turns it that many steps. Signal on one side goes one way, the other side goes the other way, and both sides powered means hold still. Either one costs 4 SU per RPM while the input shaft turns."
+		"&a步进舵机&f则是以步进方式旋转。设定每步角度后，信号强度的每个数值都会使其转动相应步数。从一侧输入信号向单向步进，另一侧输入则反向步进，两侧同时充能则锁定静止。输入轴转动时，二者的应力消耗均为4 SU/RPM。"
 		""
-		"Rudders, elevators, aiming a propeller, opening a hangar door. Anything that needs to be at an angle rather than spinning."
+		"方向舵、升降舵、调整螺旋桨朝向、开启机库大门——凡是需要定角度偏转而非持续旋转的结构，都可以使用它们。"
 	]
-	quest.1B6D163AEB801FF7.title: "&aServos"
+	quest.1B6D163AEB801FF7.title: "&a舵机"
 	quest.1B8BB733ADF897FE.quest_desc: [
 		"你可以利用&eProductive Metalworks&r模组冶炼合金，将其铸造成各种不同的零件，制作工具、盔甲等装备。"
 		""
@@ -2444,13 +2444,13 @@
 	]
 	quest.1F2E5FBD59466D57.title: "&f掌控流体"
 	quest.1F34918369AC97C7.quest_desc: [
-		"A normal &3Propeller Bearing&f on top of a ship makes a helicopter that tips over. The &dGyroscopic Propeller Bearing&f keeps its rotor pointing up no matter what the hull is doing underneath, which is the difference between a helicopter and a very expensive fan."
+		"在飞船顶部安装普通&3螺旋桨轴承&f，只会造出一架极易侧翻的直升机。而&d陀螺仪螺旋桨轴承&f无论下方船体如何晃动倾斜，都能使旋翼始终保持朝上——这正是合格直升机与昂贵电风扇的区别所在。"
 		""
-		"Mount one upside down under a top-heavy build and it stabilizes the whole thing instead. A redstone signal resets the tilt to zero if the auto-levelling is fighting you."
+		"将其倒置安装在头重脚轻的结构下方，反而能为整个机身提供陀螺稳定效果。若自动配平与你的操控相冲突，输入红石信号即可将倾角重置归零。"
 		""
-		"It needs a &dGyroscopic Mechanism&f, which is covered in the &bStability&f quest path."
+		"合成它需要用到&d陀螺仪构件&f，详见&b稳定度&f任务分支。"
 	]
-	quest.1F34918369AC97C7.title: "&dGyroscopic Propeller Bearing"
+	quest.1F34918369AC97C7.title: "&d陀螺仪螺旋桨轴承"
 	quest.1F3C96D0DAC4F080.quest_desc: [
 		"这是你朝着&5量子&m领域&r&5机器&r迈出的第一步！"
 		""
