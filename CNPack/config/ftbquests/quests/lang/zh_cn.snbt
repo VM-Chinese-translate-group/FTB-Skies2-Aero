@@ -1186,13 +1186,13 @@
 	quest.0E3D0533331945A1.quest_desc: ["打造一枚路由堆叠升级作为核心以拓宽你的路由网络。它将允许节点一次性传输更多物品/流体/能量。而路由速度升级则可以提升路由网络传输内容物的频率。它们都需要被安装在主路由节点上，你想安多少就安多少。只要安的足够多，顷刻间抽干大海也不在话下。"]
 	quest.0E3D0533331945A1.quest_subtitle: "迟滞之心跳仅存于孱弱之身躯。"
 	quest.0E51F853D09B41FE.quest_desc: [
-		"Spin a &aPropeller&f and it pushes. Spin it the other way and it pulls. A wrench flips the direction without touching the gearing. The &aWooden&f and &aAndesite&f versions are fixed, and the &3Smart Propeller&f pitches itself along one axis to try and face upward, which makes it the easy pick for a helicopter rotor."
+		"旋转&a螺旋桨&f即可产生推力，反向旋转则会产生拉力。使用扳手可直接反转其朝向，无需改动传动结构。&a木制&f与&a安山岩&f版本桨距固定，而&3智能螺旋桨&f能沿单轴自动调整俯仰角以尽量朝上，非常适合用作直升机旋翼。"
 		""
-		"Each one costs 4 SU on the network. A propeller that's already moving through the air can't push as hard, so thrust falls off as you pick up speed, and it falls off again as the air thins with altitude."
+		"每个螺旋桨在动力网络中消耗4 SU。螺旋桨在空气中运动时推力会发生衰减，因此航速越快推力越低；随着高度上升、空气变稀薄，推力还会进一步下降。"
 		""
-		"Goggles show the &bThrust&f and &bAirflow&f of any propeller you look at."
+		"佩戴护目镜注视螺旋桨即可查看其&b推力&f与&b气流&f。"
 	]
-	quest.0E51F853D09B41FE.title: "&aPropellers"
+	quest.0E51F853D09B41FE.title: "&a螺旋桨"
 	quest.0EA1B56A92D0403F.quest_desc: [
 		"将&b铝粉&r、&c铬粉&r和&d不锈钢粉&r混合在&3搅拌机&r中，它就会产出&e铁铬铝合金粉&r。"
 		""
@@ -1378,13 +1378,13 @@
 	]
 	quest.11284BF46CEB2F12.title: "矿石炼金术"
 	quest.112F8339E73484F3.quest_desc: [
-		"A fixed engine pushes one way. To steer with thrust you need the engine to swivel."
+		"固定引擎只能朝单一方向提供推力。若想依靠推力转向，就得让引擎能够摆动。"
 		""
-		"The &dVector Thruster&f swivels by itself. Redstone on its faces yaws and pitches the nozzle, and the &dLiquid Vector Thruster&f does the same on &bTurpentine&f. The &3Servo Bearing&f is the other route. Mount any thruster on it and a redstone difference across the bearing pivots the whole assembly up to 90 degrees."
+		"&d矢量推进器&f自身即可偏转。在其各个面输入红石信号可控制喷口的偏航与俯仰；&d液体矢量推进器&f以&b松节油（Turpentine）&f为燃料，具有相同的功能。另一种方案是使用&3伺服轴承（Servo Bearing）&f：将任意推进器安装在其上，利用轴承两侧的红石信号差，即可带动整个部件旋转至多90度。"
 		""
-		"Put a &bSmart Gearbox&f in servo mode behind a &3Servo Bearing&f and it aims the engine from orientation data automatically, which is how a ship holds a heading on its own."
+		"在&3伺服轴承（Smart Gearbox）&f后方放置处于伺服模式的&b智能齿轮箱&f，即可根据姿态数据自动调整引擎朝向，这也是飞船自动保持航向的原理。"
 	]
-	quest.112F8339E73484F3.title: "&dVectored Thrust"
+	quest.112F8339E73484F3.title: "&d矢量推力"
 	quest.114B4840D2FA1CDF.quest_desc: [
 		"&a提纯仓&r可以提升粗矿的矿物产量。"
 		""
@@ -1511,13 +1511,13 @@
 	quest.12B8D538B54497E2.title: "&f锐意进取"
 	quest.12D15FCB12460F37.title: "&6基岩电容"
 	quest.12D46DE4D42AA302.quest_desc: [
-		"Cannons are cast, not crafted. The &aBasin Foundry Lid&f goes on a heated &bBasin&f and melts metal into molten &aCast Iron&f, &3Bronze&f, &3Steel&f or &dNethersteel&f. A &aCannon Cast&f built up from &aCasting Sand&f and a cannon mould is the shape you pour it into."
+		"火炮需要浇铸而成，无法直接合成。将&a工作盆铸造盖&f置于加热的&b工作盆&f上，可将金属熔化为熔融&a铸铁&f、&3青铜&f、&3钢&f或&d下界钢&f。使用&a铸造砂&f与火炮模具搭建出的&a火炮铸模&f，便是用于浇注金属液的模具结构。"
 		""
 		"Fill the cast, wait for it to set, and break it open. A comparator on the cast reads 0 to 14 while it fills and 15 when it's done. What comes out is an unbored block, so the &aCannon Drill&f comes next. It needs rotation, water, and a lathe turning the cannon at the same speed as the drill, and it eats more water the faster it runs."
 		""
 		"&aCast Iron&f is the starter metal. &3Steel&f and &dNethersteel&f cannons are built up in layers with the &3Cannon Builder&f and finished under a blasting fan, and they take far more powder before they burst."
 	]
-	quest.12D46DE4D42AA302.title: "&aCasting a Cannon"
+	quest.12D46DE4D42AA302.title: "&a铸造火炮"
 	quest.131199313AE3F5E9.quest_desc: ["一台简单的消耗能量来取代燃料的类似于熔炉的机器。"]
 	quest.13448A305B57016A.quest_desc: [
 		"如果你想升级你的装备，试试&a初级精华工具&r吧，它比钻石工具更好！还有像&e镰刀&r和&b短镰&r这样可以范围收割作物的新工具！"
