@@ -597,7 +597,7 @@
 		""
 		"&e机械动力&r的机器将自动与&a传送带&r上的物品交互（当机器支持该功能时）。"
 		""
-		"&aTransmission Chains&f are used to cleanly transfer rotation between belts."
+		"&a链条&f用于在传送带之间干净利落地传输旋转力。"
 	]
 	quest.07BCE0B7BDB4E155.title: "&a传送带"
 	quest.07C181C204CF1240.quest_desc: [
@@ -1513,9 +1513,9 @@
 	quest.12D46DE4D42AA302.quest_desc: [
 		"火炮需要浇铸而成，无法直接合成。将&a工作盆铸造盖&f置于加热的&b工作盆&f上，可将金属熔化为熔融&a铸铁&f、&3青铜&f、&3钢&f或&d下界钢&f。使用&a铸造砂&f与火炮模具搭建出的&a火炮铸模&f，便是用于浇注金属液的模具结构。"
 		""
-		"Fill the cast, wait for it to set, and break it open. A comparator on the cast reads 0 to 14 while it fills and 15 when it's done. What comes out is an unbored block, so the &aCannon Drill&f comes next. It needs rotation, water, and a lathe turning the cannon at the same speed as the drill, and it eats more water the faster it runs."
+		"向铸模注满熔融金属，待其凝固后敲碎模具即可取出。附在铸模上的红石比较器在浇注过程中会输出0至14的信号，完全凝固时输出15。取出的成品是未打孔的炮坯，接下来需要使用&a火炮钻孔机&f。钻孔需要旋转力、水冷却，以及一台与钻头同速旋转炮身的车床；钻孔机转速越快，耗水量越大。"
 		""
-		"&aCast Iron&f is the starter metal. &3Steel&f and &dNethersteel&f cannons are built up in layers with the &3Cannon Builder&f and finished under a blasting fan, and they take far more powder before they burst."
+		"&a铸铁&f是入门级材料。&3钢&f与&d下界钢&f火炮则需要使用&3火炮构建器&f逐层套接组装，并在鼓风熔炼风扇下完成烧结定型；它们能承受远超普通火炮的火药装药量而不易炸膛。"
 	]
 	quest.12D46DE4D42AA302.title: "&a铸造火炮"
 	quest.131199313AE3F5E9.quest_desc: ["一台简单的消耗能量来取代燃料的类似于熔炉的机器。"]
@@ -4518,11 +4518,11 @@
 	]
 	quest.38BD69DD1995E971.title: "&9二阶矿物处理产线"
 	quest.38F4B084BA4C6236.quest_desc: [
-		"Everything on a ship listens to redstone. Burners take an analog signal for how hot, thrusters take one for how hard, servos take one for how far. Controls are just ways to turn a hand on a wheel or a key on the keyboard into those signals."
+		"飞船上的所有部件均受红石信号控制：燃烧室根据信号强度调节火力，推进器根据信号输出推力，舵机根据信号确定偏转角度。操纵元件能将键盘敲击或舵盘转动转化为这些控制信号。"
 		""
-		"Start with a lever and a wheel. Graduate to a desk full of modules when the ship has more than three things to adjust."
+		"初学者可以先从拉杆与舵轮入手；当飞船需要调节的项目超过三项时，再升级为插满模块的控制台。"
 	]
-	quest.38F4B084BA4C6236.title: "&bControls"
+	quest.38F4B084BA4C6236.title: "&b操控系统"
 	quest.38FAD316AB487AD1.quest_desc: [
 		"这台机器可放置，并配置它在一个区域内挖掘特定的矿石！它耗电量非常大，请务必注意这一点。"
 		""
@@ -5016,11 +5016,11 @@
 	]
 	quest.3E63D54D05A3E300.title: "&6液态锂"
 	quest.3E63FAE41FEA9A17.quest_desc: [
-		"Down is the one direction a ship keeps losing track of, and the &aGimbal Sensor&f is how it finds it again. It puts out a redstone signal on the low side, each axis on its own, and the angle for full signal is set in the value boxes. Invert it if you'd rather the signal came out uphill."
+		"飞船在空中最容易丧失对“下方”的感知，而&a姿态传感器&f能帮它重新找准方向。它会在倾斜较低的一侧独立输出各轴向的红石信号，满格信号对应的倾角可在数值框中设定；若希望在倾斜偏高的一侧输出信号，直接将其反向即可。"
 		""
-		"On its own it's a tilt alarm. Fed into a &aServo&f or a thruster throttle it's the start of an autopilot. Fed into the blocks below it becomes the ship's sense of balance."
+		"单独使用时它是倾角警报器；将信号接入&a舵机&f或推进器油门，便是自动驾驶的雏形；接入下文介绍的方块，它就能化为飞船的平衡中枢。"
 	]
-	quest.3E63FAE41FEA9A17.title: "&aGimbal Sensor"
+	quest.3E63FAE41FEA9A17.title: "&a姿态传感器"
 	quest.3E7001F4A49CF787.quest_desc: [
 		"&b进气口&r可以放在&3真空冷却机&r的物品输入仓中，从而制造&7液态空气&r。"
 		""
@@ -5250,11 +5250,11 @@
 	quest.412FD0DA6B746561.title: "&f村民圣典"
 	quest.4145FED51D1ACD76.title: "&f下界疣"
 	quest.415FB6154BA6209B.quest_desc: [
-		"The &3Blaze Burner&r is used to generate heat for things like &cSteam Engines&r and other heat-related mods like &ePNCR&r."
+		"&3烈焰人燃烧室&r用于为&c蒸汽引擎&r等设备以及&ePNCR&r等与热能相关的模组提供热能。"
 		""
-		"You'll first need to craft an &aEmpty Blaze Burner&f, then go to the nether and Right-click a &cBlaze&f with the &aEmpty Blaze Burner&f to capture it."
+		"首先你需要合成一个&a空的烈焰人燃烧室&f，然后前往下界并手持&a空的烈焰人燃烧室&f右击&c烈焰人&f来抓走它。"
 		""
-		"Once that's done you're able to place down your &3Blaze Burner&f and feed it items or fluids, causing it to generate heat."
+		"完成这一步后，放下你的&3烈焰人燃烧室&f并提供物品或流体燃料，即可产生热量。"
 	]
 	quest.417573A657CAED05.quest_desc: [
 		"你可以用&c下界&r获取的材料升级凝胶。"
@@ -5541,11 +5541,11 @@
 	]
 	quest.450A1BAD728F594B.title: "&d无尽无线访问"
 	quest.4538EAA0215C8EC0.quest_desc: [
-		"A &aJoystick&f gives two tilt axes. A &aThrottle Quadrant&f gives four levers side by side. Then there's the &aYoke&f, the &aWheel&f, the &aPedal&f, the &aLever&f, a single &aButton&f, a 2x2 &aButton Panel&f and a 3x3 &aKeypad&f."
+		"&a操纵杆&f提供双向倾斜轴；&a油门台&f提供四联并排油门。此外还有&a驾驶盘&f、&a舵轮&f、&a踏板&f、&a拉杆&f、单枚&a按钮&f、2x2的&a按钮面板&f以及3x3的&a键盘&f。"
 		""
-		"Smaller modules fit in larger sockets, and a few of the big ones carry a small socket of their own. Right-click that with a small module to stack a head on top, and it rides along with the control underneath while working like any other input."
+		"较小的模块可装入大插槽中，部分大型模块自身也带有小型插槽。手持小型模块右击即可在顶端叠装子模块，它会跟随下方的操纵元件一同运动，并像常规输入元件一样正常生效。"
 	]
-	quest.4538EAA0215C8EC0.title: "&aControl Modules"
+	quest.4538EAA0215C8EC0.title: "&a控制模块"
 	quest.456030ECDFA9CE3B.quest_desc: [
 		"&b反应堆热量吸收器&r能从所有相邻的组件上吸收固定量的热量，因此当它被需要散热的组件包围时，其冷却效率是最高的。"
 		""
@@ -5772,11 +5772,11 @@
 	quest.4882D3E03CC01268.title: "&b存储总线"
 	quest.48935E2DFCA1E835.quest_desc: ["你现在可以将注入器升到最高等级，制作&z混沌等级&f的装备。"]
 	quest.4896357F588DAA54.quest_desc: [
-		"On a &bSimulated Contraption&f, a &aSail&f is a wing. Move it through the air and it makes lift at right angles to its surface, and the faster you go the more it makes. Enough sail and enough speed and a ship with no balloon at all leaves the ground."
+		"在&b物理结构&f上，&a风帆&f充当着机翼的角色。在空气中穿行时，它会垂直于帆面产生升力，航速越快升力越大。只要风帆充足且速度够快，完全没有气球的飞船也能腾空而起。"
 		""
-		"The &aSymmetric Sail&f is the other half. It makes no lift, only drag, and only when it's angled away from the direction of travel. That's a rudder, a tail fin or a stabilizer, depending on where you bolt it."
+		"&a对称风帆&f则是另一半核心组件。它不提供升力，仅在偏离航向时产生阻力；根据安装位置的不同，它可以充当方向舵、垂直尾翼或机身稳定翼。"
 	]
-	quest.4896357F588DAA54.title: "&aSails"
+	quest.4896357F588DAA54.title: "&a风帆"
 	quest.48CFC042AE951056.quest_desc: [
 		"这种从地狱深处带回来的流体应该具有足够的热量，能帮我们蒸馏出所需的风味。"
 		""
@@ -5842,13 +5842,13 @@
 	quest.498A5C0A00F19E2E.quest_desc: ["最基础也是最便利的反应堆燃料就是&6铀燃料棒&r。无需多余处理步骤的代价是输出能量也较少，但作为起步的燃料棒还是很适合的。"]
 	quest.498A5C0A00F19E2E.title: "&6铀燃料棒"
 	quest.499819F644DAAB83.quest_desc: [
-		"[\"The \", {\"text\": \"Hot Air Burner\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Hot Air Burner Quest\"]}}, \" tops out at 500 hot air. The \", {\"text\": \"Steam Vent\", \"color\": \"aqua\"}, \" puts out up to 5,000 steam, which lifts exactly the same 1.5 kpg per cubic metre, so a vented balloon carries ten times the ship.\"]"
+		"[{\"text\": \"热空气燃烧室\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往热空气燃烧室任务\"]}}, \"最多只能输出500热空气，而\", {\"text\": \"蒸汽喷口\", \"color\": \"aqua\"}, \"最高可输出5000蒸汽。每立方米蒸汽提供的升力同样为1.5 kpg，这意味着通入蒸汽的气球能托起十倍重量的飞船。\"]"
 		""
-		"The catch is the piping. A vent wants the same things a &bSteam Engine&f wants, heat under a boiler, water in it, and enough boiler space. Power it with redstone and it fills the balloon above it. The signal strength scales the output, and the panel on the vent sets the ceiling."
+		"难点在于管路连接。喷口的需求与&b蒸汽机&f相同：锅炉下方需要加热、内部需要注水，且需要足够的锅炉容积。输入红石信号即可向其上方的气球充气，信号强度决定输出量，喷口上的面板则可设定输出上限。"
 		""
-		"Both burners and vents will hunt up to 80 blocks for a balloon to fill, and several can share one balloon. Click a vent with an &aIron Sheet&f to change its metal."
+		"燃烧室与喷口均可在向上80格的范围内搜寻可填充的气球，且多个设备可共享同一个气球。手持&a铁板&f点击喷口可更改其金属外观材质。"
 	]
-	quest.499819F644DAAB83.title: "&bSteam Vent"
+	quest.499819F644DAAB83.title: "&b蒸汽喷口"
 	quest.49CBB0619F943B81.quest_desc: ["&6列车时刻表&r允许司机按照设定的模式自动操作列车。"]
 	quest.49CBB0619F943B81.title: "&6列车时刻表"
 	quest.49DD167D6323406B.quest_desc: [
@@ -6012,11 +6012,11 @@
 	]
 	quest.4B463FDAEAC42511.title: "&3物质聚合器&f"
 	quest.4B52F4885BEA9FC0.quest_desc: [
-		"Same blend, different flame. Put a &aSoul Campfire&f or &aSoul Torch&f next to the &dLevitite Blend&f instead of regular fire, or pour it over soul sand or soul soil that's burning, and it crystallizes pink instead of blue."
+		"配方相同，火焰不同。在&d浮空混合物&f旁放置&a灵魂营火&f或&a灵魂火把&f（而非普通火焰），亦或是将其倒在燃烧的灵魂沙、灵魂土上，凝固后结晶便会呈现粉色而非蓝色。"
 		""
-		"&7&oIt floats exactly the same. This one is purely for the ship that has everything."
+		"&7&o其浮力特性完全一致，纯粹是为了满足追求极致装潢的飞船而生。"
 	]
-	quest.4B52F4885BEA9FC0.title: "&dPearlescent Levitite"
+	quest.4B52F4885BEA9FC0.title: "&d珠光浮空水晶"
 	quest.4B5BFD1142133E93.quest_desc: [
 		"&d目盲符石&r在玩家受到失明效果影响时增加25%伤害。"
 		""
@@ -6316,13 +6316,13 @@
 	]
 	quest.4F3CA2DCE719D18A.title: "&6多线程"
 	quest.4F433F2FA020F0E3.quest_desc: [
-		"A big cannon is a line of bored cannon blocks, a chamber at the back, a barrel in front, and a breech to load through. Blocks placed by hand don't join on their own. Weld them with the &aCannon Welder&f, or better, build the gun once and move it whole with a contraption."
+		"重型火炮由一排已打孔的火炮方块组成：后方为炮腔，前方为炮筒，最后方则是用于装填的炮闩。手动放置的方块不会自动连结为一个整体，可以使用&a火炮焊具&f将其焊接，或者更简便地——组装一次后直接用动态结构将其整体移动。"
 		""
-		"The &aCannon Mount&f holds the assembled gun and pitches it with rotation. The &3Yaw Controller&f under the mount turns it. Load a &aPowder Charge&f and a projectile through the breech, by hand with a &aRam Head&f on a stick, or with the &aCannon Loader&f, then give the mount a redstone pulse. Guns can be up to 64 blocks long."
+		"&a火炮底座&f用于固定组装好的火炮，并通过旋转力调节其俯仰角；底座下方的&3偏航控制器&f则负责水平转向。通过炮尾装入&a发射药&f与弹射物（可手持装有木棍的&a装药机头&f手动推入，或使用&a火炮装载机&f自动装载），随后向底座输入红石信号即可开火。火炮全长最长可达64格。"
 		""
-		"More powder, more range, until the barrel gives out. A cast iron gun with too many charges has a coin-flip chance of bursting, so learn its limit on the ground before you learn it at altitude."
+		"装填的药包越多射程越远，直至超出炮身承压极限。若装入过多药包，铸铁火炮有一半的概率炸膛，因此升空前最好先在地面摸清它的极限。"
 	]
-	quest.4F433F2FA020F0E3.title: "&3Big Cannon"
+	quest.4F433F2FA020F0E3.title: "&3重型火炮"
 	quest.4F5A267B3042E308.title: "&d256k存储组件"
 	quest.4F63F8D79802D6ED.quest_desc: [
 		"&d高压大型蒸汽锅炉&r可生产高达2048mB/t的&7蒸汽&r。"
@@ -6427,11 +6427,11 @@
 	quest.5119EFBB9FB39CDE.quest_desc: ["[ \"敌对掠夺者部队的首领，驻守在\", {\"text\": \"神秘魔法地牢\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"4BB5ADD98F958712\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往神秘魔法地牢任务\"]}}, \"的顶端。\"]"]
 	quest.5119EFBB9FB39CDE.title: "&f击杀&d高位唤魔者"
 	quest.5122A391CD92E556.quest_desc: [
-		"The &dContraption Controller&f is a flight computer with 13 channels. Bind keys to pitch, roll, yaw, throttle and whatever else, pick an input mode per channel for how the signal ramps, and it puts out clean analog redstone for each one."
+		"&d动态结构控制器（Contraption Controller）&f是一台拥有13个通道的飞控计算机。可将按键绑定至俯仰、滚转、偏航、油门等各项操作，并为每个通道配置信号渐变模式，它能为每个动作输出平滑的模拟红石信号。"
 		""
-		"The &aAnalogue Joystick&f is its physical cousin. Tilt it and each side sends its own signal scaled to how far you pushed. Good for the pilot who wants to feel the ship rather than type at it."
+		"&a模拟操纵杆（Analogue Joystick）&f是它的实体硬件版本。推动操纵杆即可根据偏转幅度在各方向输出对应强度的独立信号，非常适合想要直观感受操控手感、而非单纯敲击键盘的飞行员。"
 	]
-	quest.5122A391CD92E556.title: "&dContraption Controller"
+	quest.5122A391CD92E556.title: "&d动态结构控制器"
 	quest.51373D5476F2FD7F.quest_desc: [
 		"对于志存高远的精魂法师来说，收集精魂是个非常重要的工作。但花费一整晚的时间来杀敌可能会是件麻烦事，因为你还需要分类和管理资源，尤其是战利品里还多出了&b精魂&r。"
 		""
@@ -6477,13 +6477,13 @@
 	]
 	quest.51804232265672A9.title: "&f物品栏垃圾桶！"
 	quest.51A57B31F8DA4A8F.quest_desc: [
-		"Before anything flies it has to hold together, and it has to be light enough to be worth lifting."
+		"任何结构在升空前都必须连为一个整体，且必须足够轻盈才值得托举。"
 		""
-		"Every block on a ship has a mass. Stone and metal are heavy, wood and wool are light, and a hull built out of the wrong stuff will need three times the lift. Press &bF3+H&f and the mass shows up in item tooltips, courtesy of &eSable Mass View&f."
+		"飞船上的每个方块都有质量：石头与金属沉重，木材与羊毛轻盈；如果用错材料建造船体，可能需要三倍的升力才能带动。按下&bF3+H&f后，在&eSable Mass View&f模组的帮助下即可在物品信息栏中查看方块质量。"
 		""
-		"This quest path is about glue, goggles, hull blocks and knowing what your ship weighs."
+		"本任务分支将带你了解胶水、护目镜、船体方块以及如何掌握飞船的自重。"
 	]
-	quest.51A57B31F8DA4A8F.title: "&aThe Hull"
+	quest.51A57B31F8DA4A8F.title: "&a船体结构"
 	quest.51B5EE931AC1B86E.quest_desc: [
 		"这种蜂巢只能放在&c下界&r吸引蜜蜂。"
 		""
@@ -6631,11 +6631,11 @@
 	]
 	quest.5382CB05500E49DE.title: "&z渡鸦附魔台"
 	quest.53D0DF41254360B9.quest_desc: [
-		"Not everything has to fly. &eOffroad&f puts a &aTire&f on a &aWheel Mount&f and a &bSimulated Contraption&f becomes a truck. Rotation drives the wheel, redstone from the top brakes it, redstone from the side steers it toward the signal. Tires come in &aSmall&f, standard, &3Large&f and &dMonstrous&f, and the mount's suspension strength is set on its scroll panel."
+		"不是所有载具都必须上天。&eOffroad&f模组可将&a轮胎&f安装在&a车轮悬架&f上，把&b物理结构&f变成一辆卡车。旋转力用于驱动车轮，顶部输入红石信号可实现刹车，侧面输入红石信号则会使其朝信号方向转向。轮胎分为&a小型&f、标准、&3大型&f和&d巨型&f，底座的悬挂强度可在其面板上调整。"
 		""
-		"The &3Borehead Bearing&f is the same mod's drill. Attach &aRock Cutting Wheels&f and a storage block to it and it chews through terrain in a radius, at a quarter of the input speed, dropping everything into the storage until the storage is full."
+		"&3镗头轴承&f是该模组配套的钻头组件。在其上安装&a铣岩轮&f与存储容器，它便会以输入转速四分之一的速度开凿指定半径内的地形，并将产物直接存入容器直至装满。"
 	]
-	quest.53D0DF41254360B9.title: "&aGround Travel"
+	quest.53D0DF41254360B9.title: "&a地面行驶"
 	quest.53E72F025E4CB895.quest_desc: ["&3动力锯&r可以一次性砍伐整棵树或处理物品配方。"]
 	quest.53E72F025E4CB895.title: "&3动力锯"
 	quest.53E949B1A0D04290.quest_desc: [
@@ -6709,11 +6709,11 @@
 	]
 	quest.546A582A0084C982.title: "人造水果"
 	quest.547C772CB5972224.quest_desc: [
-		"The &aTilt Adapter&f from &eCreate Propulsion&f tilts rotational output by an analog signal, up to 90 degrees each way in this pack. The &3Advanced Tilt Adapter&f lets you set a different limit for each side, and holding &bCtrl&f while setting one toggles shared limits."
+		"&eCreate Propulsion&f的&a倾斜适配器&f可根据模拟信号使旋转力的输出端发生倾斜，在当前整合包中向两侧偏转的最大角度为90度。&3高级倾斜适配器&f支持为两侧分别设定不同的偏转角度上限，按住&bCtrl&f调节时则可同步设置双向限制。"
 		""
-		"Where a servo holds an angle, the adapter keeps the shaft spinning through the tilt, so it's the one for a propeller you want to aim while it runs."
+		"舵轮通常用于固定在某一角度，而适配器能在偏转的同时保持传动杆持续旋转；若想在螺旋桨运转时实时调整其推力指向，它是绝佳之选。"
 	]
-	quest.547C772CB5972224.title: "&aTilt Adapter"
+	quest.547C772CB5972224.title: "&a倾斜适配器"
 	quest.54AC477417E72055.quest_desc: [
 		"如果你想找个更好的办法从晶洞中收获紫水晶，&d紫晶傀儡&r乐意为你效劳！"
 		""
@@ -6781,13 +6781,13 @@
 	]
 	quest.55897B86C2908176.title: "&a底盘"
 	quest.55B5C402ABBDF7C1.quest_desc: [
-		"The &aSteering Wheel&f is precise rotation by hand. Hold right-click to grab it and move the mouse to turn, sneak while turning to snap to 45 degree steps, and set the maximum angle on its value panel. A comparator on it reads the angle, and a comparator on the back reads whether someone's holding it."
+		"&a舵轮&f用于手动精准控制旋转力。按住右键即可握住舵盘，移动鼠标进行转动，潜行时转动会以45度为步长吸附，最大转角可在数值面板中设定。连接在其上的比较器可读取转动角度，背面的比较器则用于检测是否有人正在握持操控。"
 		""
-		"The &aThrottle Lever&f is the same idea for redstone. Drag it to set an analog signal, wrench it to invert. One for the burner, one for the engines, and you have a cockpit."
+		"&a油门拉杆&f则是将相同理念应用于红石信号。拖动可设定模拟信号强度，用扳手右击可反转信号。一根控制燃烧室，一根控制引擎，驾驶舱便初具雏形。"
 		""
-		"&eNote&f: A bearing on the far end of a wheel will happily disassemble whatever it's turning. Tell it not to."
+		"&e提示&f：舵轮远端连接的轴承很可能会直接将所带动的结构拆解掉，记得在设置中将其关闭。"
 	]
-	quest.55B5C402ABBDF7C1.title: "&aWheel and Throttle"
+	quest.55B5C402ABBDF7C1.title: "&a舵轮与油门"
 	quest.55B7E3EE706E8D6F.quest_desc: [
 		"&b强化石头&r是最先进的&e气动工艺&r机器的基础材料。"
 		""
@@ -7097,11 +7097,11 @@
 	]
 	quest.595F8AC6DB5DACD8.title: "&a你的第一颗&b钻石"
 	quest.596B99FA746FF18B.quest_desc: [
-		"A &3Wing&f is a purpose-made lifting surface, the &3Tempered Wing&f is the sturdier version, and the &aCopycat Wings&f come in 8 and 12 metre spans that take the texture of any block you click them with."
+		"&3机翼&f是专门设计的升力面；&3强化机翼&f是更坚固的版本；而&a伪装机翼&f拥有8米与12米两种翼展，可呈现所点击方块的材质外观。"
 		""
-		"Pair wings with thrusters and you've got a plane rather than a blimp. Planes are faster, planes are lighter, and planes fall out of the sky the moment the engine stops. Choose accordingly."
+		"将机翼与推进器搭配使用，你造出来的就是飞机而非飞艇了。飞机航速更快、自重更轻，但一旦引擎熄火，它就会瞬间从天上坠落。请按需权衡抉择。"
 	]
-	quest.596B99FA746FF18B.title: "&3Wings"
+	quest.596B99FA746FF18B.title: "&3机翼"
 	quest.598652FE2E4839AC.quest_desc: [
 		"嫌弃真正的草地自然生成动物的速度太慢？"
 		""
@@ -7212,13 +7212,13 @@
 	quest.5B499DF961D9308B.title: "&a初级点击器"
 	quest.5B5447A65D9C82B9.title: "&d16384B流体存储组件"
 	quest.5B59923796F5C973.quest_desc: [
-		"&eAutomated Logistics&f teaches a ship a route by watching you fly it. Put a &3Vehicle Transponder&f on the ship and an &3Airship Station&f at each end of the trip. Open the transponder, switch to &bRecording Mode&f, add a route from this station to that one, fly it, and save the segment when you land. Routes are saved per direction, so fly the return leg too."
+		"&eAutomated Logistics&f模组可通过记录你的实际飞行来让飞船学习航线。在飞船上安装&3载具应答器（Vehicle Transponder）&f，并在航程的两端各放置一个&3飞艇站（Airship Station）&f。打开应答器界面，切换至&b录制模式（Recording Mode）&f，添加一条从该站点到另一站点的航线并手动驾驶飞行，降落后保存该航段即可。航线是按单向保存的，因此返程航段也需要手动飞一次完成录制。"
 		""
-		"Press play from any station on the route and the ship flies it by itself, stop after stop, and it keeps flying while the chunks between are unloaded. The stops screen sets wait conditions and docking waits, and during a dock both the station and the transponder put out redstone so your connectors know when to extend."
+		"在航线上的任意站点按下启动，飞船便会自动按站点逐站航行，即便途经未加载区块也能正常巡航。在停靠点界面中可设定等待条件与停泊时长；停泊期间，飞艇站与应答器都会输出红石信号，以便对接连接器判定何时伸出固定。"
 		""
-		"The &3Logistics Terminal&f is the top-down map of every station, route and ship in the network. The &dAdvanced Transponder&f adds four redstone output ports for dock and drive intent."
+		"&3物流终端（Logistics Terminal）&f提供了俯视地图，可查看网络中所有站点、航线与飞船的实时状态。&d高级应答器（Advanced Transponder）&f额外提供了四个红石输出端口，用于输出停泊与航行意图信号。"
 	]
-	quest.5B59923796F5C973.title: "&3Airship Station"
+	quest.5B59923796F5C973.title: "&3飞艇站"
 	quest.5B7CC380E28893C1.quest_desc: [
 		"如果要做&2橡胶&r，我们首先需要获取任意形态的&a油&r。"
 		""
@@ -7228,13 +7228,13 @@
 	]
 	quest.5B7CC380E28893C1.title: "&a煤粉榨油"
 	quest.5BA4D2B907325D32.quest_desc: [
-		"&eCreate Propulsion&f has its own family of engines. The &aSolid Fuel Thruster&f is the cheap one. It burns items from the slot on its back, redstone is on or off with no in-between, and it pushes about a quarter as hard as its liquid cousins. Wrench it to open the hatch and it'll pull fuel from a container behind it."
+		"&eCreate Propulsion&f模组拥有其专属的系列引擎。&a固体燃料推进器&f是低成本之选：它通过背部槽位消耗物品作为燃料，红石控制仅有启停两档（无中间线性调节），推力约为液体推进器的四分之一。用扳手右击开启舱门后，它可自动抽取后方容器中的燃料。"
 		""
-		"The &3Thruster&f runs on &bTurpentine&f and holds a 1,000 mB tank that lasts 1,000 ticks at full throttle. The &dIon Thruster&f skips fuel and drinks 40 FE per tick instead, and it's the strongest of the three."
+		"&3推进器&f以&b松节油&f为燃料，内置1000mB储罐，在全油门状态下可持续运转1000刻。&d离子推进器&f无需燃料，改为每刻消耗40FE，推力也是三者之中最强劲的。"
 		""
-		"Build any of them as a 2x2x2 or 3x3x3 block and they merge. The big versions push 25% and 50% harder and burn 40% and 60% less fuel."
+		"将同类推进器搭建为2x2x2或3x3x3结构即可自动合并；大型版本的推力分别提高25%和50%，且燃油消耗分别降低40%和60%。"
 	]
-	quest.5BA4D2B907325D32.title: "&3Propulsion Thrusters"
+	quest.5BA4D2B907325D32.title: "&3推进器"
 	quest.5BA74A759CC43BBB.quest_desc: [
 		"&e现代工业化&r每个阶段都有几种不同的电缆。"
 		""
@@ -7458,11 +7458,11 @@
 	quest.5EDAD39B73C1FF9C.quest_desc: ["在&3化学反应釜&r中把你的&e乙苯&r，&7蒸汽&r以及&a铁粉&r化合为&d苯乙烯&r。"]
 	quest.5EDAD39B73C1FF9C.title: "&d苯乙烯"
 	quest.5EE8F456D1B56D3D.quest_desc: [
-		"The &3Advanced Data Link&f carries orientation. Point it at a &aGimbal Sensor&f or another orientation source, up to 128 blocks away, and any block next to the link that can use that data gets it."
+		"&3高级数据链接器（Advanced Data Link）&f用于传输姿态数据。将其对准最远128格外的&a姿态传感器&f或其他姿态数据源，与其相邻且支持该数据的方块即可接收到数据。"
 		""
-		"It's the same idea as a &bDisplay Link&f, but instead of text it moves pitch, roll and heading to the blocks that need them."
+		"它与&b显示链接器&f原理相同，但传输的不是文本，而是将俯仰、滚转与航向数据发送给需要它们的方块。"
 	]
-	quest.5EE8F456D1B56D3D.title: "&3Advanced Data Link"
+	quest.5EE8F456D1B56D3D.title: "&3高级数据链接器"
 	quest.5EF11F96A97C2A23.quest_desc: [
 		"&e现代工业化&r（&eMI&r）包含好几种阶段的&a蒸汽涡轮机&r，它们能够将&7蒸汽&r转化为&c能量&r。"
 		""
@@ -7482,9 +7482,9 @@
 	]
 	quest.5F1A2C7D9B4E6081.title: "&f自动化&b亚马龙"
 	quest.5F4BAB9B54CF7E4A.quest_desc: [
-		"The &dGyroscope&f actively holds the ship level along whatever axis you place it on. Spin it up and it fights pitch and roll, and it bleeds off a spin so the ship stops turning when you stop turning it."
+		"&d陀螺仪&f会沿着所安装的轴向主动维持飞船水平。使其加速运转便能抵抗俯仰与滚转，并能消除多余的自旋惯性，让你在停止转向操作时飞船能迅速停转。"
 		""
-		"It wants rotation, and a lot of it. Full control arrives at 256 RPM and the draw is 16 SU per RPM, so a gyroscope at full speed costs 4,096 SU. One gyro fully steadies about 5,000 units of ship inertia. A bigger hull needs more of them, and a ship with too few isn't unstable, just slower to right itself."
+		"它需要旋转力驱动，而且需求量极大。在256 RPM时达到满额稳定控制，应力消耗为16 SU/RPM，因此满速运转的陀螺仪需消耗4096 SU应力。单台陀螺仪可完全稳定约5000单位的飞船转动惯量。更庞大的船体需要安装更多陀螺仪；数量偏少并不会导致飞船失稳，只是在自动回正时会显得迟缓。"
 	]
 	quest.5F4BAB9B54CF7E4A.title: "&d陀螺仪"
 	quest.5F5A8762D664CBF0.quest_desc: [
@@ -7781,11 +7781,11 @@
 	]
 	quest.629308DC692DB140.title: "&7荧石符石"
 	quest.62987A983CFB5C77.quest_desc: [
-		"Two separate rotation lanes run through the &3Smart Gearbox&f at different speeds, which is useful on its own when a hull is short on space."
+		"两路独立的旋转力通道可以不同转速穿过&3智能齿轮箱（Smart Gearbox）&f，在船内空间狭窄时这一基础特性就非常实用。"
 		""
-		"The trick is &bServo Mode&f. Feed it orientation from an &3Advanced Data Link&f and it aims any &3Servo Bearing&f attached to it so the mounted thruster or propeller always points the way you want it to. Power the gearbox with redstone and the aim inverts. Between this, a &aGimbal Sensor&f and a couple of thrusters, a ship can hold itself level with no player at the controls."
+		"其精髓在于&b舵机模式&f。通过&3高级数据链接器&f向其输入姿态数据，它就会自动调整与其相连的&3舵机轴承&f指向，确保搭载的推进器或螺旋桨始终朝向目标方向。用红石信号为齿轮箱充能即可使瞄准指向反转。结合智能齿轮箱、&a姿态传感器&f和几台推进器，即便无人在控制位上，飞船也能自动保持机身平稳。"
 	]
-	quest.62987A983CFB5C77.title: "&3Smart Gearbox"
+	quest.62987A983CFB5C77.title: "&3智能齿轮箱"
 	quest.629C6374800613C4.quest_desc: [
 		"想要将方块连接&a逻辑线缆&r，使其接入网络，你需要使用一些&a接口&r。"
 		""
