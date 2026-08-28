@@ -995,7 +995,7 @@
 	quest.0BC10EF89AA8FF5D.quest_desc: [
 		"飞行基地只是靶子，配备火炮的飞行基地才称得上舰队。"
 		""
-		"&e机械动力：火炮&f模组可以为甲板装上真正的重型火炮——从基础的铸铁野战炮到庞大的套接钢炮巨兽；而&e护盾发生器（Shield Generators）&f则能为你筑起抵御反击的屏障。二者与飞船上的其他部件一样，依靠相同的&e机械动力&f的旋转力与红石信号驱动。"
+		"&e机械动力：火炮&f模组可以为甲板装上真正的重型火炮——从基础的铸铁野战炮到庞大的套接钢炮巨兽；而&e护盾发生器&f则能为你筑起抵御反击的屏障。二者与飞船上的其他部件一样，依靠相同的&e机械动力&f的旋转力与红石信号驱动。"
 		""
 		"&c警告&f：开炮存在后坐力。在轻型飞船单侧开炮会推动整艘飞船。请将其安装在质心附近、成对开火，否则就尽情享受原地自旋吧。"
 	]
@@ -2492,11 +2492,11 @@
 	]
 	quest.1F94DD493FE20C0B.title: "&e盆栽树"
 	quest.1F9921A99FE2A241.quest_desc: [
-		"The &3Propeller Bearing&f turns a structure into a propeller. It grabs the block in front of it, and anything with at least two sail-like blocks in it counts. More sails, more thrust for the same rotation, and a big four-blade windmill out of &aSails&f will out-push a mini propeller several times over."
+		"&3螺旋桨轴承&f可将机械结构转化为螺旋桨。它会抓取正前方的方块，只要结构中包含至少两个帆类方块即可生效。在旋转力相同的情况下，风帆越多推力越大，用&a风帆&f搭建的大型四叶风车产生的推力可达小型螺旋桨的数倍。"
 		""
-		"It draws 2 SU. Reverse the input rotation or wrench it to reverse the thrust, and expect the same fall-off with airspeed and altitude as the small propellers."
+		"它消耗2 SU。反转输入的旋转力或使用扳手调整即可反转推力方向；推力同样会随着航速与高度的提升而衰减，与小型螺旋桨一致。"
 	]
-	quest.1F9921A99FE2A241.title: "&3Propeller Bearing"
+	quest.1F9921A99FE2A241.title: "&3螺旋桨轴承"
 	quest.1FB8BF0898FD99D9.quest_desc: [
 		"24个符文与四条顶端是染血玻璃的立柱已将你的祭坛擢升至&c等级 II&r，现在它可以制作&c巫师的生命宝珠&r。"
 		""
@@ -2552,13 +2552,13 @@
 	quest.2075944B1DA3B63C.quest_subtitle: "施放需要长时间吟唱的法术不会被打断"
 	quest.2075944B1DA3B63C.title: "&a专注护身符"
 	quest.207B925E3490E7CC.quest_desc: [
-		"&aSolid Shot&f punches. &3AP Shot&f punches deeper. &cHE Shells&f blow up, &cShrapnel&f sprays, &aSmoke Shells&f hide you, &aFluid Shells&f dump whatever you filled them with, and a &aBag of Grapeshot&f turns the gun into a very large shotgun."
+		"&a硬头炮弹&f擅长击穿，&3穿甲弹&f穿深更高。&c高爆弹&f产生剧烈爆炸，&c榴散弹&f形成破片杀伤，&a烟雾弹&f提供隐蔽掩护，&a流体弹&f倾泻内部装填的液体，而&a葡萄弹&f则能把火炮变成一把超大口径霰弹枪。"
 		""
-		"Shells need a fuze to go off. An &aImpact Fuze&f detonates on a hit about two times in three, an &3Inertia Fuze&f nine times in ten, and the delayed versions of each wait until the shell is inside something first."
+		"炮弹需要引信才能引爆。&a碰炸引信&f击中目标时的引爆成功率约为三分之二，&3惯性引信&f约为十分之九；两者的延时版本则会在弹头深入目标内部后再行引爆。"
 		""
-		"A &3Big Cartridge&f rolls powder and shell into one item for the &3Quick-Firing Breech&f, which is how a &bMechanical Arm&f reloads a gun by itself. Keep a &aGas Mask&f aboard if you're the one firing smoke."
+		"&3大型弹药&f将火药与弹头整合成单件物品供&3速射炮闩&f使用，以便&b动力臂&f实现火炮的自动装填。若要在船上发射烟雾弹，请务必随身准备好&a毒气面罩&f。"
 	]
-	quest.207B925E3490E7CC.title: "&cMunitions"
+	quest.207B925E3490E7CC.title: "&c弹药"
 	quest.207CED1C925F85C4.quest_desc: [
 		"当你有了&c红石蜜蜂&r，将其与&a蓝色条纹蜜蜂&r一起繁殖即可获取&9青金石蜜蜂&r！"
 		""
@@ -2701,13 +2701,13 @@
 	]
 	quest.230E34A0E4A4C014.title: "&f从蜂箱到&a蜂乡"
 	quest.23131503EF0BF979.quest_desc: [
-		"&aEnvelope&f blocks are the skin of a balloon. Build an airtight shell out of them, point a burner into it, and every cubic metre of &bHot Air&f inside lifts 1.5 kpg."
+		"&a蒙皮&f方块是气球的外皮。用它们搭建出密封外壳并将燃烧室对准内部加热，内部每立方米&b热空气&f可提供1.5 kpg升力。"
 		""
-		"The shell has to be sealed. Hot air fills it from the top down and leaks out of any gap, and any block sitting inside the shell steals volume. Shafts that need to pass through the wall get encased in envelope blocks to stay airtight."
+		"外壳必须保持完全密封。热空气会由上至下填充气囊，并会从任何缝隙中泄漏；气囊内部放置的任何方块都会挤占容积。若需要让传动杆穿过气囊壁，使用蒙皮方块包裹传动杆即可保持密封。"
 		""
-		"Right-click with dye to paint them. A good balloon is a big, empty, closed box with as few blocks inside as you can manage."
+		"手持染料右击可为蒙皮染色。优秀的气球应该是一个巨大、空心且封闭的结构，内部方块越少越好。"
 	]
-	quest.23131503EF0BF979.title: "&aHot Air Envelope"
+	quest.23131503EF0BF979.title: "&a气球蒙皮"
 	quest.2315DBE189D330DA.quest_desc: [
 		"末影龙蜜蜂已经干了很多活儿了，但这一切都将得到回报。"
 		""
@@ -2717,11 +2717,11 @@
 	]
 	quest.2315DBE189D330DA.title: "&e升级&f：产量ω"
 	quest.2316F3820C478CDC.quest_desc: [
-		"Before the artillery, there's the vegetable. The &dMounted Potato Cannon&f is the handheld one bolted to the deck. It takes the same ammo, loads from hoppers and belts, and charges on rotation. Once charged, redstone fires it, and a held signal keeps firing."
+		"在重型火炮登场前，农作物也能当武器。&d固定式土豆加农炮&f就是将手持土豆加农炮固定在甲板上的版本。它使用相同的弹药，支持漏斗和传送带装填，并依靠旋转力充能。充能完毕后，输入红石信号即可开火，持续输入信号则会连发。"
 		""
-		"It kicks. A light ship with a cannon on one side will notice."
+		"它同样存在后坐力。若在轻型飞船单侧开炮，反冲效果会格外明显。"
 	]
-	quest.2316F3820C478CDC.title: "&dMounted Potato Cannon"
+	quest.2316F3820C478CDC.title: "&d固定式土豆加农炮"
 	quest.231BAC05D93088B2.quest_desc: [
 		"当你在砍树或巡视你的领地时，你可能在聊天框中看到你获得了一个技能点！"
 		""
@@ -2759,17 +2759,17 @@
 	]
 	quest.2331E407E82138AB.title: "&f认识接口"
 	quest.2345657297A97D4A.quest_desc: [
-		"&eAeroworks&f gives you a proper cockpit with the &dControl Desk&f. It's a block of sockets, and every &aControl Module&f you mount in one becomes a real control with its own keybinds and redstone link frequencies. Right-click with an empty hand to sit at it, use keyboard and mouse to move the controls, and press &bEsc&f to let go."
+		"&e航空学&f通过&d控制台&f为你打造了一套真正的驾驶舱。它是一个带有插槽的方块，安装在插槽中的每个&a控制模块&f都会成为独立的控制部件，并配有专属的按键绑定与红石联结频率。空手右击即可入座操控，使用键盘与鼠标即可操作各项控制元件，按下&bEsc&f键即可离开。"
 		""
-		"Each control transmits how far it's moved on one frequency, and the opposite direction on a second frequency. Desks that touch join into one deck that a single player runs together. Sneak and right-click a mounted control to configure it, and wrench it off when you change your mind. It keeps its settings."
+		"每个控制元件会在一个频率上传输正向位移量，在第二个频率上传输反向位移量。互相紧邻的控制台会自动合并为一个整体控制台组，供单名玩家统一操控。潜行右击已安装的控制元件可进行配置；若想调整布局，用扳手将其拆下即可，拆卸后仍会保留原有设置。"
 		""
-		"The standalone &aJoystick&f block is the same idea in a single block, with four axes and a spare button."
+		"独立的&a操纵杆&f方块则是将相同理念整合为单方块，拥有四向轴与一个备用按键。"
 		"{@pagebreak}"
-		"Each &aModule&f can be installed separately and come with their own buttons as well."
+		"每个&a模块&f均可独立安装，并配有各自的专属按键。"
 		""
-		"You can place multiple &dDesks&f side by side to extend the amount of controls you can assign to a single &dDesk&f. Clicking anywhere on the &dDesk&f allows you to interact with all controls via keybinds."
+		"将多个&d控制台&f并排摆放可扩展单个&d控制台&f所能容纳的控制元件数量。点击&d控制台&f的任意位置，即可通过按键绑定与所有控制元件进行交互。"
 	]
-	quest.2345657297A97D4A.title: "&dControl Desk"
+	quest.2345657297A97D4A.title: "&d控制台"
 	quest.234A09F196E91BDD.quest_desc: ["生成资源的方式很多，本章节旨在帮助你了解能够大量获取物品的模组！"]
 	quest.234A09F196E91BDD.title: "&6资源生成"
 	quest.2369D81BC32A5982.quest_desc: [
@@ -2793,11 +2793,11 @@
 		"泥土能转化为黏土，泥土上能种树，泥土甚至能搭建每一个Minecraft玩家都搭建过的泥土房子（当然，这次是在空岛上）。"
 	]
 	quest.23A56DB24FE7D584.quest_desc: [
-		"Right-click a ship with the &aContraption Diagram&f and it opens a page of the things you actually need to know. Total mass, the &bcentre of mass&f, and every force arrow, merged or separate."
+		"手持&a结构图解&f右击飞船，即可打开包含关键核心信息的页面：总质量、&b质心&f位置，以及合并或单独显示的各项受力箭头。"
 		""
-		"The &bcentre of mass&f is the number that decides whether your ship flies level or nose-first. Balloons and propellers push on the ship where they sit, so lift far from the centre of mass turns into a tilt, and a tilt turns into a spin. Check the diagram before the maiden voyage, then move the heavy bits until the arrows line up."
+		"&b质心&f决定了飞船是平稳飞行还是船头栽地。气球与螺旋桨会在各自所在的安装位置施加推力，因此远离质心的升力会导致机身倾斜，而倾斜则会进一步引发自旋。在首航前务必查看图解，调整较重部件的位置，直到各项受力箭头相互对齐配平。"
 	]
-	quest.23A56DB24FE7D584.title: "&aContraption Diagram"
+	quest.23A56DB24FE7D584.title: "&a结构图解"
 	quest.23B63CC05AA3EAAB.quest_desc: [
 		"&a龙符石&r使玩家免疫直接和非直接魔法伤害。"
 		""
@@ -3445,11 +3445,11 @@
 	]
 	quest.2C1649AE3DADD71D.title: "&b更快地建造"
 	quest.2C3835C8412B1DF2.quest_desc: [
-		"&eCopycats+&f blocks take on the texture of whatever block you click them with, so a hull can look like oak, deepslate or brass while weighing almost nothing. &eAero Copycats&f is the glue between the two mods. It hands every copycat shape a proper physics mass, and a &aCopycat Board&f comes in at 0.125 kpg."
+		"&eCopycats+&f的方块能够呈现所点击方块的材质，让船体兼具橡木、深板岩或黄铜的外观，同时重量几乎可以忽略不计。&eAero Copycats&f模组是连接两者的桥梁，它赋予了每种伪装构件合理的物理质量，其中一种&a伪装覆板&f的质量仅有0.125 kpg。"
 		""
-		"That's the trick to a big ship. Build the shape out of boards, beams, panels and slices, skin them with the heavy-looking block, and let the balloon carry a fraction of the weight."
+		"这就是建造大型飞船的诀窍：使用覆板、梁、面板和切棱搭建结构外形，再贴上厚重外观的材质伪装，便能让气球只需承受极小一部分的重量。"
 	]
-	quest.2C3835C8412B1DF2.title: "&aLight Hull Blocks"
+	quest.2C3835C8412B1DF2.title: "&a轻量船体方块"
 	quest.2C55C6EBABA86BA8.quest_desc: ["&a初级方块破坏器&r会使用内部的工具破坏前方的方块；就算你给他的工具是一根木棍或一块黑曜石，它也会完成任务的。"]
 	quest.2C55C6EBABA86BA8.title: "&a初级方块破坏器"
 	quest.2C5BB08BA01C2F8C.quest_desc: ["这种通常带有放射性的化学品需要与极强的板材结合，才能制作出不会破坏&z椰林飘香&f完美风味的杯子。"]
@@ -3474,13 +3474,13 @@
 	]
 	quest.2CC49B7C1ADB01A2.title: "有着奇怪味道的果汁"
 	quest.2CE7B94D12101C54.quest_desc: [
-		"The &dShield Generator&f wraps a ship in a shell that stops anything moving faster than 0.35 blocks a tick. Shells, arrows and shot bounce off, and anything fast that's leaving gets reflected too. People walking through it are fine, and so is your own slow cargo."
+		"&d护盾发生器&f可在飞船外包裹一层屏障，阻挡移动速度超过每刻0.35格的一切物体。炮弹、箭矢与弹丸都会被弹开，甚至从内部向外高速飞出的物体也同样会被反弹。玩家步行穿过不受影响，慢速移动的自身货物也能安全通过。"
 		""
-		"It burns &aAmethyst Shards&f, or takes &bFE&f instead at up to 2,000 FE a push, 20 FE per shard-tick. A redstone signal sets the shield heat from 0 to 100, and hotter is stronger. Big hits in one spot open a local breach for a moment, so a shield is a buffer, not a wall."
+		"它消耗&a紫水晶碎片&f，亦可消耗&bFE&f：单次弹开物体最高消耗2000 FE，维持护盾需每刻每碎片20 FE。红石信号可将护盾热度设定在0至100之间，热度越高强度越强。单点遭受重击会产生短暂局部破口，因此护盾是缓冲手段而非绝对障壁。"
 		""
-		"Three shapes. A &bConvex Hull&f hugs the ship, a &bMetaball&f rounds it off, and a &bGround Dome&f sits on the ground around a base at up to 50 blocks radius. The shell can stand up to 5 blocks off the hull. Bigger shields burn shards faster."
+		"共有三种形态：&b凸包&f紧贴飞船轮廓，&b融球&f呈平滑圆润形态，&b地面穹顶&f则可笼罩地面基地，半径最高达50格。护盾外壳与船体间距最大可设为5格。护盾范围越大，消耗碎片的速度越快。"
 	]
-	quest.2CE7B94D12101C54.title: "&dShield Generator"
+	quest.2CE7B94D12101C54.title: "&d护盾发生器"
 	quest.2D09494ED3235CC8.quest_desc: [
 		"&3动力泵&r是使流体管道能够实际输送流体的核心装置。"
 		""
@@ -3682,13 +3682,13 @@
 	quest.2F057F981B68EB95.quest_desc: ["向&a初级流体放置器&r输入流体后，它会将流体倒在世界中。"]
 	quest.2F057F981B68EB95.title: "&a初级流体放置器"
 	quest.2F06B5B38E9B8804.quest_desc: [
-		"Keys become redstone with the &3Linked Typewriter&f. It binds keyboard keys to &bRedstone Link&f frequencies. Sneak and right-click to open the setup, put a link's items on a key, and from then on pressing the key transmits on that frequency. Right-click it with a &bLinked Controller&f to copy that controller's bindings across in one go."
+		"&3无线红石打字机&f能将按键化为红石信号。它可将键盘按键绑定至&b无线红石信号终端&f的频率。潜行右击可打开配置界面，将信号终端的物品分配给对应按键，之后按下该键即可在该频率发射信号。手持&b无线红石遥控器&f右击打字机，可一键复制该遥控器的所有按键绑定。"
 		""
-		"Right-click to take control and the typewriter steals your movement keys and every bound key until you let go. Thirteen thrusters, six servos and a burner, all from one seat."
+		"右击即可入座操控，此时打字机会接管你的移动键及所有绑定按键，直至退出操控。十三台推进器、六个舵机与一个燃烧室，只需坐在一个操作位上即可全盘掌控。"
 		""
-		"&eAeronautics Curios Compat&f gives it a slot of its own. Keep a typewriter in the curio slot and the &bUse Remote Typewriter&f key drives the ship from anywhere aboard."
+		"&eAeronautics Curios Compat&f模组为其提供了专属饰品栏位。将打字机放入饰品栏，按下&bUse Remote Typewriter&f按键即可在船上任意位置操控飞船。"
 	]
-	quest.2F06B5B38E9B8804.title: "&3Linked Typewriter"
+	quest.2F06B5B38E9B8804.title: "&3无线红石打字机"
 	quest.2F11FF90561D0604.quest_desc: ["&a陀螺仪&r会消耗大量旋转力，尝试使动态结构沿着所放置的轴线维持稳定。"]
 	quest.2F15D918EF183051.title: "&f欢迎游玩&6FTB Skies 2：Aero&f！"
 	quest.2F2DC018DD6A2A23.quest_desc: [
@@ -3850,16 +3850,16 @@
 	]
 	quest.31705AD5BE50E2CB.title: "&f加压反应室"
 	quest.31747F470139AA5A.quest_desc: [
-		"Everything in this chapter is about one thing. Building a ship that actually flies, and not falling out of it."
+		"本章的所有内容只围绕一件事：造出一艘真正能飞的飞船，并且别从上面掉下来。"
 		""
-		"A &bSimulated Contraption&f is a pile of blocks that has been handed over to the physics engine. It has mass, measured in &bkpg&f, and it obeys three forces. &bWeight&f pulls it down, &bLift&f holds it up, &bThrust&f shoves it around. Get lift and weight to agree and the ship hovers. Add thrust and it goes somewhere."
+		"&b物理结构&f是一组移交至物理引擎接管的方块结构。它拥有以&bkpg&f为单位计量的质量，并遵循三种力的作用：&b重力&f将其向下拽拉，&b升力&f将其向上托举，&b推力&f则推动它四处移动。当升力与重力相互平衡时，飞船便会平稳悬停；加上推力，飞船就能启航远行。"
 		""
-		"[\"You've already met the \", {\"text\": \"Physics Assembler\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0128A3EC005A8AE5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Physics Assembler Quest\"]}}, \" and the \", {\"text\": \"Hot Air Burner\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Hot Air Burner Quest\"]}}, \" on your starter ship. The quest paths below cover the hull, the lift, the engines, keeping it level, steering it, getting it somewhere useful, and arming it.\"]"
+		"[\"在初始飞船上，想必你已经见识过\", {\"text\": \"物理组装器\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0128A3EC005A8AE5\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往物理装配器任务\"]}}, \"与\", {\"text\": \"热空气燃烧室\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"0B78BFB7B5C11DCF\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往“热气燃烧室”任务\"]}}, \"了。下方的各个任务分支涵盖了船体结构、升力提供、引擎动力、机身配平、航向控制、航行以及舰载武装。\"]"
 		""
-		"&eNote&f: Nearly every block here has a &bPonder&f. Hold W over the item in JEI or your inventory. They're short and they'll save you a crash or two."
+		"&e提示&f：此处的绝大多数方块都支持&b思索&f。在JEI或物品栏中将光标悬停在物品上并按住W键即可查看。演示简明扼要，能帮你免受几次坠机之苦。"
 	]
-	quest.31747F470139AA5A.quest_subtitle: "Up, up and away"
-	quest.31747F470139AA5A.title: "&6Taking to the Skies"
+	quest.31747F470139AA5A.quest_subtitle: "起飞，直入云霄！"
+	quest.31747F470139AA5A.title: "&6飞向蓝天"
 	quest.319F49C16CFE900C.quest_desc: [
 		"虽然睡觉是设置重生点的经典方法，但你也可以选择使用&a/sethome&r命令来设定家，输入&a/home&r回家。"
 		""
@@ -3980,11 +3980,11 @@
 	quest.321229F5E7574245.title: "&e方形绿宝石之戒"
 	quest.3219123B72D9F360.title: "&3256B化学品存储组件"
 	quest.322D2B0CB2B547D8.quest_desc: [
-		"The &dGyroscopic Mechanism&f is the part that everything in this quest path is built around. "
+		"&d陀螺仪构件&f是本任务分支中所有内容的核心基础部件。"
 		""
-		"You'll want them for the &dGyroscopic Propeller Bearing&f as well."
+		"制作&d陀螺仪螺旋桨轴承&f同样少不了它。"
 	]
-	quest.322D2B0CB2B547D8.title: "&dGyroscopic Mechanism"
+	quest.322D2B0CB2B547D8.title: "&d陀螺仪构件"
 	quest.325D35004FF683C2.quest_desc: [
 		"&6量子计算机&r是最强大的多方块自动合成器，如果存储条件允许的话，它一次可以执行巨量任务！"
 		""
@@ -5881,7 +5881,7 @@
 		""
 		"如果钓点周围五格宽的水域开阔无阻，且至少两格深，上方无遮挡，则有几率钓到“珍贵”的精华。"
 		""
-		"&o&7Some Essence require finding the item first such as Diamond and Emerald Essence&r"
+		"&o&7部分精华需要先找到对应物品，例如钻石精华与绿宝石精华&r"
 	]
 	quest.4A07DF8EB4A0C40A.title: "&f耕作之道"
 	quest.4A0A19E73680034F.quest_desc: [
@@ -7093,7 +7093,7 @@
 		""
 		"一生二，二生三，三生万物。"
 		""
-		"&7&oThere is also the rare chance to fish up some diamond essence if you have found them first, and other more technical methods exist that could generate diamonds such as &aCoal Compression&r&7&o, a &aLens of the Miner&r&7&o, etc..."
+		"&7&o若你此前已经发现过钻石精华，你也有机会钓到一些钻石精华，并且存在其他更有技术性的方法来生成钻石，例如&a煤炭压缩&r&7&o，&a矿工透镜&r&7&o等等……"
 	]
 	quest.595F8AC6DB5DACD8.title: "&a你的第一颗&b钻石"
 	quest.596B99FA746FF18B.quest_desc: [
