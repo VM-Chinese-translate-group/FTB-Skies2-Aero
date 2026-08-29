@@ -134,9 +134,9 @@
 	quest.010F6CB71BAB1731.quest_desc: [
 		"&a对接连接器&f总是以两个为一组。它们会延长、靠近后自动对齐并锁定。保证连接紧固的同时也保证两端的独立性，一旦锁定，物品和流体可双向直通，只要在一侧提供输入、另一侧抽出即可。"
 		""
-		"Retract either end to undock. A comparator reads how far along the docking is, which is the signal an automated dock waits for."
+		"收回任意一端即可解除停泊。比较器可读取当前的停泊进度，这也是自动化停泊系统等待的触发信号。"
 		""
-		"&aRedstone Magnets&f help line a big ship up. Opposite poles attract and try to align with each other, so a magnet on the hull and one on the pier drags the connectors into range."
+		"&a红石磁铁&f有助于协助大型飞船对齐泊位。异名磁极会相互吸引并尝试自动对齐；在船体与码头上各装一块磁铁，即可将连接器自动拉入对接范围。"
 	]
 	quest.010F6CB71BAB1731.title: "&a对接连接器"
 	quest.01177027CE208375.quest_desc: [
@@ -3500,7 +3500,7 @@
 		"{@pagebreak}"
 		"&z椰林飘香&f是&6FTB Skies 2：Aero&f的终极目标。"
 		""
-		"After crafting this item, you must drink it at around 17:00 (5PM) game-time while sitting on a tropicraft chair."
+		"合成此物品后，必须在游戏时间17:00（下午5点）左右坐在Tropicraft的椅子上将其饮用。"
 	]
 	quest.2D0F5BF08D40618C.title: "&z椰林飘香"
 	quest.2D178651FB267E91.title: "精通之证"
@@ -4821,7 +4821,7 @@
 	quest.3B8310CD44BBD6F1.quest_desc: [
 		"借助磁铁和&2碳刷&f，&a发电机线圈&f可以将&e机械动力模组的&b应力&f（&bSU&f）转化为&cForge能量（FE）&f。"
 		""
-		"[\"Using this method, your power will scale better the more you invest into your \", {\"text\": \"SU\", \"color\": \"aqua\"}, \" production, with each \", {\"text\": \"Nuclear Reactor\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2617A856093F36AB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Quest\"}}, \" providing enough \", {\"text\": \"SU\", \"color\": \"aqua\"}, \" to generate around 300,000 FE/t.\"]"
+		"[\"使用此方法，你对\", {\"text\": \"SU\", \"color\": \"aqua\"}, \"产出的投入越多，发电收益的成长性就越高。每座\", {\"text\": \"核反应堆\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"2617A856093F36AB\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往任务\"}}, \"提供的\", {\"text\": \"SU\", \"color\": \"aqua\"}, \"足以产生约300,000FE/t的能量。\"]"
 		""
 		"一排最多可放置8个&a发电机线圈&f。而&a发电机线圈&f彼此相邻时，可以共用磁铁，从而节省一些资源。"
 		""
@@ -6705,7 +6705,7 @@
 	quest.546A582A0084C982.quest_desc: [
 		"&7&o人造物和魔法风味的结合"
 		""
-		"&cWarning!&o&r &oA Flashpine can't be havested or picked up if placed.&r"
+		"&c警告！&o&r &o闪电菠萝一旦放置便无法采集或回收。&r"
 	]
 	quest.546A582A0084C982.title: "人造水果"
 	quest.547C772CB5972224.quest_desc: [
@@ -7811,17 +7811,17 @@
 	]
 	quest.62BC01D7050D366E.title: "分级物品展示台"
 	quest.62BF630E65CE5CDD.quest_desc: [
-		"The &3Thruster&f from &eCreate Thrusters&f burns fuel and shoves the ship away from its nozzle. Coal, blaze rods, lava and a long list of fluids all count as fuel. A redstone signal from 1 to 15 is the throttle, and full throttle gives about 2.94 kpN."
+		"&eCreate Thrusters&f模组的&3推进器&f通过燃烧燃料，朝喷口反方向推动飞船。煤炭、烈焰棒、熔岩及各类流体均可充当燃料。1至15级的红石信号对应油门开度，满油门时可输出约2.94 kpN推力。"
 		""
-		"Throttle is not linear. A neutral fuel burns 5.6 mB per tick flat out, and backing off to half throttle cuts the burn a lot more than it cuts the thrust. Cruise low, sprint rarely."
+		"油门响应是非线性的：基准燃料在全油门运转时每刻消耗5.6 mB，而降至半油门时，油耗的削减幅度远大于推力的降低幅度。日常宜低速巡航，尽量少开全油门。"
 		""
-		"The &aSmall Thruster&f is the same engine in a shorter body. Stay out of the exhaust, it hurts."
+		"&a小型推进器（Small Thruster）&f是缩短了机身体积的同款引擎。请远离尾焰喷气，免受灼伤。"
 		"{@pagebreak}"
-		"These &aThrusters&f do a lot more than just move your contraptions thanks to their upgrades, which can allow &aThrusters&f to smelt, cook, and haunt items just like &bEncased Fans&f."
+		"得益于升级，这些&a推进器&f的作用远不止驱动装置移动——它们还能像&b鼓风机&f一样对物品进行熔炼、烟熏烹饪以及缠魂加工。"
 		""
-		"They consume liquid fuel by default, but can be made to consume power (FE) instead using the &dThruster Lens&f"
+		"它们默认消耗液体燃料，但装上&d推进器透镜&f后可改为消耗能量（FE）。"
 	]
-	quest.62BF630E65CE5CDD.title: "&3Thrusters"
+	quest.62BF630E65CE5CDD.title: "&3推进器"
 	quest.62C92C8960875611.quest_desc: ["无论是在物理领域还是在魔法领域，金属加工都是非常重要的，不过两个领域的加工方式大相径庭。注入了精魂的金属锭非常有利于更加深远的发展。"]
 	quest.62C92C8960875611.title: "&f精魂冶金学"
 	quest.62CFAFC74ADA4781.quest_desc: ["&3鼓风机&r产生的气流可用于推动实体或处理物品。"]
@@ -7972,19 +7972,19 @@
 	quest.652650C157E16712.title: "&f魂织绸缎"
 	quest.653A1D93146FEBD3.title: "精魂提纯"
 	quest.655A43231DB3160E.quest_desc: [
-		"The &3Autocannon&f is the small fast one. A breech, a recoil spring and a few barrel blocks, cast the same way as the big gun except the moulds shed their sand on their own. It sits on a &aCannon Mount&f like the big gun and aims the same way."
+		"&3机炮&f是小型速射武器：由炮闩、复进弹簧和数截炮筒组成；浇铸流程与重炮相同，不过模具在成型后会自动脱砂。它同样安装在&a火炮底座&f上，瞄准方式也与重炮一致。"
 		""
-		"It feeds from an &aAutocannon Ammo Container&f that holds 64 rounds, or 128 &aMachine Gun Rounds&f. &aFlak&f rounds burst in the air for anything with wings, &3AP&f rounds go through armour. The recoil is half of a big cannon's, which on a small ship still counts."
+		"它使用&a机炮弹药箱&f供弹，可容纳64发炮弹或128发&a机枪弹药&f。&a高射炮弹&f会在空中爆炸以杀伤飞行目标，&3穿甲弹&f则能击穿装甲。其后坐力约为重炮的一半，在小型飞船上依然不可忽视。"
 	]
-	quest.655A43231DB3160E.title: "&3Autocannon"
+	quest.655A43231DB3160E.title: "&3机炮"
 	quest.6587B145151746EC.quest_desc: ["&e蒸馏器&r解锁了许多新产物的配方，&a石膏&r和&a女神之泪&r是推动进度的关键材料，在&b圆环魔法&r中会用到。"]
 	quest.6587B145151746EC.title: "蒸馏器产物"
 	quest.65BC94BEFE461307.quest_desc: [
-		"Two &aRope Connectors&f and a &aRope Coupling&f ties two contraptions together, or a contraption to the ground. Right-click one end then the other. Shears cut it, and right-clicking with a wrench slides you down it."
+		"使用两个&a绳索连接器&f搭配&a绳索&f可将两个动态结构系在一起，或将结构锚定在地面上。依次右击两端即可完成系连；用剪刀可剪断绳索，手持扳手右击则可沿绳索滑降。"
 		""
-		"A &aRope Winch&f in place of one connector reels the rope in and out with rotation, which is a mooring line, a crane or an elevator depending on what's on the end. Two winches won't connect to each other."
+		"若将其中一个连接器替换为&a绳索绞盘&f，即可通过旋转力收放绳索；根据末端所连结构的不同，可用作缆绳、起重吊机或升降电梯。注意两个绞盘之间无法直接相连。"
 		""
-		"The &3Powered Zipline&f from &eCreate Thrusters&f rides along a rope under its own power, and the &3Claw&f hangs from one and grabs connectors on a redstone pulse."
+		"&eCreate Thrusters&f中的&3动力滑索（Powered Zipline）&f可依靠自身动力沿绳索穿行，悬挂在其下方的&3抓爪（Claw）&f可在接收到红石脉冲时抓取连接器。"
 	]
 	quest.65BC94BEFE461307.title: "&a绳索"
 	quest.663460DE8AF7E464.quest_desc: [
@@ -8220,11 +8220,11 @@
 	]
 	quest.69282BCC2FA04060.title: "&f变量卡箱"
 	quest.6932BD0BC70C77E7.quest_desc: [
-		"A ship that flies is easy. A ship that flies level is the hard part."
+		"让飞船飞起来很简单，让飞船平稳飞行才是难点所在。"
 		""
-		"Anything with the lift and the weight in different places wants to tip, and once it's tipping the lift points sideways and it tips faster. Balance the hull first, then add something that actively fights the tilt. Follow this quest path to learn the ways to balance."
+		"只要升力作用点与重力中心不在同一位置，飞船就会趋于倾斜。而一旦发生倾斜，升力便会偏向侧方，导致倾斜进一步加剧。首先要对船体做好基础配平，随后再加装能够主动抵抗倾斜的稳定装置。跟随本任务分支，即可了解保持平衡的各项技巧。"
 	]
-	quest.6932BD0BC70C77E7.title: "&bStability"
+	quest.6932BD0BC70C77E7.title: "&b稳定度"
 	quest.693E3765975EF799.quest_desc: ["&a移动式存储接口&r允许你从结构中输入/提取物品。"]
 	quest.693E3765975EF799.title: "&a动态结构交互"
 	quest.6964408274A7ACF7.title: "游玩&a10小时"
@@ -8323,11 +8323,11 @@
 	]
 	quest.6AF5FF1455F7C977.title: "&a紫水晶符石"
 	quest.6B09F7DEBFE6905B.quest_desc: [
-		"A ship that flies and steers still needs somewhere to go and a way to stop when it gets there."
+		"一艘既能升空又能转向的飞船，仍需要明确的目的地以及抵达时的停泊手段。"
 		""
-		"This quest path is docking, ropes, navigation, automated routes, claiming your ship so it keeps ticking while you're away, and taking it into other dimensions."
+		"本任务分支涵盖了对接停泊、缆绳系泊、航行导航、全自动航线、认领飞船以在离开时保持运转，以及跨维度远航。"
 	]
-	quest.6B09F7DEBFE6905B.title: "&bGoing Places"
+	quest.6B09F7DEBFE6905B.title: "&b启航远行"
 	quest.6B23438D6F622F5D.quest_desc: ["&4&l警告！&r&c爆破透镜&r会在激光击中处产生一场大爆炸。"]
 	quest.6B23438D6F622F5D.title: "&c爆破透镜"
 	quest.6B390939597DC9E7.quest_desc: [
@@ -8456,11 +8456,11 @@
 	]
 	quest.6D165125DC0B8F50.title: "&f打包带"
 	quest.6D24519E78D6F67C.quest_desc: [
-		"A &aCover&f is a facade that wraps around pipes, cables and other awkward blocks so the hull reads as one surface. The &aDirectional Cover&f does the same with a block that has a front."
+		"&a盖板&f是一种结构伪装层，可包裹住管道、线缆及各种突兀的方块，使船体外观呈现为完整的统一表面。&a定向盖板&f则适用于具有正反朝向的方块。"
 		""
-		"Regular cable facades fall off the moment a ship assembles. These survive &eCreate&f contraptions and physics assembly both, so a covered engine room stays covered when it takes off."
+		"常规的线缆伪装板在飞船组装的瞬间便会脱落，而这些盖板能完美兼容&eCreate&f的动态结构与物理引擎的装配，确保封装好的轮机舱在起飞时依旧完好如初。"
 	]
-	quest.6D24519E78D6F67C.title: "&aAeronautics Covers"
+	quest.6D24519E78D6F67C.title: "&a航空盖板"
 	quest.6D2885E2EC0123BA.quest_desc: ["&7你一定&l狠&r&7喜欢椰林飘香"]
 	quest.6D28E1AFBB33C43E.quest_desc: ["&d时钢&r可用于升级你的现有设备，也可以合成一些有用的东西。"]
 	quest.6D28E1AFBB33C43E.title: "&d时钢"
@@ -8522,11 +8522,11 @@
 	quest.6E62CF3784A15E0F.title: "&f化学品卡"
 	quest.6E66D752E153E00F.title: "&f实用的&a一阶&r魔符"
 	quest.6E9D6254DEBD449A.quest_desc: [
-		"The &aNavigation Table&f points at things. Give it a navigation item, a &bFilled Map&f or a &bCompass&f, and it puts out a redstone signal toward the destination, strongest when the ship faces it dead on and weaker as you drift off. Feed that into a servo and the ship finds its own way."
+		"&a导航台&f用于指示目标方位。放入&b已绘制的地图&f或&b指南针&f等导航物品，它便会朝目的地输出红石信号：飞船正对目标时信号最强，偏离航向时信号减弱。将该信号接入舵机，飞船就能自动寻路前行。"
 		""
-		"The &aNavigator's Table&f from &eAeronaut's Compass&f is how you make the destination. Put a compass on it, type coordinates and a name, and the compass points there. Craft it alone to reset it."
+		"&eAeronaut's Compass&f模组的&a领航员工作台（Navigator's Table）&f用于自定义目的地。将指南针放入其中并输入坐标与名称，指南针便会指向该位置；单独放入合成格中合成即可将其重置。"
 		""
-		"The &3Advanced Navigation Table&f holds several maps at once and exposes the slots to automation, so a route can swap targets as it goes."
+		"&3高级导航台（Advanced Navigation Table）&f可同时容纳多张地图并支持自动化交互，使飞船在航行中能自动切换目标。"
 	]
 	quest.6E9D6254DEBD449A.title: "&a导航台"
 	quest.6EBE4A9647FFC833.quest_desc: [
@@ -8693,17 +8693,17 @@
 	]
 	quest.7169587C7DC4C8C0.title: "&5献祭精魄"
 	quest.7176D0016C3E1BDC.quest_desc: [
-		"This pack's shortcut is the &aSkybound Anchor&f. Place it on a ship and it counters pitch and roll with no rotation, no stress and no fuel."
+		"&a天际锚&f是本整合包中的平衡捷径。将其安装在飞船上，无需旋转力、应力与燃料，即可抵消俯仰与滚转。"
 		""
-		"It doesn't touch yaw, so the ship still turns freely, and it doesn't fix a hull that's badly out of balance, it just stops the wobble. For a starter ship or a flying base that mostly parks, this is all the stabilization you need. Save the &dGyroscope&f for something that has to fly straight at speed."
+		"它不会干预偏航，因此飞船仍能自由转向。它无法彻底修正严重失衡的船体，但足以消除机身晃动。对于初始飞船或主要用于停泊的飞行基地而言，它的稳定效果已完全够用。把&d陀螺仪&f留给那些需要高速直线飞行的载具即可。"
 	]
-	quest.7176D0016C3E1BDC.title: "&aSkybound Anchor"
+	quest.7176D0016C3E1BDC.title: "&a天际锚"
 	quest.71806B23D902DDE1.quest_desc: [
-		"The &aAltitude Sensor&f turns height into a redstone signal. By default the signal grows as you climb, the range is set in its interface, and it can be flipped to shrink instead."
+		"&a高度传感器&f可将当前海拔高度转化为红石信号。默认情况下，信号强度随高度上升而递增（高度范围可在界面中设定），亦可反转为随高度上升而递减。"
 		""
-		"Feed that signal into the burner or vent and the ship holds a height by itself. Climb, the signal rises, the redstone into the burner drops, the balloon cools, the ship sinks back. Wearing goggles or holding a wrench shows the exact altitude and air pressure."
+		"将该信号接入燃烧室或喷口，飞船便能自动维持定高飞行：飞船爬升时信号增强，输入燃烧室的信号随之降低，气球冷却，飞船便会回落回位。佩戴护目镜或手持扳手可查看当前精确的海拔高度与气压。"
 	]
-	quest.71806B23D902DDE1.title: "&aAltitude Sensor"
+	quest.71806B23D902DDE1.title: "&a高度传感器"
 	quest.71806E77AEE9E050.quest_desc: [
 		"一旦你获得了一些&a锇&r，就可使用&e热力发电机&r开始生成基础电力。"
 		""
@@ -9086,11 +9086,11 @@
 	quest.75D7595FD90E77E5.quest_desc: ["每装一个&d装配矩阵样板核心&r，就能给&6装配矩阵&r增加36个样板槽位。"]
 	quest.75D7595FD90E77E5.title: "&d装配矩阵样板核心"
 	quest.765CD0AA28077AA3.quest_desc: [
-		"Wear these and the ship stops being a mystery. Every force acting on a &bSimulated Contraption&f gets drawn as an arrow, propellers and thrusters print their output, and assemblies show their details."
+		"戴上它，飞船的受力状态便一目了然。作用在&b物理结构&f上的各项受力都会以箭头形式直观绘制出来，螺旋桨与推进器会实时显示输出数值，各类装配结构也会呈现详细信息。"
 		""
-		"[\"The \", {\"text\": \"Aviator's Goggles\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"425A41A378E7BF52\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Go to Engineer's Goggles Quest\"]}}, \" from \", {\"text\": \"Aeronautics\", \"color\": \"yellow\"}, \" do the same job as \", {\"text\": \"Engineer's Goggles\", \"color\": \"aqua\"}, \" for stress and RPM. Pick whichever pair suits the outfit.\"]"
+		"[{\"text\": \"航空学\", \"color\": \"yellow\"}, \"中的\", {\"text\": \"飞行员护目镜\", \"color\": \"yellow\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"425A41A378E7BF52\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"前往工程师护目镜任务\"]}}, \"在查看应力与转速方面与\", {\"text\": \"工程师护目镜\", \"color\": \"aqua\"}, \"功能完全一致，挑选与你的穿搭最契合的一款即可。\"]"
 	]
-	quest.765CD0AA28077AA3.title: "&3Physics Goggles"
+	quest.765CD0AA28077AA3.title: "&3物理护目镜"
 	quest.767288EF95829225.quest_desc: [
 		"&3动力犁&r可以耕地并破坏无碰撞体积的非固体方块（雪、火把、铁轨、拉杆等）"
 		""
@@ -9231,7 +9231,7 @@
 		""
 		"&7参阅Oracle指南以了解更多信息"
 	]
-	quest.779E01749502690E.title: "The &6Tainted Refinery"
+	quest.779E01749502690E.title: "&6塌染精炼厂"
 	quest.77C20F4D048CD9BF.quest_desc: [
 		"你需要制作一些&2橙色的晶体&f，用它为&d椰奶奶油&f带来令人愉悦的质感。"
 		""
@@ -9582,14 +9582,14 @@
 	quest.7C2617969808F086.quest_desc: ["把一些&3晶体管&r和&3电容&r拍在&d未组装的印刷电路板&r来做出&b印刷电路板&r。"]
 	quest.7C2617969808F086.title: "&f组装好的印刷电路板"
 	quest.7C2F9F95406E9258.quest_desc: [
-		"&eAeroPortals&f lets a ship fly through a portal. Not you, the ship. Sail the hull into a &bNether Portal&f and the entire contraption arrives on the other side, crew, cargo, balloon and all, still moving at the speed it went in."
+		"&eAeroPortals&f模组能让飞船直接穿越传送门——不是仅玩家自己，而是整艘飞船。驾驶船体驶入&b下界传送门&f，整台机械装置便会完整抵达另一侧，船员、货物、气球完好无损，且保留原有的航速继续航行。"
 		""
-		"It works on far more than the Nether. The &bEnd&f, &eArs Nouveau&f portals, &eDraconic&f, the &bEnder Gateway&f, &eTelePastries&f, even the &6Pina Colada&f. Build the portal big enough for the ship to pass through it."
+		"它的适用范围远不止下界：&b末地&f、&e新生魔艺&f传送门、&eDraconic&f、&b末地折跃门&f、&e传送蛋糕&f，甚至&6椰林飘香&f都能生效。只需将传送门建造得足够容纳飞船通过即可。"
 		""
-		"&cWarning&f: The destination has to have room. A ship that would arrive inside solid rock has its jump cancelled rather than the rock removed, so scout the far side first. A portal of matching size gets built for you if none is waiting, and a ship can't jump again for ten seconds after arriving. Keep the hull under 200,000 blocks of bounding box or the portal won't notice it at all."
+		"&c警告&f：目的地必须有足够的空间。若跃迁落点会被实心岩石卡住，跃迁会直接取消，而不会替你清除岩石，因此请务必提前侦察对面的空间。若对面没有存在的传送门，系统会自动生成对应尺寸的门，飞船抵达后需冷却10秒方可再次跃迁。船体的边界体积必须小于200,000格，否则传送门将无法识别。"
 	]
-	quest.7C2F9F95406E9258.quest_subtitle: "The whole ship goes"
-	quest.7C2F9F95406E9258.title: "&dAero Portals"
+	quest.7C2F9F95406E9258.quest_subtitle: "整艘飞船，一同穿越"
+	quest.7C2F9F95406E9258.title: "&d航空传送门"
 	quest.7C4F7E36320797C5.title: "&b三级&f生物种子"
 	quest.7C71C66C357C3623.quest_desc: ["&2乙醚&r用于将&e柴油&r和&a生物柴油&r转化为&6增压柴油&r。"]
 	quest.7C71C66C357C3623.title: "&2乙醚"
@@ -9712,11 +9712,11 @@
 	quest.7D98D9AB89357FA6.quest_desc: ["我们现在已经准备好前往新时代了——&2低压时代&r。低压时代的机器全部都需要&a基础机器外壳&r，你得&c多多&r准备了。"]
 	quest.7D98D9AB89357FA6.title: "&2低压时代&r"
 	quest.7D996CB0951B1037.quest_desc: [
-		"A &dPropulsion Upgrade&f multiplies thrust. Tier 1 doubles it, and each tier doubles again up to sixteen times at Tier 4, with the fuel bill climbing to match."
+		"&d推进升级（Propulsion Upgrade）&f可成倍提升推力：1阶翻倍，每升一阶再翻一倍，4阶最高可达16倍推力，燃料消耗也会相应同步增加。"
 		""
-		"&dProcessing Upgrades&f turn the exhaust into an &bEncased Fan&f. Items on &aDepots&f in the stream get smoked, smelted or haunted, faster and over a wider area at higher tiers. The &dThruster Lens&f swaps fuel for &bFE&f entirely, 90 FE per tick at full throttle, and focuses the plume into a beam that pushes harder than the open flame. The &aFuel Oxidizer&f boosts supported fuels by half again."
+		"&d加工升级（Processing Upgrade）&f可将尾气转化为&b鼓风机&f的处理气流。位于气流中&a置物台&f上的物品会被烟熏、熔炼或缠魂；升级阶位越高，加工速度越快，覆盖范围也越广。&d推进器透镜（Thruster Len）&f可将燃料完全替换为&bFE&f供能（全油门时为90 FE/刻），并将尾焰聚束为高能射流，输出比开放火焰更强劲的推力。&a燃料氧化器（Fuel Oxidizer）&f可使兼容燃料的效果额外提升50%。"
 	]
-	quest.7D996CB0951B1037.title: "&dThruster Upgrades"
+	quest.7D996CB0951B1037.title: "&d推进器升级"
 	quest.7DC700AAF1680424.title: "&a纸板"
 	quest.7DE9A4C7979AC1FA.quest_desc: [
 		"&6时域仪&r可以开启一扇通往任意标记点的传送门。"
@@ -9997,7 +9997,7 @@
 	task.0ADB488118F04CF5.title: "蜜蜂属性"
 	task.0AE9E3C1553154B6.title: "机器核心"
 	task.0BC939593E954EC8.title: "技能"
-	task.0BE0A1D1F62A6D47.title: "Any #ftb:tropicraft_chair"
+	task.0BE0A1D1F62A6D47.title: "任意#ftb:tropicraft_chair"
 	task.0C13FA83021AE4C5.title: "&e击杀&f：&6下界合金巨兽"
 	task.0C41CFCD491848EC.title: "&a下级精华&f盔甲"
 	task.0D41D1A509DD941A.title: "输入口"
@@ -10047,7 +10047,7 @@
 	task.1E25F96E4ECA6380.title: "重置魔法技能树"
 	task.1E44E4A78D48D820.title: "实用升级"
 	task.1E4BBCF77E4AE460.title: "扩容盒"
-	task.1E785759988570F8.title: "&eObserve&f: &6Tainted Refinery"
+	task.1E785759988570F8.title: "&e观察&f：&6塌染精炼厂"
 	task.1E8A40FC83FDC270.title: "&e找到建筑&f：&c炽焰术师塔"
 	task.1E99CDD9919D994A.title: "&a工匠卷轴"
 	task.1EAA289B281EBF4C.title: "任意#constructionstick:upgrades"
