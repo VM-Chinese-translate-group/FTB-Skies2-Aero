@@ -1389,6 +1389,9 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: {
+				id: "justdynathings:advanced_time_wand"
+			}
 			id: "630661119379FA37"
 			rewards: [{
 				amount: 1
