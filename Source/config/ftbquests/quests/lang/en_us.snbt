@@ -7890,7 +7890,7 @@
 	quest.630661119379FA37.quest_desc: [
 		"&bJust Dyna Things&r is an addon mod for &eJDT&r which adds several new blocks and quality of life things to enhance your playthrough."
 		""
-		"&7Note that the [G] guide does not fully reflect the values configured for this pack."
+		"&7Note that the [G] guide may not fully reflect the values configured for this pack."
 	]
 	quest.630661119379FA37.title: "&bJust Dyna Things"
 	quest.6323068C93CF7DCE.quest_desc: ["The &dWand of Symmetry&r can set up layouts that will automatically place blocks mirroring the blocks you place."]
