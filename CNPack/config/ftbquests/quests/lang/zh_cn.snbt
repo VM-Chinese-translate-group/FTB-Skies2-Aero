@@ -7846,7 +7846,7 @@
 	quest.630661119379FA37.quest_desc: [
 		"&bJust Dyna Things&r是&eJDT&r的一个附属模组，它新增了多种方块及便利性物品，旨在提升你的游戏体验。"
 		""
-		"&7请注意，[G]键指南中的内容不能完全反映本整合包的实际配置数值。"
+		"&7Note that the [G] guide may not fully reflect the values configured for this pack."
 	]
 	quest.630661119379FA37.title: "&bJust Dyna Things"
 	quest.6323068C93CF7DCE.quest_desc: ["&d对称之杖&r可以设置布局，自动镜像你放置的方块。"]
