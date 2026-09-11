@@ -8668,7 +8668,7 @@
 	quest.70A384F1352EE154.quest_desc: [
 		"To prove your mastery in the art of magic, you'll need to create &6Marks of Mastery&r."
 		""
-		"These are created in the Enchanting Apparatus by enchanting the &dWilden Tribute&r with each type of essence. You'll get 5 per craft, which can be used to upgrade your mage armor to the highest tier! These are also used to upgrade a &aLesser Spell Focus&r."
+		"These are created in the Enchanting Apparatus by enchanting the &dWilden Tribute&r with each type of essence. You'll get 4 per craft, which can be used to upgrade your mage armor to the highest tier! These are also used to upgrade a &aLesser Spell Focus&r."
 	]
 	quest.70A384F1352EE154.title: "&6Marks of Mastery&r"
 	quest.70A9E1AC900A77B4.quest_desc: [

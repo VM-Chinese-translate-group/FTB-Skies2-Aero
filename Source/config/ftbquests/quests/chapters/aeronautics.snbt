@@ -23,32 +23,12 @@
 		{
 			click_action: "none:"
 			height: 2.0d
-			id: "11707EA6A3235B2C"
-			image: "aeronautics:item/aviators_goggles"
-			rotation: 0.0d
-			width: 2.0d
-			x: 4.0d
-			y: -7.0d
-		}
-		{
-			click_action: "none:"
-			height: 3.0d
-			id: "5172E4ECB87AFAE3"
-			image: "aeronautics:block/levitite"
-			rotation: 0.0d
-			width: 3.0d
-			x: -13.5d
-			y: -2.5d
-		}
-		{
-			click_action: "none:"
-			height: 2.5d
 			id: "37540888A279C031"
 			image: "simulated:item/gyroscopic_mechanism"
 			rotation: 0.0d
-			width: 2.5d
-			x: -13.5d
-			y: 2.5d
+			width: 2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			click_action: "none:"
@@ -57,8 +37,8 @@
 			image: "simulated:item/contraption_diagram"
 			rotation: 0.0d
 			width: 2.5d
-			x: 13.5d
-			y: 2.5d
+			x: 8.75d
+			y: 7.25d
 		}
 		{
 			click_action: "none:"
@@ -67,8 +47,8 @@
 			image: "simulated:item/engine_assembly"
 			rotation: 0.0d
 			width: 2.5d
-			x: 13.5d
-			y: -2.5d
+			x: 10.25d
+			y: -7.0d
 		}
 	]
 	order_index: 1
