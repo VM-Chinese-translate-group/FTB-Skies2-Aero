@@ -8624,7 +8624,7 @@
 	quest.70A384F1352EE154.quest_desc: [
 		"为了证明你精通魔艺，你需要制作&6精通之印&r。"
 		""
-		"These are created in the Enchanting Apparatus by enchanting the &dWilden Tribute&r with each type of essence. You'll get 4 per craft, which can be used to upgrade your mage armor to the highest tier! These are also used to upgrade a &aLesser Spell Focus&r."
+		"它们是在附魔装置中，用每种精华附魔&d荒野供物&r来制作的。每次合成可获得4个，可以用来将你的法师盔甲升级到最高等级！它们也用于升级&a初等法术核心&r。"
 	]
 	quest.70A384F1352EE154.title: "&6精通之印&r"
 	quest.70A9E1AC900A77B4.quest_desc: [
