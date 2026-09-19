@@ -1647,7 +1647,7 @@
 				}
 				{
 					id: "5F5B6BB1A65A52B4"
-					item: { count: 1, id: "pneumaticcraft:ethanol_bucket" }
+					item: { count: 1, id: "modern_industrialization:ethanol_bucket" }
 					optional_task: true
 					type: "item"
 				}

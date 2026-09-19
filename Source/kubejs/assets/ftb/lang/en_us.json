@@ -441,6 +441,8 @@
   "ftb.tooltip.compactmachines.size.tiny": "§7Inner Size: §f3×3×3",
   "ftb.tooltip.easy_villagers.config_warning": "§8§o(You can re-enable it manually in the configs at the risk of impacting performance)§f",
   "ftb.tooltip.easy_villagers.disabled_render": "§c§l⚠ Attention§f: §bRendering of Contents§f is §b§lDisabled§f.",
+  "ftb.tooltip.fargostalismans.void_talisman.disabled": "§c§l⚠ Attention§f: §bVoid Protection§f is §b§lDisabled§f.",
+  "ftb.tooltip.fargostalismans.void_talisman.pending": "§8§o(It overrides Forgiving Void and can leave you stuck mid-fall. It returns once Fargo's Talismans ships a fix)§f",
   "ftb.tooltip.enchanted.mutandis_warning": "§aⓘ§f Not compatible with §6Bone Meal",
   "ftb.tooltip.end_portal_clear": "§aⓘ§f Left-click an §dEnd Portal§f to clear it.",
   "ftb.tooltip.excessive_utils.particle_dampener": "§aⓘ§f Dense enough to safely stop §dAccelerated Particles§f from the §6Particle Accelerator§f.",
