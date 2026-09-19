@@ -441,6 +441,8 @@
   "ftb.tooltip.compactmachines.size.tiny": "§7内部空间：§f3×3×3",
   "ftb.tooltip.easy_villagers.config_warning": "§8§o（你可手动在配置文件中重新启用该功能，但需承担可能影响性能的风险）§f",
   "ftb.tooltip.easy_villagers.disabled_render": "§c§l⚠ 注意§f：§b内容渲染§f功能当前为§b§l已禁用§f。",
+  "ftb.tooltip.fargostalismans.void_talisman.disabled": "§c§l⚠ 注意§f：§b虚空保护§f已§b§l禁用§f。",
+  "ftb.tooltip.fargostalismans.void_talisman.pending": "§8§o（会覆盖仁慈的虚空并可能导致卡在下坠途中。待Fargo的护身符发布修复补丁后恢复）§f",
   "ftb.tooltip.enchanted.mutandis_warning": "§aⓘ§f 与§6骨粉§f效果冲突",
   "ftb.tooltip.end_portal_clear": "§aⓘ§f 左击§d末地传送门§f即可清除。",
   "ftb.tooltip.excessive_utils.particle_dampener": "§aⓘ§f外壁足够致密，可以安全停住§6粒子加速器§f中射出的§d高能粒子§f。",
