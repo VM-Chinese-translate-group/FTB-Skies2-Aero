@@ -42,6 +42,13 @@
 			x: 4.5d
 			y: 0.5d
 		}
+		{
+			id: "56BDFBB6B6DDEE26"
+			linked_quest: "325D35004FF683C2"
+			shape: "hexagon"
+			x: -1.75d
+			y: 5.0d
+		}
 	]
 	quests: [
 		{
@@ -840,7 +847,7 @@
 				"0982AECAA96C6DA5"
 				"740706F63579237D"
 				"24FF4F633F92B480"
-				"0A91BD776D5EB4E6"
+				"325D35004FF683C2"
 			]
 			id: "28583E75F9E834F6"
 			optional: true
@@ -1010,23 +1017,6 @@
 			]
 			x: 0.0d
 			y: -9.0d
-		}
-		{
-			id: "0A91BD776D5EB4E6"
-			optional: true
-			rewards: [{
-				amount: 75
-				id: "492785563D3C7F5E"
-				type: "currency"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "3E7551F7098FA584"
-				item: { count: 1, id: "ae2lt:lightning_collapse_matrix" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 5.0d
 		}
 		{
 			dependencies: ["283EA4E7BA93DA11"]
