@@ -697,14 +697,6 @@
 		"By holding it in your hand and using it, you will see a list of your frequencies. You can then select one and click teleport!"
 	]
 	quest.087D1FBAE8A425C0.title: "&fMaking &dPortals&f!"
-	quest.08B1487323E55058.quest_desc: [
-		"Once you've obtained a few &aOverloaded Crystals&f, it's advised that you upgrade your Budding to Flawless using the setup below and striking it with lightning once again."
-		""
-		"A &dFlawless Crystal&f doesn't deteriorate over time like the other tiers do, making it ideal for automation."
-		""
-		"{image\\:\\ftb:textures/quests/ae2/ae2lt_pure_budding_setup.png width:130 height:115 align:center}"
-	]
-	quest.08B1487323E55058.title: "Making a &dFlawless Crystal"
 	quest.08D03AA0E1D218F7.title: "&7Plagued Set"
 	quest.0900DBFB006F8F85.quest_desc: ["Once you've acquired your ingredients, simply mix them together and a simple chemical reaction will fuse them together into freshly frozen &bIce Cubes&f."]
 	quest.09012B945D3AC7AE.quest_desc: [
@@ -910,7 +902,6 @@
 	quest.0ABE3ABD2CDF6A45.title: "&6Reactor Components"
 	quest.0ABFE7704D561C35.quest_desc: ["&3Contraption Controls&r allow for better configuration of your contraptions via redstone signals."]
 	quest.0ABFE7704D561C35.title: "&3Contraption Controls"
-	quest.0AD5078A3A112F55.quest_desc: ["The &6Lightning Collapse Matrix&f is one of the key end-tier components in &eAE2LT&f. Keeping a matrix in a machine's matrix slot unlocks the machine's higher-tier operating mode."]
 	quest.0AD7F1774B857EFA.quest_desc: [
 		"The &6Infused Awakening Matrix&f automatically processes &aInfusion&f and &2Awakening&f recipes inside a one-block solution."
 		""
@@ -2339,20 +2330,6 @@
 	quest.1D410DFB7EFEE4CE.title: "&aCoffee Beans"
 	quest.1D572D53A6EE3205.quest_desc: ["Once your &2Quarry&r digs up some &aPlatinum Ore&r, we can macerate it down into &bRaw Platinum Ore&r."]
 	quest.1D572D53A6EE3205.title: "&dRaw Platinum"
-	quest.1D5A6A292CBF90D3.quest_desc: [
-		"&eAE2 Lightning Tech&f (&eAE2LT&f) is an addon for mod that introduces &bLighting Storage&f to your ME network, including &6Overloaded&f network devices that break past the regular channel limits."
-		""
-		"[\"Anything not coverd in this short quest guide will be in the mod's own documentation via the GuideMe, which you can access by holding down the GuideMe Open key '\", {\"keybind\": \"key.guideme.guide\", \"color\": \"green\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: G\"}}, \"' when hovering most items in the mod.\"]"
-		""
-		"Before starting, make sure you already have a functioning AE2 ME network that includes at least:"
-		""
-		"- A small network, preferably with an &dME Controller&f,"
-		""
-		"- A few &2Certus Quartz Crystals&f and some &aAE2 Budding Certus Quartz&f of any tier,"
-		""
-		"- A vanilla lightning rod"
-	]
-	quest.1D5A6A292CBF90D3.title: "&eLightning Technology"
 	quest.1D87C5E9D52341C4.quest_desc: [
 		"To craft more advanced items in &eDraconic Evolution&r, you will need a special crafting setup called &dFusion Crafting&r."
 		""
@@ -2424,13 +2401,6 @@
 		"At tier 8, you will also need to upgrade your &2Stabilizers&r into a ring, requiring a total of 36 blocks (9 per ring)."
 	]
 	quest.1E7B5442F153ED3B.quest_desc: ["&7&oObtained from the shop or quest rewards"]
-	quest.1E89C7DECA4E915A.quest_desc: [
-		"The &dAtmospheric Ionizer&f is a weather control device that consumes &bWeather Condensate&f and AE energy to force the world's weather to a specific state, letting you feed the &aLightning Collector&f with reliable natural lightning strikes."
-		""
-		"There are three types of &2Weather Condensate&f: Clear, Rain, and Thunderstorm. Each with its own energy cost and duration of weather control."
-		""
-		"Once you've put the required &2Weather Condensate&r into the input slot, the machine will continuously drain energy from the ME network to ionize, changing the weather and consuming the &2Condensate&f once completed."
-	]
 	quest.1E9349AC359E058E.quest_desc: ["The &aMechanical Bearing&r rotates attached contraptions."]
 	quest.1E9349AC359E058E.title: "&aMechanical Bearing"
 	quest.1E95AD23243FEF87.quest_desc: ["You can now produce the best fuel &eActually Additions&r has to offer. Simply drop the &aEmpowered Canola Seed&r into &3Crystallized Oil&r and you have &dEmpowered Oil&r!"]
@@ -2959,17 +2929,6 @@
 	quest.25CDD6087C675F1A.title: "&eCable Tiers &aConstructors"
 	quest.25DF30E5EACB9B5F.quest_desc: ["Using the &3Chemical Reactor&r, we can combine &aEthanol&r and &2Sulfur Dust&r to create &#d2b8e0Ethylene&r."]
 	quest.25DF30E5EACB9B5F.title: "&#d2b8e0Liquid Ethene"
-	quest.25E129A95E8B4D1B.quest_desc: [
-		"Your first step is acquire some &aOverloaded Crystals&f."
-		""
-		"You can do this very easily by acquiring a &dBudding Overloaded Crystal Block&r using the setup on the next page and having lightning strike the rod in the middle."
-		""
-		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": Fake lightning will work on most of this mod's recipes so having a lightning spell from \", { \"text\": \"Ars Nouveau \", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1114D1FD164E514B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Ars Chapter\"}}, \" or \", { \"text\": \"Iron's Spellbooks\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0CA75E81F6824B22\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Iron's Chapter\"} }, \" will be a great help.\"]"
-		""
-		"&aOverloaded Crystals&f will also periodically summon a lightning strike nearby when held by a player or when thrown as an item into the world."
-		"{@pagebreak}"
-		"{image\\:\\ftb:textures/quests/ae2/ae2lt_initial_budding_setup.png width:130 height:115 align:center}"
-	]
 	quest.25EB6E3274347822.quest_desc: [
 		"The &dEnergized Induction Matrix&r is the ultimate way to store tons of power!"
 		""
@@ -6846,20 +6805,6 @@
 		"To toggle out of infinite mode, simply remove the item from the infinite mode slot."
 	]
 	quest.5624865A6F796087.title: "&fReplicator"
-	quest.5624A48C0F835946.quest_desc: [
-		"These Budding Crystals share the same behaviours as regular AE2 Crystals:"
-		""
-		"- Buds grow in order: Small, Medium, Large, &2Overload Crystal Cluster&r,"
-		""
-		"- &aGrowth Accelerators&f work on these,"
-		""
-		"- Breaking a &lnot fully grown&r bud drops &bOverload Crystal Dust&f"
-		""
-		"- Breaking a &lfully grown&r Crystal Cluster drops &dOverload Crystals&f, applying Fortune"
-		""
-		"- Non-flawless budding blocks may decay one tier each time a bud grows."
-	]
-	quest.5624A48C0F835946.title: "Overload Budding Crystals"
 	quest.565AF0E2D4AB41BE.quest_desc: [
 		"&eJust Dire Things&r (&eJDT&r) is a cool tech mod that despite the name, actually adds some &oimpressive&r and slightly overpowered &2Gadgets&r, &aTools&r and &9Armors&r!"
 		""
@@ -7412,14 +7357,6 @@
 		"It can rotate, configure, and dismantle blocks, contraptions, and more!"
 	]
 	quest.5D96F0CE1154B9B8.title: "&fWelcome to &eCreate&f!"
-	quest.5DD3531E0F2A402C.quest_desc: [
-		"The &dElectro-Chime Crystal&f can be placed inside a dedicated crystal slot in the &aLightning Collector&f. Whether a crystal is installed and how far along its cultivation is determines the yield of each strike."
-		""
-		"The Electro-Chime Crystal progresses through four stages based on cultivation value: Dormant, Stirring, Resonant, Overcharged"
-		""
-		"The crystal only gains cultivation value when the collector is struck by natural lightning. Once the cultivation reaches its maximum, the &dElectro-Chime Crystal&f transforms into a &6Perfect Electro-Chime Crystal&f."
-	]
-	quest.5DD3531E0F2A402C.title: "&d Electro-Chime Crystal"
 	quest.5DD4E634673638F8.quest_desc: [
 		"The &aLeaf Blower&r can blow away tall grass and flowers around you when you hold right-click."
 		""
@@ -7637,14 +7574,6 @@
 		"&bGrowth Accelerators&r can be crafted and placed under the budding block to speed up the rate they grow substantially. These do require power to work."
 	]
 	quest.60871670B71C711F.title: "&bAutomating Crystals"
-	quest.609AB3BCA57D1A09.quest_desc: [
-		"Instead of dropping items into water or lava, this addon requires dropped items to be hit with Lightning in-world."
-		""
-		"Simply drop the items you need and wait or summon lightning to strike them."
-		""
-		"The first items you'll need to make are the &aInscriber Press&f and the &2Overload Processor&f"
-	]
-	quest.609AB3BCA57D1A09.title: "&aLightning Transformation"
 	quest.60AFCA1889670F26.quest_desc: [
 		"The &dChemical Washer&r does exactly what it says it does. It's just a bath for Dirty Ore Slurry."
 		""
@@ -9494,16 +9423,6 @@
 		"&7A similar synergy exists for passive animals among the various rites..."
 	]
 	quest.7A62B07AD0BCCCEA.title: "&fAutomating Spirits?"
-	quest.7A7A24CCFB9EEE43.quest_desc: [
-		"You're now finally able to start harnessing and storing lightning for crafting in other machines."
-		""
-		"Craft and place down the &aLightning Collector&f on your ME Network housing a Lightning Storage Cell of any tier. "
-		""
-		"Make sure you have a Lightning Rod directly above the Collector connected to your ME network to not waste any lightning strikes."
-		""
-		"To get the best value out of your &aLightning Collector&f, use it together with a &dElectro-Chime Crystal&f. Having no crystal randomly generates Lightning while a &6Perfect Electro-Chime Crystal&f yields 16 HV and EHV."
-	]
-	quest.7A7A24CCFB9EEE43.title: "&aStoring Lightning"
 	quest.7A82CC64D8966010.quest_desc: ["Dropping &aCrystallized Canola Seeds&r into &aRefined Oil&r will turn it into &3Crystallized Oil&r, which still has one last upgrade."]
 	quest.7A82CC64D8966010.title: "&3Crystallized Canola Seeds"
 	quest.7A8669713BE28E8F.quest_desc: [
@@ -9513,14 +9432,6 @@
 	]
 	quest.7A8669713BE28E8F.title: "&fKill The &dWarden"
 	quest.7AAE6DAFE0092A95.title: "&364k Storage Part"
-	quest.7AE14CDF6282082D.quest_desc: [
-		"The &dTesla Coil&f is main device for controlled, stable Lightning production. It produces Lightning on demand by consuming FE and materials."
-		""
-		"It has two operating modes: High Voltage mode and Extreme High Voltage mode. You can easily switch between them in the interface."
-		""
-		"[\"You can check its GuideMe page by holding down the GuideMe Open key '\", {\"keybind\": \"key.guideme.guide\", \"color\": \"green\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: G\"}}, \"' when hovering the item.\"]"
-	]
-	quest.7AE14CDF6282082D.title: "&dOn-Demand Lightning"
 	quest.7AEC335123E441BA.title: "&cTier 3 &fSeeds"
 	quest.7B17CDF1C8FE0CDA.quest_desc: [
 		"The &aSlice'N'Splice&r is used to convert mob heads into special machine parts."
@@ -9663,12 +9574,6 @@
 	]
 	quest.7C9CABB75B422A4A.quest_subtitle: "Awakened Tier"
 	quest.7C9CABB75B422A4A.title: "&6Awakened Essence&r"
-	quest.7CA74EC17FBC975C.quest_desc: [
-		"Now that you can store &bLightning&r, it's time to use it for crafting instead of relying on placing items out in the world."
-		""
-		"The &aLightning Simulation Room&r is one of three main crafting blocks used in this mod."
-	]
-	quest.7CA74EC17FBC975C.title: "&dLightning Crafting"
 	quest.7CB9F4716DEA240C.quest_desc: [
 		"Where spiritus runs thickest, the &cCrystallarium Maleficum&r seeds a cluster. This new cluster will grow over time by absorbing spiritus of it's type from the Aura. You can move the cluster off the Crystallarium once it forms to allow more to grow. "
 		""
@@ -10078,7 +9983,6 @@
 	task.1C0BB83393437BDF.title: "&fComponent Interfaces"
 	task.1C0FFC5D4A1D00C7.title: "Extraction Tomes"
 	task.1C350F6D6B6C0656.title: "&bUpgraded Addons"
-	task.1C415D0C16371A3D.title: "&eObserve&f: Flawless Overloaded Budding Crystal"
 	task.1C70AB93B6A0F1A6.title: "&aVillager Blocks&r"
 	task.1C79E9AB6C1C38DB.title: "Niche Budding GeOres"
 	task.1E077548E9C8149C.title: "Lithium Dust"
@@ -10211,7 +10115,6 @@
 	task.4BB1855917140E38.title: "&bCasting Spells"
 	task.4BEC99EFB3F7A310.title: "&bSurvival Of The Fittest"
 	task.4C1919EBB6897E10.title: "Advanced Beehives"
-	task.4C920B09DE6D8705.title: "&eObserve&f: Any Overloaded Budding Crystal"
 	task.4C9C28A8ADC0B379.title: "Any #cabletiers:ultra_constructors"
 	task.4D5C3B07083B5ED6.title: "I already have power"
 	task.4D84454C3C872F73.title: "Observe the &aSteering Wheel&r"
@@ -10313,7 +10216,6 @@
 	task.6F50B64460D2EC3D.title: "&eFind Structure&f: &cFargo's Dungeon"
 	task.6F72448CD3FD5163.title: "How To Get Bees!"
 	task.6FA17DE3B63BDA1A.title: "&fCompacting Drawers"
-	task.6FA48656DF0BB832.title: "AE2LT"
 	task.6FA7544DA9F3A7BF.title: "Any #ftb:tiered_destructors"
 	task.6FC669F1EEC65421.title: "Any #ftb:tiered_exporters"
 	task.700CAE784D0CDAAB.title: "&dTier 3"
