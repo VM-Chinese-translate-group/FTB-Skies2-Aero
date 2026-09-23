@@ -680,14 +680,6 @@
 		"右击它，就会显示你目前传送机的全部频率。选择并传送即可！"
 	]
 	quest.087D1FBAE8A425C0.title: "&f搭建&d传送门&r！"
-	quest.08B1487323E55058.quest_desc: [
-		"有了&a过载水晶&f后，建议将母岩升级为无瑕品质。可以按下方设置摆放，再次用闪电击中它。"
-		""
-		"&d无瑕水晶&f不会像其他品质那样随着时间推移而退化，非常适合用于自动化。"
-		""
-		"{image\\:\\ftb:textures/quests/ae2/ae2lt_pure_budding_setup.png width:130 height:115 align:center}"
-	]
-	quest.08B1487323E55058.title: "制作一个&d无瑕水晶"
 	quest.08D03AA0E1D218F7.title: "&7瘟疫术士套装"
 	quest.0900DBFB006F8F85.quest_desc: ["准备好所有材料后，只需将它们混合在一起，简单的化学反应便会将它们融合成新鲜冷冻的&b小冰块&f。"]
 	quest.09012B945D3AC7AE.quest_desc: [
@@ -898,7 +890,6 @@
 	quest.0ABE3ABD2CDF6A45.title: "&6核反应堆组件"
 	quest.0ABFE7704D561C35.quest_desc: ["&3动态结构控制器&r可通过红石信号实现装置的精细配置。"]
 	quest.0ABFE7704D561C35.title: "&3动态结构控制器"
-	quest.0AD5078A3A112F55.quest_desc: ["&6闪电坍缩矩阵&f是&eAE2LT&f的后期核心部件。将矩阵放在设备的矩阵槽中，可以解锁更高级的运行模式。"]
 	quest.0AD7F1774B857EFA.quest_desc: [
 		"&6注魔觉醒矩阵（Infused Awakening Matrix）&f可在单方块内自动完成&a注魔&f与&2觉醒&f配方。"
 		""
@@ -2320,20 +2311,6 @@
 	quest.1D410DFB7EFEE4CE.title: "&a咖啡豆"
 	quest.1D572D53A6EE3205.quest_desc: ["在&2采石机&r中挖出&a铂矿石&r后，我们就可以把它粉碎变为&b粗铂&r。"]
 	quest.1D572D53A6EE3205.title: "&d粗铂"
-	quest.1D5A6A292CBF90D3.quest_desc: [
-		"&eAE2 闪电科技&f（&eAE2LT&f）是一个附属模组。它将&b闪电存储&f引入到了ME网络中，包括&6过载&f网络的设备，可以突破常规的频道限制。"
-		""
-		"[\"本简短的任务中未涵盖的内容都在模组的文档中，可以通过GuideMe指南访问。将鼠标悬停在物品上方，按下打开GuideMe键“\", {\"keybind\": \"key.guideme.guide\", \"color\": \"green\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认：G\"}}, \"”。（大部分物品都有）\"]"
-		""
-		"在开始之前，请确保你已经拥有一个可运行的AE2ME网络，至少包括："
-		""
-		"- 一个小型网络，最好有一个&dME控制器&f，"
-		""
-		"- 一些&2赛特斯石英水晶&f和任意品质的&aAE2赛特斯石英母岩&f，"
-		""
-		"- 一个原版避雷针"
-	]
-	quest.1D5A6A292CBF90D3.title: "&e闪电科技"
 	quest.1D87C5E9D52341C4.quest_desc: [
 		"要制作&e龙之进化&r更高级的物品，你需要一种被称作&d聚合注入&r的特殊合成装置。"
 		""
@@ -2405,13 +2382,6 @@
 		"升至8阶时，你还需要把&2稳定器&r升级为环型结构，共需要36个（每个环9个）。"
 	]
 	quest.1E7B5442F153ED3B.quest_desc: ["&7&o从商店或任务奖励中获得。"]
-	quest.1E89C7DECA4E915A.quest_desc: [
-		"&d大气电离仪&f是一种天气控制设备，通过消耗&b天气凝核&f与AE的能量将世界天气强制更改为指定状态，从而为&a闪电收集器&f提供稳定的自然雷击。"
-		""
-		"&2天气凝核&f共有三种类型：晴空、降雨和雷暴。每种凝核对应的能量消耗和控制天气持续时间各不相同。"
-		""
-		"将所需的&2天气凝核&r放入输入槽后，机器会持续从ME网络抽取能量进行电离，完成后改变天气并消耗该&2凝核&f。"
-	]
 	quest.1E9349AC359E058E.quest_desc: ["&a动力轴承&r可以旋转连接的结构。"]
 	quest.1E9349AC359E058E.title: "&a动力轴承"
 	quest.1E95AD23243FEF87.quest_desc: ["现在你就可以制造&e实用拓展&r模组中的最强燃料了。只需简单地把&a充能油菜种子&r丢进&3晶化油&r里，然后你就有&d充能油&r了！"]
@@ -2943,17 +2913,6 @@
 	quest.25A18CFB6B3E038B.title: "&a水晶修复器"
 	quest.25DF30E5EACB9B5F.quest_desc: ["只要使用&3化学反应釜&r，我们就可以将&a乙醇&r和&2硫粉&r混合，做出&#d2b8e0乙烯&r。"]
 	quest.25DF30E5EACB9B5F.title: "&#d2b8e0液态乙烯"
-	quest.25E129A95E8B4D1B.quest_desc: [
-		"首先需要获取一些&a过载水晶&f。"
-		""
-		"最简单的方法是使用下一页展示的结构获取一个&d过载水晶母岩&r，并让雷击命中中间的避雷针。"
-		""
-		"[ \"\", {\"text\": \"注意\", \"color\": \"yellow\"}, \"：该模组的大多数配方均支持人造雷击，因此拥有来自\", { \"text\": \"新生魔艺\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1114D1FD164E514B\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往新生魔艺章节\"} }, \" 或 \", { \"text\": \"Iron的魔法书\", \"color\": \"dark_green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0CA75E81F6824B22\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往铁魔法书章节\"} }, \"的雷电法术将有很大帮助。\" ]"
-		""
-		"当玩家手持&a过载水晶&f或将其作为掉落物投掷到世界中时，它还会定期在附近召唤雷击。"
-		"{@pagebreak}"
-		"{image\\:\\ftb:textures/quests/ae2/ae2lt_initial_budding_setup.png width:130 height:115 align:center}"
-	]
 	quest.25EB6E3274347822.quest_desc: [
 		"&d感应矩阵&r是很强的能源存储方案！"
 		""
@@ -6810,20 +6769,6 @@
 		"关闭无限模式只需将物品从无限模式槽位取出即可。"
 	]
 	quest.5624865A6F796087.title: "&f复制机"
-	quest.5624A48C0F835946.quest_desc: [
-		"此类母岩与AE2的水晶母岩类似："
-		""
-		"- 晶芽生长顺序为：小型、中型、大型、&2过载水晶簇&r，"
-		""
-		"- &a催生器&f对其生效，"
-		""
-		"- 破坏&l未完全长成&r的晶芽会掉落&b过载水晶粉&f"
-		""
-		"- 破坏&l完全长成&r的水晶簇会掉落&d过载水晶&f，且受时运加成影响"
-		""
-		"- 非无瑕的母岩每次长出晶芽时均有可能退化一个等级。"
-	]
-	quest.5624A48C0F835946.title: "过载水晶母岩"
 	quest.565AF0E2D4AB41BE.quest_desc: [
 		"虽然名字不咋样，但&eJust Dire Things&r（&eJDT&r）其实是一个很酷的科技模组，它加入了一些&o令人眼前一亮&r而且有一丢丢超模的&2小帮手&r、&a工具&r以及&9盔甲&r！"
 		""
@@ -7363,14 +7308,6 @@
 		"合成的过程有可能非常慢，而将至多四个&e符文木方尖碑&r放置在附近可以使其加速。"
 	]
 	quest.5D8C8F6326C5BB5F.title: "&a精魄祭坛"
-	quest.5DD3531E0F2A402C.quest_desc: [
-		"&d电鸣水晶&f可放入&a闪电收集器&f的专用水晶槽中。是否安装水晶以及水晶的培养进度，决定了每次雷击的产出收益。"
-		""
-		"根据培养的进度，电鸣水晶会经历四个阶段：沉寂、初鸣、共振、过载。"
-		""
-		"只有当收集器受到自然雷击时，水晶才会增加培养值。培养值达到上限后，&d电鸣水晶&f将转化为&6完美电鸣水晶&f。"
-	]
-	quest.5DD3531E0F2A402C.title: "&d电鸣水晶"
 	quest.5DD4E634673638F8.quest_desc: [
 		"当你手持&a吹叶器&r长按鼠标右键时，它就会自动把周围的高草丛或花吹走。"
 		""
@@ -7588,14 +7525,6 @@
 		"做个&b催生器&r，把它放在母岩下方就可以加快生长速度，不过要消耗能量。"
 	]
 	quest.60871670B71C711F.title: "&b自动生产水晶"
-	quest.609AB3BCA57D1A09.quest_desc: [
-		"与将物品抛入水或熔岩不同，该附属模组需要将掉落物在世界中通过雷击进行转化。"
-		""
-		"只需抛出所需物品，然后等待或召唤雷击命中它们即可。"
-		""
-		"首先需要制作的物品是&a压印模板&f与&2过载处理器&f。"
-	]
-	quest.609AB3BCA57D1A09.title: "&a闪电转化"
 	quest.60AFCA1889670F26.quest_desc: [
 		"&d化学清洗机&r，正如其名，是用来洗涤污浊的矿物浆液的。"
 		""
@@ -9450,16 +9379,6 @@
 		"&7这种共鸣同样存在于友好生物与某些仪式之间……"
 	]
 	quest.7A62B07AD0BCCCEA.title: "&f自动化精魄？"
-	quest.7A7A24CCFB9EEE43.quest_desc: [
-		"现在，你终于可以收集并存储闪电，用于其他机器的合成。"
-		""
-		"合成&a闪电收集器&f并放置在ME网络中，内部需装入任意等级的闪电存储元件。"
-		""
-		"请确保在收集器正上方放置并连接避雷针至ME网络，以免浪费任何雷击。"
-		""
-		"若想最大化利用&a闪电收集器&f，建议配合&d电鸣水晶&f使用。未放置水晶时只会随机生成闪电，而配合&6完美电鸣水晶&f则可固定产出16个HV与EHV级别的闪电能量。"
-	]
-	quest.7A7A24CCFB9EEE43.title: "&a存储闪电"
 	quest.7A82CC64D8966010.quest_desc: ["把&a晶化油菜种子&r丢进&a精制菜籽油&r就可以将其变为&3晶化菜籽油&r，不过它还能再升级一次。"]
 	quest.7A82CC64D8966010.title: "&3晶化油菜种子"
 	quest.7A8669713BE28E8F.quest_desc: [
@@ -9469,14 +9388,6 @@
 	]
 	quest.7A8669713BE28E8F.title: "&f击杀&d监守者"
 	quest.7AAE6DAFE0092A95.title: "&364k存储组件"
-	quest.7AE14CDF6282082D.quest_desc: [
-		"&d特斯拉线圈&f是可控、稳定产生闪电的核心设备，消耗FE与材料即可按需生成闪电。"
-		""
-		"设备拥有两种运行模式：高压（HV）模式与超高压（EHV）模式，可在界面中轻松切换。"
-		""
-		"[ \"悬停在该物品上时按住GuideMe的打开键“\", {\"keybind\": \"key.guideme.guide\", \"color\": \"green\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认：G\"}}, \"”，即可查看其GuideMe指南页面。\" ]"
-	]
-	quest.7AE14CDF6282082D.title: "&d按需生成闪电"
 	quest.7AEC335123E441BA.title: "&c三级&f种子"
 	quest.7B17CDF1C8FE0CDA.quest_desc: [
 		"&a头颅装配机&r可以将生物头颅转换为特殊机器部件。"
@@ -9624,12 +9535,6 @@
 	]
 	quest.7C9CABB75B422A4A.quest_subtitle: "觉醒等级精华"
 	quest.7C9CABB75B422A4A.title: "&6觉醒精华&r"
-	quest.7CA74EC17FBC975C.quest_desc: [
-		"既然已经可以存储&b闪电&r，就可以直接用它进行合成，无需再将物品扔在世界中了。"
-		""
-		"&a闪电模拟室&r是该模组的三种主要合成方块之一。"
-	]
-	quest.7CA74EC17FBC975C.title: "&d闪电合成"
 	quest.7CB9F4716DEA240C.quest_desc: [
 		"当空气中的灵质积累的足够厚实，&c恶念结晶坛&r上便会生长晶簇。新生的晶簇会吸收灵域中的灵质以生长，一旦晶簇形成，你可以将其从结晶坛上挖掘下来以供更多晶簇生长。"
 		""
@@ -10039,7 +9944,6 @@
 	task.1C0BB83393437BDF.title: "&f组件界面"
 	task.1C0FFC5D4A1D00C7.title: "提取宝典"
 	task.1C350F6D6B6C0656.title: "&b升级插件"
-	task.1C415D0C16371A3D.title: "&e观察&f：无瑕的过载水晶母岩"
 	task.1C70AB93B6A0F1A6.title: "&a村民方块&r"
 	task.1C79E9AB6C1C38DB.title: "小众矿晶母岩"
 	task.1E077548E9C8149C.title: "锂粉"
@@ -10168,7 +10072,6 @@
 	task.4BB1855917140E38.title: "&b施放法术"
 	task.4BEC99EFB3F7A310.title: "&b适者生存"
 	task.4C1919EBB6897E10.title: "高级蜂箱"
-	task.4C920B09DE6D8705.title: "&e观察&f：任意过载水晶母岩"
 	task.4D5C3B07083B5ED6.title: "我已经有了电力"
 	task.4D84454C3C872F73.title: "观察&a舵轮&r"
 	task.4DBC16ACBFEF4D40.title: "堆叠升级"
@@ -10268,7 +10171,6 @@
 	task.6F50B64460D2EC3D.title: "&e找到建筑&f：&cFargo的地牢"
 	task.6F72448CD3FD5163.title: "如何获取蜜蜂！"
 	task.6FA17DE3B63BDA1A.title: "&f压缩抽屉"
-	task.6FA48656DF0BB832.title: "AE2LT"
 	task.6FA7544DA9F3A7BF.title: "任意#ftb:tiered_destructors"
 	task.6FC669F1EEC65421.title: "任意#ftb:tiered_exporters"
 	task.700CAE784D0CDAAB.title: "&d三阶"
