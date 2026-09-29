@@ -1,0 +1,10 @@
+{
+  "formatVersion": 1,
+  "name": "FTB Skies2 Aero简中汉化",
+  "description": "FTB Skies2 Aero简体中文汉化，记得额外下载i18n模组",
+  "modpackVersionRange": "[1.13.0,)",
+  "authors": [
+    "VM汉化组"
+  ],
+  "url": "https://vmct-cn.top/modpacks/skies2-aero/"
+}
