@@ -4,7 +4,7 @@
   "description": "FTB Skies2 Aero简体中文汉化，记得额外下载i18n模组",
   "modpack": {
     "name": "FTB Skies2 Aero",
-    "versionRange": "[1.13.0,)"
+    "versionRange": "[1.14.0,)"
   },
   "authors": [
     "VM汉化组"
