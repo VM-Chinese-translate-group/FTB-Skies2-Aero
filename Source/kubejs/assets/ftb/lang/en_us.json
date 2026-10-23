@@ -442,6 +442,8 @@
   "ftb.tooltip.compactmachines.size.tiny": "§7Inner Size: §f3×3×3",
   "ftb.tooltip.easy_villagers.config_warning": "§8§o(You can re-enable it manually in the configs at the risk of impacting performance)§f",
   "ftb.tooltip.easy_villagers.disabled_render": "§c§l⚠ Attention§f: §bRendering of Contents§f is §b§lDisabled§f.",
+  "ftb.tooltip.fargostalismans.abominable_energy.1": "§7Can be found in Fargo's Treasure Rooms,",
+  "ftb.tooltip.fargostalismans.abominable_energy.2": "§7Looted from Bosses or obtained through Particle Collision.§f",
   "ftb.tooltip.fargostalismans.void_talisman.disabled": "§c§l⚠ Attention§f: §bVoid Protection§f is §b§lDisabled§f.",
   "ftb.tooltip.fargostalismans.void_talisman.pending": "§8§o(It overrides Forgiving Void and can leave you stuck mid-fall. It returns once Fargo's Talismans ships a fix)§f",
   "ftb.tooltip.enchanted.mutandis_warning": "§aⓘ§f Not compatible with §6Bone Meal",
