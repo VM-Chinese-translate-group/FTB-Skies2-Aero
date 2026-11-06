@@ -308,13 +308,15 @@
 	]
 	quest.03569C25419223DC.title: "&f存储升级"
 	quest.035FB8020EAB6725.quest_desc: [
-		"在飞船上放置&a动态认领方块&f后，整艘飞船便会成为&eFTB Chunks&f的领地。仅你的队伍可以破坏方块或打开容器，也可在该方块中添加盟友，且飞船的海拔高度与航速都会实时显示在地图上。"
+		"Place a &aClaim Block&f on a ship to claim it for your team. Each &eAero Claim&f spends one of your &eFTB Chunks&f claims and covers up to &e250&f ship blocks, so bigger ships need more of them."
 		""
-		"该方块还支持强加载飞船。&b保持锚点加载&f可保持飞船下方区块处于活跃状态，确保你离开时飞船依然存在；&b保持物理模拟激活&f则能让物理运算持续进行，使飞行农场在你离开后继续运作。两项设置均会占用队伍的强加载区块额度。"
+		"Open the block to activate the claim and choose who can use the ship: &bParty&f, &bParty + Ally&f, &bAll&f or &bNobody&f. Press &bRefresh&f after building to recount its blocks. Active claims are also safe from explosions."
 		""
-		"&c警告&f：持续进行物理模拟的飞船会不断消耗服务器性能。请强制加载基地，而不是整个舰队。"
+		"The &bForceload&f toggle keeps the ship loaded while the claim is active, and uses one of your team's &eFTB Chunks&f force-loads."
+		""
+		"&cWarning&f: A ship that never stops simulating is a ship that never stops costing the server. Force-load the base, not the fleet."
 	]
-	quest.035FB8020EAB6725.title: "&a动态结构认领方块"
+	quest.035FB8020EAB6725.title: "&a认领方块"
 	quest.0361236BF20549B5.quest_desc: [
 		"骷髅头颅给予+1x能量容量和充能速度"
 		""
