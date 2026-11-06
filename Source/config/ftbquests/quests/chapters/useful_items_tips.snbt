@@ -141,7 +141,7 @@
 			}
 			id: "2EEE782146096F9C"
 			rewards: [{
-				amount: 25
+				amount: 25L
 				id: "3669D971B5C36B32"
 				team_reward: false
 				type: "currency"
@@ -160,7 +160,7 @@
 			}
 			id: "7B954D1F7620FA41"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "05B652E04475BDAB"
 				team_reward: false
 				type: "currency"
@@ -180,7 +180,7 @@
 			id: "59A6D7B544F1AE06"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "365BB38FB61C15FB"
 					team_reward: false
 					type: "currency"
@@ -207,7 +207,7 @@
 			min_width: 250
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "48D5109218F53CAA"
 					team_reward: false
 					type: "currency"
@@ -241,7 +241,7 @@
 			id: "2682A911828C2D88"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "64C9E634AED12AE2"
 				team_reward: false
 				type: "currency"
@@ -278,7 +278,7 @@
 			id: "18913114C6D06E74"
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "180A7FA100877487"
 					team_reward: false
 					type: "currency"
@@ -315,7 +315,7 @@
 			id: "3148FCED5BF543B5"
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "3CA0F2245B8D2DB0"
 					team_reward: false
 					type: "currency"
@@ -340,7 +340,7 @@
 		{
 			id: "6D165125DC0B8F50"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "57D65F4A5C0DD13F"
 				team_reward: false
 				type: "currency"
@@ -359,7 +359,7 @@
 			}
 			id: "26F18323EB6EFCA0"
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "65F899F2BF9F90EB"
 				team_reward: false
 				type: "currency"
@@ -376,7 +376,7 @@
 			id: "63D831B65B0532F1"
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "5955578DDF632550"
 					team_reward: false
 					type: "currency"
@@ -403,7 +403,7 @@
 			id: "3DEA89318D4B1477"
 			min_width: 250
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "017ED9A4E0F1C72C"
 				team_reward: false
 				type: "currency"
@@ -558,7 +558,7 @@
 			id: "4119A43052DB5E3E"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "5D4E210FDEB89907"
 					team_reward: false
 					type: "currency"
@@ -584,7 +584,7 @@
 			}
 			id: "7804E97C7772403E"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "60E7D8A252AF3F75"
 				team_reward: false
 				type: "currency"
@@ -600,7 +600,7 @@
 		{
 			id: "4399D3751762F77A"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "6029F850E8279F98"
 				team_reward: false
 				type: "currency"
@@ -623,7 +623,7 @@
 			id: "51804232265672A9"
 			min_width: 250
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "7BCE924646F6643F"
 				team_reward: false
 				type: "currency"
@@ -643,7 +643,7 @@
 			min_width: 350
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "2BED18547D935E88"
 					team_reward: false
 					type: "currency"
@@ -688,7 +688,7 @@
 			min_width: 250
 			rewards: [
 				{
-					amount: 15
+					amount: 15L
 					id: "42FEED78478EA5AD"
 					team_reward: false
 					type: "currency"
@@ -718,7 +718,7 @@
 			id: "095A405D88EF0250"
 			min_width: 250
 			rewards: [{
-				amount: 5
+				amount: 5L
 				id: "0F1B8F1C8A9884EC"
 				team_reward: false
 				type: "currency"
@@ -741,7 +741,7 @@
 			id: "7A06D08AC7C65D20"
 			min_width: 250
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "3C7EB3CF09219DA1"
 				team_reward: false
 				type: "currency"
@@ -768,7 +768,7 @@
 			id: "2C1649AE3DADD71D"
 			min_width: 250
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "194138BF1D3AD335"
 				team_reward: false
 				type: "currency"
@@ -795,7 +795,7 @@
 			id: "7B20023BE78887DA"
 			min_width: 350
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "79FEFAC68AB5E382"
 				team_reward: false
 				type: "currency"
@@ -835,7 +835,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "3DE956A33BC6E600"
 					team_reward: false
 					type: "currency"
@@ -862,12 +862,12 @@
 		}
 		{
 			icon: {
-				id: "craftingstation:crafting_station"
+				id: "justenoughcraftingtables:crafting_station"
 			}
 			id: "4B6154D6F9B7C7BF"
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "758FE0F3CDD6237F"
 					team_reward: false
 					type: "currency"
@@ -882,13 +882,13 @@
 			tasks: [
 				{
 					id: "470C60BCD785BF63"
-					item: { count: 1, id: "craftingstation:crafting_station" }
+					item: { count: 1, id: "justenoughcraftingtables:crafting_station" }
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "15D1FD36CB284841"
-					item: { count: 1, id: "craftingstation:crafting_station_slab" }
+					item: { count: 1, id: "justenoughcraftingtables:crafting_station_slab" }
 					optional_task: true
 					type: "item"
 				}
@@ -903,7 +903,7 @@
 			id: "09DE55D4265E6E9D"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "7146B704E4AE06D8"
 				team_reward: false
 				type: "currency"
@@ -931,7 +931,7 @@
 			id: "2E30AE23A0602A0A"
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "37E53B7A9A7A9EC1"
 					team_reward: false
 					type: "currency"
@@ -972,7 +972,7 @@
 		{
 			id: "74B2332D6BBC0721"
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "0D1E4C46A27EB96E"
 				team_reward: false
 				type: "currency"
@@ -994,7 +994,7 @@
 			id: "31C81ED0EEA8FD34"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "20D9002757F19B2B"
 				team_reward: false
 				type: "currency"
@@ -1014,7 +1014,7 @@
 			min_width: 350
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "7AD63B07EA278D78"
 					team_reward: false
 					type: "currency"
@@ -1066,7 +1066,7 @@
 			id: "68D710AD53829D16"
 			optional: true
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "70874C00DD8477B1"
 				type: "currency"
 			}]

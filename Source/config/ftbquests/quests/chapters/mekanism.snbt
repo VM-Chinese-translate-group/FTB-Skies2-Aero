@@ -123,7 +123,7 @@
 			icon_scale: 2.0d
 			id: "644874076A06F5F4"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "0569BED0A6F9E4A1"
 				team_reward: false
 				type: "currency"
@@ -153,7 +153,7 @@
 			id: "71806E77AEE9E050"
 			min_width: 250
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "0109D76B0A8FC816"
 				team_reward: false
 				type: "currency"
@@ -181,7 +181,7 @@
 			id: "616E3CE38F1D73AE"
 			min_width: 300
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "148A52D65B7BE57F"
 				team_reward: false
 				type: "currency"
@@ -204,7 +204,7 @@
 			}
 			id: "3E7E07DB49639EA5"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "7E58C7C6572D4CA4"
 				team_reward: false
 				type: "currency"
@@ -238,7 +238,7 @@
 			}
 			id: "437F2C378CD6FE51"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "12E07667739B566B"
 				team_reward: false
 				type: "currency"
@@ -266,7 +266,7 @@
 			id: "131199313AE3F5E9"
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "0755A30BAD420F09"
 					team_reward: false
 					type: "currency"
@@ -297,7 +297,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "4552BF3D64F8CC65"
 					team_reward: false
 					type: "currency"
@@ -326,7 +326,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "46ED8A62CE73B29A"
 					team_reward: false
 					type: "currency"
@@ -353,7 +353,7 @@
 			id: "33A9FF901E2D7725"
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "0D20DAE63426948F"
 					team_reward: false
 					type: "currency"
@@ -389,7 +389,7 @@
 			min_width: 250
 			optional: true
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "0E238FC0F474CF74"
 				team_reward: false
 				type: "currency"
@@ -408,7 +408,7 @@
 			id: "7EF7546FF007EF36"
 			rewards: [
 				{
-					amount: 2
+					amount: 2L
 					id: "571E6C08CA40E271"
 					team_reward: false
 					type: "currency"
@@ -440,7 +440,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "344EF9B7DEFF5B71"
 					team_reward: false
 					type: "currency"
@@ -470,7 +470,7 @@
 			id: "114B4840D2FA1CDF"
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "7DF58CAD2565F964"
 					team_reward: false
 					type: "currency"
@@ -507,7 +507,7 @@
 			min_width: 300
 			optional: true
 			rewards: [{
-				amount: 2
+				amount: 2L
 				id: "39F62CC6894689C9"
 				team_reward: false
 				type: "currency"
@@ -529,7 +529,7 @@
 			min_width: 250
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "6A516A3B68E85BD4"
 					team_reward: false
 					type: "currency"
@@ -560,7 +560,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 8
+					amount: 8L
 					id: "15E238F35FBFBFE8"
 					team_reward: false
 					type: "currency"
@@ -590,7 +590,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "6CAECB1D10B5B9F0"
 					team_reward: false
 					type: "currency"
@@ -617,7 +617,7 @@
 			id: "02F52598328E84A0"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "7C111BCC3C7094CE"
 					team_reward: false
 					type: "currency"
@@ -651,7 +651,7 @@
 			id: "6C4441CC63BC7603"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "529615006C459A90"
 					team_reward: false
 					type: "currency"
@@ -705,7 +705,7 @@
 			id: "212600F8D3C1E1EB"
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "513359DB11CCCEE0"
 					team_reward: false
 					type: "currency"
@@ -738,7 +738,7 @@
 			min_width: 250
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "288B8D6CAA6D6B53"
 					team_reward: false
 					type: "currency"
@@ -776,7 +776,7 @@
 			id: "1CB65FAEA9125163"
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "4B2B4343AF6695FE"
 					team_reward: false
 					type: "currency"
@@ -810,7 +810,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "7C1484B3B03A5AAB"
 					team_reward: false
 					type: "currency"
@@ -853,7 +853,7 @@
 			id: "2C0B3B4BFDD9C502"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "3B5D3A65AFE87534"
 					team_reward: false
 					type: "currency"
@@ -884,7 +884,7 @@
 			id: "19874DF48B8B2A75"
 			rewards: [
 				{
-					amount: 50
+					amount: 50L
 					id: "4AD23479A3280D2B"
 					team_reward: false
 					type: "currency"
@@ -919,7 +919,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "073797BF505AC9FB"
 					team_reward: false
 					type: "currency"
@@ -956,7 +956,7 @@
 			min_width: 350
 			optional: true
 			rewards: [{
-				amount: 3
+				amount: 3L
 				id: "5BE6489F2D85355E"
 				team_reward: false
 				type: "currency"
@@ -976,7 +976,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "68924D22E5D942FE"
 					team_reward: false
 					type: "currency"
@@ -1007,7 +1007,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "7FEF24B2068DE8F2"
 					team_reward: false
 					type: "currency"
@@ -1034,7 +1034,7 @@
 			min_width: 250
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "43E02BF01DBF3B13"
 					team_reward: false
 					type: "currency"
@@ -1065,7 +1065,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "0FB2E73886F35E1C"
 					team_reward: false
 					type: "currency"
@@ -1110,7 +1110,7 @@
 			min_width: 250
 			rewards: [
 				{
-					amount: 5
+					amount: 5L
 					id: "1688EF5244176B91"
 					team_reward: false
 					type: "currency"
@@ -1148,7 +1148,7 @@
 			min_width: 300
 			optional: true
 			rewards: [{
-				amount: 10
+				amount: 10L
 				id: "4CFB4B0F047BD690"
 				team_reward: false
 				type: "currency"
@@ -1172,7 +1172,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "556549EB0115BEB4"
 					team_reward: false
 					type: "currency"
@@ -1225,7 +1225,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "7042E659010FE446"
 					team_reward: false
 					type: "currency"
@@ -1258,7 +1258,7 @@
 			}
 			id: "4EAE9F58776D84C8"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "43A323194CDAE24A"
 				team_reward: false
 				type: "currency"
@@ -1291,7 +1291,7 @@
 			}
 			id: "3E63D54D05A3E300"
 			rewards: [{
-				amount: 1
+				amount: 1L
 				id: "1B80BB3AB04167CD"
 				team_reward: false
 				type: "currency"
@@ -1321,7 +1321,7 @@
 			id: "31705AD5BE50E2CB"
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "2A8890100500C2B3"
 					team_reward: false
 					type: "currency"
@@ -1351,7 +1351,7 @@
 			min_width: 300
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "0D0AE2A26B02233B"
 					team_reward: false
 					type: "currency"
@@ -1390,7 +1390,7 @@
 			id: "05315396D48EE815"
 			rewards: [
 				{
-					amount: 1
+					amount: 1L
 					id: "1A595F6CF15F0342"
 					team_reward: false
 					type: "currency"
@@ -1422,7 +1422,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "2A9B5D1A67637F37"
 					team_reward: false
 					type: "currency"
@@ -1454,7 +1454,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 25
+					amount: 25L
 					id: "641A0179AFA32A12"
 					team_reward: false
 					type: "currency"
@@ -1499,7 +1499,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "71D948A6FA826364"
 					team_reward: false
 					type: "currency"
@@ -1533,7 +1533,7 @@
 			min_width: 350
 			rewards: [
 				{
-					amount: 15
+					amount: 15L
 					id: "660E379D69490ABA"
 					team_reward: false
 					type: "currency"
@@ -1621,7 +1621,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 50
+					amount: 50L
 					id: "42D10794CDE9B0E9"
 					team_reward: false
 					type: "currency"
@@ -1670,7 +1670,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "123FE6F2B31C36EC"
 					team_reward: false
 					type: "currency"
@@ -1715,7 +1715,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "2D3F5EE070B51FAB"
 					team_reward: false
 					type: "currency"
@@ -1766,7 +1766,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "3F07F7C8C86F809F"
 					team_reward: false
 					type: "currency"
@@ -1805,7 +1805,7 @@
 			optional: true
 			rewards: [
 				{
-					amount: 3
+					amount: 3L
 					id: "4FAA833F654ED483"
 					team_reward: false
 					type: "currency"
@@ -1831,7 +1831,7 @@
 			id: "479955FA73CB4C7D"
 			rewards: [
 				{
-					amount: 10
+					amount: 10L
 					id: "209B5FDA356F1825"
 					team_reward: false
 					type: "currency"

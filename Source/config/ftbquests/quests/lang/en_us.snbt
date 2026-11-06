@@ -307,13 +307,15 @@
 	]
 	quest.03569C25419223DC.title: "&fTier Upgrades"
 	quest.035FB8020EAB6725.quest_desc: [
-		"Place a &aContraption Claim Block&f on a ship and the ship becomes &eFTB Chunks&f territory. Only your team can break it or open it, allies can be added from the block, and it shows up on the map with its altitude and speed."
+		"Place a &aClaim Block&f on a ship to claim it for your team. Each &eAero Claim&f spends one of your &eFTB Chunks&f claims and covers up to &e250&f ship blocks, so bigger ships need more of them."
 		""
-		"The block also lets you force-load the ship. &bKeep Anchor Loaded&f keeps the chunks under it awake so it keeps existing while you're gone, and &bKeep Physics Active&f keeps it simulating too, so a flying farm keeps farming. Both count against your team's force-load limits."
+		"Open the block to activate the claim and choose who can use the ship: &bParty&f, &bParty + Ally&f, &bAll&f or &bNobody&f. Press &bRefresh&f after building to recount its blocks. Active claims are also safe from explosions."
+		""
+		"The &bForceload&f toggle keeps the ship loaded while the claim is active, and uses one of your team's &eFTB Chunks&f force-loads."
 		""
 		"&cWarning&f: A ship that never stops simulating is a ship that never stops costing the server. Force-load the base, not the fleet."
 	]
-	quest.035FB8020EAB6725.title: "&aContraption Claim Block"
+	quest.035FB8020EAB6725.title: "&aClaim Block"
 	quest.0361236BF20549B5.quest_desc: [
 		"A skeleton skull gives +1x base power and recharge speed"
 		""
