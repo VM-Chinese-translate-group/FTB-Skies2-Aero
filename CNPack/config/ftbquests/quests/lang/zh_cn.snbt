@@ -308,13 +308,13 @@
 	]
 	quest.03569C25419223DC.title: "&f存储升级"
 	quest.035FB8020EAB6725.quest_desc: [
-		"Place a &aClaim Block&f on a ship to claim it for your team. Each &eAero Claim&f spends one of your &eFTB Chunks&f claims and covers up to &e250&f ship blocks, so bigger ships need more of them."
+		"在飞船上放置&a认领方块&f后，整艘飞船便会成为你所属队伍的领地。每块&e航空结构认领&f耗费1个&eFTB Chunks&f的认领次数，覆盖至多&e250&f个飞船方块，因此更大的飞船就需要更多的认领方块。"
 		""
-		"Open the block to activate the claim and choose who can use the ship: &bParty&f, &bParty + Ally&f, &bAll&f or &bNobody&f. Press &bRefresh&f after building to recount its blocks. Active claims are also safe from explosions."
+		"打开方块界面以激活认领，并可以选择能使用飞船的人员：&b团队&f、&b团队+盟友&f、&b所有人&f或&b没有人&f。每次搭建后按下&b刷新&f可以重新统计方块。激活中的认领可以防爆。"
 		""
 		"The &bForceload&f toggle keeps the ship loaded while the claim is active, and uses one of your team's &eFTB Chunks&f force-loads."
 		""
-		"&cWarning&f: A ship that never stops simulating is a ship that never stops costing the server. Force-load the base, not the fleet."
+		"&c警告&f：持续进行物理模拟的飞船会不断消耗服务器性能。请强制加载基地，而不是整个舰队。"
 	]
 	quest.035FB8020EAB6725.title: "&a认领方块"
 	quest.0361236BF20549B5.quest_desc: [
