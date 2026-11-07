@@ -312,7 +312,7 @@
 		""
 		"打开方块界面以激活认领，并可以选择能使用飞船的人员：&b团队&f、&b团队+盟友&f、&b所有人&f或&b没有人&f。每次搭建后按下&b刷新&f可以重新统计方块。激活中的认领可以防爆。"
 		""
-		"The &bForceload&f toggle keeps the ship loaded while the claim is active, and uses one of your team's &eFTB Chunks&f force-loads."
+		"&b强制加载&f开关可在区块认领有效时保持飞船处于加载状态，并会占用你团队的一个&eFTB区块&f强制加载配额。"
 		""
 		"&c警告&f：持续进行物理模拟的飞船会不断消耗服务器性能。请强制加载基地，而不是整个舰队。"
 	]
