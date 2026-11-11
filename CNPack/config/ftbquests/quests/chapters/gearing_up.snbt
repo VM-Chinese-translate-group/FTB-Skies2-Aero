@@ -12,6 +12,16 @@
 	images: [
 		{
 			click_action: "none:"
+			height: 2.5d
+			id: "1836B8367476AF22"
+			image: "ftb:textures/quests/titles_and_logos/irons_artifice.png"
+			rotation: 0.0d
+			width: 2.96d
+			x: -2.0d
+			y: 6.75d
+		}
+		{
+			click_action: "none:"
 			height: 1.0d
 			id: "6754CFA9AB0F4E50"
 			image: "apotheosis:items/gems/royalty"
@@ -4368,6 +4378,409 @@
 			}]
 			x: -5.5d
 			y: -7.0d
+		}
+		{
+			icon: {
+				id: "irons_artifice:blackpowder"
+			}
+			id: "772EE4878D98EE43"
+			rewards: [
+				{
+					amount: 5L
+					id: "30268EAB28CC2A6A"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "3276C8EE90D75F03"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "78C58C10D08DB091"
+				item: {
+					count: 1
+					id: "irons_artifice:blackpowder"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["772EE4878D98EE43"]
+			icon: {
+				id: "irons_artifice:bullet"
+			}
+			id: "749EE2CCAF2497F4"
+			rewards: [
+				{
+					amount: 3L
+					id: "2DC4014C12695887"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 8
+					id: "32771F4331F9815F"
+					item: {
+						count: 1
+						id: "irons_artifice:blackpowder"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 16L
+				id: "5E1469C5308AFFD3"
+				item: {
+					count: 1
+					id: "irons_artifice:bullet"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["749EE2CCAF2497F4"]
+			icon: {
+				id: "irons_artifice:flintlock"
+			}
+			id: "52C36453AD917E9F"
+			rewards: [
+				{
+					amount: 5L
+					id: "2D1B269B6C231473"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 16
+					id: "2794E743093D2BA6"
+					item: {
+						count: 1
+						id: "irons_artifice:bullet"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "1B5F1776EE58C0AB"
+				item: {
+					count: 1
+					id: "irons_artifice:flintlock"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["749EE2CCAF2497F4"]
+			icon: {
+				id: "irons_artifice:bullet_box"
+			}
+			id: "151A04CF440FCC99"
+			optional: true
+			rewards: [{
+				amount: 3L
+				id: "556BBFBB4F7F3D44"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "113776E8947731D9"
+				item: {
+					count: 1
+					id: "irons_artifice:bullet_box"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52C36453AD917E9F"]
+			icon: {
+				id: "irons_artifice:cowboy_hat"
+			}
+			id: "6FF6AEA1FB274657"
+			optional: true
+			rewards: [{
+				amount: 5L
+				id: "2E2BE50E6ED3A412"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "41D6EBF737FCA81B"
+					item: {
+						count: 1
+						id: "irons_artifice:cowboy_hat"
+					}
+					type: "item"
+				}
+				{
+					id: "576D96C1B459894D"
+					item: {
+						count: 1
+						id: "irons_artifice:tricorne"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52C36453AD917E9F"]
+			icon: {
+				id: "irons_artifice:simple_mechanical_components"
+			}
+			id: "239511E4EEFFFCCF"
+			rewards: [
+				{
+					amount: 3L
+					id: "5505254A96B1160A"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "4FBD44595110A5FC"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "13CCDFDAA09E3364"
+				item: {
+					count: 1
+					id: "irons_artifice:simple_mechanical_components"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["239511E4EEFFFCCF"]
+			icon: {
+				id: "irons_artifice:blunderbuss"
+			}
+			id: "5D1C6D0639AC1E72"
+			rewards: [
+				{
+					amount: 6L
+					id: "7EB3FBBFFEF2C30C"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 16
+					id: "299DFDC3C0D30D26"
+					item: {
+						count: 1
+						id: "irons_artifice:bullet"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "57E3AF5761C835F3"
+				item: {
+					count: 1
+					id: "irons_artifice:blunderbuss"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["239511E4EEFFFCCF"]
+			icon: {
+				id: "irons_artifice:hair_trigger_modifier"
+			}
+			id: "3CFCAD1654FB2CD8"
+			rewards: [{
+				amount: 5L
+				id: "1DE6B665C9BFF0E9"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "1F411358BC29FD8E"
+				item: {
+					count: 1
+					id: "irons_artifice:hair_trigger_modifier"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["239511E4EEFFFCCF"]
+			icon: {
+				id: "irons_artifice:mechanical_components"
+			}
+			id: "3544BF3705BD6904"
+			rewards: [{
+				amount: 5L
+				id: "600FEFB28B74B4B2"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "2AF7F6B688F192F0"
+				item: {
+					count: 1
+					id: "irons_artifice:mechanical_components"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3544BF3705BD6904"]
+			icon: {
+				id: "irons_artifice:six_shooter"
+			}
+			id: "12C524EE7FAD80D5"
+			rewards: [
+				{
+					amount: 6L
+					id: "5FDF1F729CFC26B6"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 32
+					id: "609CE7BA0DDD4959"
+					item: {
+						count: 1
+						id: "irons_artifice:bullet"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "6473E773170C75AF"
+				item: {
+					count: 1
+					id: "irons_artifice:six_shooter"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3544BF3705BD6904"]
+			icon: {
+				id: "irons_artifice:clockwork_components"
+			}
+			id: "2F03192F983B760A"
+			rewards: [{
+				amount: 6L
+				id: "3DC17ADA160B5FBF"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "12A960D6BB858A1A"
+				item: {
+					count: 1
+					id: "irons_artifice:clockwork_components"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F03192F983B760A"]
+			icon: {
+				id: "irons_artifice:arquebus"
+			}
+			id: "21AB4D0DF5575B3D"
+			rewards: [{
+				amount: 8L
+				id: "39CD1E6D2C40EF2F"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "33762BA9CBAC35D0"
+				item: {
+					count: 1
+					id: "irons_artifice:arquebus"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F03192F983B760A"]
+			icon: {
+				id: "irons_artifice:clockwork_rifle"
+			}
+			id: "3A2C897D53242A22"
+			rewards: [
+				{
+					amount: 15L
+					id: "6C7F5F57D0B45BC7"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 64
+					id: "36B06916472C04A1"
+					item: {
+						count: 1
+						id: "irons_artifice:bullet"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "270606E2806CE820"
+				item: {
+					count: 1
+					id: "irons_artifice:clockwork_rifle"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
 		}
 	]
 }

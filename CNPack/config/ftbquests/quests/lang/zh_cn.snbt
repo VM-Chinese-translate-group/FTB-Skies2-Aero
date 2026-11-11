@@ -1,5 +1,6 @@
 {
 	chapter.0DCFFC4FFBC3B1E5.title: "&z椰林飘香"
+	chapter.128F07DBED7481FD.title: "Environmental Tech"
 	chapter.1C63D973F178FD60.title: "欢迎"
 	chapter.1E741D8D60A01B78.title: "通用存储"
 	chapter.22C89CB46E794365.title: "机械动力"
@@ -1406,6 +1407,16 @@
 		"它还用于制作&b敌手之力&r。"
 	]
 	quest.11D49C5B6C2D4CF0.title: "&7骷髅符石"
+	quest.11D700B66D601D89.quest_desc: [
+		"A lift you can't call is just a very slow room."
+		""
+		"Right-click a &2Station&r with &aCall Panels&r in hand to link them, then place them on that landing. Press one and the closest free car comes to that Station."
+		""
+		"Inside the cabin, a &aDestination Panel&r in the wall lists every floor, and Create's &2Contraption Controls&r work too. Picks queue up, and the car stops at each called floor on its way."
+		""
+		"Fit &2Bulkhead Doors&r and the cabin opens them at its stops, both in its own walls and on the landing."
+	]
+	quest.11D700B66D601D89.title: "&aCalling a Car"
 	quest.11EAC083A8DF86EC.quest_desc: [
 		"把你的&d法术书&r升级，就可以施放&c二阶法术&r，并能提升你的魔力条上限！"
 		""
@@ -1502,6 +1513,12 @@
 		"此外，你可以用它做出前期最棒的挖矿工具！"
 	]
 	quest.12B8D538B54497E2.title: "&f锐意进取"
+	quest.12C524EE7FAD80D5.quest_desc: [
+		"The &aSix-Shooter&r reloads faster than any other gun in the mod, and it gives up a bit of damage per bullet for that pace."
+		""
+		"The &2Blackpowder Revolver&r holds the same six rounds and hits a little harder, but takes twice as long to reload."
+	]
+	quest.12C524EE7FAD80D5.title: "&aSix-Shooter"
 	quest.12D15FCB12460F37.title: "&6基岩电容"
 	quest.12D46DE4D42AA302.quest_desc: [
 		"火炮需要浇铸而成，无法直接合成。将&a工作盆铸造盖&f置于加热的&b工作盆&f上，可将金属熔化为熔融&a铸铁&f、&3青铜&f、&3钢&f或&d下界钢&f。使用&a铸造砂&f与火炮模具搭建出的&a火炮铸模&f，便是用于浇注金属液的模具结构。"
@@ -1663,6 +1680,12 @@
 		"你可以选择通过&e现代工业化&f或机械动力搅拌来完成此操作。"
 	]
 	quest.14FFB82FB7EB0659.title: "&f苹果派"
+	quest.151A04CF440FCC99.quest_desc: [
+		"Loose bullets eat inventory space fast. A &aBullet Box&r holds up to 256 of them in a single slot."
+		""
+		"Bullets you pick up go straight into the box, and your guns reload from it just like they would from loose ones."
+	]
+	quest.151A04CF440FCC99.title: "&aBullet Box"
 	quest.154E08BC9091684F.quest_desc: [
 		"&e荧石粉&r可以增强效果强度。"
 		""
@@ -1824,6 +1847,16 @@
 	]
 	quest.1770A460E1FD7CC8.title: "&f设计粒子加速器"
 	quest.1771DF7C6EBF1B89.quest_desc: ["&7&o从商店或任务奖励中获得。"]
+	quest.1783475548E3F8F1.quest_desc: [
+		"&eEnvironmental Tech&r is built around one machine, the &6Void Miner&r. It's a multiblock that fires a laser straight down and pulls ores, resources, plants and crystals out of the void beneath it."
+		""
+		"The miner comes in 8 tiers. Each one is a bigger build than the last, and each one digs faster."
+		""
+		"To get started, make a few &aLitherite Crystals&r."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Environmental Tech guide\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:index.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.1783475548E3F8F1.title: "&eEnvironmental Tech"
 	quest.17A73A05FAE4D6F5.quest_desc: [
 		"&b传说符石基底&r是&d史诗符石基底&r的升级。"
 		""
@@ -2092,6 +2125,16 @@
 		"如果对这些机制感兴趣，不妨试着搭建一座属于自己的食品小工厂吧！"
 	]
 	quest.1AF7088248493BC4.title: "&6机械化餐食"
+	quest.1AF8319B463BFCF1.quest_desc: [
+		"&eCreate: Octo Arms&r adds the &aTentacle Rig&r, a Backtank fitted with four pneumatic arms that carries you over floors, walls and ceilings."
+		""
+		"Wear it in your chest slot and double jump to grab on. You move where you look, jump takes you up and sneak takes you down, and your hands stay free the whole time. Double jump again to be set down."
+		""
+		"Everything it does runs on the Backtank's Air, even hanging still under a ledge. The only way to refill it is to place it under a turning shaft. Run dry and it can only crawl slowly down to the nearest floor."
+		""
+		"&eNote&r: The Rig grips ships like any other block, which makes clambering around a hull a lot less scary. The &dNetherite Tentacle Rig&r reaches further and uses half the Air."
+	]
+	quest.1AF8319B463BFCF1.title: "&aTentacle Rig"
 	quest.1AFA348F161447F8.quest_desc: ["&a起重机系统&r也可以让连接的结构在一个轴上移动，与&a动力活塞&r不同的是其提供了多种红石控制选项。"]
 	quest.1AFA348F161447F8.title: "&a起重机系统"
 	quest.1B10A2DED0629D6B.quest_desc: [
@@ -2568,6 +2611,14 @@
 	quest.20D7DA6055C540FA.title: "&6悬赏板"
 	quest.20DCC194EED4395B.quest_subtitle: "优秀的作战套装"
 	quest.20DCC194EED4395B.title: "&c惊悚南瓜套装"
+	quest.20EEB4A14628DF33.quest_desc: [
+		"Put a Kyronite miner on the Crystal Miner program and it digs up &aPladium Crystals&r."
+		""
+		"At tier 4 the miner is a proper building: 131 blocks, 5 Laser Cores and 12 modifier slots."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Pladium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t4.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.20EEB4A14628DF33.title: "&6Pladium Void Miner"
 	quest.210833F817D7AF9E.quest_desc: ["&6下界合金自动合成仓&r有81个&a样板&r槽位，基础工作速度相当于满速度升级的&d钻石自动合成仓&r。"]
 	quest.210833F817D7AF9E.title: "&6下界合金自动合成仓"
 	quest.210E56AC8F66C19E.quest_desc: [
@@ -2623,6 +2674,12 @@
 	]
 	quest.21A521011401074F.quest_desc: ["一座生活着&d药剂师&r的岛屿，同时也被一群不太友善的女巫所盘踞。"]
 	quest.21A521011401074F.title: "&f找到&d药剂师小屋"
+	quest.21AB4D0DF5575B3D.quest_desc: [
+		"The &aArquebus&r holds 4 shots and has 7 modifier slots, more than any other gun. If you want to stack &bModifiers&r, this is the one to build around."
+		""
+		"&7&oIts advancement is called Wikipedia Historian. Make of that what you will.&r"
+	]
+	quest.21AB4D0DF5575B3D.title: "&aArquebus"
 	quest.226E5BD0BEB1BA75.quest_desc: ["这些独特的书架能提供特定的效果，例如增加100%&c量子化&r，或者降低&c量子化&r和&5阿卡那&r。"]
 	quest.226E5BD0BEB1BA75.title: "&a其他书架"
 	quest.22794ACEC855690B.quest_desc: [
@@ -2764,6 +2821,8 @@
 		""
 		"泥土能转化为黏土，泥土上能种树，泥土甚至能搭建每一个Minecraft玩家都搭建过的泥土房子（当然，这次是在空岛上）。"
 	]
+	quest.239511E4EEFFFCCF.quest_desc: ["Better guns need moving parts, and &aSimple Mechanical Components&r are the first of three tiers of them. They open up the &aBlunderbuss&r, the &2Musket&r and several of the &bModifiers&r."]
+	quest.239511E4EEFFFCCF.title: "&aSimple Mechanical Components"
 	quest.23A56DB24FE7D584.quest_desc: [
 		"手持&a结构图解&f右击飞船，即可打开包含关键核心信息的页面：总质量、&b质心&f位置，以及合并或单独显示的各项受力箭头。"
 		""
@@ -2835,6 +2894,14 @@
 	]
 	quest.2465C83C97A189EA.quest_subtitle: "最好的伙伴"
 	quest.2465C83C97A189EA.title: "&f水晶魔法之道"
+	quest.246B3E9168DB9910.quest_desc: [
+		"By default, the miner picks its drops at random, but adding a lens in the &aLaser Lens Holder&r changes the odds."
+		""
+		"The &aLens Grinder&r turns a plain &2Lens&r into one of 16 coloured lenses. Each colour favours its own set of drops, usually making them about 8 times as likely. Right-click the Lens Holder with a lens to fit it, and with an empty hand to take it out."
+		""
+		"Each tier also has a &2Crystal Lens&r, which favours that tier's crystal on the Crystal Miner program."
+	]
+	quest.246B3E9168DB9910.title: "&aLenses"
 	quest.2485AE690A2FAB3E.quest_desc: [
 		"&6FTB Skies 2 Aero&r使用了一个会不定时发生的事件系统。"
 		""
@@ -3254,6 +3321,12 @@
 	]
 	quest.2A19E0AF462C1FD2.title: "&a钻石符石"
 	quest.2A1AE478A678C1A9.title: "&f能量接口"
+	quest.2A5C2C2FE8CC8297.quest_desc: [
+		"The laser runs down a column under the controller. In a tier 1 build that column holds 2 &aLaser Cores&r with a &2Laser Lens Holder&r between them."
+		""
+		"The Lens Holder also takes the lens that decides what the miner digs up."
+	]
+	quest.2A5C2C2FE8CC8297.title: "&aLaser Parts"
 	quest.2A5C2E704DE70301.quest_desc: [
 		"将&c烈焰金工具&r丢入&c熔岩&r中即可进行修复；修复完成后，对应的熔岩会转化为黑曜石。"
 		""
@@ -3640,6 +3713,8 @@
 	quest.2EE5352D8E5F715F.title: "&f击杀20只&c蜘蛛"
 	quest.2EEE782146096F9C.quest_desc: ["&e建筑小帮手&r大概是最出色的建筑模组之一。它新增了多种小帮手，让建筑过程变得更轻松、更高效！"]
 	quest.2EEE782146096F9C.title: "&e建筑小帮手"
+	quest.2F03192F983B760A.quest_desc: ["&aClockwork Components&r are the top tier of gun parts. They unlock the last two guns, the &2Arquebus&r and the &dClockwork Rifle&r, along with a couple of late modifiers."]
+	quest.2F03192F983B760A.title: "&aClockwork Components"
 	quest.2F057F981B68EB95.quest_desc: ["向&a初级流体放置器&r输入流体后，它会将流体倒在世界中。"]
 	quest.2F057F981B68EB95.title: "&a初级流体放置器"
 	quest.2F06B5B38E9B8804.quest_desc: [
@@ -3735,6 +3810,16 @@
 	]
 	quest.30053CAD8FABA638.title: "&f石头和泥土蜂巢"
 	quest.302868ED0A86B151.quest_desc: ["这块“稍微”更强劲的TNT只能用于爆炸配方，非常适合作为我们&6基岩杯&f的爆炸催化剂。"]
+	quest.30289DD68DB385D9.quest_desc: [
+		"The bottom plate has two kinds of special slot:"
+		""
+		"&aModifier slots&r: every one needs a modifier or the miner won't form. A &aNull Modifier&r fills a slot until you have something better."
+		""
+		"&aIO slots&r: there's one in the middle of each edge. An &aFE Input&r in one powers the miner, and an &2Item Output&r in another pushes its drops into a chest next to it."
+		""
+		"&eNote&r: A tier 1 FE Input only handles 1,024 FE per tick."
+	]
+	quest.30289DD68DB385D9.title: "&aIO and Modifier Slots"
 	quest.302A4F4F2971CF8E.quest_desc: [
 		"&7地符石&r允许你通过空手右击泥土将其转化为草方块。"
 		""
@@ -3946,6 +4031,12 @@
 		"制作&d陀螺仪螺旋桨轴承&f同样少不了它。"
 	]
 	quest.322D2B0CB2B547D8.title: "&d陀螺仪构件"
+	quest.325C3EC2F221D17D.quest_desc: [
+		"An Ionite miner is where &aAethium Crystals&r come from and it's the last tier you feed from the Overworld. The two crystals after it only turn up in the End."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Aethium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t6.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.325C3EC2F221D17D.title: "&6Aethium Void Miner"
 	quest.325D35004FF683C2.quest_desc: [
 		"&6量子计算机&r是最强大的多方块自动合成器，如果存储条件允许的话，它一次可以执行巨量任务！"
 		""
@@ -4078,6 +4169,8 @@
 	quest.33F236BD2DA075C3.title: "&f咒灰"
 	quest.3404B0A29BF5A055.quest_desc: ["&2初级流体收集器&r无需桶或其他容器便能收集流体。很适合当做无限水源呢！"]
 	quest.3404B0A29BF5A055.title: "&a初级流体收集器"
+	quest.340973E53302C9BD.quest_desc: ["&aMica&r only shows up from a miner running the &3Resource Miner&r or &bRocky Resource Miner&r program in the Nether or the End. You'll need these for the higher-tier modifiers."]
+	quest.340973E53302C9BD.title: "&aMica"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"下一阶的凝胶叫&3虚空辉凝胶&r，它可以将钻石块转化为&3苍穹晶块&r。"
 		""
@@ -4191,6 +4284,8 @@
 		"如果你的背包同时还加装了&a储罐升级&r、&a电池升级&r的话，堆叠升级也能增加它们的存储容量。"
 	]
 	quest.3506242698EDF435.title: "&f堆叠升级"
+	quest.3544BF3705BD6904.quest_desc: ["&aMechanical Components&r are the middle tier of gun parts. You'll need them for both six-round guns, the &aSix-Shooter&r and the &2Blackpowder Revolver&r."]
+	quest.3544BF3705BD6904.title: "&aMechanical Components"
 	quest.3547CF22215AB10A.title: "&f实用的&a三阶&r魔符"
 	quest.3557FBCEFEF444CC.quest_desc: [
 		"&d精密构件&r是&e机械动力&r模组中一些顶级工具和机器的重要合成部件。"
@@ -4204,6 +4299,19 @@
 		"多装一些会是一个不错的选择。"
 	]
 	quest.355C3ACB16CC2DE9.title: "&6量子加速&d"
+	quest.356387D62FC4023D.quest_desc: [
+		"A miner with no program just sits there and reports &cNo Program&r."
+		""
+		"Write a program onto a &aFlash Memory&r in the &2Memory Programmer&r, then slot it into the controller:"
+		""
+		"&3Ore Miner&r: Ores"
+		"&3Resource Miner&r: Stone, sand and other ground blocks"
+		"&3Botanic Miner&r: Plants"
+		"&3Crystal Miner&r: The crystals each new tier needs"
+		""
+		"Narrower programs such as the Metallic Ore Miner cut the list down to one kind of drop. The &3Multi Miner&r digs everything at once, at 4,000 FE per tick."
+	]
+	quest.356387D62FC4023D.title: "&aMemory Programmer"
 	quest.3578757A7E8F3B37.quest_desc: [
 		"&d魔源中继器：分流型&r可以将魔源分散成多股，从而同时填充多个魔源罐！"
 		""
@@ -4588,6 +4696,14 @@
 		"熔岩遍布之地，封存着一位&6远古强敌&r的记忆，需用炽燃余烬将其唤醒。他们掉落的钥匙可用于打开竞技场周围的&2宝库&r。"
 	]
 	quest.3A084B83B8CFAACD.title: "&f发现&c烈焰竞技场"
+	quest.3A2C897D53242A22.quest_desc: [
+		"Hold the trigger and it keeps going."
+		""
+		"The &dClockwork Rifle&r is the only gun that fires automatically on its own, with a 10 round magazine to back it up."
+		""
+		"Each bullet hits lighter than the older guns, so it pairs well with &bModifiers&r that add effects on hit."
+	]
+	quest.3A2C897D53242A22.title: "&dClockwork Rifle"
 	quest.3A389EDA045B65E1.title: "&f胡萝卜农场"
 	quest.3A4111B0851B336E.quest_desc: [
 		"致力于耕作的一次性新手奖励！"
@@ -4878,6 +4994,14 @@
 		""
 		"两个网络之间仍共享应力上限，但若副网络发生过载，&2过应力离合器&f能让主网络不会停转。"
 	]
+	quest.3CFCAD1654FB2CD8.quest_desc: [
+		"This is where the artifice comes in. &bModifiers&r slot into a gun and change how it shoots. Some add extra pellets, fire or frost, while others bolt on a scope or a bayonet."
+		""
+		"[\"\", {\"text\": \"Make a \"}, {\"text\": \"Hair Trigger Modifier\", \"color\": \"green\"}, {\"text\": \", then hold your gun and press \"}, {\"keybind\": \"key.irons_artifice.open_modifier_menu\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: Shift + G\"}}, {\"text\": \" to open its modifier slots and drop it in.\"}]"
+		""
+		"Every gun's tooltip shows how many modifier slots it has, and every modifier's tooltip shows exactly what it changes."
+	]
+	quest.3CFCAD1654FB2CD8.title: "&bModifiers"
 	quest.3D1796B4F460DBBF.quest_desc: [
 		"&d全向连接器&r能够以无线的方式无视距离甚至跨维度将两个网络连接起来，前提是两边的区块都在加载状态。"
 		""
@@ -5660,6 +5784,14 @@
 		"想要起步，你需要去找到&a焦黑石英矿晶母岩&r或者与猪灵交易获得一些焦黑石英！"
 	]
 	quest.47547FC5591CE0D3.title: "&f欢迎游玩&e实用拓展&f！"
+	quest.4761D2BF58BE9A49.quest_desc: [
+		"&aKyronite Crystals&r come from an Erodium miner on the Crystal Miner program."
+		""
+		"Tier 3 widens the plate to 9 by 9 and doubles the modifier slots to 8."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Kyronite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t3.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.4761D2BF58BE9A49.title: "&aKyronite Void Miner"
 	quest.47733A3264ECC078.quest_desc: [
 		"虽然你可以使用&e传送带&r作为自动人行道，或者用&e弹射置物台&r把自己弹出去，但在基地各个区域之间移动，还有更高级的方法。那就是：&6超级管道&r！"
 		""
@@ -5683,6 +5815,12 @@
 		"由此，我们得以打造出，能够将几乎任何事物进行无线传输的物品或机器了，比如传送门！"
 	]
 	quest.479955FA73CB4C7D.title: "&b传送核心"
+	quest.47A332AAD04ECC1C.quest_desc: [
+		"The &aAssembler&r is the workbench for most of this mod's parts. Interconnects, FE Inputs and modifiers all need it."
+		""
+		"It runs on FE, about 100 FE per tick while it works, and each job takes 5 seconds."
+	]
+	quest.47A332AAD04ECC1C.title: "&aAssembler"
 	quest.47C817DA92CE31EA.quest_desc: [
 		"有了&e矿晶傀儡&r，它们能收获的可就远不止紫水晶了！"
 		""
@@ -5800,6 +5938,14 @@
 		"唯一问题就是它里面只能放9个&2编码样板&r。"
 	]
 	quest.49835EC10C5AE8D8.title: "&6量子合成器"
+	quest.498650FA62056F6C.quest_desc: [
+		"&aIonite Crystals&r come from a Pladium miner."
+		""
+		"Tier 5 is also where the &2Bandwidth Modifier&r opens up."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Ionite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t5.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.498650FA62056F6C.title: "&aIonite Void Miner"
 	quest.498A5C0A00F19E2E.quest_desc: ["最基础也是最便利的反应堆燃料就是&6铀燃料棒&r。无需多余处理步骤的代价是输出能量也较少，但作为起步的燃料棒还是很适合的。"]
 	quest.498A5C0A00F19E2E.title: "&6铀燃料棒"
 	quest.499819F644DAAB83.quest_desc: [
@@ -6004,6 +6150,12 @@
 		"这个升级可以自动销毁白名单内的物品，升级后还有更多过滤选项！"
 	]
 	quest.4BA8E435EDA995AC.title: "&f虚空升级"
+	quest.4BB1E3FDF58EC964.quest_desc: [
+		"Most of a Void Miner's bottom plate is &aStructure Panels&r, and a tier 1 miner needs 18 of them."
+		""
+		"You can also use &2Clear Structure Panels&r if you'd rather see through the floor."
+	]
+	quest.4BB1E3FDF58EC964.title: "&aStructure Panels"
 	quest.4BB2E61FF925FE84.quest_desc: ["&d高级数据链（Advanced Data Link）&f可连接任意类型的方向定位设备，并通过红石信号将信息中继发送至相连的方块。"]
 	quest.4BCA8A5C3F80D375.title: "&a除名符石"
 	quest.4BDD9230BBA6C0A0.quest_desc: [
@@ -6072,6 +6224,16 @@
 		"它们的木材中蕴含着潜在的魔法能量，是制作奥术用品的绝佳基础材料。这种魔法能量有时会导致树液渗出树干，并在树皮下积聚。用斧头刮去这些部位的树皮，你就可以用玻璃瓶收集到&b符文树脂&r。这种树脂饮用后可提供微量治疗，也能制成符文树脂球，作为黏液球的合成替代品。"
 	]
 	quest.4C8EDEEFBC40E44B.title: "&f符文树"
+	quest.4CE2F79E41D30ED1.quest_desc: [
+		"Swap a Null Modifier for a real one and the miner changes how it works:"
+		""
+		"&aFrequency Modifier&r: less time per drop."
+		""
+		"&2Amplification Modifier&r: makes the drops your lens favours even more likely."
+		""
+		"Modifiers in the same miner stack. Each one adds a little to the energy cost, and pushing a miner faster than its normal top speed doubles what it uses."
+	]
+	quest.4CE2F79E41D30ED1.title: "&bModifiers"
 	quest.4D05E74FE351708F.quest_desc: [
 		"&b神秘之力&r提供用于制作它的所有符石的效果："
 		""
@@ -6268,6 +6430,12 @@
 		""
 		"它也可以用于制作灵质触媒来加快灵质晶簇的生长。"
 	]
+	quest.4F2FBBD82764C565.quest_desc: [
+		"Some drops only appear when the bottom of the shaft is in the right biome."
+		""
+		"A &aDimensional Modifier&r lifts those biome limits, so every drop the miner's dimension offers is on the table."
+	]
+	quest.4F2FBBD82764C565.title: "&aDimensional Modifier"
 	quest.4F3787D3DCAFBB6F.quest_desc: ["能瞬间破坏东西的话，谁还需要效率附魔啊？"]
 	quest.4F3787D3DCAFBB6F.title: "&f升级：瞬间破坏"
 	quest.4F3CA2DCE719D18A.quest_desc: [
@@ -6531,6 +6699,14 @@
 		"如果相邻位置没有储罐，这些罐子会将产生的流体以流体胶囊的形式排到世界中。"
 	]
 	quest.5255D0210BAE4EC2.title: "强化玻璃罐"
+	quest.52693A39DAFA87FC.quest_desc: [
+		"Every tier up needs that tier's crystals, and the only place to get them is a Void Miner running the &3Crystal Miner&r program. Your Litherite miner can already dig up &aErodium Crystals&r."
+		""
+		"An Erodium miner needs Erodium frames or better, 3 Laser Cores and 4 modifier slots. In return it can drop something every 320 ticks instead of 380."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Erodium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t2.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.52693A39DAFA87FC.title: "&aErodium Void Miner"
 	quest.5283000032BDFE0B.title: "&fMI流体管道"
 	quest.529BB6E3B5A93A91.quest_desc: [
 		"&7卫道士符石&r每30秒，你切换工具后的第一下攻击增加50%伤害。"
@@ -6560,6 +6736,14 @@
 		"&3合成终端&r在常规&a终端&r的基础上集成了一个工作台。"
 	]
 	quest.52C305EDBE2CCC55.title: "&a终端"
+	quest.52C36453AD917E9F.quest_desc: [
+		"Your first gun. The &aFlintlock&r holds a single shot that hits for 20 damage, so make it count."
+		""
+		"[\"\", {\"text\": \"Fire with your attack button. Once it's empty, press \"}, {\"keybind\": \"key.irons_artifice.reload\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: R\"}}, {\"text\": \" to load the next bullet.\"}]"
+		""
+		"&7&oReloading takes about two seconds. Don't start it in the middle of a crowd.&r"
+	]
+	quest.52C36453AD917E9F.title: "&aFlintlock"
 	quest.52D59836B209B35A.title: "击杀&z混沌守卫"
 	quest.53060D307C063C25.quest_desc: ["&a龙芯&r是大多数&e龙之进化&r配方和物品的更高级合成材料。"]
 	quest.530F5E2E4ADB1BA4.quest_desc: [
@@ -6693,6 +6877,16 @@
 		"你可以用这台设备链接到你的AE网络无线访问点。把终端放在无线访问点的槽位上就可以链接，链接完成后就可以用它访问你的物品，只要在信号范围内就可以随意合成！"
 	]
 	quest.54C31D0BAFA952D4.title: "&b无线合成"
+	quest.54C7973C00343D76.quest_desc: [
+		"Time to assemble the Miner. Place the &aLitherite Void Miner CCU&r facing down, and build the rest of the miner underneath it."
+		""
+		"Its screen have a &3Build&r button that places the frames, cores, lens holder and panels from your inventory, and shows where the modifier and IO slots need to be hand-placed."
+		""
+		"The laser needs a clear shaft straight down to the bottom of the world. Anything solid in the way and the miner reports &cBlocked&r."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Litherite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t1.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.54C7973C00343D76.title: "&6Litherite Void Miner"
 	quest.54D361B81A53A872.quest_desc: [
 		"大部分机器都需要依赖&2电容&r来工作。电容的等级直接影响了机器的工作速度和存储的能量。"
 		""
@@ -6790,7 +6984,7 @@
 		""
 		"想要开始游玩本模组，你需要先获取一些&a无限粉&r。"
 		""
-		"在这个整合包中，你只需跳下空岛便可获取&a无限粉&r！"
+		"将一些&5黑曜石粉末&r丢入&6火&r中就能获得&a无限粉&r。"
 	]
 	quest.566EEDD0B029090D.title: "&f欢迎游玩&e末影接口&r！"
 	quest.5672B339AE16EE6C.quest_desc: [
@@ -7049,6 +7243,12 @@
 		"将机翼与推进器搭配使用，你造出来的就是飞机而非飞艇了。飞机航速更快、自重更轻，但一旦引擎熄火，它就会瞬间从天上坠落。请按需权衡抉择。"
 	]
 	quest.596B99FA746FF18B.title: "&3机翼"
+	quest.59814B361E61A44A.quest_desc: [
+		"A tier 1 build is held together by 20 &aLitherite Structure Frames&r, plus one in each IO slot you don't use."
+		""
+		"A frame also works in any miner below its own tier."
+	]
+	quest.59814B361E61A44A.title: "&aLitherite Structure Frames"
 	quest.598652FE2E4839AC.quest_desc: [
 		"嫌弃真正的草地自然生成动物的速度太慢？"
 		""
@@ -7200,6 +7400,14 @@
 		"&b湮灭之瓶&r可以当成背包中的垃圾桶，但它和垃圾桶不同的一点就是可以把销毁物品变为魔力！潜行时手持使用瓶子即可激活，然后副手拿着要销毁的物品并使用瓶子，就能将物品加入销毁清单。瓶子激活后，销毁清单中的物品在被丢出时会自动销毁。瓶子必须放在快捷栏才能正常工作。"
 	]
 	quest.5BDBB419A8FA0D2D.title: "瓶装&d魔法&f"
+	quest.5BDCEBA756FE6D0C.quest_desc: [
+		"&dXerothium Crystals&r are End-only too, and they come from a Nanorite miner."
+		""
+		"The Xerothium Void Miner is the top tier: 221 blocks, 20 modifier slots, and as little as one tick per drop with enough Frequency."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Xerothium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t8.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.5BDCEBA756FE6D0C.title: "&dXerothium Void Miner"
 	quest.5BE257CE3FD1FDAC.quest_desc: [
 		"有了&6觉醒龙锭&r，你就能升级你的聚合注入装置，并制作更高级的物品了。"
 		""
@@ -7265,6 +7473,20 @@
 		"[\"你也可以将\", {\"text\": \"通用机械的\", \"color\": \"yellow\"}, {\"text\": \"终极控制电路\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往终极控制电路任务\"} }, \"转换后用于这些配方。\"]"
 	]
 	quest.5D0742E56290E42B.title: "&3我们正在驾驭这个"
+	quest.5D10D97F7D03277E.quest_desc: [
+		"&dNanorite Crystals&r only come from a Crystal Miner in the End, running on an Aethium miner or better."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Nanorite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t7.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.5D10D97F7D03277E.title: "&dNanorite Void Miner"
+	quest.5D1C6D0639AC1E72.quest_desc: [
+		"Point it in the general direction of trouble."
+		""
+		"Each shot from the &aBlunderbuss&r throws 8 pellets in a wide spread, and it holds 2 shots before it needs a reload. Up close it's brutal. At range the pellets go everywhere except where you meant."
+		""
+		"If you'd rather reach out and touch something, the &2Musket&r fires a faster bullet for long shots."
+	]
+	quest.5D1C6D0639AC1E72.title: "&aBlunderbuss"
 	quest.5D2936B7F8D0F8FA.title: "不稳定金属块"
 	quest.5D2D114B66DE61EE.quest_desc: [
 		"无论是洗碗还是搞核电，&a厨房水槽&r都能提供便捷的无限水来源。"
@@ -7420,6 +7642,18 @@
 		"将制作好的样板放入&d亚马龙处理站&r，该交易即可像普通配方一样进行自动合成。"
 	]
 	quest.5F1A2C7D9B4E6081.title: "&f自动化&b亚马龙"
+	quest.5F3DF1E640D5CF10.quest_desc: [
+		"Climbing ten ladders to reach your storage room gets old fast. &eCreate: Turbolifts&r lets you build a proper elevator car out of ordinary blocks."
+		""
+		"Run &aTurbolift Rail&r up opposite walls of the shaft, and plug a &2Track Power Unit&r into the end of a rail to power it."
+		""
+		"Build the cabin from any blocks you like, with a &aCabin Carriage&r somewhere inside and a &2Guide Shoe&r on each side wall. Glue it all with &aSuper Glue&r, then right-click the carriage with a &2Wrench&r to assemble it."
+		""
+		"Every floor gets a &aStation&r. Stand on the landing, right-click the rail with the Station where the car should stop, then place the Station anywhere within 16 blocks."
+		""
+		"&eNote&r: The Track Power Unit runs on rotation. The &2Electric Track Power Unit&r takes FE from any mod's cables instead."
+	]
+	quest.5F3DF1E640D5CF10.title: "&aTurbolifts"
 	quest.5F4BAB9B54CF7E4A.quest_desc: [
 		"&d陀螺仪&f会沿着所安装的轴向主动维持飞船水平。使其加速运转便能抵抗俯仰与滚转，并能消除多余的自旋惯性，让你在停止转向操作时飞船能迅速停转。"
 		""
@@ -7762,6 +7996,12 @@
 		""
 		"&o&7用于合成彩虹发电机"
 	]
+	quest.62DAE58CE4F111D8.quest_desc: [
+		"An &aInterdimensional Modifier&r lets a miner dig up drops from other dimensions too."
+		""
+		"Pair it with a Dimensional Modifier and a single miner can reach every drop it knows about."
+	]
+	quest.62DAE58CE4F111D8.title: "&dInterdimensional Modifier"
 	quest.62E203E1AC025DAF.quest_desc: ["&a锁链传动轮&r通过锁链相互连接，可以传输各种&e机械动力&r的物品以及&b旋转力&r。"]
 	quest.62E203E1AC025DAF.title: "&a锁链传动轮"
 	quest.63002C7AFB80AC48.quest_subtitle: "炽焰套装"
@@ -7792,6 +8032,8 @@
 	quest.633C97755F5FAA38.quest_desc: ["想要进入末地，你首先得用&d虚空辉凝胶&f生产一些&a末地石&f。"]
 	quest.633FA983B63A65DD.quest_desc: ["给&d压力表管道模块&r安装&b模块扩展卡&r后可以精确控制其输出的&c红石强度&r。"]
 	quest.633FA983B63A65DD.title: "&f功能扩展！"
+	quest.637136BB6187D914.quest_desc: ["Normally each drop is a single item. A &aBandwidth Modifier&r turns each drop into a random stack instead, bigger the more bandwidth you stack, up to 64."]
+	quest.637136BB6187D914.title: "&aBandwidth Modifier"
 	quest.63A28DBF66DBB1D2.quest_desc: [
 		"&aME请求器&r允许你设置物品存量，使其能够保持供应。"
 		""
@@ -8509,6 +8751,16 @@
 	]
 	quest.6FEA088D2D5A3AEF.title: "&d书龙&f，以及魔法存储！"
 	quest.6FEF508F7DDDB261.quest_desc: ["&7&o从商店或任务奖励中获得。"]
+	quest.6FF6AEA1FB274657.quest_desc: [
+		"Every gunslinger needs a hat, and these two actually pull their weight:"
+		""
+		"&aCowboy Hat&r: killing something with a bullet tops your magazine back up instantly, as long as there's still a round in it. It then needs 5 seconds before it can do that again."
+		""
+		"&aTricorne&r: the first shot from a full magazine deals 25% more damage."
+		""
+		"&7&oA one-shot gun is always firing from a full magazine. The Tricorne likes the Flintlock a lot.&r"
+	]
+	quest.6FF6AEA1FB274657.title: "&aHat Tricks"
 	quest.6FF752712E99A936.quest_desc: ["如果想要合成升级，你得先做&a升级基板&r。"]
 	quest.6FF752712E99A936.title: "&f升级基板"
 	quest.705E4FFB4FCADFD1.quest_desc: [
@@ -8930,6 +9182,12 @@
 	]
 	quest.7454899FCDA2349B.title: "&6列车站点"
 	quest.748DAA46EC10AA3F.quest_desc: ["&a珊瑚发电机&f可以消耗液态珊瑚发电，输出为5000RF/t。"]
+	quest.749EE2CCAF2497F4.quest_desc: [
+		"No bullets, no bang."
+		""
+		"Keep a stack of &aBullets&r on you. When a gun runs dry, it reloads from whatever you're carrying, so there's no ammo slot to fill."
+	]
+	quest.749EE2CCAF2497F4.title: "&aBullets"
 	quest.74B2332D6BBC0721.quest_desc: [
 		"&a传说之眼&r是一件特殊道具，可以让漫游者在虚空中找到通往天空村庄之路。只需使用该物品，便可召唤出一个指示物，它会短暂地朝某个村庄的方向飘去，随后消散。"
 		""
@@ -9076,6 +9334,14 @@
 		"充能会随时间自动恢复（详见饱食度上的状态条），还可以被附魔和饰品强化充能上限或加快恢复速度。"
 	]
 	quest.77074CE5719763BB.title: "&d忆念咒术法杖"
+	quest.772EE4878D98EE43.quest_desc: [
+		"Swords and bows are fine, but sometimes you want something that goes bang."
+		""
+		"&eIron's Arms 'n Artifice&r adds seven guns, the ammo to feed them, and a big pile of &bModifiers&r to bolt onto them."
+		""
+		"It all starts with &aBlackpowder&r. Grab some and the rest of this quest path opens up."
+	]
+	quest.772EE4878D98EE43.title: "&eIron's Arms 'n Artifice"
 	quest.77372AD6C4049263.quest_desc: [
 		"对于模组老手而言，&e末影接口&r因其令人惊叹的管道而留下了美好的回忆，它们被称为&d导管&r。"
 		""
@@ -9850,6 +10116,7 @@
 	reward_table.04E2ADE3851064D1.title: "魔法奖励包"
 	reward_table.0AC2F0F1B57CD80E.title: "旧法术板条箱"
 	reward_table.0BCFC3959C93667A.title: "存储物品奖励箱"
+	reward_table.17EC7AEEF568B78C.title: "&aEnvironmental Tech Goodie Bag"
 	reward_table.19DAA0A82CBD4FB8.title: "&b蜜脾奖励包"
 	reward_table.1B4ED08D7F604E51.title: "&3基因库"
 	reward_table.1E2D6248E209E76E.title: "&aRS2物品奖励箱"
