@@ -22,7 +22,7 @@
 		string_id: "bee_gene_bag"
 	}
 	loot_size: 1
-	order_index: 24
+	order_index: 25
 	rewards: [
 		{
 			id: "12A16F8A50A1AE1B"

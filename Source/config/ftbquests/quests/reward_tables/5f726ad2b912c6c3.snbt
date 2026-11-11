@@ -15,7 +15,7 @@
 		string_id: "legendary_crate"
 	}
 	loot_size: 1
-	order_index: 14
+	order_index: 15
 	rewards: [
 		{ id: "12810653970AEC05", item: { count: 1, id: "fargostalismans:force_of_overworld" } }
 		{ id: "2ECB6E6D5F14951B", item: { count: 1, id: "fargostalismans:force_of_nature" } }

@@ -21,7 +21,7 @@
 		string_id: "adventurer_bag"
 	}
 	loot_size: 1
-	order_index: 6
+	order_index: 7
 	rewards: [
 		{
 			id: "27729AFFD4C94FAC"

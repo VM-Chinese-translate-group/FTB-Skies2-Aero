@@ -15,7 +15,7 @@
 		string_id: "technology_bundle"
 	}
 	loot_size: 1
-	order_index: 5
+	order_index: 6
 	rewards: [
 		{
 			count: 2

@@ -19,7 +19,7 @@
 		string_id: "grandmas_treat"
 	}
 	loot_size: 1
-	order_index: 4
+	order_index: 5
 	rewards: [
 		{
 			count: 4

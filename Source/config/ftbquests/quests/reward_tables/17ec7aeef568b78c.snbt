@@ -1,0 +1,146 @@
+{
+	icon: {
+		id: "envirotech:litherite_void_miner_ccu"
+	}
+	id: "17EC7AEEF568B78C"
+	loot_crate: {
+		color: 1944144
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftbquests.loot_crate.envirotech_goodie_bag"
+		string_id: "envirotech_goodie_bag"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "5ABBE5729E1C4898"
+			item: {
+				count: 1
+				id: "envirocore:litherite_crystal"
+			}
+			random_bonus: 4
+			weight: 100.0f
+		}
+		{
+			count: 8
+			id: "4063C830F9525261"
+			item: {
+				count: 1
+				id: "envirocore:structure_panel"
+			}
+			random_bonus: 8
+			weight: 100.0f
+		}
+		{
+			count: 8
+			id: "1916D71F4D55D6A5"
+			item: {
+				count: 1
+				id: "envirocore:obsidian_plate"
+			}
+			random_bonus: 8
+			weight: 100.0f
+		}
+		{
+			count: 2
+			id: "39698F2BF874DC6D"
+			item: {
+				count: 1
+				id: "envirocore:null_modifier"
+			}
+			random_bonus: 2
+			weight: 80.0f
+		}
+		{
+			count: 2
+			id: "7BEFE1F41F477AD6"
+			item: {
+				count: 1
+				id: "envirocore:erodium_crystal"
+			}
+			random_bonus: 2
+			weight: 60.0f
+		}
+		{
+			count: 4
+			id: "28E537F447E113D9"
+			item: {
+				count: 1
+				id: "envirocore:litherite_frame"
+			}
+			random_bonus: 4
+			weight: 60.0f
+		}
+		{
+			id: "3CF256309737A07D"
+			item: {
+				count: 1
+				id: "envirocore:null_io"
+			}
+			random_bonus: 1
+			weight: 60.0f
+		}
+		{
+			count: 4
+			id: "66EE86839831D775"
+			item: {
+				count: 1
+				id: "envirocore:lens"
+			}
+			random_bonus: 4
+			weight: 60.0f
+		}
+		{
+			id: "2D8FF8D5235A0308"
+			item: {
+				count: 1
+				id: "envirocore:laser_core"
+			}
+			random_bonus: 1
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "25A07EBED02C9515"
+			item: {
+				count: 1
+				id: "envirocore:kyronite_crystal"
+			}
+			random_bonus: 1
+			weight: 40.0f
+		}
+		{
+			id: "6EB1BB4CBAD548BC"
+			item: {
+				count: 1
+				id: "envirocore:flash_memory"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 2
+			id: "354D63B8631ED043"
+			item: {
+				count: 1
+				id: "envirocore:mica"
+			}
+			random_bonus: 2
+			weight: 30.0f
+		}
+		{
+			id: "55499B554A8EF652"
+			item: {
+				count: 1
+				id: "envirocore:lonsdaleite_crystal"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}
