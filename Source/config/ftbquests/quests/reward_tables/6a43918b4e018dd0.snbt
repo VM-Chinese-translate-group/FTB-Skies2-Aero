@@ -15,7 +15,7 @@
 		string_id: "bee_upgrade_bag"
 	}
 	loot_size: 1
-	order_index: 25
+	order_index: 26
 	rewards: [
 		{
 			id: "3D727C60023CE422"

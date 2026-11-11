@@ -1,5 +1,6 @@
 {
 	chapter.0DCFFC4FFBC3B1E5.title: "&zPina Colada"
+	chapter.128F07DBED7481FD.title: "Environmental Tech"
 	chapter.1C63D973F178FD60.title: "Welcome"
 	chapter.1E741D8D60A01B78.title: "General Storage"
 	chapter.22C89CB46E794365.title: "Create"
@@ -1424,6 +1425,16 @@
 		"It is also used to craft the &bForce of Rejectors&r."
 	]
 	quest.11D49C5B6C2D4CF0.title: "&7Skeleton Talisman"
+	quest.11D700B66D601D89.quest_desc: [
+		"A lift you can't call is just a very slow room."
+		""
+		"Right-click a &2Station&r with &aCall Panels&r in hand to link them, then place them on that landing. Press one and the closest free car comes to that Station."
+		""
+		"Inside the cabin, a &aDestination Panel&r in the wall lists every floor, and Create's &2Contraption Controls&r work too. Picks queue up, and the car stops at each called floor on its way."
+		""
+		"Fit &2Bulkhead Doors&r and the cabin opens them at its stops, both in its own walls and on the landing."
+	]
+	quest.11D700B66D601D89.title: "&aCalling a Car"
 	quest.11E086D8E2C6B642.quest_desc: [
 		"&aAdamant&r is one of the core alloys used throughout &eOritech&r in many recipes and machines."
 		""
@@ -1521,6 +1532,12 @@
 		"You can also use these to make one of the best mining tools in the early game!"
 	]
 	quest.12B8D538B54497E2.title: "&fForge Ahead"
+	quest.12C524EE7FAD80D5.quest_desc: [
+		"The &aSix-Shooter&r reloads faster than any other gun in the mod, and it gives up a bit of damage per bullet for that pace."
+		""
+		"The &2Blackpowder Revolver&r holds the same six rounds and hits a little harder, but takes twice as long to reload."
+	]
+	quest.12C524EE7FAD80D5.title: "&aSix-Shooter"
 	quest.12D15FCB12460F37.title: "&6Bedrockium Capacitor"
 	quest.12D46DE4D42AA302.quest_desc: [
 		"Cannons are cast, not crafted. The &aBasin Foundry Lid&f goes on a heated &bBasin&f and melts metal into molten &aCast Iron&f, &3Bronze&f, &3Steel&f or &dNethersteel&f. A &aCannon Cast&f built up from &aCasting Sand&f and a cannon mould is the shape you pour it into."
@@ -1682,6 +1699,12 @@
 		"You can choose to do this via &eModern Industrialization&f or Create Mixing."
 	]
 	quest.14FFB82FB7EB0659.title: "&fApple Pie"
+	quest.151A04CF440FCC99.quest_desc: [
+		"Loose bullets eat inventory space fast. A &aBullet Box&r holds up to 256 of them in a single slot."
+		""
+		"Bullets you pick up go straight into the box, and your guns reload from it just like they would from loose ones."
+	]
+	quest.151A04CF440FCC99.title: "&aBullet Box"
 	quest.154E08BC9091684F.quest_desc: [
 		"&eGlowstone Dust&r is used as an amplifier for potions effects."
 		""
@@ -1843,6 +1866,16 @@
 	]
 	quest.1770A460E1FD7CC8.title: "&fAccelerator Designs"
 	quest.1771DF7C6EBF1B89.quest_desc: ["&7&oObtained from the shop or quest rewards"]
+	quest.1783475548E3F8F1.quest_desc: [
+		"&eEnvironmental Tech&r is built around one machine, the &6Void Miner&r. It's a multiblock that fires a laser straight down and pulls ores, resources, plants and crystals out of the void beneath it."
+		""
+		"The miner comes in 8 tiers. Each one is a bigger build than the last, and each one digs faster."
+		""
+		"To get started, make a few &aLitherite Crystals&r."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Environmental Tech guide\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:index.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.1783475548E3F8F1.title: "&eEnvironmental Tech"
 	quest.17A73A05FAE4D6F5.quest_desc: [
 		"The &bLegendary Talisman Base&r is an upgrade to the &dEpic Talisman Base&r."
 		""
@@ -2111,6 +2144,16 @@
 		"If things like that sound appealing to you, try setting up a little food factory for yourself!"
 	]
 	quest.1AF7088248493BC4.title: "&6Mechanical Meals"
+	quest.1AF8319B463BFCF1.quest_desc: [
+		"&eCreate: Octo Arms&r adds the &aTentacle Rig&r, a Backtank fitted with four pneumatic arms that carries you over floors, walls and ceilings."
+		""
+		"Wear it in your chest slot and double jump to grab on. You move where you look, jump takes you up and sneak takes you down, and your hands stay free the whole time. Double jump again to be set down."
+		""
+		"Everything it does runs on the Backtank's Air, even hanging still under a ledge. The only way to refill it is to place it under a turning shaft. Run dry and it can only crawl slowly down to the nearest floor."
+		""
+		"&eNote&r: The Rig grips ships like any other block, which makes clambering around a hull a lot less scary. The &dNetherite Tentacle Rig&r reaches further and uses half the Air."
+	]
+	quest.1AF8319B463BFCF1.title: "&aTentacle Rig"
 	quest.1AFA348F161447F8.quest_desc: ["The &aGantry System&r moves an attached contraption on an axis and offers several redstone control options unlike &aMechanical Pistons&r."]
 	quest.1AFA348F161447F8.title: "&aGantry System"
 	quest.1B10A2DED0629D6B.quest_desc: [
@@ -2587,6 +2630,14 @@
 	quest.20D7DA6055C540FA.title: "The &6Bounty Board"
 	quest.20DCC194EED4395B.quest_subtitle: "Outstanding In Field Set"
 	quest.20DCC194EED4395B.title: "&cScarecrow Set"
+	quest.20EEB4A14628DF33.quest_desc: [
+		"Put a Kyronite miner on the Crystal Miner program and it digs up &aPladium Crystals&r."
+		""
+		"At tier 4 the miner is a proper building: 131 blocks, 5 Laser Cores and 12 modifier slots."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Pladium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t4.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.20EEB4A14628DF33.title: "&6Pladium Void Miner"
 	quest.210833F817D7AF9E.quest_desc: ["The &6Netherite Autocrafter&r has 81 &aPattern&r slots and works as fast as a fully upgraded &dDiamond Autocrafter&r."]
 	quest.210833F817D7AF9E.title: "&6Netherite Autocrafter"
 	quest.210E56AC8F66C19E.quest_desc: [
@@ -2642,6 +2693,12 @@
 	]
 	quest.21A521011401074F.quest_desc: ["An island that supports an &dApothecarist&r and their less friendly infestation of witches."]
 	quest.21A521011401074F.title: "&fDiscover an &dApothecary Hut"
+	quest.21AB4D0DF5575B3D.quest_desc: [
+		"The &aArquebus&r holds 4 shots and has 7 modifier slots, more than any other gun. If you want to stack &bModifiers&r, this is the one to build around."
+		""
+		"&7&oIts advancement is called Wikipedia Historian. Make of that what you will.&r"
+	]
+	quest.21AB4D0DF5575B3D.title: "&aArquebus"
 	quest.226E5BD0BEB1BA75.quest_desc: ["These are unique shelves that provide certain bonuses like adding 100% &cQuanta&r, or removing &cQuanta&r and &5Arcana&r."]
 	quest.226E5BD0BEB1BA75.title: "&aMiscellaneous Shelves"
 	quest.22794ACEC855690B.quest_desc: [
@@ -2783,6 +2840,8 @@
 		""
 		"Dirt can be used to make Clay, or plant more trees, or even make yourself every minecrafter's first dirt house (in the sky, this time)."
 	]
+	quest.239511E4EEFFFCCF.quest_desc: ["Better guns need moving parts, and &aSimple Mechanical Components&r are the first of three tiers of them. They open up the &aBlunderbuss&r, the &2Musket&r and several of the &bModifiers&r."]
+	quest.239511E4EEFFFCCF.title: "&aSimple Mechanical Components"
 	quest.23A56DB24FE7D584.quest_desc: [
 		"Right-click a ship with the &aContraption Diagram&f and it opens a page of the things you actually need to know. Total mass, the &bcentre of mass&f, and every force arrow, merged or separate."
 		""
@@ -2849,6 +2908,14 @@
 	]
 	quest.2465C83C97A189EA.quest_subtitle: "Best Buds"
 	quest.2465C83C97A189EA.title: "&fPath of Crystalmancy"
+	quest.246B3E9168DB9910.quest_desc: [
+		"By default, the miner picks its drops at random, but adding a lens in the &aLaser Lens Holder&r changes the odds."
+		""
+		"The &aLens Grinder&r turns a plain &2Lens&r into one of 16 coloured lenses. Each colour favours its own set of drops, usually making them about 8 times as likely. Right-click the Lens Holder with a lens to fit it, and with an empty hand to take it out."
+		""
+		"Each tier also has a &2Crystal Lens&r, which favours that tier's crystal on the Crystal Miner program."
+	]
+	quest.246B3E9168DB9910.title: "&aLenses"
 	quest.2485AE690A2FAB3E.quest_desc: [
 		"&6FTB Skies 2 Aero&r uses a system called Events that can occasionally occur."
 		""
@@ -3270,6 +3337,12 @@
 	]
 	quest.2A19E0AF462C1FD2.title: "&aDiamond Talisman"
 	quest.2A1AE478A678C1A9.title: "&fEnergy Interfaces"
+	quest.2A5C2C2FE8CC8297.quest_desc: [
+		"The laser runs down a column under the controller. In a tier 1 build that column holds 2 &aLaser Cores&r with a &2Laser Lens Holder&r between them."
+		""
+		"The Lens Holder also takes the lens that decides what the miner digs up."
+	]
+	quest.2A5C2C2FE8CC8297.title: "&aLaser Parts"
 	quest.2A5C2E704DE70301.quest_desc: [
 		"&cBlazegold Tools&r can be repaired by being thrown into &cLava&r, converting the lava into obsidian once repaired."
 		""
@@ -3665,6 +3738,8 @@
 	quest.2EE5352D8E5F715F.title: "&fKill 20 &cSpiders"
 	quest.2EEE782146096F9C.quest_desc: ["Probably one of the best building mods out there, the &eBuilding Gadgets&r mod adds several new gadgets that are a must have to make building better and easier!"]
 	quest.2EEE782146096F9C.title: "&eBuilding Gadgets"
+	quest.2F03192F983B760A.quest_desc: ["&aClockwork Components&r are the top tier of gun parts. They unlock the last two guns, the &2Arquebus&r and the &dClockwork Rifle&r, along with a couple of late modifiers."]
+	quest.2F03192F983B760A.title: "&aClockwork Components"
 	quest.2F057F981B68EB95.quest_desc: ["The &aSimple Fluid Placer&r takes a fluid input and puts it in the world for all to see."]
 	quest.2F057F981B68EB95.title: "&aSimple Fluid Placer"
 	quest.2F06B5B38E9B8804.quest_desc: [
@@ -3759,6 +3834,16 @@
 	]
 	quest.30053CAD8FABA638.title: "&fStone \\&\\ Dirt Nests"
 	quest.302868ED0A86B151.quest_desc: ["This 'slightly' more powerful TNT can only be used for explosion recipes, making it ideal to use as an explosion catalyst for our &6Bedrockium Cup&f."]
+	quest.30289DD68DB385D9.quest_desc: [
+		"The bottom plate has two kinds of special slot:"
+		""
+		"&aModifier slots&r: every one needs a modifier or the miner won't form. A &aNull Modifier&r fills a slot until you have something better."
+		""
+		"&aIO slots&r: there's one in the middle of each edge. An &aFE Input&r in one powers the miner, and an &2Item Output&r in another pushes its drops into a chest next to it."
+		""
+		"&eNote&r: A tier 1 FE Input only handles 1,024 FE per tick."
+	]
+	quest.30289DD68DB385D9.title: "&aIO and Modifier Slots"
 	quest.302A4F4F2971CF8E.quest_desc: [
 		"The &7Earth Talisman&r allows you to turn dirt into grass by right-clicking dirt with an empty hand."
 		""
@@ -3963,6 +4048,12 @@
 		"You'll want them for the &dGyroscopic Propeller Bearing&f as well."
 	]
 	quest.322D2B0CB2B547D8.title: "&dGyroscopic Mechanism"
+	quest.325C3EC2F221D17D.quest_desc: [
+		"An Ionite miner is where &aAethium Crystals&r come from and it's the last tier you feed from the Overworld. The two crystals after it only turn up in the End."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Aethium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t6.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.325C3EC2F221D17D.title: "&6Aethium Void Miner"
 	quest.325D35004FF683C2.quest_desc: [
 		"The &6Quantum Computer&r will be your ultimate autocrafting multiblock, capable of crafting an unlimited amount of crafting tasks at the same time, as long as it has the crafting storage for it."
 		""
@@ -4096,6 +4187,8 @@
 	quest.33F236BD2DA075C3.title: "&fHex Ash"
 	quest.3404B0A29BF5A055.quest_desc: ["The &2Simple Fluid Collector&r collects in world fluids, without needing a bucket or such. Great for infinite water sources!"]
 	quest.3404B0A29BF5A055.title: "&aSimple Fluid Collector"
+	quest.340973E53302C9BD.quest_desc: ["&aMica&r only shows up from a miner running the &3Resource Miner&r or &bRocky Resource Miner&r program in the Nether or the End. You'll need these for the higher-tier modifiers."]
+	quest.340973E53302C9BD.title: "&aMica"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"The next tier of Goo is called &3VoidShimmer Goo&r, and allows you to convert Diamond Blocks into &3Celestigems&r."
 		""
@@ -4208,6 +4301,8 @@
 		"When combined with other upgrades like &aTank&r or &aBattery&r upgrades, these also increase the overall storage limit of those upgrades as well."
 	]
 	quest.3506242698EDF435.title: "&fStack Upgrades"
+	quest.3544BF3705BD6904.quest_desc: ["&aMechanical Components&r are the middle tier of gun parts. You'll need them for both six-round guns, the &aSix-Shooter&r and the &2Blackpowder Revolver&r."]
+	quest.3544BF3705BD6904.title: "&aMechanical Components"
 	quest.3547CF22215AB10A.title: "&fUseful &dTier 3&f Glyphs"
 	quest.3557FBCEFEF444CC.quest_desc: [
 		"The &dPrecision Mechanism&r is an important crafting component used for some of the best tools and machines &eCreate&r has to offer."
@@ -4221,6 +4316,19 @@
 		"These are nice to have many of inside of the multiblock structure."
 	]
 	quest.355C3ACB16CC2DE9.title: "&6Quantum &dAcceleration"
+	quest.356387D62FC4023D.quest_desc: [
+		"A miner with no program just sits there and reports &cNo Program&r."
+		""
+		"Write a program onto a &aFlash Memory&r in the &2Memory Programmer&r, then slot it into the controller:"
+		""
+		"&3Ore Miner&r: Ores"
+		"&3Resource Miner&r: Stone, sand and other ground blocks"
+		"&3Botanic Miner&r: Plants"
+		"&3Crystal Miner&r: The crystals each new tier needs"
+		""
+		"Narrower programs such as the Metallic Ore Miner cut the list down to one kind of drop. The &3Multi Miner&r digs everything at once, at 4,000 FE per tick."
+	]
+	quest.356387D62FC4023D.title: "&aMemory Programmer"
 	quest.3578757A7E8F3B37.quest_desc: [
 		"The &dSplitter&r is used to split the Source that is directed towards it into multiple Source Jars at once!"
 		""
@@ -4604,6 +4712,14 @@
 		"The lava-strewn floor at the base holds the memory of an &6ancient champion&r, to be woken with a Cinderous Soulcaller. The key they drop can be used to open the &2vaults&r around the arena."
 	]
 	quest.3A084B83B8CFAACD.title: "&fDiscover the &cBurning Arena"
+	quest.3A2C897D53242A22.quest_desc: [
+		"Hold the trigger and it keeps going."
+		""
+		"The &dClockwork Rifle&r is the only gun that fires automatically on its own, with a 10 round magazine to back it up."
+		""
+		"Each bullet hits lighter than the older guns, so it pairs well with &bModifiers&r that add effects on hit."
+	]
+	quest.3A2C897D53242A22.title: "&dClockwork Rifle"
 	quest.3A389EDA045B65E1.title: "&fCarrot Farm"
 	quest.3A4111B0851B336E.quest_desc: [
 		"A one-time starter bonus for devoting yourself to Cultivation!"
@@ -4893,6 +5009,14 @@
 		""
 		"Stress capacity is still shared between both networks, but an &2Overstress Clutch&f won't stall the main network if the secondary network would cause an overstress."
 	]
+	quest.3CFCAD1654FB2CD8.quest_desc: [
+		"This is where the artifice comes in. &bModifiers&r slot into a gun and change how it shoots. Some add extra pellets, fire or frost, while others bolt on a scope or a bayonet."
+		""
+		"[\"\", {\"text\": \"Make a \"}, {\"text\": \"Hair Trigger Modifier\", \"color\": \"green\"}, {\"text\": \", then hold your gun and press \"}, {\"keybind\": \"key.irons_artifice.open_modifier_menu\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: Shift + G\"}}, {\"text\": \" to open its modifier slots and drop it in.\"}]"
+		""
+		"Every gun's tooltip shows how many modifier slots it has, and every modifier's tooltip shows exactly what it changes."
+	]
+	quest.3CFCAD1654FB2CD8.title: "&bModifiers"
 	quest.3D1796B4F460DBBF.quest_desc: [
 		"The &dOmni-Directional Connector&r can connect two networks across any distance, including other dimensions, as long as the chunks are loaded."
 		""
@@ -5681,6 +5805,14 @@
 		"To get started, you'll need to get &aBudding Black Quartz&r or get some by trading with piglins!"
 	]
 	quest.47547FC5591CE0D3.title: "&fWelcome to &eActually Additions&f!"
+	quest.4761D2BF58BE9A49.quest_desc: [
+		"&aKyronite Crystals&r come from an Erodium miner on the Crystal Miner program."
+		""
+		"Tier 3 widens the plate to 9 by 9 and doubles the modifier slots to 8."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Kyronite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t3.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.4761D2BF58BE9A49.title: "&aKyronite Void Miner"
 	quest.47733A3264ECC078.quest_desc: [
 		"While you can use &ebelts&r as an automatic sidewalk and &eweighted ejectors&r to fling yourself, there are more sophisticated methods of travel around the different sections of your base. Namely: &6Hypertubes&r!"
 		""
@@ -5704,6 +5836,12 @@
 		"This allows us to create items and machines that allow for wireless transmitting of pretty much everything, including creating portals!"
 	]
 	quest.479955FA73CB4C7D.title: "&bTeleportation Cores"
+	quest.47A332AAD04ECC1C.quest_desc: [
+		"The &aAssembler&r is the workbench for most of this mod's parts. Interconnects, FE Inputs and modifiers all need it."
+		""
+		"It runs on FE, about 100 FE per tick while it works, and each job takes 5 seconds."
+	]
+	quest.47A332AAD04ECC1C.title: "&aAssembler"
 	quest.47C817DA92CE31EA.quest_desc: [
 		"With &eGeOres&r, your golems can harvest much more than just amethyst!"
 		""
@@ -5821,6 +5959,14 @@
 		"The only limit it has is that it can only store 9 &2Patterns&r total."
 	]
 	quest.49835EC10C5AE8D8.title: "&6Quantum Crafter"
+	quest.498650FA62056F6C.quest_desc: [
+		"&aIonite Crystals&r come from a Pladium miner."
+		""
+		"Tier 5 is also where the &2Bandwidth Modifier&r opens up."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Ionite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t5.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.498650FA62056F6C.title: "&aIonite Void Miner"
 	quest.498A5C0A00F19E2E.quest_desc: ["The most basic available reactor fuel is a regular &6Uranium Fuel Rod&r. It requires no fancy processing, but also outputs the least amount of energy. However, its simplicity makes it appealing to start with."]
 	quest.498A5C0A00F19E2E.title: "&6Uranium Fuel Rod"
 	quest.499819F644DAAB83.quest_desc: [
@@ -6025,6 +6171,12 @@
 		"By itself, this upgrade can be set up to automatically void specific items that you set inside of its filter. Upgrading to the Advanced version allows for more filtering options!"
 	]
 	quest.4BA8E435EDA995AC.title: "&fVoid Upgrades"
+	quest.4BB1E3FDF58EC964.quest_desc: [
+		"Most of a Void Miner's bottom plate is &aStructure Panels&r, and a tier 1 miner needs 18 of them."
+		""
+		"You can also use &2Clear Structure Panels&r if you'd rather see through the floor."
+	]
+	quest.4BB1E3FDF58EC964.title: "&aStructure Panels"
 	quest.4BCA8A5C3F80D375.title: "&aSigil of Unnaming"
 	quest.4BDD9230BBA6C0A0.quest_desc: [
 		"&aHearts&r are a key component of &eBaubley Heart Canisters&r."
@@ -6092,6 +6244,16 @@
 		"Its wood hums with latent magical energy and serves nicely as a base material for arcane utility. This magical energy sometimes causes sap to seep through the wood and pool beneath the bark. Scraping away the bark in these areas allows you to collect the &bsap&r in bottles. When consumed, it provides minor healing, or it can be used as a substitute for slimeballs."
 	]
 	quest.4C8EDEEFBC40E44B.title: "&fRunewood"
+	quest.4CE2F79E41D30ED1.quest_desc: [
+		"Swap a Null Modifier for a real one and the miner changes how it works:"
+		""
+		"&aFrequency Modifier&r: less time per drop."
+		""
+		"&2Amplification Modifier&r: makes the drops your lens favours even more likely."
+		""
+		"Modifiers in the same miner stack. Each one adds a little to the energy cost, and pushing a miner faster than its normal top speed doubles what it uses."
+	]
+	quest.4CE2F79E41D30ED1.title: "&bModifiers"
 	quest.4D05E74FE351708F.quest_desc: [
 		"The &bForce of Mystic&r provides all effects of the talisman used to craft it:"
 		""
@@ -6292,6 +6454,12 @@
 		""
 		"It also lets you make Spiritus Catalysts which can coax Spiritus Crystals into growing. "
 	]
+	quest.4F2FBBD82764C565.quest_desc: [
+		"Some drops only appear when the bottom of the shaft is in the right biome."
+		""
+		"A &aDimensional Modifier&r lifts those biome limits, so every drop the miner's dimension offers is on the table."
+	]
+	quest.4F2FBBD82764C565.title: "&aDimensional Modifier"
 	quest.4F3787D3DCAFBB6F.quest_desc: ["Who needs efficiency enchants when you can just break things instantly?"]
 	quest.4F3787D3DCAFBB6F.title: "&fUpgrade: Instant Break"
 	quest.4F3CA2DCE719D18A.quest_desc: [
@@ -6561,6 +6729,14 @@
 		"Without a tank beside it, these jars will clumsily expel the fluids they create into the world as a fluid capsule."
 	]
 	quest.5255D0210BAE4EC2.title: "Tempered Glass Jar"
+	quest.52693A39DAFA87FC.quest_desc: [
+		"Every tier up needs that tier's crystals, and the only place to get them is a Void Miner running the &3Crystal Miner&r program. Your Litherite miner can already dig up &aErodium Crystals&r."
+		""
+		"An Erodium miner needs Erodium frames or better, 3 Laser Cores and 4 modifier slots. In return it can drop something every 320 ticks instead of 380."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Erodium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t2.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.52693A39DAFA87FC.title: "&aErodium Void Miner"
 	quest.5283000032BDFE0B.title: "&fMI Fluid Pipes"
 	quest.529BB6E3B5A93A91.quest_desc: [
 		"The &7Vindicator Talisman&r increases damage by 50% for 1 hit after switching tools once every 30 seconds."
@@ -6596,6 +6772,14 @@
 		"The &3Crafting Grid&r, also provides you with all the functionality of the regular &aGrid&r, but also provides you with a crafting table."
 	]
 	quest.52C305EDBE2CCC55.title: "&aGrids"
+	quest.52C36453AD917E9F.quest_desc: [
+		"Your first gun. The &aFlintlock&r holds a single shot that hits for 20 damage, so make it count."
+		""
+		"[\"\", {\"text\": \"Fire with your attack button. Once it's empty, press \"}, {\"keybind\": \"key.irons_artifice.reload\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: R\"}}, {\"text\": \" to load the next bullet.\"}]"
+		""
+		"&7&oReloading takes about two seconds. Don't start it in the middle of a crowd.&r"
+	]
+	quest.52C36453AD917E9F.title: "&aFlintlock"
 	quest.52D59836B209B35A.title: "Kill The &zChaos Guardian"
 	quest.53060D307C063C25.quest_desc: ["The &aWyvern Core&r is an upgraded crafting component used for most &eDE&r recipes and items."]
 	quest.530F5E2E4ADB1BA4.quest_desc: [
@@ -6729,6 +6913,16 @@
 		"This device will allow you to link to a wireless access point in your network by placing it in the slot in its interface. Once linked, you can access all of your items and even craft on the go anywhere you have signal!"
 	]
 	quest.54C31D0BAFA952D4.title: "&bWireless Crafting"
+	quest.54C7973C00343D76.quest_desc: [
+		"Time to assemble the Miner. Place the &aLitherite Void Miner CCU&r facing down, and build the rest of the miner underneath it."
+		""
+		"Its screen have a &3Build&r button that places the frames, cores, lens holder and panels from your inventory, and shows where the modifier and IO slots need to be hand-placed."
+		""
+		"The laser needs a clear shaft straight down to the bottom of the world. Anything solid in the way and the miner reports &cBlocked&r."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Litherite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t1.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.54C7973C00343D76.title: "&6Litherite Void Miner"
 	quest.54D361B81A53A872.quest_desc: [
 		"Most machines will require some type of &2Capacitor&r to work, each tier determining the speed and energy storage of the machine."
 		""
@@ -6826,7 +7020,7 @@
 		""
 		"To get started, you'll need to obtain some &aGrains of Infinity&r."
 		""
-		"In this pack, you can obtain some &aGrains of Infinity&r just by jumping off your island!"
+		"Toss some &5Tiny Obsidian Dust&r into &6fire&r and it turns into &aGrains of Infinity&r."
 	]
 	quest.566EEDD0B029090D.title: "&fWelcome to &eEnderIO&r!"
 	quest.5672B339AE16EE6C.quest_desc: [
@@ -7086,6 +7280,12 @@
 		"Pair wings with thrusters and you've got a plane rather than a blimp. Planes are faster, planes are lighter, and planes fall out of the sky the moment the engine stops. Choose accordingly."
 	]
 	quest.596B99FA746FF18B.title: "&3Wings"
+	quest.59814B361E61A44A.quest_desc: [
+		"A tier 1 build is held together by 20 &aLitherite Structure Frames&r, plus one in each IO slot you don't use."
+		""
+		"A frame also works in any miner below its own tier."
+	]
+	quest.59814B361E61A44A.title: "&aLitherite Structure Frames"
 	quest.598652FE2E4839AC.quest_desc: [
 		"Is waiting for farm animals to spawn on patches of non-fake grass just too slow for you?"
 		""
@@ -7237,6 +7437,14 @@
 		"The &bJar of Voiding&r is basically a trashcan in your back pocket that converts voided items into a small amount of mana! To activate it, use the Jar while sneaking. To add an item to the void list, use the Jar with the item you want voided in your off hand. The Jar must also be in your hotbar to function."
 	]
 	quest.5BDBB419A8FA0D2D.title: "&dMagic &fin a Jar"
+	quest.5BDCEBA756FE6D0C.quest_desc: [
+		"&dXerothium Crystals&r are End-only too, and they come from a Nanorite miner."
+		""
+		"The Xerothium Void Miner is the top tier: 221 blocks, 20 modifier slots, and as little as one tick per drop with enough Frequency."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Xerothium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t8.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.5BDCEBA756FE6D0C.title: "&dXerothium Void Miner"
 	quest.5BE257CE3FD1FDAC.quest_desc: [
 		"With &6Awakened Draconium&r, you can now upgrade your Infusion setup to craft more advanced items."
 		""
@@ -7302,6 +7510,20 @@
 		"[\"You can convert a \", {\"text\": \"Mekanism \", \"color\": \"yellow\"}, {\"text\": \"Ultimate Control Circuit\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19874DF48B8B2A75\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Ultimate Control Circuit Quest\"}}, \" for these recipes as well.\"]"
 	]
 	quest.5D0742E56290E42B.title: "&3We Are Resisting This"
+	quest.5D10D97F7D03277E.quest_desc: [
+		"&dNanorite Crystals&r only come from a Crystal Miner in the End, running on an Aethium miner or better."
+		""
+		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Nanorite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t7.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+	]
+	quest.5D10D97F7D03277E.title: "&dNanorite Void Miner"
+	quest.5D1C6D0639AC1E72.quest_desc: [
+		"Point it in the general direction of trouble."
+		""
+		"Each shot from the &aBlunderbuss&r throws 8 pellets in a wide spread, and it holds 2 shots before it needs a reload. Up close it's brutal. At range the pellets go everywhere except where you meant."
+		""
+		"If you'd rather reach out and touch something, the &2Musket&r fires a faster bullet for long shots."
+	]
+	quest.5D1C6D0639AC1E72.title: "&aBlunderbuss"
 	quest.5D2936B7F8D0F8FA.title: "Unstable Ingot Blocks"
 	quest.5D2D114B66DE61EE.quest_desc: [
 		"Whether you are washing dishes or powering nuclear reactors, the &aKitchen Sink&r provides easy access to an infinite source of water."
@@ -7469,6 +7691,18 @@
 		"Drop the finished pattern into an &dAmadron Processing Station&r and the trade becomes craftable like any other recipe."
 	]
 	quest.5F1A2C7D9B4E6081.title: "&fAutomating &bAmadron"
+	quest.5F3DF1E640D5CF10.quest_desc: [
+		"Climbing ten ladders to reach your storage room gets old fast. &eCreate: Turbolifts&r lets you build a proper elevator car out of ordinary blocks."
+		""
+		"Run &aTurbolift Rail&r up opposite walls of the shaft, and plug a &2Track Power Unit&r into the end of a rail to power it."
+		""
+		"Build the cabin from any blocks you like, with a &aCabin Carriage&r somewhere inside and a &2Guide Shoe&r on each side wall. Glue it all with &aSuper Glue&r, then right-click the carriage with a &2Wrench&r to assemble it."
+		""
+		"Every floor gets a &aStation&r. Stand on the landing, right-click the rail with the Station where the car should stop, then place the Station anywhere within 16 blocks."
+		""
+		"&eNote&r: The Track Power Unit runs on rotation. The &2Electric Track Power Unit&r takes FE from any mod's cables instead."
+	]
+	quest.5F3DF1E640D5CF10.title: "&aTurbolifts"
 	quest.5F4BAB9B54CF7E4A.quest_desc: [
 		"The &dGyroscope&f actively holds the ship level along whatever axis you place it on. Spin it up and it fights pitch and roll, and it bleeds off a spin so the ship stops turning when you stop turning it."
 		""
@@ -7806,6 +8040,12 @@
 		""
 		"&o&7Used for the Rainbow Generator"
 	]
+	quest.62DAE58CE4F111D8.quest_desc: [
+		"An &aInterdimensional Modifier&r lets a miner dig up drops from other dimensions too."
+		""
+		"Pair it with a Dimensional Modifier and a single miner can reach every drop it knows about."
+	]
+	quest.62DAE58CE4F111D8.title: "&dInterdimensional Modifier"
 	quest.62E203E1AC025DAF.quest_desc: ["&aChain Conveyors&r connect to each other via chains, allowing them to transfer a variety of &eCreate&r things, as well as &bRotational Force&r."]
 	quest.62E203E1AC025DAF.title: "&aChain Conveyor"
 	quest.63002C7AFB80AC48.quest_subtitle: "Fire Set"
@@ -7836,6 +8076,8 @@
 	quest.633C97755F5FAA38.quest_desc: ["To access the end, you'll first need to artificially produce &aEnd Stone&f using the &dVoidShimmer Goo&f."]
 	quest.633FA983B63A65DD.quest_desc: ["By applying an &bExpansion Module&r to a &dGauge Controller&r, you'll expand its functionalities, allowing you to precisely control its &cRedstone&r behavior."]
 	quest.633FA983B63A65DD.title: "&fExpanding Capabilities!"
+	quest.637136BB6187D914.quest_desc: ["Normally each drop is a single item. A &aBandwidth Modifier&r turns each drop into a random stack instead, bigger the more bandwidth you stack, up to 64."]
+	quest.637136BB6187D914.title: "&aBandwidth Modifier"
 	quest.63A28DBF66DBB1D2.quest_desc: [
 		"The &aME Requester&r allows you to set certain thresholds for items to keep in stock. "
 		""
@@ -8553,6 +8795,16 @@
 	]
 	quest.6FEA088D2D5A3AEF.title: "&dBookwryms &fand Magical Storage!"
 	quest.6FEF508F7DDDB261.quest_desc: ["&7&oObtained from the shop or quest rewards"]
+	quest.6FF6AEA1FB274657.quest_desc: [
+		"Every gunslinger needs a hat, and these two actually pull their weight:"
+		""
+		"&aCowboy Hat&r: killing something with a bullet tops your magazine back up instantly, as long as there's still a round in it. It then needs 5 seconds before it can do that again."
+		""
+		"&aTricorne&r: the first shot from a full magazine deals 25% more damage."
+		""
+		"&7&oA one-shot gun is always firing from a full magazine. The Tricorne likes the Flintlock a lot.&r"
+	]
+	quest.6FF6AEA1FB274657.title: "&aHat Tricks"
 	quest.6FF752712E99A936.quest_desc: ["To craft any of the upgrades, you'll need to make an &aUpgrade Base&r."]
 	quest.6FF752712E99A936.title: "&fUpgrade Base"
 	quest.705E4FFB4FCADFD1.quest_desc: [
@@ -8974,6 +9226,12 @@
 	]
 	quest.7454899FCDA2349B.title: "&6Train Station"
 	quest.748DAA46EC10AA3F.quest_desc: ["The &aCoral Generator&f consumes liquid coral to produce 5,000 RF/t."]
+	quest.749EE2CCAF2497F4.quest_desc: [
+		"No bullets, no bang."
+		""
+		"Keep a stack of &aBullets&r on you. When a gun runs dry, it reloads from whatever you're carrying, so there's no ammo slot to fill."
+	]
+	quest.749EE2CCAF2497F4.title: "&aBullets"
 	quest.74B2332D6BBC0721.quest_desc: [
 		"The &aEye of Legend&r is a special item that allows wanderers to find their way to floating villages out in the void. Simply use the item to summon a guide that drifts briefly in the direction of one before dispersing."
 		""
@@ -9120,6 +9378,14 @@
 		"These charges replenish over time (seen on the hotbar), and can be increased or regained through various enchantments or trinkets."
 	]
 	quest.77074CE5719763BB.title: "&dMnemonic Hex Staff"
+	quest.772EE4878D98EE43.quest_desc: [
+		"Swords and bows are fine, but sometimes you want something that goes bang."
+		""
+		"&eIron's Arms 'n Artifice&r adds seven guns, the ammo to feed them, and a big pile of &bModifiers&r to bolt onto them."
+		""
+		"It all starts with &aBlackpowder&r. Grab some and the rest of this quest path opens up."
+	]
+	quest.772EE4878D98EE43.title: "&eIron's Arms 'n Artifice"
 	quest.77372AD6C4049263.quest_desc: [
 		"For modded veterans, &eEnderIO&r held great memories due to its amazing pipes, called &dConduits&r."
 		""
@@ -9889,6 +10155,7 @@
 	reward_table.04E2ADE3851064D1.title: "Magic Bundle"
 	reward_table.0AC2F0F1B57CD80E.title: "Crate of Old Spells"
 	reward_table.0BCFC3959C93667A.title: "Storage Box"
+	reward_table.17EC7AEEF568B78C.title: "&aEnvironmental Tech Goodie Bag"
 	reward_table.19DAA0A82CBD4FB8.title: "&bHoneycomb Goodie Bag"
 	reward_table.1B4ED08D7F604E51.title: "&3Gene Pool"
 	reward_table.1E2D6248E209E76E.title: "&aBox of RS2 Goodies"

@@ -1,0 +1,832 @@
+{
+	autofocus_id: "1783475548E3F8F1"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "environmental_tech"
+	group: "3E3B6463983F18FB"
+	icon: {
+		id: "envirotech:litherite_void_miner_ccu"
+	}
+	id: "128F07DBED7481FD"
+	images: [
+		{
+			click_action: "none:"
+			height: 0.57d
+			id: "12B2192589FE5F18"
+			image: "ftb:textures/quests/titles_and_logos/environmental_tech_title.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.35d
+			id: "24B1A1D31485F639"
+			image: "ftb:textures/quests/envirotech/void_miner_t1.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.53d
+			id: "32A97BE344B06CAA"
+			image: "ftb:textures/quests/envirotech/void_miner_t4.png"
+			rotation: 0.0d
+			width: 2.8d
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.17d
+			id: "6C9CAFD8F1B451FA"
+			image: "ftb:textures/quests/envirotech/void_miner_t6.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.77d
+			id: "686701BA890B3DE6"
+			image: "ftb:textures/quests/envirotech/void_miner_t8.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 22.0d
+			y: -3.0d
+		}
+	]
+	order_index: 4
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "envirocore:litherite_crystal"
+			}
+			id: "1783475548E3F8F1"
+			rewards: [
+				{
+					amount: 5L
+					id: "37C71177A3C4B8FD"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 8
+					id: "1666E2C8E043D0C0"
+					item: {
+						count: 1
+						id: "envirocore:obsidian_plate"
+					}
+					random_bonus: 4
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5D31750D9C18E093"
+					team_reward: false
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 4L
+				id: "2EE12680D4086274"
+				item: { count: 1, id: "envirocore:litherite_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1783475548E3F8F1"]
+			icon: {
+				id: "envirocore:structure_panel"
+			}
+			id: "4BB1E3FDF58EC964"
+			rewards: [
+				{
+					amount: 5L
+					id: "64416B1D2607D4AA"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 6
+					id: "13B48DD3B52264F8"
+					item: {
+						count: 1
+						id: "envirocore:structure_panel"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5A5BB628781ACF04"
+					team_reward: false
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 18L
+				id: "7FFD6A82E8B6E206"
+				item: { count: 1, id: "envirocore:structure_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4BB1E3FDF58EC964"]
+			icon: {
+				id: "envirocore:laser_core"
+			}
+			id: "2A5C2C2FE8CC8297"
+			rewards: [
+				{
+					amount: 5L
+					id: "4274B8008C43F1E4"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "1A188F2C610B5D18"
+					item: {
+						count: 1
+						id: "envirocore:laser_core"
+					}
+					type: "item"
+				}
+				{
+					id: "770041A1CF93F661"
+					team_reward: false
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					count: 2L
+					id: "4217CCAB29186556"
+					item: { count: 1, id: "envirocore:laser_core" }
+					type: "item"
+				}
+				{
+					id: "16728DDFBAF4D5E8"
+					item: { count: 1, id: "envirocore:laser_lens_holder" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1783475548E3F8F1"]
+			icon: {
+				id: "envirocore:assembler"
+			}
+			id: "47A332AAD04ECC1C"
+			rewards: [
+				{
+					amount: 5L
+					id: "1B61B14C6C73EDB4"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "4AC81D3717AD3DE3"
+					item: {
+						count: 1
+						id: "envirocore:litherite_interconnect"
+					}
+					type: "item"
+				}
+				{
+					id: "3B555F72FE0995AF"
+					team_reward: false
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "39C95F8A5B09797F"
+				item: { count: 1, id: "envirocore:assembler" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A5C2C2FE8CC8297"]
+			icon: {
+				id: "envirocore:memory_programmer"
+			}
+			id: "356387D62FC4023D"
+			min_width: 300
+			rewards: [
+				{
+					amount: 5L
+					id: "75FF67548C031028"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "106EDD219DFEDFD5"
+					item: {
+						count: 1
+						id: "envirocore:flash_memory"
+					}
+					type: "item"
+				}
+				{
+					id: "7961229C857216EB"
+					team_reward: false
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6F058B18241CA8D0"
+					item: { count: 1, id: "envirocore:memory_programmer" }
+					type: "item"
+				}
+				{
+					id: "385113745FA97301"
+					item: { count: 1, id: "envirocore:flash_memory" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47A332AAD04ECC1C"]
+			icon: {
+				id: "envirocore:litherite_frame"
+			}
+			id: "59814B361E61A44A"
+			rewards: [
+				{
+					amount: 5L
+					id: "45697F4525858B0C"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "74D1FAF684FB5A94"
+					item: {
+						count: 1
+						id: "envirocore:litherite_frame"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "224BA3B5DC777DCC"
+					team_reward: false
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 22L
+				id: "32378B31AB838731"
+				item: { count: 1, id: "envirocore:litherite_frame" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59814B361E61A44A"]
+			icon: {
+				id: "envirocore:fe_input"
+			}
+			id: "30289DD68DB385D9"
+			rewards: [
+				{
+					amount: 5L
+					id: "6F64A96D503F3F4C"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "5ECE9E13301A0BA3"
+					item: {
+						count: 1
+						id: "envirocore:null_modifier"
+					}
+					type: "item"
+				}
+				{
+					id: "25415B30FC50AA9A"
+					team_reward: false
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					count: 2L
+					id: "2066FE288CD5E2D3"
+					item: { count: 1, id: "envirocore:null_modifier" }
+					type: "item"
+				}
+				{
+					id: "72E93CFAA45F20D3"
+					item: { count: 1, id: "envirocore:fe_input" }
+					type: "item"
+				}
+				{
+					id: "2E5EFDCA9888DD4D"
+					item: { count: 1, id: "envirocore:item_output" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"356387D62FC4023D"
+				"30289DD68DB385D9"
+			]
+			icon: {
+				id: "envirotech:litherite_void_miner_ccu"
+			}
+			id: "54C7973C00343D76"
+			rewards: [
+				{
+					amount: 12L
+					id: "1E245ABF84240682"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "7050FE2BC7274FB1"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "5C978F8731E15471"
+					team_reward: false
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "731B9CD4E41C0F47"
+				item: { count: 1, id: "envirotech:litherite_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54C7973C00343D76"]
+			icon: {
+				id: "envirocore:lens_grinder"
+			}
+			id: "246B3E9168DB9910"
+			optional: true
+			rewards: [
+				{
+					amount: 5L
+					id: "1ACC1148D3C3494B"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "670C753CA3B9552E"
+					item: {
+						count: 1
+						id: "envirocore:lens"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "66C59773D0705CA6"
+					item: { count: 1, id: "envirocore:lens_grinder" }
+					type: "item"
+				}
+				{
+					id: "55E2C457A50693DE"
+					item: { count: 1, id: "envirocore:lens" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54C7973C00343D76"]
+			icon: {
+				id: "envirotech:erodium_void_miner_ccu"
+			}
+			id: "52693A39DAFA87FC"
+			rewards: [
+				{
+					amount: 8L
+					id: "579B870F0CA6EF4B"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "7DC39344887F22BA"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "4E9F8A4D0B68D148"
+					team_reward: false
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "34F3E83FA4710262"
+				item: { count: 1, id: "envirotech:erodium_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54C7973C00343D76"]
+			icon: {
+				id: "envirocore:frequency_modifier"
+			}
+			id: "4CE2F79E41D30ED1"
+			optional: true
+			rewards: [
+				{
+					amount: 5L
+					id: "6BAB07E7E4C14D83"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "3E33EC0279180B0C"
+					item: {
+						count: 1
+						id: "envirocore:lonsdaleite_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "264F2930C687902A"
+					item: { count: 1, id: "envirocore:frequency_modifier" }
+					type: "item"
+				}
+				{
+					id: "1F0E855AE4C6CA17"
+					item: { count: 1, id: "envirocore:amplification_modifier" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52693A39DAFA87FC"]
+			icon: {
+				id: "envirotech:kyronite_void_miner_ccu"
+			}
+			id: "4761D2BF58BE9A49"
+			rewards: [
+				{
+					amount: 8L
+					id: "24D1D842DA98BA74"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "542FCF3025134A52"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "66FC2CBE6AB57E15"
+					team_reward: false
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "2777A8C79BA0F7B5"
+				item: { count: 1, id: "envirotech:kyronite_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4761D2BF58BE9A49"]
+			icon: {
+				id: "envirotech:pladium_void_miner_ccu"
+			}
+			id: "20EEB4A14628DF33"
+			rewards: [
+				{
+					amount: 15L
+					id: "6029DF6F1745C818"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "796C26F79254F63D"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "3B3864005C3DEC99"
+					team_reward: false
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "3811EC9BFF77FB89"
+				item: { count: 1, id: "envirotech:pladium_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20EEB4A14628DF33"]
+			icon: {
+				id: "envirocore:mica"
+			}
+			id: "340973E53302C9BD"
+			optional: true
+			rewards: [
+				{
+					amount: 5L
+					id: "284E9161B25A04A9"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "32A71354B604F0DA"
+					item: {
+						count: 1
+						id: "envirocore:lonsdaleite_crystal"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 8L
+				id: "30BE323F2047D86F"
+				item: { count: 1, id: "envirocore:mica" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20EEB4A14628DF33"]
+			icon: {
+				id: "envirotech:ionite_void_miner_ccu"
+			}
+			id: "498650FA62056F6C"
+			rewards: [
+				{
+					amount: 20L
+					id: "128037DF3C535B64"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "221B65FB801BD52B"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "5D3550D109DCA83B"
+					team_reward: false
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "19FC9589C545A6D0"
+				item: { count: 1, id: "envirotech:ionite_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["498650FA62056F6C"]
+			icon: {
+				id: "envirocore:bandwidth_modifier"
+			}
+			id: "637136BB6187D914"
+			optional: true
+			rewards: [{
+				amount: 5L
+				id: "41CA7B7FF2A919DE"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4D86672A4BB85A32"
+				item: { count: 1, id: "envirocore:bandwidth_modifier" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["498650FA62056F6C"]
+			icon: {
+				id: "envirotech:aethium_void_miner_ccu"
+			}
+			id: "325C3EC2F221D17D"
+			rewards: [
+				{
+					amount: 25L
+					id: "1FA5C7C78D91651B"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "5DA40622634F40BD"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "3F3F4C0119E68BF2"
+					team_reward: false
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "4C39EAE792DDD551"
+				item: { count: 1, id: "envirotech:aethium_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["325C3EC2F221D17D"]
+			icon: {
+				id: "envirocore:dimensional_modifier"
+			}
+			id: "4F2FBBD82764C565"
+			optional: true
+			rewards: [{
+				amount: 5L
+				id: "124C69257E749F5F"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4CCBF585F479BC08"
+				item: { count: 1, id: "envirocore:dimensional_modifier" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["325C3EC2F221D17D"]
+			icon: {
+				id: "envirotech:nanorite_void_miner_ccu"
+			}
+			id: "5D10D97F7D03277E"
+			rewards: [
+				{
+					amount: 35L
+					id: "358CC7436E1B20E8"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "3AFB37633EBF233C"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "3172A19A85A73C52"
+					team_reward: false
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "72D7F5129D09E142"
+				item: { count: 1, id: "envirotech:nanorite_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D10D97F7D03277E"]
+			icon: {
+				id: "envirotech:xerothium_void_miner_ccu"
+			}
+			id: "5BDCEBA756FE6D0C"
+			rewards: [
+				{
+					amount: 50L
+					id: "558D1814769A0A3C"
+					team_reward: false
+					type: "currency"
+				}
+				{
+					id: "6D654E023F1799F6"
+					table_id: 1723887924114143116L
+					type: "random"
+				}
+				{
+					id: "759666D7E36FC31E"
+					team_reward: false
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6F57EBB2D0C43A1A"
+				item: { count: 1, id: "envirotech:xerothium_void_miner_ccu" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BDCEBA756FE6D0C"]
+			icon: {
+				id: "envirocore:interdimensional_modifier"
+			}
+			id: "62DAE58CE4F111D8"
+			optional: true
+			rewards: [{
+				amount: 5L
+				id: "2D77539CFA8C2098"
+				team_reward: false
+				type: "currency"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "441A3D5119D9F67B"
+				item: { count: 1, id: "envirocore:interdimensional_modifier" }
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+	]
+}

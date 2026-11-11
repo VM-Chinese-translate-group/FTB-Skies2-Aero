@@ -18,7 +18,7 @@
 		string_id: "box_of_ae2_goodies"
 	}
 	loot_size: 1
-	order_index: 13
+	order_index: 14
 	rewards: [
 		{
 			id: "13047FF404D65185"

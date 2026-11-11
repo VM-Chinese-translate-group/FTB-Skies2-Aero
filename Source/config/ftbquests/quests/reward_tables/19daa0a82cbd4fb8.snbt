@@ -15,7 +15,7 @@
 		string_id: "honeycomb_goodie_bag"
 	}
 	loot_size: 1
-	order_index: 3
+	order_index: 4
 	rewards: [
 		{
 			id: "31AFED4326D1103A"

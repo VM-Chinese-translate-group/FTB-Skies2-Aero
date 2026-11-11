@@ -133,7 +133,7 @@
 		string_id: "relic_bag"
 	}
 	loot_size: 1
-	order_index: 7
+	order_index: 8
 	rewards: [
 		{
 			id: "7EE451A9CEB2F936"

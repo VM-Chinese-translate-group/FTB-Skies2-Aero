@@ -15,7 +15,7 @@
 		string_id: "random_tool_chest"
 	}
 	loot_size: 1
-	order_index: 10
+	order_index: 11
 	rewards: [
 		{
 			id: "45C390B3DCB759CF"

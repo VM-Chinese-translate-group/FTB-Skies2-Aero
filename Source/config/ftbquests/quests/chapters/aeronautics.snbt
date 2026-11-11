@@ -1486,5 +1486,118 @@
 			x: 6.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["6B09F7DEBFE6905B"]
+			icon: {
+				id: "turbolifts:cabin_carriage"
+			}
+			id: "5F3DF1E640D5CF10"
+			rewards: [
+				{
+					amount: 10L
+					id: "5C5761496AF05E61"
+					type: "currency"
+				}
+				{
+					id: "22E074B637B81442"
+					item: {
+						count: 1
+						id: "create:super_glue"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 16L
+					id: "4995E11138F28C11"
+					item: { count: 1, id: "turbolifts:rail" }
+					type: "item"
+				}
+				{
+					id: "665BFAEF5407C39B"
+					item: { count: 1, id: "turbolifts:track_power_unit" }
+					type: "item"
+				}
+				{
+					id: "2771A80AA565A3E5"
+					item: { count: 1, id: "turbolifts:cabin_carriage" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7D5E6C8FB2ADF9B4"
+					item: { count: 1, id: "turbolifts:guide_shoe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6179001C8FF80991"
+					item: { count: 1, id: "turbolifts:station" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F3DF1E640D5CF10"]
+			icon: {
+				id: "turbolifts:call_panel"
+			}
+			id: "11D700B66D601D89"
+			rewards: [
+				{
+					amount: 8L
+					id: "327A3A9043B63590"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "3B42B6790E79D680"
+					item: {
+						count: 1
+						id: "turbolifts:bulkhead_door"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3EC957A9DB7DBF00"
+					item: { count: 1, id: "turbolifts:call_panel" }
+					type: "item"
+				}
+				{
+					id: "1BCA7170B0F0C8D5"
+					item: { count: 1, id: "turbolifts:destination_panel" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["53D0DF41254360B9"]
+			icon: {
+				id: "tentaworks:copper_tentacle_rig"
+			}
+			id: "1AF8319B463BFCF1"
+			rewards: [{
+				amount: 10L
+				id: "66304A681B1EF276"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4FD5456030D4CD01"
+				item: { count: 1, id: "tentaworks:copper_tentacle_rig" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
 	]
 }

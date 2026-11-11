@@ -19,7 +19,7 @@
 		string_id: "apotheosis_flawed_gems_bag"
 	}
 	loot_size: 1
-	order_index: 15
+	order_index: 16
 	rewards: [
 		{ id: "72C74BA610CA5804", item: { components: { "apotheosis:gem": "apotheosis:core/ballast", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }
 		{ id: "25B12F5B48C3889E", item: { components: { "apotheosis:gem": "apotheosis:core/brawlers", "apotheosis:purity": "flawed" }, count: 1, id: "apotheosis:gem" } }

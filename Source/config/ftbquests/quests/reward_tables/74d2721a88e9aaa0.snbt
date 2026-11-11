@@ -15,7 +15,7 @@
 		string_id: "essence_goodie_bag"
 	}
 	loot_size: 1
-	order_index: 1
+	order_index: 2
 	rewards: [
 		{
 			count: 8
