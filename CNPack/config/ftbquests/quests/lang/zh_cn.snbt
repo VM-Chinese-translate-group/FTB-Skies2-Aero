@@ -4995,11 +4995,11 @@
 		"两个网络之间仍共享应力上限，但若副网络发生过载，&2过应力离合器&f能让主网络不会停转。"
 	]
 	quest.3CFCAD1654FB2CD8.quest_desc: [
-		"This is where the artifice comes in. &bModifiers&r slot into a gun and change how it shoots. Some add extra pellets, fire or frost, while others bolt on a scope or a bayonet."
+		"巧妙之处正在于此。&b改装件&r可装入枪械中，改变其射击方式。有些能增加弹丸、附加火焰或霜冻效果，有些则能加装瞄准镜或刺刀。"
 		""
-		"[\"\", {\"text\": \"Make a \"}, {\"text\": \"Hair Trigger Modifier\", \"color\": \"green\"}, {\"text\": \", then hold your gun and press \"}, {\"keybind\": \"key.irons_artifice.open_modifier_menu\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: Shift + G\"}}, {\"text\": \" to open its modifier slots and drop it in.\"}]"
+		"[\"\", {\"text\": \"制作一个\"}, {\"text\": \"灵敏扳机改装件\", \"color\": \"green\"}, {\"text\": \"，然后手持枪械，按下\"}, {\"keybind\": \"key.irons_artifice.open_modifier_menu\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认：Shift + G\"}}, {\"text\": \"打开改装槽，放入改装件。\"}]"
 		""
-		"Every gun's tooltip shows how many modifier slots it has, and every modifier's tooltip shows exactly what it changes."
+		"每把枪的提示文本中都会标明其改装槽数量。每个改装件的提示文本中也会详细说明具体改动了哪些属性。"
 	]
 	quest.3CFCAD1654FB2CD8.title: "&b改装件"
 	quest.3D1796B4F460DBBF.quest_desc: [
@@ -8754,11 +8754,11 @@
 	quest.6FF6AEA1FB274657.quest_desc: [
 		"每个枪手都需要一顶帽子，而这两顶帽子可是真能派上用场的："
 		""
-		"&aCowboy Hat&r: killing something with a bullet tops your magazine back up instantly, as long as there's still a round in it. It then needs 5 seconds before it can do that again."
+		"&a牛仔帽&r：只要弹匣里还有子弹，用子弹击杀目标就可以立即补满弹匣。触发后需冷却5秒才能再次生效。"
 		""
-		"&aTricorne&r: the first shot from a full magazine deals 25% more damage."
+		"&a三角帽&r：弹匣全满时，第一发子弹的伤害提高25%。"
 		""
-		"&7&oA one-shot gun is always firing from a full magazine. The Tricorne likes the Flintlock a lot.&r"
+		"&7&o单发枪每次开火都视为满弹匣状态。因此，燧发枪十分适配三角帽。&r"
 	]
 	quest.6FF6AEA1FB274657.title: "&a帽子戏法"
 	quest.6FF752712E99A936.quest_desc: ["如果想要合成升级，你得先做&a升级基板&r。"]
@@ -9183,11 +9183,11 @@
 	quest.7454899FCDA2349B.title: "&6列车站点"
 	quest.748DAA46EC10AA3F.quest_desc: ["&a珊瑚发电机&f可以消耗液态珊瑚发电，输出为5000RF/t。"]
 	quest.749EE2CCAF2497F4.quest_desc: [
-		"No bullets, no bang."
+		"没有子弹，何来枪响？"
 		""
-		"Keep a stack of &aBullets&r on you. When a gun runs dry, it reloads from whatever you're carrying, so there's no ammo slot to fill."
+		"记得常备一组&a子弹&r。装填弹匣时会自动使用你携带的子弹，无需手动把子弹放入什么子弹槽里。"
 	]
-	quest.749EE2CCAF2497F4.title: "&aBullets"
+	quest.749EE2CCAF2497F4.title: "&a子弹"
 	quest.74B2332D6BBC0721.quest_desc: [
 		"&a传说之眼&r是一件特殊道具，可以让漫游者在虚空中找到通往天空村庄之路。只需使用该物品，便可召唤出一个指示物，它会短暂地朝某个村庄的方向飘去，随后消散。"
 		""
@@ -9335,11 +9335,11 @@
 	]
 	quest.77074CE5719763BB.title: "&d忆念咒术法杖"
 	quest.772EE4878D98EE43.quest_desc: [
-		"Swords and bows are fine, but sometimes you want something that goes bang."
+		"刀剑与弓弩固然好使，但有时你就是想要一把能让人“砰”然心动的家伙。"
 		""
-		"&eIron's Arms 'n Artifice&r adds seven guns, the ammo to feed them, and a big pile of &bModifiers&r to bolt onto them."
+		"&eIron的武备与巧械&r模组为你带来了七把枪械、它们所使用的弹药，以及大量可加装到枪械上的&b改装件&r。"
 		""
-		"It all starts with &aBlackpowder&r. Grab some and the rest of this quest path opens up."
+		"本任务线始于&a黑火药&r。只要先弄到一些，便可以逐步解锁后续的任务。"
 	]
 	quest.772EE4878D98EE43.title: "&eIron的武备与巧械"
 	quest.77372AD6C4049263.quest_desc: [
