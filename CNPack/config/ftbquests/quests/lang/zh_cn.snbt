@@ -1514,11 +1514,11 @@
 	]
 	quest.12B8D538B54497E2.title: "&f锐意进取"
 	quest.12C524EE7FAD80D5.quest_desc: [
-		"The &aSix-Shooter&r reloads faster than any other gun in the mod, and it gives up a bit of damage per bullet for that pace."
+		"在本模组中，&a六发左轮&r的装填速度比其他枪械都快，但也因此牺牲了一些伤害。"
 		""
-		"The &2Blackpowder Revolver&r holds the same six rounds and hits a little harder, but takes twice as long to reload."
+		"&2黑火药左轮&r也可以装填六发子弹，威力略大一些，但换弹时间要长一倍。"
 	]
-	quest.12C524EE7FAD80D5.title: "&aSix-Shooter"
+	quest.12C524EE7FAD80D5.title: "&a六发左轮"
 	quest.12D15FCB12460F37.title: "&6基岩电容"
 	quest.12D46DE4D42AA302.quest_desc: [
 		"火炮需要浇铸而成，无法直接合成。将&a工作盆铸造盖&f置于加热的&b工作盆&f上，可将金属熔化为熔融&a铸铁&f、&3青铜&f、&3钢&f或&d下界钢&f。使用&a铸造砂&f与火炮模具搭建出的&a火炮铸模&f，便是用于浇注金属液的模具结构。"
@@ -1681,11 +1681,11 @@
 	]
 	quest.14FFB82FB7EB0659.title: "&f苹果派"
 	quest.151A04CF440FCC99.quest_desc: [
-		"Loose bullets eat inventory space fast. A &aBullet Box&r holds up to 256 of them in a single slot."
+		"零散的子弹会很快占满物品栏。&a子弹盒&r收纳子弹，最多可容纳256枚。"
 		""
-		"Bullets you pick up go straight into the box, and your guns reload from it just like they would from loose ones."
+		"你拾取的子弹会直接装入弹药盒。换弹时可以直接消耗盒中的子弹 ，就像使用零散的子弹一样。"
 	]
-	quest.151A04CF440FCC99.title: "&aBullet Box"
+	quest.151A04CF440FCC99.title: "&a弹药盒"
 	quest.154E08BC9091684F.quest_desc: [
 		"&e荧石粉&r可以增强效果强度。"
 		""
@@ -2675,11 +2675,11 @@
 	quest.21A521011401074F.quest_desc: ["一座生活着&d药剂师&r的岛屿，同时也被一群不太友善的女巫所盘踞。"]
 	quest.21A521011401074F.title: "&f找到&d药剂师小屋"
 	quest.21AB4D0DF5575B3D.quest_desc: [
-		"The &aArquebus&r holds 4 shots and has 7 modifier slots, more than any other gun. If you want to stack &bModifiers&r, this is the one to build around."
+		"&a火绳枪&r可以装4发子弹，拥有7个改装槽，比其他枪的改装槽都多。如果你想叠&b改装件&r，推荐围绕这把枪来构筑。"
 		""
-		"&7&oIts advancement is called Wikipedia Historian. Make of that what you will.&r"
+		"&7&o它解锁的进度叫做“维基百科历史学家”。你爱怎么理解就怎么理解吧。&r"
 	]
-	quest.21AB4D0DF5575B3D.title: "&aArquebus"
+	quest.21AB4D0DF5575B3D.title: "&a火绳枪"
 	quest.226E5BD0BEB1BA75.quest_desc: ["这些独特的书架能提供特定的效果，例如增加100%&c量子化&r，或者降低&c量子化&r和&5阿卡那&r。"]
 	quest.226E5BD0BEB1BA75.title: "&a其他书架"
 	quest.22794ACEC855690B.quest_desc: [
@@ -2821,8 +2821,8 @@
 		""
 		"泥土能转化为黏土，泥土上能种树，泥土甚至能搭建每一个Minecraft玩家都搭建过的泥土房子（当然，这次是在空岛上）。"
 	]
-	quest.239511E4EEFFFCCF.quest_desc: ["Better guns need moving parts, and &aSimple Mechanical Components&r are the first of three tiers of them. They open up the &aBlunderbuss&r, the &2Musket&r and several of the &bModifiers&r."]
-	quest.239511E4EEFFFCCF.title: "&aSimple Mechanical Components"
+	quest.239511E4EEFFFCCF.quest_desc: ["更好的枪需要活动件。零件共有三种等级，而&a简单机械零件&r是初级零件，可以用来制作&a双管雷铳&r、&2滑膛枪&r，以及一些&b改装件&r。"]
+	quest.239511E4EEFFFCCF.title: "&a简单机械零件"
 	quest.23A56DB24FE7D584.quest_desc: [
 		"手持&a结构图解&f右击飞船，即可打开包含关键核心信息的页面：总质量、&b质心&f位置，以及合并或单独显示的各项受力箭头。"
 		""
@@ -3713,8 +3713,8 @@
 	quest.2EE5352D8E5F715F.title: "&f击杀20只&c蜘蛛"
 	quest.2EEE782146096F9C.quest_desc: ["&e建筑小帮手&r大概是最出色的建筑模组之一。它新增了多种小帮手，让建筑过程变得更轻松、更高效！"]
 	quest.2EEE782146096F9C.title: "&e建筑小帮手"
-	quest.2F03192F983B760A.quest_desc: ["&aClockwork Components&r are the top tier of gun parts. They unlock the last two guns, the &2Arquebus&r and the &dClockwork Rifle&r, along with a couple of late modifiers."]
-	quest.2F03192F983B760A.title: "&aClockwork Components"
+	quest.2F03192F983B760A.quest_desc: ["&a发条零件&r是最高级的枪械零件，可以制作最后两种枪械：&2火绳枪&r、&d发条步枪&r，以及一些后期改装件。"]
+	quest.2F03192F983B760A.title: "&a发条零件"
 	quest.2F057F981B68EB95.quest_desc: ["向&a初级流体放置器&r输入流体后，它会将流体倒在世界中。"]
 	quest.2F057F981B68EB95.title: "&a初级流体放置器"
 	quest.2F06B5B38E9B8804.quest_desc: [
@@ -4284,8 +4284,8 @@
 		"如果你的背包同时还加装了&a储罐升级&r、&a电池升级&r的话，堆叠升级也能增加它们的存储容量。"
 	]
 	quest.3506242698EDF435.title: "&f堆叠升级"
-	quest.3544BF3705BD6904.quest_desc: ["&aMechanical Components&r are the middle tier of gun parts. You'll need them for both six-round guns, the &aSix-Shooter&r and the &2Blackpowder Revolver&r."]
-	quest.3544BF3705BD6904.title: "&aMechanical Components"
+	quest.3544BF3705BD6904.quest_desc: ["&a机械零件&r是中级枪械零件。用它们才能制作两把六发枪——&a六发左轮&r和&2黑火药左轮&r。"]
+	quest.3544BF3705BD6904.title: "&a机械零件"
 	quest.3547CF22215AB10A.title: "&f实用的&a三阶&r魔符"
 	quest.3557FBCEFEF444CC.quest_desc: [
 		"&d精密构件&r是&e机械动力&r模组中一些顶级工具和机器的重要合成部件。"
@@ -4697,13 +4697,13 @@
 	]
 	quest.3A084B83B8CFAACD.title: "&f发现&c烈焰竞技场"
 	quest.3A2C897D53242A22.quest_desc: [
-		"Hold the trigger and it keeps going."
+		"按住扳机就可以持续射击。"
 		""
-		"The &dClockwork Rifle&r is the only gun that fires automatically on its own, with a 10 round magazine to back it up."
+		"&d发条步枪&r有10弹匣容量，是唯一可以自动开火的枪。"
 		""
-		"Each bullet hits lighter than the older guns, so it pairs well with &bModifiers&r that add effects on hit."
+		"它的子弹威力低于旧式枪械，但很适合与那些命中时触发效果的&b修改件&r搭配。"
 	]
-	quest.3A2C897D53242A22.title: "&dClockwork Rifle"
+	quest.3A2C897D53242A22.title: "&d发条步枪"
 	quest.3A389EDA045B65E1.title: "&f胡萝卜农场"
 	quest.3A4111B0851B336E.quest_desc: [
 		"致力于耕作的一次性新手奖励！"
@@ -5001,7 +5001,7 @@
 		""
 		"Every gun's tooltip shows how many modifier slots it has, and every modifier's tooltip shows exactly what it changes."
 	]
-	quest.3CFCAD1654FB2CD8.title: "&bModifiers"
+	quest.3CFCAD1654FB2CD8.title: "&b改装件"
 	quest.3D1796B4F460DBBF.quest_desc: [
 		"&d全向连接器&r能够以无线的方式无视距离甚至跨维度将两个网络连接起来，前提是两边的区块都在加载状态。"
 		""
@@ -6737,13 +6737,13 @@
 	]
 	quest.52C305EDBE2CCC55.title: "&a终端"
 	quest.52C36453AD917E9F.quest_desc: [
-		"Your first gun. The &aFlintlock&r holds a single shot that hits for 20 damage, so make it count."
+		"你的第一把枪。&a燧发枪&r只有一发子弹，可以造成20点伤害。所以，瞄准点。"
 		""
-		"[\"\", {\"text\": \"Fire with your attack button. Once it's empty, press \"}, {\"keybind\": \"key.irons_artifice.reload\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Default: R\"}}, {\"text\": \" to load the next bullet.\"}]"
+		"[\"\", {\"text\": \"按攻击键开火。弹匣打空后，按\"}, {\"keybind\": \"key.irons_artifice.reload\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认：R\"}}, {\"text\": \"装填子弹。\"}]"
 		""
-		"&7&oReloading takes about two seconds. Don't start it in the middle of a crowd.&r"
+		"&7&o装填大约需要两秒，别在怪堆里装填。&r"
 	]
-	quest.52C36453AD917E9F.title: "&aFlintlock"
+	quest.52C36453AD917E9F.title: "&a燧发枪"
 	quest.52D59836B209B35A.title: "击杀&z混沌守卫"
 	quest.53060D307C063C25.quest_desc: ["&a龙芯&r是大多数&e龙之进化&r配方和物品的更高级合成材料。"]
 	quest.530F5E2E4ADB1BA4.quest_desc: [
@@ -7480,13 +7480,13 @@
 	]
 	quest.5D10D97F7D03277E.title: "&dNanorite Void Miner"
 	quest.5D1C6D0639AC1E72.quest_desc: [
-		"Point it in the general direction of trouble."
+		"朝着有麻烦的地方大致瞄一下就开火吧。"
 		""
-		"Each shot from the &aBlunderbuss&r throws 8 pellets in a wide spread, and it holds 2 shots before it needs a reload. Up close it's brutal. At range the pellets go everywhere except where you meant."
+		"&a双管雷铳&r有2弹匣容量，每次射击会射出散布较大的8颗弹丸。近距离威力凶悍；远距离则弹丸乱飞，打不中你想打的地方。"
 		""
-		"If you'd rather reach out and touch something, the &2Musket&r fires a faster bullet for long shots."
+		"如果你更喜欢远程打击目标，&2滑膛枪&r发射的子弹速度更快，更适合远距离射击。"
 	]
-	quest.5D1C6D0639AC1E72.title: "&aBlunderbuss"
+	quest.5D1C6D0639AC1E72.title: "&a双管雷铳"
 	quest.5D2936B7F8D0F8FA.title: "不稳定金属块"
 	quest.5D2D114B66DE61EE.quest_desc: [
 		"无论是洗碗还是搞核电，&a厨房水槽&r都能提供便捷的无限水来源。"
@@ -8752,7 +8752,7 @@
 	quest.6FEA088D2D5A3AEF.title: "&d书龙&f，以及魔法存储！"
 	quest.6FEF508F7DDDB261.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.6FF6AEA1FB274657.quest_desc: [
-		"Every gunslinger needs a hat, and these two actually pull their weight:"
+		"每个枪手都需要一顶帽子，而这两顶帽子可是真能派上用场的："
 		""
 		"&aCowboy Hat&r: killing something with a bullet tops your magazine back up instantly, as long as there's still a round in it. It then needs 5 seconds before it can do that again."
 		""
@@ -8760,7 +8760,7 @@
 		""
 		"&7&oA one-shot gun is always firing from a full magazine. The Tricorne likes the Flintlock a lot.&r"
 	]
-	quest.6FF6AEA1FB274657.title: "&aHat Tricks"
+	quest.6FF6AEA1FB274657.title: "&a帽子戏法"
 	quest.6FF752712E99A936.quest_desc: ["如果想要合成升级，你得先做&a升级基板&r。"]
 	quest.6FF752712E99A936.title: "&f升级基板"
 	quest.705E4FFB4FCADFD1.quest_desc: [
@@ -9341,7 +9341,7 @@
 		""
 		"It all starts with &aBlackpowder&r. Grab some and the rest of this quest path opens up."
 	]
-	quest.772EE4878D98EE43.title: "&eIron's Arms 'n Artifice"
+	quest.772EE4878D98EE43.title: "&eIron的武备与巧械"
 	quest.77372AD6C4049263.quest_desc: [
 		"对于模组老手而言，&e末影接口&r因其令人惊叹的管道而留下了美好的回忆，它们被称为&d导管&r。"
 		""
