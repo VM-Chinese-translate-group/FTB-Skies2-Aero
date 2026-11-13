@@ -1,6 +1,6 @@
 {
 	chapter.0DCFFC4FFBC3B1E5.title: "&z椰林飘香"
-	chapter.128F07DBED7481FD.title: "Environmental Tech"
+	chapter.128F07DBED7481FD.title: "环境科技"
 	chapter.1C63D973F178FD60.title: "欢迎"
 	chapter.1E741D8D60A01B78.title: "通用存储"
 	chapter.22C89CB46E794365.title: "机械动力"
@@ -1848,15 +1848,15 @@
 	quest.1770A460E1FD7CC8.title: "&f设计粒子加速器"
 	quest.1771DF7C6EBF1B89.quest_desc: ["&7&o从商店或任务奖励中获得。"]
 	quest.1783475548E3F8F1.quest_desc: [
-		"&eEnvironmental Tech&r is built around one machine, the &6Void Miner&r. It's a multiblock that fires a laser straight down and pulls ores, resources, plants and crystals out of the void beneath it."
+		"&e环境科技&r模组的核心是一台名为&6虚空采掘机&r的机器。它是一个多方块结构，能向下发射激光，从其下方的虚空中汲取矿石、资源、植物与水晶。"
 		""
-		"The miner comes in 8 tiers. Each one is a bigger build than the last, and each one digs faster."
+		"采掘机共分8个等级。等级越高，其结构便越庞大，挖掘速度也越快。"
 		""
-		"To get started, make a few &aLitherite Crystals&r."
+		"首先，制作一些&a莱泽尔水晶&r。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Environmental Tech guide\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:index.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"环境科技指南\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:index.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
-	quest.1783475548E3F8F1.title: "&eEnvironmental Tech"
+	quest.1783475548E3F8F1.title: "&e环境科技"
 	quest.17A73A05FAE4D6F5.quest_desc: [
 		"&b传说符石基底&r是&d史诗符石基底&r的升级。"
 		""
@@ -2612,13 +2612,13 @@
 	quest.20DCC194EED4395B.quest_subtitle: "优秀的作战套装"
 	quest.20DCC194EED4395B.title: "&c惊悚南瓜套装"
 	quest.20EEB4A14628DF33.quest_desc: [
-		"Put a Kyronite miner on the Crystal Miner program and it digs up &aPladium Crystals&r."
+		"将凯罗尼采掘机切换到水晶采掘程序，便可开采出&a普雷蒂水晶&r。"
 		""
 		"At tier 4 the miner is a proper building: 131 blocks, 5 Laser Cores and 12 modifier slots."
 		""
 		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Pladium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t4.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
 	]
-	quest.20EEB4A14628DF33.title: "&6Pladium Void Miner"
+	quest.20EEB4A14628DF33.title: "&6普雷蒂虚空采掘机"
 	quest.210833F817D7AF9E.quest_desc: ["&6下界合金自动合成仓&r有81个&a样板&r槽位，基础工作速度相当于满速度升级的&d钻石自动合成仓&r。"]
 	quest.210833F817D7AF9E.title: "&6下界合金自动合成仓"
 	quest.210E56AC8F66C19E.quest_desc: [
@@ -8952,7 +8952,7 @@
 		""
 		"&c&l警告！&r&l切勿&r在&b压缩空间&r内搭建此结构。身处机器空间外部时，内部的游戏刻更新并不稳定；一旦方块放置器的供给跟不上，&6黑洞&r就会将整个结构吞噬殆尽。"
 		""
-		"[\"请查阅\", {\"text\": \"黑洞GuideMe指南\", \"underlined\":true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guideme open @s oritech:guide oritech:black_hole_generator.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开 GuideMe 页面\"}}, \"以获取搭建示例。\"]"
+		"[\"请查阅\", {\"text\": \"黑洞GuideMe指南\", \"underlined\":true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guideme open @s oritech:guide oritech:black_hole_generator.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}, \"以获取搭建示例。\"]"
 	]
 	quest.725E648984E4FFBF.title: "&d黑洞的力量&r"
 	quest.726B9A931D3E1242.quest_desc: [
