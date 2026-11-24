@@ -3811,7 +3811,7 @@
 	quest.30053CAD8FABA638.title: "&f石头和泥土蜂巢"
 	quest.302868ED0A86B151.quest_desc: ["这块“稍微”更强劲的TNT只能用于爆炸配方，非常适合作为我们&6基岩杯&f的爆炸催化剂。"]
 	quest.30289DD68DB385D9.quest_desc: [
-		"采掘机结构底部有两种特殊的槽位："
+		"采掘机的底板中有两种特殊的槽位："
 		""
 		"&a升级槽&r：每个升级槽都必须放入一个升级件，否则采掘机无法成型。在获得更好的升级件之前，可以用&a空白升级&r来填充槽位。"
 		""
@@ -4032,9 +4032,9 @@
 	]
 	quest.322D2B0CB2B547D8.title: "&d陀螺仪构件"
 	quest.325C3EC2F221D17D.quest_desc: [
-		"An Ionite miner is where &aAethium Crystals&r come from and it's the last tier you feed from the Overworld. The two crystals after it only turn up in the End."
+		"&a以太水晶&r是主世界里的最后一级水晶，由艾恩尼采掘机产出。之后的两种水晶只会在末地出现。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Aethium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t6.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"以太虚空采掘机\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t6.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
 	quest.325C3EC2F221D17D.title: "&6以太虚空采掘机"
 	quest.325D35004FF683C2.quest_desc: [
@@ -4169,8 +4169,8 @@
 	quest.33F236BD2DA075C3.title: "&f咒灰"
 	quest.3404B0A29BF5A055.quest_desc: ["&2初级流体收集器&r无需桶或其他容器便能收集流体。很适合当做无限水源呢！"]
 	quest.3404B0A29BF5A055.title: "&a初级流体收集器"
-	quest.340973E53302C9BD.quest_desc: ["&aMica&r only shows up from a miner running the &3Resource Miner&r or &bRocky Resource Miner&r program in the Nether or the End. You'll need these for the higher-tier modifiers."]
-	quest.340973E53302C9BD.title: "&aMica"
+	quest.340973E53302C9BD.quest_desc: ["&a云母&r仅能通过在下界或末地运行&3资源采掘&r或&b岩石资源采掘&r程序的采掘机获得。制作更高级的升级件需要用到它。"]
+	quest.340973E53302C9BD.title: "&a云母"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"下一阶的凝胶叫&3虚空辉凝胶&r，它可以将钻石块转化为&3苍穹晶块&r。"
 		""
@@ -4300,18 +4300,18 @@
 	]
 	quest.355C3ACB16CC2DE9.title: "&6量子加速&d"
 	quest.356387D62FC4023D.quest_desc: [
-		"A miner with no program just sits there and reports &cNo Program&r."
+		"没有程序的采掘机不会工作，只会显示&c无程序&r。"
 		""
-		"Write a program onto a &aFlash Memory&r in the &2Memory Programmer&r, then slot it into the controller:"
+		"在&2内存编程器&r中把程序写入&a闪存&r，然后将闪存放入控制器："
 		""
-		"&3Ore Miner&r: Ores"
-		"&3Resource Miner&r: Stone, sand and other ground blocks"
-		"&3Botanic Miner&r: Plants"
-		"&3Crystal Miner&r: The crystals each new tier needs"
+		"&3矿物采掘&r：矿物"
+		"&3资源采掘&r：石头、沙子，以及其他的地下方块"
+		"&3植物采掘&r：植物"
+		"&3水晶采掘&r：升级采掘机所需的水晶"
 		""
-		"Narrower programs such as the Metallic Ore Miner cut the list down to one kind of drop. The &3Multi Miner&r digs everything at once, at 4,000 FE per tick."
+		"更细分的程序（例如金属矿物采掘）会将掉落物表缩减为单一类别。&3复合采掘&r程序则可以一次性挖掘所有资源，能耗为4000FE/tick。"
 	]
-	quest.356387D62FC4023D.title: "&aMemory Programmer"
+	quest.356387D62FC4023D.title: "&a内存编程器"
 	quest.3578757A7E8F3B37.quest_desc: [
 		"&d魔源中继器：分流型&r可以将魔源分散成多股，从而同时填充多个魔源罐！"
 		""
@@ -5785,13 +5785,13 @@
 	]
 	quest.47547FC5591CE0D3.title: "&f欢迎游玩&e实用拓展&f！"
 	quest.4761D2BF58BE9A49.quest_desc: [
-		"&aKyronite Crystals&r come from an Erodium miner on the Crystal Miner program."
+		"将艾洛蒂采掘机切换到水晶采掘程序，便可开采出&a凯罗尼水晶&r。"
 		""
-		"Tier 3 widens the plate to 9 by 9 and doubles the modifier slots to 8."
+		"三级采掘机将底板拓宽至9x9，升级槽翻倍至8个。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Kyronite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t3.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"凯罗尼虚空采掘机\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t3.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
-	quest.4761D2BF58BE9A49.title: "&aKyronite Void Miner"
+	quest.4761D2BF58BE9A49.title: "&a凯罗尼虚空采掘机"
 	quest.47733A3264ECC078.quest_desc: [
 		"虽然你可以使用&e传送带&r作为自动人行道，或者用&e弹射置物台&r把自己弹出去，但在基地各个区域之间移动，还有更高级的方法。那就是：&6超级管道&r！"
 		""
@@ -5816,11 +5816,11 @@
 	]
 	quest.479955FA73CB4C7D.title: "&b传送核心"
 	quest.47A332AAD04ECC1C.quest_desc: [
-		"The &aAssembler&r is the workbench for most of this mod's parts. Interconnects, FE Inputs and modifiers all need it."
+		"&a装配机&r是制作本模组大多数部件的工作台。连接器、能量输入口和升级件都需要用它来制作。"
 		""
-		"It runs on FE, about 100 FE per tick while it works, and each job takes 5 seconds."
+		"它运行时需要消耗FE，工作期间约100FE/tick，每个合成任务耗时5秒。"
 	]
-	quest.47A332AAD04ECC1C.title: "&aAssembler"
+	quest.47A332AAD04ECC1C.title: "&a装配机"
 	quest.47C817DA92CE31EA.quest_desc: [
 		"有了&e矿晶傀儡&r，它们能收获的可就远不止紫水晶了！"
 		""
@@ -5939,13 +5939,13 @@
 	]
 	quest.49835EC10C5AE8D8.title: "&6量子合成器"
 	quest.498650FA62056F6C.quest_desc: [
-		"&aIonite Crystals&r come from a Pladium miner."
+		"&a艾恩尼水晶&r由普雷蒂采掘机产出。"
 		""
-		"Tier 5 is also where the &2Bandwidth Modifier&r opens up."
+		"五级解锁&2频宽升级&r。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Ionite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t5.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"艾恩尼虚空采掘机\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t5.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
-	quest.498650FA62056F6C.title: "&aIonite Void Miner"
+	quest.498650FA62056F6C.title: "&a艾恩尼虚空采掘机"
 	quest.498A5C0A00F19E2E.quest_desc: ["最基础也是最便利的反应堆燃料就是&6铀燃料棒&r。无需多余处理步骤的代价是输出能量也较少，但作为起步的燃料棒还是很适合的。"]
 	quest.498A5C0A00F19E2E.title: "&6铀燃料棒"
 	quest.499819F644DAAB83.quest_desc: [
@@ -6151,11 +6151,11 @@
 	]
 	quest.4BA8E435EDA995AC.title: "&f虚空升级"
 	quest.4BB1E3FDF58EC964.quest_desc: [
-		"Most of a Void Miner's bottom plate is &aStructure Panels&r, and a tier 1 miner needs 18 of them."
+		"虚空采掘机底板的大部分由&a结构镶板&r构成。一级采掘机需要18个。"
 		""
-		"You can also use &2Clear Structure Panels&r if you'd rather see through the floor."
+		"也可以使用&2澄清结构镶板&r，如果你更希望底部是透明的话。"
 	]
-	quest.4BB1E3FDF58EC964.title: "&aStructure Panels"
+	quest.4BB1E3FDF58EC964.title: "&a结构镶板"
 	quest.4BB2E61FF925FE84.quest_desc: ["&d高级数据链（Advanced Data Link）&f可连接任意类型的方向定位设备，并通过红石信号将信息中继发送至相连的方块。"]
 	quest.4BCA8A5C3F80D375.title: "&a除名符石"
 	quest.4BDD9230BBA6C0A0.quest_desc: [
@@ -6225,15 +6225,15 @@
 	]
 	quest.4C8EDEEFBC40E44B.title: "&f符文树"
 	quest.4CE2F79E41D30ED1.quest_desc: [
-		"Swap a Null Modifier for a real one and the miner changes how it works:"
+		"把空白升级换成真正的升级件后，采掘机的工作方式会随之改变："
 		""
-		"&aFrequency Modifier&r: less time per drop."
+		"&a频率升级&r：减少每次产出间隔。"
 		""
-		"&2Amplification Modifier&r: makes the drops your lens favours even more likely."
+		"&2聚焦升级&r：提高透镜偏好的掉落物出现概率。"
 		""
-		"Modifiers in the same miner stack. Each one adds a little to the energy cost, and pushing a miner faster than its normal top speed doubles what it uses."
+		"同一台采掘机中的升级件效果可以叠加。每增加一个升级件，能量消耗都会略有上升；若将采掘机加速至超过正常的最高速度，能耗则会翻倍。"
 	]
-	quest.4CE2F79E41D30ED1.title: "&bModifiers"
+	quest.4CE2F79E41D30ED1.title: "&b升级件"
 	quest.4D05E74FE351708F.quest_desc: [
 		"&b神秘之力&r提供用于制作它的所有符石的效果："
 		""
@@ -6431,7 +6431,7 @@
 		"它也可以用于制作灵质触媒来加快灵质晶簇的生长。"
 	]
 	quest.4F2FBBD82764C565.quest_desc: [
-		"Some drops only appear when the bottom of the shaft is in the right biome."
+		"只有在采掘机竖井底部位于正确的生物群系时，某些掉落物才会出现。"
 		""
 		"A &aDimensional Modifier&r lifts those biome limits, so every drop the miner's dimension offers is on the table."
 	]
@@ -6700,13 +6700,13 @@
 	]
 	quest.5255D0210BAE4EC2.title: "强化玻璃罐"
 	quest.52693A39DAFA87FC.quest_desc: [
-		"Every tier up needs that tier's crystals, and the only place to get them is a Void Miner running the &3Crystal Miner&r program. Your Litherite miner can already dig up &aErodium Crystals&r."
+		"采掘机的每一级升级都需要该等级对应的水晶，而获取这些水晶的唯一途径，就是让虚空采掘机运行&3水晶采掘&r程序。比如现在，你的莱泽尔采掘机就可以挖掘&a艾洛蒂水晶&r。"
 		""
-		"An Erodium miner needs Erodium frames or better, 3 Laser Cores and 4 modifier slots. In return it can drop something every 320 ticks instead of 380."
+		"艾洛蒂采掘机需要艾洛蒂框架或更高级的结构框架，3个激光核心和4个升级槽。升级后，采掘机的产出间隔将由380tick提升至320tick。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Erodium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t2.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"艾洛蒂虚空采掘机\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t2.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
-	quest.52693A39DAFA87FC.title: "&aErodium Void Miner"
+	quest.52693A39DAFA87FC.title: "&a艾洛蒂虚空采掘机"
 	quest.5283000032BDFE0B.title: "&fMI流体管道"
 	quest.529BB6E3B5A93A91.quest_desc: [
 		"&7卫道士符石&r每30秒，你切换工具后的第一下攻击增加50%伤害。"
@@ -6878,15 +6878,15 @@
 	]
 	quest.54C31D0BAFA952D4.title: "&b无线合成"
 	quest.54C7973C00343D76.quest_desc: [
-		"Time to assemble the Miner. Place the &aLitherite Void Miner CCU&r facing down, and build the rest of the miner underneath it."
+		"该开始组装采掘机了。将&a莱泽尔虚空采掘机控制器&r面朝下放置，然后在它下方建造采掘机的其余部分。"
 		""
-		"Its screen have a &3Build&r button that places the frames, cores, lens holder and panels from your inventory, and shows where the modifier and IO slots need to be hand-placed."
+		"它的界面中有一个&3建造&r按钮，可以从你的背包中取出框架、激光核心、镜架和镶板并自动放置，同时显示需要手动放置升级槽与输入/输出接口槽的位置。"
 		""
-		"The laser needs a clear shaft straight down to the bottom of the world. Anything solid in the way and the miner reports &cBlocked&r."
+		"激光需要一条笔直向下的竖井，直通世界底部。如果路径上有任何固体方块阻挡，采掘机就会显示&c被阻挡&r。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Litherite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t1.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"莱泽尔虚空采掘机\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t1.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
-	quest.54C7973C00343D76.title: "&6Litherite Void Miner"
+	quest.54C7973C00343D76.title: "&6莱泽尔虚空采掘机"
 	quest.54D361B81A53A872.quest_desc: [
 		"大部分机器都需要依赖&2电容&r来工作。电容的等级直接影响了机器的工作速度和存储的能量。"
 		""
@@ -7244,11 +7244,11 @@
 	]
 	quest.596B99FA746FF18B.title: "&3机翼"
 	quest.59814B361E61A44A.quest_desc: [
-		"A tier 1 build is held together by 20 &aLitherite Structure Frames&r, plus one in each IO slot you don't use."
+		"一级采掘机结构需要20个&a莱泽尔结构框架&r。此外，每个未使用的输入/输出接口槽中也需要放入一个框架。"
 		""
-		"A frame also works in any miner below its own tier."
+		"框架也可以用于等级低于自身的采掘机中。"
 	]
-	quest.59814B361E61A44A.title: "&aLitherite Structure Frames"
+	quest.59814B361E61A44A.title: "&a莱泽尔结构框架"
 	quest.598652FE2E4839AC.quest_desc: [
 		"嫌弃真正的草地自然生成动物的速度太慢？"
 		""
@@ -7401,13 +7401,13 @@
 	]
 	quest.5BDBB419A8FA0D2D.title: "瓶装&d魔法&f"
 	quest.5BDCEBA756FE6D0C.quest_desc: [
-		"&dXerothium Crystals&r are End-only too, and they come from a Nanorite miner."
+		"&d泽洛斯水晶&r也仅出现于末地中，由纳诺莱采掘机产出。"
 		""
-		"The Xerothium Void Miner is the top tier: 221 blocks, 20 modifier slots, and as little as one tick per drop with enough Frequency."
+		"泽洛斯虚空采掘机是最高级的采掘机：共221个方块，20个升级槽，频率升级足够时每次产出可短至1tick。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Xerothium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t8.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"泽洛斯虚空采掘机\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t8.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
-	quest.5BDCEBA756FE6D0C.title: "&dXerothium Void Miner"
+	quest.5BDCEBA756FE6D0C.title: "&d泽洛斯虚空采掘机"
 	quest.5BE257CE3FD1FDAC.quest_desc: [
 		"有了&6觉醒龙锭&r，你就能升级你的聚合注入装置，并制作更高级的物品了。"
 		""
@@ -7474,11 +7474,11 @@
 	]
 	quest.5D0742E56290E42B.title: "&3我们正在驾驭这个"
 	quest.5D10D97F7D03277E.quest_desc: [
-		"&dNanorite Crystals&r only come from a Crystal Miner in the End, running on an Aethium miner or better."
+		"&d纳诺莱水晶&r仅出现于末地中，由运行水晶采掘的以太采掘机产出。"
 		""
-		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Nanorite Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t7.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
+		"[\"\", {\"text\": \"查看完整结构的三维展示图：\", \"color\": \"gray\", \"italic\": true}, {\"text\": \"纳诺莱虚空采掘机\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t7.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开GuideMe页面\"}}]"
 	]
-	quest.5D10D97F7D03277E.title: "&dNanorite Void Miner"
+	quest.5D10D97F7D03277E.title: "&d纳诺莱虚空采掘机"
 	quest.5D1C6D0639AC1E72.quest_desc: [
 		"朝着有麻烦的地方大致瞄一下就开火吧。"
 		""
@@ -8032,8 +8032,8 @@
 	quest.633C97755F5FAA38.quest_desc: ["想要进入末地，你首先得用&d虚空辉凝胶&f生产一些&a末地石&f。"]
 	quest.633FA983B63A65DD.quest_desc: ["给&d压力表管道模块&r安装&b模块扩展卡&r后可以精确控制其输出的&c红石强度&r。"]
 	quest.633FA983B63A65DD.title: "&f功能扩展！"
-	quest.637136BB6187D914.quest_desc: ["Normally each drop is a single item. A &aBandwidth Modifier&r turns each drop into a random stack instead, bigger the more bandwidth you stack, up to 64."]
-	quest.637136BB6187D914.title: "&aBandwidth Modifier"
+	quest.637136BB6187D914.quest_desc: ["采掘机通常每次采掘只产出一个物品。&a频宽升级&r则可以提高单次采掘个数，最高可达64个。"]
+	quest.637136BB6187D914.title: "&a频宽升级"
 	quest.63A28DBF66DBB1D2.quest_desc: [
 		"&aME请求器&r允许你设置物品存量，使其能够保持供应。"
 		""
