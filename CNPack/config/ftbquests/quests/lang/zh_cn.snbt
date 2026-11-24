@@ -2895,11 +2895,11 @@
 	quest.2465C83C97A189EA.quest_subtitle: "最好的伙伴"
 	quest.2465C83C97A189EA.title: "&f水晶魔法之道"
 	quest.246B3E9168DB9910.quest_desc: [
-		"By default, the miner picks its drops at random, but adding a lens in the &aLaser Lens Holder&r changes the odds."
+		"默认情况下，采掘机随机产出掉落物，但可以将透镜放入&a激光镜架&r中改变这一概率。"
 		""
-		"The &aLens Grinder&r turns a plain &2Lens&r into one of 16 coloured lenses. Each colour favours its own set of drops, usually making them about 8 times as likely. Right-click the Lens Holder with a lens to fit it, and with an empty hand to take it out."
+		"&a透镜磨制机&r可将普通&2透镜&r加工成16种彩色透镜之一。每种颜色都可以提高对应掉落物的产出概率，通常能提升至8倍。手持透镜右击激光镜架即可装入，空手右击则可取出。"
 		""
-		"Each tier also has a &2Crystal Lens&r, which favours that tier's crystal on the Crystal Miner program."
+		"每一级采掘机还有一种对应的&2水晶透镜&r，在水晶采掘程序下会提高产出该等级对应水晶的概率。"
 	]
 	quest.246B3E9168DB9910.title: "&a透镜"
 	quest.2485AE690A2FAB3E.quest_desc: [
@@ -3322,11 +3322,11 @@
 	quest.2A19E0AF462C1FD2.title: "&a钻石符石"
 	quest.2A1AE478A678C1A9.title: "&f能量接口"
 	quest.2A5C2C2FE8CC8297.quest_desc: [
-		"The laser runs down a column under the controller. In a tier 1 build that column holds 2 &aLaser Cores&r with a &2Laser Lens Holder&r between them."
+		"激光沿控制器垂直向下延伸。在一级结构中，该列包含2个&a激光核心&r，中间夹着1个&2激光镜架&r。"
 		""
-		"The Lens Holder also takes the lens that decides what the miner digs up."
+		"激光镜架则用于容纳透镜，决定采掘机挖掘的资源种类。"
 	]
-	quest.2A5C2C2FE8CC8297.title: "&aLaser Parts"
+	quest.2A5C2C2FE8CC8297.title: "&a激光部件"
 	quest.2A5C2E704DE70301.quest_desc: [
 		"将&c烈焰金工具&r丢入&c熔岩&r中即可进行修复；修复完成后，对应的熔岩会转化为黑曜石。"
 		""
@@ -3811,15 +3811,15 @@
 	quest.30053CAD8FABA638.title: "&f石头和泥土蜂巢"
 	quest.302868ED0A86B151.quest_desc: ["这块“稍微”更强劲的TNT只能用于爆炸配方，非常适合作为我们&6基岩杯&f的爆炸催化剂。"]
 	quest.30289DD68DB385D9.quest_desc: [
-		"The bottom plate has two kinds of special slot:"
+		"采掘机结构底部有两种特殊的槽位："
 		""
-		"&aModifier slots&r: every one needs a modifier or the miner won't form. A &aNull Modifier&r fills a slot until you have something better."
+		"&a升级槽&r：每个升级槽都必须放入一个升级件，否则采掘机无法成型。在获得更好的升级件之前，可以用&a空白升级&r来填充槽位。"
 		""
-		"&aIO slots&r: there's one in the middle of each edge. An &aFE Input&r in one powers the miner, and an &2Item Output&r in another pushes its drops into a chest next to it."
+		"&a输入/输出槽&r：每边的中部各有一个。在其中一个槽位里放入&a能量输入口&r即可为采掘机供能，在另一个槽位放入&2物品输出口&r则可将掉落物送入相邻的箱子中。"
 		""
-		"&eNote&r: A tier 1 FE Input only handles 1,024 FE per tick."
+		"&e注意&r：一级能量输入口每tick仅能处理1024FE。"
 	]
-	quest.30289DD68DB385D9.title: "&aIO and Modifier Slots"
+	quest.30289DD68DB385D9.title: "&a输入/输出接口与升级槽"
 	quest.302A4F4F2971CF8E.quest_desc: [
 		"&7地符石&r允许你通过空手右击泥土将其转化为草方块。"
 		""
@@ -4036,7 +4036,7 @@
 		""
 		"[\"\", {\"text\": \"See the full build in 3D: \", \"color\": \"gray\", \"italic\": true}, {\"text\": \"Aethium Void Miner\", \"color\": \"aqua\", \"underlined\": true, \"italic\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"docs:guideme,envirotech:guide,envirotech:void_miner_t6.md\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Open GuideMe Page\"}}]"
 	]
-	quest.325C3EC2F221D17D.title: "&6Aethium Void Miner"
+	quest.325C3EC2F221D17D.title: "&6以太虚空采掘机"
 	quest.325D35004FF683C2.quest_desc: [
 		"&6量子计算机&r是最强大的多方块自动合成器，如果存储条件允许的话，它一次可以执行巨量任务！"
 		""
